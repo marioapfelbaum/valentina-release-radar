@@ -1,0 +1,29 @@
+# Environment & Credentials
+.env
+
+# Cloudflare / Netlify
+.wrangler/
+.netlify/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+._*
+
+# Build output
+dist/
+
+# Logs
+*.log
+nohup.out
+
+# Checkpoints
+fetch_multi_checkpoint.json
+
+# Backups
+*.backup.json
+*.pre_enrich.json

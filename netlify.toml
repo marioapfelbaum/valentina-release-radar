@@ -1,0 +1,18 @@
+[build]
+  publish = "dist"
+
+[[redirects]]
+  from = "/"
+  to = "/release_radar.html"
+  status = 200
+
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=60"

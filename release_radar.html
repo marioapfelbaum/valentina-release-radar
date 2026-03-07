@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentina · Release Radar</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23e094aa'/%3E%3Cstop offset='100%25' stop-color='%23d4915e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='32' fill='url(%23g)'/%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%23fff' stroke-width='1.5' opacity='.4'/%3E%3Ccircle cx='32' cy='32' r='14' fill='none' stroke='%23fff' stroke-width='1.5' opacity='.6'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%23fff' opacity='.9'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='16' fill='%23fff' opacity='.95'%3EV%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body, #root { min-height: 100vh; }
+  body { font-family: 'Barlow', sans-serif; overflow-x: hidden; }
+  ::selection { background: rgba(212,145,94,0.4); color: #fff; }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+
+  @keyframes grain { 0%,100%{transform:translate(0,0)} 25%{transform:translate(-1px,1px)} 50%{transform:translate(1px,-1px)} 75%{transform:translate(-1px,-1px)} }
+  .r { -webkit-font-smoothing: none; text-rendering: geometricPrecision; }
+  .rw { -webkit-font-smoothing: none; text-rendering: geometricPrecision;
+    filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='d'%3E%3CfeTurbulence baseFrequency='0.04' numOctaves='2' type='fractalNoise'/%3E%3CfeDisplacementMap in='SourceGraphic' scale='1.8' xChannelSelector='R' yChannelSelector='G'/%3E%3C/filter%3E%3C/svg%3E#d"); }
+  .rb { -webkit-font-smoothing: none;
+    filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='b'%3E%3CfeTurbulence baseFrequency='0.05' numOctaves='3' type='fractalNoise'/%3E%3CfeDisplacementMap in='SourceGraphic' scale='3' xChannelSelector='R' yChannelSelector='G'/%3E%3C/filter%3E%3C/svg%3E#b"); }
+  .rg { animation: grain 0.4s steps(2) infinite; }
+
+  .row-hover:hover { background: rgba(255,255,255,0.08) !important; }
+  .link-icon:hover { color: #fff !important; }
+  .genre-pill { transition: all 0.15s; }
+  .genre-pill:hover { opacity: 0.8; }
+  .sort-link:hover { color: #fff !important; }
+  .copy-btn:hover { background: rgba(255,255,255,0.12) !important; color: #fff !important; }
+  input::placeholder { color: rgba(255,255,255,0.6) !important; }
+
+  /* Loading animation */
+  @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+  .loading-dot { animation: pulse 1.2s ease-in-out infinite; }
+  .loading-dot:nth-child(2) { animation-delay: 0.2s; }
+  .loading-dot:nth-child(3) { animation-delay: 0.4s; }
+
+  /* Live indicator pulse */
+  @keyframes livePulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.4;transform:scale(0.8)} }
+  .live-dot { animation: livePulse 2s ease-in-out infinite; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+const { useState, useEffect, useCallback, useRef, useMemo, useLayoutEffect } = React;
+
+// --- MOBILE DETECTION ---
+function useIsMobile(breakpoint = 640) {
+  const [mobile, setMobile] = useState(window.innerWidth < breakpoint);
+  useEffect(() => {
+    const handler = () => setMobile(window.innerWidth < breakpoint);
+    window.addEventListener("resize", handler);
+    return () => window.removeEventListener("resize", handler);
+  }, [breakpoint]);
+  return mobile;
+}
+
+// --- PALETTE ---
+const C = {
+  bg:"#d8809a", bgDeep:"#c46e88", bgLight:"#e094aa",
+  orange:"#d4915e", mauve:"#8a7a9e", olive:"#7a8a5c",
+  white:"#fff", hi:"rgba(255,255,255,0.95)", mid:"rgba(255,255,255,0.8)",
+  soft:"rgba(255,255,255,0.55)", ghost:"rgba(255,255,255,0.3)",
+  heard:"rgba(255,255,255,0.2)", reissue:"#e8a96a",
+};
+const F = "'Barlow Condensed','Arial Narrow',sans-serif";
+const GC = {"All":"#fff","Minimal House":"#d4915e","Microhouse":"#8a7a9e","Rominimal":"#7a8a5c","Dub Techno":"#9a7a8a","Deep House":"#c46e88","Techno":"#b0607a","Ambient":"#8aaa7c","Electro":"#aa8a5e","Acid":"#c4a060","House":"#d4915e"};
+
+// --- MOCK DATA (used if releases.json not found) ---
+const MOCK = [
+  {id:"1",title:"Nebula Transit",artist:"Leafar Legov",album:"Negative Space EP",label:"Giegling",duration:"7:42",date:"2026-02-10",re:false,genre:"Minimal House",source:"Discogs",format:"EP"},
+  {id:"2",title:"Dust Settles",artist:"Binh",album:"Dust Settles",label:"Perlon",duration:"8:15",date:"2026-02-08",re:false,genre:"Microhouse",source:"Discogs",format:"Single"},
+  {id:"3",title:"Desolé",artist:"Sonja Moonear",album:"Desert Quarters Remixed",label:"Ruta 5",duration:"6:58",date:"2026-02-07",re:true,genre:"Minimal House",source:"MusicBrainz",format:"EP"},
+  {id:"4",title:"Pattern 13 (2026 Remaster)",artist:"Roman Flügel",album:"Tracks On Delivery Vol. 4",label:"Ongaku Musik",duration:"9:03",date:"2026-02-06",re:true,genre:"Microhouse",source:"Discogs",format:"LP"},
+  {id:"5",title:"Formanta",artist:"Rhadoo",album:"Formanta EP",label:"[a:rpia:r]",duration:"10:22",date:"2026-02-05",re:false,genre:"Rominimal",source:"Discogs",format:"EP"},
+  {id:"6",title:"Blue Channel",artist:"Vril",album:"Anima Mundi",label:"Delsin",duration:"6:11",date:"2026-02-04",re:false,genre:"Dub Techno",source:"MusicBrainz",format:"LP"},
+  {id:"7",title:"Nocturne III",artist:"Vlad Caia",album:"Nocturne III",label:"Amphia",duration:"8:44",date:"2026-02-03",re:false,genre:"Rominimal",source:"Discogs",format:"Single"},
+  {id:"8",title:"Zephyr",artist:"Priku",album:"Zephyr EP",label:"Metereze",duration:"7:30",date:"2026-02-02",re:false,genre:"Rominimal",source:"Discogs",format:"EP"},
+  {id:"9",title:"No Day (2026 Repress)",artist:"Baby Ford",album:"No Day",label:"Perlon",duration:"7:18",date:"2026-02-01",re:true,genre:"Minimal House",source:"Discogs",format:"Single"},
+  {id:"10",title:"Theorem",artist:"Nicolas Lutz",album:"My Own Jupiter 012",label:"My Own Jupiter",duration:"8:55",date:"2026-01-30",re:false,genre:"Minimal House",source:"MusicBrainz",format:"EP"},
+  {id:"11",title:"Acid Garden",artist:"Margaret Dygas",album:"Acid Garden EP",label:"Perlon",duration:"6:45",date:"2026-01-28",re:false,genre:"Microhouse",source:"Discogs",format:"EP"},
+  {id:"12",title:"Fata Morgana",artist:"Barac",album:"Hergang 009",label:"Hergang",duration:"9:12",date:"2026-01-25",re:false,genre:"Rominimal",source:"Discogs",format:"EP"},
+  {id:"13",title:"Depth Charge",artist:"Traumprinz",album:"Depth Charge",label:"Giegling",duration:"11:30",date:"2026-01-22",re:false,genre:"Deep House",source:"MusicBrainz",format:"LP"},
+  {id:"14",title:"Mist",artist:"Edward",album:"Shtum 018",label:"Shtum",duration:"7:02",date:"2026-01-20",re:false,genre:"Minimal House",source:"Discogs",format:"Single"},
+  {id:"15",title:"Sunwave 26",artist:"Zip",album:"Sunwave 26",label:"Perlon",duration:"8:33",date:"2026-01-18",re:false,genre:"Microhouse",source:"Discogs",format:"EP"},
+];
+
+// --- STORAGE (localStorage for standalone HTML) ---
+const store = {
+  get: (k) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : null; } catch { return null; } },
+  set: (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+
+// --- COPY BUTTON ---
+function Cp({text, label}) {
+  const [ok, set] = useState(false);
+  return (
+    <button className="copy-btn" onClick={e => { e.stopPropagation(); navigator.clipboard.writeText(text); set(true); setTimeout(() => set(false), 1200); }}
+      style={{background:ok?"rgba(255,255,255,0.2)":"rgba(255,255,255,0.06)",border:"none",padding:"4px 10px",cursor:"pointer",
+      display:"inline-flex",alignItems:"center",gap:"5px",fontSize:"24px",fontFamily:F,fontWeight:700,
+      color:ok?"#fff":C.soft,letterSpacing:"0.06em",textTransform:"uppercase",transition:"all 0.15s"}}>
+      {ok ? <>✓ OK</> : <>⎘ {label}</>}
+    </button>
+  );
+}
+
+// --- LINK PANEL (with availability check via proxy) ---
+const LINK_PROXY = "http://localhost:8081";
+const ALL_SHOPS = [
+  {name:"Bandcamp",urlFn:(q,t)=>`https://bandcamp.com/search?q=${q}`,color:"rgba(99,210,218,0.85)",group:"buy"},
+  {name:"Beatport",urlFn:(q,t)=>`https://www.beatport.com/search?q=${encodeURIComponent(t.artist+' '+t.title)}`,color:"rgba(148,232,116,0.85)",group:"buy"},
+  {name:"Juno",urlFn:(q,t)=>`https://www.juno.co.uk/search/?q%5Ball%5D%5B%5D=${q}`,color:"rgba(255,200,80,0.85)",group:"buy"},
+  {name:"Discogs MP",urlFn:(q,t)=>`https://www.discogs.com/search/?q=${q}&type=release`,color:"rgba(255,180,60,0.85)",group:"buy"},
+  {name:"Deejay.de",urlFn:(q,t)=>`https://www.deejay.de/search?q=${q}`,color:"rgba(200,160,255,0.85)",group:"buy"},
+  {name:"Spotify",urlFn:(q,t)=>`https://open.spotify.com/search/${encodeURIComponent(t.artist+' '+t.title)}`,color:"rgba(30,215,96,0.8)",group:"listen"},
+  {name:"SoundCloud",urlFn:(q,t)=>`https://soundcloud.com/search?q=${q}`,color:"rgba(255,136,0,0.8)",group:"listen"},
+  {name:"YouTube",urlFn:(q,t)=>`https://www.youtube.com/results?search_query=${q}`,color:"rgba(255,80,80,0.8)",group:"listen"},
+];
+
+// Cache checked results globally so we don't re-check
+const _linkCache = {};
+
+function LinkPanel({t, q, mobile}) {
+  const [status, setStatus] = useState({}); // {name: true|false|"checking"}
+  const [proxyOk, setProxyOk] = useState(null); // null=unknown, true/false
+  const cacheKey = `${t.artist}|${t.title}`;
+
+  useEffect(() => {
+    // If cached, use immediately
+    if (_linkCache[cacheKey]) {
+      setStatus(_linkCache[cacheKey]);
+      return;
+    }
+
+    let cancelled = false;
+
+    (async () => {
+      // Build URLs for all shops
+      const shops = ALL_SHOPS.map(s => ({...s, url: s.urlFn(q, t)}));
+
+      // Try batch endpoint first
+      const init = {};
+      shops.forEach(s => { init[s.name] = "checking"; });
+      setStatus(init);
+
+      try {
+        const batchUrl = `${LINK_PROXY}/batch?` + shops.map(s => `urls=${encodeURIComponent(s.url)}`).join("&");
+        const res = await fetch(batchUrl, {signal: AbortSignal.timeout(15000)});
+        if (!res.ok) throw new Error("proxy error");
+        const data = await res.json();
+        if (cancelled) return;
+        setProxyOk(true);
+
+        const result = {};
+        shops.forEach(s => {
+          result[s.name] = data[s.url] === true;
+        });
+        _linkCache[cacheKey] = result;
+        setStatus(result);
+      } catch {
+        // Proxy not available — show all links as fallback
+        if (cancelled) return;
+        setProxyOk(false);
+        const fallback = {};
+        shops.forEach(s => { fallback[s.name] = true; });
+        _linkCache[cacheKey] = fallback;
+        setStatus(fallback);
+      }
+    })();
+
+    return () => { cancelled = true; };
+  }, [cacheKey, q, t]);
+
+  const shops = ALL_SHOPS.map(s => ({...s, url: s.urlFn(q, t)}));
+  const checking = Object.values(status).some(v => v === "checking");
+  const buyLinks = shops.filter(s => s.group === "buy" && status[s.name] === true);
+  const listenLinks = shops.filter(s => s.group === "listen" && status[s.name] === true);
+
+  const SC = {"discogs":"rgba(255,180,60,0.7)","beatport":"rgba(148,232,116,0.85)","bandcamp":"rgba(99,210,218,0.85)","spotify":"rgba(30,215,96,0.8)","musicbrainz":"rgba(120,180,120,0.7)"};
+  const srcKey = (t.source||"").toLowerCase();
+  const srcColor = SC[srcKey] || "rgba(255,255,255,0.4)";
+  const fmtLabel = t.format === "LP" ? "LP" : t.format === "EP" ? "EP" : t.format === "Single" ? "SGL" : "";
+
+  const lkSz = mobile ? "13px" : "16px";
+  const lkPad = mobile ? "3px 7px" : "4px 10px";
+  const linkStyle = s => ({fontFamily:F,fontWeight:700,fontSize:lkSz,color:s.color,textDecoration:"none",
+    padding:lkPad,background:"rgba(0,0,0,0.2)",transition:"all 0.12s",letterSpacing:"0.04em",textTransform:"uppercase"});
+
+  return (
+    <div style={{padding:mobile?"6px 0 10px 26px":"8px 0 14px 124px",display:"flex",flexWrap:"wrap",gap:mobile?"6px":"10px",alignItems:"center"}} onClick={e=>e.stopPropagation()}>
+      {t.source_url && (
+        <a className="link-icon" href={t.source_url} target="_blank" rel="noopener noreferrer"
+          style={{fontFamily:F,fontWeight:700,fontSize:"16px",color:srcColor,textDecoration:"none",
+            padding:"4px 10px",background:"rgba(0,0,0,0.3)",transition:"all 0.12s",letterSpacing:"0.04em",textTransform:"uppercase"}}>
+          {(t.source||"SOURCE").toUpperCase()}
+        </a>
+      )}
+      <span className="r" style={{fontFamily:F,fontWeight:700,fontSize:"16px",color:C.soft,letterSpacing:"0.08em",textTransform:"uppercase",marginRight:"4px"}}>
+        BUY / LISTEN:
+      </span>
+
+      {checking && (
+        <span className="r" style={{fontFamily:F,fontWeight:600,fontSize:"15px",color:C.ghost,letterSpacing:"0.06em",textTransform:"uppercase"}}>
+          <span className="loading-dot">·</span><span className="loading-dot"> ·</span><span className="loading-dot"> ·</span> CHECKING...
+        </span>
+      )}
+
+      {!checking && buyLinks.length === 0 && listenLinks.length === 0 && (
+        <span className="r" style={{fontFamily:F,fontWeight:600,fontSize:"15px",color:C.ghost,letterSpacing:"0.06em",textTransform:"uppercase"}}>
+          Keine Shops gefunden
+        </span>
+      )}
+
+      {!checking && buyLinks.map(s => (
+        <a key={s.name} className="link-icon" href={s.url} target="_blank" rel="noopener noreferrer" style={linkStyle(s)}>
+          {s.name}
+        </a>
+      ))}
+
+      {!checking && buyLinks.length > 0 && listenLinks.length > 0 && (
+        <span style={{color:"rgba(255,255,255,0.15)",margin:"0 2px"}}>|</span>
+      )}
+
+      {!checking && listenLinks.map(s => (
+        <a key={s.name} className="link-icon" href={s.url} target="_blank" rel="noopener noreferrer" style={linkStyle(s)}>
+          {s.name}
+        </a>
+      ))}
+
+      {!checking && t.label && (
+        <>
+          <span style={{color:"rgba(255,255,255,0.15)",margin:"0 2px"}}>|</span>
+          <a className="link-icon" href={`https://www.google.com/search?q=${encodeURIComponent(t.label+' record label shop buy')}`} target="_blank" rel="noopener noreferrer"
+            style={{fontFamily:F,fontWeight:700,fontSize:"16px",color:"rgba(255,255,255,0.5)",textDecoration:"none",
+              padding:"4px 10px",background:"rgba(0,0,0,0.2)",transition:"all 0.12s",letterSpacing:"0.04em",textTransform:"uppercase"}}>
+            {t.label} Shop
+          </a>
+        </>
+      )}
+
+      {!checking && proxyOk === false && (
+        <span className="r" style={{fontFamily:F,fontWeight:500,fontSize:"13px",color:"rgba(255,255,255,0.25)",marginLeft:"4px"}}>
+          (proxy offline — alle Links angezeigt)
+        </span>
+      )}
+
+      {/* SOURCE + FORMAT — moved here from main row */}
+      <span style={{marginLeft:"auto",display:"flex",gap:"8px",alignItems:"center"}}>
+        <span className="r" style={{fontFamily:F,fontWeight:600,fontSize:"14px",color:srcColor,letterSpacing:"0.06em",textTransform:"uppercase"}}
+          title={`Quelle: ${t.source || "?"}`}>
+          {(t.source||"—").toUpperCase()}
+        </span>
+        {fmtLabel && <span className="r" style={{fontFamily:F,fontWeight:700,fontSize:"14px",color:"rgba(255,255,255,0.4)",letterSpacing:"0.04em"}}>{fmtLabel}</span>}
+        {t.date && <span className="r" style={{fontFamily:F,fontWeight:500,fontSize:"14px",color:C.ghost,letterSpacing:"0.04em"}}>{t.date}</span>}
+      </span>
+    </div>
+  );
+}
+
+// --- ROW ---
+function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, toggleExpand, mobile}) {
+  const [h, setH] = useState(false);
+  const [copiedField, setCopiedField] = useState(null); // "title"|"artist"|null
+  const q = encodeURIComponent(`${t.artist} ${t.title}`);
+  const d = new Date(t.date);
+  const isNew = Math.floor((new Date() - d) / 864e5) <= 7;
+  const genreColor = GC[t.genre] || "rgba(255,255,255,0.5)";
+
+  const copyText = (text, field, e) => {
+    e.stopPropagation();
+    navigator.clipboard.writeText(text);
+    setCopiedField(field);
+    setTimeout(() => setCopiedField(null), 800);
+  };
+
+  // ─── MOBILE LAYOUT ───
+  if (mobile) {
+    return (
+      <div style={{borderBottom:"1px solid rgba(255,255,255,0.08)",opacity:heard?0.3:hidden?0.15:1,transition:"opacity 0.12s"}}>
+        <div style={{padding:"8px 0"}}>
+          {/* LINE 1: date + title + genre pill */}
+          <div style={{display:"flex",alignItems:"center",gap:"6px"}}>
+            <div onClick={e => {e.stopPropagation(); toggleExpand(t.id)}}
+              style={{width:"20px",height:"20px",display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",flexShrink:0,
+                color:expanded?C.orange:C.ghost,transition:"all 0.15s",transform:expanded?"rotate(90deg)":"rotate(0deg)",fontSize:"18px"}}>
+              ›
+            </div>
+            {isNew && !heard && <span style={{background:C.orange,color:"#fff",fontSize:"10px",fontWeight:800,padding:"1px 4px",fontFamily:F,letterSpacing:"0.08em",flexShrink:0}}>NEW</span>}
+            <span className="r" style={{fontFamily:F,fontWeight:500,fontSize:"13px",color:"rgba(255,255,255,0.5)",flexShrink:0}}>
+              {d.getDate().toString().padStart(2,'0')}.{(d.getMonth()+1).toString().padStart(2,'0')}.
+            </span>
+            <span className="r" onClick={e => copyText(t.title, "title", e)}
+              style={{fontFamily:F,fontWeight:600,fontSize:"17px",color:copiedField==="title"?"#fff":heard?C.heard:C.hi,textTransform:"uppercase",
+                letterSpacing:"0.01em",flex:1,minWidth:0,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",
+                textDecoration:heard?"line-through":"none",cursor:"pointer"}}>
+              {copiedField==="title" ? "COPIED ✓" : t.title}
+            </span>
+            <span className="r" style={{fontFamily:F,fontWeight:700,fontSize:"12px",color:genreColor,textTransform:"uppercase",
+              letterSpacing:"0.02em",flexShrink:0,maxWidth:"90px",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
+              {t.genre || ""}
+            </span>
+          </div>
+          {/* LINE 2: artist — label + actions */}
+          <div style={{display:"flex",alignItems:"center",gap:"4px",marginTop:"2px",paddingLeft:"26px"}}>
+            <span className="rw" onClick={e => copyText(t.artist, "artist", e)}
+              style={{fontFamily:F,fontWeight:800,fontSize:"15px",color:copiedField==="artist"?"#fff":heard?C.heard:C.white,textTransform:"uppercase",
+                letterSpacing:"0.02em",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",cursor:"pointer",
+                textShadow:heard?"none":"1px 1px 0 rgba(180,80,110,0.2)"}}>
+              {copiedField==="artist" ? "COPIED ✓" : t.artist}
+            </span>
+            {t.label && <span className="r" style={{fontFamily:F,fontWeight:500,fontSize:"13px",color:C.soft,flexShrink:0,maxWidth:"120px",
+              overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>— {t.label}</span>}
+            <span style={{flex:1}}/>
+            <div style={{display:"flex",gap:"2px",alignItems:"center",flexShrink:0}} onClick={e=>e.stopPropagation()}>
+              <button className="copy-btn" onClick={() => toggleFav(t.id)}
+                style={{background:"transparent",border:"none",padding:"2px 4px",cursor:"pointer",fontSize:"16px",color:fav?C.orange:C.ghost}}>
+                {fav ? "★" : "☆"}
+              </button>
+              <button className="copy-btn" onClick={() => toggle(t.id)}
+                style={{background:"transparent",border:"none",padding:"2px 4px",cursor:"pointer",fontSize:"14px",fontFamily:F,fontWeight:700,
+                  color:heard?"rgba(130,255,130,0.7)":C.ghost}}>{heard ? "✓" : "○"}</button>
+              <a className="link-icon" href={`https://www.youtube.com/results?search_query=${q}`} target="_blank" rel="noopener noreferrer"
+                style={{color:C.soft,display:"flex",textDecoration:"none",padding:"2px"}}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.5 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        {expanded && <LinkPanel t={t} q={q} mobile={true}/>}
+      </div>
+    );
+  }
+
+  // ─── DESKTOP LAYOUT (original) ───
+  return (
+    <div style={{borderBottom:"1px solid rgba(255,255,255,0.08)",opacity:heard?0.3:hidden?0.15:1,transition:"opacity 0.12s"}}>
+      <div className="row-hover" onMouseEnter={() => setH(true)} onMouseLeave={() => setH(false)}
+        style={{display:"flex",alignItems:"center",padding:"10px 0",cursor:"pointer"}}>
+
+        {/* LEFT ZONE — NEW badge + date + expand chevron */}
+        <div style={{width:"120px",flexShrink:0,display:"flex",alignItems:"center",gap:"4px"}}>
+          <div style={{width:"40px",textAlign:"center",flexShrink:0}}>
+            {isNew && !heard && <span style={{background:C.orange,color:"#fff",fontSize:"15px",fontWeight:800,padding:"2px 6px",fontFamily:F,letterSpacing:"0.1em"}}>NEW</span>}
+          </div>
+          <span className="r" style={{fontFamily:F,fontWeight:500,fontSize:"18px",color:"rgba(255,255,255,0.6)",width:"50px",textAlign:"center",flexShrink:0}}>
+            {d.getDate().toString().padStart(2,'0')}.{(d.getMonth()+1).toString().padStart(2,'0')}.
+          </span>
+          <div onClick={e => {e.stopPropagation(); toggleExpand(t.id)}}
+            style={{width:"26px",height:"26px",display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",
+              color:expanded?C.orange:C.ghost,transition:"all 0.15s",transform:expanded?"rotate(90deg)":"rotate(0deg)",fontSize:"24px",flexShrink:0}}>
+            ›
+          </div>
+        </div>
+
+        {/* ACTIONS + YT — fav, hide, youtube at front */}
+        <div style={{display:"flex",gap:"4px",flexShrink:0,alignItems:"center",width:"100px"}} onClick={e=>e.stopPropagation()}>
+          <button className="copy-btn" onClick={() => toggleFav(t.id)} title={fav?"Aus Favoriten entfernen":"Favorit"}
+            style={{background:fav?"rgba(212,145,94,0.3)":"transparent",border:"none",padding:"3px 6px",cursor:"pointer",
+              fontSize:"20px",color:fav?C.orange:C.ghost,transition:"all 0.15s"}}>
+            {fav ? "★" : "☆"}
+          </button>
+          <button className="copy-btn" onClick={() => toggleHide(t.id)} title={hidden?"Wieder anzeigen":"Ausblenden"}
+            style={{background:hidden?"rgba(255,100,100,0.2)":"transparent",border:"none",padding:"3px 6px",cursor:"pointer",
+              fontSize:"20px",fontFamily:F,fontWeight:700,color:hidden?"rgba(255,130,130,0.7)":C.ghost,transition:"all 0.15s"}}>
+            {hidden ? "◉" : "⊘"}
+          </button>
+          <a className="link-icon" href={`https://www.youtube.com/results?search_query=${q}`} target="_blank" rel="noopener noreferrer"
+            title="YouTube" style={{color:C.soft,display:"flex",textDecoration:"none",transition:"color 0.1s"}}>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.5 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+          </a>
+        </div>
+
+        {/* MAIN CONTENT: TITLE | ARTIST | LABEL | GENRE */}
+        <div onClick={() => toggle(t.id)} style={{display:"flex",alignItems:"center",flex:1,minWidth:0}}>
+
+          {/* TITLE — click to copy */}
+          <span className="r" onClick={e => copyText(t.title, "title", e)} title="Klick = Titel kopieren"
+            style={{
+            fontFamily:F,fontWeight:600,fontSize:"24px",color:copiedField==="title"?"#fff":heard?C.heard:C.hi,textTransform:"uppercase",
+            letterSpacing:"0.02em",flex:"1.3",minWidth:0,
+            overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",
+            textDecoration:heard?"line-through":"none",textDecorationColor:"rgba(255,255,255,0.12)",
+            paddingRight:"12px",cursor:"pointer",transition:"color 0.15s",
+          }}>{copiedField==="title" ? "COPIED ✓" : t.title}</span>
+
+          {/* ARTIST — click to copy */}
+          <span className="rw" onClick={e => copyText(t.artist, "artist", e)} title="Klick = Artist kopieren"
+            style={{
+            fontFamily:F,fontWeight:800,fontSize:"24px",color:copiedField==="artist"?"#fff":heard?C.heard:C.white,textTransform:"uppercase",
+            letterSpacing:"0.03em",flex:"2",minWidth:0,
+            overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",
+            textShadow:heard?"none":"1px 1px 0 rgba(180,80,110,0.2)",
+            paddingRight:"12px",cursor:"pointer",transition:"color 0.15s",
+          }}>{copiedField==="artist" ? "COPIED ✓" : t.artist}</span>
+
+          {/* LABEL */}
+          <span className="r" style={{fontFamily:F,fontWeight:600,fontSize:"21px",color:C.mid,textTransform:"uppercase",letterSpacing:"0.04em",flexShrink:0,width:"140px",textAlign:"right",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{t.label}</span>
+
+          {/* GENRE — big, right-aligned near HEARD stats */}
+          <span className="r" style={{fontFamily:F,fontWeight:700,fontSize:"32px",color:genreColor,textTransform:"uppercase",letterSpacing:"0.03em",flexShrink:0,width:"180px",textAlign:"right",marginLeft:"10px",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{t.genre || "—"}</span>
+        </div>
+      </div>
+
+      {/* EXPANDED PANEL — buy links + source info */}
+      {expanded && <LinkPanel t={t} q={q}/>}
+    </div>
+  );
+}
+
+// --- MAIN APP ---
+function App() {
+  const mobile = useIsMobile();
+  const [releases, setReleases] = useState([]);
+  const [heardIds, setHeardIds] = useState(new Set());
+  const [favIds, setFavIds] = useState(new Set());
+  const [hiddenIds, setHiddenIds] = useState(new Set());
+  const [expandedIds, setExpandedIds] = useState(new Set());
+  const DEFAULT_MY_GENRES = ["Minimal House","Microhouse","Minimal Techno","House","Deep House","Rominimal","Minimal Tech House","Dub Techno"];
+  const [myGenres, setMyGenres] = useState(() => {
+    try { const s = store.get("v-my-genres"); return s && s.length ? s : DEFAULT_MY_GENRES; }
+    catch { return DEFAULT_MY_GENRES; }
+  });
+  const [genre, setGenre] = useState("MyGenres");
+  const [sourceFilter, setSourceFilter] = useState("All");
+  const [search, setSearch] = useState("");
+  const [sort, setSort] = useState("date");
+  const [showHeard, setShowHeard] = useState(true);
+  const [showHidden, setShowHidden] = useState(false);
+  const [showFavsOnly, setShowFavsOnly] = useState(false);
+  const [showGenres, setShowGenres] = useState(false);
+  const [showMyGenresEdit, setShowMyGenresEdit] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [dataSource, setDataSource] = useState("mock");
+  const [allGenres, setAllGenres] = useState(["All"]);
+  const [allSources, setAllSources] = useState(["All"]);
+  const relRef = useRef(releases);
+  relRef.current = releases;
+
+  // Fetch releases.json helper (with cache-buster)
+  const fetchReleases = useCallback(async () => {
+    try {
+      const res = await fetch(`./releases.json?t=${Date.now()}`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data && data.length > 0) return data;
+      }
+    } catch {}
+    return null;
+  }, []);
+
+  // Check if data actually changed (length + first ID)
+  const dataChanged = useCallback((newData) => {
+    const cur = relRef.current;
+    if (newData.length !== cur.length) return true;
+    if (newData.length > 0 && cur.length > 0 && newData[0].id !== cur[0].id) return true;
+    return false;
+  }, []);
+
+  // Initial load
+  useEffect(() => {
+    (async () => {
+      const saved = store.get("v-heard-radar");
+      if (saved) setHeardIds(new Set(saved));
+      const savedFav = store.get("v-fav-radar");
+      if (savedFav) setFavIds(new Set(savedFav));
+      const savedHid = store.get("v-hidden-radar");
+      if (savedHid) setHiddenIds(new Set(savedHid));
+
+      const data = await fetchReleases();
+      if (data) {
+        setReleases(data);
+        setDataSource("live");
+        const genres = [...new Set(data.map(r => r.genre).filter(Boolean))].sort();
+        setAllGenres(["All", ...genres]);
+        const sources = [...new Set(data.map(r => (r.source||"discogs")).filter(Boolean))].sort();
+        setAllSources(["All", ...sources]);
+      } else {
+        setReleases(MOCK);
+        setAllGenres(["All","Minimal House","Microhouse","Rominimal","Dub Techno","Deep House"]);
+        setDataSource("mock");
+      }
+      setLoading(false);
+    })();
+  }, [fetchReleases]);
+
+  // Polling: refresh every 30s
+  useEffect(() => {
+    const iv = setInterval(async () => {
+      const data = await fetchReleases();
+      if (data && dataChanged(data)) {
+        setReleases(data);
+        setDataSource("live");
+        const genres = [...new Set(data.map(r => r.genre).filter(Boolean))].sort();
+        setAllGenres(["All", ...genres]);
+        const sources = [...new Set(data.map(r => (r.source||"discogs")).filter(Boolean))].sort();
+        setAllSources(["All", ...sources]);
+      }
+    }, 30000);
+    return () => clearInterval(iv);
+  }, [fetchReleases, dataChanged]);
+
+  const save = useCallback(ids => { store.set("v-heard-radar", [...ids]); }, []);
+  const toggle = useCallback(id => {
+    setHeardIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); save(n); return n; });
+  }, [save]);
+  const saveFav = useCallback(ids => { store.set("v-fav-radar", [...ids]); }, []);
+  const toggleFav = useCallback(id => {
+    setFavIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); saveFav(n); return n; });
+  }, [saveFav]);
+  const saveHid = useCallback(ids => { store.set("v-hidden-radar", [...ids]); }, []);
+  const toggleHide = useCallback(id => {
+    setHiddenIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); saveHid(n); return n; });
+  }, [saveHid]);
+  const toggleExpand = useCallback(id => {
+    setExpandedIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); return n; });
+  }, []);
+
+  const myGenresSet = useMemo(() => new Set(myGenres.map(g => g.toLowerCase())), [myGenres]);
+  const filtered = releases
+    .filter(r => genre === "All" ? true : genre === "MyGenres" ? myGenresSet.has((r.genre||"").toLowerCase()) : r.genre === genre)
+    .filter(r => sourceFilter === "All" ? true : (r.source||"discogs").toLowerCase() === sourceFilter.toLowerCase())
+    .filter(r => { if (!search) return true; const q = search.toLowerCase(); return r.title.toLowerCase().includes(q) || r.artist.toLowerCase().includes(q) || r.label.toLowerCase().includes(q); })
+    .filter(r => showHeard || !heardIds.has(r.id))
+    .filter(r => showHidden || !hiddenIds.has(r.id))
+    .filter(r => showFavsOnly ? favIds.has(r.id) : !favIds.has(r.id))
+    .sort((a, b) => sort === "date" ? new Date(b.date) - new Date(a.date) : sort === "artist" ? a.artist.localeCompare(b.artist) : a.label.localeCompare(b.label));
+
+  const heardCount = releases.filter(r => heardIds.has(r.id)).length;
+  const favCount = favIds.size;
+  const pct = releases.length > 0 ? Math.round(heardCount / releases.length * 100) : 0;
+
+  return (
+    <div style={{
+      background:`linear-gradient(155deg,${C.bgDeep} 0%,${C.bg} 30%,${C.bgLight} 50%,${C.orange}88 70%,${C.bg} 85%,${C.mauve}88 100%)`,
+      color:C.white, minHeight:"100vh", position:"relative",
+    }}>
+
+      {/* PAINTED BG */}
+      <div style={{position:"fixed",inset:0,pointerEvents:"none",zIndex:0,overflow:"hidden"}}>
+        <div style={{position:"absolute",inset:0,background:`radial-gradient(ellipse 120% 80% at 30% 20%,#d87098 0%,transparent 60%),radial-gradient(ellipse 100% 120% at 70% 80%,#c0607a 0%,transparent 55%)`}}/>
+        <div style={{position:"absolute",width:"110vw",height:"45vh",top:"-8%",right:"-30%",background:`linear-gradient(110deg,transparent 5%,${C.orange}dd 20%,${C.orange}bb 45%,${C.orange}66 65%,transparent 80%)`,filter:"blur(18px)",transform:"rotate(-18deg) skewX(-5deg)"}}/>
+        <div style={{position:"absolute",width:"60vw",height:"35vh",top:"8%",left:"15%",background:`linear-gradient(85deg,transparent 10%,${C.orange}99 30%,${C.orange}55 60%,transparent 85%)`,filter:"blur(25px)",transform:"rotate(-8deg)"}}/>
+        <div style={{position:"absolute",width:"65vw",height:"55vh",top:"25%",left:"-5%",background:`radial-gradient(ellipse 70% 90% at 45% 50%,${C.mauve}cc 0%,${C.mauve}44 55%,transparent 75%)`,filter:"blur(15px)",transform:"rotate(5deg)",borderRadius:"30% 60% 40% 50%/50% 30% 60% 40%"}}/>
+        <div style={{position:"absolute",width:"40vw",height:"30vh",top:"15%",left:"10%",background:`radial-gradient(ellipse 80% 60%,${C.olive}bb 0%,${C.olive}55 40%,transparent 70%)`,filter:"blur(12px)",borderRadius:"55% 45% 50% 50%/45% 55% 45% 55%",transform:"rotate(-12deg)"}}/>
+        <div style={{position:"absolute",width:"130vw",height:"20vh",top:"50%",left:"-15%",background:"linear-gradient(92deg,transparent 8%,#e8609888 18%,#d8508866 35%,transparent 70%)",filter:"blur(20px)",transform:"rotate(-2deg)"}}/>
+        <div style={{position:"absolute",width:"45vw",height:"35vw",top:"65%",left:"0%",background:`radial-gradient(circle,${C.orange}99 0%,transparent 65%)`,filter:"blur(18px)",borderRadius:"45% 55% 50% 50%/55% 45% 55% 45%"}}/>
+        <div style={{position:"absolute",width:"25vw",height:"25vw",top:"68%",right:"12%",background:"radial-gradient(circle,rgba(50,25,40,0.55) 0%,transparent 65%)",filter:"blur(15px)",borderRadius:"50% 40% 60% 40%"}}/>
+        <div style={{position:"absolute",width:"18vw",height:"22vw",top:"3%",right:"3%",background:"radial-gradient(circle,rgba(40,20,30,0.45) 0%,transparent 55%)",filter:"blur(12px)"}}/>
+        {[{t:"20%",r:"8%",s:"8vw",o:0.5},{t:"25%",r:"12%",s:"5vw",o:0.4},{t:"22%",r:"5%",s:"6vw",o:0.35}].map((d,i) =>
+          <div key={i} style={{position:"absolute",width:d.s,height:d.s,top:d.t,right:d.r,background:`radial-gradient(circle,rgba(255,210,225,${d.o}) 0%,transparent 60%)`,filter:`blur(${3+i}px)`,borderRadius:"50%"}}/>
+        )}
+        <div className="rg" style={{position:"absolute",inset:0,backgroundImage:`url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.14'/%3E%3C/svg%3E")`,backgroundRepeat:"repeat",backgroundSize:"256px",mixBlendMode:"multiply"}}/>
+        <div style={{position:"absolute",inset:0,backgroundImage:`url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='turbulence' baseFrequency='1.1' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='0.1'/%3E%3C/svg%3E")`,backgroundRepeat:"repeat",backgroundSize:"128px",mixBlendMode:"overlay"}}/>
+      </div>
+
+      {/* CONTENT */}
+      <div style={{position:"relative",zIndex:1,maxWidth:"min(1600px, 96vw)",margin:"0 auto",padding:mobile?"0 10px":"0 24px"}}>
+
+        {/* HEADER */}
+        <div style={{padding:mobile?"24px 0 12px":"48px 0 20px",marginLeft:mobile?0:"60px"}}>
+          <div className="rw" style={{fontFamily:F,fontWeight:600,fontSize:"14px",color:C.soft,letterSpacing:"0.3em",textTransform:"uppercase",textShadow:"2px 1px 0 rgba(180,80,110,0.2)"}}>VALENTINA</div>
+          <h1 className="rb" style={{fontFamily:F,fontWeight:900,fontSize:"clamp(52px,12vw,100px)",letterSpacing:"0.02em",lineHeight:0.88,margin:"4px 0 0",textTransform:"uppercase",textShadow:"3px 2px 0 rgba(180,80,110,0.35),-2px -1px 0 rgba(212,145,94,0.2)"}}>RELEASE<br/>RADAR</h1>
+          {dataSource === "mock" && !loading && (
+            <div className="r" style={{fontFamily:F,fontWeight:600,fontSize:"20px",color:C.orange,letterSpacing:"0.08em",textTransform:"uppercase",marginTop:"10px"}}>
+              ⚠ MOCK DATA — releases.json nicht gefunden. Starte fetch_releases.py nach Crawler-Ende.
+            </div>
+          )}
+          {dataSource === "live" && (
+            <div className="r" style={{fontFamily:F,fontWeight:600,fontSize:"20px",color:C.olive,letterSpacing:"0.08em",textTransform:"uppercase",marginTop:"10px",display:"flex",alignItems:"center",gap:"8px"}}>
+              <span className="live-dot" style={{display:"inline-block",width:"10px",height:"10px",borderRadius:"50%",background:"#7a8a5c"}}/>
+              LIVE — {releases.length} releases · auto-refreshing
+            </div>
+          )}
+          {/* NAV — Release Radar | Event Radar */}
+          <div style={{display:"flex",gap:"20px",alignItems:"baseline",marginTop:"12px"}}>
+            <span style={{fontFamily:F,fontSize:"18px",fontWeight:800,color:C.white,textDecoration:"underline",textUnderlineOffset:"4px",letterSpacing:"2px"}}>RELEASE RADAR</span>
+            <a href="event_radar.html" style={{fontFamily:F,fontSize:"18px",fontWeight:600,color:C.soft,textDecoration:"none",letterSpacing:"2px"}}>EVENT RADAR</a>
+          </div>
+        </div>
+
+        {/* LOADING */}
+        {loading && (
+          <div style={{padding:"80px 0",textAlign:"center",fontFamily:F,fontWeight:700,fontSize:"18px",color:C.soft,textTransform:"uppercase",letterSpacing:"0.1em"}}>
+            <span className="loading-dot">·</span>
+            <span className="loading-dot"> ·</span>
+            <span className="loading-dot"> ·</span>
+            <span style={{marginLeft:"8px"}}>LOADING</span>
+          </div>
+        )}
+
+        {!loading && <>
+          {/* GENRE FILTER — ★ MY GENRES + ALL + collapsible genres */}
+          <div style={{paddingBottom:"14px",marginLeft:mobile?0:"60px"}}>
+            <div style={{display:"flex",flexWrap:"wrap",gap:mobile?"6px":"10px",alignItems:"center"}}>
+              {/* ★ MY GENRES button */}
+              <span className="genre-pill r" onClick={() => {setGenre("MyGenres");setShowGenres(false);setShowMyGenresEdit(false)}}
+                style={{fontFamily:F,fontWeight:genre==="MyGenres"?800:500,fontSize:mobile?"16px":"22px",
+                  color:genre==="MyGenres"?"#e8c05e":C.soft,textTransform:"uppercase",letterSpacing:"0.05em",
+                  cursor:"pointer",borderBottom:genre==="MyGenres"?"2px solid #e8c05e":"2px solid transparent",paddingBottom:"2px",
+                }}>★ MY GENRES</span>
+              {/* Edit button for My Genres */}
+              <span onClick={(e) => {e.stopPropagation();setShowMyGenresEdit(!showMyGenresEdit);setShowGenres(false)}}
+                style={{cursor:"pointer",fontSize:mobile?"16px":"18px",color:showMyGenresEdit?"#fff":C.ghost,marginLeft:"-4px",
+                  transition:"color 0.15s"}}
+                title="Meine Genres bearbeiten">✎</span>
+              {/* ALL button */}
+              <span className="genre-pill r" onClick={() => {setGenre("All");setShowGenres(false);setShowMyGenresEdit(false)}}
+                style={{fontFamily:F,fontWeight:genre==="All"?800:500,fontSize:mobile?"16px":"22px",
+                  color:genre==="All"?"#fff":C.soft,textTransform:"uppercase",letterSpacing:"0.05em",
+                  cursor:"pointer",borderBottom:genre==="All"?"2px solid #fff":"2px solid transparent",paddingBottom:"2px",
+                }}>ALL</span>
+              {!mobile && <span style={{flex:1}}/>}
+              <input type="text" placeholder="⌕ SEARCH..." value={search} onChange={e => setSearch(e.target.value)}
+                style={{background:"rgba(0,0,0,0.3)",border:"1px solid rgba(255,255,255,0.25)",padding:mobile?"6px 8px":"8px 12px",color:"#fff",fontSize:mobile?"14px":"18px",fontFamily:F,fontWeight:600,width:mobile?"100%":"220px",outline:"none",letterSpacing:"0.04em",textTransform:"uppercase",transition:"all 0.15s","--ph":"rgba(255,255,255,0.6)",marginTop:mobile?"4px":0}}
+                onFocus={e => {e.target.style.borderColor="rgba(255,255,255,0.5)";e.target.style.background="rgba(0,0,0,0.4)"}}
+                onBlur={e => {e.target.style.borderColor="rgba(255,255,255,0.25)";e.target.style.background="rgba(0,0,0,0.3)"}}
+              />
+            </div>
+            {/* My Genres Edit Popup */}
+            {showMyGenresEdit && (
+              <div style={{marginTop:"10px",padding:"14px 18px",background:"rgba(0,0,0,0.25)",borderRadius:"6px",border:"1px solid rgba(255,255,255,0.15)"}}>
+                <div style={{fontFamily:F,fontWeight:700,fontSize:"16px",color:"#e8c05e",letterSpacing:"0.08em",textTransform:"uppercase",marginBottom:"10px"}}>MEINE GENRES BEARBEITEN</div>
+                <div style={{display:"flex",flexWrap:"wrap",gap:"6px"}}>
+                  {allGenres.filter(g=>g!=="All").map(g => {
+                    const isSelected = myGenres.includes(g);
+                    return (
+                      <span key={g} className="genre-pill r"
+                        onClick={() => {
+                          const next = isSelected ? myGenres.filter(x=>x!==g) : [...myGenres, g];
+                          setMyGenres(next);
+                          store.set("v-my-genres", next);
+                        }}
+                        style={{fontFamily:F,fontWeight:isSelected?700:400,fontSize:"16px",
+                          color:isSelected?(GC[g]||"#fff"):"rgba(255,255,255,0.35)",textTransform:"uppercase",letterSpacing:"0.04em",
+                          cursor:"pointer",padding:"3px 10px",borderRadius:"4px",
+                          background:isSelected?"rgba(255,255,255,0.12)":"transparent",
+                          border:isSelected?`1px solid ${GC[g]||"rgba(255,255,255,0.3)"}`:"1px solid rgba(255,255,255,0.08)",
+                          transition:"all 0.15s",
+                        }}>{isSelected?"✓ ":""}{g}</span>
+                    );
+                  })}
+                </div>
+                <div style={{marginTop:"10px",fontSize:"13px",color:C.ghost}}>{myGenres.length} Genres ausgewählt</div>
+              </div>
+            )}
+            {/* Individual genre dropdown removed — use My Genres + All only */}
+          </div>
+
+          {/* SORT + ACTIONS — indented */}
+          <div className="r" style={{display:"flex",flexWrap:"wrap",gap:mobile?"8px":"14px",alignItems:"center",paddingBottom:"10px",fontFamily:F,fontSize:mobile?"14px":"18px",fontWeight:600,color:C.soft,letterSpacing:"0.05em",textTransform:"uppercase",marginLeft:mobile?0:"60px"}}>
+            {["date","artist","label"].map(s => (
+              <span key={s} className="sort-link" onClick={() => setSort(s)}
+                style={{cursor:"pointer",color:sort===s?"#fff":C.soft,borderBottom:sort===s?"1px solid rgba(255,255,255,0.5)":"none",paddingBottom:"1px",transition:"color 0.1s"}}>
+                {s==="date"?"NEWEST":s==="artist"?"ARTIST A–Z":"LABEL"}
+              </span>
+            ))}
+            <span style={{color:C.ghost}}>|</span>
+            <span className="sort-link" onClick={() => setShowFavsOnly(!showFavsOnly)} style={{cursor:"pointer",color:showFavsOnly?C.orange:C.soft,transition:"color 0.1s",background:showFavsOnly?"rgba(212,145,94,0.15)":"none",padding:"2px 8px"}}>{showFavsOnly?`★ FAVS (${favCount})`:`☆ FAVS (${favCount})`}</span>
+            <span className="sort-link" onClick={() => setShowHeard(!showHeard)} style={{cursor:"pointer",transition:"color 0.1s"}}>{showHeard?"HIDE HEARD":"SHOW HEARD"}</span>
+            <span className="sort-link" onClick={() => setShowHidden(!showHidden)} style={{cursor:"pointer",transition:"color 0.1s"}}>{showHidden?"HIDE ⊘":"SHOW ⊘"}</span>
+            <span className="sort-link" onClick={() => {const a=new Set(filtered.map(r=>r.id));setHeardIds(p=>{const n=new Set([...p,...a]);save(n);return n})}} style={{cursor:"pointer",transition:"color 0.1s"}}>✓ ALL</span>
+            <span className="sort-link" onClick={() => {setHeardIds(new Set());save(new Set());setHiddenIds(new Set());saveHid(new Set());setFavIds(new Set());saveFav(new Set())}} style={{cursor:"pointer",transition:"color 0.1s"}}>RESET</span>
+            {allSources.length > 2 && (<>
+              <span style={{color:C.ghost}}>|</span>
+              {allSources.map(s => {
+                const SC2 = {"all":"#fff","discogs":"rgba(255,180,60,0.9)","beatport":"rgba(148,232,116,0.95)","bandcamp":"rgba(99,210,218,0.95)","spotify":"rgba(30,215,96,0.9)"};
+                const c = SC2[s.toLowerCase()] || C.soft;
+                return <span key={s} className="sort-link" onClick={() => setSourceFilter(s)}
+                  style={{cursor:"pointer",color:sourceFilter===s?c:C.soft,borderBottom:sourceFilter===s?`1px solid ${c}`:"none",paddingBottom:"1px",transition:"color 0.1s"}}>
+                  {s.toUpperCase()}
+                </span>;
+              })}
+            </>)}
+          </div>
+
+          {/* PROGRESS — indented */}
+          <div style={{height:"5px",marginBottom:"8px",background:"rgba(255,255,255,0.08)",marginLeft:mobile?0:"60px"}}>
+            <div style={{height:"100%",width:`${pct}%`,background:`linear-gradient(90deg,${C.orange},${C.mauve})`,transition:"width 0.5s"}}/>
+          </div>
+          <div className="r" style={{fontFamily:F,fontWeight:700,fontSize:mobile?"14px":"18px",color:C.soft,letterSpacing:"0.06em",textTransform:"uppercase",display:"flex",justifyContent:"space-between",marginBottom:"14px",marginLeft:mobile?0:"60px"}}>
+            <span>{filtered.length} RELEASES</span>
+            <span>{favCount > 0 && `★ ${favCount}`}</span>
+            <span>{heardCount} HEARD ({pct}%)</span>
+            <span>{releases.length - heardCount} LEFT</span>
+          </div>
+
+          {/* TRACKS */}
+          <div>
+            {filtered.length === 0 ? (
+              <div className="rb" style={{fontFamily:F,fontWeight:800,fontSize:"30px",color:C.soft,textTransform:"uppercase",textAlign:"center",padding:"60px 0",textShadow:"2px 1px 0 rgba(180,80,110,0.2)"}}>
+                {search ? "NO MATCHES" : "ALL CAUGHT UP"}
+              </div>
+            ) : (
+              filtered.map(t => <Row key={t.id} t={t} heard={heardIds.has(t.id)} toggle={toggle}
+                fav={favIds.has(t.id)} toggleFav={toggleFav}
+                hidden={hiddenIds.has(t.id)} toggleHide={toggleHide}
+                expanded={expandedIds.has(t.id)} toggleExpand={toggleExpand} mobile={mobile}/>)
+            )}
+          </div>
+
+          {/* FOOTER */}
+          <div className="r" style={{padding:mobile?"20px 0 32px":"32px 0 48px",textAlign:"center",fontFamily:F,fontWeight:600,fontSize:mobile?"14px":"20px",color:C.ghost,letterSpacing:"0.2em",textTransform:"uppercase",marginLeft:mobile?0:"60px"}}>
+            VALENTINA · {releases.length} TRACKS · {[...new Set(releases.map(r=>(r.source||"discogs").toUpperCase()))].join(" + ")} · YT / BC / BP / SC / SP
+          </div>
+        </>}
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>

@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Label Network Explorer — Valentina</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  :root {
+    --bg: #0a0a0a;
+    --surface: #141414;
+    --border: #222;
+    --text: #e8e8e8;
+    --dim: #666;
+    --accent: #ff6b35;
+    --artist: #4ecdc4;
+    --label: #ff6b6b;
+    --seed: #ffe66d;
+    --edge: rgba(255,255,255,0.06);
+    --font: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+  }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  /* ─── HEADER ─── */
+  header {
+    grid-column: 1 / -1;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--surface);
+  }
+  header h1 { font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 500; }
+  header h1 span { color: var(--accent); }
+  .stats { display: flex; gap: 24px; font-size: 11px; color: var(--dim); }
+  .stats b { color: var(--text); }
+
+  /* ─── SIDEBAR ─── */
+  .sidebar {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .search-box {
+    padding: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .search-box input {
+    width: 100%;
+    padding: 10px 14px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 12px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-box input:focus { border-color: var(--accent); }
+  .search-box input::placeholder { color: var(--dim); }
+
+  .filters {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    padding: 5px 12px;
+    font-size: 10px;
+    font-family: var(--font);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--dim);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    transition: all 0.2s;
+  }
+  .filter-btn.active { border-color: var(--accent); color: var(--accent); }
+  .filter-btn:hover { border-color: var(--text); color: var(--text); }
+
+  .list-container {
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .list-section { padding: 8px 0; }
+  .list-section h3 {
+    padding: 8px 16px;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--dim);
+    position: sticky;
+    top: 0;
+    background: var(--surface);
+    z-index: 1;
+  }
+
+  .list-item {
+    padding: 10px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.15s;
+    border-bottom: 1px solid rgba(255,255,255,0.02);
+  }
+  .list-item:hover { background: rgba(255,255,255,0.03); }
+  .list-item.selected { background: rgba(255,107,53,0.08); border-left: 2px solid var(--accent); }
+
+  .list-item .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dot.artist { background: var(--artist); }
+  .dot.label { background: var(--label); }
+  .dot.seed { background: var(--seed); box-shadow: 0 0 6px var(--seed); }
+
+  .list-item .name { font-size: 12px; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .list-item .count { font-size: 10px; color: var(--dim); }
+
+  /* ─── MAIN CANVAS ─── */
+  .main {
+    position: relative;
+    overflow: hidden;
+  }
+
+  canvas { display: block; }
+
+  /* ─── DETAIL PANEL ─── */
+  .detail-panel {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 320px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 20px;
+    display: none;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    z-index: 10;
+  }
+  .detail-panel.visible { display: block; }
+  .detail-panel .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--dim);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--font);
+  }
+  .detail-panel h2 { font-size: 16px; margin-bottom: 4px; }
+  .detail-panel .type-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 2px;
+    margin-bottom: 16px;
+  }
+  .type-badge.artist { background: rgba(78,205,196,0.15); color: var(--artist); }
+  .type-badge.label { background: rgba(255,107,107,0.15); color: var(--label); }
+
+  .detail-section { margin-bottom: 16px; }
+  .detail-section h4 { font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--dim); margin-bottom: 8px; }
+  .detail-list { list-style: none; }
+  .detail-list li {
+    padding: 6px 0;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+  .detail-list li:hover { color: var(--accent); }
+
+  .genres { display: flex; flex-wrap: wrap; gap: 4px; }
+  .genre-tag {
+    padding: 2px 8px;
+    font-size: 9px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    color: var(--dim);
+  }
+
+  .discogs-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 6px 14px;
+    font-size: 10px;
+    font-family: var(--font);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--dim);
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .discogs-link:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* ─── DEPTH INDICATOR ─── */
+  .depth-bar {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background: var(--surface);
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    font-size: 10px;
+    z-index: 10;
+  }
+  .depth-bar span { color: var(--dim); margin: 0 8px; }
+  .depth-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+    opacity: 0.3;
+  }
+  .depth-dot.active { opacity: 1; transform: scale(1.3); }
+
+  /* ─── LOAD SCREEN ─── */
+  .load-screen {
+    position: fixed;
+    inset: 0;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    gap: 16px;
+  }
+  .load-screen p { color: var(--dim); font-size: 12px; }
+  .load-screen input[type="file"] { display: none; }
+  .load-btn {
+    padding: 14px 32px;
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    font-family: var(--font);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .load-btn:hover { transform: translateY(-2px); }
+</style>
+</head>
+<body>
+
+<!-- LOAD SCREEN -->
+<div class="load-screen" id="loadScreen">
+  <h1 style="font-size:14px; letter-spacing:0.15em; text-transform:uppercase;">
+    LABEL NETWORK <span style="color:var(--accent)">EXPLORER</span>
+  </h1>
+  <p>Lade die network_data.json vom Crawler</p>
+  <label class="load-btn" for="fileInput">JSON LADEN</label>
+  <input type="file" id="fileInput" accept=".json">
+  <p style="margin-top:24px; font-size:10px;">oder per Drag & Drop</p>
+</div>
+
+<header>
+  <h1>Label Network <span>Explorer</span></h1>
+  <div class="stats">
+    <div>Künstler: <b id="statArtists">0</b></div>
+    <div>Labels: <b id="statLabels">0</b></div>
+    <div>Verbindungen: <b id="statEdges">0</b></div>
+    <div>Max Tiefe: <b id="statDepth">0</b></div>
+  </div>
+</header>
+
+<div class="sidebar">
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Suche Künstler oder Label...">
+  </div>
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">Alle</button>
+    <button class="filter-btn" data-filter="artists">Künstler</button>
+    <button class="filter-btn" data-filter="labels">Labels</button>
+    <button class="filter-btn" data-filter="seeds">Seeds</button>
+  </div>
+  <div class="list-container" id="listContainer"></div>
+</div>
+
+<div class="main" id="mainArea">
+  <canvas id="canvas"></canvas>
+  
+  <div class="detail-panel" id="detailPanel">
+    <button class="close-btn" onclick="closeDetail()">✕</button>
+    <div id="detailContent"></div>
+  </div>
+
+  <div class="depth-bar" id="depthBar">
+    <span>TIEFE:</span>
+  </div>
+</div>
+
+<script>
+// ─── STATE ───
+let networkData = null;
+let nodes = [];
+let edges = [];
+let selectedNode = null;
+let currentFilter = "all";
+let maxDepthFilter = Infinity;
+let searchQuery = "";
+
+// Canvas state
+let canvas, ctx;
+let offsetX = 0, offsetY = 0, scale = 1;
+let isDragging = false, dragStartX, dragStartY;
+let hoveredNode = null;
+
+// ─── FILE LOADING ───
+document.getElementById("fileInput").addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (file) loadFile(file);
+});
+
+document.getElementById("loadScreen").addEventListener("dragover", (e) => {
+  e.preventDefault();
+  e.currentTarget.style.borderColor = "var(--accent)";
+});
+
+document.getElementById("loadScreen").addEventListener("drop", (e) => {
+  e.preventDefault();
+  const file = e.dataTransfer.files[0];
+  if (file) loadFile(file);
+});
+
+function loadFile(file) {
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      networkData = JSON.parse(e.target.result);
+      initNetwork();
+      document.getElementById("loadScreen").style.display = "none";
+    } catch (err) {
+      alert("Fehler beim Laden: " + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+// ─── INIT NETWORK ───
+function initNetwork() {
+  nodes = [];
+  edges = [];
+
+  // Artists → Nodes
+  for (const [id, data] of Object.entries(networkData.artists || {})) {
+    nodes.push({
+      id: "a_" + id,
+      type: "artist",
+      name: data.name,
+      depth: data.depth || 0,
+      isSeed: data.is_seed || false,
+      genres: data.genres || [],
+      url: data.url,
+      sources: data.sources || [],
+      popularity: data.popularity || null,
+      spotifyId: data.spotify_id || null,
+      mbid: data.mbid || null,
+      connections: [],
+      x: 0, y: 0, vx: 0, vy: 0
+    });
+  }
+
+  // Labels → Nodes
+  for (const [id, data] of Object.entries(networkData.labels || {})) {
+    nodes.push({
+      id: "l_" + id,
+      type: "label",
+      name: data.name,
+      depth: data.depth || 0,
+      isSeed: false,
+      genres: data.genres || [],
+      url: data.url,
+      releaseCount: data.release_count || 0,
+      profile: data.profile || "",
+      sources: data.sources || [],
+      mbid: data.mbid || null,
+      connections: [],
+      x: 0, y: 0, vx: 0, vy: 0
+    });
+  }
+
+  // Edges
+  const nodeMap = {};
+  nodes.forEach(n => nodeMap[n.id] = n);
+
+  for (const edge of (networkData.edges || [])) {
+    const sourceId = "a_" + edge.artist_id;
+    const targetId = "l_" + edge.label_id;
+    if (nodeMap[sourceId] && nodeMap[targetId]) {
+      edges.push({
+        source: nodeMap[sourceId],
+        target: nodeMap[targetId],
+        releaseCount: edge.release_count || 1,
+        years: edge.years || [],
+        sources: edge.sources || []
+      });
+      nodeMap[sourceId].connections.push(targetId);
+      nodeMap[targetId].connections.push(sourceId);
+    }
+  }
+
+  // Initial positions (radial layout by depth)
+  const centerX = window.innerWidth / 2;
+  const centerY = window.innerHeight / 2;
+  
+  nodes.forEach((n, i) => {
+    const angle = (i / nodes.length) * Math.PI * 2 + (Math.random() - 0.5) * 0.5;
+    const radius = 100 + n.depth * 150 + Math.random() * 80;
+    n.x = centerX + Math.cos(angle) * radius;
+    n.y = centerY + Math.sin(angle) * radius;
+  });
+
+  // Update stats
+  document.getElementById("statArtists").textContent = Object.keys(networkData.artists || {}).length;
+  document.getElementById("statLabels").textContent = Object.keys(networkData.labels || {}).length;
+  document.getElementById("statEdges").textContent = (networkData.edges || []).length;
+  document.getElementById("statDepth").textContent = networkData.metadata?.max_depth_reached || 0;
+
+  // Build depth bar
+  buildDepthBar();
+  
+  // Build list
+  updateList();
+
+  // Init canvas
+  initCanvas();
+  
+  // Run force simulation
+  runSimulation();
+}
+
+// ─── CANVAS ───
+function initCanvas() {
+  canvas = document.getElementById("canvas");
+  ctx = canvas.getContext("2d");
+  resizeCanvas();
+  window.addEventListener("resize", resizeCanvas);
+
+  // Pan & Zoom
+  canvas.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    dragStartX = e.clientX - offsetX;
+    dragStartY = e.clientY - offsetY;
+  });
+  canvas.addEventListener("mousemove", (e) => {
+    if (isDragging) {
+      offsetX = e.clientX - dragStartX;
+      offsetY = e.clientY - dragStartY;
+    }
+    // Hover detection
+    const rect = canvas.getBoundingClientRect();
+    const mx = (e.clientX - rect.left - offsetX) / scale;
+    const my = (e.clientY - rect.top - offsetY) / scale;
+    hoveredNode = null;
+    for (const n of getVisibleNodes()) {
+      const dx = n.x - mx, dy = n.y - my;
+      const r = getNodeRadius(n);
+      if (dx * dx + dy * dy < r * r * 1.5) {
+        hoveredNode = n;
+        break;
+      }
+    }
+    canvas.style.cursor = hoveredNode ? "pointer" : (isDragging ? "grabbing" : "grab");
+  });
+  canvas.addEventListener("mouseup", () => { isDragging = false; });
+  canvas.addEventListener("click", (e) => {
+    if (hoveredNode) {
+      selectNode(hoveredNode);
+    }
+  });
+  canvas.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const zoom = e.deltaY < 0 ? 1.1 : 0.9;
+    const rect = canvas.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+    offsetX = mx - (mx - offsetX) * zoom;
+    offsetY = my - (my - offsetY) * zoom;
+    scale *= zoom;
+    scale = Math.max(0.1, Math.min(5, scale));
+  });
+}
+
+function resizeCanvas() {
+  const main = document.getElementById("mainArea");
+  canvas.width = main.clientWidth;
+  canvas.height = main.clientHeight;
+}
+
+function getNodeRadius(n) {
+  const base = n.type === "label" ? 6 : 4;
+  const connBonus = Math.min(n.connections.length * 0.5, 8);
+  return base + connBonus + (n.isSeed ? 3 : 0);
+}
+
+function getVisibleNodes() {
+  return nodes.filter(n => {
+    if (n.depth > maxDepthFilter) return false;
+    if (currentFilter === "artists" && n.type !== "artist") return false;
+    if (currentFilter === "labels" && n.type !== "label") return false;
+    if (currentFilter === "seeds" && !n.isSeed) return false;
+    if (searchQuery && !n.name.toLowerCase().includes(searchQuery)) return false;
+    return true;
+  });
+}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.save();
+  ctx.translate(offsetX, offsetY);
+  ctx.scale(scale, scale);
+
+  const visible = new Set(getVisibleNodes().map(n => n.id));
+
+  // Edges
+  ctx.lineWidth = 0.5;
+  for (const e of edges) {
+    if (!visible.has(e.source.id) || !visible.has(e.target.id)) continue;
+    const alpha = Math.min(0.15, 0.03 + e.releaseCount * 0.02);
+    ctx.strokeStyle = selectedNode && (e.source === selectedNode || e.target === selectedNode)
+      ? `rgba(255,107,53,${alpha * 4})`
+      : `rgba(255,255,255,${alpha})`;
+    ctx.beginPath();
+    ctx.moveTo(e.source.x, e.source.y);
+    ctx.lineTo(e.target.x, e.target.y);
+    ctx.stroke();
+  }
+
+  // Nodes
+  for (const n of nodes) {
+    if (!visible.has(n.id)) continue;
+    const r = getNodeRadius(n);
+    const isSelected = n === selectedNode;
+    const isHovered = n === hoveredNode;
+    const isConnected = selectedNode && (
+      selectedNode.connections.includes(n.id) || n.connections.includes(selectedNode?.id)
+    );
+
+    let color;
+    if (n.isSeed) color = "#ffe66d";
+    else if (n.type === "artist") color = "#4ecdc4";
+    else color = "#ff6b6b";
+
+    let alpha = 1;
+    if (selectedNode && !isSelected && !isConnected) alpha = 0.15;
+
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = color;
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+    ctx.fill();
+
+    if (isSelected || isHovered) {
+      ctx.strokeStyle = "#fff";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }
+
+    // Label text
+    if (scale > 0.5 && (r > 6 || isHovered || isSelected || isConnected)) {
+      ctx.fillStyle = `rgba(232,232,232,${alpha})`;
+      ctx.font = `${Math.max(8, 10 / scale)}px monospace`;
+      ctx.textAlign = "center";
+      ctx.fillText(n.name, n.x, n.y - r - 4);
+    }
+
+    ctx.globalAlpha = 1;
+  }
+
+  ctx.restore();
+  requestAnimationFrame(draw);
+}
+
+// ─── FORCE SIMULATION ───
+function runSimulation() {
+  let iterations = 0;
+  const maxIterations = 300;
+
+  function tick() {
+    if (iterations >= maxIterations) {
+      draw();
+      return;
+    }
+
+    const alpha = 1 - iterations / maxIterations;
+    const repulsion = 800 * alpha;
+    const attraction = 0.005 * alpha;
+    const centerForce = 0.001 * alpha;
+
+    // Repulsion (all pairs - simplified)
+    const visibleNodes = getVisibleNodes();
+    for (let i = 0; i < visibleNodes.length; i++) {
+      for (let j = i + 1; j < visibleNodes.length; j++) {
+        const a = visibleNodes[i], b = visibleNodes[j];
+        let dx = b.x - a.x, dy = b.y - a.y;
+        let d = Math.sqrt(dx * dx + dy * dy) || 1;
+        let force = repulsion / (d * d);
+        let fx = (dx / d) * force, fy = (dy / d) * force;
+        a.vx -= fx; a.vy -= fy;
+        b.vx += fx; b.vy += fy;
+      }
+    }
+
+    // Attraction (edges)
+    for (const e of edges) {
+      let dx = e.target.x - e.source.x, dy = e.target.y - e.source.y;
+      let d = Math.sqrt(dx * dx + dy * dy) || 1;
+      let force = (d - 100) * attraction;
+      let fx = (dx / d) * force, fy = (dy / d) * force;
+      e.source.vx += fx; e.source.vy += fy;
+      e.target.vx -= fx; e.target.vy -= fy;
+    }
+
+    // Center gravity
+    const cx = canvas.width / 2, cy = canvas.height / 2;
+    for (const n of visibleNodes) {
+      n.vx += (cx - n.x) * centerForce;
+      n.vy += (cy - n.y) * centerForce;
+      n.x += n.vx * 0.5;
+      n.y += n.vy * 0.5;
+      n.vx *= 0.8;
+      n.vy *= 0.8;
+    }
+
+    iterations++;
+    draw();
+    if (iterations < maxIterations) requestAnimationFrame(tick);
+  }
+
+  tick();
+}
+
+// ─── SIDEBAR LIST ───
+function updateList() {
+  const container = document.getElementById("listContainer");
+  const visible = getVisibleNodes();
+  
+  // Sort: seeds first, then by connections
+  visible.sort((a, b) => {
+    if (a.isSeed !== b.isSeed) return b.isSeed - a.isSeed;
+    return b.connections.length - a.connections.length;
+  });
+
+  let html = "";
+  
+  const seeds = visible.filter(n => n.isSeed);
+  const artists = visible.filter(n => n.type === "artist" && !n.isSeed);
+  const labels = visible.filter(n => n.type === "label");
+
+  if (seeds.length) {
+    html += `<div class="list-section"><h3>🌱 Deine Künstler (${seeds.length})</h3>`;
+    seeds.forEach(n => { html += listItemHTML(n); });
+    html += `</div>`;
+  }
+  if (artists.length) {
+    html += `<div class="list-section"><h3>🎵 Entdeckte Künstler (${artists.length})</h3>`;
+    artists.slice(0, 200).forEach(n => { html += listItemHTML(n); });
+    if (artists.length > 200) html += `<p style="padding:8px 16px;color:var(--dim);font-size:10px;">+ ${artists.length - 200} weitere...</p>`;
+    html += `</div>`;
+  }
+  if (labels.length) {
+    html += `<div class="list-section"><h3>🏷️ Labels (${labels.length})</h3>`;
+    labels.slice(0, 200).forEach(n => { html += listItemHTML(n); });
+    if (labels.length > 200) html += `<p style="padding:8px 16px;color:var(--dim);font-size:10px;">+ ${labels.length - 200} weitere...</p>`;
+    html += `</div>`;
+  }
+
+  container.innerHTML = html;
+
+  // Click handlers
+  container.querySelectorAll(".list-item").forEach(el => {
+    el.addEventListener("click", () => {
+      const node = nodes.find(n => n.id === el.dataset.id);
+      if (node) selectNode(node);
+    });
+  });
+}
+
+function listItemHTML(n) {
+  const dotClass = n.isSeed ? "seed" : n.type;
+  return `<div class="list-item" data-id="${n.id}">
+    <div class="dot ${dotClass}"></div>
+    <span class="name">${n.name}</span>
+    <span class="count">${n.connections.length}</span>
+  </div>`;
+}
+
+// ─── DETAIL PANEL ───
+function selectNode(node) {
+  selectedNode = node;
+  const panel = document.getElementById("detailPanel");
+  const content = document.getElementById("detailContent");
+
+  const connected = node.connections
+    .map(id => nodes.find(n => n.id === id))
+    .filter(Boolean)
+    .sort((a, b) => b.connections.length - a.connections.length);
+
+  const otherType = node.type === "artist" ? "Labels" : "Künstler";
+
+  let html = `
+    <h2>${node.name}</h2>
+    <span class="type-badge ${node.type}">${node.isSeed ? "⭐ Seed " : ""}${node.type === "artist" ? "Künstler" : "Label"}</span>
+    <span style="font-size:10px;color:var(--dim);margin-left:8px;">Tiefe ${node.depth}</span>
+  `;
+
+  // Sources badges
+  if (node.sources?.length) {
+    html += `<div style="margin-top:8px;">`;
+    const srcColors = {discogs:"#333",musicbrainz:"#353070",spotify:"#1a3a20"};
+    const srcBorders = {discogs:"#666",musicbrainz:"#7b6cb5",spotify:"#1db954"};
+    node.sources.forEach(s => {
+      html += `<span style="display:inline-block;font-size:9px;padding:2px 8px;margin-right:4px;border-radius:3px;background:${srcColors[s]||'#333'};border:1px solid ${srcBorders[s]||'#555'};color:#ccc;">${s}</span>`;
+    });
+    html += `</div>`;
+  }
+
+  // Popularity
+  if (node.popularity) {
+    html += `<div style="margin-top:8px;"><span style="font-size:10px;color:var(--dim);">Spotify Popularity: </span><span style="font-size:12px;color:#1db954;font-weight:bold;">${node.popularity}</span></div>`;
+  }
+
+  if (node.genres?.length) {
+    html += `<div class="detail-section"><h4>Genres</h4><div class="genres">`;
+    node.genres.forEach(g => { html += `<span class="genre-tag">${g}</span>`; });
+    html += `</div></div>`;
+  }
+
+  if (node.profile) {
+    html += `<div class="detail-section"><h4>Profil</h4><p style="font-size:11px;color:var(--dim);line-height:1.5;">${node.profile}</p></div>`;
+  }
+
+  if (connected.length) {
+    html += `<div class="detail-section"><h4>${otherType} (${connected.length})</h4><ul class="detail-list">`;
+    connected.forEach(c => {
+      const dot = c.type === "artist" ? "artist" : "label";
+      const edge = edges.find(e =>
+        (e.source === node && e.target === c) || (e.source === c && e.target === node)
+      );
+      const releases = edge ? ` (${edge.releaseCount} Releases)` : "";
+      html += `<li data-id="${c.id}"><div class="dot ${dot}"></div>${c.name}<span style="color:var(--dim);font-size:10px;">${releases}</span></li>`;
+    });
+    html += `</ul></div>`;
+  }
+
+  // External links
+  let links = [];
+  if (node.url) links.push(`<a href="${node.url}" target="_blank" style="color:var(--accent);text-decoration:none;font-size:11px;">→ Discogs</a>`);
+  if (node.mbid) links.push(`<a href="https://musicbrainz.org/${node.type === 'artist' ? 'artist' : 'label'}/${node.mbid}" target="_blank" style="color:#7b6cb5;text-decoration:none;font-size:11px;">→ MusicBrainz</a>`);
+  if (node.spotifyId) links.push(`<a href="https://open.spotify.com/artist/${node.spotifyId}" target="_blank" style="color:#1db954;text-decoration:none;font-size:11px;">→ Spotify</a>`);
+  if (links.length) {
+    html += `<div style="margin-top:12px;display:flex;gap:12px;">${links.join("")}</div>`;
+  }
+
+  content.innerHTML = html;
+  panel.classList.add("visible");
+
+  // Click on connected items
+  content.querySelectorAll(".detail-list li").forEach(li => {
+    li.addEventListener("click", () => {
+      const n = nodes.find(n => n.id === li.dataset.id);
+      if (n) selectNode(n);
+    });
+  });
+
+  // Center view on node
+  offsetX = canvas.width / 2 - node.x * scale;
+  offsetY = canvas.height / 2 - node.y * scale;
+
+  updateList();
+}
+
+function closeDetail() {
+  selectedNode = null;
+  document.getElementById("detailPanel").classList.remove("visible");
+  updateList();
+}
+
+// ─── DEPTH BAR ───
+function buildDepthBar() {
+  const maxDepth = networkData.metadata?.max_depth_reached || 5;
+  const bar = document.getElementById("depthBar");
+  const colors = ["#ffe66d", "#4ecdc4", "#ff6b6b", "#ff6b35", "#a855f7", "#38bdf8", "#10b981"];
+  
+  for (let d = 0; d <= maxDepth; d++) {
+    const dot = document.createElement("div");
+    dot.className = "depth-dot active";
+    dot.style.background = colors[d % colors.length];
+    dot.title = `Tiefe ${d}`;
+    dot.addEventListener("click", () => {
+      if (maxDepthFilter === d) {
+        maxDepthFilter = Infinity;
+        bar.querySelectorAll(".depth-dot").forEach(dd => dd.classList.add("active"));
+      } else {
+        maxDepthFilter = d;
+        bar.querySelectorAll(".depth-dot").forEach((dd, i) => {
+          dd.classList.toggle("active", i <= d);
+        });
+      }
+      updateList();
+    });
+    bar.appendChild(dot);
+  }
+}
+
+// ─── FILTERS & SEARCH ───
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentFilter = btn.dataset.filter;
+    updateList();
+  });
+});
+
+document.getElementById("searchInput").addEventListener("input", (e) => {
+  searchQuery = e.target.value.toLowerCase();
+  updateList();
+});
+
+// Keyboard
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeDetail();
+});
+</script>
+</body>
+</html>

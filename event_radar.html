@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentina · Event Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body, #root { min-height: 100vh; }
+  body { font-family: 'Barlow', sans-serif; overflow-x: hidden; }
+  ::selection { background: rgba(74,122,122,0.5); color: #fff; }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+
+  @keyframes grain { 0%,100%{transform:translate(0,0)} 25%{transform:translate(-1px,1px)} 50%{transform:translate(1px,-1px)} 75%{transform:translate(-1px,-1px)} }
+  .r { -webkit-font-smoothing: none; text-rendering: geometricPrecision; }
+  .rw { -webkit-font-smoothing: none; text-rendering: geometricPrecision;
+    filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='d'%3E%3CfeTurbulence baseFrequency='0.04' numOctaves='2' type='fractalNoise'/%3E%3CfeDisplacementMap in='SourceGraphic' scale='1.8' xChannelSelector='R' yChannelSelector='G'/%3E%3C/filter%3E%3C/svg%3E#d"); }
+  .rb { -webkit-font-smoothing: none;
+    filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='b'%3E%3CfeTurbulence baseFrequency='0.05' numOctaves='3' type='fractalNoise'/%3E%3CfeDisplacementMap in='SourceGraphic' scale='3' xChannelSelector='R' yChannelSelector='G'/%3E%3C/filter%3E%3C/svg%3E#b"); }
+  .rg { animation: grain 0.4s steps(2) infinite; }
+
+  .row-hover:hover { background: rgba(255,255,255,0.08) !important; }
+  .tab-btn:hover { opacity: 0.9 !important; }
+  input::placeholder { color: rgba(255,255,255,0.6) !important; }
+
+  @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+  @keyframes livePulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.4;transform:scale(0.8)} }
+  .live-dot { animation: livePulse 2s ease-in-out infinite; }
+
+  /* Leaflet overrides */
+  .leaflet-container { background: #1a2530 !important; border-radius: 8px; }
+  .leaflet-popup-content-wrapper { background: #1e2838; color: #fff; border-radius: 6px; }
+  .leaflet-popup-tip { background: #1e2838; }
+  .leaflet-popup-content { font-family: 'Barlow', sans-serif; font-size: 14px; }
+  .leaflet-popup-content a { color: #7abaa0; }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .desktop-only { display: none !important; }
+    .event-row { flex-wrap: wrap; gap: 4px; }
+  }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+const { useState, useEffect, useCallback, useRef, useMemo } = React;
+
+// --- PALETTE — Late evening sky: petrol, teal, slate, amber lanterns ---
+const C = {
+  bg:"#2a3545", bgDeep:"#1e2838", bgLight:"#354555",
+  amber:"#c49a6c", indigo:"#5a6080", teal:"#4a7a7a",
+  slate:"#3a5060", dusk:"#5a7080",
+  white:"#fff", hi:"rgba(255,255,255,0.95)", mid:"rgba(255,255,255,0.8)",
+  soft:"rgba(255,255,255,0.55)", ghost:"rgba(255,255,255,0.3)",
+  green:"#6abf6a", yellow:"#d4c05e", accent:"#7abaa0"
+};
+const F = "'Barlow Condensed','Arial Narrow',sans-serif";
+
+// Country flag emojis
+const FLAGS = {
+  DE:"🇩🇪",NL:"🇳🇱",UK:"🇬🇧",GB:"🇬🇧",FR:"🇫🇷",BE:"🇧🇪",ES:"🇪🇸",PT:"🇵🇹",
+  IT:"🇮🇹",GE:"🇬🇪",UA:"🇺🇦",RO:"🇷🇴",NO:"🇳🇴",US:"🇺🇸",JP:"🇯🇵",HR:"🇭🇷",
+  MA:"🇲🇦",MX:"🇲🇽",BR:"🇧🇷",CL:"🇨🇱",CO:"🇨🇴",AR:"🇦🇷",CH:"🇨🇭",AT:"🇦🇹",
+  SE:"🇸🇪",DK:"🇩🇰",FI:"🇫🇮",PL:"🇵🇱",CZ:"🇨🇿",GR:"🇬🇷",TR:"🇹🇷",IE:"🇮🇪",
+  AU:"🇦🇺",CA:"🇨🇦",ZA:"🇿🇦",IL:"🇮🇱",IN:"🇮🇳",KR:"🇰🇷",TH:"🇹🇭",
+};
+
+// ─── HAVERSINE ────────────────────────────────
+function haversine(lat1,lon1,lat2,lon2) {
+  const R = 6371;
+  const dLat = (lat2-lat1)*Math.PI/180;
+  const dLon = (lon2-lon1)*Math.PI/180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+// ─── ICS GENERATOR ────────────────────────────
+function generateICS(event) {
+  const d = event.date.replace(/-/g,'');
+  const t = (event.time||"20:00").replace(/:/g,'');
+  const dtStart = d + "T" + t + "00";
+  const dtEnd = d + "T235900";
+  const uid = event.id + "@valentina";
+  const ics = [
+    "BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Valentina//Event Radar//EN",
+    "BEGIN:VEVENT",
+    `UID:${uid}`,`DTSTART:${dtStart}`,`DTEND:${dtEnd}`,
+    `SUMMARY:${event.event_name || event.artist}`,
+    `LOCATION:${event.venue}, ${event.city}`,
+    `DESCRIPTION:${event.lineup?.join(', ')||event.artist}\\nURL: ${event.url||''}`,
+    `URL:${event.url||''}`,
+    "END:VEVENT","END:VCALENDAR"
+  ].join("\r\n");
+  const blob = new Blob([ics], {type:"text/calendar"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `${event.artist}-${event.date}.ics`;
+  a.click();
+}
+
+// ─── NAV BAR ──────────────────────────────────
+function NavBar() {
+  return React.createElement("div", {style:{
+    display:"flex", justifyContent:"space-between", alignItems:"center",
+    padding:"12px 0", borderBottom:`1px solid ${C.ghost}`, marginBottom:"20px"
+  }},
+    React.createElement("div", {style:{display:"flex", gap:"20px", alignItems:"baseline"}},
+      React.createElement("a", {href:"release_radar.html", style:{
+        fontFamily:"'Barlow Condensed'", fontSize:"18px", fontWeight:600,
+        color:C.soft, textDecoration:"none", letterSpacing:"2px"
+      }}, "RELEASE RADAR"),
+      React.createElement("span", {style:{
+        fontFamily:"'Barlow Condensed'", fontSize:"18px", fontWeight:800,
+        color:C.white, textDecoration:"underline", textUnderlineOffset:"4px",
+        letterSpacing:"2px"
+      }}, "EVENT RADAR"),
+    ),
+    React.createElement("span", {className:"r", style:{
+      fontSize:"14px", color:C.soft
+    }}, "VALENTINA")
+  );
+}
+
+// ─── STATS BAR ────────────────────────────────
+function StatsBar({events, nearCount}) {
+  const now = new Date();
+  const thisWeek = new Date(now.getTime() + 7*86400000);
+  const thisMonth = new Date(now.getFullYear(), now.getMonth()+1, 0);
+
+  const weekCount = events.filter(e => new Date(e.date) <= thisWeek).length;
+  const monthCount = events.filter(e => new Date(e.date) <= thisMonth).length;
+
+  return React.createElement("div", {style:{
+    display:"flex", gap:"24px", padding:"12px 0", fontSize:"18px",
+    fontFamily:"'Barlow Condensed'", color:C.mid, letterSpacing:"1px"
+  }},
+    React.createElement("span", null, `${weekCount} DIESE WOCHE`),
+    React.createElement("span", {style:{color:C.ghost}}, "|"),
+    React.createElement("span", null, `${monthCount} DIESEN MONAT`),
+    React.createElement("span", {style:{color:C.ghost}}, "|"),
+    React.createElement("span", null, `${events.length} GESAMT`),
+    nearCount > 0 && React.createElement("span", null,
+      React.createElement("span", {style:{color:C.ghost}}, "| "),
+      `${nearCount} IN DEINER NÄHE`
+    ),
+  );
+}
+
+// ─── TAB BAR ──────────────────────────────────
+function TabBar({active, onChange}) {
+  const tabs = ["TIMELINE","MAP","BY ARTIST","NEAR ME"];
+  return React.createElement("div", {style:{
+    display:"flex", gap:"4px", marginBottom:"16px"
+  }},
+    ...tabs.map(t => React.createElement("button", {
+      key:t, className:"tab-btn",
+      onClick:()=>onChange(t),
+      style:{
+        padding:"8px 20px", border:"none", cursor:"pointer",
+        fontFamily:"'Barlow Condensed'", fontSize:"18px", fontWeight:700,
+        letterSpacing:"1.5px", borderRadius:"4px",
+        background: active===t ? "rgba(255,255,255,0.2)" : "transparent",
+        color: active===t ? C.white : C.soft,
+        textDecoration: active===t ? "underline" : "none",
+        textUnderlineOffset: "4px",
+      }
+    }, t))
+  );
+}
+
+// ─── EVENT ROW ────────────────────────────────
+function EventRow({event, going, toggleGoing, favArtists, hasReleases, networkArtists}) {
+  const isFav = favArtists.has(event.artist.toLowerCase());
+  const isGoing = going.has(event.id);
+  const lineupOverlap = (event.lineup||[]).filter(a =>
+    networkArtists.has(a.toLowerCase())
+  ).length;
+
+  const d = new Date(event.date);
+  const now = new Date();
+  const daysAway = Math.ceil((d - now) / 86400000);
+  let urgencyColor = C.ghost;
+  if (daysAway <= 7) urgencyColor = C.green;
+  else if (daysAway <= 30) urgencyColor = C.yellow;
+
+  const flag = FLAGS[event.country] || "";
+  const dateStr = d.toLocaleDateString("de-DE", {weekday:"short",day:"numeric",month:"short"});
+
+  return React.createElement("div", {
+    className:"row-hover event-row",
+    style:{
+      display:"flex", alignItems:"center", gap:"12px",
+      padding:"10px 12px", borderBottom:`1px solid rgba(255,255,255,0.06)`,
+      opacity: isGoing ? 1 : 0.85,
+    }
+  },
+    // Date
+    React.createElement("div", {style:{
+      width:"110px", flexShrink:0, display:"flex", flexDirection:"column", alignItems:"flex-start"
+    }},
+      React.createElement("span", {className:"r", style:{
+        fontSize:"16px", fontWeight:700, color:urgencyColor,
+        fontFamily:"'Barlow Condensed'", letterSpacing:"1px"
+      }}, dateStr.toUpperCase()),
+      event.time && React.createElement("span", {style:{
+        fontSize:"13px", color:C.soft
+      }}, event.time),
+    ),
+
+    // Going button
+    React.createElement("button", {
+      onClick:()=>toggleGoing(event.id),
+      style:{
+        width:"36px", height:"36px", borderRadius:"50%", border:`2px solid ${isGoing?C.green:C.ghost}`,
+        background: isGoing ? "rgba(106,191,106,0.2)" : "transparent",
+        color: isGoing ? C.green : C.ghost, cursor:"pointer",
+        fontSize:"16px", display:"flex", alignItems:"center", justifyContent:"center",
+        flexShrink:0,
+      },
+      title: isGoing ? "Ich gehe hin!" : "Hingehen?"
+    }, isGoing ? "✓" : "○"),
+
+    // Artist
+    React.createElement("div", {style:{flex:"1", minWidth:0}},
+      React.createElement("span", {className:"r", style:{
+        fontSize:"20px", fontWeight:700, color:C.hi,
+        fontFamily:"'Barlow Condensed'", letterSpacing:"0.5px"
+      }},
+        isFav && React.createElement("span", {style:{color:"#e8c05e",marginRight:"6px"}}, "★"),
+        event.artist,
+        hasReleases.has(event.artist.toLowerCase()) && React.createElement("a", {
+          href:`release_radar.html?search=${encodeURIComponent(event.artist)}`,
+          style:{marginLeft:"6px", textDecoration:"none", fontSize:"14px"},
+          title:"Neue Releases"
+        }, "🎵"),
+      ),
+    ),
+
+    // Event name
+    React.createElement("div", {style:{flex:"1.2", minWidth:0}},
+      React.createElement("span", {style:{
+        fontSize:"16px", color:C.mid, overflow:"hidden", textOverflow:"ellipsis",
+        whiteSpace:"nowrap", display:"block"
+      }}, event.event_name || "—"),
+    ),
+
+    // Venue + City
+    React.createElement("div", {className:"desktop-only", style:{flex:"1", minWidth:0}},
+      React.createElement("span", {style:{fontSize:"15px", color:C.soft}},
+        `${event.venue}`,
+      ),
+      React.createElement("span", {style:{fontSize:"14px", color:C.ghost, marginLeft:"8px"}},
+        `${flag} ${event.city}`,
+      ),
+    ),
+
+    // Lineup overlap badge
+    lineupOverlap > 1 && React.createElement("span", {style:{
+      padding:"2px 8px", borderRadius:"10px", fontSize:"12px",
+      fontFamily:"'Barlow Condensed'", fontWeight:700, letterSpacing:"1px",
+      background:"rgba(106,184,224,0.2)", color:C.accent,
+    }}, `${lineupOverlap} ARTISTS`),
+
+    // Tickets + Calendar
+    React.createElement("div", {style:{display:"flex", gap:"8px", alignItems:"center", flexShrink:0}},
+      event.url && React.createElement("a", {
+        href:event.url, target:"_blank", rel:"noopener",
+        style:{fontSize:"13px", color:C.accent, textDecoration:"none",
+               padding:"4px 10px", borderRadius:"4px", border:`1px solid ${C.accent}`}
+      }, "→ TICKETS"),
+      React.createElement("button", {
+        onClick:()=>generateICS(event),
+        style:{
+          background:"transparent", border:`1px solid ${C.ghost}`, borderRadius:"4px",
+          color:C.soft, cursor:"pointer", padding:"4px 8px", fontSize:"13px"
+        },
+        title:"Zum Kalender hinzufügen"
+      }, "📅"),
+    ),
+  );
+}
+
+// ─── TIMELINE VIEW ────────────────────────────
+function TimelineView({events, going, toggleGoing, favArtists, hasReleases, networkArtists, search}) {
+  const filtered = useMemo(() => {
+    let e = events;
+    if (search) {
+      const s = search.toLowerCase();
+      e = e.filter(ev =>
+        ev.artist.toLowerCase().includes(s) ||
+        ev.venue.toLowerCase().includes(s) ||
+        ev.city.toLowerCase().includes(s) ||
+        (ev.event_name||"").toLowerCase().includes(s)
+      );
+    }
+    return e;
+  }, [events, search]);
+
+  // Group by date
+  const groups = useMemo(() => {
+    const g = {};
+    for (const ev of filtered) {
+      const key = ev.date;
+      if (!g[key]) g[key] = [];
+      g[key].push(ev);
+    }
+    return Object.entries(g).sort((a,b)=>a[0].localeCompare(b[0]));
+  }, [filtered]);
+
+  return React.createElement("div", null,
+    groups.length === 0 && React.createElement("div", {style:{
+      textAlign:"center", padding:"60px", color:C.soft, fontSize:"20px"
+    }}, "Keine Events gefunden"),
+    ...groups.map(([date, evts]) => React.createElement("div", {key:date},
+      ...evts.map(ev => React.createElement(EventRow, {
+        key:ev.id, event:ev, going, toggleGoing, favArtists, hasReleases, networkArtists
+      }))
+    ))
+  );
+}
+
+// ─── MAP VIEW ─────────────────────────────────
+function MapView({events, going, toggleGoing}) {
+  const mapRef = useRef(null);
+  const mapInstance = useRef(null);
+
+  useEffect(() => {
+    if (!mapRef.current || mapInstance.current) return;
+
+    const map = L.map(mapRef.current, {
+      center: [48, 10],
+      zoom: 4,
+      zoomControl: true,
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OSM & CartoDB',
+      maxZoom: 18,
+    }).addTo(map);
+
+    mapInstance.current = map;
+
+    return () => { map.remove(); mapInstance.current = null; };
+  }, []);
+
+  useEffect(() => {
+    if (!mapInstance.current) return;
+    const map = mapInstance.current;
+
+    // Clear old markers
+    map.eachLayer(l => { if (l instanceof L.CircleMarker) map.removeLayer(l); });
+
+    const now = new Date();
+    const weekAhead = new Date(now.getTime() + 7*86400000);
+    const monthAhead = new Date(now.getTime() + 30*86400000);
+
+    for (const ev of events) {
+      if (!ev.latitude || !ev.longitude) continue;
+
+      const d = new Date(ev.date);
+      let color = "#888";
+      if (d <= weekAhead) color = "#6abf6a";
+      else if (d <= monthAhead) color = "#d4c05e";
+
+      const marker = L.circleMarker([ev.latitude, ev.longitude], {
+        radius: 7, fillColor: color, color: "#fff", weight: 1,
+        fillOpacity: 0.8,
+      }).addTo(map);
+
+      const dateStr = new Date(ev.date).toLocaleDateString("de-DE",{day:"numeric",month:"short"});
+      marker.bindPopup(`
+        <b>${ev.artist}</b><br/>
+        ${ev.event_name||""}<br/>
+        📍 ${ev.venue}, ${ev.city}<br/>
+        📅 ${dateStr} ${ev.time||""}<br/>
+        ${ev.url ? `<a href="${ev.url}" target="_blank">→ Tickets</a>` : ""}
+      `);
+    }
+  }, [events]);
+
+  return React.createElement("div", {
+    ref: mapRef,
+    style: { width:"100%", height:"500px", borderRadius:"8px", marginBottom:"20px" }
+  });
+}
+
+// ─── BY ARTIST VIEW ───────────────────────────
+function ByArtistView({events, going, toggleGoing, favArtists, hasReleases, networkArtists}) {
+  const [selected, setSelected] = useState("");
+
+  // Get unique artists
+  const artists = useMemo(() => {
+    const map = {};
+    for (const ev of events) {
+      const key = ev.artist.toLowerCase();
+      if (!map[key]) map[key] = {name:ev.artist, count:0};
+      map[key].count++;
+    }
+    return Object.values(map).sort((a,b) => b.count - a.count);
+  }, [events]);
+
+  const filtered = useMemo(() => {
+    if (!selected) return [];
+    return events.filter(e => e.artist.toLowerCase() === selected.toLowerCase());
+  }, [events, selected]);
+
+  return React.createElement("div", null,
+    // Artist selector
+    React.createElement("div", {style:{marginBottom:"16px", display:"flex", flexWrap:"wrap", gap:"6px"}},
+      ...artists.map(a => React.createElement("button", {
+        key:a.name,
+        onClick:()=>setSelected(a.name),
+        style:{
+          padding:"4px 12px", borderRadius:"14px", border:"none", cursor:"pointer",
+          fontFamily:"'Barlow Condensed'", fontSize:"16px", fontWeight:600,
+          background: selected===a.name ? "rgba(255,255,255,0.25)" : "rgba(255,255,255,0.08)",
+          color: selected===a.name ? C.white : C.mid,
+        }
+      }, `${a.name} (${a.count})`))
+    ),
+    // Events for selected artist
+    selected && filtered.length > 0 && React.createElement("div", null,
+      ...filtered.map(ev => React.createElement(EventRow, {
+        key:ev.id, event:ev, going, toggleGoing, favArtists, hasReleases, networkArtists
+      }))
+    ),
+    selected && filtered.length === 0 && React.createElement("div", {style:{
+      color:C.soft, padding:"20px", textAlign:"center"
+    }}, "Keine Events"),
+  );
+}
+
+// ─── NEAR ME VIEW ─────────────────────────────
+function NearMeView({events, going, toggleGoing, favArtists, hasReleases, networkArtists}) {
+  const [location, setLocation] = useState(null);
+  const [locationInput, setLocationInput] = useState("");
+  const [radius, setRadius] = useState(250);
+  const [sortBy, setSortBy] = useState("distance");
+  const [geoStatus, setGeoStatus] = useState("");
+
+  // Known cities for manual input
+  const CITIES = {
+    "lisbon":{lat:38.722,lon:-9.139},"lisboa":{lat:38.722,lon:-9.139},
+    "lissabon":{lat:38.722,lon:-9.139},"porto":{lat:41.158,lon:-8.629},
+    "faro":{lat:37.019,lon:-7.93},"berlin":{lat:52.52,lon:13.405},
+    "amsterdam":{lat:52.37,lon:4.895},"london":{lat:51.507,lon:-0.128},
+    "paris":{lat:48.857,lon:2.352},"barcelona":{lat:41.389,lon:2.159},
+    "madrid":{lat:40.417,lon:-3.704},"sevilla":{lat:37.389,lon:-5.984},
+    "marseille":{lat:43.297,lon:5.381},"münchen":{lat:48.135,lon:11.582},
+    "munich":{lat:48.135,lon:11.582},"zürich":{lat:47.377,lon:8.54},
+    "zurich":{lat:47.377,lon:8.54},"rom":{lat:41.902,lon:12.496},
+    "rome":{lat:41.902,lon:12.496},"bukarest":{lat:44.426,lon:26.102},
+    "bucharest":{lat:44.426,lon:26.102},"cluj":{lat:46.77,lon:23.59},
+    "tbilisi":{lat:41.693,lon:44.802},"santiago":{lat:-33.449,lon:-70.669},
+    "são paulo":{lat:-23.551,lon:-46.634},"mexico city":{lat:19.433,lon:-99.133},
+    "new york":{lat:40.713,lon:-74.006},"nyc":{lat:40.713,lon:-74.006},
+    "tokyo":{lat:35.676,lon:139.65},"ibiza":{lat:38.907,lon:1.432},
+  };
+
+  const useGPS = () => {
+    setGeoStatus("Suche GPS...");
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        setLocation({lat:pos.coords.latitude, lon:pos.coords.longitude});
+        setGeoStatus(`GPS: ${pos.coords.latitude.toFixed(2)}, ${pos.coords.longitude.toFixed(2)}`);
+      },
+      err => setGeoStatus("GPS nicht verfügbar"),
+      {enableHighAccuracy:true, timeout:10000}
+    );
+  };
+
+  const setCity = () => {
+    const key = locationInput.toLowerCase().trim();
+    if (CITIES[key]) {
+      setLocation(CITIES[key]);
+      setGeoStatus(`📍 ${locationInput}`);
+    } else {
+      // Try parsing as "lat,lon"
+      const parts = key.split(",").map(Number);
+      if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+        setLocation({lat:parts[0], lon:parts[1]});
+        setGeoStatus(`📍 ${parts[0].toFixed(2)}, ${parts[1].toFixed(2)}`);
+      } else {
+        setGeoStatus("Stadt nicht erkannt — versuche Koordinaten (z.B. 38.7,-9.1)");
+      }
+    }
+  };
+
+  const nearby = useMemo(() => {
+    if (!location) return [];
+    return events
+      .filter(e => e.latitude && e.longitude)
+      .map(e => ({
+        ...e,
+        distance: haversine(location.lat, location.lon, e.latitude, e.longitude)
+      }))
+      .filter(e => e.distance <= radius)
+      .sort((a,b) => sortBy==="distance" ? a.distance-b.distance : a.date.localeCompare(b.date));
+  }, [events, location, radius, sortBy]);
+
+  return React.createElement("div", null,
+    // Controls
+    React.createElement("div", {style:{
+      display:"flex", gap:"12px", alignItems:"center", flexWrap:"wrap",
+      marginBottom:"16px", padding:"12px", background:"rgba(0,0,0,0.15)", borderRadius:"8px"
+    }},
+      // GPS button
+      React.createElement("button", {
+        onClick:useGPS,
+        style:{
+          padding:"8px 16px", borderRadius:"6px", border:"none", cursor:"pointer",
+          background:C.accent, color:C.bgDeep, fontWeight:700, fontSize:"15px",
+          fontFamily:"'Barlow Condensed'",
+        }
+      }, "📡 GPS"),
+      // City input
+      React.createElement("input", {
+        value:locationInput,
+        onChange:e=>setLocationInput(e.target.value),
+        onKeyDown:e=>{if(e.key==="Enter")setCity()},
+        placeholder:"Stadt oder Koordinaten...",
+        style:{
+          padding:"8px 12px", borderRadius:"6px", border:`1px solid ${C.ghost}`,
+          background:"rgba(0,0,0,0.2)", color:C.white, fontSize:"16px",
+          fontFamily:"'Barlow'", width:"200px", outline:"none"
+        }
+      }),
+      React.createElement("button", {
+        onClick:setCity,
+        style:{
+          padding:"8px 12px", borderRadius:"6px", border:`1px solid ${C.ghost}`,
+          background:"transparent", color:C.mid, cursor:"pointer", fontSize:"14px"
+        }
+      }, "SETZEN"),
+      // Radius slider
+      React.createElement("div", {style:{display:"flex", alignItems:"center", gap:"8px"}},
+        React.createElement("span", {style:{color:C.soft, fontSize:"14px"}}, "Umkreis:"),
+        ...[50,100,250,500,1000].map(r =>
+          React.createElement("button", {
+            key:r,
+            onClick:()=>setRadius(r),
+            style:{
+              padding:"4px 8px", borderRadius:"4px", border:"none", cursor:"pointer",
+              fontFamily:"'Barlow Condensed'", fontSize:"14px", fontWeight:600,
+              background: radius===r ? "rgba(255,255,255,0.2)" : "transparent",
+              color: radius===r ? C.white : C.soft,
+            }
+          }, `${r}km`)
+        ),
+      ),
+      // Sort
+      React.createElement("div", {style:{display:"flex", alignItems:"center", gap:"6px"}},
+        React.createElement("span", {style:{color:C.soft, fontSize:"14px"}}, "Sort:"),
+        React.createElement("button", {
+          onClick:()=>setSortBy("distance"),
+          style:{
+            padding:"4px 8px", border:"none", cursor:"pointer", borderRadius:"4px",
+            background: sortBy==="distance" ? "rgba(255,255,255,0.15)" : "transparent",
+            color: sortBy==="distance" ? C.white : C.soft, fontSize:"13px",
+            fontFamily:"'Barlow Condensed'"
+          }
+        }, "ENTFERNUNG"),
+        React.createElement("button", {
+          onClick:()=>setSortBy("date"),
+          style:{
+            padding:"4px 8px", border:"none", cursor:"pointer", borderRadius:"4px",
+            background: sortBy==="date" ? "rgba(255,255,255,0.15)" : "transparent",
+            color: sortBy==="date" ? C.white : C.soft, fontSize:"13px",
+            fontFamily:"'Barlow Condensed'"
+          }
+        }, "DATUM"),
+      ),
+      // Status
+      React.createElement("span", {style:{color:C.soft, fontSize:"14px"}}, geoStatus),
+    ),
+
+    // Results
+    !location && React.createElement("div", {style:{
+      textAlign:"center", padding:"60px", color:C.soft, fontSize:"18px"
+    }}, "Setze deinen Standort per GPS oder Stadtnamen"),
+
+    location && nearby.length === 0 && React.createElement("div", {style:{
+      textAlign:"center", padding:"40px", color:C.soft, fontSize:"18px"
+    }}, `Keine Events im Umkreis von ${radius}km`),
+
+    ...nearby.map(ev => React.createElement("div", {
+      key:ev.id, className:"row-hover",
+      style:{
+        display:"flex", alignItems:"center", gap:"12px",
+        padding:"10px 12px", borderBottom:`1px solid rgba(255,255,255,0.06)`,
+      }
+    },
+      // Distance
+      React.createElement("span", {style:{
+        width:"70px", flexShrink:0, fontFamily:"'Barlow Condensed'",
+        fontSize:"18px", fontWeight:700, color:C.accent, textAlign:"right"
+      }}, `${Math.round(ev.distance)}km`),
+      // Rest of the row (reuse EventRow logic inline)
+      React.createElement("span", {style:{
+        width:"100px", fontFamily:"'Barlow Condensed'", fontSize:"15px",
+        color:ev.distance<=50?C.green:ev.distance<=200?C.yellow:C.soft
+      }}, new Date(ev.date).toLocaleDateString("de-DE",{day:"numeric",month:"short"})),
+      React.createElement("span", {className:"r", style:{
+        flex:1, fontSize:"18px", fontWeight:700, color:C.hi, fontFamily:"'Barlow Condensed'"
+      }}, ev.artist),
+      React.createElement("span", {style:{flex:1, fontSize:"14px", color:C.mid}}, ev.venue),
+      React.createElement("span", {style:{fontSize:"14px", color:C.soft}}, `${FLAGS[ev.country]||""} ${ev.city}`),
+      ev.url && React.createElement("a", {
+        href:ev.url, target:"_blank",
+        style:{fontSize:"13px", color:C.accent, textDecoration:"none",
+               padding:"3px 8px", borderRadius:"4px", border:`1px solid ${C.accent}`}
+      }, "→"),
+      React.createElement("button", {
+        onClick:()=>generateICS(ev),
+        style:{background:"transparent", border:`1px solid ${C.ghost}`, borderRadius:"4px",
+               color:C.soft, cursor:"pointer", padding:"3px 6px", fontSize:"12px"}
+      }, "📅"),
+    )),
+  );
+}
+
+// ─── FILTER BAR ───────────────────────────────
+function FilterBar({filter, setFilter}) {
+  return React.createElement("div", {style:{
+    display:"flex", gap:"8px", alignItems:"center", marginBottom:"12px", flexWrap:"wrap"
+  }},
+    React.createElement("span", {style:{
+      fontFamily:"'Barlow Condensed'", fontSize:"15px", color:C.soft, letterSpacing:"1px"
+    }}, "ZEITRAUM:"),
+    ...["all","week","month","3months"].map(f => React.createElement("button", {
+      key:f, onClick:()=>setFilter(f),
+      style:{
+        padding:"4px 12px", borderRadius:"4px", border:"none", cursor:"pointer",
+        fontFamily:"'Barlow Condensed'", fontSize:"14px", fontWeight:600,
+        background: filter===f ? "rgba(255,255,255,0.2)" : "transparent",
+        color: filter===f ? C.white : C.soft,
+      }
+    }, f==="all"?"ALLE":f==="week"?"DIESE WOCHE":f==="month"?"DIESER MONAT":"3 MONATE")),
+    // Search
+    React.createElement("input", {
+      placeholder:"Suche Artist, Venue, Stadt...",
+      style:{
+        marginLeft:"auto", padding:"6px 12px", borderRadius:"6px",
+        border:`1px solid ${C.ghost}`, background:"rgba(0,0,0,0.15)",
+        color:C.white, fontSize:"15px", fontFamily:"'Barlow'",
+        width:"240px", outline:"none"
+      },
+      id:"event-search"
+    })
+  );
+}
+
+// ─── APP ──────────────────────────────────────
+function App() {
+  const [events, setEvents] = useState([]);
+  const [tab, setTab] = useState("TIMELINE");
+  const [timeFilter, setTimeFilter] = useState("all");
+  const [search, setSearch] = useState("");
+  const [going, setGoing] = useState(() => {
+    try { return new Set(JSON.parse(localStorage.getItem("v-events-going")||"[]")); }
+    catch { return new Set(); }
+  });
+
+  // Shared fav artists from release radar
+  const favArtists = useMemo(() => {
+    try {
+      const raw = localStorage.getItem("v-favs");
+      if (!raw) return new Set();
+      const parsed = JSON.parse(raw);
+      // favs is likely {releaseId: true}, we need artist names
+      // For now, just return empty — cross-linking needs shared format
+      return new Set();
+    } catch { return new Set(); }
+  }, []);
+
+  // Track which artists have releases
+  const [hasReleases, setHasReleases] = useState(new Set());
+  const [networkArtists, setNetworkArtists] = useState(new Set());
+
+  // Load events
+  useEffect(() => {
+    const load = () => {
+      fetch(`events.json?t=${Date.now()}`)
+        .then(r => r.ok ? r.json() : [])
+        .then(data => {
+          if (Array.isArray(data)) setEvents(data);
+        })
+        .catch(() => {});
+    };
+    load();
+    const iv = setInterval(load, 60000); // Refresh every 60s
+    return () => clearInterval(iv);
+  }, []);
+
+  // Load releases for cross-linking
+  useEffect(() => {
+    fetch("releases.json?t=" + Date.now())
+      .then(r => r.ok ? r.json() : [])
+      .then(data => {
+        if (Array.isArray(data)) {
+          const artists = new Set(data.map(r => (r.artist||"").toLowerCase()));
+          setHasReleases(artists);
+        }
+      })
+      .catch(() => {});
+  }, []);
+
+  // Load network artists
+  useEffect(() => {
+    fetch("network_data.json?t=" + Date.now())
+      .then(r => r.ok ? r.json() : {})
+      .then(data => {
+        const arts = new Set();
+        if (data.artists) {
+          for (const v of Object.values(data.artists)) {
+            if (v.name) arts.add(v.name.toLowerCase());
+          }
+        }
+        setNetworkArtists(arts);
+      })
+      .catch(() => {});
+  }, []);
+
+  // Save going state
+  useEffect(() => {
+    localStorage.setItem("v-events-going", JSON.stringify([...going]));
+  }, [going]);
+
+  const toggleGoing = useCallback(id => {
+    setGoing(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  }, []);
+
+  // Filter events by time
+  const filtered = useMemo(() => {
+    const now = new Date();
+    let cutoff = null;
+    if (timeFilter === "week") cutoff = new Date(now.getTime() + 7*86400000);
+    else if (timeFilter === "month") cutoff = new Date(now.getFullYear(), now.getMonth()+1, 0);
+    else if (timeFilter === "3months") cutoff = new Date(now.getTime() + 90*86400000);
+
+    return events.filter(e => {
+      const d = new Date(e.date);
+      if (d < now) return false;
+      if (cutoff && d > cutoff) return false;
+      return true;
+    });
+  }, [events, timeFilter]);
+
+  // "Near me" count
+  const nearCount = 0; // placeholder
+
+  // Search from FilterBar
+  useEffect(() => {
+    const el = document.getElementById("event-search");
+    if (!el) return;
+    const handler = e => setSearch(e.target.value);
+    el.addEventListener("input", handler);
+    return () => el.removeEventListener("input", handler);
+  }, [tab]);
+
+  return React.createElement("div", {style:{
+    background:`linear-gradient(155deg,${C.bgDeep} 0%,${C.bg} 30%,${C.bgLight} 50%,${C.amber}88 70%,${C.bg} 85%,${C.indigo}88 100%)`,
+    color:C.white, minHeight:"100vh", position:"relative",
+  }},
+
+    // ── PAINTED BG — identical technique to release_radar, night palette ──
+    React.createElement("div", {style:{position:"fixed",inset:0,pointerEvents:"none",zIndex:0,overflow:"hidden"}},
+      // Two big base radial glows — deep petrol/teal
+      React.createElement("div", {style:{position:"absolute",inset:0,background:"radial-gradient(ellipse 120% 80% at 30% 20%,#2a4858 0%,transparent 60%),radial-gradient(ellipse 100% 120% at 70% 80%,#1e3848 0%,transparent 55%)"}}),
+      // Amber lantern streak — top right, diagonal
+      React.createElement("div", {style:{position:"absolute",width:"110vw",height:"45vh",top:"-8%",right:"-30%",background:`linear-gradient(110deg,transparent 5%,${C.amber}dd 20%,${C.amber}bb 45%,${C.amber}66 65%,transparent 80%)`,filter:"blur(18px)",transform:"rotate(-18deg) skewX(-5deg)"}}),
+      // Second amber glow — softer, mid-left
+      React.createElement("div", {style:{position:"absolute",width:"60vw",height:"35vh",top:"8%",left:"15%",background:`linear-gradient(85deg,transparent 10%,${C.amber}99 30%,${C.amber}55 60%,transparent 85%)`,filter:"blur(25px)",transform:"rotate(-8deg)"}}),
+      // Indigo blob — large, left side
+      React.createElement("div", {style:{position:"absolute",width:"65vw",height:"55vh",top:"25%",left:"-5%",background:`radial-gradient(ellipse 70% 90% at 45% 50%,${C.indigo}cc 0%,${C.indigo}44 55%,transparent 75%)`,filter:"blur(15px)",transform:"rotate(5deg)",borderRadius:"30% 60% 40% 50%/50% 30% 60% 40%"}}),
+      // Teal haze — upper left
+      React.createElement("div", {style:{position:"absolute",width:"40vw",height:"30vh",top:"15%",left:"10%",background:`radial-gradient(ellipse 80% 60%,${C.teal}bb 0%,${C.teal}55 40%,transparent 70%)`,filter:"blur(12px)",borderRadius:"55% 45% 50% 50%/45% 55% 45% 55%",transform:"rotate(-12deg)"}}),
+      // Horizontal dusk band — mid page
+      React.createElement("div", {style:{position:"absolute",width:"130vw",height:"20vh",top:"50%",left:"-15%",background:`linear-gradient(92deg,transparent 8%,${C.dusk}88 18%,${C.slate}66 35%,transparent 70%)`,filter:"blur(20px)",transform:"rotate(-2deg)"}}),
+      // Lower amber glow — bottom left
+      React.createElement("div", {style:{position:"absolute",width:"45vw",height:"35vw",top:"65%",left:"0%",background:`radial-gradient(circle,${C.amber}99 0%,transparent 65%)`,filter:"blur(18px)",borderRadius:"45% 55% 50% 50%/55% 45% 55% 45%"}}),
+      // Dark vignette — bottom right
+      React.createElement("div", {style:{position:"absolute",width:"25vw",height:"25vw",top:"68%",right:"12%",background:"radial-gradient(circle,rgba(15,25,35,0.55) 0%,transparent 65%)",filter:"blur(15px)",borderRadius:"50% 40% 60% 40%"}}),
+      // Dark vignette — top right
+      React.createElement("div", {style:{position:"absolute",width:"18vw",height:"22vw",top:"3%",right:"3%",background:"radial-gradient(circle,rgba(10,20,30,0.45) 0%,transparent 55%)",filter:"blur(12px)"}}),
+      // Tiny warm highlights — like distant window lights
+      ...[{t:"20%",r:"8%",s:"8vw",o:0.35},{t:"25%",r:"12%",s:"5vw",o:0.25},{t:"22%",r:"5%",s:"6vw",o:0.2}].map((d,i) =>
+        React.createElement("div", {key:`hl${i}`, style:{position:"absolute",width:d.s,height:d.s,top:d.t,right:d.r,background:`radial-gradient(circle,rgba(210,180,140,${d.o}) 0%,transparent 60%)`,filter:`blur(${3+i}px)`,borderRadius:"50%"}})
+      ),
+      // Grain — fractal noise, multiply blend
+      React.createElement("div", {className:"rg", style:{position:"absolute",inset:0,backgroundImage:'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 512 512\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'n\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.7\' numOctaves=\'5\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23n)\' opacity=\'0.14\'/%3E%3C/svg%3E")',backgroundRepeat:"repeat",backgroundSize:"256px",mixBlendMode:"multiply"}}),
+      // Second noise layer — overlay
+      React.createElement("div", {style:{position:"absolute",inset:0,backgroundImage:'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 256 256\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'g\'%3E%3CfeTurbulence type=\'turbulence\' baseFrequency=\'1.1\' numOctaves=\'3\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23g)\' opacity=\'0.1\'/%3E%3C/svg%3E")',backgroundRepeat:"repeat",backgroundSize:"128px",mixBlendMode:"overlay"}}),
+    ),
+
+    // ── CONTENT ──
+    React.createElement("div", {style:{position:"relative",zIndex:1,maxWidth:"min(1600px, 96vw)",margin:"0 auto",padding:"20px 24px"}},
+
+      // Header — risograph style
+      React.createElement("div", {style:{padding:"48px 0 20px",marginLeft:"60px"}},
+        React.createElement("div", {className:"rw", style:{fontFamily:F,fontWeight:600,fontSize:"14px",color:C.soft,letterSpacing:"0.3em",textTransform:"uppercase",textShadow:"2px 1px 0 rgba(30,40,56,0.4)"}}, "VALENTINA"),
+        React.createElement("h1", {className:"rb", style:{fontFamily:F,fontWeight:900,fontSize:"clamp(52px,12vw,100px)",letterSpacing:"0.02em",lineHeight:0.88,margin:"4px 0 0",textTransform:"uppercase",textShadow:"3px 2px 0 rgba(30,40,56,0.5),-2px -1px 0 rgba(196,154,108,0.2)"}}, "EVENT", React.createElement("br"), "RADAR"),
+      ),
+
+      React.createElement(NavBar),
+      React.createElement(StatsBar, {events:filtered, nearCount}),
+      React.createElement(TabBar, {active:tab, onChange:setTab}),
+      React.createElement(FilterBar, {filter:timeFilter, setFilter:setTimeFilter}),
+
+      // Tab content
+      tab === "TIMELINE" && React.createElement(TimelineView, {
+        events:filtered, going, toggleGoing, favArtists, hasReleases, networkArtists, search
+      }),
+      tab === "MAP" && React.createElement(MapView, {
+        events:filtered, going, toggleGoing
+      }),
+      tab === "BY ARTIST" && React.createElement(ByArtistView, {
+        events:filtered, going, toggleGoing, favArtists, hasReleases, networkArtists
+      }),
+      tab === "NEAR ME" && React.createElement(NearMeView, {
+        events:filtered, going, toggleGoing, favArtists, hasReleases, networkArtists
+      }),
+
+      // Footer
+      React.createElement("div", {className:"r", style:{
+        textAlign:"center", padding:"30px", color:C.ghost, fontSize:"14px",
+        fontFamily:F, letterSpacing:"2px"
+      }}, "VALENTINA EVENT RADAR — FOR MARIO'S NOMADIC ADVENTURES"),
+    )
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(React.createElement(App));
+</script>
+</body>
+</html>
