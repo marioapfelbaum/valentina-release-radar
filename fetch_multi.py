@@ -46,7 +46,21 @@ if _env_path.exists():
 from sources.beatport import BeatportFetcher
 from sources.bandcamp import BandcampFetcher
 from sources.spotify_source import SpotifyFetcher
+from sources.discogs_source import DiscogsFetcher
 from sources.genre_map import BEATPORT_GENRE_MAP
+
+# Optional scrapers — import only when needed (require beautifulsoup4)
+def _import_hardwax():
+    from sources.hardwax import HardwaxFetcher
+    return HardwaxFetcher
+
+def _import_boomkat():
+    from sources.boomkat import BoomkatFetcher
+    return BoomkatFetcher
+
+def _import_juno():
+    from sources.juno import JunoFetcher
+    return JunoFetcher
 
 # --- CONFIG ---
 OUTPUT_FILE = "releases.json"
@@ -334,7 +348,8 @@ def are_duplicates(r1, r2):
 
 
 # Source priority for merging (higher = preferred)
-SOURCE_PRIORITY = {"beatport": 4, "discogs": 3, "bandcamp": 2, "spotify": 1}
+SOURCE_PRIORITY = {"hardwax": 6, "boomkat": 5, "beatport": 4, "discogs": 4,
+                   "bandcamp": 3, "juno": 3, "spotify": 2}
 
 
 def merge_duplicates(releases):
@@ -513,9 +528,42 @@ def run(args):
             "timestamp": datetime.now().isoformat(),
         })
 
-    # ─── Phase 3: Spotify Per-Artist ──────────────────
+    # ─── Phase 3: Discogs Label + Artist Fetch ────────
+    if "discogs" in sources and not _shutdown:
+        print("▶ Phase 3: Discogs Label + Artist Fetch")
+        dc = DiscogsFetcher()
+        if dc.available:
+            # Load network data
+            network_path = Path(__file__).parent / NETWORK_FILE
+            if network_path.exists():
+                with open(network_path) as f:
+                    network_data = json.load(f)
+                # Load reference lists
+                ref_labels_list = list(_get_reference_labels())
+                ref_artists_path = Path(__file__).parent / REFERENCE_ARTISTS_FILE
+                ref_artists_list = []
+                if ref_artists_path.exists():
+                    ref_artists_list = [l.strip() for l in ref_artists_path.read_text().splitlines()
+                                        if l.strip() and not l.startswith("#")]
+                dc_releases = dc.fetch_for_network(
+                    network_data, ref_labels_list, ref_artists_list,
+                    cutoff, max_labels=args.limit or 50,
+                    max_artists=args.limit or 30
+                )
+                all_new_releases.extend(dc_releases)
+            else:
+                print("  ⚠ No network_data.json found")
+        print()
+
+        save_checkpoint({
+            "phase": "discogs_done",
+            "releases_count": len(all_new_releases),
+            "timestamp": datetime.now().isoformat(),
+        })
+
+    # ─── Phase 4: Spotify Per-Artist ──────────────────
     if "spotify" in sources and not args.browse_only and not _shutdown:
-        print("▶ Phase 3: Spotify Per-Artist Fetch")
+        print("▶ Phase 4: Spotify Per-Artist Fetch")
         sp = SpotifyFetcher()
         if sp.available:
             artists = load_network_artists()
@@ -530,17 +578,60 @@ def run(args):
                 print("  ⚠ No artists found in network_data.json")
         print()
 
-    # ─── Phase 4: Deduplicate ─────────────────────────
+    # ─── Phase 5: Curated Shop Scrapers ────────────────
+    if "hardwax" in sources and not _shutdown:
+        print("▶ Phase 5a: Hardwax Scraper")
+        try:
+            HardwaxFetcher = _import_hardwax()
+            hw = HardwaxFetcher(rate_limit=2.0)
+            hw_releases = hw.fetch_all(cutoff, max_pages=args.limit or 3)
+            all_new_releases.extend(hw_releases)
+            print(f"  ✓ Hardwax: {len(hw_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Hardwax skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Hardwax error: {e}")
+        print()
+
+    if "boomkat" in sources and not _shutdown:
+        print("▶ Phase 5b: Boomkat Scraper")
+        try:
+            BoomkatFetcher = _import_boomkat()
+            bk = BoomkatFetcher(rate_limit=2.0)
+            bk_releases = bk.fetch_all(cutoff, max_pages=args.limit or 3)
+            all_new_releases.extend(bk_releases)
+            print(f"  ✓ Boomkat: {len(bk_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Boomkat skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Boomkat error: {e}")
+        print()
+
+    if "juno" in sources and not _shutdown:
+        print("▶ Phase 5c: Juno Scraper")
+        try:
+            JunoFetcher = _import_juno()
+            jn = JunoFetcher(rate_limit=2.0)
+            jn_releases = jn.fetch_all(cutoff, max_pages=args.limit or 3)
+            all_new_releases.extend(jn_releases)
+            print(f"  ✓ Juno: {len(jn_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Juno skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Juno error: {e}")
+        print()
+
+    # ─── Phase 6: Deduplicate ─────────────────────────
     if not _shutdown:
-        print(f"▶ Phase 4: Deduplication")
+        print(f"▶ Phase 6: Deduplication")
         print(f"  Before: {len(all_new_releases)} releases")
         unique_new = merge_duplicates(all_new_releases)
         print(f"  After:  {len(unique_new)} unique releases")
         print()
 
-    # ─── Phase 5: Merge with existing ─────────────────
+    # ─── Phase 7: Merge with existing ─────────────────
     if not _shutdown:
-        print(f"▶ Phase 5: Merge with existing releases.json")
+        print(f"▶ Phase 7: Merge with existing releases.json")
         existing = load_existing_releases()
 
         # Tag existing Discogs releases with source if missing
@@ -558,6 +649,15 @@ def run(args):
         final = merge_duplicates(combined)
         print(f"  Final:    {len(final)} releases (net +{len(final) - len(existing)})")
 
+        # Quality scoring
+        try:
+            from quality_score import score_all_releases, print_score_summary
+            print(f"\n▶ Phase 8: Quality Scoring")
+            final = score_all_releases(final, str(Path(__file__).parent))
+            print_score_summary(final)
+        except ImportError:
+            print("  ⚠ quality_score.py not found, skipping scoring")
+
         save_releases(final)
 
     # Cleanup
@@ -567,8 +667,8 @@ def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description="Valentina Multi-Source Release Fetcher")
-    parser.add_argument("--sources", default="bandcamp,spotify",
-                        help="Comma-separated sources: beatport,bandcamp,spotify,discogs (default: bandcamp,spotify)")
+    parser.add_argument("--sources", default="bandcamp,spotify,discogs,hardwax,boomkat,juno",
+                        help="Comma-separated sources: beatport,bandcamp,spotify,discogs,hardwax,boomkat,juno (default: all active)")
     parser.add_argument("--months", type=int, default=6,
                         help="Look back N months (default: 6)")
     parser.add_argument("--browse-only", action="store_true",

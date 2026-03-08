@@ -77,11 +77,12 @@ jobs:
 
       - name: Fetch releases
         env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: |
           python fetch_multi.py \
-            --sources bandcamp,spotify \
+            --sources bandcamp,spotify,discogs,hardwax,boomkat,juno \
             --months 6
 
       - name: Commit updated releases
