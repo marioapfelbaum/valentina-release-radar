@@ -937,7 +937,10 @@
     "discogs_url": "",
     "bpm": null,
     "catalog_number": null,
-    "format": ""
+    "format": "",
+    "source_urls": {
+      "bandcamp": "https://mulemusiq.bandcamp.com/album/lds"
+    }
   },
   {
     "id": "94330a0c",
