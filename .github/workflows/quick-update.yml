@@ -31,7 +31,7 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: |
           python fetch_multi.py \
-            --sources beatport,bandcamp \
+            --sources bandcamp,spotify \
             --months 6
 
       - name: Commit releases

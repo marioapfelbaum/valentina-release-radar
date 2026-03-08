@@ -44,6 +44,7 @@ class SpotifyFetcher(BaseSourceFetcher):
         self.available = bool(self.client_id and self.client_secret)
         self._session = requests.Session()
         self._token = None
+        self._rate_limited = False
         self._token_expires = 0
 
         if self.available:
@@ -84,6 +85,7 @@ class SpotifyFetcher(BaseSourceFetcher):
                 wait = int(resp.headers.get("Retry-After", 5))
                 if wait > 60:
                     print(f"    ⚠ Spotify rate limit too long ({wait}s), skipping")
+                    self._rate_limited = True
                     return None
                 print(f"    ⏳ Spotify rate limit, waiting {wait}s...")
                 time.sleep(wait)
@@ -194,6 +196,10 @@ class SpotifyFetcher(BaseSourceFetcher):
 
         all_releases = {}
         for i, artist in enumerate(artists):
+            if self._rate_limited:
+                print(f"  ⚠ Spotify: Rate Limit aktiv, überspringe restliche {len(artists) - i} Artists")
+                break
+
             name = artist.get("name", "")
             sp_id = artist.get("spotify_id")
             if not name:

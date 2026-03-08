@@ -567,8 +567,8 @@ def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description="Valentina Multi-Source Release Fetcher")
-    parser.add_argument("--sources", default="beatport,bandcamp,spotify",
-                        help="Comma-separated sources: beatport,bandcamp,spotify,discogs (default: all)")
+    parser.add_argument("--sources", default="bandcamp,spotify",
+                        help="Comma-separated sources: beatport,bandcamp,spotify,discogs (default: bandcamp,spotify)")
     parser.add_argument("--months", type=int, default=6,
                         help="Look back N months (default: 6)")
     parser.add_argument("--browse-only", action="store_true",
