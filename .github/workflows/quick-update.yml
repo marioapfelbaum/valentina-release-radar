@@ -3,6 +3,9 @@ name: Quick Update (Fetch + Deploy)
 on:
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 concurrency:
   group: update-radar
   cancel-in-progress: false
