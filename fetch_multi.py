@@ -49,7 +49,7 @@ from sources.spotify_source import SpotifyFetcher
 from sources.discogs_source import DiscogsFetcher
 from sources.genre_map import BEATPORT_GENRE_MAP
 
-# Optional scrapers — import only when needed (require beautifulsoup4)
+# Optional scrapers — import only when needed (require beautifulsoup4 / cloudscraper)
 def _import_hardwax():
     from sources.hardwax import HardwaxFetcher
     return HardwaxFetcher
@@ -61,6 +61,14 @@ def _import_boomkat():
 def _import_juno():
     from sources.juno import JunoFetcher
     return JunoFetcher
+
+def _import_clone():
+    from sources.clone import CloneFetcher
+    return CloneFetcher
+
+def _import_rushhour():
+    from sources.rushhour import RushHourFetcher
+    return RushHourFetcher
 
 # --- CONFIG ---
 OUTPUT_FILE = "releases.json"
@@ -348,7 +356,8 @@ def are_duplicates(r1, r2):
 
 
 # Source priority for merging (higher = preferred)
-SOURCE_PRIORITY = {"hardwax": 6, "boomkat": 5, "beatport": 4, "discogs": 4,
+SOURCE_PRIORITY = {"hardwax": 6, "boomkat": 5, "clone": 5, "rushhour": 5,
+                   "beatport": 4, "discogs": 4,
                    "bandcamp": 3, "juno": 3, "spotify": 2}
 
 
@@ -621,6 +630,34 @@ def run(args):
             print(f"  ⚠ Juno error: {e}")
         print()
 
+    if "clone" in sources and not _shutdown:
+        print("▶ Phase 5d: Clone.nl RSS")
+        try:
+            CloneFetcher = _import_clone()
+            cl = CloneFetcher(rate_limit=2.0)
+            cl_releases = cl.fetch_all(cutoff)
+            all_new_releases.extend(cl_releases)
+            print(f"  ✓ Clone: {len(cl_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Clone skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Clone error: {e}")
+        print()
+
+    if "rushhour" in sources and not _shutdown:
+        print("▶ Phase 5e: Rush Hour RSS")
+        try:
+            RushHourFetcher = _import_rushhour()
+            rh = RushHourFetcher(rate_limit=2.0)
+            rh_releases = rh.fetch_all(cutoff)
+            all_new_releases.extend(rh_releases)
+            print(f"  ✓ Rush Hour: {len(rh_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Rush Hour skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Rush Hour error: {e}")
+        print()
+
     # ─── Phase 6: Deduplicate ─────────────────────────
     if not _shutdown:
         print(f"▶ Phase 6: Deduplication")
@@ -667,8 +704,8 @@ def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description="Valentina Multi-Source Release Fetcher")
-    parser.add_argument("--sources", default="bandcamp,spotify,discogs,hardwax,boomkat,juno",
-                        help="Comma-separated sources: beatport,bandcamp,spotify,discogs,hardwax,boomkat,juno (default: all active)")
+    parser.add_argument("--sources", default="bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour",
+                        help="Comma-separated sources: beatport,bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour (default: all active)")
     parser.add_argument("--months", type=int, default=6,
                         help="Look back N months (default: 6)")
     parser.add_argument("--browse-only", action="store_true",

@@ -1,12 +1,13 @@
 """
 Juno source fetcher.
 Scrapes new releases from juno.co.uk with genre filtering.
-Uses curl fallback to bypass Cloudflare TLS fingerprinting.
+Uses cloudscraper to bypass Cloudflare TLS fingerprinting.
 Parses HTML with BeautifulSoup.
 
 Juno HTML structure (as of 2026):
 - Genre pages at /all/{genre-slug}/ or /{genre-slug}/
-- Product listings in <div class="product-list"> or similar containers
+- New releases at /new-releases/
+- Product listings with product links /products/
 - Each product has artist, title, label, cat#, format, BPM, genre
 - Pagination via ?page=N or /page-N/
 """
@@ -31,6 +32,11 @@ try:
 except ImportError:
     print("pip install requests")
     sys.exit(1)
+
+try:
+    import cloudscraper
+except ImportError:
+    cloudscraper = None
 
 from .base import BaseSourceFetcher
 from .genre_map import classify_genre
@@ -96,7 +102,11 @@ class JunoFetcher(BaseSourceFetcher):
         """
         super().__init__(rate_limit=rate_limit)
         self._genres = genres or list(DEFAULT_GENRES)
-        self._session = requests.Session()
+        # Use cloudscraper to bypass Cloudflare if available
+        if cloudscraper:
+            self._session = cloudscraper.create_scraper()
+        else:
+            self._session = requests.Session()
         self._session.headers.update(self.HEADERS)
         self._seen_ids = set()  # For deduplication
 
@@ -129,29 +139,31 @@ class JunoFetcher(BaseSourceFetcher):
             return ""
 
     def _fetch_page(self, url, timeout=25):
-        """Fetch a page, trying requests first, falling back to curl.
+        """Fetch a page via cloudscraper (bypasses Cloudflare).
 
+        Falls back to curl if cloudscraper is not installed.
         Returns empty string if Cloudflare challenge is detected.
-        Juno is behind Cloudflare as of March 2026 — simple HTTP
-        requests won't work without a headless browser.
         """
-        # Try requests first
+        # Try cloudscraper / requests session first
         try:
             resp = self._session.get(url, timeout=timeout)
-            resp.raise_for_status()
             html = resp.text
-            # Check for Cloudflare challenge
-            if "Just a moment" in html or "challenge-platform" in html:
-                raise requests.RequestException("Cloudflare challenge")
-            return html
+            # Check for Cloudflare challenge (cloudscraper usually handles this)
+            if "Just a moment" in html[:2000] and "challenge-platform" in html[:5000]:
+                if not cloudscraper:
+                    # Only fail if we don't have cloudscraper
+                    raise requests.RequestException("Cloudflare challenge")
+            # Juno returns 404 for some valid pages but still has product content
+            if len(html) > 1000:
+                return html
         except requests.RequestException:
             pass
 
         # Fallback to curl
         html = self._curl_get(url, timeout=timeout)
 
-        # Check curl result for Cloudflare too
-        if html and ("Just a moment" in html or "challenge-platform" in html):
+        # Check curl result for Cloudflare
+        if html and "Just a moment" in html[:2000] and "challenge-platform" in html[:5000]:
             return ""
 
         return html
@@ -319,187 +331,153 @@ class JunoFetcher(BaseSourceFetcher):
         )
 
     def _parse_product_containers(self, soup, default_genre):
-        """Parse product container elements (Juno's primary layout)."""
+        """Parse product container elements.
+
+        Juno uses two layouts:
+        1. dv-item: Search/listing pages with artist/product/label links + pl-info div
+        2. jw-item: Genre pages with siblings (artist div, title a, label a, format span)
+        """
         releases = []
 
-        # Try various selectors Juno may use
-        selectors = [
-            "div.dv-item",
-            "div.product-item",
-            "div.product",
-            "div[data-product-id]",
-            "li.product",
-            "article.product",
-            "div.release",
-            "div.product_info",
-            "div.row.product",
-        ]
+        # Layout 1: dv-item (search/listing pages)
+        items = soup.select("div.dv-item")
+        if items:
+            for item in items:
+                rel = self._parse_single_product(item, default_genre)
+                if rel:
+                    releases.append(rel)
+            return releases
 
-        items = []
-        for selector in selectors:
-            items = soup.select(selector)
-            if items:
-                break
-
-        for item in items:
-            rel = self._parse_single_product(item, default_genre)
-            if rel:
-                releases.append(rel)
+        # Layout 2: jw-item (genre/category pages)
+        items = soup.select("div.jw-item")
+        if items:
+            for item in items:
+                rel = self._parse_jw_item(item, default_genre)
+                if rel:
+                    releases.append(rel)
+            return releases
 
         return releases
 
-    def _parse_single_product(self, item, default_genre):
-        """Parse a single product container element."""
-        # ── Artist ──
-        artist = ""
-        artist_selectors = [
-            ".product-artist a",
-            ".artist a",
-            ".juno-artist a",
-            "a.text-artist",
-            ".product_info_artist a",
-            "h3.product-artist",
-            ".product-title .artist",
-            "a[href*='/artists/']",
-        ]
-        for sel in artist_selectors:
-            el = item.select_one(sel)
-            if el:
-                artist = el.get_text(strip=True)
-                break
+    def _parse_jw_item(self, item, default_genre):
+        """Parse a jw-item container (genre page layout).
 
-        # ── Title ──
+        Structure: siblings within div.jw-item:
+          - div (text = artist name)
+          - a[href*='/products/'] (text = title, may also have format variant link)
+          - a[href*='/labels/'] (text = label)
+          - span (text = format like "12\"", "LP")
+        """
+        # Get all direct children
+        children = list(item.children)
+
+        artist = ""
         title = ""
-        title_selectors = [
-            ".product-title a",
-            ".title a",
-            ".juno-title a",
-            "a.text-title",
-            ".product_info_title a",
-            "h4.product-title",
-            ".product-title .title",
-            "a[href*='/products/']",
-        ]
-        for sel in title_selectors:
-            el = item.select_one(sel)
-            if el:
-                title = el.get_text(strip=True)
-                break
+        label = ""
+        url = ""
+        fmt = ""
+
+        for child in children:
+            if not hasattr(child, 'name') or not child.name:
+                continue
+
+            href = child.get("href", "") if child.name == "a" else ""
+            text = child.get_text(strip=True)
+
+            if child.name == "div" and text and not artist:
+                # Artist name (in a plain div, no href)
+                artist = text
+            elif child.name == "a" and "/products/" in href:
+                # Product link — could be title or format variant
+                if not self._is_format_description(text) and text:
+                    title = text
+                    url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+            elif child.name == "a" and "/labels/" in href:
+                label = text
+            elif child.name == "span" and text:
+                fmt = self._detect_format(text)
+
+        if not title or not artist:
+            return None
+
+        return self.make_release(
+            source="juno",
+            source_id=f"juno:{url or f'{artist}-{title}'}",
+            title=title,
+            artist=artist,
+            label=label,
+            genre=default_genre,
+            date=datetime.now().strftime("%Y-%m-%d"),
+            source_url=url,
+            format_type=fmt,
+        )
+
+    def _parse_single_product(self, item, default_genre):
+        """Parse a single product container element (div.dv-item).
+
+        Juno structure (as of 2026):
+          - Artist: a[href*='/artists/'] (may have multiple)
+          - Title: a[href*='/products/']
+          - Label: a[href*='/labels/']
+          - Info: div.pl-info contains format, catalog, release date as text
+        """
+        # ── Artist: combine all artist links ──
+        artist_links = item.select("a[href*='/artists/']")
+        if artist_links:
+            artist = ", ".join(a.get_text(strip=True) for a in artist_links if a.get_text(strip=True))
+        else:
+            artist = ""
+
+        # ── Title: from product link ──
+        title = ""
+        title_link = item.select_one("a[href*='/products/']")
+        if title_link:
+            title = title_link.get_text(strip=True)
 
         if not title and not artist:
             return None
 
         # ── Label ──
         label = ""
-        label_selectors = [
-            ".product-label a",
-            ".label a",
-            ".juno-label a",
-            "a.text-label",
-            ".product_info_label a",
-            "a[href*='/labels/']",
-        ]
-        for sel in label_selectors:
-            el = item.select_one(sel)
-            if el:
-                label = el.get_text(strip=True)
-                break
-
-        # ── Catalog Number ──
-        catalog = ""
-        cat_selectors = [
-            ".product-cat",
-            ".cat-number",
-            ".catalogue",
-            ".product_info_cat",
-            ".catno",
-        ]
-        for sel in cat_selectors:
-            el = item.select_one(sel)
-            if el:
-                catalog = el.get_text(strip=True)
-                break
+        label_link = item.select_one("a[href*='/labels/']")
+        if label_link:
+            label = label_link.get_text(strip=True)
 
         # ── URL ──
         url = ""
-        link = (
-            item.select_one("a[href*='/products/']")
-            or item.select_one("a.product-title")
-            or item.select_one("h4 a")
-            or item.select_one("a")
-        )
-        if link and link.get("href"):
-            url = link["href"]
+        if title_link and title_link.get("href"):
+            url = title_link["href"]
             if not url.startswith("http"):
                 url = f"{self.BASE_URL}{url}"
 
-        # ── Format ──
+        # ── Parse pl-info for catalog, format, date ──
+        catalog = ""
         fmt = ""
-        format_selectors = [
-            ".product-format",
-            ".format",
-            ".media-type",
-            ".product_info_format",
-        ]
-        for sel in format_selectors:
-            el = item.select_one(sel)
-            if el:
-                fmt = self._detect_format(el.get_text(strip=True))
-                break
-
-        # ── BPM ──
-        bpm = None
-        bpm_selectors = [".bpm", ".product-bpm", ".track-bpm"]
-        for sel in bpm_selectors:
-            el = item.select_one(sel)
-            if el:
-                bpm_text = el.get_text(strip=True)
-                bpm_match = re.search(r"(\d{2,3})", bpm_text)
-                if bpm_match:
-                    bpm_val = int(bpm_match.group(1))
-                    if 60 <= bpm_val <= 200:
-                        bpm = bpm_val
-                break
-
-        # ── Genre tags ──
-        genre_tags = []
-        genre_selectors = [
-            ".product-genre a",
-            ".genre a",
-            ".tags a",
-            ".product_info_genre a",
-        ]
-        for sel in genre_selectors:
-            els = item.select(sel)
-            if els:
-                genre_tags = [el.get_text(strip=True) for el in els]
-                break
-
-        genre = classify_genre(genre_tags) if genre_tags else default_genre
-
-        # ── Date ──
         date = ""
-        date_selectors = [".product-date", ".release-date", ".date"]
-        for sel in date_selectors:
-            el = item.select_one(sel)
-            if el:
-                date = self._parse_date(el.get_text(strip=True))
-                break
+        info_div = item.select_one("div.pl-info")
+        if info_div:
+            info_text = info_div.get_text(strip=True)
+
+            # Catalog: "Cat: XXX."
+            cat_match = re.search(r'Cat:\s*([^.]+)', info_text)
+            if cat_match:
+                catalog = cat_match.group(1).strip()
+
+            # Release date: "Rel: DD Mon YY"
+            rel_match = re.search(r'Rel:\s*(\d{1,2}\s+\w+\s+\d{2,4})', info_text)
+            if rel_match:
+                date = self._parse_date(rel_match.group(1))
+
+            # Format from parenthetical: (CD), (vinyl 12"), (2xLP), etc.
+            fmt_match = re.search(r'\(([^)]*(?:vinyl|LP|EP|CD|12"|7"|10"|cassette)[^)]*)\)', info_text, re.I)
+            if fmt_match:
+                fmt = self._detect_format(fmt_match.group(1))
+
         if not date:
             date = datetime.now().strftime("%Y-%m-%d")
 
-        # Try data attributes
-        for attr in ("data-product", "data-item"):
-            raw = item.get(attr)
-            if raw:
-                try:
-                    pdata = json.loads(raw)
-                    artist = artist or pdata.get("artist", "")
-                    title = title or pdata.get("title", pdata.get("name", ""))
-                    label = label or pdata.get("label", "")
-                    catalog = catalog or pdata.get("catno", "")
-                except (json.JSONDecodeError, TypeError):
-                    pass
+        # ── Genre ──
+        genre = default_genre
 
         # Parse "Artist - Title" if combined
         if not artist and title and " - " in title:
@@ -521,7 +499,6 @@ class JunoFetcher(BaseSourceFetcher):
             genre=genre,
             date=date,
             source_url=url,
-            bpm=bpm,
             catalog_number=catalog or None,
             format_type=fmt,
         )
@@ -614,6 +591,25 @@ class JunoFetcher(BaseSourceFetcher):
 
         return releases
 
+    @staticmethod
+    def _is_format_description(text):
+        """Check if text is a format/variant description rather than a title."""
+        if not text:
+            return True
+        t = text.lower().strip()
+        # Skip pure format descriptions like "HEAVYWEIGHT VINYL 2XLP", "RED VINYL 12""
+        format_patterns = [
+            r'^[\w\s]*(vinyl|gram)\s+\d*x?\d*(?:lp|12"|7"|10")',
+            r'^\d*x?\d*(?:lp|12"|7"|10"|cd)\b',
+            r'^(?:heavyweight|colou?red?|clear|transparent|splattered|marbled|gatefold)',
+            r'^\d+-sided\s+\d',
+            r'^(?:vinyl|cd|cassette|tape)\s*$',
+        ]
+        for pat in format_patterns:
+            if re.match(pat, t, re.I):
+                return True
+        return False
+
     def _parse_product_links(self, soup, default_genre):
         """Fallback: extract product info from links to /products/."""
         releases = []
@@ -633,6 +629,10 @@ class JunoFetcher(BaseSourceFetcher):
             if not text or len(text) < 3:
                 continue
 
+            # Skip format/variant descriptions
+            if self._is_format_description(text):
+                continue
+
             artist, title = "", text
             if " - " in text:
                 artist, title = text.split(" - ", 1)
@@ -644,7 +644,7 @@ class JunoFetcher(BaseSourceFetcher):
                 source="juno",
                 source_id=f"juno:{url}",
                 title=title.strip(),
-                artist=artist.strip() if artist else "Unknown",
+                artist=artist.strip() if artist else "",
                 label="",
                 genre=default_genre,
                 date=datetime.now().strftime("%Y-%m-%d"),
@@ -797,30 +797,19 @@ class JunoFetcher(BaseSourceFetcher):
         all_releases = []
 
         for page in range(1, max_pages + 1):
-            # Juno genre URLs: /all/{genre-slug}/ or /{genre-slug}/
-            url = f"{self.BASE_URL}/all/{genre_slug}/?page={page}"
+            # Juno genre URLs: /{genre-slug}/ (the working format as of 2026)
+            url = f"{self.BASE_URL}/{genre_slug}/?page={page}"
             print(f"  ▸ Juno: {genre_slug} page {page}")
 
             self._throttle()
             html = self._fetch_page(url)
 
-            if not html or "Just a moment" in html:
+            if not html or ("Just a moment" in html[:2000] and len(html) < 5000):
                 print(f"    ✗ Cloudflare challenge or empty response")
                 break
 
             soup = BeautifulSoup(html, "html.parser")
             releases = self._parse_products_page(html, default_genre=default_genre)
-
-            if not releases:
-                # Try alternate URL pattern
-                alt_url = f"{self.BASE_URL}/{genre_slug}/?page={page}"
-                self._throttle()
-                html = self._fetch_page(alt_url)
-                if html and "Just a moment" not in html:
-                    soup = BeautifulSoup(html, "html.parser")
-                    releases = self._parse_products_page(
-                        html, default_genre=default_genre
-                    )
 
             if not releases:
                 print(f"    → 0 releases")
@@ -873,10 +862,8 @@ class JunoFetcher(BaseSourceFetcher):
     def fetch_all(self, cutoff_date=None, max_pages=2):
         """Main entry point: fetch from all configured genres.
 
-        Note: As of March 2026, Juno is behind Cloudflare challenge pages.
-        Simple HTTP requests (requests + curl) can't bypass this.
-        The fetcher will gracefully return 0 releases until a headless
-        browser solution (e.g. cloudscraper, Playwright) is implemented.
+        Uses cloudscraper to bypass Cloudflare. Falls back gracefully
+        if Juno is completely inaccessible.
 
         Args:
             cutoff_date: datetime. Defaults to 90 days ago.
@@ -892,11 +879,18 @@ class JunoFetcher(BaseSourceFetcher):
 
         # Quick test: check if Juno is accessible
         print("  ── Juno: Checking accessibility ──")
-        test_html = self._fetch_page(f"{self.BASE_URL}/", timeout=10)
+        if not cloudscraper:
+            print("    ⚠ Juno: cloudscraper not installed (pip install cloudscraper)")
+            print("    Falling back to curl (may be blocked by Cloudflare)")
+        test_html = self._fetch_page(f"{self.BASE_URL}/new-releases/", timeout=15)
         if not test_html:
-            print("    ⚠ Juno: blocked by Cloudflare challenge — skipping")
-            print("    (requires headless browser to bypass, not yet implemented)")
+            print("    ⚠ Juno: blocked — skipping")
             return []
+        # Check if we got actual product content
+        if "products/" not in test_html:
+            print("    ⚠ Juno: no product content found — skipping")
+            return []
+        print("    ✓ Juno: accessible")
 
         # Fetch general new releases first
         print("  ── Juno: New Releases ──")
