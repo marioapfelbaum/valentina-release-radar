@@ -308,16 +308,25 @@ def similarity(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 
+def _normalize_catno(cat):
+    """Normalize catalog number for fuzzy matching.
+    Strips spaces, dashes, and trailing 'D' (digital variant)."""
+    import re
+    c = re.sub(r'[\s\-_]', '', cat.lower())
+    c = re.sub(r'd$', '', c)
+    return c
+
+
 def are_duplicates(r1, r2):
     """Check if two releases are the same across sources."""
     # Same source + same source_id = obvious duplicate
     if r1.get("source") == r2.get("source"):
         return r1["id"] == r2["id"]
 
-    # Strategy 1: Catalog number + label match
+    # Strategy 1: Catalog number + label match (normalized)
     cat1 = (r1.get("catalog_number") or "").strip()
     cat2 = (r2.get("catalog_number") or "").strip()
-    if cat1 and cat2 and cat1.lower() == cat2.lower():
+    if cat1 and cat2 and _normalize_catno(cat1) == _normalize_catno(cat2):
         lab1 = normalize_name(r1.get("label", ""))
         lab2 = normalize_name(r2.get("label", ""))
         if lab1 and lab2 and similarity(lab1, lab2) > 0.7:
@@ -332,11 +341,11 @@ def are_duplicates(r1, r2):
     if not artist1 or not artist2 or not title1 or not title2:
         return False
 
-    # Check date proximity (within 30 days)
+    # Check date proximity (within 60 days — shops list releases weeks after actual release date)
     try:
         d1 = datetime.strptime(r1["date"], "%Y-%m-%d")
         d2 = datetime.strptime(r2["date"], "%Y-%m-%d")
-        if abs((d1 - d2).days) > 30:
+        if abs((d1 - d2).days) > 60:
             return False
     except (ValueError, KeyError):
         pass
@@ -671,12 +680,14 @@ def run(args):
         print(f"▶ Phase 7: Merge with existing releases.json")
         existing = load_existing_releases()
 
-        # Tag existing Discogs releases with source if missing
+        # Tag existing releases with source/source_urls if missing
         for r in existing:
             if "source" not in r:
                 r["source"] = "discogs"
             if "source_url" not in r:
                 r["source_url"] = r.get("discogs_url", "")
+            if "source_urls" not in r:
+                r["source_urls"] = {r["source"]: r.get("source_url", "")}
 
         print(f"  Existing: {len(existing)} releases")
         print(f"  New:      {len(unique_new)} releases")

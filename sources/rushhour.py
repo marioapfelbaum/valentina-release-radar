@@ -34,10 +34,17 @@ except ImportError:
     print("pip install requests")
     sys.exit(1)
 
+try:
+    from bs4 import BeautifulSoup
+    HAS_BS4 = True
+except ImportError:
+    HAS_BS4 = False
+
 from .base import BaseSourceFetcher
 from .genre_map import classify_genre
 
 RSS_URL = "https://www.rushhour.nl/rss.xml"
+NEW_THIS_WEEK_URL = "https://www.rushhour.nl/new-this-week"
 
 
 class RushHourFetcher(BaseSourceFetcher):
@@ -209,6 +216,143 @@ class RushHourFetcher(BaseSourceFetcher):
 
         return datetime.now().strftime("%Y-%m-%d")
 
+    # ── HTML Scraping ────────────────────────────────────
+
+    def _fetch_html(self, url, timeout=25):
+        """Fetch an HTML page, trying requests first, falling back to curl."""
+        self._throttle()
+        try:
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                              "AppleWebKit/537.36",
+                "Accept": "text/html,application/xhtml+xml,*/*",
+            }
+            resp = requests.get(url, headers=headers, timeout=timeout)
+            if resp.status_code == 200:
+                return resp.text
+        except requests.RequestException:
+            pass
+
+        # Fallback to curl
+        try:
+            result = subprocess.run(
+                ["curl", "-s", "-L", "--max-time", str(timeout),
+                 "-H", "User-Agent: Mozilla/5.0",
+                 url],
+                capture_output=True, text=True, timeout=timeout + 10
+            )
+            return result.stdout
+        except (subprocess.TimeoutExpired, FileNotFoundError):
+            return ""
+
+    def _parse_html_listings(self, html, cutoff_str):
+        """Parse Rush Hour HTML listing page into release dicts.
+
+        Each record on /new-this-week has:
+          <div class="field-name-field-artist">ARTIST</div>
+          <div class="field-name-title"><h2>TITLE</h2></div>
+          <div class="field-name-field-label">LABEL</div>
+          <div class="field-name-field-genre">Tag: Genre</div>
+          Link: /record/vinyl/slug
+        """
+        if not html or not HAS_BS4:
+            return []
+
+        soup = BeautifulSoup(html, "html.parser")
+        releases = []
+
+        # Each record is in a views-row div
+        rows = soup.select(".views-row")
+        if not rows:
+            # Fallback: try finding record links directly
+            rows = soup.select(".node-record, .node--type-record, article")
+
+        for row in rows:
+            try:
+                # Artist
+                artist_el = row.select_one(".field-name-field-artist, .field--name-field-artist")
+                artist = artist_el.get_text(strip=True) if artist_el else ""
+                # Clean "Artist:" prefix
+                artist = re.sub(r'^Artist:\s*', '', artist).strip()
+
+                # Title
+                title_el = row.select_one(".field-name-title, .field--name-title")
+                title = title_el.get_text(strip=True) if title_el else ""
+
+                # Label
+                label_el = row.select_one(".field-name-field-label, .field--name-field-label")
+                label = label_el.get_text(strip=True) if label_el else ""
+                label = re.sub(r'^Label:\s*', '', label).strip()
+
+                # Genre
+                genre_el = row.select_one(".field-name-field-genre, .field--name-field-genre")
+                genre_raw = genre_el.get_text(strip=True) if genre_el else ""
+                genre_raw = re.sub(r'^Tag:\s*', '', genre_raw).strip()
+                genre = classify_genre(genre_raw) if genre_raw else "Electronic"
+
+                # URL
+                link_el = row.select_one("a[href*='/record/']")
+                url = ""
+                if link_el and link_el.get("href"):
+                    href = link_el["href"]
+                    if href.startswith("/"):
+                        url = f"https://www.rushhour.nl{href}"
+                    else:
+                        url = href
+
+                if not artist or not title:
+                    continue
+
+                source_id = f"rh:{url or title}"
+                if source_id in self._seen_ids:
+                    continue
+
+                # Use today's date for HTML listings (no per-item date on the page)
+                date = datetime.now().strftime("%Y-%m-%d")
+
+                if date < cutoff_str:
+                    continue
+
+                self._seen_ids.add(source_id)
+                releases.append(self.make_release(
+                    source="rushhour",
+                    source_id=source_id,
+                    title=title,
+                    artist=artist,
+                    label=label,
+                    genre=genre,
+                    date=date,
+                    source_url=url,
+                ))
+            except Exception:
+                continue
+
+        return releases
+
+    def _scrape_new_this_week(self, cutoff_date, max_pages=3):
+        """Scrape Rush Hour /new-this-week pages."""
+        if not HAS_BS4:
+            print("    ⚠ BeautifulSoup not available, skipping HTML scraping")
+            return []
+
+        cutoff_str = cutoff_date.strftime("%Y-%m-%d")
+        all_releases = []
+
+        for page in range(max_pages):
+            url = f"{NEW_THIS_WEEK_URL}?page={page}" if page > 0 else NEW_THIS_WEEK_URL
+            html = self._fetch_html(url)
+            if not html:
+                break
+
+            releases = self._parse_html_listings(html, cutoff_str)
+            if not releases:
+                break
+
+            all_releases.extend(releases)
+            print(f"    → Page {page + 1}: {len(releases)} releases")
+
+        return all_releases
+
     # ── Public API ────────────────────────────────────────
 
     def fetch_new_releases(self, cutoff_date=None, max_pages=3):
@@ -243,12 +387,12 @@ class RushHourFetcher(BaseSourceFetcher):
         """Not available via RSS."""
         return []
 
-    def fetch_all(self, cutoff_date=None, max_pages=2):
-        """Main entry point: fetch from Rush Hour RSS feed.
+    def fetch_all(self, cutoff_date=None, max_pages=3):
+        """Main entry point: fetch from Rush Hour RSS + HTML scraping.
 
         Args:
             cutoff_date: datetime. Defaults to 90 days ago.
-            max_pages: Ignored.
+            max_pages: Max pages for HTML scraping (default 3).
 
         Returns:
             List of unified release dicts.
@@ -257,8 +401,18 @@ class RushHourFetcher(BaseSourceFetcher):
             cutoff_date = datetime.now() - timedelta(days=90)
 
         self._seen_ids.clear()
-        releases = self.fetch_new_releases(cutoff_date)
-        print(f"  ✓ Rush Hour total: {len(releases)} unique releases")
+
+        # Primary: HTML scraping (more releases, has label + genre data)
+        print("  ▸ Rush Hour: Scraping /new-this-week...")
+        html_releases = self._scrape_new_this_week(cutoff_date, max_pages=max_pages)
+
+        # Secondary: RSS feed (fallback, catches items not on /new-this-week)
+        rss_releases = self.fetch_new_releases(cutoff_date)
+
+        releases = html_releases + rss_releases
+        # Deduplicate within source (seen_ids already handles this during parsing)
+        print(f"  ✓ Rush Hour total: {len(releases)} unique releases "
+              f"({len(html_releases)} HTML + {len(rss_releases)} RSS)")
         return releases
 
 
