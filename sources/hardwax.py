@@ -553,13 +553,16 @@ class HardwaxFetcher(BaseSourceFetcher):
         return releases
 
     def fetch_all(self, cutoff_date=None, genres=None, max_pages=2):
-        """Main entry point: fetch from /this-week/, /last-week/, and genre pages.
+        """Main entry point: fetch new releases from hardwax.com.
+
+        Only fetches from the JSON feed + /this-week/ + /last-week/ pages.
+        Genre tag pages are NOT scraped because they list ALL current stock
+        (including reissues and classics from decades ago), not just new releases.
 
         Args:
             cutoff_date: Only include releases on or after this date.
                         Defaults to 30 days ago.
-            genres: List of genre tag slugs to fetch. Defaults to all
-                   tags in HARDWAX_GENRE_TAGS.
+            genres: Ignored (kept for API compatibility).
             max_pages: Maximum pages per section.
 
         Returns:
@@ -568,20 +571,11 @@ class HardwaxFetcher(BaseSourceFetcher):
         if cutoff_date is None:
             cutoff_date = datetime.now() - timedelta(days=30)
 
-        if genres is None:
-            genres = list(HARDWAX_GENRE_TAGS.keys())
-
         self._seen_ids.clear()
-        all_releases = []
 
-        # 1. New releases (feed + this-week + last-week)
-        new_releases = self.fetch_new_releases(cutoff_date, max_pages)
-        all_releases.extend(new_releases)
-
-        # 2. Genre tag pages
-        for genre in genres:
-            genre_releases = self.fetch_by_genre(genre, cutoff_date, max_pages)
-            all_releases.extend(genre_releases)
+        # Only fetch new releases (JSON feed + this-week + last-week)
+        # Genre pages list entire stock including decades-old reissues
+        all_releases = self.fetch_new_releases(cutoff_date, max_pages)
 
         print(f"  ✓ Hardwax total: {len(all_releases)} releases "
               f"({len(self._seen_ids)} unique)")

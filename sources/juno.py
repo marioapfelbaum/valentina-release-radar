@@ -129,7 +129,12 @@ class JunoFetcher(BaseSourceFetcher):
             return ""
 
     def _fetch_page(self, url, timeout=25):
-        """Fetch a page, trying requests first, falling back to curl."""
+        """Fetch a page, trying requests first, falling back to curl.
+
+        Returns empty string if Cloudflare challenge is detected.
+        Juno is behind Cloudflare as of March 2026 — simple HTTP
+        requests won't work without a headless browser.
+        """
         # Try requests first
         try:
             resp = self._session.get(url, timeout=timeout)
@@ -143,7 +148,13 @@ class JunoFetcher(BaseSourceFetcher):
             pass
 
         # Fallback to curl
-        return self._curl_get(url, timeout=timeout)
+        html = self._curl_get(url, timeout=timeout)
+
+        # Check curl result for Cloudflare too
+        if html and ("Just a moment" in html or "challenge-platform" in html):
+            return ""
+
+        return html
 
     # ── Parsing ───────────────────────────────────────────
 
@@ -862,6 +873,11 @@ class JunoFetcher(BaseSourceFetcher):
     def fetch_all(self, cutoff_date=None, max_pages=2):
         """Main entry point: fetch from all configured genres.
 
+        Note: As of March 2026, Juno is behind Cloudflare challenge pages.
+        Simple HTTP requests (requests + curl) can't bypass this.
+        The fetcher will gracefully return 0 releases until a headless
+        browser solution (e.g. cloudscraper, Playwright) is implemented.
+
         Args:
             cutoff_date: datetime. Defaults to 90 days ago.
             max_pages: Pages per genre.
@@ -873,6 +889,14 @@ class JunoFetcher(BaseSourceFetcher):
             cutoff_date = datetime.now() - timedelta(days=90)
 
         all_releases = {}
+
+        # Quick test: check if Juno is accessible
+        print("  ── Juno: Checking accessibility ──")
+        test_html = self._fetch_page(f"{self.BASE_URL}/", timeout=10)
+        if not test_html:
+            print("    ⚠ Juno: blocked by Cloudflare challenge — skipping")
+            print("    (requires headless browser to bypass, not yet implemented)")
+            return []
 
         # Fetch general new releases first
         print("  ── Juno: New Releases ──")

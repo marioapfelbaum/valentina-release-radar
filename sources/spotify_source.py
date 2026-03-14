@@ -150,23 +150,18 @@ class SpotifyFetcher(BaseSourceFetcher):
         return self.fetch_new_releases(cutoff_date, limit=10)
 
     def fetch_new_releases(self, cutoff_date, limit=10):
-        """Fetch Spotify's new releases (general, not genre-specific)."""
+        """Fetch Spotify's new releases.
+
+        Note: The browse/new-releases endpoint was removed by Spotify
+        in February 2026. This method now returns empty.
+        Use fetch_for_artists() instead for per-artist release fetching.
+        """
         if not self.available:
             return []
 
-        data = self._get("browse/new-releases", {"limit": limit, "country": "DE"})
-        if not data or "albums" not in data:
-            return []
-
-        releases = []
-        cutoff_str = cutoff_date.strftime("%Y-%m-%d")
-
-        for album in data["albums"].get("items", []):
-            rel = self._normalize_album(album)
-            if rel and rel["date"] >= cutoff_str:
-                releases.append(rel)
-
-        return releases
+        # browse/new-releases was removed in Spotify API Feb 2026 update
+        # See: developer.spotify.com/documentation/web-api/references/changes/february-2026
+        return []
 
     def fetch_by_artist(self, artist_name, cutoff_date, spotify_id=None):
         """Fetch releases for a specific artist.
