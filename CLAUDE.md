@@ -16,19 +16,21 @@ deploy.sh ──> Cloudflare Pages (Static Site)
 
 GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 1. Crawler (Netzwerk erweitern, --resume --time-budget 300)
-2. Fetch (alle 6 Quellen + Quality Scoring)
+2. Fetch (alle 8 Quellen + Quality Scoring)
 3. Deploy (Cloudflare Pages)
 
 ## Release-Quellen
 
-### Aktive Quellen (Standard: `--sources bandcamp,spotify,discogs,hardwax,boomkat,juno`)
+### Aktive Quellen (Standard: `--sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour`)
 
 - **Bandcamp** (`sources/bandcamp.py`): Holt Releases von Labels in `reference_labels.txt` via Mobile API. Zuverlaessigste Quelle.
 - **Spotify** (`sources/spotify_source.py`): Holt Releases fuer Netzwerk-Artists. Cached spotify_ids in network_data.json. Max 500 Artists/Run.
 - **Discogs** (`sources/discogs_source.py`): Holt aktiv neue Releases von Top-Labels im Netzwerk (2+ Seed-Artist-Verbindungen). Braucht DISCOGS_TOKEN.
-- **Hardwax** (`sources/hardwax.py`): Scrapt hardwax.com — Berliner Plattenladen, kuratiert fuer Minimal/Deep House/Dub. Braucht beautifulsoup4.
-- **Boomkat** (`sources/boomkat.py`): Scrapt boomkat.com — kuratiert fuer Experimental/Electronic/Ambient. Braucht beautifulsoup4.
-- **Juno** (`sources/juno.py`): Scrapt juno.co.uk mit Genre-Filter. Braucht beautifulsoup4.
+- **Hardwax** (`sources/hardwax.py`): JSON-Feed + /this-week/ + /last-week/. Berliner Plattenladen, kuratiert fuer Minimal/Deep House/Dub. Braucht beautifulsoup4.
+- **Boomkat** (`sources/boomkat.py`): RSS-Feed (boomkat.com/new-releases.rss). Kuratiert fuer Experimental/Electronic/Ambient.
+- **Juno** (`sources/juno.py`): Scrapt juno.co.uk mit Genre-Filter. Braucht beautifulsoup4 + cloudscraper (Cloudflare-Bypass).
+- **Clone.nl** (`sources/clone.py`): RSS-Feeds (clone.nl/rss/new + Genre-Feeds). Amsterdamer Plattenladen, stark fuer Detroit Techno/Electro/House.
+- **Rush Hour** (`sources/rushhour.py`): RSS-Feed (rushhour.nl/rss.xml). Amsterdamer Plattenladen, Soulful/Jazz-Electronic/Deep House.
 
 ### Deaktivierte Quellen
 
@@ -40,7 +42,7 @@ GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 - Label-Relevanz (0-30): Reference Label? Seed-Artist-Verbindungen?
 - Artist-Relevanz (0-30): Im Netzwerk? Seed-Artist? Tiefe?
 - Genre-Match (0-20): Passt zum User-Geschmack?
-- Source-Trust (0-10): Hardwax/Discogs > Bandcamp > Spotify
+- Source-Trust (0-10): Hardwax/Clone/Rush Hour > Boomkat/Discogs > Bandcamp/Juno > Spotify
 - Multi-Source-Bonus (0-10): Auf mehreren Quellen gefunden?
 
 ## Netzwerk-Crawler
@@ -105,9 +107,11 @@ GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 - `sources/bandcamp.py` — Bandcamp Mobile API
 - `sources/spotify_source.py` — Spotify Web API (mit ID-Caching)
 - `sources/discogs_source.py` — Discogs API (aktiver Release-Fetcher)
-- `sources/hardwax.py` — Hardwax.com Scraper
-- `sources/boomkat.py` — Boomkat.com Scraper
-- `sources/juno.py` — Juno.co.uk Scraper
+- `sources/hardwax.py` — Hardwax.com JSON-Feed + HTML
+- `sources/boomkat.py` — Boomkat.com RSS-Feed
+- `sources/juno.py` — Juno.co.uk Scraper (cloudscraper fuer Cloudflare-Bypass)
+- `sources/clone.py` — Clone.nl RSS-Feeds (new + genre)
+- `sources/rushhour.py` — Rush Hour RSS-Feed
 - `sources/beatport.py` — Beatport HTML Scraper (deaktiviert)
 - `sources/base.py` — Base-Klasse fuer Fetcher
 - `sources/genre_map.py` — Genre-Klassifikation
@@ -124,8 +128,8 @@ Gespeichert in `.env` (lokal) und GitHub Secrets (CI):
 ## Dependencies
 
 Core: `requests`
-Scrapers: `beautifulsoup4`
-Install: `pip install requests beautifulsoup4`
+Scrapers: `beautifulsoup4`, `cloudscraper` (fuer Juno Cloudflare-Bypass)
+Install: `pip install requests beautifulsoup4 cloudscraper`
 
 ## Deployment
 
@@ -137,14 +141,14 @@ Cloudflare Pages, Projekt: `valentina-release-radar`
 ## Haeufige Befehle
 
 ```bash
-# Releases holen (alle 6 Quellen)
+# Releases holen (alle 8 Quellen)
 python3 fetch_multi.py
 
 # Nur Bandcamp
 python3 fetch_multi.py --sources bandcamp
 
 # Nur kuratierte Shops
-python3 fetch_multi.py --sources hardwax,boomkat,juno
+python3 fetch_multi.py --sources hardwax,boomkat,juno,clone,rushhour
 
 # Nur Discogs
 python3 fetch_multi.py --sources discogs
@@ -171,6 +175,6 @@ bash deploy.sh
 - Spotify cached jetzt spotify_ids in network_data.json — kuenftige Runs sind schneller.
 - Spotify Related Artists API gibt 403 zurueck (Client Credentials reichen nicht).
 - Bandcamp blockiert Python requests via TLS-Fingerprinting. bandcamp.py nutzt curl als Fallback.
-- Hardwax/Boomkat/Juno sind HTML-Scraper — koennen brechen wenn Site-Struktur sich aendert.
+- Hardwax nutzt JSON-Feed (stabil). Boomkat/Clone/Rush Hour nutzen RSS-Feeds (stabil). Juno ist HTML-Scraper mit cloudscraper — kann brechen wenn Site-Struktur sich aendert.
 - network_data.json waechst mit jedem Crawler-Run (~26MB). Bei >50MB auf Git LFS umstellen.
 - Der User bevorzugt: Minimal, Deep House, Downtempo, Soulful, Broken Beat, Jazz-Electronic. Keine Mainstream-EDM.
