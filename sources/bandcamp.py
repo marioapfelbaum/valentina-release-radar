@@ -24,39 +24,30 @@ from .genre_map import classify_genre
 
 
 # Known label → Bandcamp subdomain mappings
+# Only includes labels verified to exist on Bandcamp
 KNOWN_LABEL_SLUGS = {
     "perlon": "perlon",
     "cocoon": "cocoonrecordings",
     "kompakt": "kompakt",
     "dial": "dialrec",
-    "smallville": "smallvillerecords",
     "running back": "runningback",
     "pampa records": "pamparecords",
     "giegling": "giegling",
-    "[a:rpia:r]": "arpiar",
-    "metereze": "metereze",
-    "amphia": "amphia",
     "yoyaku": "yoyaku",
     "mule musiq": "mulemusiq",
     "live at robert johnson": "liveatrobertjohnson",
     "rawax": "rawax",
     "cadenza": "cadenzarecords",
     "desolat": "desolat",
-    "playhouse": "playhouse-records",
     "ornaments": "ornaments",
     "piv records": "pivrecords",
     "cyclic records": "cyclicrecords",
     "studio !k7": "k7records",
     "mojuba records": "mojuba",
     "fuse london": "fuselondon",
-    "frau blau": "fraublau",
     "visionquest": "visionquest",
     "circus company": "circuscompany",
-    "third ear": "thirdearrecordings",
-    "cadenza": "cadenzarecords",
     "sacre": "sacrerecords",
-    "styrax records": "styraxrecords",
-    "cabaret recordings": "cabaretrecordings",
     "nervmusic": "nervmusic",
 }
 
@@ -340,12 +331,13 @@ class BandcampFetcher(BaseSourceFetcher):
         return releases
 
     def _load_reference_labels(self):
-        """Load label names from reference_labels.txt."""
+        """Load label names from reference_labels.txt, ignoring comments and blanks."""
         path = Path(self._labels_file)
         if not path.exists():
             print(f"  ⚠ Labels file not found: {path}")
             return []
-        return [line.strip() for line in path.read_text().splitlines() if line.strip()]
+        return [line.strip() for line in path.read_text().splitlines()
+                if line.strip() and not line.strip().startswith("#")]
 
 
 if __name__ == "__main__":
