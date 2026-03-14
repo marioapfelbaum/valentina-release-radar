@@ -45,6 +45,8 @@ DISLIKED_GENRES = {
 SOURCE_TRUST = {
     "hardwax": 5,
     "boomkat": 4,
+    "clone": 4,
+    "rushhour": 4,
     "discogs": 4,
     "bandcamp": 3,
     "juno": 3,

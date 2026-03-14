@@ -684,6 +684,18 @@ def run(args):
         # Merge: add new releases, deduplicate against existing
         combined = existing + unique_new
         final = merge_duplicates(combined)
+
+        # Cap future dates: releases with dates > today+14 get capped to today
+        today_str = datetime.now().strftime("%Y-%m-%d")
+        max_date = (datetime.now() + timedelta(days=14)).strftime("%Y-%m-%d")
+        capped = 0
+        for r in final:
+            if r.get("date", "") > max_date:
+                r["date"] = today_str
+                capped += 1
+        if capped:
+            print(f"  ⚠ Capped {capped} releases with future dates to {today_str}")
+
         print(f"  Final:    {len(final)} releases (net +{len(final) - len(existing)})")
 
         # Quality scoring
