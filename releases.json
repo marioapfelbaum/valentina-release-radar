@@ -24,6 +24,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://sahkorecordings.bandcamp.com/album/metri"
     }
   },
   {
@@ -171,6 +174,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://artsrecordings.bandcamp.com/album/renovatio-ep"
     }
   },
   {
@@ -261,6 +267,36 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    }
+  },
+  {
+    "id": "7e9e75d2",
+    "title": "UzU LP",
+    "artist": "Chizawa Q",
+    "album": "UzU LP",
+    "label": "a]r[t]s",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-10",
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://artsrecordings.bandcamp.com/album/uzu-lp",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://artsrecordings.bandcamp.com/album/uzu-lp"
     }
   },
   {
@@ -468,6 +504,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://solenoidrecords.bandcamp.com/album/plastik-clone"
     }
   },
   {
@@ -585,6 +624,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://cocoonrecordings.bandcamp.com/album/fusion"
     }
   },
   {
@@ -800,6 +842,38 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    }
+  },
+  {
+    "id": "ea350a57",
+    "title": "The Recovery",
+    "artist": "Boo Williams",
+    "album": "The Recovery",
+    "label": "Rush Hour",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88013/boo-williams/the-recovery/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 65,
+    "_score_breakdown": {
+      "total": 65,
+      "label": 25,
+      "artist": 20,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88013/boo-williams/the-recovery/"
     }
   },
   {
@@ -1043,6 +1117,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://kompakt.bandcamp.com/album/karianne-ep"
     }
   },
   {
@@ -1070,6 +1147,39 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://serialism-records.bandcamp.com/album/memory-ep"
+    }
+  },
+  {
+    "id": "e883c640",
+    "title": "Sublee / Dragos Ilici / Ohm Hourani & Cristobal Urbina - Playedby020.5",
+    "artist": "Playedby.wav",
+    "album": "Sublee / Dragos Ilici / Ohm Hourani & Cristobal Urbina - Playedby020.5",
+    "label": "PlayedBy",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://playedbywav.bandcamp.com/album/sublee-dragos-ilici-ohm-hourani-cristobal-urbina-playedby020-5",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://playedbywav.bandcamp.com/album/sublee-dragos-ilici-ohm-hourani-cristobal-urbina-playedby020-5"
     }
   },
   {
@@ -1164,6 +1274,38 @@
     }
   },
   {
+    "id": "9697a3c1",
+    "title": "Animal",
+    "artist": "Toddsonic33",
+    "album": "Animal",
+    "label": "Rush Hour",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88036/toddsonic33/animal/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 45,
+    "_score_breakdown": {
+      "total": 45,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88036/toddsonic33/animal/"
+    }
+  },
+  {
     "id": "54f0f6d0",
     "title": "Dying Is The Internet",
     "artist": "Simo Cell & Abdullah Miniawy",
@@ -1253,6 +1395,198 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    }
+  },
+  {
+    "id": "18406dac",
+    "title": "World Of Trance 20 (Original Mixes)",
+    "artist": "Talla 2XLC",
+    "album": "World Of Trance 20 (Original Mixes)",
+    "label": "ZYX Music",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Trance"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36768628-Talla-2XLC-World-Of-Trance-20-Original-Mixes",
+    "discogs_url": "https://www.discogs.com/release/36768628-Talla-2XLC-World-Of-Trance-20-Original-Mixes",
+    "bpm": null,
+    "catalog_number": "",
+    "format": "Compilation",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 25,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36768628-Talla-2XLC-World-Of-Trance-20-Original-Mixes"
+    }
+  },
+  {
+    "id": "d0318281",
+    "title": "World Of Trance 20 (Extended Mixes)",
+    "artist": "Talla 2XLC",
+    "album": "World Of Trance 20 (Extended Mixes)",
+    "label": "ZYX Music",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Trance"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36768604-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "discogs_url": "https://www.discogs.com/release/36768604-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "bpm": null,
+    "catalog_number": "DIG 161374",
+    "format": "Compilation",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 25,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36768604-Talla-2XLC-World-Of-Trance-20-Extended-Mixes"
+    }
+  },
+  {
+    "id": "83398f3a",
+    "title": "World Of Trance 20 (Extended Mixes)",
+    "artist": "Talla 2XLC",
+    "album": "World Of Trance 20 (Extended Mixes)",
+    "label": "ZYX Music",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Trance"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36768613-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "discogs_url": "https://www.discogs.com/release/36768613-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "bpm": null,
+    "catalog_number": "DIG 161374",
+    "format": "Compilation",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 25,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36768613-Talla-2XLC-World-Of-Trance-20-Extended-Mixes"
+    }
+  },
+  {
+    "id": "02bfb3d1",
+    "title": "World Of Trance 20 (Extended Mixes)",
+    "artist": "Talla 2XLC",
+    "album": "World Of Trance 20 (Extended Mixes)",
+    "label": "ZYX Music",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Trance"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36768607-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "discogs_url": "https://www.discogs.com/release/36768607-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "bpm": null,
+    "catalog_number": "DIG 161374",
+    "format": "Compilation",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 25,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36768607-Talla-2XLC-World-Of-Trance-20-Extended-Mixes"
+    }
+  },
+  {
+    "id": "ce331db7",
+    "title": "World Of Trance 20 (Extended Mixes)",
+    "artist": "Talla 2XLC",
+    "album": "World Of Trance 20 (Extended Mixes)",
+    "label": "ZYX Music",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Trance"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36768598-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "discogs_url": "https://www.discogs.com/release/36768598-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "bpm": null,
+    "catalog_number": "DIG 161374",
+    "format": "Compilation",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 25,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36768598-Talla-2XLC-World-Of-Trance-20-Extended-Mixes"
+    }
+  },
+  {
+    "id": "e7abdd4a",
+    "title": "World Of Trance 20 (Extended Mixes)",
+    "artist": "Talla 2XLC",
+    "album": "World Of Trance 20 (Extended Mixes)",
+    "label": "ZYX Music",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Trance"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36768517-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "discogs_url": "https://www.discogs.com/release/36768517-Talla-2XLC-World-Of-Trance-20-Extended-Mixes",
+    "bpm": null,
+    "catalog_number": "DIG 161374",
+    "format": "Compilation",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 25,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36768517-Talla-2XLC-World-Of-Trance-20-Extended-Mixes"
     }
   },
   {
@@ -1853,6 +2187,9 @@
       "genre": 10,
       "source": 4,
       "multi": 0
+    },
+    "source_urls": {
+      "spotify": "https://open.spotify.com/album/4zWLtQDqot1Rk2fz0nUvk7"
     }
   },
   {
@@ -1884,6 +2221,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87508/terrence-dixon/when-stars-remember/"
     }
   },
   {
@@ -1947,6 +2287,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87917/silent-g/nocturnal-agitation/"
     }
   },
   {
@@ -1977,6 +2320,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88052/ribe-and-roll-dann/virtus-occulta/"
     }
   },
   {
@@ -2006,6 +2352,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87607/dimi-angelis/angls-016/"
     }
   },
   {
@@ -2036,6 +2385,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87942/krz/footprints/"
     }
   },
   {
@@ -2066,6 +2418,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88119/laurel-halo/midnight-zone/"
     }
   },
   {
@@ -2098,6 +2453,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88062/priori/9/"
     }
   },
   {
@@ -2128,6 +2486,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88117/sub-basics/zero-point/"
     }
   },
   {
@@ -2157,6 +2518,9 @@
       "genre": 5,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88111/calibre/they-want-you/"
     }
   },
   {
@@ -2186,6 +2550,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88114/danieli/claudio-prc-presents-danieli/"
     }
   },
   {
@@ -2215,6 +2582,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87701/yan-cook/balance-ep/"
     }
   },
   {
@@ -2244,6 +2614,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88116/khas/third-base/"
     }
   },
   {
@@ -2273,6 +2646,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88113/kameliia/come-and-find-me/"
     }
   },
   {
@@ -2302,6 +2678,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87775/sciahri/pareidolia-iv/"
     }
   },
   {
@@ -2331,6 +2710,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88112/bidoben/jett/"
     }
   },
   {
@@ -2360,6 +2742,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88115/justine-perry/transit-motion/"
     }
   },
   {
@@ -2449,6 +2834,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://playedbywav.bandcamp.com/album/soft-evidences-entry-6-soft06"
     }
   },
   {
@@ -2478,6 +2866,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87470/erp/one4rekab/"
     }
   },
   {
@@ -2507,6 +2898,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87753/soul-of-hex/jet-set/"
     }
   },
   {
@@ -2537,6 +2931,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87604/jerome-feat-sonya-zlo/the-night-we-had/"
     }
   },
   {
@@ -2598,6 +2995,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88103/nelson-of-the-east/super-deception/"
     }
   },
   {
@@ -2628,6 +3028,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88014/black-eyes/hydrocity-reflex-ep/"
     }
   },
   {
@@ -2658,6 +3061,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87860/mark-seven/house-breakin/"
     }
   },
   {
@@ -2688,6 +3094,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87556/69db/lsd-part-ii/"
     }
   },
   {
@@ -3229,6 +3638,44 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/87778/robert-henke/layering-buddha/"
+    }
+  },
+  {
+    "id": "fe0a2157",
+    "title": "Tarp",
+    "artist": "Makam",
+    "album": "Tarp",
+    "label": "Dekmantel",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-10",
+    "re": false,
+    "styles": [
+      "dub",
+      "house",
+      "disco",
+      "label catalog",
+      "Tech House",
+      "Minimal"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87545/makam/tarp/?focus=only_vinyl",
+    "discogs_url": "https://www.discogs.com/release/36732700-Makam-Tarp",
+    "bpm": null,
+    "catalog_number": "DKMNTL114",
+    "format": "Do EP",
+    "quality_score": 81,
+    "_score_breakdown": {
+      "total": 81,
+      "label": 25,
+      "artist": 20,
+      "genre": 20,
+      "source": 10,
+      "multi": 6
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87545/makam/tarp/?focus=only_vinyl",
+      "discogs": "https://www.discogs.com/release/36732700-Makam-Tarp"
     }
   },
   {
@@ -3951,43 +4398,6 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/87613/sun-electric/episodes/"
-    }
-  },
-  {
-    "id": "fe0a2157",
-    "title": "Tarp",
-    "artist": "Makam",
-    "album": "Tarp",
-    "label": "Dekmantel",
-    "genre": "Dub Techno",
-    "duration": "",
-    "date": "2026-03-10",
-    "re": false,
-    "styles": [
-      "dub",
-      "house",
-      "disco",
-      "label catalog",
-      "Tech House",
-      "Minimal"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/87545/makam/tarp/?focus=only_vinyl",
-    "discogs_url": "https://www.discogs.com/release/36732700-Makam-Tarp",
-    "bpm": null,
-    "catalog_number": "DKMNTL114",
-    "format": "Do EP",
-    "quality_score": 75,
-    "_score_breakdown": {
-      "total": 75,
-      "label": 25,
-      "artist": 20,
-      "genre": 20,
-      "source": 10,
-      "multi": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/87545/makam/tarp/?focus=only_vinyl"
     }
   },
   {
@@ -9259,6 +9669,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88120/larry-heard/vault-sessions-3/"
     }
   },
   {
@@ -9733,6 +10146,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/86415/k-lone/pressure-ep/?focus=only_vinyl"
     }
   },
   {
@@ -11695,6 +12111,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88122/bohm/jack-tracks/"
     }
   },
   {
@@ -12602,6 +13021,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88127/markus-suckut/control/"
     }
   },
   {
@@ -14877,7 +15299,7 @@
       "multi": 0
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/87684/rosati/divina-nostalgia/"
+      "hardwax": "https://hardwax.com/87684/rosati/divina-nostalgia/?focus=only_vinyl"
     }
   },
   {
@@ -20705,6 +21127,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87557/robert-bergman/9-lives-of-the-cat/"
     }
   },
   {
@@ -20735,6 +21160,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87458/craig-alexander/inside-my-mind/"
     }
   },
   {
@@ -24229,6 +24657,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88124/bright-raven/corktown/"
     }
   },
   {
@@ -24258,6 +24689,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88125/da-posse-feat-martell/the-other-side/"
     }
   },
   {
@@ -24287,6 +24721,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88128/ronin/luxuru/"
     }
   },
   {
@@ -24838,6 +25275,9 @@
       "genre": 5,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88129/nortsch/closed-eyes/"
     }
   },
   {
@@ -24963,6 +25403,9 @@
       "genre": 20,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36713140-Oscar-G-All-Night-Long"
     }
   },
   {
@@ -24992,6 +25435,9 @@
       "genre": 20,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36713188-BUJA-BR-Arriba-Y-Abajo"
     }
   },
   {
@@ -25112,6 +25558,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36713110-Definite-Grooves-Good-Stuff"
     }
   },
   {
@@ -25141,6 +25590,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36713164-Malive-Tito-Azevedo-Mrqz-Burning"
     }
   },
   {
@@ -25394,6 +25846,66 @@
     }
   },
   {
+    "id": "3485677f",
+    "title": "Tresor, Socks double pack",
+    "artist": "Socks, Size 36-40",
+    "album": "Tresor, Socks double pack",
+    "label": "Tresor SOC-36",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-06",
+    "re": false,
+    "styles": [],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87883/socks-size-36-40/tresor-socks-double-pack/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Socks",
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87883/socks-size-36-40/tresor-socks-double-pack/"
+    }
+  },
+  {
+    "id": "53adfe87",
+    "title": "Tresor, Socks double pack",
+    "artist": "Socks, Size 41-46",
+    "album": "Tresor, Socks double pack",
+    "label": "Tresor SOC-41",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-06",
+    "re": false,
+    "styles": [],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87884/socks-size-41-46/tresor-socks-double-pack/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Socks",
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87884/socks-size-41-46/tresor-socks-double-pack/"
+    }
+  },
+  {
     "id": "80b1d514",
     "title": "Só Uma Canção",
     "artist": "Maria do Relento, Barbarella",
@@ -25465,7 +25977,8 @@
     "styles": [
       "dub",
       "techno",
-      "electro"
+      "electro",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87796/reni-and-biggabush/bass-is-the-space/",
@@ -25532,7 +26045,8 @@
     "re": false,
     "styles": [
       "dub",
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88042/p-relief/fluff/",
@@ -25565,7 +26079,8 @@
     "re": false,
     "styles": [
       "minimal",
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88041/florist/p12-04/",
@@ -25598,7 +26113,8 @@
     "re": false,
     "styles": [
       "ambient",
-      "noise"
+      "noise",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87750/kevin-richard-martin/sub-zero/",
@@ -25631,7 +26147,8 @@
     "re": false,
     "styles": [
       "techno",
-      "hypnotic"
+      "hypnotic",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87971/shlomi-aber-and-kashpitzky/klockworks-41/",
@@ -25663,7 +26180,8 @@
     "date": "2026-03-05",
     "re": true,
     "styles": [
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88012/doctor-house/mix-to-groove/",
@@ -25695,7 +26213,8 @@
     "date": "2026-03-05",
     "re": false,
     "styles": [
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87752/marcus-paulson/public-housing/",
@@ -26339,6 +26858,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36658324-Various-Safe-Travels"
     }
   },
   {
@@ -26748,6 +27270,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36713233-Zoo-Brazil-Come-On"
     }
   },
   {
@@ -26777,6 +27302,9 @@
       "genre": 20,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36713251-Hovy-Ritmo-Sabroso"
     }
   },
   {
@@ -26868,6 +27396,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36713206-Aiwaska-Milletrax-Feat-Dizzy-Monroe-Dancing"
     }
   },
   {
@@ -27170,6 +27701,9 @@
       "genre": 0,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36752926-Carpenter-Brut-Leather-Temple"
     }
   },
   {
@@ -27382,6 +27916,40 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    }
+  },
+  {
+    "id": "7bcb0306",
+    "title": "You Want This",
+    "artist": "Janet Jackson",
+    "album": "You Want This",
+    "label": "Virgin",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-02-25",
+    "re": false,
+    "styles": [
+      "Vocal",
+      "Alt-Pop",
+      "City Pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36613612-Janet-Jackson-You-Want-This",
+    "discogs_url": "https://www.discogs.com/release/36613612-Janet-Jackson-You-Want-This",
+    "bpm": null,
+    "catalog_number": "S718307A",
+    "format": "LP",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36613612-Janet-Jackson-You-Want-This"
     }
   },
   {
@@ -27962,6 +28530,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36609280-Ozwald-5-Obedience-Hammer-Steel"
     }
   },
   {
@@ -27991,6 +28562,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36609244-GREG-99-Waist-Move"
     }
   },
   {
@@ -28020,6 +28594,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36609262-Melle-Jutte-Behave"
     }
   },
   {
@@ -29337,6 +29914,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36609475-Ralph-Falcon-The-EP-Part-2"
     }
   },
   {
@@ -29366,6 +29946,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36609364-Ralph-Falcon-The-EP-Part-1"
     }
   },
   {
@@ -29395,6 +29978,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36609349-ITAYGA-Crystal-Flow"
     }
   },
   {
@@ -29424,6 +30010,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36609316-FKAM4A-Feat-Shiv-14-Wow-Walk-On-Water-Hayley-Zalassi-Remix"
     }
   },
   {
@@ -30883,6 +31472,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36430663-Cole-Knight-Feat-CHILLS-4-Body-Control"
     }
   },
   {
@@ -30912,6 +31504,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36430714-Blank-Sense-Tobias-Gerard-Paranoia"
     }
   },
   {
@@ -30941,6 +31536,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36430705-White-Sheep-Wonky"
     }
   },
   {
@@ -33199,6 +33797,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36396112-Owen-Vonn-Talk-To-Me"
     }
   },
   {
@@ -33228,6 +33829,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36396076-Billie-Jean-Blackett-Night-Owl-Problems"
     }
   },
   {
@@ -33257,6 +33861,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36396088-Jets-X-Viiq-4eva-Bet"
     }
   },
   {
@@ -34228,6 +34835,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36477877-Jay-Tripwire-Voice-Of-Reason"
     }
   },
   {
@@ -35364,6 +35974,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36295261-Yetis-Passport-Susan"
     }
   },
   {
@@ -35393,6 +36006,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36295270-Sebs-2-Blessed"
     }
   },
   {
@@ -35422,6 +36038,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36295246-Premier-Regard-Easy-Love"
     }
   },
   {
@@ -37396,6 +38015,9 @@
       "genre": 20,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36233077-Lalo-Leyy-Aguanile-Orisha"
     }
   },
   {
@@ -37605,6 +38227,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36233059-DALVA-4-X-Fontan-2-Un-Parley"
     }
   },
   {
@@ -37634,6 +38259,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36233047-Kotti-Affair-Why-Dont-You-Love-Me"
     }
   },
   {
@@ -39441,6 +40069,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36141079-Brenda-35-Leila"
     }
   },
   {
@@ -39470,6 +40101,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36141109-The-Fellas-US-Runnin-Mind"
     }
   },
   {
@@ -39499,6 +40133,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36141118-Diego-Antoine-Soundsinsane-Mariposa"
     }
   },
   {
@@ -40532,6 +41169,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36099313-Elvin-Traverso-Hallelujah-On-The-Floor"
     }
   },
   {
@@ -40561,6 +41201,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36099328-Ramon-Bedoya-Marimba"
     }
   },
   {
@@ -40590,6 +41233,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36099283-Will-Champs-Manobra-404"
     }
   },
   {
@@ -40986,6 +41632,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36754966-Various-Brazil-Greatest-Hits"
     }
   },
   {
@@ -41480,6 +42129,39 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36661756-A-Perfect-Circle-Mer-De-Noms"
+    }
+  },
+  {
+    "id": "26a52c58",
+    "title": "Mer De Noms",
+    "artist": "A Perfect Circle",
+    "album": "Mer De Noms",
+    "label": "Virgin",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-01-01",
+    "re": false,
+    "styles": [
+      "Alternative Rock",
+      "Prog Rock"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36769729-A-Perfect-Circle-Mer-De-Noms",
+    "discogs_url": "https://www.discogs.com/release/36769729-A-Perfect-Circle-Mer-De-Noms",
+    "bpm": null,
+    "catalog_number": "00602488289337",
+    "format": "LP",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36769729-A-Perfect-Circle-Mer-De-Noms"
     }
   },
   {
@@ -42359,6 +43041,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36021283-Smif-N-Wessun-Dah-Shinin-30th-Anniversary-Edition"
     }
   },
   {
@@ -46136,6 +46821,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35923747-Amir-Karim-Everybody-Dance-"
     }
   },
   {
@@ -46165,6 +46853,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35785357-Louie-Vega-Presents-Funki-Cadets-In-Search-Of-Peace-Of-Mind"
     }
   },
   {
@@ -48844,6 +49535,9 @@
       "genre": 20,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35855503-Pietro-26-Los-Chicanos"
     }
   },
   {
@@ -52900,6 +53594,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36161812-Louie-Vega-Feat-Anané-Tony-Touch-Last-Night-A-DJ-Saved-My-Life"
     }
   },
   {
@@ -52930,6 +53627,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35782231-Louie-Vega-Feat-Anané-Tony-Touch-Last-Night-A-DJ-Saved-My-Life"
     }
   },
   {
@@ -52959,6 +53659,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35782243-Brunello-3-Lost-In-The-Mellow-Circus"
     }
   },
   {
@@ -55002,6 +55705,9 @@
       "genre": 20,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35727196-Various-Nervous-Lab-003"
     }
   },
   {
@@ -73919,6 +74625,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35417620-Croft-3-Brown-Bar-Bog"
     }
   },
   {
@@ -82624,6 +83333,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35170153-Ten-City-The-Next-Generation"
     }
   },
   {
