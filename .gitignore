@@ -27,3 +27,7 @@ fetch_multi_checkpoint.json
 # Backups
 *.backup.json
 *.pre_enrich.json
+*.bak
+
+# Claude Code
+.claude/
