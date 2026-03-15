@@ -690,6 +690,33 @@
     }
   },
   {
+    "id": "2426bbc6",
+    "title": "A Glimmer Of Hope EP",
+    "artist": "Chris Stussy",
+    "album": "A Glimmer Of Hope EP",
+    "label": "Kaoz Theory",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-15",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/chris-stussy-a-glimmer-of-hope-ep-vinyl/1121821-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 66,
+    "_score_breakdown": {
+      "total": 66,
+      "label": 20,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "00bdcbb7",
     "title": "These Won't Put Me Down (feat Charles Webster mix) (warehosue find)",
     "artist": "Markus Enochson/The Subliminal Kid",
@@ -1074,6 +1101,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/building-instrument-kanskje-villalobos-remix-vinyl/1134774-01/"
     }
   },
   {
@@ -35036,7 +35066,7 @@
     "title": "Unearthed Stash: DAT Archives 1998-2000",
     "artist": "Get Fucked aka Nathan Coles / Nils Hess",
     "album": "Unearthed Stash: DAT Archives 1998-2000",
-    "label": "",
+    "label": "Sushitech",
     "genre": "House",
     "duration": "",
     "date": "2026-03-05",
