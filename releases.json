@@ -750,6 +750,60 @@
     }
   },
   {
+    "id": "5aea5b28",
+    "title": "FOLLOW ME",
+    "artist": "ALY-US",
+    "album": "FOLLOW ME",
+    "label": "STRICTLY RHYTHM",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-15",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/follow-me-7",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "1d6e840b",
+    "title": "KANSKJE  - VILLALOBOS REMIX",
+    "artist": "BUILDING INSTRUMENT",
+    "album": "KANSKJE  - VILLALOBOS REMIX",
+    "label": "SEI ES DRUM",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-15",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/kanskje-villalobos-remix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 20,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
     "id": "b2fab396",
     "title": "Mindhelmet 23",
     "artist": "Rudanec/Max Baldock/Jack C/Ken/Abella/Cam Foster",
@@ -7027,6 +7081,35 @@
       "genre": 20,
       "source": 8,
       "multi": 6
+    }
+  },
+  {
+    "id": "fabeab4f",
+    "title": "Gimme The Love",
+    "artist": "Cristoph",
+    "album": "Gimme The Love",
+    "label": "Toolroom Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36784177-Cristoph-2-Gimme-The-Love",
+    "discogs_url": "https://www.discogs.com/release/36784177-Cristoph-2-Gimme-The-Love",
+    "bpm": null,
+    "catalog_number": "TOOL1411/01Z",
+    "format": "",
+    "quality_score": 63,
+    "_score_breakdown": {
+      "total": 63,
+      "label": 25,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
