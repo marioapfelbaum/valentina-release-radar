@@ -714,6 +714,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/rudanec-max-baldock-jack-c-ken-mindhelmet-23-vinyl/1129263-01/"
     }
   },
   {
@@ -729,6 +732,36 @@
     "styles": [],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/explorative-bdss-criminal-system-victor-benjamin-mech-01-vinyl/1133244-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/explorative-bdss-criminal-system-victor-benjamin-mech-01-vinyl/1133244-01/"
+    }
+  },
+  {
+    "id": "e1913671",
+    "title": "Game Of Tunes 4",
+    "artist": "Kiss The Future/Kitchen Plug/Swin/Palorim",
+    "album": "Game Of Tunes 4",
+    "label": "Game Of Tunes",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-15",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/kiss-the-future-kitchen-game-of-tunes-4-vinyl/1129962-01/",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": null,
