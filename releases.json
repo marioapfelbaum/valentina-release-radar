@@ -984,6 +984,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/paffetti-black-loops-utopia-vinyl/1134183-01/"
     }
   },
   {
@@ -1011,6 +1014,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/locky-mazzucchelli-breaking-the-silence-ep-vinyl/1143101-01/"
     }
   },
   {
@@ -40350,6 +40356,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36777691-Hachiko-Hypertroia"
     }
   },
   {
@@ -52663,7 +52672,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36235252-DAngelo-Voodoo",
-    "discogs_url": "https://www.discogs.com/release/36235252-DAngelo-Voodoo",
+    "discogs_url": "https://www.discogs.com/release/36235252",
     "bpm": null,
     "catalog_number": "B0022835-01",
     "format": "LP",
@@ -52677,7 +52686,7 @@
       "multi": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36235252-DAngelo-Voodoo"
+      "discogs": "https://www.discogs.com/release/36235252"
     }
   },
   {
