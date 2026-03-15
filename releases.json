@@ -954,6 +954,63 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/mo-ob-mindhelmet-25-vinyl/1143164-01/"
+    }
+  },
+  {
+    "id": "800e5779",
+    "title": "Utopia",
+    "artist": "Paffetti/Black Loops",
+    "album": "Utopia",
+    "label": "Tartelet Germany",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-15",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/paffetti-black-loops-utopia-vinyl/1134183-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "f955d441",
+    "title": "Breaking The Silence EP",
+    "artist": "Locky Mazzucchelli",
+    "album": "Breaking The Silence EP",
+    "label": "Awkward Silence Australia",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-15",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/locky-mazzucchelli-breaking-the-silence-ep-vinyl/1143101-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
@@ -40264,6 +40321,35 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36609316-FKAM4A-Feat-Shiv-14-Wow-Walk-On-Water-Hayley-Zalassi-Remix"
+    }
+  },
+  {
+    "id": "90411d1c",
+    "title": "Hypertroia",
+    "artist": "Hachiko",
+    "album": "Hypertroia",
+    "label": "Virgin",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-02-13",
+    "re": false,
+    "styles": [
+      "Hyper Techno"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36777691-Hachiko-Hypertroia",
+    "discogs_url": "https://www.discogs.com/release/36777691-Hachiko-Hypertroia",
+    "bpm": null,
+    "catalog_number": "8056633040014",
+    "format": "LP",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
