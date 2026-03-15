@@ -36808,17 +36808,18 @@
     "bpm": null,
     "catalog_number": null,
     "format": "12\"",
-    "quality_score": 20,
+    "quality_score": 26,
     "_score_breakdown": {
-      "total": 20,
+      "total": 26,
       "label": 0,
       "artist": 0,
       "genre": 10,
       "source": 10,
-      "multi": 0
+      "multi": 6
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/88037/dfx-radio/midnight-echo-ep/"
+      "hardwax": "https://hardwax.com/88037/dfx-radio/midnight-echo-ep/",
+      "juno": "https://www.juno.co.uk/products/dfx-radio-midnight-echo-ep-vinyl/1137980-01/"
     }
   },
   {
