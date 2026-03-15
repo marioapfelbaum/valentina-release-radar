@@ -714,6 +714,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/chris-stussy-a-glimmer-of-hope-ep-vinyl/1121821-01/"
     }
   },
   {
@@ -1104,6 +1107,33 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/building-instrument-kanskje-villalobos-remix-vinyl/1134774-01/"
+    }
+  },
+  {
+    "id": "0a22ecd2",
+    "title": "Subconsci Boosti EP",
+    "artist": "DJ Tjizza",
+    "album": "Subconsci Boosti EP",
+    "label": "Mental Mamba",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-15",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/dj-tjizza-subconsci-boosti-ep-vinyl/1123125-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
