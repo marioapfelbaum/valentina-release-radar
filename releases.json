@@ -1044,6 +1044,36 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/locizz-bshaq-tj-tanz-at-night-ep-vinyl/1139761-01/"
+    }
+  },
+  {
+    "id": "008dce7b",
+    "title": "Kanskje (Villalobos remix)",
+    "artist": "Building Instrument",
+    "album": "Kanskje (Villalobos remix)",
+    "label": "Sei Es Drum Germany",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-15",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/building-instrument-kanskje-villalobos-remix-vinyl/1134774-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
@@ -6894,6 +6924,46 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/76682/dj-skull/the-dj-skull-saga-pres-stomping-grounds/"
+    }
+  },
+  {
+    "id": "14db684c",
+    "title": "LDS",
+    "artist": "Henrik Raabe",
+    "album": "LDS",
+    "label": "Mule Musiq",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Downtempo",
+      "Electro",
+      "Leftfield",
+      "Fusion",
+      "Electroacoustic",
+      "Ambient",
+      "Sound Collage",
+      "Deep House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36778903-Henrik-Raabe-LDS",
+    "discogs_url": "https://www.discogs.com/release/36778903-Henrik-Raabe-LDS",
+    "bpm": null,
+    "catalog_number": "mule musiq 305",
+    "format": "LP",
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36778903-Henrik-Raabe-LDS",
+      "bandcamp": "https://mulemusiq.bandcamp.com/album/lds"
+    },
+    "quality_score": 64,
+    "_score_breakdown": {
+      "total": 64,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 6
     }
   },
   {
@@ -38524,36 +38594,6 @@
       "genre": 10,
       "source": 6,
       "multi": 0
-    }
-  },
-  {
-    "id": "72825002",
-    "title": "LDS",
-    "artist": "Henrik Raabe",
-    "album": "LDS",
-    "label": "Mule Musiq",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-02-20",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://mulemusiq.bandcamp.com/album/lds",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://mulemusiq.bandcamp.com/album/lds"
     }
   },
   {
