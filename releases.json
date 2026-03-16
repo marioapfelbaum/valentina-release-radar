@@ -654,6 +654,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/estatica-2026-repress"
     }
   },
   {
@@ -681,6 +684,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/still-belgium-vol-2"
     }
   },
   {
@@ -708,6 +714,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/canada"
     }
   },
   {
@@ -735,6 +744,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/best-john-coltrane"
     }
   },
   {
@@ -762,6 +774,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/elevation-12"
     }
   },
   {
@@ -789,6 +804,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/spellbinder"
     }
   },
   {
@@ -909,6 +927,62 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/peter-raou-the-barras-vinyl/1131162-01/"
+    }
+  },
+  {
+    "id": "c8a1d8c2",
+    "title": "Level 3",
+    "artist": "Halo Varga/Crypt Keepers/Pily/Paul West/Jj Selects",
+    "album": "Level 3",
+    "label": "Deep Steppe",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/halo-varga-crypt-keepers-pily-paul-level-3-vinyl/1134821-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "95af66b5",
+    "title": "Enact",
+    "artist": "Various Artists",
+    "album": "Enact",
+    "label": "Renegade Methodz RM5Y",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [
+      "techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88143/various-artists/enact/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Do 12\"",
+    "quality_score": 20,
+    "_score_breakdown": {
+      "total": 20,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
     }
   },
   {
@@ -1296,6 +1370,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/what-it%E2%80%99s-be-bat"
     }
   },
   {
@@ -1323,6 +1400,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/african-roll-0"
     }
   },
   {
@@ -1350,6 +1430,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/artform-2"
     }
   },
   {
@@ -1377,6 +1460,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/artform-1"
     }
   },
   {
@@ -1404,6 +1490,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/weelde-verbrast"
     }
   },
   {
@@ -1431,6 +1520,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/b-chamber-stratum"
     }
   },
   {
@@ -34812,7 +34904,8 @@
     "date": "2026-03-06",
     "re": true,
     "styles": [
-      "soulful house"
+      "soulful house",
+      "reggae"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88093/main-attraction/jam-up/",
@@ -34844,7 +34937,8 @@
     "date": "2026-03-06",
     "re": true,
     "styles": [
-      "dub"
+      "dub",
+      "reggae"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88097/mystic-red-and-keety-roots/afterthoughts/",
@@ -34876,7 +34970,8 @@
     "date": "2026-03-06",
     "re": true,
     "styles": [
-      "dub"
+      "dub",
+      "reggae"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/09661/mystic-red-and-keety-roots/dub-aforethought/",
@@ -34908,7 +35003,8 @@
     "date": "2026-03-06",
     "re": true,
     "styles": [
-      "dub"
+      "dub",
+      "reggae"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88096/mystic-red-and-keety-roots/aforethought/",
@@ -35179,7 +35275,9 @@
     "duration": "",
     "date": "2026-03-06",
     "re": true,
-    "styles": [],
+    "styles": [
+      "reggae"
+    ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88095/michael-palmer/im-still-dancing/",
     "discogs_url": "",
@@ -35209,7 +35307,9 @@
     "duration": "",
     "date": "2026-03-06",
     "re": false,
-    "styles": [],
+    "styles": [
+      "reggae"
+    ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88094/indica-dubs-meets-vibronics/messenger-of-peace/",
     "discogs_url": "",
@@ -35239,7 +35339,9 @@
     "duration": "",
     "date": "2026-03-06",
     "re": false,
-    "styles": [],
+    "styles": [
+      "merchandise"
+    ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87883/socks-size-36-40/tresor-socks-double-pack/",
     "discogs_url": "",
@@ -35269,7 +35371,9 @@
     "duration": "",
     "date": "2026-03-06",
     "re": false,
-    "styles": [],
+    "styles": [
+      "merchandise"
+    ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87884/socks-size-41-46/tresor-socks-double-pack/",
     "discogs_url": "",
