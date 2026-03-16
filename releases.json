@@ -624,6 +624,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81217.html"
     }
   },
   {
@@ -861,6 +864,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82530.html"
     }
   },
   {
@@ -888,6 +894,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82272.html"
     }
   },
   {
@@ -915,6 +924,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82270.html"
     }
   },
   {
@@ -940,6 +952,36 @@
       "label": 0,
       "artist": 0,
       "genre": 10,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82370.html"
+    }
+  },
+  {
+    "id": "87829fd8",
+    "title": "BUBBLE BATHS FOR GIANTS",
+    "artist": "CARLOS NIÑO & FRIENDS",
+    "album": "BUBBLE BATHS FOR GIANTS",
+    "label": "CNF",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/bubble-baths-giants",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
       "source": 8,
       "multi": 0
     }
