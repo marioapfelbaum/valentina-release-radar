@@ -570,6 +570,60 @@
     }
   },
   {
+    "id": "253dfc19",
+    "title": "Visio",
+    "artist": "Binh",
+    "album": "Visio",
+    "label": "Perlon Germany",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/binh-visio-vinyl/559746-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 0,
+      "artist": 30,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "9ede260c",
+    "title": "Metroname",
+    "artist": "Spacetravel",
+    "album": "Metroname",
+    "label": "Perlon Germany",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/spacetravel-metroname-vinyl/686335-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 0,
+      "artist": 30,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "2c5d861e",
     "title": "Elvers Pass",
     "artist": "Jorg Kuning",
@@ -594,6 +648,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/jorg-kuning-elvers-pass-vinyl/1070639-01/"
     }
   },
   {
@@ -763,6 +820,36 @@
     "styles": [],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/reagan-grey-kinetic-ep-vinyl/1138167-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/reagan-grey-kinetic-ep-vinyl/1138167-01/"
+    }
+  },
+  {
+    "id": "79ef2e33",
+    "title": "U Can Dance With Me",
+    "artist": "Namae Koi",
+    "album": "U Can Dance With Me",
+    "label": "The DJ Hell Experience",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/namae-koi-u-can-dance-with-me-vinyl/1144571-01/",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": null,
@@ -1455,6 +1542,144 @@
     "styles": [],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/b-from-e-surreal-vinyl/1143170-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/b-from-e-surreal-vinyl/1143170-01/"
+    }
+  },
+  {
+    "id": "181e24d3",
+    "title": "Hits Different",
+    "artist": "B Visible",
+    "album": "Hits Different",
+    "label": "Data Snacks Germany",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/b-visible-hits-different-vinyl/1144552-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "43c73ea6",
+    "title": "Sangelo Diproprio: Bick House",
+    "artist": "Angelo D'onorio/San Proper",
+    "album": "Sangelo Diproprio: Bick House",
+    "label": "Roof Club Italy",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/angelo-donorio-san-proper-sangelo-diproprio-bick-house-vinyl/1144560-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "f5bad66a",
+    "title": "The Science Of Pleasure EP",
+    "artist": "Umberto",
+    "album": "The Science Of Pleasure EP",
+    "label": "320kb Italy",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/umberto-the-science-of-pleasure-ep-vinyl/1144563-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "6e5312da",
+    "title": "Schwarm (remixes)",
+    "artist": "Harald Bjork",
+    "album": "Schwarm (remixes)",
+    "label": "Kranglan Broadcast Sweden",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/harald-bjork-schwarm-remixes-vinyl/1144585-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "5094f48f",
+    "title": "When It Kicks",
+    "artist": "Layton Giordani/Green Velvet",
+    "album": "When It Kicks",
+    "label": "Armada Music Holland",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/layton-giordani-green-velvet-when-it-kicks-vinyl/1144616-01/",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": null,
@@ -8700,6 +8925,42 @@
     }
   },
   {
+    "id": "ecfe294d",
+    "title": "One Day",
+    "artist": "Loidis",
+    "album": "One Day",
+    "label": "Incienso",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": true,
+    "styles": [
+      "minimal",
+      "dub",
+      "techno",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/25392/loidis/one-day/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Do 12\"",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 6
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/25392/loidis/one-day/",
+      "juno": "https://www.juno.co.uk/products/loidis-huerco-s-one-day-vinyl/1029149-01/"
+    }
+  },
+  {
     "id": "30abf3ae",
     "title": "Classics Remastered",
     "artist": "Roy Davis Jr.",
@@ -8798,41 +9059,6 @@
       "hardwax": "https://hardwax.com/88036/toddsonic33/animal/",
       "clone": "https://clone.nl/item82421.html",
       "rushhour": "https://www.rushhour.nl/record/vinyl/animal-0"
-    }
-  },
-  {
-    "id": "ecfe294d",
-    "title": "One Day",
-    "artist": "Loidis",
-    "album": "One Day",
-    "label": "Incienso",
-    "genre": "Minimal House",
-    "duration": "",
-    "date": "2026-03-13",
-    "re": true,
-    "styles": [
-      "minimal",
-      "dub",
-      "techno",
-      "label catalog"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/25392/loidis/one-day/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Do 12\"",
-    "quality_score": 50,
-    "_score_breakdown": {
-      "total": 50,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 10,
-      "multi": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/25392/loidis/one-day/"
     }
   },
   {
