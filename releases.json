@@ -598,6 +598,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88031/muslimgauze/mullah-said/"
     }
   },
   {
@@ -622,6 +625,36 @@
       "total": 46,
       "label": 0,
       "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/miroloja-stepwise-motion-ep-vinyl/1144490-01/"
+    }
+  },
+  {
+    "id": "18599544",
+    "title": "African Kolors",
+    "artist": "Kwanzaa Posse",
+    "album": "African Kolors",
+    "label": "Undiscovered",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/kwanzaa-posse-african-kolors-vinyl/1142993-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 20,
+      "artist": 0,
       "genre": 20,
       "source": 6,
       "multi": 0
@@ -802,6 +835,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/sohrab-memories-of-ghetto-vinyl/1143000-01/"
     }
   },
   {
@@ -832,6 +868,33 @@
     },
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/best-john-coltrane"
+    }
+  },
+  {
+    "id": "ffe3857b",
+    "title": "VOLUME THREE",
+    "artist": "RAHAAN",
+    "album": "VOLUME THREE",
+    "label": "NOW IS NOT THE TIME",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/volume-three-2",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 0,
+      "artist": 20,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -1140,6 +1203,60 @@
     }
   },
   {
+    "id": "547bfca1",
+    "title": "EXCLUSIVE REWORKS & EDITS",
+    "artist": "THE MIGHTY ZAF",
+    "album": "EXCLUSIVE REWORKS & EDITS",
+    "label": "HOT BISCUIT RECORDINGS",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/exclusive-reworks-edits",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 8,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "ec2ad1db",
+    "title": "THESE HANDS",
+    "artist": "JULION DE’ANGELO",
+    "album": "THESE HANDS",
+    "label": "HOT BISCUIT RECORDINGS",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/these-hands",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 8,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
     "id": "95af66b5",
     "title": "Enact",
     "artist": "Various Artists",
@@ -1169,6 +1286,37 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/88143/various-artists/enact/"
+    }
+  },
+  {
+    "id": "5bc2b037",
+    "title": "SWIMMING LIMBS",
+    "artist": "PETE BLAKER",
+    "album": "SWIMMING LIMBS",
+    "label": "LOVE UNIVERSAL",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/swimming-limbs",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/swimming-limbs",
+      "juno": "https://www.juno.co.uk/products/pete-blaker-swimming-limbs-vinyl/1136445-01/"
+    },
+    "quality_score": 19,
+    "_score_breakdown": {
+      "total": 19,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 6
     }
   },
   {
@@ -1709,6 +1857,33 @@
     },
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/b-chamber-stratum"
+    }
+  },
+  {
+    "id": "92473c59",
+    "title": "GROOVE EP",
+    "artist": "KSMOOTH DA PROGRAMMA",
+    "album": "GROOVE EP",
+    "label": "LOVE UNIVERSAL",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/groove-ep-2",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -4559,36 +4734,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/digwah-edgy-vinyl/1138174-01/"
-    }
-  },
-  {
-    "id": "34c8a8af",
-    "title": "Swimming Limbs",
-    "artist": "Pete Blaker",
-    "album": "Swimming Limbs",
-    "label": "Love Universal US",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-14",
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/pete-blaker-swimming-limbs-vinyl/1136445-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/pete-blaker-swimming-limbs-vinyl/1136445-01/"
     }
   },
   {
