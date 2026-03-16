@@ -570,6 +570,64 @@
     }
   },
   {
+    "id": "36818451",
+    "title": "Mullah Said",
+    "artist": "Muslimgauze",
+    "album": "Mullah Said",
+    "label": "Staalplaat Muslimgauze Archive",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": true,
+    "styles": [
+      "dub",
+      "ambient",
+      "industrial techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88031/muslimgauze/mullah-said/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Do LP",
+    "quality_score": 50,
+    "_score_breakdown": {
+      "total": 50,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
+    "id": "47e610b4",
+    "title": "Stepwise Motion EP",
+    "artist": "Miroloja",
+    "album": "Stepwise Motion EP",
+    "label": "Ninja",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/miroloja-stepwise-motion-ep-vinyl/1144490-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "16dcba26",
     "title": "Classics Vol. 2",
     "artist": "Model 500",
@@ -720,6 +778,33 @@
     }
   },
   {
+    "id": "bac71571",
+    "title": "Memories Of Ghetto",
+    "artist": "Sohrab",
+    "album": "Memories Of Ghetto",
+    "label": "Kolony Gorky",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/sohrab-memories-of-ghetto-vinyl/1143000-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 34,
+    "_score_breakdown": {
+      "total": 34,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "e38aeed0",
     "title": "THE BEST OF JOHN COLTRANE",
     "artist": "JOHN COLTRANE",
@@ -777,6 +862,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88144/various-artists/states-and-paths/"
     }
   },
   {
@@ -806,6 +894,9 @@
       "genre": 20,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87736/abul-mogard/in-a-few-places-along-the-river/"
     }
   },
   {
@@ -1043,6 +1134,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/boychi-midnight-chronicles-ep-vinyl/1143167-01/"
     }
   },
   {
