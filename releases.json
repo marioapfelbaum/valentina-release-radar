@@ -864,7 +864,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36792301-Dames-Brown-Amp-Fiddler-Take-Me-As-I-Am",
-    "discogs_url": "https://www.discogs.com/release/36792301-Dames-Brown-Amp-Fiddler-Take-Me-As-I-Am",
+    "discogs_url": "https://www.discogs.com/release/36792301-Dames-Brown-Take-Me-As-I-Am",
     "bpm": null,
     "catalog_number": "DBTMAIM01LP",
     "format": "LP",
@@ -876,6 +876,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36792301-Dames-Brown-Take-Me-As-I-Am"
     }
   },
   {
