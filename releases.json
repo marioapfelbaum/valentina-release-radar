@@ -7311,6 +7311,40 @@
     }
   },
   {
+    "id": "f109fcd8",
+    "title": "I Feel The Rhythm",
+    "artist": "Ron Trent",
+    "album": "I Feel The Rhythm",
+    "label": "Only One",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "house",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/77203/ron-trent/i-feel-the-rhythm/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 0,
+      "artist": 30,
+      "genre": 10,
+      "source": 10,
+      "multi": 6
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/77203/ron-trent/i-feel-the-rhythm/",
+      "juno": "https://www.juno.co.uk/products/ron-trent-i-feel-the-rhythm-vinyl/631657-01/"
+    }
+  },
+  {
     "id": "30abf3ae",
     "title": "Classics Remastered",
     "artist": "Roy Davis Jr.",
@@ -7409,39 +7443,6 @@
       "hardwax": "https://hardwax.com/88036/toddsonic33/animal/",
       "clone": "https://clone.nl/item82421.html",
       "rushhour": "https://www.rushhour.nl/record/vinyl/animal-0"
-    }
-  },
-  {
-    "id": "f109fcd8",
-    "title": "I Feel The Rhythm",
-    "artist": "Ron Trent",
-    "album": "I Feel The Rhythm",
-    "label": "Only One",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-13",
-    "re": false,
-    "styles": [
-      "house",
-      "label catalog"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/77203/ron-trent/i-feel-the-rhythm/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "12\"",
-    "quality_score": 50,
-    "_score_breakdown": {
-      "total": 50,
-      "label": 0,
-      "artist": 30,
-      "genre": 10,
-      "source": 10,
-      "multi": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/77203/ron-trent/i-feel-the-rhythm/"
     }
   },
   {
@@ -14753,6 +14754,41 @@
     }
   },
   {
+    "id": "c3a6f32e",
+    "title": "Black Mahogani II",
+    "artist": "Moodymann",
+    "album": "Black Mahogani II",
+    "label": "Peacefrog",
+    "genre": "Electronica",
+    "duration": "",
+    "date": "2026-03-10",
+    "re": true,
+    "styles": [
+      "electronica",
+      "label catalog",
+      "deep house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/45733/moodymann/black-mahogani-ii/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 10,
+      "multi": 6
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/45733/moodymann/black-mahogani-ii/",
+      "juno": "https://www.juno.co.uk/products/moodymann-black-mahogani-vinyl/1100173-01/"
+    }
+  },
+  {
     "id": "be3997b7",
     "title": "Gittin’  Ghetto EP",
     "artist": "DJ Sneak",
@@ -17222,40 +17258,6 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/83740/norm-talley/deep-essentials-vol1/"
-    }
-  },
-  {
-    "id": "c3a6f32e",
-    "title": "Black Mahogani II",
-    "artist": "Moodymann",
-    "album": "Black Mahogani II",
-    "label": "Peacefrog",
-    "genre": "Electronica",
-    "duration": "",
-    "date": "2026-03-10",
-    "re": true,
-    "styles": [
-      "electronica",
-      "label catalog",
-      "deep house"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/45733/moodymann/black-mahogani-ii/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "quality_score": 50,
-    "_score_breakdown": {
-      "total": 50,
-      "label": 0,
-      "artist": 20,
-      "genre": 20,
-      "source": 10,
-      "multi": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/45733/moodymann/black-mahogani-ii/"
     }
   },
   {
