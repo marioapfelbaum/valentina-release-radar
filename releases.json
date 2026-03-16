@@ -594,6 +594,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/30-years-of-strictly-rhythm-part-three-vinyl/1135635-01/"
     }
   },
   {
@@ -838,6 +841,41 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/housey-doingz-a-few-far-between-v-vinyl/1080795-01/"
+    }
+  },
+  {
+    "id": "8bec1a1e",
+    "title": "Take Me As I Am",
+    "artist": "Dames Brown & Amp Fiddler",
+    "album": "Take Me As I Am",
+    "label": "Defected",
+    "genre": "Disco",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [
+      "Funk",
+      "Boogie",
+      "Disco",
+      "Soul",
+      "House",
+      "Deep House",
+      "Gospel"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36792301-Dames-Brown-Amp-Fiddler-Take-Me-As-I-Am",
+    "discogs_url": "https://www.discogs.com/release/36792301-Dames-Brown-Amp-Fiddler-Take-Me-As-I-Am",
+    "bpm": null,
+    "catalog_number": "DBTMAIM01LP",
+    "format": "LP",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -1770,6 +1808,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/big-sam-presents-the-bring-down-the-walls-vinyl/1136499-01/"
     }
   },
   {
