@@ -714,6 +714,36 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/natural-rhythm-the-jive-ep-vinyl/1118804-01/"
+    }
+  },
+  {
+    "id": "62145604",
+    "title": "The Barras",
+    "artist": "Peter Raou",
+    "album": "The Barras",
+    "label": "RJWM Machines",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/peter-raou-the-barras-vinyl/1131162-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
@@ -987,6 +1017,33 @@
     }
   },
   {
+    "id": "3dab5168",
+    "title": "Spacer Woman (Cantonese Cover)",
+    "artist": "Romain FX",
+    "album": "Spacer Woman (Cantonese Cover)",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82837.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MD31825",
+    "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
     "id": "87829fd8",
     "title": "BUBBLE BATHS FOR GIANTS",
     "artist": "CARLOS NIÑO & FRIENDS",
@@ -1014,6 +1071,33 @@
     },
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/bubble-baths-giants"
+    }
+  },
+  {
+    "id": "5bcb5961",
+    "title": "EXTRA STARS",
+    "artist": "GREGORY UHLMANN",
+    "album": "EXTRA STARS",
+    "label": "INTERNATIONAL ANTHEM RECORDING COMPANY",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/extra-stars",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -7449,6 +7533,35 @@
     }
   },
   {
+    "id": "fb38e7d1",
+    "title": "Like That",
+    "artist": "Marco Faraone",
+    "album": "Like That",
+    "label": "Nervous Records",
+    "genre": "Tech House",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Tech House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36788155-Marco-Faraone-Like-That",
+    "discogs_url": "https://www.discogs.com/release/36788155-Marco-Faraone-Like-That",
+    "bpm": null,
+    "catalog_number": "NER27299",
+    "format": "",
+    "quality_score": 63,
+    "_score_breakdown": {
+      "total": 63,
+      "label": 25,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
     "id": "1c5599db",
     "title": "Chiral",
     "artist": "Martinou",
@@ -7948,6 +8061,64 @@
       "discogs": "https://www.discogs.com/release/36278635-Mala-4-Magugu-Militant-Don"
     },
     "discogs_release_id": 36278635
+  },
+  {
+    "id": "7460623d",
+    "title": "Brillo",
+    "artist": "Souler (ES)",
+    "album": "Brillo",
+    "label": "Nervous Records",
+    "genre": "Tech House",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Tech House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36788164-Souler-ES-Brillo",
+    "discogs_url": "https://www.discogs.com/release/36788164-Souler-ES-Brillo",
+    "bpm": null,
+    "catalog_number": "NER27270",
+    "format": "",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "ca32d39e",
+    "title": "You Know What I'm Talkin' Bout",
+    "artist": "claudio.",
+    "album": "You Know What I'm Talkin' Bout",
+    "label": "Nervous Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "Garage House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36788176-claudio-You-Know-What-Im-Talkin-Bout",
+    "discogs_url": "https://www.discogs.com/release/36788176-claudio-You-Know-What-Im-Talkin-Bout",
+    "bpm": null,
+    "catalog_number": "NER27178",
+    "format": "",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
   },
   {
     "id": "54f0f6d0",
@@ -42254,6 +42425,33 @@
     },
     "source_urls": {
       "clone": "https://clone.nl/item82266.html"
+    }
+  },
+  {
+    "id": "8ccf7a0d",
+    "title": "BUBBLE BATHS FOR GIANTS",
+    "artist": "CARLOS NIÑO & FRIENDS",
+    "album": "BUBBLE BATHS FOR GIANTS",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-02-09",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/bubble-baths-giants",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
