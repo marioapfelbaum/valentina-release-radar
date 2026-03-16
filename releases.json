@@ -750,6 +750,65 @@
     }
   },
   {
+    "id": "8d6ea79c",
+    "title": "States & Paths",
+    "artist": "Various Artists",
+    "album": "States & Paths",
+    "label": "Driveline",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [
+      "dub",
+      "techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88144/various-artists/states-and-paths/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 30,
+    "_score_breakdown": {
+      "total": 30,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
+    "id": "ac0efbe7",
+    "title": "In a Few Places Along the River",
+    "artist": "Abul Mogard",
+    "album": "In a Few Places Along the River",
+    "label": "Soft Echoes",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [
+      "ambient"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87736/abul-mogard/in-a-few-places-along-the-river/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 30,
+    "_score_breakdown": {
+      "total": 30,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
     "id": "83005490",
     "title": "ELEVATION",
     "artist": "PHAROAH SANDERS",
@@ -957,6 +1016,33 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/halo-varga-crypt-keepers-pily-paul-level-3-vinyl/1134821-01/"
+    }
+  },
+  {
+    "id": "4c6f37eb",
+    "title": "Midnight Chronicles EP",
+    "artist": "Boychi",
+    "album": "Midnight Chronicles EP",
+    "label": "Mr Banger",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/boychi-midnight-chronicles-ep-vinyl/1143167-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
