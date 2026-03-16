@@ -570,6 +570,33 @@
     }
   },
   {
+    "id": "2c5d861e",
+    "title": "Elvers Pass",
+    "artist": "Jorg Kuning",
+    "album": "Elvers Pass",
+    "label": "Wisdom Teeth",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/jorg-kuning-elvers-pass-vinyl/1070639-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 51,
+    "_score_breakdown": {
+      "total": 51,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "36818451",
     "title": "Mullah Said",
     "artist": "Muslimgauze",
@@ -715,6 +742,36 @@
       "total": 46,
       "label": 0,
       "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/housey-doingz-a-few-far-between-v-vinyl/1080795-01/"
+    }
+  },
+  {
+    "id": "ed2ab6f5",
+    "title": "Kinetic EP",
+    "artist": "Reagan Grey",
+    "album": "Kinetic EP",
+    "label": "Wolf Music Recordings",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/reagan-grey-kinetic-ep-vinyl/1138167-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 15,
+      "artist": 0,
       "genre": 20,
       "source": 6,
       "multi": 0
@@ -1350,6 +1407,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/arno-what-is-life-ep-vinyl/1134389-01/"
     }
   },
   {
@@ -1365,6 +1425,36 @@
     "styles": [],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/zankee-gulati-amega-dark-side-vinyl/1132583-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/zankee-gulati-amega-dark-side-vinyl/1132583-01/"
+    }
+  },
+  {
+    "id": "cd78a92c",
+    "title": "Surreal",
+    "artist": "B From E",
+    "album": "Surreal",
+    "label": "Physical Education Spain",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/b-from-e-surreal-vinyl/1143170-01/",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": null,
@@ -44894,6 +44984,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/swimming-limbs"
     }
   },
   {
