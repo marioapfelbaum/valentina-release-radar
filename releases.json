@@ -700,6 +700,60 @@
     }
   },
   {
+    "id": "2beb358a",
+    "title": "Serosai - Hall of Mirrors LP [OUTPLAY09D]",
+    "artist": "Playedby.wav",
+    "album": "Serosai - Hall of Mirrors LP [OUTPLAY09D]",
+    "label": "PlayedBy",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-17",
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://playedbywav.bandcamp.com/album/serosai-hall-of-mirrors-lp-outplay09d",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "bac6acd3",
+    "title": "Digitec",
+    "artist": "Terry Francis",
+    "album": "Digitec",
+    "label": "Sushitech",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-17",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/terry-francis-digitec-vinyl/1143960-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "ac1e0458",
     "title": "BKS 08",
     "artist": "Larry Lan/N Um/Dewinter/Asha Jasz/Jay Prouty/Mari Blue/Scoe",
@@ -1481,6 +1535,60 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/beatbigot-first-issue-vinyl/1143890-01/"
+    }
+  },
+  {
+    "id": "9190d889",
+    "title": "Garrett David & Taslo Present Exaura",
+    "artist": "Garrett David/Taslo",
+    "album": "Garrett David & Taslo Present Exaura",
+    "label": "Healing Channel US",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-17",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/garrett-david-taslo-garrett-david-taslo-present-exaura-vinyl/1125472-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "e496b905",
+    "title": "For The Nasty EP",
+    "artist": "Steingold",
+    "album": "For The Nasty EP",
+    "label": "Permaculture",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-17",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/steingold-for-the-nasty-ep-vinyl/1144291-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
@@ -48072,7 +48180,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36394855-Dimension-12-x-Karen-Harding-Guardian-Angel-Ben-Nicky-Extended-Remix",
-    "discogs_url": "https://www.discogs.com/release/36394855",
+    "discogs_url": "https://www.discogs.com/release/36394855-Dimension-12-x-Karen-Harding-Guardian-Angel-Ben-Nicky-Extended-Remix",
     "bpm": null,
     "catalog_number": "G0100057276865",
     "format": "Single",
@@ -48086,7 +48194,7 @@
       "multi": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36394855"
+      "discogs": "https://www.discogs.com/release/36394855-Dimension-12-x-Karen-Harding-Guardian-Angel-Ben-Nicky-Extended-Remix"
     }
   },
   {
