@@ -534,6 +534,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/giuliano-lomonte-the-jungle-ep-vinyl/1143909-01/"
     }
   },
   {
@@ -1385,6 +1388,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/salomo-reece-walker-rm-12041-vinyl/1143870-01/"
     }
   },
   {
@@ -1412,6 +1418,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/kappen-latence-ennio-tyson-phase-1-vinyl/1143839-01/"
     }
   },
   {
@@ -1439,6 +1448,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/sweater-future-moves-vinyl/1143885-01/"
     }
   },
   {
@@ -1466,6 +1478,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/beatbigot-first-issue-vinyl/1143890-01/"
     }
   },
   {
@@ -48057,7 +48072,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36394855-Dimension-12-x-Karen-Harding-Guardian-Angel-Ben-Nicky-Extended-Remix",
-    "discogs_url": "https://www.discogs.com/release/36394855-Dimension-12-x-Karen-Harding-Guardian-Angel-Ben-Nicky-Extended-Remix",
+    "discogs_url": "https://www.discogs.com/release/36394855",
     "bpm": null,
     "catalog_number": "G0100057276865",
     "format": "Single",
@@ -48071,7 +48086,7 @@
       "multi": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36394855-Dimension-12-x-Karen-Harding-Guardian-Angel-Ben-Nicky-Extended-Remix"
+      "discogs": "https://www.discogs.com/release/36394855"
     }
   },
   {
