@@ -604,6 +604,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/silat-beksi-curandero-ep-vinyl/1143807-01/"
     }
   },
   {
@@ -1141,6 +1144,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/daisy-moon-spirit-princess-vinyl/1143521-01/"
     }
   },
   {
@@ -1168,6 +1174,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/lb-honne-guardwatcher-part-1-vinyl/1143737-01/"
     }
   },
   {
@@ -42531,6 +42540,33 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36618598-Robert-Camero-Love-Games"
+    }
+  },
+  {
+    "id": "7fce4ef1",
+    "title": "ELEVATION",
+    "artist": "PHAROAH SANDERS",
+    "album": "ELEVATION",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-02-15",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/elevation-12",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
