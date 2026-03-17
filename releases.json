@@ -43148,6 +43148,35 @@
     }
   },
   {
+    "id": "5e3c0c27",
+    "title": "Love Games",
+    "artist": "Robert Camero",
+    "album": "Love Games",
+    "label": "Blanco Y Negro",
+    "genre": "Italo Disco",
+    "duration": "",
+    "date": "2026-02-16",
+    "re": false,
+    "styles": [
+      "Italo-Disco"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36803812-Robert-Camero-Love-Games",
+    "discogs_url": "https://www.discogs.com/release/36803812-Robert-Camero-Love-Games",
+    "bpm": null,
+    "catalog_number": "BYN 054",
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
     "id": "7fce4ef1",
     "title": "ELEVATION",
     "artist": "PHAROAH SANDERS",
