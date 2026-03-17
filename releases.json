@@ -700,6 +700,40 @@
     }
   },
   {
+    "id": "79a2e7a1",
+    "title": "Real Synthetic Life",
+    "artist": "Dynatron",
+    "album": "Real Synthetic Life",
+    "label": "Acido",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-17",
+    "re": false,
+    "styles": [
+      "techno",
+      "leftfield"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88149/dynatron/real-synthetic-life/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "Acido039",
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88149/dynatron/real-synthetic-life/",
+      "clone": "https://clone.nl/item81892.html"
+    },
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 6
+    }
+  },
+  {
     "id": "e403e3f5",
     "title": "Mystic Aquazone EP",
     "artist": "Black Eyes",
@@ -36315,36 +36349,6 @@
     },
     "source_urls": {
       "clone": "https://clone.nl/item82606.html"
-    }
-  },
-  {
-    "id": "d1497374",
-    "title": "Real Synthetic Life",
-    "artist": "Dynatron",
-    "album": "Real Synthetic Life",
-    "label": "",
-    "genre": "Techno",
-    "duration": "",
-    "date": "2026-03-09",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81892.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "Acido039",
-    "format": "Single",
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81892.html"
     }
   },
   {
