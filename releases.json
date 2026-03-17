@@ -510,6 +510,33 @@
     }
   },
   {
+    "id": "50cb5a4e",
+    "title": "Florilegia III",
+    "artist": "Various",
+    "album": "Florilegia III",
+    "label": "Iconyc",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-17",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/florilegia-iii-vinyl/1144674-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 61,
+    "_score_breakdown": {
+      "total": 61,
+      "label": 15,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "fec1ab9e",
     "title": "TAKE ME AS I AM (PRESENTED BY AMP FIDDLER)",
     "artist": "DAMES BROWN",
@@ -1177,6 +1204,33 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/lb-honne-guardwatcher-part-1-vinyl/1143737-01/"
+    }
+  },
+  {
+    "id": "3c8ebcf0",
+    "title": "Tom's D (reissue)",
+    "artist": "Creature",
+    "album": "Tom's D (reissue)",
+    "label": "Creature Germany",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-17",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/creature-toms-d-vinyl/1126270-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
@@ -13873,7 +13927,8 @@
       "disco",
       "label catalog",
       "Tech House",
-      "Minimal"
+      "Minimal",
+      "Dub Techno"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87545/makam/tarp/?focus=only_vinyl",
@@ -42567,6 +42622,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/elevation-12"
     }
   },
   {
