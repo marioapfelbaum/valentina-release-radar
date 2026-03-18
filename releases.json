@@ -940,6 +940,36 @@
     }
   },
   {
+    "id": "ecfe0e93",
+    "title": "Ladeiras De Santa Teresa",
+    "artist": "Neves E Silvia",
+    "album": "Ladeiras De Santa Teresa",
+    "label": "FAR OUT RECORDINGS",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82417.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FARO 256LP",
+    "format": "LP",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82417.html"
+    }
+  },
+  {
     "id": "a8dce979",
     "title": "Intro (25th Anniversary Edition)",
     "artist": "Alan Braxe/Fred Falke",
@@ -997,6 +1027,33 @@
     },
     "source_urls": {
       "clone": "https://clone.nl/item80940.html"
+    }
+  },
+  {
+    "id": "07702b3a",
+    "title": "CHASING SHADOWS",
+    "artist": "NUBIYAN TWIST",
+    "album": "CHASING SHADOWS",
+    "label": "STRUT",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/chasing-shadows",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -1963,36 +2020,6 @@
     }
   },
   {
-    "id": "ecfe0e93",
-    "title": "Ladeiras De Santa Teresa",
-    "artist": "Neves E Silvia",
-    "album": "Ladeiras De Santa Teresa",
-    "label": "",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-18",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item82417.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "FARO 256LP",
-    "format": "LP",
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item82417.html"
-    }
-  },
-  {
     "id": "a0dd282c",
     "title": "Le Fuck Techno Import Mix",
     "artist": "69DB",
@@ -2515,6 +2542,63 @@
     "styles": [],
     "source": "rushhour",
     "source_url": "https://www.rushhour.nl/record/vinyl/tirakat",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/tirakat"
+    }
+  },
+  {
+    "id": "2d5f13b9",
+    "title": "CREOLE GYPSY",
+    "artist": "ROLAND BRIVAL",
+    "album": "CREOLE GYPSY",
+    "label": "SOUNDWAY RECORDS",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/creole-gypsy-0",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "ad562fc2",
+    "title": "BODY SOUND",
+    "artist": "WHITNEY JOHNSON / LIA KOHL / MACIE STEWART",
+    "album": "BODY SOUND",
+    "label": "INTERNATIONAL ANTHEM RECORDING COMPANY",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/body-sound",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": null,
@@ -60572,6 +60656,35 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36769729-A-Perfect-Circle-Mer-De-Noms"
+    }
+  },
+  {
+    "id": "2d705cbb",
+    "title": "Voodoo",
+    "artist": "D'Angelo",
+    "album": "Voodoo",
+    "label": "Virgin",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-01-01",
+    "re": true,
+    "styles": [
+      "Neo Soul"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36810541-DAngelo-Voodoo",
+    "discogs_url": "https://www.discogs.com/release/36810541-DAngelo-Voodoo",
+    "bpm": null,
+    "catalog_number": "602478399190",
+    "format": "LP",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
     }
   },
   {
