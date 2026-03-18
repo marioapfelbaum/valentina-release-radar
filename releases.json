@@ -390,6 +390,37 @@
     }
   },
   {
+    "id": "7f56d781",
+    "title": "Poppies",
+    "artist": "Lawrence",
+    "album": "Poppies",
+    "label": "Smallville Records",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [
+      "Minimal",
+      "Deep House",
+      "Ambient House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36798148-Lawrence-Poppies",
+    "discogs_url": "https://www.discogs.com/release/36798148-Lawrence-Poppies",
+    "bpm": null,
+    "catalog_number": "SMALLVILLE 73",
+    "format": "",
+    "quality_score": 83,
+    "_score_breakdown": {
+      "total": 83,
+      "label": 25,
+      "artist": 30,
+      "genre": 20,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
     "id": "629e2b1c",
     "title": "California Space Craft",
     "artist": "Rejoicer",
@@ -43624,7 +43655,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36590434-Cappella-Move-On-Baby",
-    "discogs_url": "https://www.discogs.com/release/36590434-Cappella-Move-On-Baby",
+    "discogs_url": "https://www.discogs.com/release/36590434",
     "bpm": null,
     "catalog_number": "DIG 161370",
     "format": "",
@@ -43638,7 +43669,7 @@
       "multi": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36590434-Cappella-Move-On-Baby"
+      "discogs": "https://www.discogs.com/release/36590434"
     }
   },
   {
