@@ -754,6 +754,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/cc-disco-chez-moi-waiting-for-you-remixes-vinyl/1143975-01/"
     }
   },
   {
@@ -961,6 +964,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/alan-braxe-fred-falke-intro-25th-anniversary-edition-vinyl/1134155-01/"
     }
   },
   {
@@ -1799,6 +1805,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/love-athletics-sean-mcnulty-winter-compilation-vol-1-vinyl/1133910-01/"
     }
   },
   {
@@ -1826,6 +1835,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/leo-kal-roots-ep-vinyl/1135230-01/"
     }
   },
   {
@@ -1853,6 +1865,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/wilt-velvet-groove-vinyl/1143906-01/"
     }
   },
   {
@@ -2485,6 +2500,33 @@
     },
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/mysterious-vastness"
+    }
+  },
+  {
+    "id": "3e7a2975",
+    "title": "TIRAKAT",
+    "artist": "CHARIF MEGARBANE & ALI",
+    "album": "TIRAKAT",
+    "label": "HABIBI FUNK",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/tirakat",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -41144,7 +41186,7 @@
       "multi": 6
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/87810/red-rooms/endurance-ep/",
+      "hardwax": "https://hardwax.com/87810/red-rooms/endurance-ep/?focus=only_vinyl",
       "clone": "https://clone.nl/item82506.html"
     }
   },
@@ -41212,7 +41254,7 @@
       "multi": 0
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/88049/shxcxchcxsh/eeeer/"
+      "hardwax": "https://hardwax.com/88049/shxcxchcxsh/eeeer/?focus=only_vinyl"
     }
   },
   {
