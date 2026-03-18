@@ -730,6 +730,37 @@
     }
   },
   {
+    "id": "8e019ec2",
+    "title": "HIGHER STATE OF CONSCIOUSNESS (RED / WHITE SPLATTER VINYL)",
+    "artist": "JOSH WINK",
+    "album": "HIGHER STATE OF CONSCIOUSNESS (RED / WHITE SPLATTER VINYL)",
+    "label": "STRICTLY RHYTHM",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/higher-state-consciousness-red-white-splatter-vinyl",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/higher-state-consciousness-red-white-splatter-vinyl",
+      "juno": "https://www.juno.co.uk/products/wink-higher-state-of-consciousness-vinyl/1135631-01/"
+    },
+    "quality_score": 64,
+    "_score_breakdown": {
+      "total": 64,
+      "label": 25,
+      "artist": 20,
+      "genre": 5,
+      "source": 8,
+      "multi": 6
+    }
+  },
+  {
     "id": "9e218b0b",
     "title": "7th Heaven: Tribute To The Energy Of Frankie Knuckles",
     "artist": "Ron Trent",
@@ -754,6 +785,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/ron-trent-7th-heaven-tribute-to-the-energy-vinyl/1141659-01/"
     }
   },
   {
@@ -1111,6 +1145,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/another-weird-dream"
     }
   },
   {
@@ -1169,6 +1206,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/todd-terry-the-house-of-gypsies-dj-teachers-vinyl/1137488-01/"
     }
   },
   {
@@ -1196,6 +1236,9 @@
       "genre": 5,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/kak"
     }
   },
   {
@@ -2063,6 +2106,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/father-sheed-boom-ep-vinyl/1137483-01/"
     }
   },
   {
@@ -2090,6 +2136,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/arodes-alessio-cristiano-super-unreleased-records-vinyl-sampler-vinyl/1140463-01/"
     }
   },
   {
@@ -2117,6 +2166,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/eli-nissan-hedonism-vinyl/1137566-01/"
     }
   },
   {
@@ -2144,6 +2196,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/celvin-rotane-i-believe-30th-anniversary-edition-remastered-vinyl/1139198-01/"
     }
   },
   {
@@ -2836,6 +2891,60 @@
     },
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/body-sound"
+    }
+  },
+  {
+    "id": "2f68dc2c",
+    "title": "MORGENMUSIKEN",
+    "artist": "GREEN COSMOS",
+    "album": "MORGENMUSIKEN",
+    "label": "FREDERIKSBERG RECORDS *",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/morgenmusiken",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "79930a6a",
+    "title": "NOS INSAN",
+    "artist": "TAYMOUR / BAREEFTBLAD",
+    "album": "NOS INSAN",
+    "label": "DIY",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/nos-insan",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -6942,36 +7051,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/floating-points-ratio-deconstructed-mixes-vinyl/666147-01/"
-    }
-  },
-  {
-    "id": "1bcc3f3f",
-    "title": "Higher State Of Consciousness (reissue)",
-    "artist": "Wink",
-    "album": "Higher State Of Consciousness (reissue)",
-    "label": "Strictly Rhythm",
-    "genre": "Minimal House",
-    "duration": "",
-    "date": "2026-03-14",
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/wink-higher-state-of-consciousness-vinyl/1135631-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "quality_score": 71,
-    "_score_breakdown": {
-      "total": 71,
-      "label": 25,
-      "artist": 20,
-      "genre": 20,
-      "source": 6,
-      "multi": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/wink-higher-state-of-consciousness-vinyl/1135631-01/"
     }
   },
   {
@@ -12800,6 +12879,41 @@
     }
   },
   {
+    "id": "a1e9e6b6",
+    "title": "Eeeeeeee",
+    "artist": "Picture",
+    "album": "Eeeeeeee",
+    "label": "Short Span",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "dub",
+      "techno",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87599/picture/eeeeeeee/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Do EP",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 6
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87599/picture/eeeeeeee/",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/eeeeeeee"
+    }
+  },
+  {
     "id": "30abf3ae",
     "title": "Classics Remastered",
     "artist": "Roy Davis Jr.",
@@ -12898,40 +13012,6 @@
       "hardwax": "https://hardwax.com/88036/toddsonic33/animal/",
       "clone": "https://clone.nl/item82421.html",
       "rushhour": "https://www.rushhour.nl/record/vinyl/animal-0"
-    }
-  },
-  {
-    "id": "a1e9e6b6",
-    "title": "Eeeeeeee",
-    "artist": "Picture",
-    "album": "Eeeeeeee",
-    "label": "Short Span",
-    "genre": "Dub Techno",
-    "duration": "",
-    "date": "2026-03-13",
-    "re": false,
-    "styles": [
-      "dub",
-      "techno",
-      "label catalog"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/87599/picture/eeeeeeee/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Do EP",
-    "quality_score": 50,
-    "_score_breakdown": {
-      "total": 50,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 10,
-      "multi": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/87599/picture/eeeeeeee/"
     }
   },
   {
