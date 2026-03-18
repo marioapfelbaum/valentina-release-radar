@@ -880,6 +880,33 @@
     }
   },
   {
+    "id": "29fbbe7f",
+    "title": "Soft Evidences - Entry #7 [SOFT07]",
+    "artist": "Playedby.wav",
+    "album": "Soft Evidences - Entry #7 [SOFT07]",
+    "label": "PlayedBy",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://playedbywav.bandcamp.com/album/soft-evidences-entry-7-soft07",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "950f32bd",
     "title": "Unreleased Works 94' - 97'",
     "artist": "Susumu Yokota",
@@ -1535,6 +1562,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/boogie-down-edits-vol-2-atcq-house-edits-vinyl/1126940-01/"
     }
   },
   {
@@ -1562,6 +1592,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/arsene-its-a-feeling-vinyl/1136237-01/"
     }
   },
   {
@@ -1589,6 +1622,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/eth-neon-inferno-vinyl/1143893-01/"
     }
   },
   {
@@ -1616,6 +1652,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/modal-citizen-rob-pearson-paul-bubble-ldn-002-vinyl/1139107-01/"
     }
   },
   {
@@ -1915,6 +1954,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82596.html"
     }
   },
   {
@@ -1942,6 +1984,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82157.html"
     }
   },
   {
@@ -1969,6 +2014,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82155.html"
     }
   },
   {
@@ -1996,6 +2044,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82153.html"
     }
   },
   {
@@ -2023,6 +2074,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82111.html"
     }
   },
   {
@@ -2050,6 +2104,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81826.html"
     }
   },
   {
@@ -2069,6 +2126,90 @@
     "bpm": null,
     "catalog_number": "GlossyFloor07",
     "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82597.html"
+    }
+  },
+  {
+    "id": "d95008c4",
+    "title": "Beau Wanzer Shirt Extra Large (Merchandise)",
+    "artist": "Beau Wanzer",
+    "album": "Beau Wanzer Shirt Extra Large (Merchandise)",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82911.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BWS-XL",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "7373533c",
+    "title": "Beau Wanzer Shirt Large (Merchandise)",
+    "artist": "Beau Wanzer",
+    "album": "Beau Wanzer Shirt Large (Merchandise)",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82910.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BWS-L",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "460ffd68",
+    "title": "Beau Wanzer Shirt Medium (Merchandise)",
+    "artist": "Beau Wanzer",
+    "album": "Beau Wanzer Shirt Medium (Merchandise)",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82909.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BWS-M",
+    "format": "",
     "quality_score": 18,
     "_score_breakdown": {
       "total": 18,
