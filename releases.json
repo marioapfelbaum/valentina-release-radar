@@ -628,6 +628,45 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/guti-you-know-ya-miss-me-ep-vinyl/1139993-01/"
+    }
+  },
+  {
+    "id": "eb2c2746",
+    "title": "Euphoria Bound",
+    "artist": "Shackleton",
+    "album": "Euphoria Bound",
+    "label": "AD 93",
+    "genre": "Electronic",
+    "duration": "59:22",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [
+      "Bass Music",
+      "Experimental",
+      "Dub"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82068.html",
+    "discogs_url": "https://www.discogs.com/release/36336598-Shackleton-Euphoria-Bound",
+    "bpm": null,
+    "catalog_number": "WHYT107LP",
+    "format": "LP",
+    "source_urls": {
+      "clone": "https://clone.nl/item82068.html",
+      "discogs": "https://www.discogs.com/release/36336598-Shackleton-Euphoria-Bound"
+    },
+    "discogs_release_id": 36336598,
+    "quality_score": 79,
+    "_score_breakdown": {
+      "total": 79,
+      "label": 25,
+      "artist": 30,
+      "genre": 10,
+      "source": 8,
+      "multi": 6
     }
   },
   {
@@ -1379,6 +1418,87 @@
       "genre": 5,
       "source": 8,
       "multi": 6
+    }
+  },
+  {
+    "id": "e58df664",
+    "title": "The Return Of Officer John (Morgan Buckley remix) (Mini-LP)",
+    "artist": "Officer John",
+    "album": "The Return Of Officer John (Morgan Buckley remix) (Mini-LP)",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82789.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "WINO-ROJ",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "a885dcc0",
+    "title": "Estatica",
+    "artist": "Marcos Valle",
+    "album": "Estatica",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82658.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FARO 153LP",
+    "format": "LP",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "ecfe0e93",
+    "title": "Ladeiras De Santa Teresa",
+    "artist": "Neves E Silvia",
+    "album": "Ladeiras De Santa Teresa",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82417.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FARO 256LP",
+    "format": "LP",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -11554,20 +11674,21 @@
     "source_url": "https://hardwax.com/87615/simo-cell-and-abdullah-miniawy/dying-is-the-internet/?focus=only_vinyl",
     "discogs_url": "",
     "bpm": null,
-    "catalog_number": null,
+    "catalog_number": "DKMNTL-UFO20",
     "format": "LP",
-    "quality_score": 46,
+    "quality_score": 50,
     "_score_breakdown": {
-      "total": 46,
+      "total": 50,
       "label": 25,
       "artist": 0,
       "genre": 5,
       "source": 10,
-      "multi": 6
+      "multi": 10
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/87615/simo-cell-and-abdullah-miniawy/dying-is-the-internet/?focus=only_vinyl",
-      "rushhour": "https://www.rushhour.nl/record/vinyl/dying-internet"
+      "rushhour": "https://www.rushhour.nl/record/vinyl/dying-internet",
+      "clone": "https://clone.nl/item82484.html"
     }
   },
   {
@@ -48701,38 +48822,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36458082-Aidan-Baker-Wario-Pianesi-4Rooms"
-    }
-  },
-  {
-    "id": "5e3d9f68",
-    "discogs_release_id": 36336598,
-    "title": "Euphoria Bound",
-    "artist": "Shackleton",
-    "album": "Euphoria Bound",
-    "label": "AD 93",
-    "genre": "Experimental",
-    "duration": "59:22",
-    "date": "2026-01-30",
-    "re": false,
-    "styles": [
-      "Bass Music",
-      "Experimental",
-      "Dub"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36336598-Shackleton-Euphoria-Bound",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36336598-Shackleton-Euphoria-Bound",
-    "quality_score": 83,
-    "_score_breakdown": {
-      "total": 83,
-      "label": 25,
-      "artist": 30,
-      "genre": 20,
-      "source": 8,
-      "multi": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36336598-Shackleton-Euphoria-Bound"
     }
   },
   {
