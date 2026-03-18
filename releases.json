@@ -724,6 +724,33 @@
     }
   },
   {
+    "id": "9286acfd",
+    "title": "Dominator",
+    "artist": "Human Resource",
+    "album": "Dominator",
+    "label": "Armada Music Holland",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/human-resource-dominator-vinyl/1127002-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "4ce589ed",
     "title": "YUSHU NO BI",
     "artist": "TRENT",
@@ -1231,6 +1258,60 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/arutani-earth-below-vinyl/1135849-01/"
+    }
+  },
+  {
+    "id": "bed33bcc",
+    "title": "Seamless Motion",
+    "artist": "Aqua Surf",
+    "album": "Seamless Motion",
+    "label": "Squid US",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/aqua-surf-seamless-motion-vinyl/1136510-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "3cff254f",
+    "title": "Attributi",
+    "artist": "Djfix/Jek",
+    "album": "Attributi",
+    "label": "Earth Dog US",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/djfix-jek-attributi-vinyl/1140739-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
