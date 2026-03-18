@@ -598,6 +598,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/franck-roger-my-illusions-ep-vinyl/1118425-01/"
     }
   },
   {
@@ -835,6 +838,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/cosmjn-flud-jay-tripwire-venda-vstr-001-vinyl/1143875-01/"
     }
   },
   {
@@ -43678,7 +43684,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36509122-Cappella-Move-On-Baby",
-    "discogs_url": "https://www.discogs.com/release/36509122-Cappella-Move-On-Baby",
+    "discogs_url": "https://www.discogs.com/release/36509122",
     "bpm": null,
     "catalog_number": "MAXI 1197-12",
     "format": "",
@@ -43692,7 +43698,7 @@
       "multi": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36509122-Cappella-Move-On-Baby"
+      "discogs": "https://www.discogs.com/release/36509122"
     }
   },
   {
