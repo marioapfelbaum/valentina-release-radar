@@ -574,6 +574,33 @@
     }
   },
   {
+    "id": "1d71a52a",
+    "title": "My Illusions EP",
+    "artist": "Franck Roger",
+    "album": "My Illusions EP",
+    "label": "Seasons Limited US",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/franck-roger-my-illusions-ep-vinyl/1118425-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "6487d64c",
     "title": "VA02",
     "artist": "Tini/Grd Diego/Stefano Andriezzi/Stckman",
@@ -781,6 +808,33 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/jorge-revelations-vinyl/1142554-01/"
+    }
+  },
+  {
+    "id": "9a59f73e",
+    "title": "VSTR 001",
+    "artist": "Cosmjn/Flud/Jay Tripwire/Venda",
+    "album": "VSTR 001",
+    "label": "Visitors Holland",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/cosmjn-flud-jay-tripwire-venda-vstr-001-vinyl/1143875-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
