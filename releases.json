@@ -418,6 +418,9 @@
       "genre": 20,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36798148-Lawrence-Poppies"
     }
   },
   {
@@ -43655,7 +43658,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36590434-Cappella-Move-On-Baby",
-    "discogs_url": "https://www.discogs.com/release/36590434",
+    "discogs_url": "https://www.discogs.com/release/36590434-Cappella-Move-On-Baby",
     "bpm": null,
     "catalog_number": "DIG 161370",
     "format": "",
@@ -43669,7 +43672,7 @@
       "multi": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36590434"
+      "discogs": "https://www.discogs.com/release/36590434-Cappella-Move-On-Baby"
     }
   },
   {
