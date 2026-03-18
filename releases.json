@@ -1001,6 +1001,33 @@
     }
   },
   {
+    "id": "3114e7c4",
+    "title": "Superlongevity Six",
+    "artist": "Various",
+    "album": "Superlongevity Six",
+    "label": "Perlon Germany",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/superlongevity-six-vinyl/651606-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "ecfe0e93",
     "title": "Ladeiras De Santa Teresa",
     "artist": "Neves E Silvia",
@@ -2199,6 +2226,60 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/celvin-rotane-i-believe-30th-anniversary-edition-remastered-vinyl/1139198-01/"
+    }
+  },
+  {
+    "id": "45b1d674",
+    "title": "Live Goes On",
+    "artist": "Sound Stream",
+    "album": "Live Goes On",
+    "label": "Sound Stream Germany",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/sound-stream-live-goes-on-vinyl/326200-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "f87efa75",
+    "title": "Credo Tracks Vol 1 EP",
+    "artist": "Age Of Rage/Dubbyman/Dan Piu",
+    "album": "Credo Tracks Vol 1 EP",
+    "label": "Sole Aspect US",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/age-of-rage-credo-tracks-vol-1-ep-vinyl/942045-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
@@ -27559,6 +27640,42 @@
     "discogs_release_id": 36530701
   },
   {
+    "id": "e37d2682",
+    "title": "Reverberation",
+    "artist": "Substance & Vainqueur",
+    "album": "Reverberation",
+    "label": "Scion Versions",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-10",
+    "re": true,
+    "styles": [
+      "dub techno",
+      "dub",
+      "techno",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/52965/substance-and-vainqueur/reverberation/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 6
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/52965/substance-and-vainqueur/reverberation/",
+      "juno": "https://www.juno.co.uk/products/substance-vainqueur-reverberation-vinyl/259415-01/"
+    }
+  },
+  {
     "id": "bbec8b65",
     "title": "Kybalion",
     "artist": "Sons of Hidden & Advanced Transistor",
@@ -29044,41 +29161,6 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/87818/administrator/fly-sparks-fly/?focus=download"
-    }
-  },
-  {
-    "id": "e37d2682",
-    "title": "Reverberation",
-    "artist": "Substance & Vainqueur",
-    "album": "Reverberation",
-    "label": "Scion Versions",
-    "genre": "Dub Techno",
-    "duration": "",
-    "date": "2026-03-10",
-    "re": true,
-    "styles": [
-      "dub techno",
-      "dub",
-      "techno",
-      "label catalog"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/52965/substance-and-vainqueur/reverberation/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "12\"",
-    "quality_score": 30,
-    "_score_breakdown": {
-      "total": 30,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 10,
-      "multi": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/52965/substance-and-vainqueur/reverberation/?focus=only_vinyl"
     }
   },
   {
