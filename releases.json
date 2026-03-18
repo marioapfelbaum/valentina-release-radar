@@ -204,6 +204,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://kntxt.bandcamp.com/album/just-a-feeling-ep"
     }
   },
   {
@@ -595,6 +598,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/soul-capsule-law-of-grace-vinyl/903451-01/"
     }
   },
   {
@@ -682,6 +688,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/four-tet-into-dust-still-falling-vinyl/1104472-01/"
     }
   },
   {
@@ -949,6 +958,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/unknown-mobile-field-work-vinyl/1140845-01/"
     }
   },
   {
@@ -976,6 +988,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/ludwig-mausberg-shades-silhouettes-vinyl/1140374-01/"
     }
   },
   {
@@ -1002,6 +1017,36 @@
       "artist": 0,
       "genre": 20,
       "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/alton-miller-maurissa-rose-bring-me-down-vinyl/637133-01/"
+    }
+  },
+  {
+    "id": "caa5dd9d",
+    "title": "WHEN YOU FEEL",
+    "artist": "STEAL VYBE & TERRANCE DOWNS",
+    "album": "WHEN YOU FEEL",
+    "label": "LEMAN RECORDS",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/when-you-feel",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
       "multi": 0
     }
   },
