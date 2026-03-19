@@ -899,6 +899,36 @@
     }
   },
   {
+    "id": "7a103668",
+    "title": "909 Days",
+    "artist": "Brian Kage",
+    "album": "909 Days",
+    "label": "Michigander",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "house",
+      "detroit techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88162/brian-kage/909-days/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 35,
+    "_score_breakdown": {
+      "total": 35,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
     "id": "6d241d0f",
     "title": "Rituals of the Last Dawn",
     "artist": "Saba Alizadeh",
@@ -1018,6 +1048,40 @@
     "source_urls": {
       "hardwax": "https://hardwax.com/87748/danieli/induction/",
       "clone": "https://clone.nl/item82364.html"
+    },
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 6
+    }
+  },
+  {
+    "id": "6eb0a396",
+    "title": "The Lite Chop EP",
+    "artist": "Atari Ferrari",
+    "album": "The Lite Chop EP",
+    "label": "Atari Ferrari",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "house",
+      "detroit techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88163/atari-ferrari/the-lite-chop-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88163/atari-ferrari/the-lite-chop-ep/",
+      "juno": "https://www.juno.co.uk/products/atari-ferrari-the-lite-chop-ep-vinyl/1144292-01/"
     },
     "quality_score": 26,
     "_score_breakdown": {
@@ -4842,36 +4906,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/ny-stomp-can-you-feel-it-vinyl/1134845-01/"
-    }
-  },
-  {
-    "id": "65311f79",
-    "title": "The Lite Chop EP",
-    "artist": "Atari Ferrari",
-    "album": "The Lite Chop EP",
-    "label": "unknown label",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-17",
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/atari-ferrari-the-lite-chop-ep-vinyl/1144292-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/atari-ferrari-the-lite-chop-ep-vinyl/1144292-01/"
     }
   },
   {
@@ -17065,7 +17099,8 @@
     "re": false,
     "styles": [
       "deep house",
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87733/andy-vaz/i-am-not-from-detroit-remixes/",
@@ -17360,7 +17395,8 @@
     "re": false,
     "styles": [
       "house",
-      "uk garage"
+      "uk garage",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87860/mark-seven/house-breakin/",
@@ -43877,7 +43913,7 @@
       "multi": 0
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/87561/various-artists/15-years-of-butter-sessions-disc-two/"
+      "hardwax": "https://hardwax.com/87561/various-artists/15-years-of-butter-sessions-disc-two/?focus=only_vinyl"
     }
   },
   {
@@ -49050,6 +49086,33 @@
     }
   },
   {
+    "id": "800a50a9",
+    "title": "CREOLE GYPSY",
+    "artist": "ROLAND BRIVAL",
+    "album": "CREOLE GYPSY",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-02-08",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/creole-gypsy-0",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
     "id": "ab914175",
     "title": "Romantic Schizophremic",
     "artist": "Das Spezial",
@@ -50654,6 +50717,33 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36421417-Kameliia-Rødhåd-Carmine"
+    }
+  },
+  {
+    "id": "4fc1d17f",
+    "title": "MORGENMUSIKEN",
+    "artist": "GREEN COSMOS",
+    "album": "MORGENMUSIKEN",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-02-04",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/morgenmusiken",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
