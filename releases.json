@@ -662,6 +662,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88157/pierce/blind-witness/"
     }
   },
   {
@@ -813,6 +816,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/basic-channel-phylypstrak-i-vinyl/71121-01/"
     }
   },
   {
@@ -843,6 +849,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87764/temple-rat/some-leaves-must-fall-ting-qi-zi-ran/"
     }
   },
   {
@@ -873,6 +882,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88055/philip-chernikov/green-directions/"
     }
   },
   {
@@ -903,6 +915,9 @@
       "genre": 10,
       "source": 10,
       "multi": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87918/psyk-and-orbe/temporal-rift/"
     }
   },
   {
@@ -59772,6 +59787,33 @@
     },
     "source_urls": {
       "clone": "https://clone.nl/item80350.html"
+    }
+  },
+  {
+    "id": "b25d337f",
+    "title": "ANICHY & LYEMN",
+    "artist": "ANICHY & LYEMN",
+    "album": "ANICHY & LYEMN",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-01-07",
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/anichy-lyemn",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
