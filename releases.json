@@ -838,6 +838,36 @@
     }
   },
   {
+    "id": "679ddcf3",
+    "title": "313 Hotline EP",
+    "artist": "Black Mirror Park",
+    "album": "313 Hotline EP",
+    "label": "Planet Rhythm UK",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "dub",
+      "techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87702/black-mirror-park/313-hotline-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 30,
+    "_score_breakdown": {
+      "total": 30,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
     "id": "9abac9af",
     "title": "Induction",
     "artist": "Daniel[i]",
@@ -992,6 +1022,33 @@
     }
   },
   {
+    "id": "e4f7707b",
+    "title": "For Several Eternals Before There Were Years",
+    "artist": "1 800 Techno",
+    "album": "For Several Eternals Before There Were Years",
+    "label": "Public Possession Germany",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/1-800-techno-for-several-eternals-before-there-vinyl/1128599-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "70ff65b8",
     "title": "Some Leaves Must Fall 聽其自然",
     "artist": "Temple Rat",
@@ -1088,6 +1145,93 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/87918/psyk-and-orbe/temporal-rift/"
+    }
+  },
+  {
+    "id": "bde2b689",
+    "title": "Breakthrough",
+    "artist": "Temudo",
+    "album": "Breakthrough",
+    "label": "Primal Instinct",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88158/temudo/breakthrough/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 20,
+    "_score_breakdown": {
+      "total": 20,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
+    "id": "2ee3af37",
+    "title": "Portal",
+    "artist": "Elisa Batti & Isabel Soto",
+    "album": "Portal",
+    "label": "Segment",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88142/elisa-batti-and-isabel-soto/portal/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 20,
+    "_score_breakdown": {
+      "total": 20,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
+    "id": "07f154e3",
+    "title": "La Cripta Del Alma",
+    "artist": "Jamie Bissmire",
+    "album": "La Cripta Del Alma",
+    "label": "Warm Up",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88082/jamie-bissmire/la-cripta-del-alma/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 20,
+    "_score_breakdown": {
+      "total": 20,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
     }
   },
   {
