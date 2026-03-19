@@ -576,6 +576,79 @@
     }
   },
   {
+    "id": "2a316f8b",
+    "title": "Euphoria Bound",
+    "artist": "Shackleton",
+    "album": "Euphoria Bound",
+    "label": "AD 93",
+    "genre": "Electro",
+    "duration": "59:22",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "electro",
+      "Bass Music",
+      "Experimental",
+      "Dub"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87393/shackleton/euphoria-bound/",
+    "discogs_url": "https://www.discogs.com/release/36336598-Shackleton-Euphoria-Bound",
+    "bpm": null,
+    "catalog_number": "WHYT107LP",
+    "format": "Do LP",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87393/shackleton/euphoria-bound/",
+      "clone": "https://clone.nl/item82068.html",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/euphoria-bound"
+    },
+    "quality_score": 95,
+    "_score_breakdown": {
+      "total": 95,
+      "label": 25,
+      "artist": 30,
+      "genre": 20,
+      "source": 10,
+      "multi": 10
+    }
+  },
+  {
+    "id": "6789aebf",
+    "title": "Lost Dubs 2006-09",
+    "artist": "2562",
+    "album": "Lost Dubs 2006-09",
+    "label": "Tectonic",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "dub",
+      "techno",
+      "dubstep"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87776/2562/lost-dubs-2006-09/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TEC126",
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87776/2562/lost-dubs-2006-09/",
+      "clone": "https://clone.nl/item82449.html",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/lost-dubs-2006-2009"
+    },
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 10
+    }
+  },
+  {
     "id": "5dad4227",
     "title": "Bigger Than Prince",
     "artist": "Green Velvet",
@@ -665,6 +738,94 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/88157/pierce/blind-witness/"
+    }
+  },
+  {
+    "id": "ac8b1755",
+    "title": "Mars 31 Heaven Collected Works '93 - '95",
+    "artist": "Mono Junk",
+    "album": "Mars 31 Heaven Collected Works '93 - '95",
+    "label": "Cold Blow",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno",
+      "electro"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87901/mono-junk/mars-31-heaven-collected-works-93-95/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 35,
+    "_score_breakdown": {
+      "total": 35,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
+    "id": "913cd203",
+    "title": "5 Deadly Venoms: Scorpion",
+    "artist": "Various Artists",
+    "album": "5 Deadly Venoms: Scorpion",
+    "label": "Shaw Cuts",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88146/various-artists/5-deadly-venoms-scorpion/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 35,
+    "_score_breakdown": {
+      "total": 35,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
+    "id": "6d241d0f",
+    "title": "Rituals of the Last Dawn",
+    "artist": "Saba Alizadeh",
+    "album": "Rituals of the Last Dawn",
+    "label": "Karl",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "electro"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87638/saba-alizadeh/rituals-of-the-last-dawn/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 30,
+    "_score_breakdown": {
+      "total": 30,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 0
     }
   },
   {
@@ -981,6 +1142,33 @@
     }
   },
   {
+    "id": "79db61b1",
+    "title": "Addis Ababa",
+    "artist": "The Disciples",
+    "album": "Addis Ababa",
+    "label": "Partial",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": true,
+    "styles": [],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/86929/the-disciples/addis-ababa/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "10\"",
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
     "id": "c9806a6e",
     "title": "Law Of Grace (reissue)",
     "artist": "Soul Capsule",
@@ -1038,42 +1226,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/guti-you-know-ya-miss-me-ep-vinyl/1139993-01/"
-    }
-  },
-  {
-    "id": "eb2c2746",
-    "title": "Euphoria Bound",
-    "artist": "Shackleton",
-    "album": "Euphoria Bound",
-    "label": "AD 93",
-    "genre": "Electronic",
-    "duration": "59:22",
-    "date": "2026-03-18",
-    "re": false,
-    "styles": [
-      "Bass Music",
-      "Experimental",
-      "Dub"
-    ],
-    "source": "clone",
-    "source_url": "https://clone.nl/item82068.html",
-    "discogs_url": "https://www.discogs.com/release/36336598-Shackleton-Euphoria-Bound",
-    "bpm": null,
-    "catalog_number": "WHYT107LP",
-    "format": "LP",
-    "source_urls": {
-      "clone": "https://clone.nl/item82068.html",
-      "discogs": "https://www.discogs.com/release/36336598-Shackleton-Euphoria-Bound"
-    },
-    "discogs_release_id": 36336598,
-    "quality_score": 79,
-    "_score_breakdown": {
-      "total": 79,
-      "label": 25,
-      "artist": 30,
-      "genre": 10,
-      "source": 8,
-      "multi": 6
     }
   },
   {
@@ -23675,7 +23827,7 @@
       "multi": 10
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/87690/surgeons-girl/a-moment-to-machine-ep/?focus=only_vinyl",
+      "hardwax": "https://hardwax.com/87690/surgeons-girl/a-moment-to-machine-ep/",
       "clone": "https://clone.nl/item81869.html",
       "rushhour": "https://www.rushhour.nl/record/vinyl/moment-machine-ep"
     }
@@ -29751,7 +29903,7 @@
       "multi": 0
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/87691/t-flex/reconstruct-mutate/?focus=only_vinyl"
+      "hardwax": "https://hardwax.com/87691/t-flex/reconstruct-mutate/"
     }
   },
   {
@@ -40896,37 +41048,6 @@
     "source_urls": {
       "hardwax": "https://hardwax.com/87971/shlomi-aber-and-kashpitzky/klockworks-41/",
       "clone": "https://clone.nl/item82481.html"
-    }
-  },
-  {
-    "id": "556dcd14",
-    "title": "Lost Dubs 2006-2009",
-    "artist": "2562",
-    "album": "Lost Dubs 2006-2009",
-    "label": "TECTONIC",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-05",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item82449.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "TEC126",
-    "format": "Single",
-    "source_urls": {
-      "clone": "https://clone.nl/item82449.html",
-      "rushhour": "https://www.rushhour.nl/record/vinyl/lost-dubs-2006-2009"
-    },
-    "quality_score": 32,
-    "_score_breakdown": {
-      "total": 32,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 6
     }
   },
   {
@@ -59814,6 +59935,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/anichy-lyemn"
     }
   },
   {
