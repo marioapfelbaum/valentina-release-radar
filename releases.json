@@ -664,6 +664,33 @@
     }
   },
   {
+    "id": "f9b8d555",
+    "title": "Non-stop",
+    "artist": "Dav",
+    "album": "Non-stop",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82400.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "HLX003",
+    "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
     "id": "c9806a6e",
     "title": "Law Of Grace (reissue)",
     "artist": "Soul Capsule",
@@ -15933,6 +15960,39 @@
     }
   },
   {
+    "id": "52edbddd",
+    "title": "Jet Set",
+    "artist": "Soul Of Hex",
+    "album": "Jet Set",
+    "label": "Faith Beat",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-11",
+    "re": false,
+    "styles": [
+      "house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87753/soul-of-hex/jet-set/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FAITHBEAT013",
+    "format": "12\"",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 20,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 6
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87753/soul-of-hex/jet-set/",
+      "clone": "https://clone.nl/item82399.html"
+    }
+  },
+  {
     "id": "b2cb166f",
     "title": "Soft Evidences - Entry #6 [SOFT06]",
     "artist": "Playedby.wav",
@@ -15992,38 +16052,6 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/87470/erp/one4rekab/"
-    }
-  },
-  {
-    "id": "52edbddd",
-    "title": "Jet Set",
-    "artist": "Soul Of Hex",
-    "album": "Jet Set",
-    "label": "Faith Beat",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-11",
-    "re": false,
-    "styles": [
-      "house"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/87753/soul-of-hex/jet-set/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "12\"",
-    "quality_score": 40,
-    "_score_breakdown": {
-      "total": 40,
-      "label": 20,
-      "artist": 0,
-      "genre": 10,
-      "source": 10,
-      "multi": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/87753/soul-of-hex/jet-set/"
     }
   },
   {
