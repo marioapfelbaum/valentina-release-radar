@@ -16410,6 +16410,44 @@
     }
   },
   {
+    "id": "6ebebd2d",
+    "title": "OTO Collective",
+    "artist": "Alton Miller",
+    "album": "OTO Collective",
+    "label": "Rawax",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-10",
+    "re": false,
+    "styles": [
+      "deep house",
+      "house",
+      "detroit techno",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87376/alton-miller/oto-collective/",
+    "discogs_url": "https://www.discogs.com/release/36494071-Alton-Miller-Oto-Collective",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87376/alton-miller/oto-collective/",
+      "discogs": "https://www.discogs.com/release/36494071-Alton-Miller-Oto-Collective",
+      "juno": "https://www.juno.co.uk/products/alton-miller-oto-collective-vinyl/1125267-01/"
+    },
+    "discogs_release_id": 36494071,
+    "quality_score": 90,
+    "_score_breakdown": {
+      "total": 90,
+      "label": 30,
+      "artist": 20,
+      "genre": 20,
+      "source": 10,
+      "multi": 10
+    }
+  },
+  {
     "id": "8a4fcbc4",
     "title": "Layering Buddha",
     "artist": "Robert Henke",
@@ -16509,43 +16547,6 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/20808/gas/zauberberg/"
-    }
-  },
-  {
-    "id": "6ebebd2d",
-    "title": "OTO Collective",
-    "artist": "Alton Miller",
-    "album": "OTO Collective",
-    "label": "Rawax",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-10",
-    "re": false,
-    "styles": [
-      "deep house",
-      "house",
-      "detroit techno",
-      "label catalog"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/87376/alton-miller/oto-collective/",
-    "discogs_url": "https://www.discogs.com/release/36494071-Alton-Miller-Oto-Collective",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "12\"",
-    "source_urls": {
-      "hardwax": "https://hardwax.com/87376/alton-miller/oto-collective/",
-      "discogs": "https://www.discogs.com/release/36494071-Alton-Miller-Oto-Collective"
-    },
-    "discogs_release_id": 36494071,
-    "quality_score": 86,
-    "_score_breakdown": {
-      "total": 86,
-      "label": 30,
-      "artist": 20,
-      "genre": 20,
-      "source": 10,
-      "multi": 6
     }
   },
   {
