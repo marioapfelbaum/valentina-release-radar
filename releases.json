@@ -1175,6 +1175,36 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82588.html"
+    }
+  },
+  {
+    "id": "25c347cf",
+    "title": "Live At Ormside Projects (Cassette Tape)",
+    "artist": "Tammo Hesselink",
+    "album": "Live At Ormside Projects (Cassette Tape)",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82827.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BLNKC01",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -13467,6 +13497,42 @@
     }
   },
   {
+    "id": "a1e9e6b6",
+    "title": "Eeeeeeee",
+    "artist": "Picture",
+    "album": "Eeeeeeee",
+    "label": "Short Span",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "dub",
+      "techno",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87599/picture/eeeeeeee/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SHORT8",
+    "format": "Do EP",
+    "quality_score": 60,
+    "_score_breakdown": {
+      "total": 60,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 10
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87599/picture/eeeeeeee/",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/eeeeeeee",
+      "clone": "https://clone.nl/item82140.html"
+    }
+  },
+  {
     "id": "2e19d467",
     "title": "Short Tracks",
     "artist": "Various Artists",
@@ -13570,41 +13636,6 @@
     "source_urls": {
       "hardwax": "https://hardwax.com/25392/loidis/one-day/",
       "juno": "https://www.juno.co.uk/products/loidis-huerco-s-one-day-vinyl/1029149-01/"
-    }
-  },
-  {
-    "id": "a1e9e6b6",
-    "title": "Eeeeeeee",
-    "artist": "Picture",
-    "album": "Eeeeeeee",
-    "label": "Short Span",
-    "genre": "Dub Techno",
-    "duration": "",
-    "date": "2026-03-13",
-    "re": false,
-    "styles": [
-      "dub",
-      "techno",
-      "label catalog"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/87599/picture/eeeeeeee/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Do EP",
-    "quality_score": 56,
-    "_score_breakdown": {
-      "total": 56,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 10,
-      "multi": 6
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/87599/picture/eeeeeeee/",
-      "rushhour": "https://www.rushhour.nl/record/vinyl/eeeeeeee"
     }
   },
   {
