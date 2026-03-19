@@ -725,7 +725,7 @@
     "source_url": "https://hardwax.com/88157/pierce/blind-witness/",
     "discogs_url": "",
     "bpm": null,
-    "catalog_number": null,
+    "catalog_number": "TOKEN138",
     "format": "12\"",
     "quality_score": 35,
     "_score_breakdown": {
@@ -1148,6 +1148,33 @@
     },
     "source_urls": {
       "clone": "https://clone.nl/item82559.html"
+    }
+  },
+  {
+    "id": "c29c4834",
+    "title": "Temporal Rift LP",
+    "artist": "Psyk &amp; ORBE",
+    "album": "Temporal Rift LP",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82588.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "NXO001LP",
+    "format": "LP",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
