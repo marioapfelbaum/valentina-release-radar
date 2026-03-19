@@ -14785,6 +14785,35 @@
     }
   },
   {
+    "id": "b0e86c16",
+    "title": "Too Much For Me",
+    "artist": "Gissa & Jayc",
+    "album": "Too Much For Me",
+    "label": "Defected",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36821287-Gissa-2-Jayc-2-Too-Much-For-Me",
+    "discogs_url": "https://www.discogs.com/release/36821287-Gissa-2-Jayc-2-Too-Much-For-Me",
+    "bpm": null,
+    "catalog_number": "DFTD773D4",
+    "format": "",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
     "id": "b97444f0",
     "title": "The NY House Track",
     "artist": "NY Stomp",
@@ -41011,6 +41040,35 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36713164-Malive-Tito-Azevedo-Mrqz-Burning"
+    }
+  },
+  {
+    "id": "94bd56b6",
+    "title": "Activated",
+    "artist": "Piem & SLM",
+    "album": "Activated",
+    "label": "Defected",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-06",
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36821260-Piem-SLM-4-Activated",
+    "discogs_url": "https://www.discogs.com/release/36821260-Piem-SLM-4-Activated",
+    "bpm": null,
+    "catalog_number": "DFTD772D4",
+    "format": "",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
