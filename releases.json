@@ -613,6 +613,35 @@
     }
   },
   {
+    "id": "06400d44",
+    "title": "Applications II",
+    "artist": "Shed",
+    "album": "Applications II",
+    "label": "Ilian Tape",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88145/shed/applications-ii/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 65,
+    "_score_breakdown": {
+      "total": 65,
+      "label": 25,
+      "artist": 20,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
     "id": "6789aebf",
     "title": "Lost Dubs 2006-09",
     "artist": "2562",
@@ -703,6 +732,40 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://playedbywav.bandcamp.com/album/ben-nevile-denis-korablev-cristi-klebleev-playedby020-6"
+    }
+  },
+  {
+    "id": "c2cd4f4a",
+    "title": "The Place Where We Live",
+    "artist": "Eamon Harkin",
+    "album": "The Place Where We Live",
+    "label": "Mister Saturday Night US",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82376.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MSNLP005",
+    "format": "LP",
+    "source_urls": {
+      "clone": "https://clone.nl/item82376.html",
+      "juno": "https://www.juno.co.uk/products/eamon-harkin-the-place-where-we-live-vinyl/1133851-01/"
+    },
+    "quality_score": 44,
+    "_score_breakdown": {
+      "total": 44,
+      "label": 0,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 6
     }
   },
   {
@@ -895,6 +958,35 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/87702/black-mirror-park/313-hotline-ep/"
+    }
+  },
+  {
+    "id": "bd058652",
+    "title": "Dubs from Vortex Beach",
+    "artist": "Alien Trackers",
+    "album": "Dubs from Vortex Beach",
+    "label": "Jahtari",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "dub"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/86567/alien-trackers/dubs-from-vortex-beach/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 30,
+    "_score_breakdown": {
+      "total": 30,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 0
     }
   },
   {
@@ -1106,6 +1198,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/igaxx-gropina-the-perception-vinyl/1144088-01/"
     }
   },
   {
@@ -1133,6 +1228,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/kerri-chandler-tedd-patterson-black-vinyl-30-years-vinyl/1144208-01/"
     }
   },
   {
@@ -1160,6 +1258,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/dez-andres-dj-detroit-on-the-move-vol-vinyl/1144290-01/"
     }
   },
   {
@@ -1187,6 +1288,71 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/aleqs-notal-behind-the-noise-vinyl/1129709-01/"
+    }
+  },
+  {
+    "id": "06435450",
+    "title": "Field Work",
+    "artist": "Unknown Mobile",
+    "album": "Field Work",
+    "label": "Pacific Rhythm Canada",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82803.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "PR022",
+    "format": "Single",
+    "source_urls": {
+      "clone": "https://clone.nl/item82803.html",
+      "juno": "https://www.juno.co.uk/products/unknown-mobile-field-work-vinyl/1140845-01/"
+    },
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6
+    }
+  },
+  {
+    "id": "2c04b7a1",
+    "title": "Utopia",
+    "artist": "Paffetti aka Black Loops",
+    "album": "Utopia",
+    "label": "Tartelet Germany",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82377.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TART057",
+    "format": "Single",
+    "source_urls": {
+      "clone": "https://clone.nl/item82377.html",
+      "juno": "https://www.juno.co.uk/products/paffetti-black-loops-utopia-vinyl/1134183-01/"
+    },
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6
     }
   },
   {
@@ -1502,6 +1668,195 @@
     },
     "source_urls": {
       "clone": "https://clone.nl/item82827.html"
+    }
+  },
+  {
+    "id": "f233201c",
+    "title": "Colada Talk",
+    "artist": "Crespi Drum Syndicate",
+    "album": "Colada Talk",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82805.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CS-002",
+    "format": "LP",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "9e887a98",
+    "title": "Chicago Knights",
+    "artist": "Walter Thomas",
+    "album": "Chicago Knights",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82463.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CQQL028",
+    "format": "LP",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "649e8b8c",
+    "title": "FTC Flips V.3",
+    "artist": "KMFH",
+    "album": "FTC Flips V.3",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82446.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FTC12",
+    "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "d59b4a2d",
+    "title": "Wrapped Up In Time",
+    "artist": "Night Foundation",
+    "album": "Wrapped Up In Time",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81973.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "GG002",
+    "format": "LP",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "404b05af",
+    "title": "TashoIshi 2",
+    "artist": "Tasho Ishi",
+    "album": "TashoIshi 2",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82162.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "T's002",
+    "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "87a1ac8a",
+    "title": "Both Ends",
+    "artist": "Underkut",
+    "album": "Both Ends",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82600.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SRTX047",
+    "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    }
+  },
+  {
+    "id": "40aa29bb",
+    "title": "Looking for Mount Sylvan",
+    "artist": "Loris S. Sarid &amp; Innis Chonnel",
+    "album": "Looking for Mount Sylvan",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82698.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "Isle022",
+    "format": "LP",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
     }
   },
   {
@@ -2434,36 +2789,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/cosmjn-flud-jay-tripwire-venda-vstr-001-vinyl/1143875-01/"
-    }
-  },
-  {
-    "id": "8532e978",
-    "title": "Field Work",
-    "artist": "Unknown Mobile",
-    "album": "Field Work",
-    "label": "Pacific Rhythm Canada",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-18",
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/unknown-mobile-field-work-vinyl/1140845-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/unknown-mobile-field-work-vinyl/1140845-01/"
     }
   },
   {
@@ -7745,36 +8070,6 @@
     }
   },
   {
-    "id": "800e5779",
-    "title": "Utopia",
-    "artist": "Paffetti/Black Loops",
-    "album": "Utopia",
-    "label": "Tartelet Germany",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-15",
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/paffetti-black-loops-utopia-vinyl/1134183-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/paffetti-black-loops-utopia-vinyl/1134183-01/"
-    }
-  },
-  {
     "id": "f955d441",
     "title": "Breaking The Silence EP",
     "artist": "Locky Mazzucchelli",
@@ -9392,36 +9687,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/digitaline-anticlockwise-warehouse-find-vinyl/262470-01/"
-    }
-  },
-  {
-    "id": "cba2aadf",
-    "title": "The Place Where We Live",
-    "artist": "Eamon Harkin",
-    "album": "The Place Where We Live",
-    "label": "Mister Saturday Night US",
-    "genre": "Minimal House",
-    "duration": "",
-    "date": "2026-03-14",
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/eamon-harkin-the-place-where-we-live-vinyl/1133851-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 0,
-      "artist": 20,
-      "genre": 20,
-      "source": 6,
-      "multi": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/eamon-harkin-the-place-where-we-live-vinyl/1133851-01/"
     }
   },
   {
@@ -14066,7 +14331,7 @@
       "multi": 10
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/87615/simo-cell-and-abdullah-miniawy/dying-is-the-internet/?focus=only_vinyl",
+      "hardwax": "https://hardwax.com/87615/simo-cell-and-abdullah-miniawy/dying-is-the-internet/",
       "rushhour": "https://www.rushhour.nl/record/vinyl/dying-internet",
       "clone": "https://clone.nl/item82484.html"
     }
@@ -16842,7 +17107,8 @@
     "date": "2026-03-11",
     "re": false,
     "styles": [
-      "electro"
+      "electro",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87470/erp/one4rekab/",
@@ -17105,7 +17371,8 @@
     "re": false,
     "styles": [
       "techno",
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87556/69db/lsd-part-ii/",
@@ -42426,7 +42693,8 @@
     "date": "2026-03-04",
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88046/various-artists/13130-by-seclusion/",
