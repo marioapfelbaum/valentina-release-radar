@@ -420,40 +420,6 @@
     }
   },
   {
-    "id": "7f56d781",
-    "title": "Poppies",
-    "artist": "Lawrence",
-    "album": "Poppies",
-    "label": "Smallville Records",
-    "genre": "Minimal House",
-    "duration": "",
-    "date": "2026-03-20",
-    "re": false,
-    "styles": [
-      "Minimal",
-      "Deep House",
-      "Ambient House"
-    ],
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36798148-Lawrence-Poppies",
-    "discogs_url": "https://www.discogs.com/release/36798148-Lawrence-Poppies",
-    "bpm": null,
-    "catalog_number": "SMALLVILLE 73",
-    "format": "",
-    "quality_score": 83,
-    "_score_breakdown": {
-      "total": 83,
-      "label": 25,
-      "artist": 30,
-      "genre": 20,
-      "source": 8,
-      "multi": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36798148-Lawrence-Poppies"
-    }
-  },
-  {
     "id": "629e2b1c",
     "title": "California Space Craft",
     "artist": "Rejoicer",
@@ -574,6 +540,42 @@
     }
   },
   {
+    "id": "f3169cad",
+    "title": "Poppies",
+    "artist": "Lawrence",
+    "album": "Poppies",
+    "label": "Smallville",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "deep house",
+      "house",
+      "Minimal",
+      "Ambient House"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87991/lawrence/poppies/",
+    "discogs_url": "https://www.discogs.com/release/36798148-Lawrence-Poppies",
+    "bpm": null,
+    "catalog_number": "SMALLVILLE 73",
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87991/lawrence/poppies/",
+      "discogs": "https://www.discogs.com/release/36798148-Lawrence-Poppies"
+    },
+    "quality_score": 96,
+    "_score_breakdown": {
+      "total": 96,
+      "label": 30,
+      "artist": 30,
+      "genre": 20,
+      "source": 10,
+      "multi": 6
+    }
+  },
+  {
     "id": "5dad4227",
     "title": "Bigger Than Prince",
     "artist": "Green Velvet",
@@ -628,6 +630,72 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/annette-dream-17-vinyl/1101128-01/"
+    }
+  },
+  {
+    "id": "f13b2f94",
+    "title": "Blind Witness",
+    "artist": "Pierce",
+    "album": "Blind Witness",
+    "label": "Token",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88157/pierce/blind-witness/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 35,
+    "_score_breakdown": {
+      "total": 35,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
+    "id": "9abac9af",
+    "title": "Induction",
+    "artist": "Daniel[i]",
+    "album": "Induction",
+    "label": "Slippery Yard",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno",
+      "hypnotic"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87748/danieli/induction/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SY02",
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87748/danieli/induction/",
+      "clone": "https://clone.nl/item82364.html"
+    },
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 6
     }
   },
   {
@@ -715,6 +783,126 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/jasper-james-wax-trax-vol-1-vinyl/1144085-01/"
+    }
+  },
+  {
+    "id": "7afda59e",
+    "title": "Phylypstrak I",
+    "artist": "Basic Channel",
+    "album": "Phylypstrak I",
+    "label": "Basic Channel Germany",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/basic-channel-phylypstrak-i-vinyl/71121-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "70ff65b8",
+    "title": "Some Leaves Must Fall 聽其自然",
+    "artist": "Temple Rat",
+    "album": "Some Leaves Must Fall 聽其自然",
+    "label": "Buttheads",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno",
+      "ambient"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87764/temple-rat/some-leaves-must-fall-ting-qi-zi-ran/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 20,
+    "_score_breakdown": {
+      "total": 20,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
+    "id": "73c64d60",
+    "title": "Green Directions",
+    "artist": "Philip Chernikov",
+    "album": "Green Directions",
+    "label": "Down2Earth",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "house",
+      "tech house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88055/philip-chernikov/green-directions/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 20,
+    "_score_breakdown": {
+      "total": 20,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
+    }
+  },
+  {
+    "id": "7709b824",
+    "title": "Temporal Rift",
+    "artist": "Psyk & Orbe",
+    "album": "Temporal Rift",
+    "label": "Non Series / Orbe",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "techno",
+      "hypnotic"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87918/psyk-and-orbe/temporal-rift/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Do 12\"",
+    "quality_score": 20,
+    "_score_breakdown": {
+      "total": 20,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 0
     }
   },
   {
@@ -772,6 +960,9 @@
       "genre": 10,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82559.html"
     }
   },
   {
@@ -17312,7 +17503,7 @@
       "multi": 6
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/87791/andre-zimmer/swamp-circuit-ep/?focus=only_vinyl",
+      "hardwax": "https://hardwax.com/87791/andre-zimmer/swamp-circuit-ep/",
       "clone": "https://clone.nl/item82252.html"
     }
   },
@@ -27891,6 +28082,42 @@
     }
   },
   {
+    "id": "28d96b5e",
+    "title": "Libration",
+    "artist": "Substance & Vainqueur",
+    "album": "Libration",
+    "label": "Scion Versions",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2026-03-10",
+    "re": true,
+    "styles": [
+      "dub techno",
+      "dub",
+      "techno",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/54723/substance-and-vainqueur/libration/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 6
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/54723/substance-and-vainqueur/libration/",
+      "juno": "https://www.juno.co.uk/products/substance-vainqueur-libration-vinyl/281537-01/"
+    }
+  },
+  {
     "id": "bbec8b65",
     "title": "Kybalion",
     "artist": "Sons of Hidden & Advanced Transistor",
@@ -29376,41 +29603,6 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/87818/administrator/fly-sparks-fly/?focus=download"
-    }
-  },
-  {
-    "id": "28d96b5e",
-    "title": "Libration",
-    "artist": "Substance & Vainqueur",
-    "album": "Libration",
-    "label": "Scion Versions",
-    "genre": "Dub Techno",
-    "duration": "",
-    "date": "2026-03-10",
-    "re": true,
-    "styles": [
-      "dub techno",
-      "dub",
-      "techno",
-      "label catalog"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/54723/substance-and-vainqueur/libration/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "12\"",
-    "quality_score": 30,
-    "_score_breakdown": {
-      "total": 30,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 10,
-      "multi": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/54723/substance-and-vainqueur/libration/?focus=only_vinyl"
     }
   },
   {
@@ -40264,36 +40456,6 @@
     },
     "source_urls": {
       "clone": "https://clone.nl/item82361.html"
-    }
-  },
-  {
-    "id": "9653059f",
-    "title": "Induction (Vand remix)",
-    "artist": "Daniel[i]",
-    "album": "Induction (Vand remix)",
-    "label": "",
-    "genre": "Techno",
-    "duration": "",
-    "date": "2026-03-06",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item82364.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "SY02",
-    "format": "Single",
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item82364.html"
     }
   },
   {
