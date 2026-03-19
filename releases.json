@@ -637,6 +637,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/huxley-pinball-skizzard-ep-vinyl/1144923-01/"
     }
   },
   {
@@ -792,6 +795,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/amir-alexander-the-event-horizon-vinyl/1145011-01/"
     }
   },
   {
@@ -1505,6 +1511,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/andy-ash-when-the-sunlight-comes-vinyl/1144918-01/"
     }
   },
   {
@@ -1532,6 +1541,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/deep88-summer-of-love-ep-vinyl/1144920-01/"
     }
   },
   {
@@ -1559,6 +1571,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/goosey-wrapped-up-in-your-love-vinyl/1144925-01/"
     }
   },
   {
@@ -1586,6 +1601,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/castoldi-cloud-connection-ep-vinyl/1145008-01/"
     }
   },
   {
@@ -1613,6 +1631,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/occibel-grinch-late-nights-early-mornings-vinyl/1145015-01/"
     }
   },
   {
@@ -1640,6 +1661,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/dennis-ferrer-mood-king-street-sounds-sampler-vol-vinyl/1145023-01/"
     }
   },
   {
@@ -1667,6 +1691,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/fouk-the-phenomenal-handclap-band-tune-it-out-vinyl/1145026-01/"
     }
   },
   {
@@ -14329,6 +14356,46 @@
     }
   },
   {
+    "id": "54f0f6d0",
+    "title": "Dying Is The Internet",
+    "artist": "Simo Cell & Abdullah Miniawy",
+    "album": "Dying Is The Internet",
+    "label": "Dekmantel",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-13",
+    "re": false,
+    "styles": [
+      "label catalog",
+      "bass",
+      "Experimental",
+      "Ambient",
+      "Bass Music",
+      "Downtempo",
+      "Techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87615/simo-cell-and-abdullah-miniawy/dying-is-the-internet/?focus=only_vinyl",
+    "discogs_url": "https://www.discogs.com/release/36820537-Simo-Cell-Abdullah-Miniawy-Dying-Is-The-Internet",
+    "bpm": null,
+    "catalog_number": "DKMNTL-UFO20",
+    "format": "LP",
+    "quality_score": 63,
+    "_score_breakdown": {
+      "total": 63,
+      "label": 25,
+      "artist": 0,
+      "genre": 18,
+      "source": 10,
+      "multi": 10
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87615/simo-cell-and-abdullah-miniawy/dying-is-the-internet/",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/dying-internet",
+      "clone": "https://clone.nl/item82484.html"
+    }
+  },
+  {
     "id": "fabeab4f",
     "title": "Gimme The Love",
     "artist": "Cristoph",
@@ -14698,41 +14765,6 @@
       "hardwax": "https://hardwax.com/88036/toddsonic33/animal/",
       "clone": "https://clone.nl/item82421.html",
       "rushhour": "https://www.rushhour.nl/record/vinyl/animal-0"
-    }
-  },
-  {
-    "id": "54f0f6d0",
-    "title": "Dying Is The Internet",
-    "artist": "Simo Cell & Abdullah Miniawy",
-    "album": "Dying Is The Internet",
-    "label": "Dekmantel",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-13",
-    "re": false,
-    "styles": [
-      "label catalog",
-      "bass"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/87615/simo-cell-and-abdullah-miniawy/dying-is-the-internet/?focus=only_vinyl",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "DKMNTL-UFO20",
-    "format": "LP",
-    "quality_score": 50,
-    "_score_breakdown": {
-      "total": 50,
-      "label": 25,
-      "artist": 0,
-      "genre": 5,
-      "source": 10,
-      "multi": 10
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/87615/simo-cell-and-abdullah-miniawy/dying-is-the-internet/",
-      "rushhour": "https://www.rushhour.nl/record/vinyl/dying-internet",
-      "clone": "https://clone.nl/item82484.html"
     }
   },
   {
@@ -47470,7 +47502,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36590434-Cappella-Move-On-Baby",
-    "discogs_url": "https://www.discogs.com/release/36590434",
+    "discogs_url": "https://www.discogs.com/release/36590434-Cappella-Move-On-Baby",
     "bpm": null,
     "catalog_number": "DIG 161370",
     "format": "",
@@ -47484,7 +47516,7 @@
       "multi": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36590434"
+      "discogs": "https://www.discogs.com/release/36590434-Cappella-Move-On-Baby"
     }
   },
   {
