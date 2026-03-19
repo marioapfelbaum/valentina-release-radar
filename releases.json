@@ -604,6 +604,33 @@
     }
   },
   {
+    "id": "f2eebd21",
+    "title": "Dream 17 (reissue)",
+    "artist": "Annette",
+    "album": "Dream 17 (reissue)",
+    "label": "Music On Vinyl",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/annette-dream-17-vinyl/1101128-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "62242a95",
     "title": "BSMNT FM",
     "artist": "Demuja",
@@ -664,6 +691,33 @@
     }
   },
   {
+    "id": "09d45c1b",
+    "title": "Wax Trax Vol 1",
+    "artist": "Jasper James",
+    "album": "Wax Trax Vol 1",
+    "label": "Chiwax Germany",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/jasper-james-wax-trax-vol-1-vinyl/1144085-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "f9b8d555",
     "title": "Non-stop",
     "artist": "Dav",
@@ -679,6 +733,36 @@
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "HLX003",
+    "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82400.html"
+    }
+  },
+  {
+    "id": "c2567015",
+    "title": "Flounder Maps",
+    "artist": "Mark Ijzerman",
+    "album": "Flounder Maps",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82559.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "PCFQ-HT03",
     "format": "Single",
     "quality_score": 18,
     "_score_breakdown": {
@@ -20479,7 +20563,8 @@
     "re": false,
     "styles": [
       "deep house",
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88120/larry-heard/vault-sessions-3/",
@@ -25630,7 +25715,8 @@
     "date": "2026-03-10",
     "re": false,
     "styles": [
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88122/bohm/jack-tracks/",
@@ -26622,7 +26708,8 @@
     "date": "2026-03-10",
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88127/markus-suckut/control/",
@@ -32932,7 +33019,8 @@
     "date": "2026-03-10",
     "re": true,
     "styles": [
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88128/ronin/luxuru/",
@@ -33681,7 +33769,8 @@
     "date": "2026-03-10",
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88124/bright-raven/corktown/",
@@ -38324,7 +38413,8 @@
     "date": "2026-03-10",
     "re": true,
     "styles": [
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88125/da-posse-feat-martell/the-other-side/",
