@@ -684,6 +684,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://mulemusiq.bandcamp.com/track/everything-in-between"
     }
   },
   {
@@ -774,6 +777,33 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/gu-glenn-underground-classiques-vol-twenty-one-vinyl/1144734-01/"
+    }
+  },
+  {
+    "id": "b71f58ab",
+    "title": "Deep Sequence EP",
+    "artist": "Federsen",
+    "album": "Deep Sequence EP",
+    "label": "Syncrophone France",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/federsen-deep-sequence-ep-vinyl/1131171-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
