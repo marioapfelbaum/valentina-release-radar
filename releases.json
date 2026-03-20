@@ -420,6 +420,33 @@
     }
   },
   {
+    "id": "1bceaac6",
+    "title": "Vin Ploile",
+    "artist": "Petre Inspirescu",
+    "album": "Vin Ploile",
+    "label": "Mule Musiq",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/petre-inspirescu-vin-ploile-vinyl/588140-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 86,
+    "_score_breakdown": {
+      "total": 86,
+      "label": 30,
+      "artist": 30,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "629e2b1c",
     "title": "California Space Craft",
     "artist": "Rejoicer",
@@ -627,6 +654,33 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/prakash-mundo-ep-vinyl/1115091-01/"
+    }
+  },
+  {
+    "id": "032b771a",
+    "title": "Speicher 2",
+    "artist": "M Mayer/Reinhard Voigt",
+    "album": "Speicher 2",
+    "label": "Kompakt Extra Germany",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/m-mayer-reinhard-voigt-speicher-2-vinyl/98597-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
