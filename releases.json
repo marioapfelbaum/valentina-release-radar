@@ -480,6 +480,40 @@
     }
   },
   {
+    "id": "420fba93",
+    "title": "Play This Game",
+    "artist": "Kolombo / Elekfantz",
+    "album": "Play This Game",
+    "label": "Kompakt",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [
+      "House",
+      "Tech House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36825412-Kolombo-Elekfantz-Play-This-Game",
+    "discogs_url": "https://www.discogs.com/release/36825412-Kolombo-Elekfantz-Play-This-Game",
+    "bpm": null,
+    "catalog_number": "Kompakt Digital 130",
+    "format": "Single",
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36825412-Kolombo-Elekfantz-Play-This-Game",
+      "bandcamp": "https://kompakt.bandcamp.com/album/play-this-game"
+    },
+    "quality_score": 54,
+    "_score_breakdown": {
+      "total": 54,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6
+    }
+  },
+  {
     "id": "4a5ffee8",
     "title": "Fantasy EP",
     "artist": "Sonidy/Benny S",
@@ -630,36 +664,6 @@
     }
   },
   {
-    "id": "11acbfc9",
-    "title": "Play This Game",
-    "artist": "Kolombo, Elekfantz",
-    "album": "Play This Game",
-    "label": "Kompakt",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-20",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://kompakt.bandcamp.com/album/play-this-game",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://kompakt.bandcamp.com/album/play-this-game"
-    }
-  },
-  {
     "id": "c5c30430",
     "title": "Everything In Between",
     "artist": "Henrik Schwarz / Kuniyuki Takahashi",
@@ -712,6 +716,36 @@
       "label": 0,
       "artist": 20,
       "genre": 20,
+      "source": 6,
+      "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/chris-stussy-midtown-playground-vinyl/969155-01/"
+    }
+  },
+  {
+    "id": "4d05b023",
+    "title": "Sketch Of My Life",
+    "artist": "Yoshio Ikeda Quintet",
+    "album": "Sketch Of My Life",
+    "label": "Mule Musiq",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://mulemusiq.bandcamp.com/album/sketch-of-my-life",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
       "source": 6,
       "multi": 0
     }
@@ -861,6 +895,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/digwah-wayside-vinyl/1077240-01/"
     }
   },
   {
@@ -888,6 +925,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/k-alexi-shelby-omg-oh-my-god-vinyl/1145458-01/"
     }
   },
   {
@@ -105230,6 +105270,36 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35323513-William-Basinski-Richard-Chartier-Aurora-Terminalis"
+    }
+  },
+  {
+    "id": "9fae13a5",
+    "title": "夢寝見",
+    "artist": "Yosui Inoue",
+    "album": "夢寝見",
+    "label": "Studio Mule",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2025-10-00",
+    "re": true,
+    "styles": [
+      "Synth-pop",
+      "City Pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35335909-井上陽水-夢寝見",
+    "discogs_url": "https://www.discogs.com/release/35335909-井上陽水-夢寝見",
+    "bpm": null,
+    "catalog_number": "Studio Mule 51",
+    "format": "Single",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 25,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0
     }
   },
   {
