@@ -474,6 +474,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/sonidy-benny-s-fantasy-ep-vinyl/1138311-01/"
     }
   },
   {
@@ -564,6 +567,60 @@
     },
     "source_urls": {
       "bandcamp": "https://cocoonrecordings.bandcamp.com/album/fusion"
+    }
+  },
+  {
+    "id": "df6a10e3",
+    "title": "Magic Forest",
+    "artist": "George Heerd",
+    "album": "Magic Forest",
+    "label": "Totoyov",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/george-heerd-magic-forest-vinyl/1140600-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "f10dbd1c",
+    "title": "Mundo EP",
+    "artist": "Prakash",
+    "album": "Mundo EP",
+    "label": "Travellin Music",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/prakash-mundo-ep-vinyl/1115091-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 34,
+    "_score_breakdown": {
+      "total": 34,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
