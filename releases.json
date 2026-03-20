@@ -748,6 +748,36 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://mulemusiq.bandcamp.com/album/sketch-of-my-life"
+    }
+  },
+  {
+    "id": "0e497484",
+    "title": "12B Dub Part 2",
+    "artist": "Satoshi Tomiie",
+    "album": "12B Dub Part 2",
+    "label": "Phonogramme France",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/satoshi-tomiie-12b-dub-part-2-vinyl/1043640-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
@@ -105300,6 +105330,9 @@
       "genre": 0,
       "source": 8,
       "multi": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35335909-井上陽水-夢寝見"
     }
   },
   {
