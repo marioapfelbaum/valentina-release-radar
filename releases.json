@@ -778,6 +778,9 @@
       "genre": 20,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/satoshi-tomiie-12b-dub-part-2-vinyl/1043640-01/"
     }
   },
   {
@@ -18266,7 +18269,8 @@
     "re": false,
     "styles": [
       "deep house",
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87604/jerome-feat-sonya-zlo/the-night-we-had/",
@@ -18365,7 +18369,8 @@
     "date": "2026-03-11",
     "re": false,
     "styles": [
-      "dub"
+      "dub",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88103/nelson-of-the-east/super-deception/",
@@ -18464,7 +18469,8 @@
     "re": false,
     "styles": [
       "house",
-      "soulful house"
+      "soulful house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88014/black-eyes/hydrocity-reflex-ep/",
