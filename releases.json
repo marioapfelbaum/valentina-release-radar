@@ -690,6 +690,33 @@
     }
   },
   {
+    "id": "c9b2aafa",
+    "title": "Midtown Playground",
+    "artist": "Chris Stussy",
+    "album": "Midtown Playground",
+    "label": "Fuse",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/chris-stussy-midtown-playground-vinyl/969155-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "f10dbd1c",
     "title": "Mundo EP",
     "artist": "Prakash",
@@ -807,6 +834,60 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/federsen-deep-sequence-ep-vinyl/1131171-01/"
+    }
+  },
+  {
+    "id": "fe26c9bb",
+    "title": "Wayside",
+    "artist": "Digwah",
+    "album": "Wayside",
+    "label": "Digwah",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/digwah-wayside-vinyl/1077240-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "29bb8ca0",
+    "title": "Omg (Oh My God)",
+    "artist": "K Alexi Shelby",
+    "album": "Omg (Oh My God)",
+    "label": "Klassik Blueprint Muzik US",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/k-alexi-shelby-omg-oh-my-god-vinyl/1145458-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
