@@ -844,6 +844,33 @@
     }
   },
   {
+    "id": "56eea570",
+    "title": "PILOT 26",
+    "artist": "Jhobei",
+    "album": "PILOT 26",
+    "label": "Pilot",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/jhobei-pilot-26-vinyl/1145543-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "6e419e77",
     "title": "REVAR Pt. 1",
     "artist": "Rico Puestel",
@@ -1171,6 +1198,60 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/ricardo-villalobos-underground-when-there-is-no-sun-vinyl/1135749-01/"
+    }
+  },
+  {
+    "id": "6dde63ce",
+    "title": "In This EP",
+    "artist": "Kerouac",
+    "album": "In This EP",
+    "label": "Dank Music",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/kerouac-in-this-ep-vinyl/1145595-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "f612e97a",
+    "title": "Buenosayres 3AM",
+    "artist": "DJ Peper",
+    "album": "Buenosayres 3AM",
+    "label": "Cusde",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/dj-peper-buenosayres-3am-vinyl/1145650-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
