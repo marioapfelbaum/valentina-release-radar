@@ -630,6 +630,33 @@
     }
   },
   {
+    "id": "11acbfc9",
+    "title": "Play This Game",
+    "artist": "Kolombo, Elekfantz",
+    "album": "Play This Game",
+    "label": "Kompakt",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://kompakt.bandcamp.com/album/play-this-game",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "f10dbd1c",
     "title": "Mundo EP",
     "artist": "Prakash",
@@ -687,6 +714,33 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/m-mayer-reinhard-voigt-speicher-2-vinyl/98597-01/"
+    }
+  },
+  {
+    "id": "60e9a5fa",
+    "title": "Classiques Vol Twenty One",
+    "artist": "Gu/Glenn Underground",
+    "album": "Classiques Vol Twenty One",
+    "label": "GU Classics US",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/gu-glenn-underground-classiques-vol-twenty-one-vinyl/1144734-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
     }
   },
   {
