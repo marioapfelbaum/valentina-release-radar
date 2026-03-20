@@ -544,6 +544,33 @@
     }
   },
   {
+    "id": "e3f7fd02",
+    "title": "Fucha EP",
+    "artist": "Saktu",
+    "album": "Fucha EP",
+    "label": "Heisenberg Holland",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/saktu-fucha-ep-vinyl/1140763-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 54,
+    "_score_breakdown": {
+      "total": 54,
+      "label": 0,
+      "artist": 28,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "4a5ffee8",
     "title": "Fantasy EP",
     "artist": "Sonidy/Benny S",
@@ -57222,6 +57249,37 @@
     }
   },
   {
+    "id": "e0e5884f",
+    "discogs_release_id": 36271240,
+    "title": "Exodus EP",
+    "artist": "Franck Roger",
+    "album": "Exodus EP",
+    "label": "Seasons Limited",
+    "genre": "Deep House",
+    "duration": "19:45",
+    "date": "2026-01-20",
+    "re": false,
+    "styles": [
+      "Deep House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36271240-Franck-Roger-Exodus-EP",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36271240-Franck-Roger-Exodus-EP",
+    "quality_score": 74,
+    "_score_breakdown": {
+      "total": 74,
+      "label": 20,
+      "artist": 20,
+      "genre": 20,
+      "source": 8,
+      "multi": 6
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36271240-Franck-Roger-Exodus-EP",
+      "juno": "https://www.juno.co.uk/products/franck-roger-exodus-ep-vinyl/1111939-01/"
+    }
+  },
+  {
     "id": "4fe30f7c",
     "discogs_release_id": 36287641,
     "title": "Kong EP",
@@ -57250,36 +57308,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36287641-Funky-Trip-Kong-EP"
-    }
-  },
-  {
-    "id": "e0e5884f",
-    "discogs_release_id": 36271240,
-    "title": "Exodus EP",
-    "artist": "Franck Roger",
-    "album": "Exodus EP",
-    "label": "Seasons Limited",
-    "genre": "Deep House",
-    "duration": "19:45",
-    "date": "2026-01-20",
-    "re": false,
-    "styles": [
-      "Deep House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36271240-Franck-Roger-Exodus-EP",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36271240-Franck-Roger-Exodus-EP",
-    "quality_score": 68,
-    "_score_breakdown": {
-      "total": 68,
-      "label": 20,
-      "artist": 20,
-      "genre": 20,
-      "source": 8,
-      "multi": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36271240-Franck-Roger-Exodus-EP"
     }
   },
   {
