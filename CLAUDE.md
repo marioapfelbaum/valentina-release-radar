@@ -46,12 +46,13 @@ Hetzner Cronjobs (fetch_and_push.sh mit Sources-Argument):
 
 ## Quality Scoring
 
-`quality_score.py` bewertet jeden Release (0-100 Punkte):
+`quality_score.py` bewertet jeden Release (0-100 Punkte, Cap bei 100):
 - Label-Relevanz (0-30): Reference Label? Seed-Artist-Verbindungen?
 - Artist-Relevanz (0-30): Im Netzwerk? Seed-Artist? Tiefe?
 - Genre-Match (0-20): Passt zum User-Geschmack?
 - Source-Trust (0-10): Hardwax/Clone/Rush Hour > Boomkat/Discogs > Bandcamp/Juno > Spotify
 - Multi-Source-Bonus (0-10): Auf mehreren Quellen gefunden?
+- Niche-Bonus (0-10): Inverse Style-Popularity aus Discogs-Styles (inspiriert von BlackTape). Artists mit seltenen Electronic-Subgenres (Microhouse, Berlin-School, Illbient) werden bevorzugt. Styles mit <15 Artists im Netzwerk werden ignoriert (Noise-Filter). "Various" etc. blacklisted.
 
 ## Netzwerk-Crawler
 
