@@ -41,8 +41,9 @@ if _env_path.exists():
 NETWORK_FILE = Path(__file__).parent.parent / "network_data.json"
 
 # Maximum artists to process per run (search + fetch).
-# Artists with existing spotify_ids are cheaper (no search needed).
-DEFAULT_MAX_ARTISTS = 200
+# Keep low to avoid Spotify rate-limit escalation (429 Retry-After grows
+# exponentially and persists across runs).  3 runs/day × 30 = 90 artists/day.
+DEFAULT_MAX_ARTISTS = 30
 
 # Maximum consecutive 429 errors before giving up
 MAX_RATE_LIMIT_RETRIES = 3
@@ -54,7 +55,7 @@ class SpotifyFetcher(BaseSourceFetcher):
     AUTH_URL = "https://accounts.spotify.com/api/token"
     BASE = "https://api.spotify.com/v1"
 
-    def __init__(self, client_id=None, client_secret=None, rate_limit=1.0,
+    def __init__(self, client_id=None, client_secret=None, rate_limit=3.0,
                  max_artists=DEFAULT_MAX_ARTISTS):
         super().__init__(rate_limit=rate_limit)
         self.client_id = client_id or os.getenv("SPOTIFY_CLIENT_ID", "")
@@ -244,13 +245,19 @@ class SpotifyFetcher(BaseSourceFetcher):
         with_id = [a for a in artists if a.get("spotify_id")]
         without_id = [a for a in artists if not a.get("spotify_id")]
 
-        # Cap total artists processed
+        # Cap total artists processed.
+        # With 30 artists × 3 runs/day we cover 90 artists/day without
+        # triggering Spotify's escalating rate-limit.
         total_cap = self.max_artists
         ordered = with_id + without_id
         if len(ordered) > total_cap:
-            print(f"  Capping at {total_cap} artists (of {len(ordered)} total; "
-                  f"{len(with_id)} have spotify_id, {len(without_id)} need search)")
-            ordered = ordered[:total_cap]
+            # Prefer cached-ID artists (2 API calls: album+single)
+            # over uncached (3 calls: search+album+single)
+            n_with = min(len(with_id), total_cap)
+            n_without = max(0, total_cap - n_with)
+            ordered = with_id[:n_with] + without_id[:n_without]
+            print(f"  Capping at {total_cap} artists (of {len(with_id)+len(without_id)} total; "
+                  f"{n_with} cached IDs, {n_without} need search)")
         else:
             print(f"  Processing {len(ordered)} artists "
                   f"({len(with_id)} have spotify_id, {min(len(without_id), total_cap - len(with_id))} need search)")
