@@ -526,7 +526,44 @@ function App() {
   const toggleFav = useCallback(id => {
     setFavIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); saveFav(n); return n; });
   }, [saveFav]);
-  const exportFavorites = useCallback(() => {
+  const [ytLoading, setYtLoading] = useState(false);
+  const searchYouTube = useCallback(async (query) => {
+    const instances = ['https://pipedapi.kavin.rocks','https://pipedapi.adminforge.de','https://api.piped.yt'];
+    for (const base of instances) {
+      try {
+        const resp = await fetch(`${base}/search?q=${encodeURIComponent(query)}&filter=videos`);
+        if (resp.ok) {
+          const data = await resp.json();
+          const items = data.items || data;
+          if (items && items.length > 0) {
+            const url = items[0].url || '';
+            const match = url.match(/[?&]v=([^&]+)/) || url.match(/\/([^/]+)$/);
+            if (match) return match[1];
+          }
+        }
+      } catch {}
+    }
+    return null;
+  }, []);
+  const openYtPlaylist = useCallback(async () => {
+    const favReleases = releases.filter(r => favIds.has(r.id));
+    if (favReleases.length === 0) return;
+    setYtLoading(true);
+    const videoIds = [];
+    for (const r of favReleases) {
+      const id = await searchYouTube(`${r.artist} ${r.title}`);
+      if (id) videoIds.push(id);
+    }
+    setYtLoading(false);
+    if (videoIds.length > 0) {
+      window.open(`https://www.youtube.com/watch_videos?video_ids=${videoIds.join(',')}`, '_blank');
+    } else {
+      // Fallback: open first favorite as YouTube search
+      const q = encodeURIComponent(`${favReleases[0].artist} ${favReleases[0].title}`);
+      window.open(`https://www.youtube.com/results?search_query=${q}`, '_blank');
+    }
+  }, [releases, favIds, searchYouTube]);
+  const saveFavToFile = useCallback(() => {
     const favReleases = releases.filter(r => favIds.has(r.id));
     const data = favReleases.map(r => ({id:r.id, artist:r.artist, title:r.title, label:r.label, date:r.date, source:r.source, quality_score:r.quality_score}));
     const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
@@ -686,7 +723,8 @@ function App() {
             <span className="sort-link" onClick={() => setShowHeard(!showHeard)} style={{cursor:"pointer",transition:"color 0.1s"}}>{showHeard?"HIDE HEARD":"SHOW HEARD"}</span>
             <span className="sort-link" onClick={() => setShowHidden(!showHidden)} style={{cursor:"pointer",transition:"color 0.1s"}}>{showHidden?"HIDE ⊘":"SHOW ⊘"}</span>
             <span className="sort-link" onClick={() => {const a=new Set(filtered.map(r=>r.id));setHeardIds(p=>{const n=new Set([...p,...a]);save(n);return n})}} style={{cursor:"pointer",transition:"color 0.1s"}}>✓ ALL</span>
-            {favCount > 0 && <span className="sort-link" onClick={exportFavorites} style={{cursor:"pointer",transition:"color 0.1s",color:C.orange}} title="Favoriten als JSON exportieren">↓ EXPORT</span>}
+            {favCount > 0 && <span className="sort-link" onClick={ytLoading?undefined:openYtPlaylist} style={{cursor:ytLoading?"wait":"pointer",transition:"color 0.1s",color:ytLoading?"rgba(255,80,80,0.4)":"rgba(255,80,80,0.9)"}} title="Alle Favoriten als YouTube-Playlist öffnen">{ytLoading?`⏳ ${favCount} Videos...`:`▶ YT PLAYLIST`}</span>}
+            {favCount > 0 && <span className="sort-link" onClick={saveFavToFile} style={{cursor:"pointer",transition:"color 0.1s",color:C.ghost,fontSize:"0.85em"}} title="Favoriten als JSON sichern">SAVE</span>}
             {allSources.length > 2 && (<>
               <span style={{color:C.ghost}}>|</span>
               {allSources.map(s => {
