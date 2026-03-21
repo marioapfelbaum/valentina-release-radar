@@ -24,10 +24,10 @@ GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 ### Aktive Quellen (Standard: `--sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour`)
 
 - **Bandcamp** (`sources/bandcamp.py`): Holt Releases von Labels in `reference_labels.txt` via Mobile API. Zuverlaessigste Quelle.
-- **Spotify** (`sources/spotify_source.py`): Holt Releases fuer Netzwerk-Artists. Cached spotify_ids in network_data.json. Max 500 Artists/Run.
+- **Spotify** (`sources/spotify_source.py`): Holt Releases fuer Netzwerk-Artists. Cached spotify_ids in network_data.json. Max 200 Artists/Run.
 - **Discogs** (`sources/discogs_source.py`): Holt aktiv neue Releases von Top-Labels im Netzwerk (2+ Seed-Artist-Verbindungen). Braucht DISCOGS_TOKEN.
 - **Hardwax** (`sources/hardwax.py`): JSON-Feed + /this-week/ + /last-week/. Berliner Plattenladen, kuratiert fuer Minimal/Deep House/Dub. Braucht beautifulsoup4.
-- **Boomkat** (`sources/boomkat.py`): RSS-Feed (boomkat.com/new-releases.rss). Kuratiert fuer Experimental/Electronic/Ambient.
+- **Boomkat** (`sources/boomkat.py`): RSS-Feed (boomkat.com/new-releases.rss), Fallback auf rss2json.com Proxy wenn Cloudflare blockt. Kuratiert fuer Experimental/Electronic/Ambient.
 - **Juno** (`sources/juno.py`): Scrapt juno.co.uk mit Genre-Filter. Braucht beautifulsoup4 + cloudscraper (Cloudflare-Bypass).
 - **Clone.nl** (`sources/clone.py`): RSS-Feeds (clone.nl/rss/new + Genre-Feeds). Amsterdamer Plattenladen, stark fuer Detroit Techno/Electro/House.
 - **Rush Hour** (`sources/rushhour.py`): RSS-Feed (rushhour.nl/rss.xml). Amsterdamer Plattenladen, Soulful/Jazz-Electronic/Deep House.
@@ -49,7 +49,7 @@ GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 
 `crawler.py` baut ein Netzwerk aus Artists und Labels auf:
 - **Quellen**: Discogs API + MusicBrainz (kein Spotify Related Artists — 403)
-- **Daten**: `network_data.json` (~26MB, ~5.200 Artists, ~20.000 Labels)
+- **Daten**: `network_data.json` (~36MB, ~5.200 Artists, ~20.000 Labels)
 - **Seeds**: `seed_data.json` (350 Seed-Artists)
 - **Resume**: `--resume` laedt vorherigen Stand und macht weiter
 - **Time-Budget**: `--time-budget 300` begrenzt Laufzeit auf 300 Minuten
@@ -86,7 +86,7 @@ GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 - `deploy.sh` — Cloudflare Pages Deploy
 
 ### Daten
-- `network_data.json` — Artist/Label-Graph (~26MB)
+- `network_data.json` — Artist/Label-Graph (~36MB)
 - `releases.json` — Alle Releases mit Quality Scores
 - `seed_data.json` — 350 Seed-Artists
 - `last_checked.json` — Fetch-Tracking
@@ -175,6 +175,6 @@ bash deploy.sh
 - Spotify cached jetzt spotify_ids in network_data.json — kuenftige Runs sind schneller.
 - Spotify Related Artists API gibt 403 zurueck (Client Credentials reichen nicht).
 - Bandcamp blockiert Python requests via TLS-Fingerprinting. bandcamp.py nutzt curl als Fallback.
-- Hardwax nutzt JSON-Feed (stabil). Boomkat/Clone/Rush Hour nutzen RSS-Feeds (stabil). Juno ist HTML-Scraper mit cloudscraper — kann brechen wenn Site-Struktur sich aendert.
-- network_data.json waechst mit jedem Crawler-Run (~26MB). Bei >50MB auf Git LFS umstellen.
+- Hardwax nutzt JSON-Feed (stabil). Boomkat nutzt RSS-Feed mit rss2json.com Proxy-Fallback fuer Hetzner. Clone/Rush Hour nutzen RSS-Feeds (stabil). Juno ist HTML-Scraper mit cloudscraper — Genre-Slugs muessen gepflegt werden (zuletzt aktualisiert 2026-03-21).
+- network_data.json waechst mit jedem Crawler-Run (~36MB). Bei >50MB auf Git LFS umstellen.
 - Der User bevorzugt: Minimal, Deep House, Downtempo, Soulful, Broken Beat, Jazz-Electronic. Keine Mainstream-EDM.
