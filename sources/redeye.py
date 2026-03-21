@@ -195,14 +195,19 @@ class RedeyeFetcher(BaseSourceFetcher):
                 href = buy_el["href"]
                 source_url = f"{BASE_URL}{href}" if href.startswith("/") else href
 
-        # Date: try to extract from "Exp. DD Mon" for pre-orders
-        date = datetime.now().strftime("%Y-%m-%d")
+        # Date: only accept releases with explicit "Exp." date
+        # Items without dates are restocks/back catalog (e.g. 1984 reissues)
         type_div = grid.find("div", class_="type")
-        if type_div:
-            type_text = type_div.get_text(strip=True)
-            exp_date = self._parse_expected_date(type_text)
-            if exp_date:
-                date = exp_date
+        type_text = type_div.get_text(strip=True) if type_div else ""
+
+        # Skip out-of-stock items (old catalog)
+        if "Out Of Stock" in type_text:
+            return None
+
+        # Only keep items with explicit expected date
+        date = self._parse_expected_date(type_text)
+        if not date:
+            return None
 
         return self.make_release(
             source="redeye",
