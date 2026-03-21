@@ -23,6 +23,7 @@ The description HTML contains:
   - Editorial description text
 """
 
+import html
 import re
 import subprocess
 import sys
@@ -61,6 +62,8 @@ SKIP_GENRES = {
 }
 
 RSS_URL = "https://boomkat.com/new-releases.rss"
+# Fallback: rss2json.com proxy (bypasses Cloudflare when direct access is blocked)
+RSS_PROXY_URL = "https://api.rss2json.com/v1/api.json?rss_url=https://boomkat.com/new-releases.rss"
 
 
 class BoomkatFetcher(BaseSourceFetcher):
@@ -94,7 +97,7 @@ class BoomkatFetcher(BaseSourceFetcher):
             return ""
 
     def _fetch_rss(self, url, timeout=25):
-        """Fetch RSS feed, trying requests first, falling back to curl."""
+        """Fetch RSS feed, trying requests first, then curl."""
         self._throttle()
 
         # Try requests first
@@ -112,6 +115,73 @@ class BoomkatFetcher(BaseSourceFetcher):
 
         # Fallback to curl
         return self._curl_get(url, timeout)
+
+    def _fetch_via_proxy(self, cutoff_date, timeout=25):
+        """Fetch Boomkat releases via rss2json.com proxy (bypasses Cloudflare)."""
+        print("    ▸ Direct access blocked, trying RSS proxy...")
+        try:
+            resp = requests.get(RSS_PROXY_URL, timeout=timeout)
+            if resp.status_code != 200:
+                print(f"    ✗ Proxy returned {resp.status_code}")
+                return []
+            data = resp.json()
+            if data.get("status") != "ok" or not data.get("items"):
+                print("    ✗ Proxy returned no items")
+                return []
+
+            cutoff_str = cutoff_date.strftime("%Y-%m-%d")
+            releases = []
+            for item in data["items"]:
+                raw_title = html.unescape((item.get("title") or "").strip())
+                if not raw_title:
+                    continue
+
+                artist, title = self._split_artist_title(raw_title)
+                if not title:
+                    continue
+
+                link = (item.get("link") or "").strip()
+                guid = (item.get("guid") or link).strip()
+                source_id = guid or link
+                if not source_id:
+                    continue
+
+                pub_date = (item.get("pubDate") or "").strip()
+                date = self._parse_pub_date(pub_date)
+                if date < cutoff_str:
+                    continue
+
+                description = item.get("description") or ""
+                label, genres, format_type = self._parse_description(description)
+
+                if genres:
+                    genre_slugs = {self._genre_to_slug(g) for g in genres}
+                    if genre_slugs & SKIP_GENRES and not (genre_slugs & RELEVANT_GENRES):
+                        continue
+
+                genre = classify_genre(genres) if genres else "Electronic"
+
+                rel = self.make_release(
+                    source="boomkat",
+                    source_id=f"bk:{source_id}",
+                    title=title,
+                    artist=artist,
+                    label=label,
+                    genre=genre,
+                    date=date,
+                    source_url=link,
+                    format_type=format_type,
+                    styles=genres,
+                )
+                if rel and rel["id"] not in self._seen_ids:
+                    self._seen_ids.add(rel["id"])
+                    releases.append(rel)
+
+            print(f"    ✓ Proxy returned {len(releases)} releases")
+            return releases
+        except Exception as e:
+            print(f"    ✗ Proxy error: {e}")
+            return []
 
     # ── RSS Parsing ───────────────────────────────────────
 
@@ -249,6 +319,9 @@ class BoomkatFetcher(BaseSourceFetcher):
     def fetch_new_releases(self, cutoff_date=None, max_pages=3):
         """Fetch new releases from Boomkat RSS feed.
 
+        Tries direct RSS access first, falls back to rss2json.com proxy
+        when blocked by Cloudflare (e.g. on Hetzner server IPs).
+
         Args:
             cutoff_date: Only include releases on or after this date.
             max_pages: Ignored (RSS has no pagination).
@@ -262,13 +335,13 @@ class BoomkatFetcher(BaseSourceFetcher):
         print("  ▸ Boomkat: Fetching RSS feed...")
         xml = self._fetch_rss(RSS_URL)
 
-        if not xml:
-            print("    ✗ Boomkat: RSS feed unavailable")
-            return []
+        if xml and "<?xml" in xml[:100]:
+            releases = self._parse_rss(xml, cutoff_date)
+            print(f"    → {len(releases)} releases from RSS")
+            return releases
 
-        releases = self._parse_rss(xml, cutoff_date)
-        print(f"    → {len(releases)} releases from RSS")
-        return releases
+        # Cloudflare blocked — use proxy fallback
+        return self._fetch_via_proxy(cutoff_date)
 
     def fetch_by_genre(self, genre_slug, cutoff_date=None, max_pages=3):
         """Boomkat RSS doesn't support per-genre feeds reliably.
