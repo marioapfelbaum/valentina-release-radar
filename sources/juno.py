@@ -47,30 +47,27 @@ from .genre_map import classify_genre
 JUNO_GENRES = {
     "deep-house": "Deep House",
     "minimal-tech-house": "Minimal House",
-    "downtempo-balearic": "Downtempo",
-    "broken-beat-nu-jazz": "Leftfield",
-    "dub-techno": "Dub Techno",
-    "ambient-electronic": "Ambient",
-    "techno": "Techno",
-    "house": "House",
+    "downtempo": "Downtempo",
+    "broken-beat": "Leftfield",
+    "ambient-drone": "Ambient",
     "electro": "Electro",
-    "disco-nu-disco": "Nu Disco",
-    "acid-house": "Acid",
-    "detroit": "Detroit Techno",
-    "leftfield": "Leftfield",
     "experimental-electronic": "Experimental",
-    "drum-and-bass": "Drum & Bass",
-    "breaks-electro": "Breaks",
+    "house": "House",
+    "techno-music": "Techno",
+    "jazz": "Jazz",
+    "funky-club-house": "Funky House",
+    "dub-reggae": "Dub",
 }
 
 # Default genres to scrape (matching the user's taste profile)
 DEFAULT_GENRES = [
     "deep-house",
     "minimal-tech-house",
-    "downtempo-balearic",
-    "broken-beat-nu-jazz",
-    "dub-techno",
-    "ambient-electronic",
+    "downtempo",
+    "broken-beat",
+    "ambient-drone",
+    "electro",
+    "experimental-electronic",
 ]
 
 

@@ -42,7 +42,7 @@ NETWORK_FILE = Path(__file__).parent.parent / "network_data.json"
 
 # Maximum artists to process per run (search + fetch).
 # Artists with existing spotify_ids are cheaper (no search needed).
-DEFAULT_MAX_ARTISTS = 500
+DEFAULT_MAX_ARTISTS = 200
 
 # Maximum consecutive 429 errors before giving up
 MAX_RATE_LIMIT_RETRIES = 3
@@ -54,7 +54,7 @@ class SpotifyFetcher(BaseSourceFetcher):
     AUTH_URL = "https://accounts.spotify.com/api/token"
     BASE = "https://api.spotify.com/v1"
 
-    def __init__(self, client_id=None, client_secret=None, rate_limit=0.5,
+    def __init__(self, client_id=None, client_secret=None, rate_limit=1.0,
                  max_artists=DEFAULT_MAX_ARTISTS):
         super().__init__(rate_limit=rate_limit)
         self.client_id = client_id or os.getenv("SPOTIFY_CLIENT_ID", "")
