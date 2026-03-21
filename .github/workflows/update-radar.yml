@@ -83,7 +83,7 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: |
           python fetch_multi.py \
-            --sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour \
+            --sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye \
             --months 6
 
       - name: Commit updated releases

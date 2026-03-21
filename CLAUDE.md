@@ -16,12 +16,12 @@ deploy.sh ──> Cloudflare Pages (Static Site)
 
 GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 1. Crawler (Netzwerk erweitern, --resume --time-budget 300)
-2. Fetch (alle 8 Quellen + Quality Scoring)
+2. Fetch (alle 11 Quellen + Quality Scoring)
 3. Deploy (Cloudflare Pages)
 
 ## Release-Quellen
 
-### Aktive Quellen (Standard: `--sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour`)
+### Aktive Quellen (Standard: `--sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye`)
 
 - **Bandcamp** (`sources/bandcamp.py`): Holt Releases von Labels in `reference_labels.txt` via Mobile API. Zuverlaessigste Quelle.
 - **Spotify** (`sources/spotify_source.py`): Holt Releases fuer Netzwerk-Artists. Cached spotify_ids in network_data.json. Max 200 Artists/Run.
@@ -31,6 +31,9 @@ GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 - **Juno** (`sources/juno.py`): Scrapt juno.co.uk mit Genre-Filter. Braucht beautifulsoup4 + cloudscraper (Cloudflare-Bypass).
 - **Clone.nl** (`sources/clone.py`): RSS-Feeds (clone.nl/rss/new + Genre-Feeds). Amsterdamer Plattenladen, stark fuer Detroit Techno/Electro/House.
 - **Rush Hour** (`sources/rushhour.py`): RSS-Feed (rushhour.nl/rss.xml). Amsterdamer Plattenladen, Soulful/Jazz-Electronic/Deep House.
+- **Deejay.de** (`sources/deejay.py`): HTML-Scraper. Grosser deutscher Vinyl-Shop, 3 Genre-Seiten (House/Techno/Beats), 40 Releases/Seite. Kein Cloudflare.
+- **Phonica** (`sources/phonica.py`): RSS-Feed via rss2json.com Proxy. Kuratierter Londoner Plattenladen, 10 Items/Feed.
+- **Redeye** (`sources/redeye.py`): HTML-Scraper. Bristoler Distributor/Shop, 4 Genre-Seiten, 50 Releases/Seite. 10s Crawl-Delay (robots.txt).
 
 ### Deaktivierte Quellen
 
@@ -112,6 +115,9 @@ GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 - `sources/juno.py` — Juno.co.uk Scraper (cloudscraper fuer Cloudflare-Bypass)
 - `sources/clone.py` — Clone.nl RSS-Feeds (new + genre)
 - `sources/rushhour.py` — Rush Hour RSS-Feed
+- `sources/deejay.py` — Deejay.de HTML Scraper (House/Techno/Beats)
+- `sources/phonica.py` — Phonica Records RSS (via rss2json Proxy)
+- `sources/redeye.py` — Redeye Records HTML Scraper (4 Genres)
 - `sources/beatport.py` — Beatport HTML Scraper (deaktiviert)
 - `sources/base.py` — Base-Klasse fuer Fetcher
 - `sources/genre_map.py` — Genre-Klassifikation

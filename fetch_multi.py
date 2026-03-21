@@ -70,6 +70,18 @@ def _import_rushhour():
     from sources.rushhour import RushHourFetcher
     return RushHourFetcher
 
+def _import_deejay():
+    from sources.deejay import DeejayFetcher
+    return DeejayFetcher
+
+def _import_phonica():
+    from sources.phonica import PhonicaFetcher
+    return PhonicaFetcher
+
+def _import_redeye():
+    from sources.redeye import RedeyeFetcher
+    return RedeyeFetcher
+
 # --- CONFIG ---
 OUTPUT_FILE = "releases.json"
 NETWORK_FILE = "network_data.json"
@@ -366,6 +378,7 @@ def are_duplicates(r1, r2):
 
 # Source priority for merging (higher = preferred)
 SOURCE_PRIORITY = {"hardwax": 6, "boomkat": 5, "clone": 5, "rushhour": 5,
+                   "phonica": 5, "redeye": 5, "deejay": 5,
                    "beatport": 4, "discogs": 4,
                    "bandcamp": 3, "juno": 3, "spotify": 2}
 
@@ -667,6 +680,48 @@ def run(args):
             print(f"  ⚠ Rush Hour error: {e}")
         print()
 
+    if "deejay" in sources and not _shutdown:
+        print("▶ Phase 5f: Deejay.de Scraper")
+        try:
+            DeejayFetcher = _import_deejay()
+            dj = DeejayFetcher(rate_limit=2.0)
+            dj_releases = dj.fetch_all(cutoff, max_pages=args.limit or 2)
+            all_new_releases.extend(dj_releases)
+            print(f"  ✓ Deejay.de: {len(dj_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Deejay.de skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Deejay.de error: {e}")
+        print()
+
+    if "phonica" in sources and not _shutdown:
+        print("▶ Phase 5g: Phonica Records RSS")
+        try:
+            PhonicaFetcher = _import_phonica()
+            pc = PhonicaFetcher(rate_limit=2.0)
+            pc_releases = pc.fetch_all(cutoff)
+            all_new_releases.extend(pc_releases)
+            print(f"  ✓ Phonica: {len(pc_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Phonica skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Phonica error: {e}")
+        print()
+
+    if "redeye" in sources and not _shutdown:
+        print("▶ Phase 5h: Redeye Records Scraper")
+        try:
+            RedeyeFetcher = _import_redeye()
+            ry = RedeyeFetcher(rate_limit=10.0)
+            ry_releases = ry.fetch_all(cutoff, max_pages=args.limit or 1)
+            all_new_releases.extend(ry_releases)
+            print(f"  ✓ Redeye: {len(ry_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Redeye skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Redeye error: {e}")
+        print()
+
     # ─── Phase 6: Deduplicate ─────────────────────────
     if not _shutdown:
         print(f"▶ Phase 6: Deduplication")
@@ -727,8 +782,8 @@ def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description="Valentina Multi-Source Release Fetcher")
-    parser.add_argument("--sources", default="bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour",
-                        help="Comma-separated sources: beatport,bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour (default: all active)")
+    parser.add_argument("--sources", default="bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye",
+                        help="Comma-separated sources (default: all active)")
     parser.add_argument("--months", type=int, default=6,
                         help="Look back N months (default: 6)")
     parser.add_argument("--browse-only", action="store_true",
