@@ -65,6 +65,8 @@ def load_reference_data(project_dir="."):
     network_artists = {}
     network_labels = {}
     seed_artist_labels = {}
+    style_artist_count = {}
+    artist_styles = {}
 
     # Reference labels
     labels_file = os.path.join(project_dir, "reference_labels.txt")
@@ -95,12 +97,23 @@ def load_reference_data(project_dir="."):
                         if label_name:
                             seed_artist_labels.setdefault(label_name, set()).add(artist.get("name", ""))
 
+            # Build style popularity + artist→styles maps for niche scoring
+            for aid, artist in network_artists.items():
+                styles = artist.get("discogs_styles", [])
+                if styles:
+                    aname = artist.get("name", "").lower()
+                    artist_styles[aname] = styles
+                    for style in styles:
+                        style_artist_count[style] = style_artist_count.get(style, 0) + 1
+
     return {
         "ref_labels": ref_labels,
         "ref_artists": ref_artists,
         "network_artists": network_artists,
         "network_labels": network_labels,
         "seed_artist_labels": seed_artist_labels,
+        "style_artist_count": style_artist_count,
+        "artist_styles": artist_styles,
     }
 
 
@@ -204,6 +217,60 @@ def score_multi_source(release):
     return 0
 
 
+def score_niche(artist, ref_data):
+    """Score 0-10 based on artist style uniqueness (inverse style popularity).
+
+    Artists with rare/niche Discogs styles score higher than those with only
+    common styles like 'House' or 'Techno'. Based on BlackTape's uniqueness
+    formula: AVG(1/style_artist_count) scaled to 0-10.
+
+    Styles with <10 artists in the network are filtered out to avoid inflated
+    scores from genre-alien styles (e.g. 'Hard Bop' in an electronic network).
+    """
+    if not artist:
+        return 0
+
+    artist_lower = artist.lower().strip()
+    # Skip generic compilation/placeholder names
+    if artist_lower in {"various", "various artists", "va", "v/a", "v.a.", "unknown"}:
+        return 0
+
+    styles = ref_data["artist_styles"].get(artist_lower, [])
+    if not styles:
+        return 0
+
+    style_counts = ref_data["style_artist_count"]
+    MIN_STYLE_ARTISTS = 15
+
+    # Filter out noise/alien styles with too few artists in the network
+    inv_scores = []
+    for style in styles:
+        count = style_counts.get(style, 0)
+        if count >= MIN_STYLE_ARTISTS:
+            inv_scores.append(1.0 / count)
+
+    if not inv_scores:
+        return 0
+
+    avg_inv = sum(inv_scores) / len(inv_scores)
+    # Step-based scoring for predictable, controllable output:
+    # avg_inv ~0.0003 = only common styles (House/Techno/Tech House)
+    # avg_inv ~0.001  = mix of common + moderately niche
+    # avg_inv ~0.005  = mostly niche styles (Microhouse, Berlin-School)
+    # avg_inv ~0.02   = very niche (Illbient, Bleep, Ghetto House)
+    if avg_inv >= 0.02:
+        return 10
+    if avg_inv >= 0.01:
+        return 8
+    if avg_inv >= 0.005:
+        return 6
+    if avg_inv >= 0.002:
+        return 4
+    if avg_inv >= 0.001:
+        return 2
+    return 0
+
+
 def score_release(release, ref_data):
     """Calculate total quality score (0-100) for a release."""
     label_score = score_label_relevance(release.get("label", ""), ref_data)
@@ -214,8 +281,9 @@ def score_release(release, ref_data):
     )
     source_score = score_source_trust(release.get("source", ""))
     multi_score = score_multi_source(release)
+    niche_score = score_niche(release.get("artist", ""), ref_data)
 
-    total = label_score + artist_score + genre_score + source_score + multi_score
+    total = label_score + artist_score + genre_score + source_score + multi_score + niche_score
 
     return {
         "total": min(total, 100),
@@ -224,6 +292,7 @@ def score_release(release, ref_data):
         "genre": genre_score,
         "source": source_score,
         "multi": multi_score,
+        "niche": niche_score,
     }
 
 
