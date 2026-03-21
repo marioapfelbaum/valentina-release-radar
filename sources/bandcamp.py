@@ -278,6 +278,7 @@ class BandcampFetcher(BaseSourceFetcher):
             date=date,
             source_url=source_url,
             format_type=self._infer_format(item_type),
+            date_verified=True,
         )
 
     @staticmethod

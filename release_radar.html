@@ -294,6 +294,10 @@ function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, to
               ›
             </div>
             {isNew && !heard && <span style={{background:C.orange,color:"#fff",fontSize:"10px",fontWeight:800,padding:"1px 4px",fontFamily:F,letterSpacing:"0.08em",flexShrink:0}}>NEW</span>}
+            <span style={{fontFamily:F,fontWeight:700,fontSize:"8px",padding:"1px 2px",letterSpacing:"0.03em",flexShrink:0,
+              background:t.is_restock?"rgba(150,150,150,0.3)":t.date_verified?"rgba(110,207,138,0.2)":"rgba(212,192,94,0.2)",
+              color:t.is_restock?"#999":t.date_verified?"#6ecf8a":"#d4c05e",
+            }}>{t.is_restock?"RE":t.date_verified?"VER":"SHOP"}</span>
             <span className="r" style={{fontFamily:F,fontWeight:500,fontSize:"13px",color:"rgba(255,255,255,0.5)",flexShrink:0}}>
               {d.getDate().toString().padStart(2,'0')}.{(d.getMonth()+1).toString().padStart(2,'0')}.
             </span>
@@ -345,11 +349,17 @@ function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, to
       <div className="row-hover" onMouseEnter={() => setH(true)} onMouseLeave={() => setH(false)}
         style={{display:"flex",alignItems:"center",padding:"10px 0",cursor:"pointer"}}>
 
-        {/* LEFT ZONE — NEW badge + date + expand chevron */}
-        <div style={{width:"120px",flexShrink:0,display:"flex",alignItems:"center",gap:"4px"}}>
+        {/* LEFT ZONE — NEW badge + freshness + date + expand chevron */}
+        <div style={{width:"140px",flexShrink:0,display:"flex",alignItems:"center",gap:"4px"}}>
           <div style={{width:"40px",textAlign:"center",flexShrink:0}}>
             {isNew && !heard && <span style={{background:C.orange,color:"#fff",fontSize:"15px",fontWeight:800,padding:"2px 6px",fontFamily:F,letterSpacing:"0.1em"}}>NEW</span>}
           </div>
+          <span style={{fontFamily:F,fontWeight:700,fontSize:"9px",padding:"1px 3px",letterSpacing:"0.05em",flexShrink:0,
+            background:t.is_restock?"rgba(150,150,150,0.3)":t.date_verified?"rgba(110,207,138,0.2)":"rgba(212,192,94,0.2)",
+            color:t.is_restock?"#999":t.date_verified?"#6ecf8a":"#d4c05e",
+          }} title={t.is_restock?"Restock (Release älter als 6 Monate)":t.date_verified?"Verified New (echtes Release-Datum)":"Shop Pick (Listing-Datum)"}>
+            {t.is_restock?"RE":t.date_verified?"VER":"SHOP"}
+          </span>
           <span className="r" style={{fontFamily:F,fontWeight:500,fontSize:"18px",color:"rgba(255,255,255,0.6)",width:"50px",textAlign:"center",flexShrink:0}}>
             {d.getDate().toString().padStart(2,'0')}.{(d.getMonth()+1).toString().padStart(2,'0')}.
           </span>
@@ -423,13 +433,23 @@ function App() {
   const [favIds, setFavIds] = useState(new Set());
   const [hiddenIds, setHiddenIds] = useState(new Set());
   const [expandedIds, setExpandedIds] = useState(new Set());
-  const DEFAULT_MY_GENRES = ["Minimal House","Microhouse","Minimal Techno","House","Deep House","Rominimal","Minimal Tech House","Dub Techno"];
+  const DEFAULT_MY_GENRES = ["Minimal House","Microhouse","Minimal Techno","Deep House","Rominimal","Dub Techno","Detroit Techno","Chicago House","Soulful House","Downtempo","Afro House","Broken Beat","Funky House","Garage House","Acid","Jazz-Funk","Nu Jazz","UK Garage","Trip Hop"];
+  const MY_GENRES_VERSION = 2;
   const [myGenres, setMyGenres] = useState(() => {
-    try { const s = store.get("v-my-genres"); return s && s.length ? s : DEFAULT_MY_GENRES; }
-    catch { return DEFAULT_MY_GENRES; }
+    try {
+      const ver = store.get("v-my-genres-v");
+      if (ver === MY_GENRES_VERSION) {
+        const s = store.get("v-my-genres");
+        return s && s.length ? s : DEFAULT_MY_GENRES;
+      }
+      store.set("v-my-genres-v", MY_GENRES_VERSION);
+      store.set("v-my-genres", DEFAULT_MY_GENRES);
+      return DEFAULT_MY_GENRES;
+    } catch { return DEFAULT_MY_GENRES; }
   });
   const [genre, setGenre] = useState("MyGenres");
   const [sourceFilter, setSourceFilter] = useState("All");
+  const [freshnessFilter, setFreshnessFilter] = useState("New");
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState("date");
   const [showHeard, setShowHeard] = useState(true);
@@ -583,6 +603,7 @@ function App() {
   const filtered = releases
     .filter(r => genre === "All" ? true : genre === "MyGenres" ? myGenresSet.has((r.genre||"").toLowerCase()) : r.genre === genre)
     .filter(r => sourceFilter === "All" ? true : (r.source||"discogs").toLowerCase() === sourceFilter.toLowerCase())
+    .filter(r => freshnessFilter === "All" ? true : freshnessFilter === "New" ? !r.is_restock : freshnessFilter === "Verified" ? r.date_verified === true : freshnessFilter === "Shop" ? !r.date_verified && !r.is_restock : r.is_restock === true)
     .filter(r => { if (!search) return true; const q = search.toLowerCase(); return r.title.toLowerCase().includes(q) || r.artist.toLowerCase().includes(q) || r.label.toLowerCase().includes(q); })
     .filter(r => showHeard || !heardIds.has(r.id))
     .filter(r => showHidden || !hiddenIds.has(r.id))
@@ -736,6 +757,13 @@ function App() {
                 </span>;
               })}
             </>)}
+            <span style={{color:C.ghost}}>|</span>
+            {[["New","#fff"],["All","#888"],["Verified","#6ecf8a"],["Shop","#d4c05e"],["Restock","#999"]].map(([label,color]) =>
+              <span key={label} className="sort-link" onClick={() => setFreshnessFilter(label)}
+                style={{cursor:"pointer",color:freshnessFilter===label?color:C.soft,borderBottom:freshnessFilter===label?`1px solid ${color}`:"none",paddingBottom:"1px",transition:"color 0.1s",fontSize:mobile?"11px":"inherit"}}>
+                {label.toUpperCase()}
+              </span>
+            )}
           </div>
 
           {/* PROGRESS — indented */}

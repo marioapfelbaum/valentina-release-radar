@@ -38,7 +38,7 @@ Hetzner Cronjobs (fetch_and_push.sh mit Sources-Argument):
 - **Rush Hour** (`sources/rushhour.py`): RSS-Feed (rushhour.nl/rss.xml). Amsterdamer Plattenladen, Soulful/Jazz-Electronic/Deep House.
 - **Deejay.de** (`sources/deejay.py`): HTML-Scraper. Grosser deutscher Vinyl-Shop, 4 Genre-Seiten (House/Techno/Beats/Electro), 40 Releases/Seite. Kein Cloudflare.
 - **Phonica** (`sources/phonica.py`): RSS-Feed via rss2json.com Proxy. Kuratierter Londoner Plattenladen, 10 Items/Feed.
-- **Redeye** (`sources/redeye.py`): HTML-Scraper. Bristoler Distributor/Shop, 4 Genre-Seiten, 50 Releases/Seite. 10s Crawl-Delay (robots.txt).
+- **Redeye** (`sources/redeye.py`): HTML-Scraper. Bristoler Distributor/Shop, 4 Genre-Seiten, nur Releases mit "Exp."-Datum (Pre-Orders). Out-of-Stock und undatierte Restocks gefiltert. 10s Crawl-Delay (robots.txt).
 
 ### Deaktivierte Quellen
 
@@ -53,6 +53,23 @@ Hetzner Cronjobs (fetch_and_push.sh mit Sources-Argument):
 - Source-Trust (0-10): Hardwax/Clone/Rush Hour > Boomkat/Discogs > Bandcamp/Juno > Spotify
 - Multi-Source-Bonus (0-10): Auf mehreren Quellen gefunden?
 - Niche-Bonus (0-10): Inverse Style-Popularity aus Discogs-Styles (inspiriert von BlackTape). Artists mit seltenen Electronic-Subgenres (Microhouse, Berlin-School, Illbient) werden bevorzugt. Styles mit <15 Artists im Netzwerk werden ignoriert (Noise-Filter). "Various" etc. blacklisted.
+
+## Freshness-System
+
+Unterscheidet zwischen echten neuen Releases und Shop-Restocks:
+- **date_verified**: `true` bei Bandcamp/Spotify/Discogs/Redeye (echte Release-Dates), `false` bei Shop-Quellen
+- **Discogs-Gegencheck** (Phase 7b in fetch_multi.py): Fuer unverified Releases wird das echte Release-Jahr via Discogs Search API geprueft. Aelter als 6 Monate → `is_restock: true`
+- **Frontend-Badges**: VER (gruen) = Verified New, SHOP (gelb) = Shop Pick, RE (grau) = Restock
+- **Frontend-Filter**: NEW (Default, ohne Restocks) / ALL / VERIFIED / SHOP / RESTOCK Buttons
+
+## Genre-Klassifikation
+
+`sources/genre_map.py` klassifiziert Releases anhand von Style-Tags:
+- **Specificity-Scoring**: Spezifische Genres (Detroit Techno, Soulful House = 5) schlagen generische (House = 1, Electronic = 0)
+- **Noise-Filter**: Tags wie "label catalog", "merchandise" werden ignoriert
+- **Artist-Enrichment**: Releases ohne Genre bekommen das haeufigste Genre des gleichen Artists
+- **Genres**: Minimal House, Deep House, Detroit Techno, Chicago House, Soulful House, Broken Beat, Jazz-Funk, Nu Jazz, Garage House, UK Garage, Acid, Dub, Downtempo, Trip Hop, etc.
+- **Luecke**: Clone/Rush Hour/Phonica liefern keine Style-Tags → ~675 Releases als "Other"/"Electronic"
 
 ## Netzwerk-Crawler
 
@@ -147,7 +164,9 @@ Install: `pip install requests beautifulsoup4 cloudscraper`
 
 Cloudflare Pages, Projekt: `valentina-release-radar`
 - Deploy: `bash deploy.sh` (baut dist/, ruft `npx wrangler pages deploy`)
-- Automatisch via GitHub Actions alle 3 Tage
+- **Auto-Deploy bei jedem Push**: `deploy-on-push.yml` triggert wenn releases.json gepusht wird
+- **Hetzner → Auto-Deploy**: Hetzner pusht ohne [skip ci], deploy-on-push deployt → alle 4h frisch
+- Crawler + Fetch + Deploy: `update-radar.yml` alle 3 Tage (mit Push-Retry und Pipeline-Resilienz)
 - Manuell: "Quick Update" Workflow in GitHub Actions (nur Fetch + Deploy)
 
 ## Haeufige Befehle

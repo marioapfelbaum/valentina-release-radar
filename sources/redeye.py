@@ -219,6 +219,7 @@ class RedeyeFetcher(BaseSourceFetcher):
             date=date,
             source_url=source_url,
             catalog_number=catalog or None,
+            date_verified=True,
         )
 
     @staticmethod

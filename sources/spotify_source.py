@@ -459,6 +459,7 @@ class SpotifyFetcher(BaseSourceFetcher):
             date=date,
             source_url=source_url,
             format_type=fmt,
+            date_verified=True,
         )
 
 

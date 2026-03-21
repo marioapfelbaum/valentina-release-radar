@@ -59,7 +59,7 @@ GENRE_MAP = {
     "uk garage": "UK Garage",
     "bassline": "UK Garage",
     # Dub / Ambient / Down
-    "dub": "Dub Techno",
+    "dub": "Dub",
     "ambient": "Ambient",
     "dark ambient": "Dark Ambient",
     "downtempo": "Downtempo",
@@ -73,6 +73,20 @@ GENRE_MAP = {
     "nu-disco": "Nu Disco",
     "italo-disco": "Italo Disco",
     "indie dance": "Indie Dance",
+    # Jazz / Soul / Broken Beat
+    "broken beat": "Broken Beat",
+    "brokenbeat": "Broken Beat",
+    "jazz-funk": "Jazz-Funk",
+    "jazz funk": "Jazz-Funk",
+    "jazz house": "Jazz House",
+    "future jazz": "Future Jazz",
+    "nu jazz": "Nu Jazz",
+    "nu-jazz": "Nu Jazz",
+    "soul": "Soul",
+    "neo soul": "Neo Soul",
+    "neo-soul": "Neo Soul",
+    "garage house": "Garage House",
+    "speed garage": "UK Garage",
     # Other electronic
     "experimental": "Experimental",
     "idm": "IDM",
@@ -115,24 +129,66 @@ BEATPORT_GENRE_MAP = {
 }
 
 
+_IGNORE_TAGS = {"label catalog", "merchandise", "compilation", "reissue",
+                 "repress", "pop rock", "alternative rock", "art rock",
+                 "chanson", "soundtrack", "holiday", "interview"}
+
+# Genre specificity: higher = more specific, preferred over generic matches
+_GENRE_SPECIFICITY = {
+    "Other": 0, "Electronic": 0,
+    "House": 1, "Techno": 1,
+    "Electro": 2, "Ambient": 2, "Disco": 2, "Trance": 2,
+    "Electronica": 2,
+    "Deep House": 5, "Tech House": 5, "Detroit Techno": 5,
+    "Dub Techno": 5, "Chicago House": 5, "Soulful House": 5,
+    "Afro House": 5, "Funky House": 5, "Minimal House": 5,
+    "Minimal Techno": 5, "Microhouse": 5, "Rominimal": 5,
+    "Broken Beat": 5, "Jazz-Funk": 5, "Jazz House": 5,
+    "UK Garage": 5, "Garage House": 5, "Acid": 5,
+    "Downtempo": 5, "Trip Hop": 5, "Nu Jazz": 5,
+    "Experimental": 3, "Leftfield": 3, "IDM": 3,
+}
+
+
 def classify_genre(styles, genres=None):
     """Map style/genre tags to our UI genre categories.
+    Prefers the most specific genre match over generic ones.
     Works with Discogs styles, Beatport genres, Bandcamp tags, Spotify genres.
     """
     all_tags = [s.lower().strip() for s in (styles or [])]
     if genres:
         all_tags += [g.lower().strip() for g in genres]
 
-    for tag in all_tags:
-        # Exact match first
-        if tag in GENRE_MAP:
-            return GENRE_MAP[tag]
+    # Filter noise tags
+    all_tags = [t for t in all_tags if t not in _IGNORE_TAGS]
 
+    # Collect ALL exact matches, pick the most specific one
+    matches = []
     for tag in all_tags:
-        # Partial match
+        if tag in GENRE_MAP:
+            genre = GENRE_MAP[tag]
+            specificity = _GENRE_SPECIFICITY.get(genre, 5)
+            matches.append((specificity, genre))
+
+    if matches:
+        matches.sort(key=lambda x: x[0], reverse=True)
+        return matches[0][1]
+
+    # Partial match fallback — prefer longer (= more specific) keys
+    # Use word boundary logic: key must match as a whole word within tag
+    for tag in all_tags:
+        partial = []
         for key, val in GENRE_MAP.items():
-            if key in tag:
-                return val
+            if key in tag and (len(key) >= len(tag) - 2 or
+                               tag.startswith(key + " ") or
+                               tag.endswith(" " + key) or
+                               " " + key + " " in tag or
+                               tag == key):
+                specificity = _GENRE_SPECIFICITY.get(val, 5)
+                partial.append((specificity, val))
+        if partial:
+            partial.sort(key=lambda x: x[0], reverse=True)
+            return partial[0][1]
 
     if any("electronic" in t for t in all_tags):
         return "Electronic"

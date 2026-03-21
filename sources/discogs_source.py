@@ -275,6 +275,7 @@ class DiscogsFetcher(BaseSourceFetcher):
                 source_url=f"https://www.discogs.com/release/{discogs_id}",
                 discogs_url=f"https://www.discogs.com/release/{discogs_id}",
                 reissue=self._detect_reissue(title),
+                date_verified=True,
             )
 
         return self._normalize_full_release(full, label_name)
@@ -362,6 +363,7 @@ class DiscogsFetcher(BaseSourceFetcher):
             catalog_number=catno,
             format_type=format_type,
             reissue=reissue,
+            date_verified=True,
         )
 
     def fetch_artist_releases(self, artist_id, artist_name, cutoff_date=None,

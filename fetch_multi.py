@@ -383,6 +383,79 @@ SOURCE_PRIORITY = {"hardwax": 6, "boomkat": 5, "clone": 5, "rushhour": 5,
                    "bandcamp": 3, "juno": 3, "spotify": 2}
 
 
+def verify_release_dates(releases, discogs_token):
+    """Verify release dates for shop-sourced releases via Discogs search.
+
+    For releases with date_verified=False that haven't been checked yet,
+    searches Discogs for the actual release year. Marks releases older
+    than 6 months as is_restock=True.
+    """
+    import requests as req
+
+    to_check = [r for r in releases
+                if not r.get("date_verified") and not r.get("discogs_year_checked")]
+
+    if not to_check:
+        return releases
+
+    print(f"\n▶ Phase 7b: Discogs Date Verification")
+    print(f"  Checking {len(to_check)} unverified releases...")
+
+    headers = {"User-Agent": "ValentinaReleaseRadar/1.0"}
+    cutoff_year = datetime.now().year
+    cutoff_month = datetime.now().month - 6
+    if cutoff_month <= 0:
+        cutoff_year -= 1
+        cutoff_month += 12
+    cutoff_date = f"{cutoff_year}-{cutoff_month:02d}-01"
+
+    checked = 0
+    restocks = 0
+
+    for r in to_check:
+        artist = r.get("artist", "").strip()
+        title = r.get("title", "").strip()
+        if not artist or not title or artist.lower() == "various":
+            r["discogs_year_checked"] = True
+            continue
+
+        query = f"{artist} {title}"
+        try:
+            resp = req.get(
+                "https://api.discogs.com/database/search",
+                params={"q": query, "type": "release", "token": discogs_token,
+                        "per_page": 3},
+                headers=headers, timeout=15
+            )
+            time.sleep(1.0)  # Discogs rate limit
+
+            if resp.status_code == 200:
+                results = resp.json().get("results", [])
+                if results:
+                    year = results[0].get("year")
+                    if year and isinstance(year, (int, str)):
+                        year = int(year) if str(year).isdigit() else 0
+                        if year > 0:
+                            r["discogs_year"] = year
+                            release_approx = f"{year}-01-01"
+                            if release_approx < cutoff_date:
+                                r["is_restock"] = True
+                                restocks += 1
+
+            r["discogs_year_checked"] = True
+            checked += 1
+
+            if checked % 25 == 0:
+                print(f"    ... {checked}/{len(to_check)} checked")
+
+        except Exception:
+            r["discogs_year_checked"] = True
+            continue
+
+    print(f"  ✓ Checked {checked} releases, {restocks} marked as restocks")
+    return releases
+
+
 def merge_duplicates(releases):
     """Deduplicate releases across sources. Returns list of unique releases."""
     if not releases:
@@ -763,6 +836,13 @@ def run(args):
             print(f"  ⚠ Capped {capped} releases with future dates to {today_str}")
 
         print(f"  Final:    {len(final)} releases (net +{len(final) - len(existing)})")
+
+        # Discogs year verification for unverified releases
+        discogs_token = os.environ.get("DISCOGS_TOKEN", "")
+        if discogs_token:
+            final = verify_release_dates(final, discogs_token)
+        else:
+            print("  ⚠ DISCOGS_TOKEN not set, skipping date verification")
 
         # Quality scoring
         try:

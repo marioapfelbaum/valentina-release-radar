@@ -49,7 +49,8 @@ class BaseSourceFetcher(ABC):
                      genre, date, source_url="", album=None,
                      duration="", styles=None, bpm=None,
                      catalog_number=None, format_type=None,
-                     reissue=False, discogs_url=""):
+                     reissue=False, discogs_url="",
+                     date_verified=False):
         """Create a unified release dict."""
         return {
             "id": BaseSourceFetcher.make_id(source, source_id),
@@ -60,6 +61,7 @@ class BaseSourceFetcher(ABC):
             "genre": genre,
             "duration": duration,
             "date": date,
+            "date_verified": date_verified,
             "re": reissue,
             "styles": styles or [],
             "source": source,
