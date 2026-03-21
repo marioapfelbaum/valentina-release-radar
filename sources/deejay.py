@@ -53,11 +53,12 @@ DEEJAY_GENRES = {
     "House": "House",
     "Techno": "Techno",
     "Beats": "Downtempo",
+    "Electro": "Electro",
     "Exclusive": "Electronic",
 }
 
 # Default genres to scrape
-DEFAULT_GENRES = ["House", "Techno", "Beats"]
+DEFAULT_GENRES = ["House", "Techno", "Beats", "Electro"]
 
 
 class DeejayFetcher(BaseSourceFetcher):
@@ -346,7 +347,7 @@ class DeejayFetcher(BaseSourceFetcher):
         """Not available."""
         return []
 
-    def fetch_all(self, cutoff_date=None, max_pages=2):
+    def fetch_all(self, cutoff_date=None, max_pages=4):
         """Main entry point: fetch from all configured genres.
 
         Args:

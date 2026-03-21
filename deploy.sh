@@ -19,6 +19,7 @@ cp "$DIR/network_explorer.html" "$DIST/" 2>/dev/null || true
 
 # Copy data files
 cp "$DIR/releases.json" "$DIST/"
+cp "$DIR/favorites.json" "$DIST/" 2>/dev/null || true
 cp "$DIR/events.json" "$DIST/" 2>/dev/null || true
 
 # Cloudflare Pages redirect: / → /release_radar.html

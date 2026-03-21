@@ -470,7 +470,18 @@ function App() {
       const saved = store.get("v-heard-radar");
       if (saved) setHeardIds(new Set(saved));
       const savedFav = store.get("v-fav-radar");
-      if (savedFav) setFavIds(new Set(savedFav));
+      if (savedFav && savedFav.length > 0) {
+        setFavIds(new Set(savedFav));
+      } else {
+        try {
+          const favResp = await fetch('./favorites.json?t=' + Date.now());
+          if (favResp.ok) {
+            const favData = await favResp.json();
+            const ids = favData.map(f => typeof f === 'string' ? f : f.id).filter(Boolean);
+            if (ids.length > 0) { setFavIds(new Set(ids)); store.set("v-fav-radar", ids); }
+          }
+        } catch {}
+      }
       const savedHid = store.get("v-hidden-radar");
       if (savedHid) setHiddenIds(new Set(savedHid));
 
@@ -515,6 +526,14 @@ function App() {
   const toggleFav = useCallback(id => {
     setFavIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); saveFav(n); return n; });
   }, [saveFav]);
+  const exportFavorites = useCallback(() => {
+    const favReleases = releases.filter(r => favIds.has(r.id));
+    const data = favReleases.map(r => ({id:r.id, artist:r.artist, title:r.title, label:r.label, date:r.date, source:r.source, quality_score:r.quality_score}));
+    const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url; a.download = 'favorites.json'; a.click();
+    URL.revokeObjectURL(url);
+  }, [releases, favIds]);
   const saveHid = useCallback(ids => { store.set("v-hidden-radar", [...ids]); }, []);
   const toggleHide = useCallback(id => {
     setHiddenIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); saveHid(n); return n; });
@@ -667,7 +686,7 @@ function App() {
             <span className="sort-link" onClick={() => setShowHeard(!showHeard)} style={{cursor:"pointer",transition:"color 0.1s"}}>{showHeard?"HIDE HEARD":"SHOW HEARD"}</span>
             <span className="sort-link" onClick={() => setShowHidden(!showHidden)} style={{cursor:"pointer",transition:"color 0.1s"}}>{showHidden?"HIDE ⊘":"SHOW ⊘"}</span>
             <span className="sort-link" onClick={() => {const a=new Set(filtered.map(r=>r.id));setHeardIds(p=>{const n=new Set([...p,...a]);save(n);return n})}} style={{cursor:"pointer",transition:"color 0.1s"}}>✓ ALL</span>
-            <span className="sort-link" onClick={() => {setHeardIds(new Set());save(new Set());setHiddenIds(new Set());saveHid(new Set());setFavIds(new Set());saveFav(new Set())}} style={{cursor:"pointer",transition:"color 0.1s"}}>RESET</span>
+            {favCount > 0 && <span className="sort-link" onClick={exportFavorites} style={{cursor:"pointer",transition:"color 0.1s",color:C.orange}} title="Favoriten als JSON exportieren">↓ EXPORT</span>}
             {allSources.length > 2 && (<>
               <span style={{color:C.ghost}}>|</span>
               {allSources.map(s => {
