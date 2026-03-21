@@ -24,6 +24,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/vision-quest-v"
     }
   },
   {
@@ -51,6 +54,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/enlightenment-theory-e"
     }
   },
   {
@@ -78,6 +84,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/deepline"
     }
   },
   {
@@ -105,6 +114,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/jolene-cuts-2-vinyl-only-js-edits-2"
     }
   },
   {
@@ -8061,6 +8073,60 @@
     }
   },
   {
+    "id": "aa93c57e",
+    "title": "Overspill Estates",
+    "artist": "Warrington Runcorn New Town Development Plan",
+    "album": "Overspill Estates",
+    "label": "Castles In Space",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-21",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/warrington-runcorn-new-town-development-plan-overspill-estates-vinyl/1076490-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
+    "id": "15c1b778",
+    "title": "Foutu Felin",
+    "artist": "Bolbec",
+    "album": "Foutu Felin",
+    "label": "Batov",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-03-21",
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/bolbec-foutu-felin-vinyl/1144386-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0
+    }
+  },
+  {
     "id": "da7454d1",
     "title": "Nightfall",
     "artist": "MAOH",
@@ -8673,6 +8739,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://smallville-records.bandcamp.com/album/smallville-73-lawrence-poppies"
     }
   },
   {
@@ -10481,6 +10550,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/skylax-house-club-tools-10-12-skylax-vinyl-bundle-bandcamp-exclusive"
     }
   },
   {
@@ -16357,6 +16429,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/skylax-dark-dancefloor-10-12-skylax-vinyl-bundle-bandcamp-exclusive"
     }
   },
   {
@@ -20284,6 +20359,40 @@
     }
   },
   {
+    "id": "eba5dfcd",
+    "title": "TRYING TIMES",
+    "artist": "JAMES BLAKE",
+    "album": "TRYING TIMES",
+    "label": "GOOD BOY",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-14",
+    "re": false,
+    "styles": [
+      "Electronic"
+    ],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/trying-times",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 0,
+      "artist": 0,
+      "genre": 18,
+      "source": 8,
+      "multi": 10
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/trying-times",
+      "boomkat": "https://boomkat.com/products/trying-times-2bebdfab-e2d9-44d8-b93b-3d2c127bab61",
+      "juno": "https://www.juno.co.uk/products/james-blake-trying-times-vinyl/1134459-01/"
+    }
+  },
+  {
     "id": "d9003863",
     "title": "Late Night Tales",
     "artist": "Barry Can't Swim/Various",
@@ -20464,39 +20573,6 @@
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/anichy-lyemn",
       "boomkat": "https://boomkat.com/products/anichy-lyemn"
-    }
-  },
-  {
-    "id": "eba5dfcd",
-    "title": "TRYING TIMES",
-    "artist": "JAMES BLAKE",
-    "album": "TRYING TIMES",
-    "label": "GOOD BOY",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-14",
-    "re": false,
-    "styles": [
-      "Electronic"
-    ],
-    "source": "rushhour",
-    "source_url": "https://www.rushhour.nl/record/vinyl/trying-times",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 32,
-    "_score_breakdown": {
-      "total": 32,
-      "label": 0,
-      "artist": 0,
-      "genre": 18,
-      "source": 8,
-      "multi": 6
-    },
-    "source_urls": {
-      "rushhour": "https://www.rushhour.nl/record/vinyl/trying-times",
-      "boomkat": "https://boomkat.com/products/trying-times-2bebdfab-e2d9-44d8-b93b-3d2c127bab61"
     }
   },
   {
@@ -51015,6 +51091,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/simoncino-the-skylax-years-2011-2024-10-12-skylax-vinyl-bundle-bandcamp-exclusive"
     }
   },
   {
@@ -55352,6 +55431,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://pleasepeople.bandcamp.com/album/come-my-way"
     }
   },
   {
@@ -55379,6 +55461,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/r-a-v-e-4lp-bundle-bandcamp-exclusive"
     }
   },
   {
@@ -57802,6 +57887,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://third-ear-recordings.bandcamp.com/album/shxthead-ep"
     }
   },
   {
@@ -62842,6 +62930,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://smallville-records.bandcamp.com/album/smallville-72-snad-dispo"
     }
   },
   {
@@ -62869,6 +62960,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/artificial-darwinism-a"
     }
   },
   {
@@ -64352,6 +64446,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://third-ear-recordings.bandcamp.com/album/fill-my-head-with-music-3-a-third-ear-compilation"
     }
   },
   {
@@ -64748,6 +64845,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/ritmo-love"
     }
   },
   {
@@ -64775,6 +64875,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/redshifts-to-blueshifts-r"
     }
   },
   {
@@ -71663,6 +71766,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/inner-city-sound-archives-01-vinyl-only"
     }
   },
   {
@@ -74431,6 +74537,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/lost-memories-ep"
     }
   },
   {
@@ -74458,6 +74567,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/piacere-d-estate-lp"
     }
   },
   {
@@ -74485,6 +74597,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/ritmo-love"
     }
   },
   {
@@ -82475,6 +82590,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://smallville-records.bandcamp.com/album/smallville-71-lb-honne-br-cke"
     }
   },
   {
@@ -85252,6 +85370,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/warehouse-textures-1997-re-issue"
     }
   },
   {
@@ -86391,6 +86512,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://vinnabee.bandcamp.com/track/snowglobe-feat-strict-chapel"
     }
   },
   {
@@ -96453,6 +96577,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/neutralise-ep"
     }
   },
   {
@@ -101383,6 +101510,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/cosmic-ritual-feat-robert-owens-vusa-mkhaya"
     }
   },
   {
@@ -101628,6 +101758,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/jesus-loves-skylax-1"
     }
   },
   {
@@ -115207,6 +115340,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/second-floor-2025-vinyl-repress"
     }
   },
   {
@@ -115389,6 +115525,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/love-records-3-vinyl-only"
     }
   },
   {
@@ -117917,6 +118056,9 @@
       "genre": 10,
       "source": 6,
       "multi": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://skylaxrecords.bandcamp.com/album/the-homage"
     }
   },
   {
