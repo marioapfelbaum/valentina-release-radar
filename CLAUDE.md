@@ -19,19 +19,24 @@ GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
 2. Fetch (alle 11 Quellen + Quality Scoring)
 3. Deploy (Cloudflare Pages)
 
+Hetzner Cronjobs (fetch_and_push.sh mit Sources-Argument):
+- Shops (10 Quellen ohne Spotify) alle 4h: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00
+- Spotify separat 3x/Tag: 02:30, 10:30, 18:30 (30 Artists/Run, Rate-Limit-schonend)
+- Lockfile `/tmp/valentina-fetch.lock` verhindert Concurrent Runs
+
 ## Release-Quellen
 
 ### Aktive Quellen (Standard: `--sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye`)
 
 - **Bandcamp** (`sources/bandcamp.py`): Holt Releases von Labels in `reference_labels.txt` via Mobile API. Zuverlaessigste Quelle.
-- **Spotify** (`sources/spotify_source.py`): Holt Releases fuer Netzwerk-Artists. Cached spotify_ids in network_data.json. Max 200 Artists/Run.
+- **Spotify** (`sources/spotify_source.py`): Holt Releases fuer Netzwerk-Artists. Cached spotify_ids in network_data.json. Max 30 Artists/Run, 3.0s Delay. Laeuft separat 3x/Tag um Rate-Limits zu vermeiden.
 - **Discogs** (`sources/discogs_source.py`): Holt aktiv neue Releases von Top-Labels im Netzwerk (2+ Seed-Artist-Verbindungen). Braucht DISCOGS_TOKEN.
 - **Hardwax** (`sources/hardwax.py`): JSON-Feed + /this-week/ + /last-week/. Berliner Plattenladen, kuratiert fuer Minimal/Deep House/Dub. Braucht beautifulsoup4.
 - **Boomkat** (`sources/boomkat.py`): RSS-Feed (boomkat.com/new-releases.rss), Fallback auf rss2json.com Proxy wenn Cloudflare blockt. Kuratiert fuer Experimental/Electronic/Ambient.
 - **Juno** (`sources/juno.py`): Scrapt juno.co.uk mit Genre-Filter. Braucht beautifulsoup4 + cloudscraper (Cloudflare-Bypass).
 - **Clone.nl** (`sources/clone.py`): RSS-Feeds (clone.nl/rss/new + Genre-Feeds). Amsterdamer Plattenladen, stark fuer Detroit Techno/Electro/House.
 - **Rush Hour** (`sources/rushhour.py`): RSS-Feed (rushhour.nl/rss.xml). Amsterdamer Plattenladen, Soulful/Jazz-Electronic/Deep House.
-- **Deejay.de** (`sources/deejay.py`): HTML-Scraper. Grosser deutscher Vinyl-Shop, 3 Genre-Seiten (House/Techno/Beats), 40 Releases/Seite. Kein Cloudflare.
+- **Deejay.de** (`sources/deejay.py`): HTML-Scraper. Grosser deutscher Vinyl-Shop, 4 Genre-Seiten (House/Techno/Beats/Electro), 40 Releases/Seite. Kein Cloudflare.
 - **Phonica** (`sources/phonica.py`): RSS-Feed via rss2json.com Proxy. Kuratierter Londoner Plattenladen, 10 Items/Feed.
 - **Redeye** (`sources/redeye.py`): HTML-Scraper. Bristoler Distributor/Shop, 4 Genre-Seiten, 50 Releases/Seite. 10s Crawl-Delay (robots.txt).
 
