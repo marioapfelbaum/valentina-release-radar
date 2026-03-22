@@ -50,6 +50,33 @@ MAX_RATE_LIMIT_RETRIES = 3
 
 
 class SpotifyFetcher(BaseSourceFetcher):
+    # Spotify genres that indicate non-electronic music — skip these artists
+    GENRE_BLACKLIST = {
+        "rock", "metal", "punk", "country", "classical", "opera",
+        "broadway", "show tunes", "musical", "folk", "bluegrass",
+        "death metal", "black metal", "heavy metal", "hard rock",
+        "grunge", "emo", "screamo", "metalcore", "deathcore",
+        "pop rock", "indie rock", "alt rock", "alternative rock",
+        "k-pop", "j-pop", "mandopop", "c-pop", "bollywood",
+        "schlager", "volksmusik", "reggaeton", "latin pop",
+        "christian", "gospel", "worship", "ccm",
+        "children's music", "kids",
+    }
+
+    # Spotify genres that clearly indicate electronic music — always accept
+    GENRE_WHITELIST = {
+        "electronic", "house", "techno", "ambient", "minimal",
+        "deep house", "tech house", "minimal techno", "dub techno",
+        "detroit techno", "chicago house", "acid house", "microhouse",
+        "electronica", "idm", "downtempo", "trip hop", "chillout",
+        "drum and bass", "jungle", "breakbeat", "uk garage",
+        "dub", "dubstep", "garage", "2-step", "grime",
+        "electro", "synthwave", "italo disco", "nu disco",
+        "disco", "boogie", "funk", "soul", "jazz",
+        "afrobeat", "afro house", "broken beat",
+        "experimental", "noise", "industrial",
+    }
+
     name = "spotify"
 
     AUTH_URL = "https://accounts.spotify.com/api/token"
@@ -71,6 +98,9 @@ class SpotifyFetcher(BaseSourceFetcher):
         self._id_cache = {}
         # Track which IDs were newly resolved so we can persist them
         self._newly_resolved = {}
+        # Cache of spotify_id -> bool (is electronic)
+        self._genre_cache = {}
+        self._genre_blocked = 0
 
         if self.available:
             self._authenticate()
@@ -164,6 +194,47 @@ class SpotifyFetcher(BaseSourceFetcher):
         # See: developer.spotify.com/documentation/web-api/references/changes/february-2026
         return []
 
+    def _is_electronic_artist(self, spotify_id):
+        """Check if a Spotify artist is electronic music.
+
+        Fetches the artist's genres from Spotify and checks against
+        whitelist/blacklist. Returns True if the artist is likely electronic,
+        False if clearly non-electronic, True if genres are empty (benefit of doubt).
+        """
+        if spotify_id in self._genre_cache:
+            return self._genre_cache[spotify_id]
+
+        data = self._get(f"artists/{spotify_id}")
+        if not data:
+            # Can't check — give benefit of doubt
+            return True
+
+        genres = [g.lower() for g in data.get("genres", [])]
+
+        if not genres:
+            # No genre info — give benefit of doubt
+            self._genre_cache[spotify_id] = True
+            return True
+
+        # Check whitelist first — any electronic genre = accept
+        for g in genres:
+            for w in self.GENRE_WHITELIST:
+                if w in g:
+                    self._genre_cache[spotify_id] = True
+                    return True
+
+        # Check blacklist — any non-electronic genre = reject
+        for g in genres:
+            for b in self.GENRE_BLACKLIST:
+                if b in g:
+                    self._genre_cache[spotify_id] = False
+                    self._genre_blocked += 1
+                    return False
+
+        # Unknown genres — give benefit of doubt
+        self._genre_cache[spotify_id] = True
+        return True
+
     def fetch_by_artist(self, artist_name, cutoff_date, spotify_id=None):
         """Fetch releases for a specific artist.
 
@@ -182,6 +253,10 @@ class SpotifyFetcher(BaseSourceFetcher):
         if not spotify_id:
             spotify_id = self._search_artist_id(artist_name)
         if not spotify_id:
+            return []
+
+        # Genre gate: skip non-electronic artists
+        if not self._is_electronic_artist(spotify_id):
             return []
 
         # Get albums and singles
@@ -289,8 +364,9 @@ class SpotifyFetcher(BaseSourceFetcher):
                       f"{len(all_releases)} releases found, {searched} searches")
 
         result = list(all_releases.values())
+        genre_info = f", {self._genre_blocked} blocked by genre filter" if self._genre_blocked else ""
         print(f"  ✓ Spotify total: {len(result)} unique releases "
-              f"({searched} artist searches performed)")
+              f"({searched} artist searches performed{genre_info})")
 
         # Persist newly resolved spotify_ids to network_data.json
         self._persist_resolved_ids()

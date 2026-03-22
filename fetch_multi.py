@@ -559,8 +559,16 @@ def save_releases(releases):
     print(f"\n✓ Saved {len(releases)} releases to {OUTPUT_FILE}")
 
 
-def load_network_artists():
-    """Load artist list from network_data.json for per-artist fetching."""
+def load_network_artists(spotify_only=False):
+    """Load artist list from network_data.json for per-artist fetching.
+
+    When spotify_only=True, applies strict filtering:
+    - Seed artists: always included
+    - Depth 0 non-seeds: included if they have 'Electronic' in discogs_genres
+    - Depth 1+: included only if 'Electronic' in discogs_genres
+    - Artists with no discogs_genres: included only if is_seed
+    This prevents non-electronic artists (Rock, Pop, etc.) from polluting Spotify results.
+    """
     path = Path(__file__).parent / NETWORK_FILE
     if not path.exists():
         return []
@@ -568,14 +576,32 @@ def load_network_artists():
         with open(path) as f:
             data = json.load(f)
         artists = []
+        skipped = 0
         for key, info in data.get("artists", {}).items():
             name = info.get("name", "")
-            if name:
-                artists.append({
-                    "name": name,
-                    "spotify_id": info.get("spotify_id"),
-                    "discogs_id": info.get("discogs_id"),
-                })
+            if not name:
+                continue
+
+            if spotify_only:
+                is_seed = info.get("is_seed", False)
+                discogs_genres = info.get("discogs_genres", [])
+                has_electronic = "Electronic" in discogs_genres
+
+                # Seeds always pass
+                if not is_seed:
+                    # Non-seeds need 'Electronic' in their Discogs genres
+                    if not has_electronic:
+                        skipped += 1
+                        continue
+
+            artists.append({
+                "name": name,
+                "spotify_id": info.get("spotify_id"),
+                "discogs_id": info.get("discogs_id"),
+            })
+
+        if spotify_only and skipped:
+            print(f"  Spotify filter: {skipped} non-electronic artists removed, {len(artists)} remain")
         return artists
     except (json.JSONDecodeError, IOError):
         return []
@@ -670,7 +696,7 @@ def run(args):
         print("▶ Phase 4: Spotify Per-Artist Fetch")
         sp = SpotifyFetcher()
         if sp.available:
-            artists = load_network_artists()
+            artists = load_network_artists(spotify_only=True)
             if artists:
                 # Limit to first N artists for testing
                 if args.limit:
