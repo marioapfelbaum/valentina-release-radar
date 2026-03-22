@@ -14,15 +14,14 @@ fetch_multi.py ──> quality_score.py ──> releases.json (aktuelle Releases
 deploy.sh ──> Cloudflare Pages (Static Site)
 ```
 
-GitHub Actions (`update-radar.yml`) fuehrt alle 3 Tage automatisch aus:
-1. Crawler (Netzwerk erweitern, --resume --time-budget 300)
-2. Fetch (alle 11 Quellen + Quality Scoring)
-3. Deploy (Cloudflare Pages)
-
-Hetzner Cronjobs (fetch_and_push.sh mit Sources-Argument):
+Hetzner Cronjobs:
 - Shops (10 Quellen ohne Spotify) alle 4h: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00
 - Spotify separat 3x/Tag: 02:30, 10:30, 18:30 (30 Artists/Run, Rate-Limit-schonend)
-- Lockfile `/tmp/valentina-fetch.lock` verhindert Concurrent Runs
+- Crawler taeglich 03:00 UTC (crawl_and_push.sh, 3h Budget)
+- Lockfiles: `/tmp/valentina-fetch.lock`, `/tmp/valentina-crawl.lock`
+
+GitHub Actions (`update-radar.yml`): Nur noch manueller Backup-Trigger (Fetch + Deploy).
+Auto-Deploy bei jedem Push: `deploy-on-push.yml`
 
 ## Release-Quellen
 
@@ -76,7 +75,7 @@ Unterscheidet zwischen echten neuen Releases und Shop-Restocks:
 `crawler.py` baut ein Netzwerk aus Artists und Labels auf:
 - **Quellen**: Discogs API + MusicBrainz (kein Spotify Related Artists — 403)
 - **Daten**: `network_data.json` (~36MB, ~5.200 Artists, ~20.000 Labels)
-- **Seeds**: `seed_data.json` (350 Seed-Artists)
+- **Seeds**: `seed_data.json` (387 Seed-Artists)
 - **Resume**: `--resume` laedt vorherigen Stand und macht weiter
 - **Time-Budget**: `--time-budget 300` begrenzt Laufzeit auf 300 Minuten
 
@@ -106,15 +105,17 @@ Unterscheidet zwischen echten neuen Releases und Shop-Restocks:
 
 ### Hauptskripte
 - `crawler.py` — Netzwerk-Crawler (Discogs + MusicBrainz)
-- `fetch_multi.py` — Release-Fetcher (6 Quellen + Scoring)
+- `fetch_multi.py` — Release-Fetcher (11 Quellen + Scoring)
 - `quality_score.py` — Quality-Scoring-System
 - `expand_bandcamp_labels.py` — Bandcamp-Label-Expansion
 - `deploy.sh` — Cloudflare Pages Deploy
+- `fetch_and_push.sh` — Hetzner: Release-Fetch + Git Push
+- `crawl_and_push.sh` — Hetzner: Crawler + Git Push (taeglich)
 
 ### Daten
 - `network_data.json` — Artist/Label-Graph (~36MB)
 - `releases.json` — Alle Releases mit Quality Scores
-- `seed_data.json` — 350 Seed-Artists
+- `seed_data.json` — 387 Seed-Artists
 - `last_checked.json` — Fetch-Tracking
 - `bandcamp_labels.json` — Bandcamp Label-ID Mappings
 
