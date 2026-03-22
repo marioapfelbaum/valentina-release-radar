@@ -1,18 +1,19 @@
 name: Update Release Radar
 
+# Crawler laeuft jetzt auf Hetzner (crawl_and_push.sh, taeglich 3:00 UTC)
+# Dieser Workflow ist nur noch Backup/manueller Trigger fuer Fetch + Deploy
+
 on:
-  schedule:
-    - cron: '0 4 */3 * *'  # Alle 3 Tage um 4:00 UTC
   workflow_dispatch:
     inputs:
-      skip_crawler:
-        description: 'Crawler überspringen (nur Fetch + Deploy)'
+      run_crawler:
+        description: 'Crawler ausfuehren (normalerweise laeuft er auf Hetzner)'
         type: boolean
         default: false
       crawler_time_budget:
         description: 'Crawler Time-Budget in Minuten'
         type: number
-        default: 300
+        default: 180
 
 permissions:
   contents: write
@@ -23,9 +24,9 @@ concurrency:
 
 jobs:
   crawl-network:
-    if: ${{ github.event.inputs.skip_crawler != 'true' }}
+    if: ${{ github.event.inputs.run_crawler == 'true' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 210
     steps:
       - uses: actions/checkout@v4
 
@@ -45,7 +46,7 @@ jobs:
           python crawler.py \
             --resume \
             --max-depth 2 \
-            --time-budget ${{ github.event.inputs.crawler_time_budget || 300 }}
+            --time-budget ${{ github.event.inputs.crawler_time_budget || 180 }}
 
       - name: Commit updated network data
         run: |
@@ -53,7 +54,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add network_data.json last_checked.json
           git diff --cached --quiet || git commit -m "chore: update network data [skip ci]"
-          # Retry push with fresh rebase (Hetzner may have pushed during 5h crawl)
           for i in 1 2 3; do
             git pull --rebase && git push && break
             echo "Push attempt $i failed, retrying..."
