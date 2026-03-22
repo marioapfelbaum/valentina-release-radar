@@ -82,6 +82,30 @@ def _import_redeye():
     from sources.redeye import RedeyeFetcher
     return RedeyeFetcher
 
+def _import_traxsource():
+    from sources.traxsource import TraxsourceFetcher
+    return TraxsourceFetcher
+
+def _import_decks():
+    from sources.decks import DecksFetcher
+    return DecksFetcher
+
+def _import_piccadilly():
+    from sources.piccadilly import PiccadillyFetcher
+    return PiccadillyFetcher
+
+def _import_honestjons():
+    from sources.honestjons import HonestJonsFetcher
+    return HonestJonsFetcher
+
+def _import_norman():
+    from sources.norman import NormanFetcher
+    return NormanFetcher
+
+def _import_bandcamp_daily():
+    from sources.bandcamp_daily import BandcampDailyFetcher
+    return BandcampDailyFetcher
+
 # --- CONFIG ---
 OUTPUT_FILE = "releases.json"
 NETWORK_FILE = "network_data.json"
@@ -379,6 +403,8 @@ def are_duplicates(r1, r2):
 # Source priority for merging (higher = preferred)
 SOURCE_PRIORITY = {"hardwax": 6, "boomkat": 5, "clone": 5, "rushhour": 5,
                    "phonica": 5, "redeye": 5, "deejay": 5,
+                   "traxsource": 5, "piccadilly": 5, "honestjons": 5,
+                   "norman": 5, "decks": 5, "bandcamp_daily": 4,
                    "beatport": 4, "discogs": 4,
                    "bandcamp": 3, "juno": 3, "spotify": 2}
 
@@ -821,6 +847,91 @@ def run(args):
             print(f"  ⚠ Redeye error: {e}")
         print()
 
+    # ─── Phase 5i-n: New Curated Shop Scrapers ────────
+    if "traxsource" in sources and not _shutdown:
+        print("▶ Phase 5i: Traxsource Scraper")
+        try:
+            TraxsourceFetcher = _import_traxsource()
+            tx = TraxsourceFetcher(rate_limit=10.0)
+            tx_releases = tx.fetch_all(cutoff, max_pages=args.limit or 2)
+            all_new_releases.extend(tx_releases)
+            print(f"  ✓ Traxsource: {len(tx_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Traxsource skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Traxsource error: {e}")
+        print()
+
+    if "decks" in sources and not _shutdown:
+        print("▶ Phase 5j: Decks.de Scraper")
+        try:
+            DecksFetcher = _import_decks()
+            dk = DecksFetcher(rate_limit=2.0)
+            dk_releases = dk.fetch_all(cutoff, max_pages=args.limit or 2)
+            all_new_releases.extend(dk_releases)
+            print(f"  ✓ Decks.de: {len(dk_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Decks.de skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Decks.de error: {e}")
+        print()
+
+    if "piccadilly" in sources and not _shutdown:
+        print("▶ Phase 5k: Piccadilly Records Scraper")
+        try:
+            PiccadillyFetcher = _import_piccadilly()
+            pc = PiccadillyFetcher(rate_limit=2.0)
+            pc_releases = pc.fetch_all(cutoff)
+            all_new_releases.extend(pc_releases)
+            print(f"  ✓ Piccadilly: {len(pc_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Piccadilly skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Piccadilly error: {e}")
+        print()
+
+    if "honestjons" in sources and not _shutdown:
+        print("▶ Phase 5l: Honest Jon's Scraper")
+        try:
+            HonestJonsFetcher = _import_honestjons()
+            hj = HonestJonsFetcher(rate_limit=2.0)
+            hj_releases = hj.fetch_all(cutoff, max_pages=args.limit or 2)
+            all_new_releases.extend(hj_releases)
+            print(f"  ✓ Honest Jon's: {len(hj_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Honest Jon's skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Honest Jon's error: {e}")
+        print()
+
+    if "norman" in sources and not _shutdown:
+        print("▶ Phase 5m: Norman Records Scraper")
+        try:
+            NormanFetcher = _import_norman()
+            nm = NormanFetcher(rate_limit=3.0)
+            nm_releases = nm.fetch_all(cutoff, max_pages=args.limit or 4)
+            all_new_releases.extend(nm_releases)
+            print(f"  ✓ Norman: {len(nm_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Norman skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Norman error: {e}")
+        print()
+
+    if "bandcamp_daily" in sources and not _shutdown:
+        print("▶ Phase 5n: Bandcamp Daily Scraper")
+        try:
+            BandcampDailyFetcher = _import_bandcamp_daily()
+            bd = BandcampDailyFetcher(rate_limit=3.0)
+            bd_releases = bd.fetch_all(cutoff)
+            all_new_releases.extend(bd_releases)
+            print(f"  ✓ Bandcamp Daily: {len(bd_releases)} releases")
+        except ImportError as e:
+            print(f"  ⚠ Bandcamp Daily skipped (missing dependency: {e})")
+        except Exception as e:
+            print(f"  ⚠ Bandcamp Daily error: {e}")
+        print()
+
     # ─── Phase 6: Deduplicate ─────────────────────────
     if not _shutdown:
         print(f"▶ Phase 6: Deduplication")
@@ -888,7 +999,7 @@ def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description="Valentina Multi-Source Release Fetcher")
-    parser.add_argument("--sources", default="bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye",
+    parser.add_argument("--sources", default="bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye,traxsource,decks,piccadilly,honestjons,norman,bandcamp_daily",
                         help="Comma-separated sources (default: all active)")
     parser.add_argument("--months", type=int, default=6,
                         help="Look back N months (default: 6)")

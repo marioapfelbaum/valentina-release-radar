@@ -17,8 +17,8 @@ fi
 echo $$ > "$LOCKFILE"
 trap 'rm -f "$LOCKFILE"' EXIT
 
-# Sources: use argument if provided, otherwise all 11
-SOURCES="${1:-bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye}"
+# Sources: use argument if provided, otherwise all 17
+SOURCES="${1:-bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye,traxsource,decks,piccadilly,honestjons,norman,bandcamp_daily}"
 
 echo "========================================" >> "$LOGFILE"
 echo "[$(date -Iseconds)] Starting fetch (sources: $SOURCES)..." >> "$LOGFILE"

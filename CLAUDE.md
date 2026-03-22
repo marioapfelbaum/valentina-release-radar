@@ -28,7 +28,7 @@ Auto-Deploy bei jedem Push: `deploy-on-push.yml`
 ### Aktive Quellen (Standard: `--sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye`)
 
 - **Bandcamp** (`sources/bandcamp.py`): Holt Releases von Labels in `reference_labels.txt` via Mobile API. Zuverlaessigste Quelle.
-- **Spotify** (`sources/spotify_source.py`): Holt Releases fuer Netzwerk-Artists. Cached spotify_ids in network_data.json. Max 30 Artists/Run, 3.0s Delay. Laeuft separat 3x/Tag um Rate-Limits zu vermeiden.
+- **Spotify** (`sources/spotify_source.py`): Holt Releases fuer Netzwerk-Artists. Doppel-Filter: (1) load_network_artists filtert Non-Electronic via Discogs-Genres raus, (2) _is_electronic_artist() prueft Spotify Artist-Genres gegen Blacklist/Whitelist. Cached spotify_ids in network_data.json. Max 30 Artists/Run, 3.0s Delay. Laeuft separat 3x/Tag um Rate-Limits zu vermeiden.
 - **Discogs** (`sources/discogs_source.py`): Holt aktiv neue Releases von Top-Labels im Netzwerk (2+ Seed-Artist-Verbindungen). Braucht DISCOGS_TOKEN.
 - **Hardwax** (`sources/hardwax.py`): JSON-Feed + /this-week/ + /last-week/. Berliner Plattenladen, kuratiert fuer Minimal/Deep House/Dub. Braucht beautifulsoup4.
 - **Boomkat** (`sources/boomkat.py`): RSS-Feed (boomkat.com/new-releases.rss), Fallback auf rss2json.com Proxy wenn Cloudflare blockt. Kuratiert fuer Experimental/Electronic/Ambient.
@@ -96,7 +96,7 @@ Unterscheidet zwischen echten neuen Releases und Shop-Restocks:
 
 ### Quell-spezifische Filterung
 - Bandcamp: Holt NUR von reference_labels
-- Spotify: Holt fuer Netzwerk-Artists (max 500/Run, cached IDs)
+- Spotify: Holt fuer Electronic-Netzwerk-Artists (Discogs-Genre + Spotify-Genre Doppel-Filter, max 30/Run, cached IDs)
 - Discogs: Holt von Top-Labels im Netzwerk (2+ Seed-Connections)
 - Hardwax/Boomkat/Juno: Vorgefiltert durch Shop-Kuration
 - Beatport: Label-Blacklist + Netzwerk-Artist-Filter (deaktiviert)
