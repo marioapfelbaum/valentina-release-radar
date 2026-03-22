@@ -15,7 +15,7 @@ deploy.sh ──> Cloudflare Pages (Static Site)
 ```
 
 Hetzner Cronjobs:
-- Shops (10 Quellen ohne Spotify) alle 4h: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00
+- Shops (16 Quellen ohne Spotify) alle 4h: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00
 - Spotify separat 3x/Tag: 02:30, 10:30, 18:30 (30 Artists/Run, Rate-Limit-schonend)
 - Crawler taeglich 03:00 UTC (crawl_and_push.sh, 3h Budget)
 - Lockfiles: `/tmp/valentina-fetch.lock`, `/tmp/valentina-crawl.lock`
@@ -25,7 +25,7 @@ Auto-Deploy bei jedem Push: `deploy-on-push.yml`
 
 ## Release-Quellen
 
-### Aktive Quellen (Standard: `--sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye`)
+### Aktive Quellen (Standard: `--sources bandcamp,spotify,discogs,hardwax,boomkat,juno,clone,rushhour,deejay,phonica,redeye,traxsource,decks,piccadilly,honestjons,norman,bandcamp_daily`)
 
 - **Bandcamp** (`sources/bandcamp.py`): Holt Releases von Labels in `reference_labels.txt` via Mobile API. Zuverlaessigste Quelle.
 - **Spotify** (`sources/spotify_source.py`): Holt Releases fuer Netzwerk-Artists. Doppel-Filter: (1) load_network_artists filtert Non-Electronic via Discogs-Genres raus, (2) _is_electronic_artist() prueft Spotify Artist-Genres gegen Blacklist/Whitelist. Cached spotify_ids in network_data.json. Max 30 Artists/Run, 3.0s Delay. Laeuft separat 3x/Tag um Rate-Limits zu vermeiden.
@@ -38,6 +38,12 @@ Auto-Deploy bei jedem Push: `deploy-on-push.yml`
 - **Deejay.de** (`sources/deejay.py`): HTML-Scraper. Grosser deutscher Vinyl-Shop, 4 Genre-Seiten (House/Techno/Beats/Electro), 40 Releases/Seite. Kein Cloudflare.
 - **Phonica** (`sources/phonica.py`): RSS-Feed via rss2json.com Proxy. Kuratierter Londoner Plattenladen, 10 Items/Feed.
 - **Redeye** (`sources/redeye.py`): HTML-Scraper. Bristoler Distributor/Shop, 4 Genre-Seiten, nur Releases mit "Exp."-Datum (Pre-Orders). Out-of-Stock und undatierte Restocks gefiltert. 10s Crawl-Delay (robots.txt).
+- **Traxsource** (`sources/traxsource.py`): Cloudflare+cloudscraper, 7 Genre-Seiten (Deep House, Soulful House, Afro House, Minimal/Deep Tech, Broken Beat/Nu Jazz, Jackin House, Afro Latin). Echte Release-Dates. 10s Crawl-Delay. Fuellt Soulful/Afro/Broken-Beat-Luecke.
+- **Decks.de** (`sources/decks.py`): HTML-Scraper, 4 Sektionen (House/Techno/Soul-Funk/Jazz). GENRE-TAGS PRO RELEASE (mehrere Style-Tags). iso-8859-1 Encoding. Echte Release-Dates. Komplementaer zu deejay.de.
+- **Piccadilly Records** (`sources/piccadilly.py`): Manchesters kuratierter Shop, 5 Genre-Seiten (House/Techno, Funk/Soul/Jazz/Broken Beat, Balearic, Disco, UK Garage). Echte Release-Dates + Cat-Nr. ~110 Releases/Run.
+- **Honest Jon's** (`sources/honestjons.py`): Londoner Shop, 5 Kategorien inkl. Chicago/Detroit House, Jazzy Bruk, Moodymann/Theo Parrish. Kein Cloudflare. Keine Release-Dates (date_verified=false).
+- **Norman Records** (`sources/norman.py`): Cloudflare+cloudscraper, /new Seiten (4 Pages). Volle Genre-Tags (Ambient/Downtempo/Dreampop/Drone/etc. pro Release). ~200 Items.
+- **Bandcamp Daily** (`sources/bandcamp_daily.py`): RSS+Article-Scraper. Holt Editorial Picks (Album of the Day, Essential Releases, Best Electronic/Ambient/Jazz). Extrahiert Albums aus data-player-infos JSON. curl als Primary (TLS-Fingerprinting). ~50 Releases/Run.
 
 ### Deaktivierte Quellen
 
@@ -142,6 +148,12 @@ Unterscheidet zwischen echten neuen Releases und Shop-Restocks:
 - `sources/deejay.py` — Deejay.de HTML Scraper (House/Techno/Beats)
 - `sources/phonica.py` — Phonica Records RSS (via rss2json Proxy)
 - `sources/redeye.py` — Redeye Records HTML Scraper (4 Genres)
+- `sources/traxsource.py` — Traxsource cloudscraper (7 Genres, Soulful/Afro/Broken Beat)
+- `sources/decks.py` — Decks.de HTML Scraper (4 Sektionen, Genre-Tags)
+- `sources/piccadilly.py` — Piccadilly Records HTML Scraper (5 Genres)
+- `sources/honestjons.py` — Honest Jon's HTML Scraper (5 Kategorien)
+- `sources/norman.py` — Norman Records cloudscraper (Genre-Tags)
+- `sources/bandcamp_daily.py` — Bandcamp Daily RSS+Article (Editorial Picks)
 - `sources/beatport.py` — Beatport HTML Scraper (deaktiviert)
 - `sources/base.py` — Base-Klasse fuer Fetcher
 - `sources/genre_map.py` — Genre-Klassifikation
