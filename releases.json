@@ -1444,6 +1444,129 @@
     "discogs_year_checked": true
   },
   {
+    "id": "65cd3bf4",
+    "title": "Passed Me By",
+    "artist": "Submotion Orchestra",
+    "album": "Passed Me By",
+    "label": "Submotion Orchestra",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-22",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/submotion-orchestra-passed-me-by-cd/1145626-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year_checked": true,
+    "quality_score": 52,
+    "_score_breakdown": {
+      "total": 52,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
+    "id": "8960743d",
+    "title": "Exodus EP",
+    "artist": "Franck Roger",
+    "album": "Exodus EP",
+    "label": "Seasons Limited US",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-22",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/franck-roger-exodus-ep-vinyl/1111939-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 2
+    }
+  },
+  {
+    "id": "dba567cc",
+    "title": "Lo Fi Ghibli",
+    "artist": "Grey October Sound",
+    "album": "Lo Fi Ghibli",
+    "label": "P-Vine Japan",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-22",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/grey-october-sound-lo-fi-ghibli-vinyl/1126717-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2022,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "ffe4288f",
+    "title": "Malcolm's Law (Japanese Version)",
+    "artist": "Waldo's Gift",
+    "album": "Malcolm's Law (Japanese Version)",
+    "label": "P-Vine Japan",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-03-22",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/waldos-gift-malcolms-law-japanese-version-cd/1121878-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "304765f6",
     "title": "Take Control",
     "artist": "Mischa Blanos",
@@ -1470,6 +1593,9 @@
       "source": 8,
       "multi": 0,
       "niche": 10
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193327-lng009-mischa-blanos-take-control/"
     }
   },
   {
@@ -1674,6 +1800,9 @@
       "source": 8,
       "multi": 0,
       "niche": 6
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/69771-mulemusiq192-petre-inspirescu-vin-ploile-2-x-lp/"
     }
   },
   {
@@ -1912,6 +2041,9 @@
       "source": 8,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/85416-rbsss1-gibson-brothers-oooh-what-a-life-heaven/"
     }
   },
   {
@@ -1979,6 +2111,9 @@
       "source": 6,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/cabaret-voltaire-the-covenant-the-sword-the-arm-cd/509609-01/"
     }
   },
   {
@@ -2321,6 +2456,9 @@
       "source": 8,
       "multi": 0,
       "niche": 6
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195509-barn128-the-field-now-you-exist/"
     }
   },
   {
@@ -2383,6 +2521,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195511-fat072-taron-trekka-black-magic-ep-2026-re-release/"
     }
   },
   {
@@ -2412,6 +2553,9 @@
       "source": 8,
       "multi": 0,
       "niche": 2
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/191904-wv9008-andu-simion-crucial-sonus-ep/"
     }
   },
   {
@@ -2542,6 +2686,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193175-drlp03-rotor-militia-exit-human/"
     }
   },
   {
@@ -2882,6 +3029,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/192984-mfm082-inrain-rise/"
     }
   },
   {
@@ -3605,6 +3755,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/mytron-propeller-vinyl/1134454-01/"
     }
   },
   {
@@ -3637,6 +3790,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/nala-sinephro-space-1-8-vinyl/842591-01/"
     }
   },
   {
@@ -3874,6 +4030,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/177807-snf126-dukwa-work-life-money-romance-ep/"
     }
   },
   {
@@ -3903,6 +4062,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193292-so005-lb-honne-guardwatcher-pt-i/"
     }
   },
   {
@@ -4610,6 +4772,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/silat-beksi-curandero-ep-vinyl/881390-01/"
     }
   },
   {
@@ -4673,6 +4838,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195515-toyt198-kymono-kymonosound-lp/"
     }
   },
   {
@@ -4702,6 +4870,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/185765-cray-09-mark-ambrose-serious-cut-star-system-ep/"
     }
   },
   {
@@ -4731,6 +4902,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193208-psgg006-igaxx-gropina-the-perception/"
     }
   },
   {
@@ -5240,6 +5414,9 @@
       "source": 8,
       "multi": 0,
       "niche": 2
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/190941-lgf020-da-lukas-re-disco-vol-1/"
     }
   },
   {
@@ -5269,6 +5446,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195467-usr039-adsr-incidents/"
     }
   },
   {
@@ -5298,6 +5478,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195465-ndatl043-ben-hixon-vision-ep/"
     }
   },
   {
@@ -5327,6 +5510,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193400-islelp019-alek-lee-blue-bird/"
     }
   },
   {
@@ -5356,6 +5542,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193144-nuns076v-coyote-the-higher-the-sky-the-deeper-the-ocean/"
     }
   },
   {
@@ -5554,6 +5743,39 @@
       "source": 8,
       "multi": 6,
       "niche": 0
+    }
+  },
+  {
+    "id": "04017004",
+    "title": "Far Flung (LP)",
+    "artist": "Pete HERBERT",
+    "album": "Far Flung (LP)",
+    "label": "Music For Swimming Pools",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-21",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/193385-mfsp-011-pete-herbert-far-flung-lp/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MFSP-011",
+    "format": "",
+    "quality_score": 34,
+    "_score_breakdown": {
+      "total": 34,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193385-mfsp-011-pete-herbert-far-flung-lp/",
+      "juno": "https://www.juno.co.uk/products/pete-herbert-far-flung-vinyl/1144207-01/"
     }
   },
   {
@@ -5931,6 +6153,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/181426-is001-flash-fm-hdv-sweely-man-ipulate-i-dispettosi/"
     }
   },
   {
@@ -5960,6 +6185,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195514-sc012-pdqb-direct-hits-[with-two-roman-flügel-remixes]/"
     }
   },
   {
@@ -5989,6 +6217,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195470-eclipser19-daniel-paul-stenger-alessandroni-disco-berlin-vinyl-2/"
     }
   },
   {
@@ -6018,6 +6249,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195491-is002-p-o-dusk-of-an-age/"
     }
   },
   {
@@ -6047,6 +6281,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195487-mlkl033-ikari-ruiz-osc1-lucass-p-genex-and-decadance-the-lawnmower-ep/"
     }
   },
   {
@@ -6076,6 +6313,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195477-bp087-oliver-ho-our-secret-religion/"
     }
   },
   {
@@ -6105,6 +6345,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195486-mlkl036-random-order-automatic-responser-ep/"
     }
   },
   {
@@ -6169,6 +6412,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195518-em1223lp-jeff-bruner-four-corners/"
     }
   },
   {
@@ -6198,6 +6444,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195507-pe051-spalarnia-tajemnica/"
     }
   },
   {
@@ -6227,6 +6476,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195424-evighet006-healing-force-project-unholy-magnetic/"
     }
   },
   {
@@ -6256,6 +6508,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195452-nplp002-niklas-paschburg-lècho-de-bretagne/"
     }
   },
   {
@@ -6285,6 +6540,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193373-c4g10-rebecca-goldberg-a-trip-to-the-moon/"
     }
   },
   {
@@ -6314,6 +6572,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193337-strlp-115-sergeant-symbols/"
     }
   },
   {
@@ -6343,6 +6604,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193294-akulp1057-akchamel-spiritually-unemployed/"
     }
   },
   {
@@ -6372,35 +6636,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
-  },
-  {
-    "id": "04017004",
-    "title": "Far Flung (LP)",
-    "artist": "Pete HERBERT",
-    "album": "Far Flung (LP)",
-    "label": "Music For Swimming Pools",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-03-21",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/193385-mfsp-011-pete-herbert-far-flung-lp/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "MFSP-011",
-    "format": "",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193265-fjlp-08-master-mind-odyssey-2lp/"
     }
   },
   {
@@ -6430,6 +6668,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193310-erc157-vox-populi!-in-dub/"
     }
   },
   {
@@ -6459,6 +6700,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193224-lysk007-bror-havnes-de-som-vet/"
     }
   },
   {
@@ -6488,6 +6732,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193246-mh001lp-maston-and-greg-foat-moving-images/"
     }
   },
   {
@@ -6517,6 +6764,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193206-woe027lp-tara-clerkin-trio-somewhere-good/"
     }
   },
   {
@@ -6546,6 +6796,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/183571-forlp009-various-artists-small-talk/"
     }
   },
   {
@@ -6575,6 +6828,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/192978-am032-devon-rexi-meets-john-t-gast-breathstep-lp/"
     }
   },
   {
@@ -6672,6 +6928,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/191859-xy9-04-dj-merci-orbit-ep-incl-glenn-underground-remix/"
     }
   },
   {
@@ -6701,6 +6960,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195498-diceless05-delwyn-codec-ep/"
     }
   },
   {
@@ -12177,38 +12439,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
-  },
-  {
-    "id": "0a2bff86",
-    "title": "Far Flung",
-    "artist": "Pete Herbert",
-    "album": "Far Flung",
-    "label": "Music For Swimming Pools",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-03-21",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/pete-herbert-far-flung-vinyl/1144207-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "discogs_year": 2022,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/hate-love-trio-vinyl/1130473-01/"
     }
   },
   {
@@ -12241,6 +12474,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/onegram-trans-europe-express-vinyl/967647-01/"
     }
   },
   {
@@ -12272,6 +12508,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/damaged-bug-zuzax-vinyl/1137604-01/"
     }
   },
   {
@@ -12304,6 +12543,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/blackhill-transmitter-vinyl/604972-01/"
     }
   },
   {
@@ -12335,6 +12577,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/mai-mai-mai-karakoz-vinyl/1133767-01/"
     }
   },
   {
@@ -12366,6 +12611,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/dryft-particle-vinyl/1134687-01/"
     }
   },
   {
@@ -12564,6 +12812,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195512-ldm011-dj-laxxiste-a-promo-use-only-lp/"
     }
   },
   {
@@ -12593,6 +12844,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195517-dcas008-tony-soprano-band-downtempo-1/"
     }
   },
   {
@@ -12622,6 +12876,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195492-atbd001-artürst-toke-ghost-signal-theory/"
     }
   },
   {
@@ -12651,6 +12908,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195485-cusde010-dj-peper-buenosayres-3am/"
     }
   },
   {
@@ -12680,6 +12940,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195468-arepas003-erwin-iberian-cuts/"
     }
   },
   {
@@ -12709,6 +12972,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/188735-pap-001-groove-p-the-shapeshifters-lost-in-pap-wax-01/"
     }
   },
   {
@@ -12738,6 +13004,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/189099-wsv-002-julian-sanza-lafrench-toast-seven-days-and-one-week/"
     }
   },
   {
@@ -12767,6 +13036,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195472-da007-massiel-nicolas-barnes-echoform/"
     }
   },
   {
@@ -12796,6 +13068,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195474-utrowax001-peter-zherebtsov-vid-herck-hive-minded-ep/"
     }
   },
   {
@@ -12825,6 +13100,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195490-wh002-red-orbit-va/"
     }
   },
   {
@@ -12854,6 +13132,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/187834-nfrv-015-saison-yuichi-inoue-piem-local-options-nfrv-015/"
     }
   },
   {
@@ -12883,6 +13164,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195513-msk16-cuddling-monsters-cuddling-monsters-vol-3/"
     }
   },
   {
@@ -12912,6 +13196,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195506-krxn050-various-artists-radar-keroxen-vol-6/"
     }
   },
   {
@@ -12941,6 +13228,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195489-rdkn04-arnic-echoes-of-tomorrow-ep/"
     }
   },
   {
@@ -12970,6 +13260,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195471-dnd008-cecilia-tosh-bjarki-secrets/"
     }
   },
   {
@@ -12999,6 +13292,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195484-net23-ep11-crystal-distortion-and-69db-net23-ep11-r-zac-1995-1998-[colored-vinyl]/"
     }
   },
   {
@@ -13028,6 +13324,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195497-net23-ep12-crystal-distortion-and-69db-net23-ep12-r-zac-1995-1999-[colored-vinyl]/"
     }
   },
   {
@@ -13057,6 +13356,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195458-rgtt01-cut-rigetto-01/"
     }
   },
   {
@@ -13086,6 +13388,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195499-rwr005-dying-in-beauty-hellphaser-ep/"
     }
   },
   {
@@ -13115,6 +13420,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195501-aqr028-eusebeia-critical-impact-ep/"
     }
   },
   {
@@ -13144,6 +13452,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195473-aaa001va-linear-system-hugo-rolan-translate-ben-behrendt-analogue-audio-archive-001/"
     }
   },
   {
@@ -13173,6 +13484,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195496-ph007-phara-emx-series-pt-iii/"
     }
   },
   {
@@ -13202,6 +13516,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195463-sk11x037-phil-berg-iso/"
     }
   },
   {
@@ -16324,6 +16641,43 @@
     "discogs_year_checked": true
   },
   {
+    "id": "912ce6f1",
+    "title": "Tendrils",
+    "artist": "Yraki",
+    "album": "Tendrils",
+    "label": "Goodness",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [
+      "Techno / House"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/tendrils-4e71ccd8-88d2-40fd-8fc1-abbafc3a1a11",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "GOOD002",
+    "format": "Single",
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 10,
+      "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/tendrils-4e71ccd8-88d2-40fd-8fc1-abbafc3a1a11",
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/192933-good002-yraki-tendrils/",
+      "juno": "https://www.juno.co.uk/products/yraki-tendrils-vinyl/1142272-01/"
+    },
+    "date_verified": false,
+    "discogs_year_checked": true
+  },
+  {
     "id": "8b67af78",
     "title": "Any Time / Soul Groove 7\"",
     "artist": "Corrado Alunni",
@@ -16763,42 +17117,6 @@
       "source": 8,
       "multi": 6,
       "niche": 0
-    },
-    "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "912ce6f1",
-    "title": "Tendrils",
-    "artist": "Yraki",
-    "album": "Tendrils",
-    "label": "Goodness",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-20",
-    "re": false,
-    "styles": [
-      "Techno / House"
-    ],
-    "source": "boomkat",
-    "source_url": "https://boomkat.com/products/tendrils-4e71ccd8-88d2-40fd-8fc1-abbafc3a1a11",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "GOOD002",
-    "format": "Single",
-    "quality_score": 24,
-    "_score_breakdown": {
-      "total": 24,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "boomkat": "https://boomkat.com/products/tendrils-4e71ccd8-88d2-40fd-8fc1-abbafc3a1a11",
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/192933-good002-yraki-tendrils/"
     },
     "date_verified": false,
     "discogs_year_checked": true
@@ -72369,6 +72687,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36840697-Nat-King-Cole-Greatest-Hits"
     }
   },
   {
@@ -91081,6 +91402,9 @@
       "source": 8,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36725488-Daft-Punk-Around-The-World"
     }
   },
   {
