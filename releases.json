@@ -2343,6 +2343,37 @@
     }
   },
   {
+    "id": "76d8885e",
+    "title": "Tell Me",
+    "artist": "Garruto",
+    "album": "Tell Me",
+    "label": "Hive Label",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14418826/tell-me-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "454d7961",
     "title": "The Neural Abyss EP",
     "artist": "Jin Synth & Marco Maldarella",
@@ -2841,6 +2872,37 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14392394/my-hood-extended-mix"
+    }
+  },
+  {
+    "id": "2e7e7ed5",
+    "title": "Like This",
+    "artist": "Dave Kurtis",
+    "album": "Like This",
+    "label": "Soulful Evolution",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14392279/like-this-extended-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 7,
+    "_score_breakdown": {
+      "total": 7,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -5509,6 +5571,43 @@
     }
   },
   {
+    "id": "067512d5",
+    "title": "BULLY",
+    "artist": "Ye",
+    "album": "BULLY",
+    "label": "gamma.",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Hip-Hop",
+      "Beats",
+      "DJ Mix"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/213995-ye-bully",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "norman": "https://www.normanrecords.com/records/213995-ye-bully",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/bully"
+    }
+  },
+  {
     "id": "86b3f95d",
     "title": "Draümar",
     "artist": "Various",
@@ -5715,6 +5814,40 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
+    "discogs_year_checked": true
+  },
+  {
+    "id": "0d7d7862",
+    "title": "Goes Without Saying (W/ Eversines Remix)",
+    "artist": "A.Wild",
+    "album": "Goes Without Saying (W/ Eversines Remix)",
+    "label": "Club Bianco",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-27",
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/192481-cbr004-a-wild-goes-without-saying-w-eversines-remix/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CBR004",
+    "format": "",
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/192481-cbr004-a-wild-goes-without-saying-w-eversines-remix/",
+      "clone": "https://clone.nl/item82584.html"
+    },
+    "date_verified": false,
     "discogs_year_checked": true
   },
   {
@@ -6647,42 +6780,6 @@
     }
   },
   {
-    "id": "067512d5",
-    "title": "BULLY",
-    "artist": "Ye",
-    "album": "BULLY",
-    "label": "gamma.",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Hip-Hop",
-      "Beats",
-      "DJ Mix"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/213995-ye-bully",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "quality_score": 22,
-    "_score_breakdown": {
-      "total": 22,
-      "label": 15,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/213995-ye-bully"
-    }
-  },
-  {
     "id": "0b54c9f3",
     "title": "Blinking As The Starlight Burns Out",
     "artist": "Paula Kelley",
@@ -7035,39 +7132,6 @@
     "discogs_year_checked": true
   },
   {
-    "id": "0d7d7862",
-    "title": "Goes Without Saying (W/ Eversines Remix)",
-    "artist": "A.Wild",
-    "album": "Goes Without Saying (W/ Eversines Remix)",
-    "label": "Club Bianco",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-27",
-    "re": false,
-    "styles": [],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/192481-cbr004-a-wild-goes-without-saying-w-eversines-remix/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "CBR004",
-    "format": "",
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/192481-cbr004-a-wild-goes-without-saying-w-eversines-remix/"
-    },
-    "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
     "id": "3b723c4f",
     "title": "Four Times More EP",
     "artist": "FAFF",
@@ -7340,6 +7404,42 @@
       "source": 2,
       "multi": 6,
       "niche": 0
+    }
+  },
+  {
+    "id": "b497344b",
+    "title": "Colour Space Transform",
+    "artist": "Group A.D.",
+    "album": "Colour Space Transform",
+    "label": "Punishment Park",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Indie Rock",
+      "Alternative Rock"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/213624-group-a-d-colour-space-transform",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "EP",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "norman": "https://www.normanrecords.com/records/213624-group-a-d-colour-space-transform",
+      "juno": "https://www.juno.co.uk/products/group-ad-colour-space-transform-vinyl/1133640-01/"
     }
   },
   {
@@ -7836,41 +7936,6 @@
     },
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/213553-cult-of-dom-keller-unholy-drum"
-    }
-  },
-  {
-    "id": "b497344b",
-    "title": "Colour Space Transform",
-    "artist": "Group A.D.",
-    "album": "Colour Space Transform",
-    "label": "Punishment Park",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Indie Rock",
-      "Alternative Rock"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/213624-group-a-d-colour-space-transform",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "EP",
-    "quality_score": 7,
-    "_score_breakdown": {
-      "total": 7,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/213624-group-a-d-colour-space-transform"
     }
   },
   {
@@ -8759,6 +8824,36 @@
     }
   },
   {
+    "id": "cb6bc410",
+    "title": "Liquid",
+    "artist": "Opal Sunn",
+    "album": "Liquid",
+    "label": "Test Pressing Recordings",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/opal-sunn-liquid-vinyl/1135796-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 65,
+    "_score_breakdown": {
+      "total": 65,
+      "label": 15,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 4
+    }
+  },
+  {
     "id": "85f939b1",
     "title": "IFANAME",
     "artist": "Various",
@@ -9107,6 +9202,36 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/beat-spacek-modern-streets-vinyl/554643-01/"
+    }
+  },
+  {
+    "id": "ff118a26",
+    "title": "Fabric Presents Helena Hauff",
+    "artist": "Helena Hauff/Various",
+    "album": "Fabric Presents Helena Hauff",
+    "label": "Fabric",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/helena-hauff-fabric-presents-helena-hauff-vinyl/964175-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year_checked": true,
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -9487,6 +9612,38 @@
     }
   },
   {
+    "id": "f83a0f34",
+    "title": "The Shovel Is A Shovel Was A Shovel",
+    "artist": "Will Hofbauer",
+    "album": "The Shovel Is A Shovel Was A Shovel",
+    "label": "Wisdom Teeth",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/will-hofbauer-the-shovel-is-a-shovel-was-vinyl/939631-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 51,
+    "_score_breakdown": {
+      "total": 51,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "b7343859",
     "title": "Unreleased Osaka Dub Plate [stamped]",
     "artist": "Mr. G",
@@ -9712,6 +9869,36 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/virtual-dreams-ambient-explorations-in-the-house-vinyl/796560-01/"
+    }
+  },
+  {
+    "id": "6ec4cb82",
+    "title": "Virtual Dreams II: Ambient Explorations In The House & Techno Age Japan 1993-1999",
+    "artist": "Various",
+    "album": "Virtual Dreams II: Ambient Explorations In The House & Techno Age Japan 1993-1999",
+    "label": "Music From Memory Holland",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/virtual-dreams-ii-ambient-explorations-in-the-cd/1039826-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year_checked": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -10451,6 +10638,36 @@
     }
   },
   {
+    "id": "68ed6419",
+    "title": "FROM THE ARCHIVE VOL. 3... COMPILED BY VOLCOV",
+    "artist": "VARIOUS ARTISTS",
+    "album": "FROM THE ARCHIVE VOL. 3... COMPILED BY VOLCOV",
+    "label": "BBE",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/archive-vol-3-compiled-volcov",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year_checked": true,
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "8feab0a0",
     "title": "En Mi Piel",
     "artist": "FulaJazz",
@@ -10720,6 +10937,37 @@
       "genre": 10,
       "source": 2,
       "multi": 6,
+      "niche": 0
+    }
+  },
+  {
+    "id": "83ddbb61",
+    "title": "DISCO GOSPEL VOL 2",
+    "artist": "SADAR BAHAR & MARC DAVIS",
+    "album": "DISCO GOSPEL VOL 2",
+    "label": "MR BONGO",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/disco-gospel-vol-2",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 20,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
       "niche": 0
     }
   },
@@ -12630,6 +12878,131 @@
     }
   },
   {
+    "id": "b8858047",
+    "title": "Teddy Bear's Honey",
+    "artist": "Andrea Ferlin/Fabrizio Siano/Dragosh/Enivrez Vous/Clock Poets/Veruh/Moma",
+    "album": "Teddy Bear's Honey",
+    "label": "Teddy Bear",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/andrea-ferlin-fabrizio-siano-dragosh-teddy-bears-honey-vinyl/1129448-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "175cf1d0",
+    "title": "Themes For Dreams",
+    "artist": "Resavoir",
+    "album": "Themes For Dreams",
+    "label": "L'Univers US",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/resavoir-themes-for-dreams-vinyl/1139978-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b09b8609",
+    "title": "Segue To Infinity",
+    "artist": "Laraaji",
+    "album": "Segue To Infinity",
+    "label": "Numero Group US",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/laraaji-segue-to-infinity-vinyl/913400-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "04f7252b",
+    "title": "The Now Generation: Percussive Underscores",
+    "artist": "Peter Ludemann/Pit Troja",
+    "album": "The Now Generation: Percussive Underscores",
+    "label": "Be With",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/peter-ludemann-pit-the-now-generation-percussive-underscores-vinyl/755131-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 1983,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "cbea930c",
     "title": "Samba Do Amor",
     "artist": "Ivan Guerra",
@@ -12870,6 +13243,68 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Various+Artists"
+    }
+  },
+  {
+    "id": "d66a7f42",
+    "title": "If I Was Your Woman",
+    "artist": "Stacy Kidd, Tiffany Jenkins",
+    "album": "If I Was Your Woman",
+    "label": "House 4 Life",
+    "genre": "Soulful House",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Soulful House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14154513/if-i-was-your-woman-main-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "f74cccf9",
+    "title": "Fallin (Remix)",
+    "artist": "Stacy Kidd, Tiffany Jenkins",
+    "album": "Fallin (Remix)",
+    "label": "House 4 Life",
+    "genre": "Soulful House",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Soulful House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/13978899/fallin-remix-main-remix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -14170,6 +14605,37 @@
     }
   },
   {
+    "id": "d690b535",
+    "title": "Zone Zone",
+    "artist": "Bill Converse",
+    "album": "Zone Zone",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82439.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FRS036",
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "3aceafe0",
     "title": "Creature of Habit",
     "artist": "Courtney Barnett",
@@ -14415,6 +14881,38 @@
       "genre": 5,
       "source": 2,
       "multi": 6,
+      "niche": 0
+    }
+  },
+  {
+    "id": "e69cb5dd",
+    "title": "EVENT  BEAT",
+    "artist": "HOLY FUCK",
+    "album": "EVENT  BEAT",
+    "label": "SATELLITE SERVICES",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/event-beat",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2014,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
       "niche": 0
     }
   },
@@ -17647,6 +18145,37 @@
     }
   },
   {
+    "id": "79931c0a",
+    "title": "Valentino Mon Amour",
+    "artist": "Alan Ross",
+    "album": "Valentino Mon Amour",
+    "label": "ZYX Music",
+    "genre": "Italo Disco",
+    "duration": "",
+    "date": "2026-03-24",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Italo-Disco"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36876502-Alan-Ross-Valentino-Mon-Amour",
+    "discogs_url": "https://www.discogs.com/release/36876502-Alan-Ross-Valentino-Mon-Amour",
+    "bpm": null,
+    "catalog_number": "MAX 1202-12",
+    "format": "",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "068b0768",
     "title": "GENESYS(LTD. EDT. CLEAR VINYL 2LP, B-STOCK)",
     "artist": "Anyma",
@@ -18605,6 +19134,40 @@
     },
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/163409-father-john-misty-pure-comedy"
+    }
+  },
+  {
+    "id": "138fbf51",
+    "title": "Healing EP",
+    "artist": "Max Sinal",
+    "album": "Healing EP",
+    "label": "Soul Quest",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-24",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/max-sinal-healing-ep-vinyl/1144824-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 32,
+    "_score_breakdown": {
+      "total": 32,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/max-sinal-healing-ep-vinyl/1144824-01/",
+      "bandcamp": "https://soulquestrecords.bandcamp.com/album/healing-ep"
     }
   },
   {
@@ -20297,39 +20860,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/those-guys-tonite-vinyl/1144887-01/"
-    }
-  },
-  {
-    "id": "138fbf51",
-    "title": "Healing EP",
-    "artist": "Max Sinal",
-    "album": "Healing EP",
-    "label": "Soul Quest",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-24",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/max-sinal-healing-ep-vinyl/1144824-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "discogs_year_checked": true,
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/max-sinal-healing-ep-vinyl/1144824-01/"
     }
   },
   {
@@ -53971,6 +54501,37 @@
     "discogs_year_checked": true
   },
   {
+    "id": "9b97c611",
+    "title": "We Need To Dance",
+    "artist": "Roland Clark",
+    "album": "We Need To Dance",
+    "label": "Delete Records",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-03-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14366394/we-need-to-dance-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
     "id": "3d515eea",
     "title": "Fabric Presents Red Axes",
     "artist": "Red Axes",
@@ -54343,6 +54904,37 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14371547/love-song-deep-mix"
+    }
+  },
+  {
+    "id": "ced079b0",
+    "title": "Conquistadores Chocolates",
+    "artist": "Oscar P, Coolar",
+    "album": "Conquistadores Chocolates",
+    "label": "Open Bar Music",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-03-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14371550/conquistadores-chocolates-coolar-2026-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 47,
+    "_score_breakdown": {
+      "total": 47,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -61560,6 +62152,105 @@
     }
   },
   {
+    "id": "4a02a763",
+    "title": "MALI(LP)",
+    "artist": "Shy One",
+    "album": "MALI(LP)",
+    "label": "Touching Bass",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House",
+      "Essential Releases, March 13, 2026"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Shy+One",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TB020",
+    "format": "",
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Shy+One",
+      "bandcamp_daily": "https://shyone.bandcamp.com/album/mali",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/mali"
+    },
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 2,
+      "multi": 10,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b7e65f5a",
+    "title": "Zimele",
+    "artist": "Mandas, Magic Beatz, Pixie L",
+    "album": "Zimele",
+    "label": "DM.Recordings",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-03-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14398164/zimele",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "5de6a14c",
+    "title": "Se Siente Cubano",
+    "artist": "Dany Cohiba",
+    "album": "Se Siente Cubano",
+    "label": "Nothing But",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-03-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14483343/se-siente-cubano-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "6644263f",
     "title": "in filth your mystery is kingdom / far smile peasant in yellow music",
     "artist": "dagmar zuniga",
@@ -62502,42 +63193,6 @@
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Black+Eyes",
       "juno": "https://www.juno.co.uk/products/black-eyes-mystic-aquazone-ep-vinyl/1134617-01/"
-    },
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    }
-  },
-  {
-    "id": "4a02a763",
-    "title": "MALI(LP)",
-    "artist": "Shy One",
-    "album": "MALI(LP)",
-    "label": "Touching Bass",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-20",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "House",
-      "Essential Releases, March 13, 2026"
-    ],
-    "source": "decks",
-    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Shy+One",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "TB020",
-    "format": "",
-    "source_urls": {
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Shy+One",
-      "bandcamp_daily": "https://shyone.bandcamp.com/album/mali"
     },
     "quality_score": 18,
     "_score_breakdown": {
@@ -63917,6 +64572,37 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14426896/dress-code"
+    }
+  },
+  {
+    "id": "957367b9",
+    "title": "Disco Down",
+    "artist": "Garruto",
+    "album": "Disco Down",
+    "label": "CRMS Records",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-03-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14408310/disco-down-extended-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 7,
+    "_score_breakdown": {
+      "total": 7,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -66249,6 +66935,44 @@
     "discogs_year_checked": true
   },
   {
+    "id": "73c64d60",
+    "title": "Green Directions",
+    "artist": "Philip Chernikov",
+    "album": "Green Directions",
+    "label": "Down2Earth",
+    "genre": "Tech House",
+    "duration": "",
+    "date": "2026-03-19",
+    "re": false,
+    "styles": [
+      "house",
+      "tech house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88055/philip-chernikov/green-directions/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "D2E004",
+    "format": "12\"",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88055/philip-chernikov/green-directions/",
+      "clone": "https://clone.nl/item82533.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true
+  },
+  {
     "id": "5126bff8",
     "title": "Version 2",
     "artist": "Jovak",
@@ -67172,41 +67896,35 @@
     }
   },
   {
-    "id": "73c64d60",
-    "title": "Green Directions",
-    "artist": "Philip Chernikov",
-    "album": "Green Directions",
-    "label": "Down2Earth",
-    "genre": "Tech House",
+    "id": "52855dd8",
+    "title": "Mushroom Jazz",
+    "artist": "Carlo Caldareri, Alex Moiss",
+    "album": "Mushroom Jazz",
+    "label": "Mood Funk Records",
+    "genre": "Jackin House",
     "duration": "",
     "date": "2026-03-19",
+    "date_verified": true,
     "re": false,
     "styles": [
-      "house",
-      "tech house"
+      "Jackin House"
     ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/88055/philip-chernikov/green-directions/",
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14389041/mushroom-jazz-carlo-caldareri-remix",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": null,
-    "format": "12\"",
-    "quality_score": 20,
+    "format": "",
+    "quality_score": 22,
     "_score_breakdown": {
-      "total": 20,
-      "label": 0,
+      "total": 22,
+      "label": 15,
       "artist": 0,
-      "genre": 10,
-      "source": 10,
+      "genre": 5,
+      "source": 2,
       "multi": 0,
       "niche": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/88055/philip-chernikov/green-directions/"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
+    }
   },
   {
     "id": "f9b8d555",
@@ -77378,6 +78096,37 @@
     }
   },
   {
+    "id": "2bbc7948",
+    "title": "Really Need You",
+    "artist": "Filta Freqz",
+    "album": "Really Need You",
+    "label": "Flight Digital",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-03-16",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14458792/really-need-you-dub",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 7,
+    "_score_breakdown": {
+      "total": 7,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "2426bbc6",
     "title": "A Glimmer Of Hope EP",
     "artist": "Chris Stussy",
@@ -87505,6 +88254,37 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14398527/only-good-vibes"
+    }
+  },
+  {
+    "id": "ff9e86ce",
+    "title": "Givin' Up",
+    "artist": "LJ Simon Feat. Denice Brooks",
+    "album": "Givin' Up",
+    "label": "Red Motorbike",
+    "genre": "Broken Beat",
+    "duration": "",
+    "date": "2026-03-13",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "broken beat"
+    ],
+    "source": "piccadilly",
+    "source_url": "https://www.piccadillyrecords.com/165850/LJ-Simon-Feat-Denice-Brooks-Givin'-Up-Red-Motorbike",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BIKE026",
+    "format": "",
+    "quality_score": 30,
+    "_score_breakdown": {
+      "total": 30,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -101073,6 +101853,48 @@
     "discogs_year_checked": true
   },
   {
+    "id": "354ad0bc",
+    "title": "The Jazz Republic",
+    "artist": "Mike Huckaby",
+    "album": "The Jazz Republic",
+    "label": "Back To Life",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-10",
+    "re": true,
+    "styles": [
+      "deep house",
+      "house",
+      "disco",
+      "label catalog",
+      "detroit techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/83875/mike-huckaby/the-jazz-republic/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/83875/mike-huckaby/the-jazz-republic/",
+      "juno": "https://www.juno.co.uk/products/mike-huckaby-the-jazz-republic-repress-vinyl/1134030-01/"
+    },
+    "date_verified": false,
+    "discogs_year": 1997,
+    "is_restock": true,
+    "discogs_year_checked": true
+  },
+  {
     "id": "4ae982d6",
     "title": "The Relics EP",
     "artist": "Abacus",
@@ -102999,47 +103821,6 @@
       "hardwax": "https://hardwax.com/66646/population-one/i-program-my-computer-right-and-view-from-above/?focus=only_vinyl"
     },
     "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "354ad0bc",
-    "title": "The Jazz Republic",
-    "artist": "Mike Huckaby",
-    "album": "The Jazz Republic",
-    "label": "Back To Life",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-10",
-    "re": true,
-    "styles": [
-      "deep house",
-      "house",
-      "disco",
-      "label catalog",
-      "detroit techno"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/83875/mike-huckaby/the-jazz-republic/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "12\"",
-    "quality_score": 50,
-    "_score_breakdown": {
-      "total": 50,
-      "label": 0,
-      "artist": 20,
-      "genre": 20,
-      "source": 10,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/83875/mike-huckaby/the-jazz-republic/"
-    },
-    "date_verified": false,
-    "discogs_year": 1997,
-    "is_restock": true,
     "discogs_year_checked": true
   },
   {
@@ -123229,6 +124010,37 @@
     }
   },
   {
+    "id": "64c0b1b9",
+    "title": "Mi Alma",
+    "artist": "CLAVÉ (US), Isabel Gordillo",
+    "album": "Mi Alma",
+    "label": "Polyrhythm Music",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-03-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14346563/mi-alma-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "827abf07",
     "title": "The Black Hill, The Glass Sky",
     "artist": "Somewhere Press",
@@ -132849,6 +133661,37 @@
     }
   },
   {
+    "id": "a8a71a39",
+    "title": "Baiianaa",
+    "artist": "Lalo Leyy",
+    "album": "Baiianaa",
+    "label": "Savage Worldwide",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-02-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14325429/baiianaa-boingy-boingy-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "9f69e34b",
     "title": "Drache!",
     "artist": "MDNS",
@@ -133467,6 +134310,37 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14306540/easy"
+    }
+  },
+  {
+    "id": "65d15fd9",
+    "title": "Ekpere Oma",
+    "artist": "Jon Mavek, Morris Revy",
+    "album": "Ekpere Oma",
+    "label": "Arawakan",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-02-19",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14303230/ekpere-oma-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -138390,6 +139264,37 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14302600/its-all-gone-extended-mix"
+    }
+  },
+  {
+    "id": "fe72c8ec",
+    "title": "Raiz Brasileira",
+    "artist": "Sunnery James & Ryan Marciano, Bruno Martini, Carlinhos Brown, Bruna Magalhães",
+    "album": "Raiz Brasileira",
+    "label": "Armada Music",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-02-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14301205/raiz-brasileira-extended-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 47,
+    "_score_breakdown": {
+      "total": 47,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -146884,6 +147789,37 @@
     }
   },
   {
+    "id": "8f11a267",
+    "title": "Housey Back",
+    "artist": "Gianni Firmaio",
+    "album": "Housey Back",
+    "label": "VISYØN",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-01-23",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Minimal / Deep Tech"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14225790/housey-back-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "e601cd8f",
     "discogs_release_id": 36397306,
     "title": "Come Alive (2026 Mix)",
@@ -149618,6 +150554,37 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14218800/pump-up-the-volume-dan-fresco-remix"
+    }
+  },
+  {
+    "id": "36188aeb",
+    "title": "Burning Bright pt. II",
+    "artist": "Everything Is Art, ISIKO, Da Africa Deep",
+    "album": "Burning Bright pt. II",
+    "label": "Sondela Recordings LTD",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-01-16",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14209893/burning-bright-pt-ii-extended-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 30,
+    "_score_breakdown": {
+      "total": 30,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -154445,6 +155412,37 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14128688/as-far-as-i-know-afriki-soul-mix"
+    }
+  },
+  {
+    "id": "98ea0052",
+    "title": "CALI PACHANGUERO",
+    "artist": "Peppe Citarella, Andres Matheus",
+    "album": "CALI PACHANGUERO",
+    "label": "Union Records",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-01-02",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14220747/cali-pachanguero-extended-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 30,
+    "_score_breakdown": {
+      "total": 30,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -159960,6 +160958,37 @@
       "discogs": "https://www.discogs.com/release/36016483-Carl-Clarks-X-Tom-Franke-Children"
     },
     "date_verified": true
+  },
+  {
+    "id": "0ea6376b",
+    "title": "Viva Mexico",
+    "artist": "Sean Finn, Play!On",
+    "album": "Viva Mexico",
+    "label": "Mukoko Groove",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2025-12-19",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14159389/viva-mexico-extended-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "6f83fbb0",
@@ -206381,6 +207410,37 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/13849922/ring-the-alarm"
+    }
+  },
+  {
+    "id": "49dbc3ee",
+    "title": "Capoeira (feat. Jéssica Gaspar)",
+    "artist": "ARYMÉ, Antdot, Jéssica Gaspar",
+    "album": "Capoeira (feat. Jéssica Gaspar)",
+    "label": "Dawn Patrol Records",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2025-09-26",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/13906703/capoeira-feat-jessica-gaspar",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
