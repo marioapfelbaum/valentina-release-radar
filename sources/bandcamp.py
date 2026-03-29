@@ -49,6 +49,22 @@ KNOWN_LABEL_SLUGS = {
     "circus company": "circuscompany",
     "sacre": "sacrerecords",
     "nervmusic": "nervmusic",
+    # Manually verified slugs (labels that Bandcamp search can't find)
+    "lobster theremin": "lobstertheremin",
+    "shall not fade": "shallnotfade",
+    "hessle audio": "hessleaudio",
+    "mahogani music": "mahoganimusic",
+    "first word records": "firstwordrecords",
+    "r & s records": "randsrecords",
+    "toolroom records": "toolroom",
+    "nehuen records": "nehuen",
+    "artists from nowhere": "artistsfromnowhere",
+    "hyperdub": "hyperdub",
+    "brainfeeder": "brainfeeder",
+    "innervisions": "innervisionsmusic",
+    "ostgut ton": "ostgut",
+    "dekmantel": "dekmantel",
+    "tresor": "tresorberlin",
 }
 
 CACHE_FILE = "bandcamp_labels.json"
@@ -146,6 +162,14 @@ class BandcampFetcher(BaseSourceFetcher):
 
         # Fallback: look for band_id in page source
         match = re.search(r'"band_id"\s*:\s*(\d+)', html)
+        if match:
+            band_id = int(match.group(1))
+            self._band_ids[slug] = band_id
+            self._save_cached_data()
+            return band_id
+
+        # Fallback: data-band-id attribute (subscription/artist pages)
+        match = re.search(r'data-band-id="(\d+)"', html)
         if match:
             band_id = int(match.group(1))
             self._band_ids[slug] = band_id
