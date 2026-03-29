@@ -10,8 +10,8 @@ GENRE_MAP = {
     "minimal": "Minimal House",
     "minimal house": "Minimal House",
     "minimal techno": "Minimal Techno",
-    "micro house": "Microhouse",
-    "microhouse": "Microhouse",
+    "micro house": "Minimal House",
+    "microhouse": "Minimal House",
     "romanian minimal": "Rominimal",
     # House variants
     "deep house": "Deep House",
@@ -20,6 +20,8 @@ GENRE_MAP = {
     "future house": "Future House",
     "electro house": "Electro House",
     "afro house": "Afro House",
+    "afro / latin / brazilian": "Afro House",
+    "afro latin brazilian": "Afro House",
     "organic house": "Organic House",
     "bass house": "Bass House",
     "funky house": "Funky House",
@@ -39,6 +41,7 @@ GENRE_MAP = {
     "detroit techno": "Detroit Techno",
     "hypnotic": "Hypnotic Techno",
     "techno": "Techno",
+    "techhouse": "Tech House",
     # Mainstage / EDM
     "big room": "Mainstage",
     "mainstage": "Mainstage",
@@ -54,6 +57,7 @@ GENRE_MAP = {
     "breaks": "Breaks",
     "drum and bass": "Drum & Bass",
     "drum & bass": "Drum & Bass",
+    "drum n bass": "Drum & Bass",
     "jungle": "Drum & Bass",
     "dubstep": "Dubstep",
     "uk garage": "UK Garage",
@@ -133,6 +137,15 @@ _IGNORE_TAGS = {"label catalog", "merchandise", "compilation", "reissue",
                  "repress", "pop rock", "alternative rock", "art rock",
                  "chanson", "soundtrack", "holiday", "interview"}
 
+# Tag-level specificity overrides: when a tag is more generic than its
+# mapped UI genre, override here.  E.g. "minimal" alone is vague (3)
+# even though it maps to "Minimal House" (genre-level 5).
+_TAG_SPECIFICITY = {
+    "minimal": 3,
+    "house": 1,
+    "techno": 1,
+}
+
 # Genre specificity: higher = more specific, preferred over generic matches
 _GENRE_SPECIFICITY = {
     "Other": 0, "Electronic": 0,
@@ -142,7 +155,7 @@ _GENRE_SPECIFICITY = {
     "Deep House": 5, "Tech House": 5, "Detroit Techno": 5,
     "Dub Techno": 5, "Chicago House": 5, "Soulful House": 5,
     "Afro House": 5, "Funky House": 5, "Minimal House": 5,
-    "Minimal Techno": 5, "Microhouse": 5, "Rominimal": 5,
+    "Minimal Techno": 5, "Rominimal": 5,
     "Broken Beat": 5, "Jazz-Funk": 5, "Jazz House": 5,
     "UK Garage": 5, "Garage House": 5, "Acid": 5,
     "Downtempo": 5, "Trip Hop": 5, "Nu Jazz": 5,
@@ -162,12 +175,17 @@ def classify_genre(styles, genres=None):
     # Filter noise tags
     all_tags = [t for t in all_tags if t not in _IGNORE_TAGS]
 
-    # Collect ALL exact matches, pick the most specific one
+    # Collect ALL exact matches, pick the most specific one.
+    # Use tag-level specificity when available (e.g. "minimal" is vague
+    # even though it maps to the specific genre "Minimal House").
     matches = []
     for tag in all_tags:
         if tag in GENRE_MAP:
             genre = GENRE_MAP[tag]
-            specificity = _GENRE_SPECIFICITY.get(genre, 5)
+            if tag in _TAG_SPECIFICITY:
+                specificity = _TAG_SPECIFICITY[tag]
+            else:
+                specificity = _GENRE_SPECIFICITY.get(genre, 5)
             matches.append((specificity, genre))
 
     if matches:
@@ -184,7 +202,10 @@ def classify_genre(styles, genres=None):
                                tag.endswith(" " + key) or
                                " " + key + " " in tag or
                                tag == key):
-                specificity = _GENRE_SPECIFICITY.get(val, 5)
+                if key in _TAG_SPECIFICITY:
+                    specificity = _TAG_SPECIFICITY[key]
+                else:
+                    specificity = _GENRE_SPECIFICITY.get(val, 5)
                 partial.append((specificity, val))
         if partial:
             partial.sort(key=lambda x: x[0], reverse=True)

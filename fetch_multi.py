@@ -47,7 +47,7 @@ from sources.beatport import BeatportFetcher
 from sources.bandcamp import BandcampFetcher
 from sources.spotify_source import SpotifyFetcher
 from sources.discogs_source import DiscogsFetcher
-from sources.genre_map import BEATPORT_GENRE_MAP
+from sources.genre_map import BEATPORT_GENRE_MAP, classify_genre
 
 # Optional scrapers — import only when needed (require beautifulsoup4 / cloudscraper)
 def _import_hardwax():
@@ -479,6 +479,119 @@ def verify_release_dates(releases, discogs_token):
             continue
 
     print(f"  ✓ Checked {checked} releases, {restocks} marked as restocks")
+    return releases
+
+
+def enrich_styles_via_discogs(releases, discogs_token, max_enrich=100):
+    """Enrich releases that have no style tags via Discogs search.
+
+    Phase 7c: For releases with empty styles or genre "Other"/"Electronic",
+    look up the release on Discogs and copy style tags from there, then
+    re-classify the genre.
+
+    Args:
+        releases: list of release dicts
+        discogs_token: Discogs API token
+        max_enrich: max releases to enrich per run (default 100, ~2 min)
+
+    Returns:
+        modified releases list
+    """
+    import requests as req
+
+    # Find candidates: no styles OR genre is Other/Electronic, not already enriched
+    candidates = [
+        r for r in releases
+        if not r.get("style_enriched")
+        and (
+            not r.get("styles")
+            or r.get("genre", "") in ("Other", "Electronic", "")
+        )
+    ]
+
+    if not candidates:
+        print(f"\n▶ Phase 7c: Style Enrichment via Discogs")
+        print(f"  No candidates for style enrichment.")
+        return releases
+
+    # Prioritize by quality_score (higher = more relevant), then by source priority
+    candidates.sort(
+        key=lambda r: (r.get("quality_score", 0), SOURCE_PRIORITY.get(r.get("source", ""), 0)),
+        reverse=True
+    )
+
+    to_enrich = candidates[:max_enrich]
+
+    print(f"\n▶ Phase 7c: Style Enrichment via Discogs")
+    print(f"  Candidates: {len(candidates)} releases without styles/genre")
+    print(f"  Enriching:  {min(len(candidates), max_enrich)} (max {max_enrich}/run)")
+
+    headers = {"User-Agent": "ValentinaReleaseRadar/1.0"}
+    enriched = 0
+    reclassified = 0
+
+    for r in to_enrich:
+        if _shutdown:
+            break
+
+        artist = r.get("artist", "").strip()
+        title = r.get("title", "").strip()
+
+        # Skip releases without enough info to search
+        if not artist or not title or artist.lower() == "various":
+            r["style_enriched"] = True
+            continue
+
+        query = f"{artist} {title}"
+        try:
+            resp = req.get(
+                "https://api.discogs.com/database/search",
+                params={
+                    "q": query,
+                    "type": "release",
+                    "token": discogs_token,
+                    "per_page": 3,
+                },
+                headers=headers,
+                timeout=15,
+            )
+            time.sleep(1.0)  # Discogs rate limit: 1 req/sec
+
+            if resp.status_code == 200:
+                results = resp.json().get("results", [])
+                if results:
+                    discogs_styles = results[0].get("style", [])
+                    if discogs_styles:
+                        # Only fill empty styles, don't overwrite existing
+                        if not r.get("styles"):
+                            r["styles"] = discogs_styles
+                        else:
+                            # Merge: add new styles not already present
+                            existing_lower = {s.lower() for s in r["styles"]}
+                            for s in discogs_styles:
+                                if s.lower() not in existing_lower:
+                                    r["styles"].append(s)
+
+                        # Re-classify genre from enriched styles
+                        old_genre = r.get("genre", "Other")
+                        new_genre = classify_genre(r["styles"])
+                        if new_genre not in ("Other", "Electronic") and new_genre != old_genre:
+                            r["genre"] = new_genre
+                            reclassified += 1
+
+                        enriched += 1
+
+            r["style_enriched"] = True
+
+            if (enriched + 1) % 25 == 0:
+                print(f"    ... {enriched} enriched so far")
+
+        except Exception:
+            r["style_enriched"] = True
+            continue
+
+    print(f"  ✓ Enriched {enriched}/{len(to_enrich)} releases with Discogs styles")
+    print(f"  ✓ Reclassified {reclassified} releases to specific genres")
     return releases
 
 
@@ -981,6 +1094,15 @@ def run(args):
         else:
             print("  ⚠ DISCOGS_TOKEN not set, skipping date verification")
 
+        # Style enrichment via Discogs (Phase 7c)
+        if discogs_token and not getattr(args, 'no_enrich_styles', False):
+            final = enrich_styles_via_discogs(final, discogs_token,
+                                              max_enrich=getattr(args, 'enrich_limit', 100))
+        elif not discogs_token:
+            print("  ⚠ DISCOGS_TOKEN not set, skipping style enrichment")
+        else:
+            print("  ⏭ Style enrichment skipped (--no-enrich-styles)")
+
         # Quality scoring
         try:
             from quality_score import score_all_releases, print_score_summary
@@ -1009,6 +1131,10 @@ def main():
                         help="Limit pages/labels/artists (for testing)")
     parser.add_argument("--resume", action="store_true",
                         help="Resume from checkpoint")
+    parser.add_argument("--no-enrich-styles", action="store_true",
+                        help="Skip Phase 7c Discogs style enrichment")
+    parser.add_argument("--enrich-limit", type=int, default=100,
+                        help="Max releases to enrich per run (default: 100)")
     args = parser.parse_args()
     run(args)
 
