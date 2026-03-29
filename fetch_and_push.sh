@@ -30,8 +30,22 @@ set -a
 source .env
 set +a
 
+# Stash unstaged changes (e.g. network_data.json modified by running crawler) before pull
+STASHED=false
+if ! git diff --quiet 2>/dev/null; then
+    git stash push -q >> "$LOGFILE" 2>&1
+    STASHED=true
+    echo "[$(date -Iseconds)] Stashed unstaged changes before pull" >> "$LOGFILE"
+fi
+
 # Pull latest
 git pull --rebase >> "$LOGFILE" 2>&1
+
+# Restore stashed changes
+if [ "$STASHED" = true ]; then
+    git stash pop -q >> "$LOGFILE" 2>&1 || true
+    echo "[$(date -Iseconds)] Restored stashed changes" >> "$LOGFILE"
+fi
 
 # Fetch specified sources
 python3 fetch_multi.py --sources "$SOURCES" >> "$LOGFILE" 2>&1
@@ -41,7 +55,7 @@ git add releases.json last_checked.json bandcamp_labels.json network_data.json 2
 if ! git diff --cached --quiet; then
     git config user.name "valentina-bot"
     git config user.email "valentina-bot@hetzner"
-    git commit -m "chore: update releases [skip ci]" >> "$LOGFILE" 2>&1
+    git commit -m "chore: update releases" >> "$LOGFILE" 2>&1
     git push >> "$LOGFILE" 2>&1
     echo "[$(date -Iseconds)] Pushed new releases" >> "$LOGFILE"
 else
