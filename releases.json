@@ -5904,7 +5904,11 @@
       "source": 8,
       "multi": 0,
       "niche": 8
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Karizma_Cant_Call_!t_2x12_R2LP034-C_Vinyl__1188799"
+    },
+    "style_enriched": true
   },
   {
     "id": "21aa4947",
@@ -5934,7 +5938,11 @@
       "source": 6,
       "multi": 0,
       "niche": 2
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/voigtmann-life-miles-feat-liquid-earth-youandewan-remixes-vinyl/1082630-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "c48fabf6",
@@ -5942,12 +5950,16 @@
     "artist": "The Sabres Of Paradise",
     "album": "Haunted Dancehall (remastered)",
     "label": "Warp",
-    "genre": "Downtempo",
+    "genre": "Dub",
     "duration": "",
     "date": "2026-03-30",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Leftfield",
+      "Dub",
+      "Downtempo"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/the-sabres-of-paradise-haunted-dancehall-remastered-vinyl/1093215-01/",
     "discogs_url": "",
@@ -5957,16 +5969,20 @@
     "discogs_year": 2025,
     "is_restock": true,
     "discogs_year_checked": true,
-    "quality_score": 75,
+    "quality_score": 73,
     "_score_breakdown": {
-      "total": 75,
+      "total": 73,
       "label": 25,
       "artist": 20,
-      "genre": 20,
+      "genre": 18,
       "source": 6,
       "multi": 0,
       "niche": 4
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/the-sabres-of-paradise-haunted-dancehall-remastered-vinyl/1093215-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "0ee57487",
@@ -5996,7 +6012,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Various_Jacks_Tracks_Vol_6_JKH028_Vinyl__1212719"
+    },
+    "style_enriched": true
   },
   {
     "id": "9ac244b0",
@@ -6009,7 +6029,9 @@
     "date": "2026-03-30",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Berlin-School"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/tangerine-dream-place-des-arts-montreal-april-9th-vinyl/1117389-01/",
     "discogs_url": "",
@@ -6028,7 +6050,11 @@
       "source": 6,
       "multi": 0,
       "niche": 8
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/tangerine-dream-place-des-arts-montreal-april-9th-vinyl/1117389-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "cb27df67",
@@ -6041,7 +6067,9 @@
     "date": "2026-03-30",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Deep House"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/jimpster-the-phoenix-ep-vinyl/1069595-01/",
     "discogs_url": "",
@@ -6060,71 +6088,11 @@
       "source": 6,
       "multi": 0,
       "niche": 4
-    }
-  },
-  {
-    "id": "d61c8143",
-    "title": "Autobahn (reissue)",
-    "artist": "Kraftwerk",
-    "album": "Autobahn (reissue)",
-    "label": "Parlophone",
-    "genre": "Experimental",
-    "duration": "",
-    "date": "2026-03-30",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/kraftwerk-autobahn-vinyl/791170-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "discogs_year": 2009,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 50,
-    "_score_breakdown": {
-      "total": 50,
-      "label": 0,
-      "artist": 20,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 4
-    }
-  },
-  {
-    "id": "98f2d71c",
-    "title": "WORLD OF LOVE LP",
-    "artist": "CLUBLANDERS",
-    "album": "WORLD OF LOVE LP",
-    "label": "Insolent Tracks",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-03-30",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/CLUBLANDERS_WORLD_OF_LOVE_LP_INSMX108C_Vinyl__996342",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "INSMX108C",
-    "format": "Single",
-    "discogs_year": 2000,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 48,
-    "_score_breakdown": {
-      "total": 48,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/jimpster-the-phoenix-ep-vinyl/1069595-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "97926beb",
@@ -6288,6 +6256,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/cece-rogers-someday-vinyl/699643-01/"
     }
   },
   {
@@ -6320,6 +6291,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/archive-londinium-25th-anniversary-edition-vinyl/809436-01/"
     }
   },
   {
@@ -6350,6 +6324,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Sakro_Michael_James_Andrade_Bon_Vivant_Ltd_7_BONVIVANT007_Vinyl__1181371"
     }
   },
   {
@@ -6380,6 +6357,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Floorplan_Aka_Robert_Hood_Never_Grow_Old_Phobia_re-plants_MPM20_Vinyl__149758"
     }
   },
   {
@@ -6414,6 +6394,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/here-and-here"
     }
   },
   {
@@ -6445,6 +6428,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/chris-bangs-mick-talbot-smokin-aces-vinyl/1124094-01/"
     }
   },
   {
@@ -6475,7 +6461,50 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/ERP_Faded_Caprice_LP_2x12_APNEA109_Vinyl__1062035"
     }
+  },
+  {
+    "id": "d61c8143",
+    "title": "Autobahn (reissue)",
+    "artist": "Kraftwerk",
+    "album": "Autobahn (reissue)",
+    "label": "Parlophone",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2026-03-30",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electro",
+      "Synth-pop",
+      "Krautrock"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/kraftwerk-autobahn-vinyl/791170-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2009,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 30,
+    "_score_breakdown": {
+      "total": 30,
+      "label": 0,
+      "artist": 20,
+      "genre": 0,
+      "source": 6,
+      "multi": 0,
+      "niche": 4
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/kraftwerk-autobahn-vinyl/791170-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "e827950f",
@@ -6546,6 +6575,47 @@
     }
   },
   {
+    "id": "98f2d71c",
+    "title": "WORLD OF LOVE LP",
+    "artist": "CLUBLANDERS",
+    "album": "WORLD OF LOVE LP",
+    "label": "Insolent Tracks",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-03-30",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Euro House",
+      "Italodance",
+      "Trance",
+      "Hard Trance"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/CLUBLANDERS_WORLD_OF_LOVE_LP_INSMX108C_Vinyl__996342",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "INSMX108C",
+    "format": "Single",
+    "discogs_year": 2000,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 20,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/CLUBLANDERS_WORLD_OF_LOVE_LP_INSMX108C_Vinyl__996342"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "7fd3f5d4",
     "title": "W / The Artists",
     "artist": "Rhythm",
@@ -6575,6 +6645,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Rhythm_%26_Sound_W_The_Artists_BMLP2_Vinyl__106923"
     }
   },
   {
@@ -6607,6 +6680,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/bushwacka-house-sounds-vol-1-vinyl/966834-01/"
     }
   },
   {
@@ -6638,6 +6714,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/keith-seatman-counting-to-ten-then-back-again-vinyl/1133722-01/"
     }
   },
   {
@@ -6670,6 +6749,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/kevin-pearce-sci-fi-ballads-for-the-lost-vinyl/1011714-01/"
     }
   },
   {
@@ -6736,6 +6818,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/sands-of-time-8b5f677b-9cba-46cd-b5b0-40a651f2b106"
     }
   },
   {
@@ -6768,6 +6853,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Jack_Russell_Destination_Unknown_EP_WW001_Vinyl__1031465"
     }
   },
   {
@@ -13518,7 +13606,8 @@
     },
     "source_urls": {
       "bandcamp": "https://hotcreations.bandcamp.com/album/build-that-beat"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "f8748d74",
@@ -13550,7 +13639,8 @@
     },
     "source_urls": {
       "bandcamp": "https://thecirclemusicfamily.bandcamp.com/track/a-million-days"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "9a21d860",
@@ -27951,112 +28041,8 @@
     "source_urls": {
       "bandcamp": "https://kntxt.bandcamp.com/album/just-a-feeling-ep"
     },
-    "date_verified": true
-  },
-  {
-    "id": "48810900",
-    "title": "Holocene",
-    "artist": "Exterior",
-    "album": "Holocene",
-    "label": "Hobbes Music",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-03-26",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/exterior-holocene-vinyl/1146361-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "discogs_year": 2024,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/exterior-holocene-vinyl/1146361-01/"
-    }
-  },
-  {
-    "id": "e8a0186f",
-    "title": "1960 What? (reissue)",
-    "artist": "Gregory Porter",
-    "album": "1960 What? (reissue)",
-    "label": "Expansion",
-    "genre": "Leftfield",
-    "duration": "",
-    "date": "2026-03-26",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/gregory-porter-1960-what-vinyl/720411-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "discogs_year": 2012,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/gregory-porter-1960-what-vinyl/720411-01/"
-    }
-  },
-  {
-    "id": "6189c630",
-    "title": "The Black Post Society",
-    "artist": "Prurient",
-    "album": "The Black Post Society",
-    "label": "Cold Spring",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2026-03-26",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/prurient-the-black-post-society-cd/1139180-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "CD",
-    "discogs_year": 2008,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/prurient-the-black-post-society-cd/1139180-01/"
-    }
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "5ef2cc72",
@@ -28069,7 +28055,11 @@
     "date": "2026-03-26",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Darkwave",
+      "New Wave",
+      "Ambient"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/burial-hex-in-psychic-defense-cd/1139162-01/",
     "discogs_url": "",
@@ -28091,42 +28081,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/burial-hex-in-psychic-defense-cd/1139162-01/"
-    }
-  },
-  {
-    "id": "e6e90340",
-    "title": "All That Was Missing We Never Had In The World",
-    "artist": "Bleeding Heart Narrative",
-    "album": "All That Was Missing We Never Had In The World",
-    "label": "Cold Spring",
-    "genre": "Experimental",
-    "duration": "",
-    "date": "2026-03-26",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/bleeding-heart-narrative-all-that-was-missing-we-cd/1139161-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "CD",
-    "discogs_year": 2009,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
     },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/bleeding-heart-narrative-all-that-was-missing-we-cd/1139161-01/"
-    }
+    "style_enriched": true
   },
   {
     "id": "7a559fcc",
@@ -28159,7 +28115,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/bridges-towards-open-spaces-circadian-rhythms-1967-cd/1145895-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "a5fcb031",
@@ -28191,7 +28148,8 @@
     },
     "source_urls": {
       "bandcamp": "https://playedbywav.bandcamp.com/album/crihan-pe-sub-piele-srl-playedig009"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "6b436b51",
@@ -28223,7 +28181,8 @@
     },
     "source_urls": {
       "bandcamp": "https://suara.bandcamp.com/album/horizon-ep"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "f78463ed",
@@ -28255,7 +28214,8 @@
     },
     "source_urls": {
       "bandcamp": "https://profan1312.bandcamp.com/track/sangkar"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "c1540345",
@@ -28287,7 +28247,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/noog-artificial-kolor"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "0490a05a",
@@ -29043,6 +29004,45 @@
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195669-sp039lp-std-deaf-center-through-time-lp-printed-inner/"
     }
+  },
+  {
+    "id": "e8a0186f",
+    "title": "1960 What? (reissue)",
+    "artist": "Gregory Porter",
+    "album": "1960 What? (reissue)",
+    "label": "Expansion",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-26",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Soul-Jazz",
+      "House"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/gregory-porter-1960-what-vinyl/720411-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2012,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 20,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/gregory-porter-1960-what-vinyl/720411-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "711625c6",
@@ -30320,6 +30320,125 @@
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195648-ps09-scheermann-reikon-core-ep/"
     }
+  },
+  {
+    "id": "48810900",
+    "title": "Holocene",
+    "artist": "Exterior",
+    "album": "Holocene",
+    "label": "Hobbes Music",
+    "genre": "EBM",
+    "duration": "",
+    "date": "2026-03-26",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electro",
+      "EBM",
+      "Techno"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/exterior-holocene-vinyl/1146361-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2024,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 20,
+      "artist": 0,
+      "genre": 0,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/exterior-holocene-vinyl/1146361-01/"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "6189c630",
+    "title": "The Black Post Society",
+    "artist": "Prurient",
+    "album": "The Black Post Society",
+    "label": "Cold Spring",
+    "genre": "Noise",
+    "duration": "",
+    "date": "2026-03-26",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Noise",
+      "Power Electronics"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/prurient-the-black-post-society-cd/1139180-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2008,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 20,
+      "artist": 0,
+      "genre": 0,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/prurient-the-black-post-society-cd/1139180-01/"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "e6e90340",
+    "title": "All That Was Missing We Never Had In The World",
+    "artist": "Bleeding Heart Narrative",
+    "album": "All That Was Missing We Never Had In The World",
+    "label": "Cold Spring",
+    "genre": "Noise",
+    "duration": "",
+    "date": "2026-03-26",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Noise",
+      "Experimental",
+      "Ambient"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/bleeding-heart-narrative-all-that-was-missing-we-cd/1139161-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2009,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 20,
+      "artist": 0,
+      "genre": 0,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/bleeding-heart-narrative-all-that-was-missing-we-cd/1139161-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "3f6cb379",
@@ -35144,7 +35263,9 @@
     "date": "2026-03-25",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Deep House"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/frits-wentink-together-ep-vinyl/1045455-01/",
     "discogs_url": "",
@@ -35166,7 +35287,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/frits-wentink-together-ep-vinyl/1045455-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "15fbaf80",
@@ -35199,7 +35321,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/virtual-dreams-ambient-explorations-in-the-house-vinyl/796560-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "6ec4cb82",
@@ -35232,7 +35355,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/virtual-dreams-ii-ambient-explorations-in-the-cd/1039826-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "908fd2d5",
@@ -35264,7 +35388,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/caama-o-silver-brazalet"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "960e1603",
@@ -35296,7 +35421,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/jfernandez-contradicci-n-humana"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "80844140",
@@ -42340,7 +42466,9 @@
     "date": "2026-03-24",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Electro"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/matti-turunen-radau-vinyl/900878-01/",
     "discogs_url": "",
@@ -42362,7 +42490,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/matti-turunen-radau-vinyl/900878-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "a8d44ca3",
@@ -42395,7 +42524,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/pop-ambient-2026-cd/1120201-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "afbf8512",
@@ -42428,7 +42558,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/vadim-svoboda-kick-storm-vinyl/1144835-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "59f23694",
@@ -42441,7 +42572,10 @@
     "date": "2026-03-24",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Balearic",
+      "Downtempo"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/payfone-kyd-nereida-dime-algo-vinyl/1141675-01/",
     "discogs_url": "",
@@ -42461,7 +42595,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/payfone-kyd-nereida-dime-algo-vinyl/1141675-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "f574ac92",
@@ -42469,12 +42604,16 @@
     "artist": "Bjork",
     "album": "Vespertine",
     "label": "One Little Indian",
-    "genre": "Downtempo",
+    "genre": "Leftfield",
     "duration": "",
     "date": "2026-03-24",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Leftfield",
+      "Modern Classical",
+      "Experimental"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/bjork-vespertine-vinyl/80363-01/",
     "discogs_url": "",
@@ -42496,7 +42635,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/bjork-vespertine-vinyl/80363-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "4efaff20",
@@ -42528,39 +42668,8 @@
     },
     "source_urls": {
       "bandcamp": "https://skylaxrecords.bandcamp.com/album/skylax-dark-dancefloor-vol-2-10-12-skylax-vinyl-bundle-bandcamp-exclusive"
-    }
-  },
-  {
-    "id": "615c11a9",
-    "title": "Attraction (Marsh's Mix)",
-    "artist": "Marsh & Ferry Corsten",
-    "album": "Attraction (Marsh's Mix)",
-    "label": "Anjunadeep",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-24",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://anjunadeep.bandcamp.com/album/attraction-marsh-s-mix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
     },
-    "source_urls": {
-      "bandcamp": "https://anjunadeep.bandcamp.com/album/attraction-marsh-s-mix"
-    }
+    "style_enriched": true
   },
   {
     "id": "e9958632",
@@ -42592,7 +42701,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/roberto-piscitelli-door-of-sea"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "6e6f0274",
@@ -42624,7 +42734,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/lucii-fragile-violences-te0247"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "77257a7d",
@@ -42952,6 +43063,42 @@
       "multi": 6,
       "niche": 0
     }
+  },
+  {
+    "id": "615c11a9",
+    "title": "Attraction (Marsh's Mix)",
+    "artist": "Marsh & Ferry Corsten",
+    "album": "Attraction (Marsh's Mix)",
+    "label": "Anjunadeep",
+    "genre": "Progressive House",
+    "duration": "",
+    "date": "2026-03-24",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Progressive House",
+      "Progressive Trance"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://anjunadeep.bandcamp.com/album/attraction-marsh-s-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://anjunadeep.bandcamp.com/album/attraction-marsh-s-mix"
+    },
+    "style_enriched": true
   },
   {
     "id": "be2dc929",
@@ -53369,7 +53516,8 @@
     "source_urls": {
       "bandcamp": "https://solenoidrecords.bandcamp.com/album/plastik-clone"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "9dc9b07b",
@@ -53382,7 +53530,11 @@
     "date": "2026-03-23",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Cumbia",
+      "Salsa",
+      "Psychedelic"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/meridian-brothers-desesperanza-vinyl/466641-01/",
     "discogs_url": "",
@@ -53404,7 +53556,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/meridian-brothers-desesperanza-vinyl/466641-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "d243392d",
@@ -53437,7 +53590,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/luke-una-luke-una-presents-e-soul-cultura-vinyl/1133783-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "10b57117",
@@ -53470,7 +53624,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/citrus-sun-expansions-bluey-from-incognito-production-vinyl/866320-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "bb92942d",
@@ -53503,7 +53658,8 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/sascha-dive-my-definition-of-house-music-vol-vinyl/1124598-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "dc47f2ea",
@@ -53535,7 +53691,8 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "991d9735",
@@ -53567,7 +53724,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/malseine-arranjos"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "b3009d50",
@@ -62237,7 +62395,9 @@
     "date": "2026-03-22",
     "date_verified": true,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Indie Pop"
+    ],
     "source": "bandcamp",
     "source_url": "https://mixcult.bandcamp.com/album/tropes",
     "discogs_url": "",
@@ -62256,7 +62416,8 @@
     },
     "source_urls": {
       "bandcamp": "https://mixcult.bandcamp.com/album/tropes"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "d0cc31f4",
@@ -71997,7 +72158,8 @@
       "juno": "https://www.juno.co.uk/products/art-form-ii-vinyl/1133528-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "b5558a8e",
@@ -72030,7 +72192,8 @@
       "juno": "https://www.juno.co.uk/products/charlotte-reinhard-for-mellow-magic-worldwide-pt-2-vinyl/1036828-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "b5884da8",
@@ -72038,11 +72201,19 @@
     "artist": "Bjork",
     "album": "Post",
     "label": "One Little Indian",
-    "genre": "Downtempo",
+    "genre": "Trip Hop",
     "duration": "",
     "date": "2026-03-21",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Trip Hop",
+      "IDM",
+      "Leftfield",
+      "Downtempo",
+      "Big Beat",
+      "Big Band",
+      "Experimental"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/bjork-post-vinyl/564219-01/",
     "discogs_url": "",
@@ -72065,7 +72236,8 @@
     "date_verified": false,
     "discogs_year": 1995,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "34dc6854",
@@ -72098,7 +72270,8 @@
       "juno": "https://www.juno.co.uk/products/patronage-v-vinyl/1142955-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "ffd2b03f",
@@ -72106,11 +72279,13 @@
     "artist": "The Emperor Machine",
     "album": "Island Boogie",
     "label": "Leng",
-    "genre": "Downtempo",
+    "genre": "Electro",
     "duration": "",
     "date": "2026-03-21",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Electro"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/the-emperor-machine-island-boogie-vinyl/1031594-01/",
     "discogs_url": "",
@@ -72133,42 +72308,8 @@
     "date_verified": false,
     "discogs_year": 2024,
     "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "02e93fd5",
-    "title": "Sexual Healing",
-    "artist": "Marvin Gaye/Studio Rio",
-    "album": "Sexual Healing",
-    "label": "Mr Bongo",
-    "genre": "Leftfield",
-    "duration": "",
-    "date": "2026-03-21",
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/marvin-gaye-studio-rio-sexual-healing-vinyl/1115652-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/marvin-gaye-studio-rio-sexual-healing-vinyl/1115652-01/"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "2f7de885",
@@ -72201,7 +72342,8 @@
       "juno": "https://www.juno.co.uk/products/morality-a-broken-flag-compilation-remastered-cd/1129944-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "da0c2832",
@@ -72234,7 +72376,8 @@
       "juno": "https://www.juno.co.uk/products/mbc-004-vinyl/1144717-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "6dbf3086",
@@ -72242,11 +72385,16 @@
     "artist": "Bjork",
     "album": "Homogenic",
     "label": "One Little Indian",
-    "genre": "Experimental",
+    "genre": "Downtempo",
     "duration": "",
     "date": "2026-03-21",
     "re": false,
-    "styles": [],
+    "styles": [
+      "IDM",
+      "Leftfield",
+      "Ambient",
+      "Downtempo"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/bjork-homogenic-vinyl/19303-04/",
     "discogs_url": "",
@@ -72269,7 +72417,8 @@
     "date_verified": false,
     "discogs_year": 1997,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "ecfaad57",
@@ -72277,11 +72426,17 @@
     "artist": "Bjork",
     "album": "Volta",
     "label": "One Little Indian",
-    "genre": "Experimental",
+    "genre": "Leftfield",
     "duration": "",
     "date": "2026-03-21",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Leftfield",
+      "Tribal",
+      "Electro",
+      "Abstract",
+      "Ballad"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/bjork-volta-vinyl/703689-01/",
     "discogs_url": "",
@@ -72304,7 +72459,8 @@
     "date_verified": false,
     "discogs_year": 2015,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "3d3cb4fe",
@@ -72337,7 +72493,8 @@
       "juno": "https://www.juno.co.uk/products/sunday-mixtape-vinyl/604853-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "fe1e8907",
@@ -72370,7 +72527,8 @@
       "juno": "https://www.juno.co.uk/products/ibiza-chillout-tunes-2026-cd/1144947-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "50afbec9",
@@ -72403,7 +72561,8 @@
       "juno": "https://www.juno.co.uk/products/drum-bliss-vinyl/1144549-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "aeccc656",
@@ -72436,7 +72595,8 @@
       "juno": "https://www.juno.co.uk/products/coloray-dogma-vinyl/1144576-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "2e148dfd",
@@ -73552,6 +73712,46 @@
     "discogs_year": 2004,
     "is_restock": true,
     "discogs_year_checked": true
+  },
+  {
+    "id": "02e93fd5",
+    "title": "Sexual Healing",
+    "artist": "Marvin Gaye/Studio Rio",
+    "album": "Sexual Healing",
+    "label": "Mr Bongo",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2026-03-21",
+    "re": false,
+    "styles": [
+      "Samba",
+      "MPB",
+      "Soul"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/marvin-gaye-studio-rio-sexual-healing-vinyl/1115652-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 31,
+    "_score_breakdown": {
+      "total": 31,
+      "label": 20,
+      "artist": 0,
+      "genre": 5,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/marvin-gaye-studio-rio-sexual-healing-vinyl/1115652-01/"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "4333e674",
@@ -79564,6 +79764,43 @@
     "style_enriched": true
   },
   {
+    "id": "c53df2ff",
+    "title": "Smallville 73 - Lawrence - Poppies",
+    "artist": "smallville records",
+    "album": "Smallville 73 - Lawrence - Poppies",
+    "label": "Smallville",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [
+      "Minimal",
+      "Deep House",
+      "Ambient House"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://smallville-records.bandcamp.com/album/smallville-73-lawrence-poppies",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://smallville-records.bandcamp.com/album/smallville-73-lawrence-poppies"
+    },
+    "date_verified": true,
+    "style_enriched": true
+  },
+  {
     "id": "abfec95f",
     "title": "Seeing Is Forgetting",
     "artist": "Elori Saxl & Henry Solomon",
@@ -81097,7 +81334,8 @@
     "source_urls": {
       "bandcamp": "https://mulemusiq.bandcamp.com/track/everything-in-between"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "4d05b023",
@@ -81129,39 +81367,8 @@
     "source_urls": {
       "bandcamp": "https://mulemusiq.bandcamp.com/album/sketch-of-my-life"
     },
-    "date_verified": true
-  },
-  {
-    "id": "c53df2ff",
-    "title": "Smallville 73 - Lawrence - Poppies",
-    "artist": "smallville records",
-    "album": "Smallville 73 - Lawrence - Poppies",
-    "label": "Smallville",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-20",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://smallville-records.bandcamp.com/album/smallville-73-lawrence-poppies",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://smallville-records.bandcamp.com/album/smallville-73-lawrence-poppies"
-    },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "7f8a6d94",
@@ -81193,7 +81400,8 @@
     },
     "source_urls": {
       "bandcamp": "https://getphysicalmusic.bandcamp.com/album/nicon-janes-hype-is-not"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "3a98cf6a",
@@ -81225,7 +81433,8 @@
     },
     "source_urls": {
       "bandcamp": "https://compostrecords.bandcamp.com/track/where-the-sun"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "511d60a8",
@@ -81257,7 +81466,8 @@
     },
     "source_urls": {
       "bandcamp": "https://sonarkollektiv.bandcamp.com/album/lush-life-ep"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "f9a25e7f",
@@ -81289,7 +81499,8 @@
     },
     "source_urls": {
       "bandcamp": "https://nervousrecords.bandcamp.com/track/cigarette"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "37f391c2",
@@ -81321,7 +81532,8 @@
     },
     "source_urls": {
       "bandcamp": "https://nervousrecords.bandcamp.com/track/sb-ego"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "a992bf24",
@@ -81353,7 +81565,8 @@
     },
     "source_urls": {
       "bandcamp": "https://turborecordings.bandcamp.com/album/culpa-da-cacha-a"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "4d4f769b",
@@ -81385,7 +81598,8 @@
     },
     "source_urls": {
       "bandcamp": "https://robsoulrecordings.bandcamp.com/album/joss-moog-908-prodige"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "6769d4d2",
@@ -81417,7 +81631,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/obscur-inside-scoop-tobas004"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "93ca6358",
@@ -81449,7 +81664,8 @@
     },
     "source_urls": {
       "bandcamp": "https://staatsakt.bandcamp.com/album/bohnen-im-weltraum"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "6a509482",
@@ -81481,7 +81697,8 @@
     },
     "source_urls": {
       "bandcamp": "https://staatsakt.bandcamp.com/album/schichten"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "86e6a7b0",
@@ -81513,7 +81730,8 @@
     },
     "source_urls": {
       "bandcamp": "https://staatsakt.bandcamp.com/track/zeit-tommi-eckart-munich-mix"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "e4d73354",
@@ -81545,7 +81763,8 @@
     },
     "source_urls": {
       "bandcamp": "https://atipic.bandcamp.com/album/chasing-dopamine"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "59501340",
@@ -91592,6 +91811,42 @@
     "style_enriched": true
   },
   {
+    "id": "bf21074a",
+    "title": "Thunder",
+    "artist": "Fiorious & Deetron",
+    "album": "Thunder",
+    "label": "Permanent Vacation",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-19",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House",
+      "Deep House"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://perm-vac.bandcamp.com/album/thunder",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "source_urls": {
+      "bandcamp": "https://perm-vac.bandcamp.com/album/thunder"
+    },
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "style_enriched": true
+  },
+  {
     "id": "7a103668",
     "title": "909 Days",
     "artist": "Brian Kage",
@@ -92065,7 +92320,8 @@
     "source_urls": {
       "bandcamp": "https://playedbywav.bandcamp.com/album/ben-nevile-denis-korablev-cristi-klebleev-playedby020-6"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "f6b1afe0",
@@ -92098,7 +92354,8 @@
       "juno": "https://www.juno.co.uk/products/lady-jane-beach-binman-vinyl/1145169-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "0937088c",
@@ -92130,71 +92387,8 @@
     "source_urls": {
       "bandcamp": "https://skylaxrecords.bandcamp.com/album/skylax-house-club-tools-10-12-skylax-vinyl-bundle-bandcamp-exclusive"
     },
-    "date_verified": true
-  },
-  {
-    "id": "bf21074a",
-    "title": "Thunder",
-    "artist": "Fiorious & Deetron",
-    "album": "Thunder",
-    "label": "Permanent Vacation",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-19",
     "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://perm-vac.bandcamp.com/album/thunder",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "source_urls": {
-      "bandcamp": "https://perm-vac.bandcamp.com/album/thunder"
-    },
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    }
-  },
-  {
-    "id": "831bb2d8",
-    "title": "Groove Alliance 5",
-    "artist": "Various Artists",
-    "album": "Groove Alliance 5",
-    "label": "Suara",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-19",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://suara.bandcamp.com/album/groove-alliance-5",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://suara.bandcamp.com/album/groove-alliance-5"
-    }
+    "style_enriched": true
   },
   {
     "id": "56d13608",
@@ -92226,7 +92420,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/martin-stagnaro-n-ctar-y-ambros-a"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "ac8b1755",
@@ -92996,6 +93191,47 @@
     "discogs_year": 2025,
     "is_restock": true,
     "discogs_year_checked": true
+  },
+  {
+    "id": "831bb2d8",
+    "title": "Groove Alliance 5",
+    "artist": "Various Artists",
+    "album": "Groove Alliance 5",
+    "label": "Suara",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-03-19",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jumpstyle",
+      "Trance",
+      "Hard House",
+      "Hardstyle",
+      "Hard Trance",
+      "House",
+      "Hands Up"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://suara.bandcamp.com/album/groove-alliance-5",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 30,
+      "artist": 0,
+      "genre": 0,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://suara.bandcamp.com/album/groove-alliance-5"
+    },
+    "style_enriched": true
   },
   {
     "id": "913cd203",
@@ -97056,7 +97292,8 @@
     "source_urls": {
       "bandcamp": "https://playedbywav.bandcamp.com/album/soft-evidences-entry-7-soft07"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "3114e7c4",
@@ -97089,7 +97326,8 @@
       "juno": "https://www.juno.co.uk/products/superlongevity-six-vinyl/651606-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "bae50a2c",
@@ -97121,7 +97359,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/ella-wax-techno-x-klassik"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "9f8c4c7c",
@@ -97153,7 +97392,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/antechamber-antechamber"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "a885dcc0",
@@ -100609,39 +100849,8 @@
     "source_urls": {
       "bandcamp": "https://playedbywav.bandcamp.com/album/serosai-hall-of-mirrors-lp-outplay09d"
     },
-    "date_verified": true
-  },
-  {
-    "id": "292c8ee8",
-    "title": "A Smile With Scars",
-    "artist": "CRi & Romain Garcia",
-    "album": "A Smile With Scars",
-    "label": "Anjunadeep",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-17",
     "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://anjunadeep.bandcamp.com/album/a-smile-with-scars",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://anjunadeep.bandcamp.com/album/a-smile-with-scars"
-    }
+    "style_enriched": true
   },
   {
     "id": "18a1ba67",
@@ -100673,7 +100882,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/inhum-an-solstice-te0246"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "887299bb",
@@ -100705,7 +100915,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/moniman-synusite"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "8ff66658",
@@ -100739,6 +100950,41 @@
     },
     "date_verified": false,
     "discogs_year_checked": true
+  },
+  {
+    "id": "292c8ee8",
+    "title": "A Smile With Scars",
+    "artist": "CRi & Romain Garcia",
+    "album": "A Smile With Scars",
+    "label": "Anjunadeep",
+    "genre": "Progressive House",
+    "duration": "",
+    "date": "2026-03-17",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Progressive House"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://anjunadeep.bandcamp.com/album/a-smile-with-scars",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://anjunadeep.bandcamp.com/album/a-smile-with-scars"
+    },
+    "style_enriched": true
   },
   {
     "id": "ac1e0458",
@@ -102760,42 +103006,8 @@
       "juno": "https://www.juno.co.uk/products/miroloja-stepwise-motion-ep-vinyl/1144490-01/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "18599544",
-    "title": "African Kolors",
-    "artist": "Kwanzaa Posse",
-    "album": "African Kolors",
-    "label": "Undiscovered",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-16",
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/kwanzaa-posse-african-kolors-vinyl/1142993-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/kwanzaa-posse-african-kolors-vinyl/1142993-01/"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "48e8cdf3",
@@ -102827,7 +103039,8 @@
     "source_urls": {
       "bandcamp": "https://skylaxrecords.bandcamp.com/album/skylax-dark-dancefloor-10-12-skylax-vinyl-bundle-bandcamp-exclusive"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "acf68fc5",
@@ -102859,7 +103072,8 @@
     },
     "source_urls": {
       "bandcamp": "https://mixcult.bandcamp.com/album/breathe-deeply"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "a363565b",
@@ -102891,7 +103105,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/allan-elder-lektro-21st-incident"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "cb525b60",
@@ -102923,7 +103138,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/steddi-nexus"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "ffe3857b",
@@ -103404,6 +103620,44 @@
     },
     "date_verified": false,
     "discogs_year_checked": true
+  },
+  {
+    "id": "18599544",
+    "title": "African Kolors",
+    "artist": "Kwanzaa Posse",
+    "album": "African Kolors",
+    "label": "Undiscovered",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-16",
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/kwanzaa-posse-african-kolors-vinyl/1142993-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 20,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/kwanzaa-posse-african-kolors-vinyl/1142993-01/"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "6e2235c4",
@@ -105368,7 +105622,8 @@
     },
     "source_urls": {
       "bandcamp": "https://monofonicos.bandcamp.com/album/mnf-054-talweg-heads-toward-earth-ep"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "00bdcbb7",
@@ -106302,6 +106557,42 @@
     "style_enriched": true
   },
   {
+    "id": "927b020a",
+    "title": "Metri",
+    "artist": "Ø (Mika Vainio)",
+    "album": "Metri",
+    "label": "Sahko",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-14",
+    "re": false,
+    "styles": [
+      "Techno",
+      "Minimal"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://sahkorecordings.bandcamp.com/album/metri",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://sahkorecordings.bandcamp.com/album/metri"
+    },
+    "date_verified": true,
+    "style_enriched": true
+  },
+  {
     "id": "6bcdb686",
     "title": "Melloghettomental (Theo Parrish production)",
     "artist": "Billy Love",
@@ -106333,6 +106624,42 @@
     },
     "date_verified": false,
     "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
+    "id": "f2e7b7ff",
+    "title": "Original Lo-Fi",
+    "artist": "Rockers Hi-Fi",
+    "album": "Original Lo-Fi",
+    "label": "Studio !K7",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-03-14",
+    "re": false,
+    "styles": [
+      "Dub",
+      "Ambient"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://k7records.bandcamp.com/album/original-lo-fi",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "source_urls": {
+      "bandcamp": "https://k7records.bandcamp.com/album/original-lo-fi"
+    },
+    "quality_score": 54,
+    "_score_breakdown": {
+      "total": 54,
+      "label": 30,
+      "artist": 0,
+      "genre": 18,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "date_verified": true,
     "style_enriched": true
   },
   {
@@ -107041,38 +107368,6 @@
     "style_enriched": true
   },
   {
-    "id": "927b020a",
-    "title": "Metri",
-    "artist": "Ø (Mika Vainio)",
-    "album": "Metri",
-    "label": "Sahko",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-14",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://sahkorecordings.bandcamp.com/album/metri",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://sahkorecordings.bandcamp.com/album/metri"
-    },
-    "date_verified": true
-  },
-  {
     "id": "36a2a93a",
     "title": "Where Light Settles",
     "artist": "Jasmine Myra",
@@ -107102,7 +107397,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "cef03d6c",
@@ -107134,7 +107430,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "99667291",
@@ -107166,7 +107463,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "0edfc416",
@@ -107198,7 +107496,8 @@
     "source_urls": {
       "bandcamp": "https://artsrecordings.bandcamp.com/album/renovatio-ep"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "7e9e75d2",
@@ -107230,39 +107529,8 @@
     "source_urls": {
       "bandcamp": "https://artsrecordings.bandcamp.com/album/uzu-lp"
     },
-    "date_verified": true
-  },
-  {
-    "id": "f2e7b7ff",
-    "title": "Original Lo-Fi",
-    "artist": "Rockers Hi-Fi",
-    "album": "Original Lo-Fi",
-    "label": "Studio !K7",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-14",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://k7records.bandcamp.com/album/original-lo-fi",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "source_urls": {
-      "bandcamp": "https://k7records.bandcamp.com/album/original-lo-fi"
-    },
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "2fdd351f",
