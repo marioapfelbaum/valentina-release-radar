@@ -437,7 +437,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195685-hvalur46lp-francesco-fabris-displaces-green-and-black-splatter-vinyl/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "4a320711",
@@ -2113,6 +2114,43 @@
     "style_enriched": true
   },
   {
+    "id": "cd4049ff",
+    "title": "VA",
+    "artist": "DC4 Vol. 2",
+    "album": "VA",
+    "label": "Drumcode",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House",
+      "Deep House",
+      "Garage House"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/191849-dc337-dc4-vol-2-va/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DC337",
+    "format": "",
+    "quality_score": 53,
+    "_score_breakdown": {
+      "total": 53,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/191849-dc337-dc4-vol-2-va/"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "89a60653",
     "title": "Now Here We Go",
     "artist": "Demarkus Lewis",
@@ -2498,11 +2536,14 @@
     "artist": "Robert Lippok",
     "album": "Open Close Open",
     "label": "Morr Music",
-    "genre": "Experimental",
+    "genre": "Ambient",
     "duration": "",
     "date": "2026-04-03",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Abstract",
+      "Ambient"
+    ],
     "source": "redeye",
     "source_url": "https://www.redeyerecords.co.uk/vinyl/193257-morr202-ep-robert-lippok-open-close-open/",
     "discogs_url": "",
@@ -2525,7 +2566,8 @@
     "date_verified": false,
     "discogs_year": 2001,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "9e31caed",
@@ -2537,7 +2579,11 @@
     "duration": "",
     "date": "2026-04-03",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Balearic",
+      "Downtempo",
+      "Dub"
+    ],
     "source": "redeye",
     "source_url": "https://www.redeyerecords.co.uk/vinyl/192857-pf020-coyote-nyabinghi/",
     "discogs_url": "",
@@ -2558,39 +2604,8 @@
       "redeye": "https://www.redeyerecords.co.uk/vinyl/192857-pf020-coyote-nyabinghi/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "cd4049ff",
-    "title": "VA",
-    "artist": "DC4 Vol. 2",
-    "album": "VA",
-    "label": "Drumcode",
-    "genre": "Techno",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/191849-dc337-dc4-vol-2-va/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "DC337",
-    "format": "",
-    "quality_score": 43,
-    "_score_breakdown": {
-      "total": 43,
-      "label": 25,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/191849-dc337-dc4-vol-2-va/"
-    }
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "e01bed7f",
@@ -6900,12 +6915,15 @@
     "artist": "Boards Of Canada",
     "album": "The Campfire Headphase",
     "label": "Warp",
-    "genre": "Experimental",
+    "genre": "Downtempo",
     "duration": "",
     "date": "2026-03-31",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Downtempo",
+      "Ambient"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/boards-of-canada-the-campfire-headphase-vinyl/507854-01/",
     "discogs_url": "",
@@ -6924,7 +6942,11 @@
       "source": 6,
       "multi": 0,
       "niche": 4
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/boards-of-canada-the-campfire-headphase-vinyl/507854-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "8e0131aa",
@@ -6954,7 +6976,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/nagoyaka-na-kaze-quiet-wind-vinyl/1124144-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "6ae2bb6e",
@@ -6984,39 +7010,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
-  },
-  {
-    "id": "f10425bf",
-    "title": "Heat EP",
-    "artist": "Janeret",
-    "album": "Heat EP",
-    "label": "Rutilance",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-31",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/janeret-heat-ep-vinyl/585307-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "discogs_year": 2015,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 60,
-    "_score_breakdown": {
-      "total": 60,
-      "label": 0,
-      "artist": 30,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 4
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/verve-remixed-vinyl/1096949-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "ce134f2e",
@@ -7050,7 +7048,47 @@
       "source": 8,
       "multi": 6,
       "niche": 0
-    }
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "f10425bf",
+    "title": "Heat EP",
+    "artist": "Janeret",
+    "album": "Heat EP",
+    "label": "Rutilance",
+    "genre": "Drum & Bass",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "House",
+      "Drum n Bass"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/janeret-heat-ep-vinyl/585307-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2015,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 0,
+      "artist": 30,
+      "genre": 8,
+      "source": 6,
+      "multi": 0,
+      "niche": 4
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/janeret-heat-ep-vinyl/585307-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "a289118d",
@@ -7096,7 +7134,10 @@
     "date": "2026-03-31",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Experimental",
+      "Modern Classical"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/bjork-untold-lionsong-choral-mix-vinyl/582724-01/",
     "discogs_url": "",
@@ -7115,7 +7156,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/bjork-untold-lionsong-choral-mix-vinyl/582724-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "3c41de62",
@@ -7147,6 +7192,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/bborn-again-61005aab-13cc-432a-a0f6-31f72cec6d18"
     }
   },
   {
@@ -7179,6 +7227,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/patricia-wolf-see-through-vinyl/871793-01/"
     }
   },
   {
@@ -7214,6 +7265,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/womb-a13e498c-e53d-4277-9b4b-3a4aee277e56"
     }
   },
   {
@@ -7247,6 +7301,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/tabano"
     }
   },
   {
@@ -7279,6 +7336,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/nubya-garcia-source-vinyl/785025-01/"
     }
   },
   {
@@ -7311,6 +7371,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/hiroshi-yoshimura-flora-vinyl/1067475-01/"
     }
   },
   {
@@ -7343,6 +7406,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/plant43-silver-streams-vinyl/904451-01/"
     }
   },
   {
@@ -7375,6 +7441,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/merope-vejula-vinyl/1045143-01/"
     }
   },
   {
@@ -7409,6 +7478,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/necks-box"
     }
   },
   {
@@ -7443,6 +7515,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/rainy-days-1970-1974"
     }
   },
   {
@@ -7475,6 +7550,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/blood-is-on-your-hands"
     }
   },
   {
@@ -7507,6 +7585,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/rock-my-soul-all-alone-rock-my-soul-bonus-beats"
     }
   },
   {
@@ -8769,41 +8850,6 @@
     }
   },
   {
-    "id": "fa92b09a",
-    "title": "THERE WILL BE FIREWORKS",
-    "artist": "STARLIGHT ASSEMBLY",
-    "album": "THERE WILL BE FIREWORKS",
-    "label": "13",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-03-30",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/STARLIGHT_ASSEMBLY_THERE_WILL_BE_FIREWORKS_SPS25106_Vinyl__1194472",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "SPS25106",
-    "format": "Single",
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 43,
-    "_score_breakdown": {
-      "total": 43,
-      "label": 15,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/STARLIGHT_ASSEMBLY_THERE_WILL_BE_FIREWORKS_SPS25106_Vinyl__1194472"
-    }
-  },
-  {
     "id": "15f3ba89",
     "title": "MOR006",
     "artist": "Aline",
@@ -8833,7 +8879,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195777-mor006-aline-mor006/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "03ccd34c",
@@ -8865,7 +8912,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195784-uncagex067-marco-faraone-and-ejeca-inside-of-me-ep/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "b215871b",
@@ -10154,6 +10202,45 @@
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14426199/hamilton-park-remixes-spiltmilk-remix"
     }
+  },
+  {
+    "id": "fa92b09a",
+    "title": "THERE WILL BE FIREWORKS",
+    "artist": "STARLIGHT ASSEMBLY",
+    "album": "THERE WILL BE FIREWORKS",
+    "label": "13",
+    "genre": "Dark Ambient",
+    "duration": "",
+    "date": "2026-03-30",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Dark Ambient",
+      "Darkwave"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/STARLIGHT_ASSEMBLY_THERE_WILL_BE_FIREWORKS_SPS25106_Vinyl__1194472",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SPS25106",
+    "format": "Single",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/STARLIGHT_ASSEMBLY_THERE_WILL_BE_FIREWORKS_SPS25106_Vinyl__1194472"
+    },
+    "style_enriched": true
   },
   {
     "id": "98f2d71c",
@@ -16186,7 +16273,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195734-smallville74-el-kazed-sxb-deep-tales-pt-1/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "93eb124d",
@@ -16218,7 +16306,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195735-smallville75-el-kazed-sxb-deep-tales-pt-2/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "f109cc80",
@@ -18702,6 +18791,45 @@
     }
   },
   {
+    "id": "13764aea",
+    "title": "Get Down",
+    "artist": "Baltazar",
+    "album": "Get Down",
+    "label": "Clock Poets",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Minimal",
+      "Tribal"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Baltazar_Get_Down_CKP007_Vinyl__1228207",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CKP007",
+    "format": "Single",
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Baltazar_Get_Down_CKP007_Vinyl__1228207",
+      "juno": "https://www.juno.co.uk/products/baltazar-get-down-vinyl/1144710-01/"
+    },
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 54,
+    "_score_breakdown": {
+      "total": 54,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "style_enriched": true
+  },
+  {
     "id": "fa6c3bc0",
     "title": "OHM Series #18",
     "artist": "Various Artists",
@@ -20530,41 +20658,6 @@
     }
   },
   {
-    "id": "13764aea",
-    "title": "Get Down",
-    "artist": "Baltazar",
-    "album": "Get Down",
-    "label": "Clock Poets",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Baltazar_Get_Down_CKP007_Vinyl__1228207",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "CKP007",
-    "format": "Single",
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Baltazar_Get_Down_CKP007_Vinyl__1228207",
-      "juno": "https://www.juno.co.uk/products/baltazar-get-down-vinyl/1144710-01/"
-    },
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "quality_score": 44,
-    "_score_breakdown": {
-      "total": 44,
-      "label": 20,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 6,
-      "niche": 0
-    }
-  },
-  {
     "id": "5b0f0f56",
     "title": "Transparency EP 2x12″",
     "artist": "Faster",
@@ -20595,7 +20688,8 @@
     },
     "source_urls": {
       "deejay": "https://www.deejay.de/Faster_Transparency_EP_2x12″_UNIC006_Vinyl__1228216"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "668b24bd",
@@ -20629,7 +20723,8 @@
       "source": 8,
       "multi": 6,
       "niche": 0
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "992cab6e",
@@ -20642,7 +20737,9 @@
     "date": "2026-03-27",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "House"
+    ],
     "source": "deejay",
     "source_url": "https://www.deejay.de/Salomo_%26_Reece_Walker_RM12041_RM12041_Vinyl__1220195",
     "discogs_url": "",
@@ -20664,7 +20761,8 @@
       "source": 8,
       "multi": 6,
       "niche": 0
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "335f7118",
@@ -20700,7 +20798,8 @@
       "source": 8,
       "multi": 6,
       "niche": 0
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "ca650131",
@@ -20742,12 +20841,14 @@
     "artist": "Rico Puestel",
     "album": "REVAR Pt. 2 (I Follow You)",
     "label": "",
-    "genre": "Electronic",
+    "genre": "Techno",
     "duration": "",
     "date": "2026-03-27",
     "date_verified": true,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Techno"
+    ],
     "source": "spotify",
     "source_url": "https://open.spotify.com/album/0uYcWK9jDazSbAAqqMQjGC",
     "discogs_url": "",
@@ -20766,7 +20867,8 @@
     },
     "source_urls": {
       "spotify": "https://open.spotify.com/album/0uYcWK9jDazSbAAqqMQjGC"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "fe6e3f46",
@@ -20872,7 +20974,8 @@
     },
     "source_urls": {
       "deejay": "https://www.deejay.de/Midnight_Blue_One_Wish_-_South_Carolina_1975-83_LP_2x12_PASTDUELP019_Vinyl__1080967"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "976fad32",
@@ -20943,7 +21046,8 @@
     },
     "source_urls": {
       "deejay": "https://www.deejay.de/Stefano_Nardon_Mangrovia_Underwater_FD-012_Vinyl__1225729"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "7bab6803",
@@ -20975,7 +21079,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195687-clr019v-prospa-free-your-mind-2x12-gatefold-sleeve/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "fdf7d1b0",
@@ -21008,7 +21113,8 @@
     },
     "source_urls": {
       "deejay": "https://www.deejay.de/Flea_Honora_LP_2x12_0075597893601_Vinyl__1220702"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "c9b2f04f",
@@ -21041,7 +21147,8 @@
     },
     "source_urls": {
       "phonica": "https://www.phonicarecords.com/product/view/210455"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "ab06d850",
@@ -35046,7 +35153,8 @@
     },
     "source_urls": {
       "phonica": "https://www.phonicarecords.com/product/view/210424"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "a90da598",
@@ -35079,7 +35187,8 @@
     },
     "source_urls": {
       "deejay": "https://www.deejay.de/Nectax_Swinging_Flavors_%2316_w_Fracture_Remix_BMRSF016_Vinyl__1221251"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "73c283a5",
@@ -35111,7 +35220,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195642-syncro73-hiss-is-bliss-terpenes-ep-incl-steve-osullivan-remix/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "9dafd3b5",
@@ -35143,7 +35253,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195639-phonogramme76-sost-steve-osullivan-and-satoshi-tomiie-sost-1/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "4c414603",
@@ -35175,7 +35286,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195656-lax162-tom-carruthers-agenda-ep/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "6c3f13ce",
@@ -35207,7 +35319,8 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195676-dog113-gledd-my-house-is-your-church-ep/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "0fe0348b",
@@ -69212,7 +69325,8 @@
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195465-ndatl043-ben-hixon-vision-ep/",
       "juno": "https://www.juno.co.uk/products/ben-hixon-vision-ep-vinyl/1145066-01/"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "3d438b54",
@@ -79318,7 +79432,8 @@
       "niche": 0
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "e78d5b77",
@@ -86336,6 +86451,46 @@
     "discogs_year_checked": true
   },
   {
+    "id": "59501340",
+    "title": "Du cortex à l’iris",
+    "artist": "ETIENNE JAUMET",
+    "album": "Du cortex à l’iris",
+    "label": "Versatile Records",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [
+      "Jazz / Fusion",
+      "Electro",
+      "Experimental"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/du-cortex-a-l-iris",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "VERLP49",
+    "format": "LP",
+    "quality_score": 59,
+    "_score_breakdown": {
+      "total": 59,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/du-cortex-a-l-iris",
+      "deejay": "https://www.deejay.de/Étienne_Jaumet_Du_cortex_à_l’iris_LP_VERLP49_Vinyl__1205387"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "1b174887",
     "title": "The Power Of Suggestion (remastered)",
     "artist": "Lance Desardi",
@@ -88496,43 +88651,6 @@
     "style_enriched": true
   },
   {
-    "id": "59501340",
-    "title": "Du cortex à l’iris",
-    "artist": "ETIENNE JAUMET",
-    "album": "Du cortex à l’iris",
-    "label": "Versatile Records",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-20",
-    "re": false,
-    "styles": [
-      "Jazz / Fusion"
-    ],
-    "source": "boomkat",
-    "source_url": "https://boomkat.com/products/du-cortex-a-l-iris",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "VERLP49",
-    "format": "LP",
-    "quality_score": 44,
-    "_score_breakdown": {
-      "total": 44,
-      "label": 25,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "boomkat": "https://boomkat.com/products/du-cortex-a-l-iris",
-      "deejay": "https://www.deejay.de/Étienne_Jaumet_Du_cortex_à_l’iris_LP_VERLP49_Vinyl__1205387"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
-  },
-  {
     "id": "5a1ec010",
     "title": "Covil Dos Abutres",
     "artist": "Dextro",
@@ -88606,40 +88724,6 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "cfcf4afe",
-    "title": "Children – (1996-2026)",
-    "artist": "ROBERT MILES",
-    "album": "Children – (1996-2026)",
-    "label": "SMILAXX",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-20",
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/ROBERT_MILES_Children_–_1996-2026_V26001_Vinyl__1227334",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "V26001",
-    "format": "Single",
-    "quality_score": 44,
-    "_score_breakdown": {
-      "total": 44,
-      "label": 0,
-      "artist": 20,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 6
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/ROBERT_MILES_Children_–_1996-2026_V26001_Vinyl__1227334"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
     "discogs_year_checked": true
   },
   {
@@ -88757,11 +88841,13 @@
     "artist": "Rico Puestel",
     "album": "REVAR Pt. 1",
     "label": "",
-    "genre": "Tech House",
+    "genre": "Techno",
     "duration": "",
     "date": "2026-03-20",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Techno"
+    ],
     "source": "spotify",
     "source_url": "https://open.spotify.com/album/0KPNrufv73jICyEX47Gu6G",
     "discogs_url": "",
@@ -88781,7 +88867,8 @@
     "source_urls": {
       "spotify": "https://open.spotify.com/album/0KPNrufv73jICyEX47Gu6G"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "ac4cdd9f",
@@ -90722,6 +90809,43 @@
       "traxsource": "https://www.traxsource.com/track/14410635/combo",
       "bandcamp": "https://nervousrecords.bandcamp.com/track/combo"
     }
+  },
+  {
+    "id": "cfcf4afe",
+    "title": "Children – (1996-2026)",
+    "artist": "ROBERT MILES",
+    "album": "Children – (1996-2026)",
+    "label": "SMILAXX",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [
+      "Trance"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/ROBERT_MILES_Children_–_1996-2026_V26001_Vinyl__1227334",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "V26001",
+    "format": "Single",
+    "quality_score": 34,
+    "_score_breakdown": {
+      "total": 34,
+      "label": 0,
+      "artist": 20,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 6
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/ROBERT_MILES_Children_–_1996-2026_V26001_Vinyl__1227334"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "d8bcd4f6",
@@ -104142,7 +104266,10 @@
     "date": "2026-03-18",
     "re": false,
     "styles": [
-      "Jazz"
+      "Jazz",
+      "Bossanova",
+      "Samba",
+      "Latin Jazz"
     ],
     "source": "clone",
     "source_url": "https://clone.nl/item82658.html",
@@ -104167,7 +104294,8 @@
     "date_verified": false,
     "discogs_year": 2010,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "cb83a29e",
@@ -109897,7 +110025,9 @@
     "duration": "",
     "date": "2026-03-16",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Disco"
+    ],
     "source": "rushhour",
     "source_url": "https://www.rushhour.nl/record/vinyl/volume-three-2",
     "discogs_url": "",
@@ -109919,7 +110049,8 @@
     },
     "date_verified": false,
     "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "cb148b5a",
@@ -126942,7 +127073,8 @@
       "clone": "https://clone.nl/item82382.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "0aeaa6a6",
@@ -136775,6 +136907,48 @@
     "discogs_year_checked": true
   },
   {
+    "id": "5d9c38f0",
+    "title": "Mirrors",
+    "artist": "Zohar & Nymfo",
+    "album": "Mirrors",
+    "label": "Dekmantel",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-10",
+    "re": false,
+    "styles": [
+      "label catalog",
+      "bass",
+      "Halftime",
+      "Bass Music",
+      "Experimental"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87082/zohar-and-nymfo/mirrors/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "quality_score": 60,
+    "_score_breakdown": {
+      "total": 60,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87082/zohar-and-nymfo/mirrors/"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "be3997b7",
     "title": "Gittin’  Ghetto EP",
     "artist": "DJ Sneak",
@@ -140760,44 +140934,6 @@
     },
     "date_verified": false,
     "discogs_year": 2026,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "5d9c38f0",
-    "title": "Mirrors",
-    "artist": "Zohar & Nymfo",
-    "album": "Mirrors",
-    "label": "Dekmantel",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-10",
-    "re": false,
-    "styles": [
-      "label catalog",
-      "bass"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/87082/zohar-and-nymfo/mirrors/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "12\"",
-    "quality_score": 45,
-    "_score_breakdown": {
-      "total": 45,
-      "label": 30,
-      "artist": 0,
-      "genre": 5,
-      "source": 10,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/87082/zohar-and-nymfo/mirrors/"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
     "discogs_year_checked": true
   },
   {
@@ -157106,6 +157242,42 @@
     "date_verified": true
   },
   {
+    "id": "c9d37e97",
+    "title": "L’appel du vide",
+    "artist": "Mario Hammer And The Lonely Robot",
+    "album": "L’appel du vide",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-06",
+    "re": false,
+    "styles": [
+      "Ambient",
+      "Experimental"
+    ],
+    "source": "spotify",
+    "source_url": "https://open.spotify.com/album/2hx7OFkk9rnCEzwqw9ATI6",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 0,
+      "artist": 28,
+      "genre": 20,
+      "source": 4,
+      "multi": 0,
+      "niche": 4
+    },
+    "source_urls": {
+      "spotify": "https://open.spotify.com/album/2hx7OFkk9rnCEzwqw9ATI6"
+    },
+    "date_verified": true,
+    "style_enriched": true
+  },
+  {
     "id": "e84abb54",
     "title": "The Step On Ep",
     "artist": "Banjo",
@@ -158036,38 +158208,6 @@
       "bandcamp": "https://tarteletrecords.bandcamp.com/album/circles-space-ghost-remix"
     },
     "style_enriched": true
-  },
-  {
-    "id": "c9d37e97",
-    "title": "L’appel du vide",
-    "artist": "Mario Hammer And The Lonely Robot",
-    "album": "L’appel du vide",
-    "label": "",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-06",
-    "re": false,
-    "styles": [],
-    "source": "spotify",
-    "source_url": "https://open.spotify.com/album/2hx7OFkk9rnCEzwqw9ATI6",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 0,
-      "artist": 28,
-      "genre": 10,
-      "source": 4,
-      "multi": 0,
-      "niche": 4
-    },
-    "source_urls": {
-      "spotify": "https://open.spotify.com/album/2hx7OFkk9rnCEzwqw9ATI6"
-    },
-    "date_verified": true
   },
   {
     "id": "245db920",
@@ -167009,11 +167149,13 @@
     "artist": "Rico Puestel",
     "album": "BE",
     "label": "",
-    "genre": "Tech House",
+    "genre": "House",
     "duration": "",
     "date": "2026-02-27",
     "re": false,
-    "styles": [],
+    "styles": [
+      "House"
+    ],
     "source": "spotify",
     "source_url": "https://open.spotify.com/album/3wzsHhKhkWZWcJLstsUDqz",
     "discogs_url": "",
@@ -167033,7 +167175,8 @@
     "source_urls": {
       "spotify": "https://open.spotify.com/album/3wzsHhKhkWZWcJLstsUDqz"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "826bf8e7",
@@ -198206,7 +198349,9 @@
     "date": "2026-01-09",
     "re": false,
     "styles": [
-      "Pop Rock"
+      "Pop Rock",
+      "Country Rock",
+      "Southern Rock"
     ],
     "discogs_url": "https://www.discogs.com/release/36167260-Blue-5-Reflections",
     "source": "discogs",
@@ -198224,7 +198369,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36167260-Blue-5-Reflections"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "446bf001",
@@ -198233,11 +198379,17 @@
     "artist": "Das Pop",
     "album": "Slow Motion Soul",
     "label": "[PIAS] Recordings Belgium",
-    "genre": "Other",
+    "genre": "Soul",
     "duration": "4:49",
     "date": "2026-01-09",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ballad",
+      "Pop Rock",
+      "Soft Rock",
+      "Instrumental",
+      "Soul"
+    ],
     "discogs_url": "https://www.discogs.com/release/36237910-Das-Pop-Slow-Motion-Soul",
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36237910-Das-Pop-Slow-Motion-Soul",
@@ -198254,7 +198406,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36237910-Das-Pop-Slow-Motion-Soul"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "d854b11b",
@@ -220400,7 +220553,8 @@
     "date": "2025-12-03",
     "re": false,
     "styles": [
-      "Holiday"
+      "Holiday",
+      "Vocal"
     ],
     "discogs_url": "https://www.discogs.com/release/36444852-Ash-Santa-Claus-Is-Coming-To-Town",
     "source": "discogs",
@@ -220418,7 +220572,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36444852-Ash-Santa-Claus-Is-Coming-To-Town"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "3ec21e58",
@@ -222912,6 +223067,42 @@
     "style_enriched": true
   },
   {
+    "id": "6102ed1a",
+    "title": "8xist",
+    "artist": "Mario Hammer And The Lonely Robot",
+    "album": "8xist",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2025-11-28",
+    "re": false,
+    "styles": [
+      "Ambient",
+      "Experimental"
+    ],
+    "source": "spotify",
+    "source_url": "https://open.spotify.com/album/0PE9L7anpf0LNUVXn4Rvl7",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 0,
+      "artist": 28,
+      "genre": 20,
+      "source": 4,
+      "multi": 0,
+      "niche": 4
+    },
+    "source_urls": {
+      "spotify": "https://open.spotify.com/album/0PE9L7anpf0LNUVXn4Rvl7"
+    },
+    "date_verified": true,
+    "style_enriched": true
+  },
+  {
     "id": "fcfd844d",
     "title": "Córdoba #GU48 (Collector's Edition)",
     "artist": "Guy J",
@@ -224382,38 +224573,6 @@
       "bandcamp": "https://dansudiscsuk.bandcamp.com/album/plastic-smile"
     },
     "style_enriched": true
-  },
-  {
-    "id": "6102ed1a",
-    "title": "8xist",
-    "artist": "Mario Hammer And The Lonely Robot",
-    "album": "8xist",
-    "label": "",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-11-28",
-    "re": false,
-    "styles": [],
-    "source": "spotify",
-    "source_url": "https://open.spotify.com/album/0PE9L7anpf0LNUVXn4Rvl7",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 0,
-      "artist": 28,
-      "genre": 10,
-      "source": 4,
-      "multi": 0,
-      "niche": 4
-    },
-    "source_urls": {
-      "spotify": "https://open.spotify.com/album/0PE9L7anpf0LNUVXn4Rvl7"
-    },
-    "date_verified": true
   },
   {
     "id": "4b5b7205",
@@ -240401,7 +240560,8 @@
     "source_urls": {
       "spotify": "https://open.spotify.com/album/4h4sY8eCVJcwtN4Q3ejdZF"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "0615c316",
@@ -244917,6 +245077,41 @@
     "style_enriched": true
   },
   {
+    "id": "7c9b1985",
+    "title": "Sunpulse",
+    "artist": "Mario Hammer And The Lonely Robot",
+    "album": "Sunpulse",
+    "label": "",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2025-10-31",
+    "re": false,
+    "styles": [
+      "Ambient"
+    ],
+    "source": "spotify",
+    "source_url": "https://open.spotify.com/album/7sfoQW9RDCEgvySRAL2T1N",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 0,
+      "artist": 28,
+      "genre": 20,
+      "source": 4,
+      "multi": 0,
+      "niche": 4
+    },
+    "source_urls": {
+      "spotify": "https://open.spotify.com/album/7sfoQW9RDCEgvySRAL2T1N"
+    },
+    "date_verified": true,
+    "style_enriched": true
+  },
+  {
     "id": "97f014e0",
     "discogs_release_id": 35396974,
     "title": "Feelin' Good Tonight",
@@ -245590,38 +245785,6 @@
     "style_enriched": true
   },
   {
-    "id": "7c9b1985",
-    "title": "Sunpulse",
-    "artist": "Mario Hammer And The Lonely Robot",
-    "album": "Sunpulse",
-    "label": "",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-10-31",
-    "re": false,
-    "styles": [],
-    "source": "spotify",
-    "source_url": "https://open.spotify.com/album/7sfoQW9RDCEgvySRAL2T1N",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 0,
-      "artist": 28,
-      "genre": 10,
-      "source": 4,
-      "multi": 0,
-      "niche": 4
-    },
-    "source_urls": {
-      "spotify": "https://open.spotify.com/album/7sfoQW9RDCEgvySRAL2T1N"
-    },
-    "date_verified": true
-  },
-  {
     "id": "dc80ead8",
     "discogs_release_id": 35722321,
     "title": "Summertimes Blues (The First Singles & More)",
@@ -245651,7 +245814,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35722321-The-Beach-Boys-Summertimes-Blues-The-First-Singles-More"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "c1cdbcc8",
@@ -264394,6 +264558,114 @@
     "style_enriched": true
   },
   {
+    "id": "3dee8d98",
+    "title": "Rap De Los Cuarenta Limones",
+    "artist": "ary:eh",
+    "album": "Rap De Los Cuarenta Limones",
+    "label": "Nervous Records",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2025-10-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Minimal"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://nervousrecords.bandcamp.com/track/rap-de-los-cuarenta-limones",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://nervousrecords.bandcamp.com/track/rap-de-los-cuarenta-limones"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "04df02c6",
+    "title": "Shades of Meridian",
+    "artist": "ÈBONY",
+    "album": "Shades of Meridian",
+    "label": "Turbo",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2025-10-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Deep House",
+      "Tech House",
+      "Breaks"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://turborecordings.bandcamp.com/album/shades-of-meridian",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://turborecordings.bandcamp.com/album/shades-of-meridian"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "3a8f200d",
+    "title": "Never Give In",
+    "artist": "TODAY IS THE DAY",
+    "album": "Never Give In",
+    "label": "Nova Records",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2025-10-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Noise Rock",
+      "Experimental"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://supernovarecordsusa.bandcamp.com/album/never-give-in",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://supernovarecordsusa.bandcamp.com/album/never-give-in"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "f0fcc868",
     "discogs_release_id": 35738080,
     "title": "Twilight Abyss EP",
@@ -265170,49 +265442,19 @@
     "style_enriched": true
   },
   {
-    "id": "3dee8d98",
-    "title": "Rap De Los Cuarenta Limones",
-    "artist": "ary:eh",
-    "album": "Rap De Los Cuarenta Limones",
-    "label": "Nervous Records",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-10-03",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://nervousrecords.bandcamp.com/track/rap-de-los-cuarenta-limones",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://nervousrecords.bandcamp.com/track/rap-de-los-cuarenta-limones"
-    }
-  },
-  {
     "id": "5408bf35",
     "title": "Revolver",
     "artist": "Cristi Hernz",
     "album": "Revolver",
     "label": "Nervous Records",
-    "genre": "Electronic",
+    "genre": "House",
     "duration": "",
     "date": "2025-10-03",
     "date_verified": true,
     "re": false,
-    "styles": [],
+    "styles": [
+      "House"
+    ],
     "source": "bandcamp",
     "source_url": "https://nervousrecords.bandcamp.com/track/revolver",
     "discogs_url": "",
@@ -265231,7 +265473,8 @@
     },
     "source_urls": {
       "bandcamp": "https://nervousrecords.bandcamp.com/track/revolver"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "288fcbf0",
@@ -265239,12 +265482,14 @@
     "artist": "Nickelle",
     "album": "Westpoint",
     "label": "Nervous Records",
-    "genre": "Electronic",
+    "genre": "Tech House",
     "duration": "",
     "date": "2025-10-03",
     "date_verified": true,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Tech House"
+    ],
     "source": "bandcamp",
     "source_url": "https://nervousrecords.bandcamp.com/track/westpoint",
     "discogs_url": "",
@@ -265263,7 +265508,8 @@
     },
     "source_urls": {
       "bandcamp": "https://nervousrecords.bandcamp.com/track/westpoint"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "8f99f67d",
@@ -265295,7 +265541,8 @@
     },
     "source_urls": {
       "bandcamp": "https://suara.bandcamp.com/album/human-nature-ep"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "6f5a5570",
@@ -265308,7 +265555,12 @@
     "date": "2025-10-03",
     "date_verified": true,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Black Metal",
+      "Post-Metal",
+      "Blackgaze",
+      "Death Metal"
+    ],
     "source": "bandcamp",
     "source_url": "https://vendetta-records.bandcamp.com/album/frail-grasp-of-broken-hands",
     "discogs_url": "",
@@ -265327,71 +265579,8 @@
     },
     "source_urls": {
       "bandcamp": "https://vendetta-records.bandcamp.com/album/frail-grasp-of-broken-hands"
-    }
-  },
-  {
-    "id": "04df02c6",
-    "title": "Shades of Meridian",
-    "artist": "ÈBONY",
-    "album": "Shades of Meridian",
-    "label": "Turbo",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-10-03",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://turborecordings.bandcamp.com/album/shades-of-meridian",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
     },
-    "source_urls": {
-      "bandcamp": "https://turborecordings.bandcamp.com/album/shades-of-meridian"
-    }
-  },
-  {
-    "id": "3a8f200d",
-    "title": "Never Give In",
-    "artist": "TODAY IS THE DAY",
-    "album": "Never Give In",
-    "label": "Nova Records",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-10-03",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://supernovarecordsusa.bandcamp.com/album/never-give-in",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://supernovarecordsusa.bandcamp.com/album/never-give-in"
-    }
+    "style_enriched": true
   },
   {
     "id": "b82055be",
@@ -265423,7 +265612,8 @@
     },
     "source_urls": {
       "bandcamp": "https://snatchrecords.bandcamp.com/album/summer-ep"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "0b1105f8",
@@ -265436,7 +265626,9 @@
     "date": "2025-10-03",
     "date_verified": true,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Punk"
+    ],
     "source": "bandcamp",
     "source_url": "https://kickingrecords.bandcamp.com/album/los-caballeros-del-coche-fantastico",
     "discogs_url": "",
@@ -265455,7 +265647,8 @@
     },
     "source_urls": {
       "bandcamp": "https://kickingrecords.bandcamp.com/album/los-caballeros-del-coche-fantastico"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "9f517d9f",
@@ -265468,7 +265661,9 @@
     "date": "2025-10-03",
     "date_verified": true,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Punk"
+    ],
     "source": "bandcamp",
     "source_url": "https://kickingrecords.bandcamp.com/album/stunts-fights-and-mariachies",
     "discogs_url": "",
@@ -265487,7 +265682,8 @@
     },
     "source_urls": {
       "bandcamp": "https://kickingrecords.bandcamp.com/album/stunts-fights-and-mariachies"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "5cffb28a",
@@ -265519,7 +265715,8 @@
     },
     "source_urls": {
       "bandcamp": "https://dfarecords.bandcamp.com/album/shaking-moving-dancing-people-the-stickydisc-records-anthology"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "d1050b93",
@@ -265551,7 +265748,8 @@
     },
     "source_urls": {
       "bandcamp": "https://dansudiscsuk.bandcamp.com/album/my-love-my-kisses-sorley-remix"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "34066532",
@@ -265583,7 +265781,8 @@
     },
     "source_urls": {
       "bandcamp": "https://tarteletrecords.bandcamp.com/album/majestic-fantasies-instrumentals"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "339514c5",
@@ -265615,7 +265814,8 @@
     "source_urls": {
       "spotify": "https://open.spotify.com/album/5Eif9ti1YVmnSn8gvkD7f1"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "083ea626",
@@ -267078,6 +267278,77 @@
     "date_verified": true
   },
   {
+    "id": "d992440e",
+    "title": "ELEMENTS : DANIEL STEFANIK",
+    "artist": "Berg Audio",
+    "album": "ELEMENTS : DANIEL STEFANIK",
+    "label": "Berg Audio",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2025-10-02",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Deep House",
+      "Deep Techno"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://bergaudio.bandcamp.com/album/elements-daniel-stefanik",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://bergaudio.bandcamp.com/album/elements-daniel-stefanik"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "2361d87a",
+    "title": "Micro Vibrations From The Cosmos",
+    "artist": "Ancestros",
+    "album": "Micro Vibrations From The Cosmos",
+    "label": "Contumancia",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2025-10-02",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Ambient"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://contumancia.bandcamp.com/album/micro-vibrations-from-the-cosmos",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://contumancia.bandcamp.com/album/micro-vibrations-from-the-cosmos"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "96eb996c",
     "discogs_release_id": 35263987,
     "title": "Scratch",
@@ -267110,38 +267381,6 @@
     "date_verified": true
   },
   {
-    "id": "d992440e",
-    "title": "ELEMENTS : DANIEL STEFANIK",
-    "artist": "Berg Audio",
-    "album": "ELEMENTS : DANIEL STEFANIK",
-    "label": "Berg Audio",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-10-02",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://bergaudio.bandcamp.com/album/elements-daniel-stefanik",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://bergaudio.bandcamp.com/album/elements-daniel-stefanik"
-    }
-  },
-  {
     "id": "20840bd7",
     "title": "Riva Starr Ft Dynamite MC - Unique",
     "artist": "Riva Starr Ft Dynamite MC",
@@ -267171,7 +267410,8 @@
     },
     "source_urls": {
       "bandcamp": "https://snatchrecords.bandcamp.com/album/riva-starr-ft-dynamite-mc-unique"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "11448c42",
@@ -267203,39 +267443,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/rutechno-realidad-disruptiva"
-    }
-  },
-  {
-    "id": "2361d87a",
-    "title": "Micro Vibrations From The Cosmos",
-    "artist": "Ancestros",
-    "album": "Micro Vibrations From The Cosmos",
-    "label": "Contumancia",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-10-02",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://contumancia.bandcamp.com/album/micro-vibrations-from-the-cosmos",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
     },
-    "source_urls": {
-      "bandcamp": "https://contumancia.bandcamp.com/album/micro-vibrations-from-the-cosmos"
-    }
+    "style_enriched": true
   },
   {
     "id": "63957133",
@@ -267445,6 +267654,42 @@
     "style_enriched": true
   },
   {
+    "id": "8ca3816a",
+    "title": "Don't Trust Mirrors",
+    "artist": "kelly moran",
+    "album": "Don't Trust Mirrors",
+    "label": "Warp Records",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2025-10-01",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Experimental",
+      "Modern Classical"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://warprecords.bandcamp.com/album/don-t-trust-mirrors",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://warprecords.bandcamp.com/album/don-t-trust-mirrors"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "8d5f15cd",
     "title": "The City Is Beautiful",
     "artist": "Bastien Keb, Malik Ameer Crumpler, Mark Millington",
@@ -267508,39 +267753,8 @@
     },
     "source_urls": {
       "bandcamp": "https://getphysicalmusic.bandcamp.com/album/greta-levska-ibzalien-brain-de-palma-remix"
-    }
-  },
-  {
-    "id": "8ca3816a",
-    "title": "Don't Trust Mirrors",
-    "artist": "kelly moran",
-    "album": "Don't Trust Mirrors",
-    "label": "Warp Records",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-10-01",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://warprecords.bandcamp.com/album/don-t-trust-mirrors",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
     },
-    "source_urls": {
-      "bandcamp": "https://warprecords.bandcamp.com/album/don-t-trust-mirrors"
-    }
+    "style_enriched": true
   },
   {
     "id": "d8070094",
@@ -267572,7 +267786,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/king-salamander-parallel-territories"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "5ff84c7c",
@@ -267604,7 +267819,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/martinelli-teraflux"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "e6c0d636",
@@ -267636,7 +267852,8 @@
     },
     "source_urls": {
       "bandcamp": "https://pouvoirmagique.bandcamp.com/album/healers"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "c8b41565",
@@ -268306,7 +268523,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "e4b3b035",
@@ -268338,7 +268556,8 @@
     "source_urls": {
       "bandcamp": "https://skylaxrecords.bandcamp.com/album/love-records-3-vinyl-only"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "1843b891",
@@ -268370,7 +268589,8 @@
     },
     "source_urls": {
       "bandcamp": "https://mixcult.bandcamp.com/album/crystallized-ep"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "559d27fc",
@@ -268402,7 +268622,8 @@
     },
     "source_urls": {
       "bandcamp": "https://mixcult.bandcamp.com/album/awasara-ep"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "fb1fa59b",
@@ -268410,12 +268631,14 @@
     "artist": "Romain Garcia feat. Pépite",
     "album": "Regarder la nuit",
     "label": "Anjunadeep",
-    "genre": "Electronic",
+    "genre": "House",
     "duration": "",
     "date": "2025-09-30",
     "date_verified": true,
     "re": false,
-    "styles": [],
+    "styles": [
+      "House"
+    ],
     "source": "bandcamp",
     "source_url": "https://anjunadeep.bandcamp.com/album/regarder-la-nuit",
     "discogs_url": "",
@@ -268434,7 +268657,8 @@
     },
     "source_urls": {
       "bandcamp": "https://anjunadeep.bandcamp.com/album/regarder-la-nuit"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "311c48ab",
@@ -268466,7 +268690,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/altered-noise-constellation-s-end"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "d30310a4",
@@ -268498,7 +268723,8 @@
     },
     "source_urls": {
       "bandcamp": "https://diffusereality.bandcamp.com/album/parallel-journey-material-te0222"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "09f08960",
@@ -268530,7 +268756,8 @@
     },
     "source_urls": {
       "bandcamp": "https://tzinahrecords.bandcamp.com/album/va-tzinah-gate-of-golden-memories-tzh235"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "da76ae89",
@@ -270139,7 +270366,10 @@
     "duration": "",
     "date": "2025-09-26",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Soul-Jazz",
+      "Spiritual Jazz"
+    ],
     "source": "bandcamp",
     "source_url": "https://gondwanarecords.bandcamp.com/album/it-s-always-about-love",
     "discogs_url": "",
@@ -270159,7 +270389,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "00dccdc7",
@@ -270171,7 +270402,11 @@
     "duration": "",
     "date": "2025-09-26",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Dream Pop",
+      "Britpop",
+      "Alt-Pop"
+    ],
     "source": "bandcamp",
     "source_url": "https://ghostly.bandcamp.com/album/no-scope",
     "discogs_url": "",
@@ -270191,7 +270426,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "8907ea47",
@@ -271886,7 +272122,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "f3be32a4",
@@ -272057,11 +272294,14 @@
     "artist": "Ø Mika Vainio",
     "album": "Aste",
     "label": "Sahko",
-    "genre": "Electronic",
+    "genre": "Minimal Techno",
     "duration": "",
     "date": "2025-09-23",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Minimal Techno",
+      "Experimental"
+    ],
     "source": "bandcamp",
     "source_url": "https://sahkorecordings.bandcamp.com/album/aste",
     "discogs_url": "",
@@ -272071,17 +272311,18 @@
     "source_urls": {
       "bandcamp": "https://sahkorecordings.bandcamp.com/album/aste"
     },
-    "quality_score": 46,
+    "quality_score": 56,
     "_score_breakdown": {
-      "total": 46,
+      "total": 56,
       "label": 30,
       "artist": 0,
-      "genre": 10,
+      "genre": 20,
       "source": 6,
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "7afc56ee",
@@ -273611,7 +273852,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "92f7ec25",
@@ -273643,7 +273885,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "aef4b2fa",
@@ -275397,11 +275640,15 @@
     "artist": "Al Wootton",
     "album": "CRUX",
     "label": "Sahko",
-    "genre": "Electronic",
+    "genre": "Experimental",
     "duration": "",
     "date": "2025-09-15",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Experimental",
+      "Tribal",
+      "Techno"
+    ],
     "source": "bandcamp",
     "source_url": "https://sahkorecordings.bandcamp.com/album/crux",
     "discogs_url": "",
@@ -275411,17 +275658,18 @@
     "source_urls": {
       "bandcamp": "https://sahkorecordings.bandcamp.com/album/crux"
     },
-    "quality_score": 46,
+    "quality_score": 56,
     "_score_breakdown": {
-      "total": 46,
+      "total": 56,
       "label": 30,
       "artist": 0,
-      "genre": 10,
+      "genre": 20,
       "source": 6,
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "a8743c6d",
@@ -276063,6 +276311,44 @@
     "date_verified": true
   },
   {
+    "id": "fbf42950",
+    "title": "Weirdo Active",
+    "artist": "Flabbergast",
+    "album": "Weirdo Active",
+    "label": "Circus Company",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2025-09-12",
+    "re": false,
+    "styles": [
+      "Minimal",
+      "Microhouse",
+      "Tech House",
+      "Leftfield"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://circuscompany.bandcamp.com/album/weirdo-active",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "source_urls": {
+      "bandcamp": "https://circuscompany.bandcamp.com/album/weirdo-active"
+    },
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "date_verified": true,
+    "style_enriched": true
+  },
+  {
     "id": "30f8a3aa",
     "discogs_release_id": 35626756,
     "title": "Phasemorph",
@@ -276093,6 +276379,46 @@
       "discogs": "https://www.discogs.com/release/35626756-Ben-Dust-Phasemorph"
     },
     "date_verified": true
+  },
+  {
+    "id": "75a8f2ab",
+    "title": "Mount Crystal",
+    "artist": "Joviale",
+    "album": "Mount Crystal",
+    "label": "Ghostly International",
+    "genre": "Neo Soul",
+    "duration": "",
+    "date": "2025-09-12",
+    "re": false,
+    "styles": [
+      "Contemporary R&B",
+      "Neo Soul",
+      "UK Street Soul",
+      "Psychedelic",
+      "Alt-Pop",
+      "Acid Jazz"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://ghostly.bandcamp.com/album/mount-crystal",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "source_urls": {
+      "bandcamp": "https://ghostly.bandcamp.com/album/mount-crystal"
+    },
+    "quality_score": 54,
+    "_score_breakdown": {
+      "total": 54,
+      "label": 30,
+      "artist": 0,
+      "genre": 18,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "8498040c",
@@ -276555,48 +276881,18 @@
     "date_verified": true
   },
   {
-    "id": "fbf42950",
-    "title": "Weirdo Active",
-    "artist": "Flabbergast",
-    "album": "Weirdo Active",
-    "label": "Circus Company",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-09-12",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://circuscompany.bandcamp.com/album/weirdo-active",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "source_urls": {
-      "bandcamp": "https://circuscompany.bandcamp.com/album/weirdo-active"
-    },
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "date_verified": true
-  },
-  {
     "id": "e44b3294",
     "title": "Soul Patch EP",
     "artist": "1morning",
     "album": "Soul Patch EP",
     "label": "a]r[t]s",
-    "genre": "Electronic",
+    "genre": "Techno",
     "duration": "",
     "date": "2025-09-12",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Techno"
+    ],
     "source": "bandcamp",
     "source_url": "https://artsrecordings.bandcamp.com/album/soul-patch-ep",
     "discogs_url": "",
@@ -276616,7 +276912,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "da1cafaa",
@@ -276648,39 +276945,8 @@
       "multi": 0,
       "niche": 0
     },
-    "date_verified": true
-  },
-  {
-    "id": "75a8f2ab",
-    "title": "Mount Crystal",
-    "artist": "Joviale",
-    "album": "Mount Crystal",
-    "label": "Ghostly International",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-09-12",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://ghostly.bandcamp.com/album/mount-crystal",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "source_urls": {
-      "bandcamp": "https://ghostly.bandcamp.com/album/mount-crystal"
-    },
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "80f6bf2b",
@@ -279602,7 +279868,8 @@
     "source_urls": {
       "bandcamp": "https://duromkl.bandcamp.com/album/stress-pt-1"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "4fb410c8",
@@ -280478,6 +280745,43 @@
     "date_verified": true
   },
   {
+    "id": "d03cdcb6",
+    "title": "Channels: Remixed",
+    "artist": "Kassian",
+    "album": "Channels: Remixed",
+    "label": "Studio !K7",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2025-09-04",
+    "re": false,
+    "styles": [
+      "Balearic",
+      "Dub",
+      "Downtempo"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://k7records.bandcamp.com/album/channels-remixed",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 54,
+    "_score_breakdown": {
+      "total": 54,
+      "label": 30,
+      "artist": 0,
+      "genre": 18,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://k7records.bandcamp.com/album/channels-remixed"
+    },
+    "date_verified": true,
+    "style_enriched": true
+  },
+  {
     "id": "47035e76",
     "discogs_release_id": 35025728,
     "title": "One Last Time",
@@ -280573,38 +280877,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35023937-Alex-Andy-Untitled-Alex-Andy-Out-Take"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "d03cdcb6",
-    "title": "Channels: Remixed",
-    "artist": "Kassian",
-    "album": "Channels: Remixed",
-    "label": "Studio !K7",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-09-04",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://k7records.bandcamp.com/album/channels-remixed",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://k7records.bandcamp.com/album/channels-remixed"
     },
     "date_verified": true
   },
@@ -280736,7 +281008,8 @@
     "source_urls": {
       "bandcamp": "https://conceptohipnotico.bandcamp.com/album/shadow-circuit-chr343"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "a169b7bb",
@@ -281204,7 +281477,8 @@
     "source_urls": {
       "bandcamp": "https://luzure.bandcamp.com/track/delta"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "09159c6f",
@@ -281972,6 +282246,42 @@
     "date_verified": true
   },
   {
+    "id": "43f31db7",
+    "title": "Bare Roots EP",
+    "artist": "DBFB",
+    "album": "Bare Roots EP",
+    "label": "a]r[t]s",
+    "genre": "Dub Techno",
+    "duration": "",
+    "date": "2025-08-29",
+    "re": false,
+    "styles": [
+      "Techno",
+      "Dub Techno"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://artsrecordings.bandcamp.com/album/bare-roots-ep",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://artsrecordings.bandcamp.com/album/bare-roots-ep"
+    },
+    "date_verified": true,
+    "style_enriched": true
+  },
+  {
     "id": "17be49f2",
     "discogs_release_id": 36162358,
     "title": "Dreams",
@@ -282504,7 +282814,9 @@
     "duration": "",
     "date": "2025-08-29",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Techno"
+    ],
     "source": "bandcamp",
     "source_url": "https://kompakt.bandcamp.com/album/speicher-136",
     "discogs_url": "",
@@ -282524,7 +282836,8 @@
     "source_urls": {
       "bandcamp": "https://kompakt.bandcamp.com/album/speicher-136"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "d3832d1f",
@@ -282556,71 +282869,8 @@
     "source_urls": {
       "bandcamp": "https://solenoidrecords.bandcamp.com/album/one-more-red-koala"
     },
-    "date_verified": true
-  },
-  {
-    "id": "43f31db7",
-    "title": "Bare Roots EP",
-    "artist": "DBFB",
-    "album": "Bare Roots EP",
-    "label": "a]r[t]s",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-08-29",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://artsrecordings.bandcamp.com/album/bare-roots-ep",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://artsrecordings.bandcamp.com/album/bare-roots-ep"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "8282ff70",
-    "title": "Mish Mash",
-    "artist": "Rockers Hi-Fi",
-    "album": "Mish Mash",
-    "label": "Studio !K7",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2025-08-29",
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://k7records.bandcamp.com/album/mish-mash",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://k7records.bandcamp.com/album/mish-mash"
-    },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "2524e1cd",
@@ -282878,6 +283128,41 @@
       "discogs": "https://www.discogs.com/release/35117258-Lehar-2-Reverse-Code"
     },
     "date_verified": true
+  },
+  {
+    "id": "8282ff70",
+    "title": "Mish Mash",
+    "artist": "Rockers Hi-Fi",
+    "album": "Mish Mash",
+    "label": "Studio !K7",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2025-08-29",
+    "re": false,
+    "styles": [
+      "Dub"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://k7records.bandcamp.com/album/mish-mash",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://k7records.bandcamp.com/album/mish-mash"
+    },
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "48bc6e1f",
