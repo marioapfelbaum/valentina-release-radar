@@ -1,5 +1,34 @@
 [
   {
+    "id": "e756d0f0",
+    "title": "cat can do, Carara - Ambient Odyssey",
+    "artist": "Diffuse Reality Records",
+    "album": "cat can do, Carara - Ambient Odyssey",
+    "label": "Diffuse Reality",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-13",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://diffusereality.bandcamp.com/album/cat-can-do-carara-ambient-odyssey",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "71b2735d",
     "title": "Baiana",
     "artist": "MicFreak",
@@ -3261,41 +3290,6 @@
     }
   },
   {
-    "id": "3c09602e",
-    "title": "Moon 2",
-    "artist": "Five Green Moons",
-    "album": "Moon 2",
-    "label": "Solitary Cyclist",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-04-03",
-    "re": false,
-    "styles": [],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/188364-sclp001-five-green-moons-moon-2/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "SCLP001",
-    "format": "",
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/188364-sclp001-five-green-moons-moon-2/"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
     "id": "16220fd9",
     "title": "PRÉSENCE HUMAINE - Blue Vinyl",
     "artist": "MICHEL HOUELLEBECQ",
@@ -3326,7 +3320,8 @@
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195516-trilpfr007bv-michel-houellebecq-présence-humaine-blue-vinyl/"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "6c5a92e2",
@@ -3397,6 +3392,46 @@
       "traxsource": "https://www.traxsource.com/track/14480783/pa-bajo",
       "bandcamp": "https://nervousrecords.bandcamp.com/track/pa-bajo"
     }
+  },
+  {
+    "id": "3c09602e",
+    "title": "Moon 2",
+    "artist": "Five Green Moons",
+    "album": "Moon 2",
+    "label": "Solitary Cyclist",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-03",
+    "re": false,
+    "styles": [
+      "Ambient",
+      "Dub",
+      "Balearic"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/188364-sclp001-five-green-moons-moon-2/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SCLP001",
+    "format": "",
+    "quality_score": 34,
+    "_score_breakdown": {
+      "total": 34,
+      "label": 8,
+      "artist": 0,
+      "genre": 18,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/188364-sclp001-five-green-moons-moon-2/"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "d7cefb1d",
@@ -5747,6 +5782,35 @@
     }
   },
   {
+    "id": "165e52ce",
+    "title": "MINERAL01",
+    "artist": "Deep System, Morose",
+    "album": "MINERAL01",
+    "label": "Mineral Cuts",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/133680-mineral01-deep-system-morose-mineral01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MINERAL01",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "437eb18d",
     "title": "Diggin' for Sounds",
     "artist": "Scott Ducey",
@@ -6962,6 +7026,270 @@
     "style_enriched": true
   },
   {
+    "id": "f63485b0",
+    "title": "Shine A Light EP",
+    "artist": "Riva Starr",
+    "album": "Shine A Light EP",
+    "label": "Rekids",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "House",
+      "Trance",
+      "Hard Trance",
+      "Progressive Trance",
+      "Electro",
+      "Progressive House",
+      "Techno"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Riva_Starr_Shine_A_Light_EP_REKIDS284_Vinyl__1225160",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "REKIDS284",
+    "format": "Single",
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Riva_Starr_Shine_A_Light_EP_REKIDS284_Vinyl__1225160",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Riva+Starr",
+      "bandcamp": "https://rekids.bandcamp.com/album/shine-a-light-ep"
+    },
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 84,
+    "_score_breakdown": {
+      "total": 84,
+      "label": 30,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 10,
+      "niche": 6
+    }
+  },
+  {
+    "id": "fae9b6d5",
+    "title": "The North Borders",
+    "artist": "Bonobo",
+    "album": "The North Borders",
+    "label": "Ninja Tune",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/bonobo-the-north-borders-vinyl/485227-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2013,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 82,
+    "_score_breakdown": {
+      "total": 82,
+      "label": 30,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
+    "id": "68d09974",
+    "title": "The Bump EP",
+    "artist": "WBEEZA",
+    "album": "The Bump EP",
+    "label": "Third Ear",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195805-te-ns1002-wbeeza-the-bump-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TE-NS1002",
+    "format": "",
+    "quality_score": 78,
+    "_score_breakdown": {
+      "total": 78,
+      "label": 30,
+      "artist": 30,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "8b3d8499",
+    "title": "Danc'n In The Garage",
+    "artist": "Sweely",
+    "album": "Danc'n In The Garage",
+    "label": "Limousine Dream",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/142394-tsol-002-sweely-dancn-in-the-garage/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TSOL-002",
+    "format": "",
+    "quality_score": 75,
+    "_score_breakdown": {
+      "total": 75,
+      "label": 25,
+      "artist": 30,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 2
+    }
+  },
+  {
+    "id": "a17b27a6",
+    "title": "Neurotica",
+    "artist": "Faltydl",
+    "album": "Neurotica",
+    "label": "Planet Mu",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/faltydl-neurotica-vinyl/1083336-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 75,
+    "_score_breakdown": {
+      "total": 75,
+      "label": 25,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 4
+    }
+  },
+  {
+    "id": "647ddc3f",
+    "title": "Bytes (reissue)",
+    "artist": "Black Dog Productions",
+    "album": "Bytes (reissue)",
+    "label": "Warp",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/black-dog-productions-bytes-vinyl/953217-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 73,
+    "_score_breakdown": {
+      "total": 73,
+      "label": 25,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 2
+    }
+  },
+  {
+    "id": "5e4806b9",
+    "title": "Donutroit (2x12\")",
+    "artist": "Metro",
+    "album": "Donutroit (2x12\")",
+    "label": "JuNouMi",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Boom Bap",
+      "Instrumental"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Metro_Donutroit_2x12_JNM041_Vinyl__1219292",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "JNM041",
+    "format": "Single",
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Metro_Donutroit_2x12_JNM041_Vinyl__1219292",
+      "juno": "https://www.juno.co.uk/products/metro-donutroit-vinyl/1138582-01/"
+    },
+    "discogs_year_checked": true,
+    "quality_score": 72,
+    "_score_breakdown": {
+      "total": 72,
+      "label": 0,
+      "artist": 30,
+      "genre": 20,
+      "source": 8,
+      "multi": 6,
+      "niche": 8
+    }
+  },
+  {
+    "id": "fd97df8f",
+    "title": "RAVE ECHOES - 2x12\"",
+    "artist": "SHED",
+    "album": "RAVE ECHOES - 2x12\"",
+    "label": "Dekmantel",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195823-dkmntl116-shed-rave-echoes-2x12/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DKMNTL116",
+    "format": "",
+    "quality_score": 72,
+    "_score_breakdown": {
+      "total": 72,
+      "label": 30,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 4
+    }
+  },
+  {
     "id": "8e0131aa",
     "title": "Nagoyaka Na Kaze (Quiet Wind)",
     "artist": "Various",
@@ -6994,6 +7322,93 @@
       "juno": "https://www.juno.co.uk/products/nagoyaka-na-kaze-quiet-wind-vinyl/1124144-01/"
     },
     "style_enriched": true
+  },
+  {
+    "id": "7e691e29",
+    "title": "Rave Echoes",
+    "artist": "Shed",
+    "album": "Rave Echoes",
+    "label": "Dekmantel",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://dekmantel.bandcamp.com/album/rave-echoes",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 70,
+    "_score_breakdown": {
+      "total": 70,
+      "label": 30,
+      "artist": 20,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 4
+    }
+  },
+  {
+    "id": "6227134f",
+    "title": "Firecracker EP5",
+    "artist": "Vakula",
+    "album": "Firecracker EP5",
+    "label": "Phonogramme",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195797-phonogramme78-vakula-firecracker-ep5/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "PHONOGRAMME78",
+    "format": "",
+    "quality_score": 69,
+    "_score_breakdown": {
+      "total": 69,
+      "label": 25,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
+    "id": "930188f4",
+    "title": "Heavy & Gold",
+    "artist": "Jacksonville",
+    "album": "Heavy & Gold",
+    "label": "Stay Underground It Pays",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195794-suit16-jacksonville-heavy-and-gold/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SUIT16",
+    "format": "",
+    "quality_score": 66,
+    "_score_breakdown": {
+      "total": 66,
+      "label": 20,
+      "artist": 28,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "0db5e419",
@@ -7038,6 +7453,96 @@
     "style_enriched": true
   },
   {
+    "id": "bdedd82c",
+    "title": "Embalmed In Martino EP",
+    "artist": "Lauer",
+    "album": "Embalmed In Martino EP",
+    "label": "Altered Circuits",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195822-alt026-lauer-embalmed-in-martino-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ALT026",
+    "format": "",
+    "quality_score": 64,
+    "_score_breakdown": {
+      "total": 64,
+      "label": 20,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
+    "id": "7a2cdcba",
+    "title": "Vampire",
+    "artist": "Sholto",
+    "album": "Vampire",
+    "label": "Funk Night US",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/sholto-vampire-vinyl/1146454-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 64,
+    "_score_breakdown": {
+      "total": 64,
+      "label": 0,
+      "artist": 30,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 8
+    }
+  },
+  {
+    "id": "37cfd50f",
+    "title": "DJ SPRINKLES & HARDROCK STRIKER FEAT. MOVE D",
+    "artist": "Various",
+    "album": "DJ SPRINKLES & HARDROCK STRIKER FEAT. MOVE D",
+    "label": "Skylax",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195807-laxshe4-dj-sprinkles-and-hardrock-striker-feat-move-d/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "LAXSHE4",
+    "format": "",
+    "quality_score": 63,
+    "_score_breakdown": {
+      "total": 63,
+      "label": 25,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "6ae2bb6e",
     "title": "Verve: Remixed",
     "artist": "Various",
@@ -7070,6 +7575,35 @@
       "juno": "https://www.juno.co.uk/products/verve-remixed-vinyl/1096949-01/"
     },
     "style_enriched": true
+  },
+  {
+    "id": "5402eaf7",
+    "title": "Walkman - 2x12\"",
+    "artist": "Speedy J",
+    "album": "Walkman - 2x12\"",
+    "label": "Stoor",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195814-s60-speedy-j-walkman-2x12/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "S60",
+    "format": "",
+    "quality_score": 55,
+    "_score_breakdown": {
+      "total": 55,
+      "label": 15,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 2
+    }
   },
   {
     "id": "c09e1022",
@@ -7106,6 +7640,68 @@
     "style_enriched": true
   },
   {
+    "id": "203b78db",
+    "title": "Mind Games Remixes Part 2",
+    "artist": "Reboot/David Gtronic",
+    "album": "Mind Games Remixes Part 2",
+    "label": "Personality Disorder Music",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/reboot-david-gtronic-mind-games-remixes-part-2-vinyl/1146551-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 51,
+    "_score_breakdown": {
+      "total": 51,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "8e8dce38",
+    "title": "A Humdrum Star",
+    "artist": "Gogo Penguin",
+    "album": "A Humdrum Star",
+    "label": "Blue Note",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/gogo-penguin-a-humdrum-star-vinyl/673138-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2018,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 51,
+    "_score_breakdown": {
+      "total": 51,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "ce134f2e",
     "title": "Bright Side EP",
     "artist": "Matthew Hartshorn",
@@ -7139,6 +7735,100 @@
       "niche": 0
     },
     "style_enriched": true
+  },
+  {
+    "id": "1b41aa81",
+    "title": "Tonite",
+    "artist": "Those Guys",
+    "album": "Tonite",
+    "label": "MCA RECORDS",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Those_Guys_Tonite_MCA1254079_Vinyl__1228459",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MCA1254079",
+    "format": "Single",
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Those_Guys_Tonite_MCA1254079_Vinyl__1228459",
+      "juno": "https://www.juno.co.uk/products/those-guys-tonite-vinyl/1144887-01/"
+    },
+    "discogs_year": 1991,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 49,
+    "_score_breakdown": {
+      "total": 49,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    }
+  },
+  {
+    "id": "6041075b",
+    "title": "Divina EP",
+    "artist": "Rhythm Of Paradise",
+    "album": "Divina EP",
+    "label": "Ritmo Adriatico",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195826-rtd001-rhythm-of-paradise-divina-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "RTD001",
+    "format": "",
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 0,
+      "artist": 30,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "135ef8ca",
+    "title": "MUSIQUE POUR 3 FEMMES ENCEINTES - 2x12\"",
+    "artist": "MARC LECLAIR",
+    "album": "MUSIQUE POUR 3 FEMMES ENCEINTES - 2x12\"",
+    "label": "Isc Hi-Fi Selects",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195824-ischfr-002-marc-leclair-musique-pour-3-femmes-enceintes-2x12/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ISCHFR-002",
+    "format": "",
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 0,
+      "artist": 30,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "f10425bf",
@@ -7356,6 +8046,65 @@
     "style_enriched": true
   },
   {
+    "id": "af551e74",
+    "title": "Connecting The Dots",
+    "artist": "oskø",
+    "album": "Connecting The Dots",
+    "label": "Kompakt",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://kompakt.bandcamp.com/album/connecting-the-dots",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "4eac11dd",
+    "title": "Horizon Dream 2026",
+    "artist": "Various",
+    "album": "Horizon Dream 2026",
+    "label": "Universal Japan",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/horizon-dream-2026-cd/1135374-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year_checked": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "3c41de62",
     "title": "Bborn Again",
     "artist": "PPP, Piezo, DJ Plead & DJ Python",
@@ -7388,6 +8137,122 @@
     },
     "source_urls": {
       "boomkat": "https://boomkat.com/products/bborn-again-61005aab-13cc-432a-a0f6-31f72cec6d18"
+    }
+  },
+  {
+    "id": "7083d7ae",
+    "title": "Deep Rays",
+    "artist": "Eira Haul",
+    "album": "Deep Rays",
+    "label": "Limousine Dream",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195801-ld011-eira-haul-deep-rays/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "LD011",
+    "format": "",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "1198a784",
+    "title": "Transmissions #1",
+    "artist": "F.T.G, Nick Beringer, Floorfillers, Nicolas Aftalion",
+    "album": "Transmissions #1",
+    "label": "Skylax",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195821-laxtrans1-f-t-g-nick-beringer-floorfillers-nicolas-aftalion-transmissions-1/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "LAXTRANS1",
+    "format": "",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "3b2bc350",
+    "title": "Strong Together EP",
+    "artist": "Infinity Plus One",
+    "album": "Strong Together EP",
+    "label": "Carpet & Snares Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195804-carpetandfriends01-infinity-plus-one-strong-together-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CARPETANDFRIENDS01",
+    "format": "",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "88540c7f",
+    "title": "Back To The Basics EP (Incl. Fred P Remix)",
+    "artist": "L.D.F. & Javontte",
+    "album": "Back To The Basics EP (Incl. Fred P Remix)",
+    "label": "Phonogramme",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195796-phonogramme79-l-d-f-and-javontte-back-to-the-basics-ep-incl-fred-p-remix/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "PHONOGRAMME79",
+    "format": "",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -7428,6 +8293,99 @@
       "juno": "https://www.juno.co.uk/products/patricia-wolf-see-through-vinyl/871793-01/"
     },
     "style_enriched": true
+  },
+  {
+    "id": "9af1f9f4",
+    "title": "Sundays EP",
+    "artist": "Module One",
+    "album": "Sundays EP",
+    "label": "Luck Of Access",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/module-one-sundays-ep-vinyl/1146617-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "3b334c49",
+    "title": "Extended Versions",
+    "artist": "Auntie Flo/Doe Paoro",
+    "album": "Extended Versions",
+    "label": "A State Of Flo",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/auntie-flo-doe-paoro-extended-versions-vinyl/1146618-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "3d7c14db",
+    "title": "Walkman",
+    "artist": "Speedy J",
+    "album": "Walkman",
+    "label": "",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "clone",
+    "source_url": "https://clone.nl/item83102.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "S60",
+    "format": "LP",
+    "discogs_year": 2008,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 40,
+    "_score_breakdown": {
+      "total": 40,
+      "label": 0,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 2
+    }
   },
   {
     "id": "579f7476",
@@ -7502,6 +8460,192 @@
     "style_enriched": true
   },
   {
+    "id": "013fee1d",
+    "title": "No Man's Land (The Time & Space Machine Remixes)",
+    "artist": "Addy Weitzman",
+    "album": "No Man's Land (The Time & Space Machine Remixes)",
+    "label": "Slacker 85",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Addy_Weitzman_No_Mans_Land_The_Time_%26_Space_Machine_Remixes_SLACKER012RV1_Vinyl__1220840",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SLACKER012RV1",
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 20,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "150b3c62",
+    "title": "SDA #7",
+    "artist": "Various",
+    "album": "SDA #7",
+    "label": "Sda",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195798-sda007-sda-7/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SDA007",
+    "format": "",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 0,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "c474b5b1",
+    "title": "WE COULD BE LOVE(LP)",
+    "artist": "Hayden James",
+    "album": "WE COULD BE LOVE(LP)",
+    "label": "Future Classic",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Hayden+James",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "6922967801",
+    "format": "",
+    "quality_score": 37,
+    "_score_breakdown": {
+      "total": 37,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "e6f88ebd",
+    "title": "Sucre De Pasteque",
+    "artist": "Vox Populi!",
+    "album": "Sucre De Pasteque",
+    "label": "Dark Entries",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Vox_Populi!_Sucre_De_Pasteque_DE-346_Vinyl__1205900",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DE-346",
+    "format": "Single",
+    "discogs_year": 1986,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "e16aeab4",
+    "title": "Mingus Ah Um LP",
+    "artist": "CHARLES MINGUS",
+    "album": "Mingus Ah Um LP",
+    "label": "Waxtime",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/CHARLES_MINGUS_Mingus_Ah_Um_LP_526013_Vinyl__1153366",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "526013",
+    "format": "Single",
+    "discogs_year": 2010,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "2fe9a5f8",
+    "title": "Panoramic Coloursound",
+    "artist": "The Creative Technology Consortium",
+    "album": "Panoramic Coloursound",
+    "label": "Dark Entries",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/The_Creative_Technology_Consortium_Panoramic_Coloursound_DE300_Vinyl__1153918",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DE300",
+    "format": "Single",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "971d8b60",
     "title": "Tribe Sequence",
     "artist": "Ravetrx",
@@ -7537,6 +8681,69 @@
     }
   },
   {
+    "id": "47bfb0eb",
+    "title": "Worn By Salt",
+    "artist": "Melodie Blaison",
+    "album": "Worn By Salt",
+    "label": "Final Image",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/melodie-blaison-worn-by-salt-cassette/1146544-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 34,
+    "_score_breakdown": {
+      "total": 34,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "35ee96f2",
+    "title": "Blimey",
+    "artist": "Thugwidow/Bruised Skies",
+    "album": "Blimey",
+    "label": "Hooversound Recordings",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/thugwidow-bruised-skies-blimey-vinyl/1146496-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 34,
+    "_score_breakdown": {
+      "total": 34,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "273ef167",
     "title": "Disco Biscuits #7",
     "artist": "VARIOUS ARTISTS",
@@ -7569,6 +8776,219 @@
     },
     "source_urls": {
       "phonica": "https://www.phonicarecords.com/product/view/210473"
+    }
+  },
+  {
+    "id": "92d3cc30",
+    "title": "Ritmo Magnetico 7?",
+    "artist": "Disco Strummer",
+    "album": "Ritmo Magnetico 7?",
+    "label": "Polyamore",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195809-pa037-disco-strummer-ritmo-magnetico-7?/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "PA037",
+    "format": "",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "c71047f1",
+    "title": "Fain",
+    "artist": "Page Five",
+    "album": "Fain",
+    "label": "The Edge Of Me",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/185914-edge05-page-five-fain/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "EDGE05",
+    "format": "",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "910fa5b6",
+    "title": "The Face Of The Deep",
+    "artist": "Venetia",
+    "album": "The Face Of The Deep",
+    "label": "Maai Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195802-maai011-venetia-the-face-of-the-deep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MAAI011",
+    "format": "",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "1d477c70",
+    "title": "Digital Digits EP",
+    "artist": "Hayter",
+    "album": "Digital Digits EP",
+    "label": "Hilltown Disco",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195810-hil015-hayter-digital-digits-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "HIL015",
+    "format": "",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "d7ba3e85",
+    "title": "Music For A Dreaming Generation (Incl. Rabbit In The Moon Remixes)",
+    "artist": "R.I.P. Bestia",
+    "album": "Music For A Dreaming Generation (Incl. Rabbit In The Moon Remixes)",
+    "label": "Ufc",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/188430-ufc010-r-i-p-bestia-music-for-a-dreaming-generation-incl-rabbit-in-the-moon-remixes/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "UFC010",
+    "format": "",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "dd621d23",
+    "title": "Absence EP",
+    "artist": "Enrico Sangiuliano",
+    "album": "Absence EP",
+    "label": "NINETOZERO",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Techno"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Enrico_Sangiuliano_Absence_EP_NTZ000_Vinyl__1226773",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "NTZ000",
+    "format": "Single",
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Enrico_Sangiuliano_Absence_EP_NTZ000_Vinyl__1226773",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Enrico+Sangiuliano"
+    },
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 32,
+    "_score_breakdown": {
+      "total": 32,
+      "label": 8,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    }
+  },
+  {
+    "id": "4bff1759",
+    "title": "GREEK VARIATIONS(LP)",
+    "artist": "Neil Ardley / Ian Carr / Don Rendell",
+    "album": "GREEK VARIATIONS(LP)",
+    "label": "Decca",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jazz"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Neil+Ardley+%2F+Ian+Carr+%2F+Don+Rendell",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "8808400",
+    "format": "",
+    "quality_score": 32,
+    "_score_breakdown": {
+      "total": 32,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -7610,6 +9030,283 @@
     }
   },
   {
+    "id": "76da8807",
+    "title": "Brasil '25 EP",
+    "artist": "Unknown Artist",
+    "album": "Brasil '25 EP",
+    "label": "Vibez '93",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Unknown_Artist_Brasil_25_EP_93TIBRASIL_Vinyl__1151227",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "93TIBRASIL",
+    "format": "Single",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "8d08b8e2",
+    "title": "PARACHUTES LP",
+    "artist": "COLDPLAY",
+    "album": "PARACHUTES LP",
+    "label": "Parlophone",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/COLDPLAY_PARACHUTES_LP_5021732630865_Vinyl__1162137",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "5021732630865",
+    "format": "Single",
+    "discogs_year": 2000,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "64708fc2",
+    "title": "Waves LP 2x12\"",
+    "artist": "Moonchild",
+    "album": "Waves LP 2x12\"",
+    "label": "Tru Thoughts Recordings",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Moonchild_Waves_LP_2x12_TRULP476_Vinyl__1213832",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TRULP476",
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "26d0dea1",
+    "title": "Waves LP 2x12\"",
+    "artist": "Moonchild",
+    "album": "Waves LP 2x12\"",
+    "label": "Tru Thoughts Recordings",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Moonchild_Waves_LP_2x12_TRULP476X_Vinyl__1213835",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TRULP476X",
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "c5242229",
+    "title": "Soundsystem Champions 2 LP",
+    "artist": "Mungo's Hi Fi",
+    "album": "Soundsystem Champions 2 LP",
+    "label": "Scotch Bonnet",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Mungos_Hi_Fi_Soundsystem_Champions_2_LP_SCOBLP016_Vinyl__1206035",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SCOBLP016",
+    "format": "Single",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "f6b48b71",
+    "title": "No More You And Me/ You Always Did What You Wanted (7\")",
+    "artist": "The Tornados",
+    "album": "No More You And Me/ You Always Did What You Wanted (7\")",
+    "label": "Measured Mile",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/The_Tornados_No_More_You_And_Me_You_Always_Did_What_You_Wanted_7_NW522_Vinyl__1218929",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "NW522",
+    "format": "Single",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b925654f",
+    "title": "Oversail - Green Splattered Orange Vinyl LP",
+    "artist": "OCHRE",
+    "album": "Oversail - Green Splattered Orange Vinyl LP",
+    "label": "Mystic & Quantum",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195813-mqwaw-04orangegreen-ochre-oversail-green-splattered-orange-vinyl-lp/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MQWAW-04ORANGEGREEN",
+    "format": "",
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "8217a4a0",
+    "title": "Oversail - Translucent Orange Vinyl LP",
+    "artist": "OCHRE",
+    "album": "Oversail - Translucent Orange Vinyl LP",
+    "label": "Mystic & Quantum",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195812-mqwaw-04orange-ochre-oversail-translucent-orange-vinyl-lp/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MQWAW-04ORANGE",
+    "format": "",
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "f56128f7",
+    "title": "V(LP)",
+    "artist": "Niia",
+    "album": "V(LP)",
+    "label": "CANDID",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jazz"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Niia",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "LPCNDC33811",
+    "format": "",
+    "quality_score": 27,
+    "_score_breakdown": {
+      "total": 27,
+      "label": 20,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "c35bf97d",
     "title": "Tábano",
     "artist": "Lao",
@@ -7643,6 +9340,125 @@
     },
     "source_urls": {
       "boomkat": "https://boomkat.com/products/tabano"
+    }
+  },
+  {
+    "id": "04253efa",
+    "title": "Our Darkness",
+    "artist": "Anne Clark",
+    "album": "Our Darkness",
+    "label": "Dark Entries",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Anne_Clark_Our_Darkness_DE-340_Vinyl__1226086",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DE-340",
+    "format": "Single",
+    "discogs_year": 1997,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 8,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "52b6c211",
+    "title": "Quiet Understanding EP",
+    "artist": "Various Artists",
+    "album": "Quiet Understanding EP",
+    "label": "Planka Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195803-plnk007-various-artists-quiet-understanding-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "PLNK007",
+    "format": "",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 8,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "7266b4a1",
+    "title": "Elsewere EP",
+    "artist": "Oliver Rosemann",
+    "album": "Elsewere EP",
+    "label": "Renegade Methodz",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195819-rm28-oliver-rosemann-elsewere-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "RM28",
+    "format": "",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 8,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "4503561f",
+    "title": "Silent Takeover - 2x12\"",
+    "artist": "Various Artists",
+    "album": "Silent Takeover - 2x12\"",
+    "label": "Tsunami Records",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195816-tsu057-various-artists-silent-takeover-2x12/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TSU057",
+    "format": "",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 8,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -8018,6 +9834,483 @@
     }
   },
   {
+    "id": "c1216ef0",
+    "title": "Structuralism",
+    "artist": "Alfa Mist",
+    "album": "Structuralism",
+    "label": "Sekito",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/alfa-mist-structuralism-vinyl/723904-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2019,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "96e56160",
+    "title": "An Offering",
+    "artist": "Photay/Carlos Nino",
+    "album": "An Offering",
+    "label": "International Anthem US",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/photay-with-carlos-nino-an-offering-vinyl/902132-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2022,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "8fea18bc",
+    "title": "Traveling Light",
+    "artist": "Rafael Toral",
+    "album": "Traveling Light",
+    "label": "Drag City US",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/rafael-toral-traveling-light-cd/1109685-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "8b2facf8",
+    "title": "Kuun Sininen Rinki",
+    "artist": "Juho Toivonen",
+    "album": "Kuun Sininen Rinki",
+    "label": "Infinite Expanse",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/juho-toivonen-kuun-sininen-rinki-vinyl/1146543-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "cafb7762",
+    "title": "Two Actors",
+    "artist": "Mark Harwood",
+    "album": "Two Actors",
+    "label": "Akti US",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/mark-harwood-two-actors-cd/1146545-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "48098532",
+    "title": "D'une Nostalgie Inconnue",
+    "artist": "Delphine Dora",
+    "album": "D'une Nostalgie Inconnue",
+    "label": "Akti US",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/delphine-dora-dune-nostalgie-inconnue-cd/1146550-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "5b62e986",
+    "title": "Cloud Machines",
+    "artist": "Berndt/Schmidt",
+    "album": "Cloud Machines",
+    "label": "Thrill Jockey US",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/berndt-schmidt-cloud-machines-vinyl/1146718-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "726878f7",
+    "title": "Connecters Vol 1: Original Recordings 1992-1999",
+    "artist": "Larrison",
+    "album": "Connecters Vol 1: Original Recordings 1992-1999",
+    "label": "Freedom To Spend US",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/larrison-connecters-vol-1-original-recordings-1992-1999-vinyl/1140984-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "bfafa8f2",
+    "title": "Corpus Delicti EP",
+    "artist": "Mazlika",
+    "album": "Corpus Delicti EP",
+    "label": "Off Center Japan",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/mazlika-corpus-delicti-ep-vinyl/1133187-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "5ecef0dc",
+    "title": "The Yellow Place",
+    "artist": "Apiento & Tepper Ft MC Kinky",
+    "album": "The Yellow Place",
+    "label": "Test Pressing Tracks",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/apiento-tepper-ft-mc-kinky-the-yellow-place-vinyl/1146339-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b5d17509",
+    "title": "How Long Has It Been?",
+    "artist": "Reckonwrong",
+    "album": "How Long Has It Been?",
+    "label": "New Year",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/reckonwrong-how-long-has-it-been-vinyl/1146502-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "e054a80e",
+    "title": "Sheepsong Unlimited",
+    "artist": "Pebble Seven",
+    "album": "Sheepsong Unlimited",
+    "label": "42far",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/pebble-seven-sheepsong-unlimited-vinyl/1146503-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "e733e80e",
+    "title": "L'oreille Voleuse",
+    "artist": "Brunhild Ferrari/Eiko Ishibashi/Jim O'rourke",
+    "album": "L'oreille Voleuse",
+    "label": "Persistence Of Sound UK",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/brunhild-ferrari-eiko-ishibashi-jim-orourke-loreille-voleuse-vinyl/1146513-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "31b1cea9",
+    "title": "Dime Algo feat. Kyd Nereida",
+    "artist": "Payfone",
+    "album": "Dime Algo feat. Kyd Nereida",
+    "label": "LENG RECORDS",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Payfone_Dime_Algo_feat_Kyd_Nereida_LENG075_Vinyl__1221839",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "LENG075",
+    "format": "Single",
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Payfone_Dime_Algo_feat_Kyd_Nereida_LENG075_Vinyl__1221839",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Payfone"
+    },
+    "discogs_year_checked": true,
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    }
+  },
+  {
+    "id": "618198b6",
+    "title": "This House",
+    "artist": "Soft Rains Will Come",
+    "album": "This House",
+    "label": "Pink Cotton Candy Records",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Punk",
+      "Hardcore",
+      "Post-Punk",
+      "Shoegaze",
+      "Post-Rock",
+      "Math",
+      "Experimental Indie"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/214835-soft-rains-will-come-this-house",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "1874cd14",
     "title": "Rainy Days (1970-1974)",
     "artist": "TED LUCAS",
@@ -8158,6 +10451,392 @@
     }
   },
   {
+    "id": "a326f2b2",
+    "title": "Extra Ordinary",
+    "artist": "Andy Cooper",
+    "album": "Extra Ordinary",
+    "label": "Breakbeat Paradise",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Andy_Cooper_%26_DJ_Robert_Smith_Extra_Ordinary_BBP253_Vinyl__1214048",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BBP253",
+    "format": "Single",
+    "discogs_year": 1990,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b110d22c",
+    "title": "Juicy / In Love (7\")",
+    "artist": "Battle Weapons Vol 11",
+    "album": "Juicy / In Love (7\")",
+    "label": "Battle Weapons",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Battle_Weapons_Vol_11_Juicy_In_Love_7_BW011_Vinyl__1226860",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BW011",
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "07ed7d68",
+    "title": "Rebelzeit (7\")",
+    "artist": "DJ Eprom",
+    "album": "Rebelzeit (7\")",
+    "label": "JuNouMi",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/DJ_Eprom_Rebelzeit_7_JNM040_Vinyl__1217957",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "JNM040",
+    "format": "Single",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "c29ccd9c",
+    "title": "Aphid Riot EP",
+    "artist": "Regent",
+    "album": "Aphid Riot EP",
+    "label": "+positivesource",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Regent_Aphid_Riot_EP_SRC006_Vinyl__1220165",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SRC006",
+    "format": "Single",
+    "discogs_year": 2024,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "7216c119",
+    "title": "Dubble 006",
+    "artist": "Brennan",
+    "album": "Dubble 006",
+    "label": "Dubble",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195800-dubble006-brennan-dubble-006/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DUBBLE006",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "5112fd11",
+    "title": "Educator EP",
+    "artist": "Charlie DK",
+    "album": "Educator EP",
+    "label": "Drifted Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195799-dr007-charlie-dk-educator-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DR007",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "bf82d783",
+    "title": "Varginha 96 EP",
+    "artist": "Loopdeville",
+    "album": "Varginha 96 EP",
+    "label": "Selekt Sounds",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195825-swax002-loopdeville-varginha-96-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SWAX002",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b0fe5317",
+    "title": "Unsteady Thoughts",
+    "artist": "OTHER",
+    "album": "Unsteady Thoughts",
+    "label": "Image Recordings",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195817-image05-other-unsteady-thoughts/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "IMAGE05",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b3184204",
+    "title": "Re-Make: Re-Model (Richard Norris Remixes) - Coloured Vinyl.",
+    "artist": "Richard Norris",
+    "album": "Re-Make: Re-Model (Richard Norris Remixes) - Coloured Vinyl.",
+    "label": "Group Mind 2",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195820-gm65lpc-richard-norris-re-make-re-model-richard-norris-remixes-coloured-vinyl/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "GM65LPC",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b0ed693a",
+    "title": "Vol.5",
+    "artist": "Ron Hardy Classics",
+    "album": "Vol.5",
+    "label": "Rdy",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195806-rdycs5-ron-hardy-classics-vol-5/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "RDYCS5",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b8e3b0ee",
+    "title": "Clinical Records 002",
+    "artist": "Various Artists",
+    "album": "Clinical Records 002",
+    "label": "Clinical Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195795-clinicalrecordsva002-various-artists-clinical-records-002/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CLINICALRECORDSVA002",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "395b9465",
+    "title": "Ten",
+    "artist": "Claudio Mate",
+    "album": "Ten",
+    "label": "Claudio Mate Records",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195808-cmr-001-claudio-mate-ten/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CMR-001",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "75970f7c",
+    "title": "Communion - 2xLP",
+    "artist": "Originale Disco Version",
+    "album": "Communion - 2xLP",
+    "label": "Originale Disco Version",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195818-odv001-originale-disco-version-communion-2xlp/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ODV001",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "03765aab",
     "title": "Live On Everybody's Songs WFMU 91.1",
     "artist": "Gwenifer Raymond",
@@ -8189,6 +10868,108 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36814861-Gwenifer-Raymond-Live-On-Everybodys-Songs-WFMU-911"
+    }
+  },
+  {
+    "id": "a4a04e18",
+    "title": "PUSH IT GOOD / SCANDALIZE LIFETIME(7 INCH)",
+    "artist": "Smoove",
+    "album": "PUSH IT GOOD / SCANDALIZE LIFETIME(7 INCH)",
+    "label": "Wack Records",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Hip-hop"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Smoove",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "WACK28",
+    "format": "",
+    "quality_score": 7,
+    "_score_breakdown": {
+      "total": 7,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "a5f8edcf",
+    "title": "Peace & Purpose",
+    "artist": "Crack Cloud",
+    "album": "Peace & Purpose",
+    "label": "Meat Machine",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Punk",
+      "Hardcore",
+      "Post-Punk"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/213400-crack-cloud-peace-purpose",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year_checked": true,
+    "quality_score": 7,
+    "_score_breakdown": {
+      "total": 7,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "4c910566",
+    "title": "Courtroom Wedding",
+    "artist": "Chris D / Poison Fang Society",
+    "album": "Courtroom Wedding",
+    "label": "In The Red",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Folk",
+      "Country",
+      "Singer-songwriter",
+      "Punk",
+      "Hardcore",
+      "Post-Punk"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/214209-chris-d-poison-fang-society-courtroom-wedding",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year_checked": true,
+    "quality_score": 7,
+    "_score_breakdown": {
+      "total": 7,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -9706,11 +12487,13 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "Techno"
+      "Techno",
+      "House",
+      "Acid"
     ],
     "source": "decks",
     "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Tim+Paris",
-    "discogs_url": "",
+    "discogs_url": "https://www.discogs.com/release/36932070-Tim-Paris-Featuring-Foremost-Poets-That-Boy-Remixes",
     "bpm": null,
     "catalog_number": "Playrjc 134",
     "format": "",
@@ -10668,6 +13451,40 @@
     }
   },
   {
+    "id": "7c82b545",
+    "title": "DJ-Kicks Kruder & Dorfmeister (30th Anniversary CD)",
+    "artist": "KRUDER & DORFMEISTER",
+    "album": "DJ-Kicks Kruder & Dorfmeister (30th Anniversary CD)",
+    "label": "!K7 Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-30",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "phonica",
+    "source_url": "https://www.phonicarecords.com/product/view/210464",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year_checked": true,
+    "quality_score": 32,
+    "_score_breakdown": {
+      "total": 32,
+      "label": 8,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "phonica": "https://www.phonicarecords.com/product/view/210464",
+      "bandcamp": "https://k7records.bandcamp.com/album/dj-kicks-kruder-dorfmeister-30th-anniversary-box-set-edition"
+    }
+  },
+  {
     "id": "948dd6bd",
     "title": "Dark Sky Reservation",
     "artist": "L.Y.R.",
@@ -11524,39 +14341,6 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195752-ana011ltd-various-artists-invites-homeground-edition/"
-    }
-  },
-  {
-    "id": "7c82b545",
-    "title": "DJ-Kicks Kruder & Dorfmeister (30th Anniversary CD)",
-    "artist": "KRUDER & DORFMEISTER",
-    "album": "DJ-Kicks Kruder & Dorfmeister (30th Anniversary CD)",
-    "label": "!K7 Records",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-30",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "phonica",
-    "source_url": "https://www.phonicarecords.com/product/view/210464",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "discogs_year_checked": true,
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "phonica": "https://www.phonicarecords.com/product/view/210464"
     }
   },
   {
@@ -15324,7 +18108,7 @@
       "niche": 0
     },
     "source_urls": {
-      "bandcamp": "https://diffusereality.bandcamp.com/album/rotor-milita-exit-human-vinyl"
+      "bandcamp": "https://diffusereality.bandcamp.com/album/rotor-militia-exit-human-vinyl"
     },
     "style_enriched": true
   },
@@ -18098,6 +20882,41 @@
     "style_enriched": true
   },
   {
+    "id": "d41ee508",
+    "title": "Beau Mot Plage (Incl. Heaven & Earth / Freeform Five Remixes)",
+    "artist": "Isolée",
+    "album": "Beau Mot Plage (Incl. Heaven & Earth / Freeform Five Remixes)",
+    "label": "Classic",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "house"
+    ],
+    "source": "piccadilly",
+    "source_url": "https://www.piccadillyrecords.com/166864/Isolée-Beau-Mot-Plage-(Incl-Heaven-Earth-Freeform-Five-Remixes)-Classic",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CMC086RMX2",
+    "format": "",
+    "quality_score": 78,
+    "_score_breakdown": {
+      "total": 78,
+      "label": 30,
+      "artist": 30,
+      "genre": 10,
+      "source": 2,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "piccadilly": "https://www.piccadillyrecords.com/166864/Isolée-Beau-Mot-Plage-(Incl-Heaven-Earth-Freeform-Five-Remixes)-Classic",
+      "deejay": "https://www.deejay.de/Isolée_Beau_Mot_Plage_Incl_Heaven_%26_Earth_Freeform_Five_Remixes_CMC086RMX2_Vinyl__1218365"
+    }
+  },
+  {
     "id": "067512d5",
     "title": "BULLY",
     "artist": "Ye",
@@ -18134,7 +20953,8 @@
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/213995-ye-bully",
       "rushhour": "https://www.rushhour.nl/record/vinyl/bully",
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Ye"
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Ye",
+      "deejay": "https://www.deejay.de/Yé_BULLY_LP_YZYGAMMA001_Vinyl__1216724"
     },
     "style_enriched": true
   },
@@ -18352,40 +21172,6 @@
     "style_enriched": true
   },
   {
-    "id": "d41ee508",
-    "title": "Beau Mot Plage (Incl. Heaven & Earth / Freeform Five Remixes)",
-    "artist": "Isolée",
-    "album": "Beau Mot Plage (Incl. Heaven & Earth / Freeform Five Remixes)",
-    "label": "Classic",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "house"
-    ],
-    "source": "piccadilly",
-    "source_url": "https://www.piccadillyrecords.com/166864/Isolée-Beau-Mot-Plage-(Incl-Heaven-Earth-Freeform-Five-Remixes)-Classic",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "CMC086RMX2",
-    "format": "",
-    "quality_score": 72,
-    "_score_breakdown": {
-      "total": 72,
-      "label": 30,
-      "artist": 30,
-      "genre": 10,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "piccadilly": "https://www.piccadillyrecords.com/166864/Isolée-Beau-Mot-Plage-(Incl-Heaven-Earth-Freeform-Five-Remixes)-Classic"
-    }
-  },
-  {
     "id": "ba35dbc7",
     "title": "DJ-Kicks: Sofia Kourtesis",
     "artist": "Sofia Kourtesis",
@@ -18569,47 +21355,6 @@
       "multi": 10,
       "niche": 0
     }
-  },
-  {
-    "id": "63fc4a7a",
-    "title": "Shine A Light EP",
-    "artist": "Riva Starr",
-    "album": "Shine A Light EP",
-    "label": "REKIDS",
-    "genre": "Progressive House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Trance",
-      "Hard Trance",
-      "Progressive Trance",
-      "House",
-      "Electro",
-      "Progressive House",
-      "Techno"
-    ],
-    "source": "bandcamp",
-    "source_url": "https://rekids.bandcamp.com/album/shine-a-light-ep",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 70,
-    "_score_breakdown": {
-      "total": 70,
-      "label": 30,
-      "artist": 20,
-      "genre": 8,
-      "source": 6,
-      "multi": 0,
-      "niche": 6
-    },
-    "source_urls": {
-      "bandcamp": "https://rekids.bandcamp.com/album/shine-a-light-ep"
-    },
-    "style_enriched": true
   },
   {
     "id": "a876a134",
@@ -19232,6 +21977,42 @@
     "style_enriched": true
   },
   {
+    "id": "c8e78d15",
+    "title": "Blessings",
+    "artist": "Liva K, OVEOUS",
+    "album": "Blessings",
+    "label": "Crosstown Rebels",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14448851/blessings",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CRM347",
+    "format": "",
+    "quality_score": 62,
+    "_score_breakdown": {
+      "total": 62,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 10,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14448851/blessings",
+      "bandcamp": "https://crosstownrebels.bandcamp.com/album/blessings",
+      "deejay": "https://www.deejay.de/Liva_K_%26_OVEOUS_Blessings_CRM347_Vinyl__1225112"
+    }
+  },
+  {
     "id": "8b35a10b",
     "title": "Liquid",
     "artist": "Opal Sunn",
@@ -19550,41 +22331,6 @@
       "source": 2,
       "multi": 6,
       "niche": 0
-    }
-  },
-  {
-    "id": "c8e78d15",
-    "title": "Blessings",
-    "artist": "Liva K, OVEOUS",
-    "album": "Blessings",
-    "label": "Crosstown Rebels",
-    "genre": "Afro House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Afro House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14448851/blessings",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 58,
-    "_score_breakdown": {
-      "total": 58,
-      "label": 30,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14448851/blessings",
-      "bandcamp": "https://crosstownrebels.bandcamp.com/album/blessings"
     }
   },
   {
@@ -20074,6 +22820,49 @@
     "style_enriched": true
   },
   {
+    "id": "410649c3",
+    "title": "Confessions on a Dance Floor (The Silver Collection)",
+    "artist": "Madonna",
+    "album": "Confessions on a Dance Floor (The Silver Collection)",
+    "label": "Warner Bros",
+    "genre": "Acid",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House",
+      "Dance",
+      "Acid",
+      "Old-Skool",
+      "Disco",
+      "Pop",
+      "Indie Pop",
+      "Experimental Pop",
+      "Electro-Pop"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/214040-madonna-confessions-on-a-dance-floor",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "0603497808120",
+    "format": "LP",
+    "quality_score": 54,
+    "_score_breakdown": {
+      "total": 54,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 2,
+      "multi": 6,
+      "niche": 6
+    },
+    "source_urls": {
+      "norman": "https://www.normanrecords.com/records/214040-madonna-confessions-on-a-dance-floor",
+      "deejay": "https://www.deejay.de/Madonna_Confessions_on_a_Dance_Floor_Silver_Collection_2x12_0603497808120_Vinyl__1216877"
+    }
+  },
+  {
     "id": "fa6c3bc0",
     "title": "OHM Series #18",
     "artist": "Various Artists",
@@ -20453,48 +23242,6 @@
       "source": 8,
       "multi": 10,
       "niche": 0
-    }
-  },
-  {
-    "id": "410649c3",
-    "title": "Confessions on a Dance Floor (The Silver Collection)",
-    "artist": "Madonna",
-    "album": "Confessions on a Dance Floor (The Silver Collection)",
-    "label": "Warner Bros",
-    "genre": "Acid",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "House",
-      "Dance",
-      "Acid",
-      "Old-Skool",
-      "Disco",
-      "Pop",
-      "Indie Pop",
-      "Experimental Pop",
-      "Electro-Pop"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/214040-madonna-confessions-on-a-dance-floor",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "quality_score": 48,
-    "_score_breakdown": {
-      "total": 48,
-      "label": 0,
-      "artist": 20,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 6
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/214040-madonna-confessions-on-a-dance-floor"
     }
   },
   {
@@ -20883,6 +23630,42 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14479090/man-on-the-moon-extended-mix"
+    }
+  },
+  {
+    "id": "6c316419",
+    "title": "Edge Of Desire",
+    "artist": "Jonas Blue & Malive",
+    "album": "Edge Of Desire",
+    "label": "Defected",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "house"
+    ],
+    "source": "piccadilly",
+    "source_url": "https://www.piccadillyrecords.com/166866/Jonas-Blue-Malive-Edge-Of-Desire-Defected",
+    "discogs_url": "https://www.discogs.com/release/36932460-Jonas-Blue-Malive-Edge-of-Desire",
+    "bpm": null,
+    "catalog_number": "DFTD751",
+    "format": "",
+    "source_urls": {
+      "piccadilly": "https://www.piccadillyrecords.com/166866/Jonas-Blue-Malive-Edge-Of-Desire-Defected",
+      "juno": "https://www.juno.co.uk/products/jonas-blue-malive-edge-of-desire-vinyl/1143076-01/",
+      "deejay": "https://www.deejay.de/Jonas_Blue_%26_Malive_Edge_of_Desire_DFTD751_Vinyl__1226287"
+    },
+    "quality_score": 47,
+    "_score_breakdown": {
+      "total": 47,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 2,
+      "multi": 10,
+      "niche": 0
     }
   },
   {
@@ -21980,41 +24763,6 @@
     }
   },
   {
-    "id": "6c316419",
-    "title": "Edge Of Desire",
-    "artist": "Jonas Blue & Malive",
-    "album": "Edge Of Desire",
-    "label": "Defected",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "house"
-    ],
-    "source": "piccadilly",
-    "source_url": "https://www.piccadillyrecords.com/166866/Jonas-Blue-Malive-Edge-Of-Desire-Defected",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "DFTD751",
-    "format": "",
-    "source_urls": {
-      "piccadilly": "https://www.piccadillyrecords.com/166866/Jonas-Blue-Malive-Edge-Of-Desire-Defected",
-      "juno": "https://www.juno.co.uk/products/jonas-blue-malive-edge-of-desire-vinyl/1143076-01/"
-    },
-    "quality_score": 43,
-    "_score_breakdown": {
-      "total": 43,
-      "label": 25,
-      "artist": 0,
-      "genre": 10,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    }
-  },
-  {
     "id": "a4380ccb",
     "title": "One Wish - South Carolina 1975-83 LP 2x12\"",
     "artist": "Midnight Blue",
@@ -22936,6 +25684,46 @@
       "juno": "https://www.juno.co.uk/products/crue-kasper-adryiano-the-many-shades-of-soul-vinyl/493687-01/"
     },
     "style_enriched": true
+  },
+  {
+    "id": "fc188bf6",
+    "title": "THIS MUSIC MAY CONTAIN HOPE.",
+    "artist": "RAYE",
+    "album": "THIS MUSIC MAY CONTAIN HOPE.",
+    "label": "Human Re Sources",
+    "genre": "Broken Beat",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Pop",
+      "Indie Pop",
+      "Experimental Pop",
+      "Electro-Pop",
+      "broken beat"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/213748-raye-this-music-may-contain-hope",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TMMCHCD",
+    "format": "LP",
+    "quality_score": 40,
+    "_score_breakdown": {
+      "total": 40,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 10,
+      "niche": 0
+    },
+    "source_urls": {
+      "norman": "https://www.normanrecords.com/records/213748-raye-this-music-may-contain-hope",
+      "piccadilly": "https://www.piccadillyrecords.com/165361/RAYE-THIS-MUSIC-MAY-CONTAIN-HOPE-Human-Re-Sources",
+      "deejay": "https://www.deejay.de/RAYE_This_Music_May_Contain_Hope_LP_TMMCHLP1_Vinyl__1213211"
+    }
   },
   {
     "id": "6c19ea33",
@@ -23865,7 +26653,9 @@
       "Kraut",
       "Prog",
       "World",
-      "Electronic"
+      "Electronic",
+      "Free Jazz",
+      "Shaabi"
     ],
     "source": "norman",
     "source_url": "https://www.normanrecords.com/records/214260-praed-al-wahem",
@@ -23887,7 +26677,8 @@
       "norman": "https://www.normanrecords.com/records/214260-praed-al-wahem",
       "juno": "https://www.juno.co.uk/products/praed-al-wahem-vinyl/1139178-01/",
       "boomkat": "https://boomkat.com/products/al-wahem"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "38d5e00d",
@@ -23921,7 +26712,8 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Frank+Sinatra"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "6bcc7183",
@@ -23967,7 +26759,12 @@
     "duration": "",
     "date": "2026-03-27",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Downtempo",
+      "Dub",
+      "Leftfield",
+      "Psychedelic"
+    ],
     "source": "redeye",
     "source_url": "https://www.redeyerecords.co.uk/vinyl/181745-pam001lpg-five-green-moons-moon-1/",
     "discogs_url": "",
@@ -23990,42 +26787,8 @@
     "date_verified": false,
     "discogs_year": 2024,
     "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "0c0e3f61",
-    "title": "A Love I Can't Explain",
-    "artist": "dBridge",
-    "album": "A Love I Can't Explain",
-    "label": "Exit Records",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/dBridge_A_Love_I_Cant_Explain_EXIT085_Vinyl__937545",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "EXIT085",
-    "format": "Single",
-    "discogs_year": 2018,
-    "is_restock": true,
     "discogs_year_checked": true,
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/dBridge_A_Love_I_Cant_Explain_EXIT085_Vinyl__937545"
-    }
+    "style_enriched": true
   },
   {
     "id": "d1ca3965",
@@ -24058,145 +26821,8 @@
     },
     "source_urls": {
       "deejay": "https://www.deejay.de/Dolenz_Pull_EP_ft_Guilty_Simpson_EXIT084_Vinyl__354156"
-    }
-  },
-  {
-    "id": "2dbf8a3d",
-    "title": "Fire EP",
-    "artist": "Mista Trick",
-    "album": "Fire EP",
-    "label": "Fokuz Recordings",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Mista_Trick_Fire_EP_FOKUZSP01V_Vinyl__1219619",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "FOKUZSP01V",
-    "format": "Single",
-    "discogs_year_checked": true,
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
     },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Mista_Trick_Fire_EP_FOKUZSP01V_Vinyl__1219619"
-    }
-  },
-  {
-    "id": "90c8cf8c",
-    "title": "Need To Feel Love / I Need Your Loving 10\"",
-    "artist": "Unknown",
-    "album": "Need To Feel Love / I Need Your Loving 10\"",
-    "label": "Fokuz Recordings",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Unknown_Need_To_Feel_Love_I_Need_Your_Loving_10_LOVE2020_Vinyl__1228081",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "LOVE2020",
-    "format": "Vinyl",
-    "discogs_year": 2020,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Unknown_Need_To_Feel_Love_I_Need_Your_Loving_10_LOVE2020_Vinyl__1228081"
-    }
-  },
-  {
-    "id": "287ff79e",
-    "title": "Dance",
-    "artist": "Kamal Abdul-Alim",
-    "album": "Dance",
-    "label": "Soul Brother Records",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Kamal_Abdul-Alim_Dance_LPSBRSD_Vinyl__974188",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "LPSBRSD",
-    "format": "Single",
-    "discogs_year": 2021,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Kamal_Abdul-Alim_Dance_LPSBRSD_Vinyl__974188"
-    }
-  },
-  {
-    "id": "522dcaef",
-    "title": "Hutson 1",
-    "artist": "Leroy Hutson",
-    "album": "Hutson 1",
-    "label": "ACID JAZZ",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Leroy_Hutson_Hutson_1_AJXLP422_Vinyl__608509",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "AJXLP422",
-    "format": "Single",
-    "discogs_year": 1975,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Leroy_Hutson_Hutson_1_AJXLP422_Vinyl__608509"
-    }
+    "style_enriched": true
   },
   {
     "id": "2c4fd4b5",
@@ -24266,45 +26892,6 @@
     },
     "source_urls": {
       "deejay": "https://www.deejay.de/Glenn_ECHO_DANIEL_MEINECKE_I_Need_Somebody_To_Love_Tonight_7_RSDSE06_Vinyl__1199602"
-    }
-  },
-  {
-    "id": "fc188bf6",
-    "title": "THIS MUSIC MAY CONTAIN HOPE.",
-    "artist": "RAYE",
-    "album": "THIS MUSIC MAY CONTAIN HOPE.",
-    "label": "Human Re Sources",
-    "genre": "Broken Beat",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Pop",
-      "Indie Pop",
-      "Experimental Pop",
-      "Electro-Pop",
-      "broken beat"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/213748-raye-this-music-may-contain-hope",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "TMMCHCD",
-    "format": "LP",
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/213748-raye-this-music-may-contain-hope",
-      "piccadilly": "https://www.piccadillyrecords.com/165361/RAYE-THIS-MUSIC-MAY-CONTAIN-HOPE-Human-Re-Sources"
     }
   },
   {
@@ -24380,6 +26967,44 @@
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Arsene",
       "redeye": "https://www.redeyerecords.co.uk/vinyl/182180-sc1260-arsene-jack-shit-ep/"
     }
+  },
+  {
+    "id": "f565ff06",
+    "title": "High Cube",
+    "artist": "Foote/Dickow",
+    "album": "High Cube",
+    "label": "Geographic North",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-27",
+    "re": false,
+    "styles": [
+      "Electronic",
+      "Foote/Dickow, “High Cube”"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/193365-gn79-foote-dickow-high-cube/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "GN79",
+    "format": "",
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 8,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 10,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/193365-gn79-foote-dickow-high-cube/",
+      "boomkat": "https://boomkat.com/products/high-cube",
+      "deejay": "https://www.deejay.de/Foote_Dickow_High_Cube_LP_GN79_Vinyl__1228606"
+    },
+    "date_verified": false,
+    "discogs_year_checked": true
   },
   {
     "id": "c6aa060b",
@@ -24489,6 +27114,47 @@
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/214248-dra-mar-dramar"
     }
+  },
+  {
+    "id": "0c0e3f61",
+    "title": "A Love I Can't Explain",
+    "artist": "dBridge",
+    "album": "A Love I Can't Explain",
+    "label": "Exit Records",
+    "genre": "Drum & Bass",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Drum n Bass",
+      "Experimental",
+      "Downtempo",
+      "Halftime"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/dBridge_A_Love_I_Cant_Explain_EXIT085_Vinyl__937545",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "EXIT085",
+    "format": "Single",
+    "discogs_year": 2018,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 34,
+    "_score_breakdown": {
+      "total": 34,
+      "label": 8,
+      "artist": 0,
+      "genre": 18,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/dBridge_A_Love_I_Cant_Explain_EXIT085_Vinyl__937545"
+    },
+    "style_enriched": true
   },
   {
     "id": "45b4eeab",
@@ -25131,43 +27797,6 @@
     }
   },
   {
-    "id": "f565ff06",
-    "title": "High Cube",
-    "artist": "Foote/Dickow",
-    "album": "High Cube",
-    "label": "Geographic North",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-27",
-    "re": false,
-    "styles": [
-      "Electronic",
-      "Foote/Dickow, “High Cube”"
-    ],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/193365-gn79-foote-dickow-high-cube/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "GN79",
-    "format": "",
-    "quality_score": 32,
-    "_score_breakdown": {
-      "total": 32,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/193365-gn79-foote-dickow-high-cube/",
-      "boomkat": "https://boomkat.com/products/high-cube"
-    },
-    "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
     "id": "000e6c01",
     "title": "Ricochet",
     "artist": "Snail Mail",
@@ -25317,7 +27946,8 @@
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/213973-gak-sato-and-tadahiko-yokogawa-renga",
       "juno": "https://www.juno.co.uk/products/gak-sato-tadahiko-yokogawa-renga-vinyl/1134736-01/",
-      "deejay": "https://www.deejay.de/Gak_Sato_and_Tadahiko_Yokogawa_Renga_LP_WRWTFWW124_Vinyl__1213496"
+      "deejay": "https://www.deejay.de/Gak_Sato_and_Tadahiko_Yokogawa_Renga_LP_WRWTFWW124_Vinyl__1213496",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Gak+Sato+and+Tadahiko+Yokogawa"
     },
     "quality_score": 32,
     "_score_breakdown": {
@@ -26025,7 +28655,8 @@
       "norman": "https://www.normanrecords.com/records/213869-tom-misch-full-circle",
       "juno": "https://www.juno.co.uk/products/tom-misch-full-circle-vinyl/1135558-01/",
       "piccadilly": "https://www.piccadillyrecords.com/165458/Tom-Misch-Full-Circle-Beyond-The-Groove",
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Tom+Misch"
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Tom+Misch",
+      "deejay": "https://www.deejay.de/Tom_Misch_Full_Circle_BTG021LP_Vinyl__1215359"
     },
     "quality_score": 30,
     "_score_breakdown": {
@@ -27039,6 +29670,45 @@
     "source_urls": {
       "piccadilly": "https://www.piccadillyrecords.com/164515/Elado-DISCOLIFTING-08-Funkyjaws-Music",
       "deejay": "https://www.deejay.de/Elado_DISCOLIFTING_08_DSCLFTNG08_Vinyl__1193962"
+    }
+  },
+  {
+    "id": "27fea485",
+    "title": "Ego Trip",
+    "artist": "Toka Project",
+    "album": "Ego Trip",
+    "label": "Bambino",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Toka_Project_Ego_Trip_BAM001_Vinyl__1214648",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BAM001",
+    "format": "Vinyl",
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Toka_Project_Ego_Trip_BAM001_Vinyl__1214648",
+      "juno": "https://www.juno.co.uk/products/toka-project-ego-trip-vinyl/1142482-01/",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Toka+Project"
+    },
+    "discogs_year": 2005,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 10,
+      "niche": 0
     }
   },
   {
@@ -28375,44 +31045,6 @@
       "deejay": "https://www.deejay.de/STEVE_BUG_%26_PORNBUGS_ON_THE_SWING_BEHIND_THE_GLASS_BOND12082_Vinyl__1211900",
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Steve+Bug+%26+Pornbugs"
     },
-    "discogs_year_checked": true,
-    "quality_score": 24,
-    "_score_breakdown": {
-      "total": 24,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 6,
-      "niche": 0
-    }
-  },
-  {
-    "id": "27fea485",
-    "title": "Ego Trip",
-    "artist": "Toka Project",
-    "album": "Ego Trip",
-    "label": "Bambino",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "House"
-    ],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Toka_Project_Ego_Trip_BAM001_Vinyl__1214648",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "BAM001",
-    "format": "Vinyl",
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Toka_Project_Ego_Trip_BAM001_Vinyl__1214648",
-      "juno": "https://www.juno.co.uk/products/toka-project-ego-trip-vinyl/1142482-01/"
-    },
-    "discogs_year": 2005,
-    "is_restock": true,
     "discogs_year_checked": true,
     "quality_score": 24,
     "_score_breakdown": {
@@ -30289,6 +32921,195 @@
     }
   },
   {
+    "id": "491192e8",
+    "title": "HERE COME THE LIONS",
+    "artist": "Ben Christensen",
+    "album": "HERE COME THE LIONS",
+    "label": "Bar Part Time",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Ben+Christensen",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BPT-003",
+    "format": "",
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Ben+Christensen",
+      "juno": "https://www.juno.co.uk/products/ben-christensen-here-come-the-lions-vinyl/1144698-01/",
+      "deejay": "https://www.deejay.de/Ben_Christensen_Here_Come_The_Lions_BPT-003_Vinyl__1228231"
+    },
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 2,
+      "multi": 10,
+      "niche": 0
+    }
+  },
+  {
+    "id": "2dbf8a3d",
+    "title": "Fire EP",
+    "artist": "Mista Trick",
+    "album": "Fire EP",
+    "label": "Fokuz Recordings",
+    "genre": "Drum & Bass",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Drum n Bass"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Mista_Trick_Fire_EP_FOKUZSP01V_Vinyl__1219619",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FOKUZSP01V",
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 8,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Mista_Trick_Fire_EP_FOKUZSP01V_Vinyl__1219619"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "90c8cf8c",
+    "title": "Need To Feel Love / I Need Your Loving 10\"",
+    "artist": "Unknown",
+    "album": "Need To Feel Love / I Need Your Loving 10\"",
+    "label": "Fokuz Recordings",
+    "genre": "Drum & Bass",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Drum n Bass"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Unknown_Need_To_Feel_Love_I_Need_Your_Loving_10_LOVE2020_Vinyl__1228081",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "LOVE2020",
+    "format": "Vinyl",
+    "discogs_year": 2020,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 8,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Unknown_Need_To_Feel_Love_I_Need_Your_Loving_10_LOVE2020_Vinyl__1228081"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "287ff79e",
+    "title": "Dance",
+    "artist": "Kamal Abdul-Alim",
+    "album": "Dance",
+    "label": "Soul Brother Records",
+    "genre": "Jazz-Funk",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Soul-Jazz",
+      "Jazz-Funk",
+      "Afrobeat"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Kamal_Abdul-Alim_Dance_LPSBRSD_Vinyl__974188",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "LPSBRSD",
+    "format": "Single",
+    "discogs_year": 2021,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 8,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Kamal_Abdul-Alim_Dance_LPSBRSD_Vinyl__974188"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "522dcaef",
+    "title": "Hutson 1",
+    "artist": "Leroy Hutson",
+    "album": "Hutson 1",
+    "label": "ACID JAZZ",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Soul",
+      "Funk"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Leroy_Hutson_Hutson_1_AJXLP422_Vinyl__608509",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "AJXLP422",
+    "format": "Single",
+    "discogs_year": 1975,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 8,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Leroy_Hutson_Hutson_1_AJXLP422_Vinyl__608509"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "107b2f66",
     "title": "LOVE GAMES / LET ME FALL IN LOVE",
     "artist": "Robert Camero",
@@ -31948,41 +34769,6 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195697-mdt015-oonagh-haines-not-not-pretending/"
-    }
-  },
-  {
-    "id": "491192e8",
-    "title": "HERE COME THE LIONS",
-    "artist": "Ben Christensen",
-    "album": "HERE COME THE LIONS",
-    "label": "Bar Part Time",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "House"
-    ],
-    "source": "decks",
-    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Ben+Christensen",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "BPT-003",
-    "format": "",
-    "source_urls": {
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Ben+Christensen",
-      "juno": "https://www.juno.co.uk/products/ben-christensen-here-come-the-lions-vinyl/1144698-01/"
-    },
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
     }
   },
   {
@@ -34837,44 +37623,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/tiga-pias-40-vinyl/962084-01/"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "14047434",
-    "title": "Donutroit",
-    "artist": "Metro",
-    "album": "Donutroit",
-    "label": "JuNouMi Poland",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-03-26",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Boom Bap",
-      "Instrumental"
-    ],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/metro-donutroit-vinyl/1138582-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "quality_score": 64,
-    "_score_breakdown": {
-      "total": 64,
-      "label": 0,
-      "artist": 30,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 8
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/metro-donutroit-vinyl/1138582-01/"
     },
     "style_enriched": true
   },
@@ -44344,6 +47092,41 @@
     }
   },
   {
+    "id": "a433e892",
+    "title": "AGOGO MAKES THE WORLD GO ROUND 2 MO HORIZONS REMIXES(7 INCH)",
+    "artist": "Nene Vasquez & Super Oud",
+    "album": "AGOGO MAKES THE WORLD GO ROUND 2 MO HORIZONS REMIXES(7 INCH)",
+    "label": "Agogo Records",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2026-03-25",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Soul"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Nene+Vasquez+%26+Super+Oud",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "AR200VL",
+    "format": "",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 20,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Nene+Vasquez+%26+Super+Oud",
+      "deejay": "https://www.deejay.de/Nené_Vasquez_%26_Super_Oud_Agogo_Makes_The_World_Go_Round_2_7_AR200VL_Vinyl__1220933"
+    }
+  },
+  {
     "id": "9644a46f",
     "title": "Universo Astratto",
     "artist": "Tema Due, Nicola Conte & Nico Lahs",
@@ -45029,40 +47812,6 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Abstract+Orchestra+%26+Guilty+Simpson"
-    }
-  },
-  {
-    "id": "a433e892",
-    "title": "AGOGO MAKES THE WORLD GO ROUND 2 MO HORIZONS REMIXES(7 INCH)",
-    "artist": "Nene Vasquez & Super Oud",
-    "album": "AGOGO MAKES THE WORLD GO ROUND 2 MO HORIZONS REMIXES(7 INCH)",
-    "label": "Agogo Records",
-    "genre": "Soul",
-    "duration": "",
-    "date": "2026-03-25",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Soul"
-    ],
-    "source": "decks",
-    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Nene+Vasquez+%26+Super+Oud",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "AR200VL",
-    "format": "",
-    "quality_score": 27,
-    "_score_breakdown": {
-      "total": 27,
-      "label": 20,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Nene+Vasquez+%26+Super+Oud"
     }
   },
   {
@@ -51373,6 +54122,39 @@
     "style_enriched": true
   },
   {
+    "id": "48dc3a29",
+    "title": "This House Is A Body",
+    "artist": "Bag",
+    "album": "This House Is A Body",
+    "label": "Phantom Limb",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-24",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195583-phntm70-bag-this-house-is-a-body/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "PHNTM70",
+    "format": "",
+    "quality_score": 42,
+    "_score_breakdown": {
+      "total": 42,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195583-phntm70-bag-this-house-is-a-body/",
+      "juno": "https://www.juno.co.uk/products/bag-this-house-is-a-body-vinyl/1146179-01/"
+    }
+  },
+  {
     "id": "615c11a9",
     "title": "Attraction (Marsh's Mix)",
     "artist": "Marsh & Ferry Corsten",
@@ -51930,7 +54712,8 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Anyma"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "5d88e5e2",
@@ -51975,38 +54758,6 @@
       "source": 10,
       "multi": 10,
       "niche": 0
-    }
-  },
-  {
-    "id": "48dc3a29",
-    "title": "This House Is A Body",
-    "artist": "Bag",
-    "album": "This House Is A Body",
-    "label": "Phantom Limb",
-    "genre": "Experimental",
-    "duration": "",
-    "date": "2026-03-24",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/195583-phntm70-bag-this-house-is-a-body/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "PHNTM70",
-    "format": "",
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/195583-phntm70-bag-this-house-is-a-body/"
     }
   },
   {
@@ -52965,6 +55716,42 @@
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195557-arno100-arno-strictly-vibes-unit-2x12/",
       "juno": "https://www.juno.co.uk/products/arno-strictly-vibes-unit-vinyl/1146431-01/"
+    }
+  },
+  {
+    "id": "615a9a41",
+    "title": "Synthese 2x12\"",
+    "artist": "Morgan Tomas",
+    "album": "Synthese 2x12\"",
+    "label": "Reloading Records",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-24",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Techno"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Morgan_Tomas_Synthese_2x12_RR06_Vinyl__1228282",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "RR06",
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 32,
+    "_score_breakdown": {
+      "total": 32,
+      "label": 8,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Morgan_Tomas_Synthese_2x12_RR06_Vinyl__1228282",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Morgan+Tomas"
     }
   },
   {
@@ -54098,41 +56885,6 @@
     }
   },
   {
-    "id": "615a9a41",
-    "title": "Synthese 2x12\"",
-    "artist": "Morgan Tomas",
-    "album": "Synthese 2x12\"",
-    "label": "Reloading Records",
-    "genre": "Techno",
-    "duration": "",
-    "date": "2026-03-24",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Techno"
-    ],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Morgan_Tomas_Synthese_2x12_RR06_Vinyl__1228282",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "RR06",
-    "format": "Single",
-    "discogs_year_checked": true,
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Morgan_Tomas_Synthese_2x12_RR06_Vinyl__1228282"
-    }
-  },
-  {
     "id": "530c4f04",
     "title": "Sinking",
     "artist": "Beatrice M.",
@@ -54834,41 +57586,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/russell-haswell-let-it-go-cd/1144812-01/"
-    }
-  },
-  {
-    "id": "746f85a9",
-    "title": "Tonite",
-    "artist": "Those Guys",
-    "album": "Tonite",
-    "label": "MCA US",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-24",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/those-guys-tonite-vinyl/1144887-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "discogs_year": 1991,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/those-guys-tonite-vinyl/1144887-01/"
     }
   },
   {
@@ -62422,7 +65139,8 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Vinny+%26+Charlie"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "9c7e6bc1",
@@ -87954,6 +90672,44 @@
     }
   },
   {
+    "id": "45f1d78b",
+    "title": "LOS NINOS DEL PARQUE(VINYL SINGLE MAXI)",
+    "artist": "Two of China",
+    "album": "LOS NINOS DEL PARQUE(VINYL SINGLE MAXI)",
+    "label": "ZYX Music",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Techno",
+      "Electro",
+      "Industrial"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Two+of+China",
+    "discogs_url": "https://www.discogs.com/release/36865090-Two-Of-China-Los-Ninos-Del-Parque",
+    "bpm": null,
+    "catalog_number": "MAXI 1199-12",
+    "format": "",
+    "quality_score": 57,
+    "_score_breakdown": {
+      "total": 57,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 10,
+      "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Two+of+China",
+      "deejay": "https://www.deejay.de/TWO_OF_CHINA_Los_Ninos_Del_Parque_MAXI1199-12_Vinyl__1218488",
+      "discogs": "https://www.discogs.com/release/36865090-Two-Of-China-Los-Ninos-Del-Parque"
+    }
+  },
+  {
     "id": "8d44775b",
     "title": "eavesdrop festival 2024 (TAPE)",
     "artist": "Various",
@@ -88256,43 +91012,6 @@
     "date_verified": false,
     "discogs_year": 2026,
     "discogs_year_checked": true
-  },
-  {
-    "id": "45f1d78b",
-    "title": "LOS NINOS DEL PARQUE(VINYL SINGLE MAXI)",
-    "artist": "Two of China",
-    "album": "LOS NINOS DEL PARQUE(VINYL SINGLE MAXI)",
-    "label": "ZYX Music",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-03-20",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Techno",
-      "Electro",
-      "Industrial"
-    ],
-    "source": "decks",
-    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Two+of+China",
-    "discogs_url": "https://www.discogs.com/release/36865090-Two-Of-China-Los-Ninos-Del-Parque",
-    "bpm": null,
-    "catalog_number": "MAXI 1199-12",
-    "format": "",
-    "quality_score": 53,
-    "_score_breakdown": {
-      "total": 53,
-      "label": 25,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Two+of+China",
-      "deejay": "https://www.deejay.de/TWO_OF_CHINA_Los_Ninos_Del_Parque_MAXI1199-12_Vinyl__1218488"
-    }
   },
   {
     "id": "082667fe",
@@ -88969,6 +91688,49 @@
       "traxsource": "https://www.traxsource.com/track/14426722/better-man-frits-wentink-remix",
       "deejay": "https://www.deejay.de/Nomadics_Better_Man_YSD153_Vinyl__1225732"
     }
+  },
+  {
+    "id": "97a4e637",
+    "title": "Bongo Rock - 2x12\"",
+    "artist": "Incredible Bongo Band",
+    "album": "Bongo Rock - 2x12\"",
+    "label": "Mr Bongo",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [
+      "Britcore",
+      "Rhythm & Blues",
+      "Funk",
+      "Conscious",
+      "Hardcore Hip-Hop",
+      "Electro"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Incredible_Bongo_Band_Bongo_Rock_-_2x12_MRBLP043_Vinyl__891044",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MRBLP043",
+    "format": "Single",
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Incredible_Bongo_Band_Bongo_Rock_-_2x12_MRBLP043_Vinyl__891044"
+    },
+    "date_verified": false,
+    "discogs_year": 1997,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "b40785c3",
@@ -90823,11 +93585,14 @@
     "artist": "Artem Stan",
     "album": "Nasha Polyana",
     "label": "Analog Concept",
-    "genre": "House",
+    "genre": "Tech House",
     "duration": "",
     "date": "2026-03-20",
     "re": false,
-    "styles": [],
+    "styles": [
+      "House",
+      "Tech House"
+    ],
     "source": "deejay",
     "source_url": "https://www.deejay.de/Artem_Stan_%26_Matpri_Nasha_Polyana_ANCPT018_Vinyl__1206737",
     "discogs_url": "",
@@ -90849,77 +93614,8 @@
     },
     "date_verified": false,
     "discogs_year": 2026,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "97a4e637",
-    "title": "Bongo Rock - 2x12\"",
-    "artist": "Incredible Bongo Band",
-    "album": "Bongo Rock - 2x12\"",
-    "label": "Mr Bongo",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-20",
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Incredible_Bongo_Band_Bongo_Rock_-_2x12_MRBLP043_Vinyl__891044",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "MRBLP043",
-    "format": "Single",
-    "quality_score": 38,
-    "_score_breakdown": {
-      "total": 38,
-      "label": 20,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Incredible_Bongo_Band_Bongo_Rock_-_2x12_MRBLP043_Vinyl__891044"
-    },
-    "date_verified": false,
-    "discogs_year": 1997,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "e2e90737",
-    "title": "VOL 3 LP",
-    "artist": "LUKE UNA",
-    "album": "VOL 3 LP",
-    "label": "Mr Bongo",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-20",
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/LUKE_UNA_pres_E_SOUL_CULTURA_VOL_3_LP_MRBLP328I_Vinyl__1212611",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "MRBLP328I",
-    "format": "Single",
-    "quality_score": 38,
-    "_score_breakdown": {
-      "total": 38,
-      "label": 20,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/LUKE_UNA_pres_E_SOUL_CULTURA_VOL_3_LP_MRBLP328I_Vinyl__1212611"
-    },
-    "date_verified": false,
-    "discogs_year": 2011,
-    "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "571ededa",
@@ -90931,7 +93627,10 @@
     "duration": "",
     "date": "2026-03-20",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Minneapolis Sound",
+      "Score"
+    ],
     "source": "deejay",
     "source_url": "https://www.deejay.de/Mo’funk_On_the_One_You_Give_Me_Something_7_VIP001_Vinyl__1210157",
     "discogs_url": "",
@@ -90954,7 +93653,8 @@
     "date_verified": false,
     "discogs_year": 2003,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "1237f37a",
@@ -90987,7 +93687,8 @@
       "deejay": "https://www.deejay.de/Various_Embassy_LP_2x12_7DAYSEMB001_Vinyl__1154410"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "8eb5c73c",
@@ -91057,7 +93758,8 @@
       "deejay": "https://www.deejay.de/Various_Mord_Herdersmat_part_47_MORDH012DISC3_Vinyl__1227247"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "acf624fc",
@@ -91090,7 +93792,8 @@
       "deejay": "https://www.deejay.de/Various_Mord_Herdersmat_part_48_MORDH012DISC4_Vinyl__1227250"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "9970c13a",
@@ -91429,7 +94132,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36834937-Margot-Abate-Bodycount"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "701507ea",
@@ -91876,7 +94580,58 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://dagmarzuniga.bandcamp.com/album/in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music"
-    }
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "e2e90737",
+    "title": "VOL 3 LP",
+    "artist": "LUKE UNA",
+    "album": "VOL 3 LP",
+    "label": "Mr Bongo",
+    "genre": "Jazz-Funk",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [
+      "Disco",
+      "Fusion",
+      "House",
+      "Boogie",
+      "Funk",
+      "Jazz-Funk",
+      "Zouk",
+      "Deep House",
+      "Techno",
+      "Tribal House",
+      "Italo-Disco",
+      "Electro",
+      "Post-Punk"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/LUKE_UNA_pres_E_SOUL_CULTURA_VOL_3_LP_MRBLP328I_Vinyl__1212611",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MRBLP328I",
+    "format": "Single",
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 20,
+      "artist": 0,
+      "genre": 8,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/LUKE_UNA_pres_E_SOUL_CULTURA_VOL_3_LP_MRBLP328I_Vinyl__1212611"
+    },
+    "date_verified": false,
+    "discogs_year": 2011,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "24ac05bd",
@@ -100746,7 +103501,8 @@
       "deejay": "https://www.deejay.de/Various_Tutta_La_Notte_PSL02_Vinyl__1213928"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "fb4c21fb",
@@ -100779,7 +103535,8 @@
       "deejay": "https://www.deejay.de/Various_LDAC_Remix_05_06_07_09_and_11_5x12_PLDAC_Vinyl__1221392"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "65c95a0f",
@@ -100812,7 +103569,8 @@
       "deejay": "https://www.deejay.de/Various_CRIPPLEFIGHT_WOOD07_Vinyl__1221928"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "c5a1f099",
@@ -100845,7 +103603,8 @@
       "deejay": "https://www.deejay.de/Various_RSF_10_RSF10RP_Vinyl__1204361"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "f56dfe5d",
@@ -100878,7 +103637,8 @@
       "deejay": "https://www.deejay.de/Various_Tribe_Du_Sud_07_TDS07B_Vinyl__1047505"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "06435450",
@@ -105177,6 +107937,46 @@
     "discogs_year_checked": true
   },
   {
+    "id": "dc6d34b2",
+    "title": "ANOTHER WEIRD DREAM",
+    "artist": "MJ GUIDER",
+    "album": "ANOTHER WEIRD DREAM",
+    "label": "MODERN LOVE",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [
+      "Indie Rock",
+      "Experimental",
+      "Alternative Rock",
+      "Shoegaze"
+    ],
+    "source": "rushhour",
+    "source_url": "https://www.rushhour.nl/record/vinyl/another-weird-dream",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 53,
+    "_score_breakdown": {
+      "total": 53,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/another-weird-dream"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "422570ae",
     "title": "Chez Moi (Waiting For You) remixes",
     "artist": "Cc Disco!",
@@ -105806,40 +108606,6 @@
     "discogs_year_checked": true
   },
   {
-    "id": "dc6d34b2",
-    "title": "ANOTHER WEIRD DREAM",
-    "artist": "MJ GUIDER",
-    "album": "ANOTHER WEIRD DREAM",
-    "label": "MODERN LOVE",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-18",
-    "re": false,
-    "styles": [],
-    "source": "rushhour",
-    "source_url": "https://www.rushhour.nl/record/vinyl/another-weird-dream",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 38,
-    "_score_breakdown": {
-      "total": 38,
-      "label": 25,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "rushhour": "https://www.rushhour.nl/record/vinyl/another-weird-dream"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
-  },
-  {
     "id": "674d1a3f",
     "title": "Sounds From The Past I EP",
     "artist": "Lars Huismann",
@@ -105849,7 +108615,10 @@
     "duration": "",
     "date": "2026-03-18",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Techno",
+      "Tribal"
+    ],
     "source": "deejay",
     "source_url": "https://www.deejay.de/Lars_Huismann_Sounds_From_The_Past_I_EP_MR-002RP_Vinyl__993575",
     "discogs_url": "",
@@ -105872,7 +108641,8 @@
     "date_verified": false,
     "discogs_year": 2022,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "2f68dc2c",
@@ -128700,7 +131470,8 @@
       "clone": "https://clone.nl/item82173.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "35b45405",
@@ -131086,6 +133857,68 @@
     },
     "date_verified": false,
     "discogs_year_checked": true
+  },
+  {
+    "id": "57ed215c",
+    "title": "ハイサイおじさん / 豊年音頭",
+    "artist": "喜納昌吉と喜納チャンプルーズ でいご娘",
+    "album": "ハイサイおじさん / 豊年音頭",
+    "label": "Nippon Columbia Co., Ltd.",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-11",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Folk"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36931908-喜納昌吉と喜納チャンプルーズ-でいご娘-ハイサイおじさん-豊年音頭",
+    "discogs_url": "https://www.discogs.com/release/36931908-喜納昌吉と喜納チャンプルーズ-でいご娘-ハイサイおじさん-豊年音頭",
+    "bpm": null,
+    "catalog_number": "JS7S492",
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "33acb372",
+    "title": "ヒヤミカチ節 / ハリクヤマク",
+    "artist": "登川誠仁 上間綾乃",
+    "album": "ヒヤミカチ節 / ハリクヤマク",
+    "label": "Nippon Columbia Co., Ltd.",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-11",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Folk"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36932121-登川誠仁-上間綾乃-ヒヤミカチ節-ハリクヤマク",
+    "discogs_url": "https://www.discogs.com/release/36932121-登川誠仁-上間綾乃-ヒヤミカチ節-ハリクヤマク",
+    "bpm": null,
+    "catalog_number": "JS7S493",
+    "format": "",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "e18e333c",
@@ -159778,7 +162611,12 @@
     "date": "2026-03-06",
     "re": false,
     "styles": [
-      "Salsa"
+      "Salsa",
+      "Mambo",
+      "Cha-Cha",
+      "Guaguancó",
+      "Guajira",
+      "Afro-Cuban"
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36684808-Celia-Cruz-Queen-Of-Cuba",
@@ -159799,7 +162637,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36684808-Celia-Cruz-Queen-Of-Cuba"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "9c2e5857",
@@ -163021,7 +165860,7 @@
     "source_url": "https://hardwax.com/87912/commodo/deep-harbour/",
     "discogs_url": "",
     "bpm": null,
-    "catalog_number": null,
+    "catalog_number": "ACRE100",
     "format": "12\"",
     "quality_score": 49,
     "_score_breakdown": {
@@ -165593,7 +168432,8 @@
       "clone": "https://clone.nl/item81976.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "e5dae90f",
@@ -165626,7 +168466,8 @@
       "clone": "https://clone.nl/item81978.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "a7d846bc",
@@ -165659,7 +168500,8 @@
       "clone": "https://clone.nl/item82557.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "60bc71b3",
@@ -166786,7 +169628,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36911277-Gary-Moore-Still-Got-The-Blues"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "59e9d654",
@@ -168882,7 +171725,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36638797-The-Silencers-Roads-Roots"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "aedb1468",
@@ -171497,7 +174341,9 @@
     "styles": [
       "Vocal",
       "Alt-Pop",
-      "City Pop"
+      "City Pop",
+      "Contemporary R&B",
+      "New Jack Swing"
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36613612-Janet-Jackson-You-Want-This",
@@ -171518,7 +174364,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36613612-Janet-Jackson-You-Want-This"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "b5567c49",
@@ -172212,7 +175059,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36886453-Yoko-Takahashi-Souls-Refrain-Evangelion-30th-Anniversary-Edition-LP"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "302a4ee8",
@@ -172246,7 +175094,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36575767-Yoko-Takahashi-Souls-Refrain-Evangelion-30th-Anniversary-Edition-LP"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "b2e74f0a",
@@ -172280,7 +175129,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36575710-Yoko-Takahashi-The-Cruel-Angels-Thesis-Evangelion-30th-Anniversary-Edition-LP"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "814bde2b",
@@ -176009,7 +178859,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36666310-CigarsSoda-Cigars-Soda"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "f95f2825",
@@ -178950,7 +181801,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36515011-The-Beach-Boys-We-Gotta-Groove-The-Brother-Studio-Years"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "bc1ea44c",
@@ -181679,7 +184531,9 @@
     "date": "2026-02-08",
     "re": false,
     "styles": [
-      "Jazz"
+      "Jazz",
+      "Fusion",
+      "Modal"
     ],
     "source": "rushhour",
     "source_url": "https://www.rushhour.nl/record/vinyl/creole-gypsy-0",
@@ -181703,7 +184557,8 @@
     "date_verified": false,
     "discogs_year": 1980,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "d8ff4df3",
@@ -183859,7 +186714,11 @@
     "duration": "",
     "date": "2026-02-06",
     "re": true,
-    "styles": [],
+    "styles": [
+      "Indie Pop",
+      "Afrobeat",
+      "Contemporary R&B"
+    ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36562984-Théodora-Mega-BBL",
     "discogs_url": "https://www.discogs.com/release/36562984-Théodora-Mega-BBL",
@@ -183879,7 +186738,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36562984-Théodora-Mega-BBL"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "6d819bd0",
@@ -185883,7 +188743,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36444936-Ash-Keep-Dreaming"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "1165144a",
@@ -188965,7 +191826,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36600808-Sam-Sauvage-Mesdames-Messieurs-"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "4338d401",
@@ -190654,7 +193516,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36346429-Mozzart-Money"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "68473233",
@@ -195389,7 +198252,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36319204-The-Beach-Boys-We-Gotta-Groove-2025-Mix-Single"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "b9aba9c7",
@@ -198057,7 +200921,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36235681-Linda-Jo-Rizzo-Wait"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "2bd3d79a",
@@ -198255,7 +201120,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36234121-Sibelius-Boston-Symphony-Orchestra-Sir-Colin-Davis-Symphonies-Nos-5-And-7-Tapiola"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "9bc733c8",
@@ -200012,7 +202878,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36277147-Miho-Nakayama-Collection-III"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "e0e1ed2b",
@@ -200046,7 +202913,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36224953-Akira-Miyazawa-山女魚"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "9955a1ed",
@@ -206333,7 +209201,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36369610-Sam-Sauvage-Mesdames-Messieurs-"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "c990c2b2",
@@ -206367,7 +209236,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36369799-Sam-Sauvage-Mesdames-Messieurs-"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "808ae3c8",
@@ -206402,7 +209272,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36661756-A-Perfect-Circle-Mer-De-Noms"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "26a52c58",
@@ -206437,7 +209308,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36769729-A-Perfect-Circle-Mer-De-Noms"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "2d705cbb",
@@ -206503,7 +209375,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36874222-Paula-Biskup-Szpilki"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "1ca54735",
@@ -209072,7 +211945,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36362755-Kunio-Miyauchi-宮内國郎-Tohru-Fuyuki-冬木透-Tokyo-Symphony-Orchestra-東京交響楽団-Condu"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "fcff2199",
@@ -209679,7 +212553,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36102526-Bispo-2-Entre-Nós-Deluxe"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "0527c475",
@@ -219597,7 +222472,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35861527-Chiemi-Eri-Carl-Jones-6-Crazy-Rhythm"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "350fedee",
@@ -219611,7 +222487,8 @@
     "date_verified": true,
     "re": true,
     "styles": [
-      "Vocal"
+      "Vocal",
+      "Soul-Jazz"
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/35861233-Chiemi-And-C-Jones-チエミとカールジョーンズ-Chiemi-And-C-Jones",
@@ -219631,7 +222508,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35861233-Chiemi-And-C-Jones-チエミとカールジョーンズ-Chiemi-And-C-Jones"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "0981d946",
@@ -219666,7 +222544,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36480526-Chiemi-Eri-The-Delta-Rhythm-Boys-Chiemi-Eri-The-Delta-Rhythm-Boys"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "5b3fd12e",
@@ -219698,7 +222577,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35886910-江利チエミ-チエミ-ラテンを歌う-Chiemi-Español"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "54fe7212",
@@ -219733,7 +222613,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35861923-江利チエミ-チエミのスタンダードアルバム-Chiemi-Sings-Standards"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "20977f31",
@@ -223124,7 +226005,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35900992-Jeff-Goldblum-The-Mildred-Snitzer-Orchestra-Featuring-Ariana-Grande-I-Dont-Know-Why-I-Just-Do"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "5070189e",
@@ -223138,7 +226020,8 @@
     "date": "2025-12-05",
     "re": false,
     "styles": [
-      "Hard Rock"
+      "Hard Rock",
+      "Heavy Metal"
     ],
     "discogs_url": "https://www.discogs.com/release/35856541-Scorpions-Coming-Home-Live",
     "source": "discogs",
@@ -223156,7 +226039,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35856541-Scorpions-Coming-Home-Live"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "a74864dd",
@@ -229774,7 +232658,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35787364-Die-Ärzte-Ab-18"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "656b78c6",
@@ -229806,7 +232691,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35862466-Donatan-Cleo-11-Równonoc-Raróg"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "283069df",
@@ -231778,7 +234664,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36010192-謙遜ラヴァーズ-Keep-Rolling-feat山本真由美"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "d1df05af",
@@ -231813,7 +234700,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35759899-The-Trip-19-Atlantide-2025"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "2438d52f",
@@ -237458,7 +240346,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35853469-Brian-Bromberg-With-Tom-Zink-Charles-Ruggiero-LaFaro"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "fdc1d5b7",
@@ -240628,7 +243517,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35661772-Bloodthirsty-Butchers-Youth-青春"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "a3302048",
@@ -240662,7 +243552,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35661640-Bloodthirsty-Butchers-No-Album-無題"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "328b0694",
@@ -240694,7 +243585,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35697946-Kuba-Badach-Radio-Edit"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "9bdf2178",
@@ -240726,7 +243618,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35720404-Kuba-Badach-Radio-Edit"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "be4849d4",
@@ -240760,7 +243653,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35664577-Lexsaburo-Antares"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "d681e623",
@@ -246395,7 +249289,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36572671-The-Slim-Kings-Superlove"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "d902c8c4",
@@ -248048,7 +250943,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35725360-TRiDENT-20-Blue-Dawn"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "61de4186",
@@ -248082,7 +250978,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35789599-TRiDENT-20-Blue-Dawn"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "8436379c",
@@ -249024,7 +251921,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35498056-宮沢昭-ソウルレオン-唐獅子牡丹"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "955d06a0",
@@ -257515,7 +260413,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35751025-Pet-Shop-Boys-Its-A-Sin-Bryce-Miller-Monster-Mix"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "a6922075",
@@ -259474,7 +262373,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35435521-Dames-Brown-Take-Me-As-I-Am-"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "05c26f81",
@@ -259807,7 +262707,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36226432-Nana-Mizuki-Eternal-Blaze"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "0bc54673",
@@ -267523,7 +270424,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/33083925-Stefan-Goldmann-Ensemble-180-Input-The-Sofia-Versions"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "6c1c7859",
@@ -267603,7 +270505,8 @@
     "date": "2025-10-10",
     "re": false,
     "styles": [
-      "Score"
+      "Score",
+      "Soundtrack"
     ],
     "discogs_url": "https://www.discogs.com/release/35358910-Ennio-Morricone-Bruno-Nicolai-LAnticristo-Original-Motion-Picture-Soundtrack",
     "source": "discogs",
@@ -267621,7 +270524,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35358910-Ennio-Morricone-Bruno-Nicolai-LAnticristo-Original-Motion-Picture-Soundtrack"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "2353b62b",
@@ -268811,7 +271715,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35774380-Edu-Falaschi-Vera-Cruz-Live-In-São-Paulo"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "18f747e5",
@@ -272402,7 +275307,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35291407-Darren-Styles-x-Dougal-Sweetheart"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "c35c65ab",
@@ -272435,7 +275341,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35445679-Darren-Styles-x-Dougal-Sweetheart-Extended"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "e3b610e9",
@@ -272470,7 +275377,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35291407-Darren-Styles-x-Dougal-Sweetheart"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "27e7bd83",
@@ -272505,7 +275413,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35445679-Darren-Styles-x-Dougal-Sweetheart-Extended"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "4908b116",
@@ -272697,7 +275606,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35316040-Placebo-This-Search-For-Meaning"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "2d2fc95b",
@@ -272729,7 +275639,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35262145-Ash-Ad-Astra"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "ac62c103",
@@ -276899,7 +279810,8 @@
     "date": "2025-09-26",
     "re": false,
     "styles": [
-      "Chanson"
+      "Chanson",
+      "Vocal"
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/35263447-Edith-Piaf-Greatest-Hits",
@@ -276920,7 +279832,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35263447-Edith-Piaf-Greatest-Hits"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "38f51c50",
@@ -278785,7 +281698,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36260821-Kasabian-Hippie-Sunshine"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "fc53984e",
@@ -280249,7 +283163,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35153395-Saint-Etienne-X-Confidence-Man-Brand-New-Me"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "1bcbca1c",
@@ -280345,7 +283260,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35292754-Pet-Shop-Boys-Its-A-Sin-Bryce-Miller-Monster-Mix"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "698ae42e",
@@ -283599,7 +286515,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35143373-RichvomDorf-Ravin-Buddha-Bar-by-Rich-Vom-Dorf-Ravin"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "7ed2a1f6",
@@ -283633,7 +286550,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35143373-Rich-Vom-Dorf-And-Ravin-Buddha-Bar-By-Rich-Vom-Dorf-And-Ravin"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "e37ce795",
@@ -286375,7 +289293,9 @@
     "date": "2025-09-05",
     "re": false,
     "styles": [
-      "Art Rock"
+      "Art Rock",
+      "Alt-Pop",
+      "Avantgarde"
     ],
     "discogs_url": "https://www.discogs.com/release/35012510-David-Byrne-With-Ghost-Train-Orchestra-Who-Is-The-Sky",
     "source": "discogs",
@@ -286393,7 +289313,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35012510-David-Byrne-With-Ghost-Train-Orchestra-Who-Is-The-Sky"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "adffe069",
@@ -287713,7 +290634,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36444768-Ash-Which-One-Do-You-Want"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "b4422038",
