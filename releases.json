@@ -4162,7 +4162,8 @@
     },
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/212246-steel-beans-steel-beans"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "ccf3c655",
@@ -6949,12 +6950,15 @@
     "artist": "Martinou",
     "album": "Matter",
     "label": "Mule Musiq",
-    "genre": "Techno",
+    "genre": "Dub Techno",
     "duration": "",
     "date": "2026-04-01",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Dub Techno",
+      "Deep Techno"
+    ],
     "source": "deejay",
     "source_url": "https://www.deejay.de/Martinou_Matter_MULE296_Vinyl__1097494",
     "discogs_url": "",
@@ -6964,16 +6968,20 @@
     "discogs_year": 2024,
     "is_restock": true,
     "discogs_year_checked": true,
-    "quality_score": 72,
+    "quality_score": 82,
     "_score_breakdown": {
-      "total": 72,
+      "total": 82,
       "label": 30,
       "artist": 20,
-      "genre": 10,
+      "genre": 20,
       "source": 8,
       "multi": 0,
       "niche": 4
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Martinou_Matter_MULE296_Vinyl__1097494"
+    },
+    "style_enriched": true
   },
   {
     "id": "5a34b336",
@@ -7003,7 +7011,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Various_Collector_IV_FURV4_Vinyl__1212068"
+    },
+    "style_enriched": true
   },
   {
     "id": "bea6eb1e",
@@ -7037,7 +7049,8 @@
       "source": 8,
       "multi": 6,
       "niche": 0
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "b5e99084",
@@ -7050,7 +7063,10 @@
     "date": "2026-04-01",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Jibaro",
+      "Funk"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/elkin-nelson-jibaro-vinyl/922322-01/",
     "discogs_url": "",
@@ -7069,7 +7085,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/elkin-nelson-jibaro-vinyl/922322-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "41ab639e",
@@ -7132,7 +7152,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/horizon-dream-vol-1-3-cd/1135375-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "b7554305",
@@ -7197,6 +7221,9 @@
       "source": 2,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Martinou"
     }
   },
   {
@@ -7211,7 +7238,11 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "Indie / Alternative"
+      "Indie / Alternative",
+      "Avantgarde",
+      "Alternative Rock",
+      "Drone",
+      "Jazz-Rock"
     ],
     "source": "boomkat",
     "source_url": "https://boomkat.com/products/can-i-get-a-pack-of-camel-lights",
@@ -7230,7 +7261,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/can-i-get-a-pack-of-camel-lights"
+    },
+    "style_enriched": true
   },
   {
     "id": "820503b0",
@@ -7295,6 +7330,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Javi+Mula"
     }
   },
   {
@@ -7326,6 +7364,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Steve+Rachmad+Presents+Ignacio"
     }
   },
   {
@@ -7360,6 +7401,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/tripolar"
     }
   },
   {
@@ -7392,6 +7436,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Marc_Acardipane_feat_Mescalinum_United_We_Have_Arrived_Remastered_2017_PP001V_Vinyl__952189"
     }
   },
   {
@@ -7424,6 +7471,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/thylacine-roads-vol-3-vinyl/1138998-01/"
     }
   },
   {
@@ -7454,6 +7504,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/vicky-veryno-hitchike-vinyl/1139825-01/"
     }
   },
   {
@@ -7485,6 +7538,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/vic-bang-oda-vinyl/1134825-01/"
     }
   },
   {
@@ -7516,6 +7572,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/anton-anishchanka-krope-vinyl/1135022-01/"
     }
   },
   {
@@ -7547,6 +7606,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/mmbtupm-meditation-music-beyond-the-unsleeping-psychopathic-mind-vinyl/1140107-01/"
     }
   },
   {
@@ -7577,6 +7639,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/entidad-animada-pequeno-clima-domestico-cassette/1141747-01/"
     }
   },
   {
@@ -7609,6 +7674,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/lvca-espiralia-ep-vinyl/1128128-01/"
     }
   },
   {
@@ -7708,6 +7776,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=DENSE+%26+PIKA"
     }
   },
   {
@@ -7739,6 +7810,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Y-TRAXX"
     }
   },
   {
@@ -7770,6 +7844,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Millsart"
     }
   },
   {
@@ -7803,6 +7880,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/ayam-el-disco-egyptian-disco-boogie-jeel-cassettes-1978-92"
     }
   },
   {
@@ -11484,7 +11564,8 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "Jazz"
+      "Jazz",
+      "Alt-Pop"
     ],
     "source": "decks",
     "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Niia",
@@ -11504,7 +11585,8 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Niia"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "c35bf97d",
@@ -17168,7 +17250,8 @@
     },
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/214018-various-creeping-bent-100"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "036218ed",
@@ -17205,7 +17288,8 @@
     },
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/213050-mia-wilson-mia-wilson"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "ab61247f",
@@ -32885,7 +32969,8 @@
     },
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/213334-various-whats-it-all-about-film"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "f26b9423",
@@ -121321,6 +121406,44 @@
     "style_enriched": true
   },
   {
+    "id": "e9207e7a",
+    "title": "Frontiers of Science",
+    "artist": "Tobias. Doltz.",
+    "album": "Frontiers of Science",
+    "label": "Delsin",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-14",
+    "re": false,
+    "styles": [
+      "Electronic",
+      "Techno",
+      "Ambient"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82644.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "164DSR",
+    "format": "LP",
+    "quality_score": 58,
+    "_score_breakdown": {
+      "total": 58,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82644.html"
+    },
+    "date_verified": false,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "927b020a",
     "title": "Metri",
     "artist": "Ø (Mika Vainio)",
@@ -122060,41 +122183,6 @@
     "discogs_year_checked": true
   },
   {
-    "id": "e9207e7a",
-    "title": "Frontiers of Science",
-    "artist": "Tobias. Doltz.",
-    "album": "Frontiers of Science",
-    "label": "Delsin",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-14",
-    "re": false,
-    "styles": [
-      "Electronic"
-    ],
-    "source": "clone",
-    "source_url": "https://clone.nl/item82644.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "164DSR",
-    "format": "LP",
-    "quality_score": 48,
-    "_score_breakdown": {
-      "total": 48,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item82644.html"
-    },
-    "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
     "id": "2c512d96",
     "title": "Erasmus DJ EP",
     "artist": "Sweely",
@@ -122629,7 +122717,8 @@
       "clone": "https://clone.nl/item82688.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "0b96a163",
@@ -188400,41 +188489,8 @@
       "clone": "https://clone.nl/item81888.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "40dce03f",
-    "title": "GEKO01",
-    "artist": "OK EG",
-    "album": "GEKO01",
-    "label": "",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-02-09",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81887.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "GEKO01",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81887.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "f8876feb",
@@ -188442,11 +188498,14 @@
     "artist": "Fleck E.S.C.",
     "album": "The Neuro Pie EP",
     "label": "",
-    "genre": "Electro",
+    "genre": "IDM",
     "duration": "",
     "date": "2026-02-09",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Electro",
+      "IDM"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item82266.html",
     "discogs_url": "",
@@ -188468,7 +188527,8 @@
     },
     "date_verified": false,
     "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "8ccf7a0d",
@@ -188506,6 +188566,44 @@
     },
     "date_verified": false,
     "discogs_year_checked": true
+  },
+  {
+    "id": "40dce03f",
+    "title": "GEKO01",
+    "artist": "OK EG",
+    "album": "GEKO01",
+    "label": "",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-02-09",
+    "re": false,
+    "styles": [
+      "Techno",
+      "Trance"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81887.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "GEKO01",
+    "format": "Single",
+    "quality_score": 8,
+    "_score_breakdown": {
+      "total": 8,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81887.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "bd0f67c9",
@@ -188769,7 +188867,11 @@
     "duration": "",
     "date": "2026-02-07",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Contemporary",
+      "Minimalism",
+      "Chamber Music"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item82430.html",
     "discogs_url": "",
@@ -188792,7 +188894,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "12aa8fcf",
@@ -192773,11 +192876,15 @@
     "artist": "Coatshek",
     "album": "Sound Bath",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Downtempo",
     "duration": "",
     "date": "2026-02-03",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Techno",
+      "Ambient",
+      "Downtempo"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item80273.html",
     "discogs_url": "",
@@ -192800,41 +192907,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "b948bd04",
-    "title": "Fallen Angel",
-    "artist": "Brandy Dalton",
-    "album": "Fallen Angel",
-    "label": "",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2026-02-03",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item82029.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "DE354",
-    "format": "LP",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item82029.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "77901aa9",
@@ -192909,6 +192983,46 @@
       "discogs": "https://www.discogs.com/release/36530554-Brian-Eno-David-Byrne-My-Life-In-The-Bush-Of-Ghosts"
     },
     "date_verified": true
+  },
+  {
+    "id": "b948bd04",
+    "title": "Fallen Angel",
+    "artist": "Brandy Dalton",
+    "album": "Fallen Angel",
+    "label": "",
+    "genre": "Dark Ambient",
+    "duration": "",
+    "date": "2026-02-03",
+    "re": false,
+    "styles": [
+      "Ambient",
+      "Dark Ambient",
+      "Industrial",
+      "Soundtrack"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82029.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DE354",
+    "format": "LP",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 18,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82029.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "fb5cd093",
@@ -193228,11 +193342,14 @@
     "artist": "Evigt Morker",
     "album": "6",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Experimental",
     "duration": "",
     "date": "2026-02-02",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Experimental"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81958.html",
     "discogs_url": "",
@@ -193255,7 +193372,8 @@
     "date_verified": false,
     "discogs_year": 2019,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "5edf6bf9",
@@ -193263,11 +193381,15 @@
     "artist": "Adapta",
     "album": "MKS-50 Tracks",
     "label": "Frustrated Funk Holland",
-    "genre": "Electro",
+    "genre": "Acid",
     "duration": "",
     "date": "2026-02-02",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Acid",
+      "Techno",
+      "Electro"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81432.html",
     "discogs_url": "",
@@ -193290,7 +193412,8 @@
     "date_verified": false,
     "discogs_year": 2016,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "071e319d",
@@ -193541,11 +193664,15 @@
     "artist": "Martinou / Skyra",
     "album": "HRM004",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Electro",
     "duration": "",
     "date": "2026-01-31",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Deep Techno",
+      "Techno",
+      "Electro"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81994.html",
     "discogs_url": "",
@@ -193567,41 +193694,8 @@
     },
     "date_verified": false,
     "discogs_year": 2026,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "8795efb1",
-    "title": "Rain Guitar LP",
-    "artist": "Sergio Maria Saguaro (Hiroaki Sugawara)",
-    "album": "Rain Guitar LP",
-    "label": "",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2026-01-31",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81725.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "FJLP-07",
-    "format": "LP",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81725.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "97fc04ad",
@@ -193634,7 +193728,8 @@
       "clone": "https://clone.nl/item81724.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "c90ec4fe",
@@ -193667,7 +193762,8 @@
       "clone": "https://clone.nl/item81726.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "90d3318f",
@@ -193700,7 +193796,8 @@
       "clone": "https://clone.nl/item82056.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "ff08533b",
@@ -193708,23 +193805,26 @@
     "artist": "Also Playable Mono",
     "album": "Firenze EP",
     "label": "",
-    "genre": "Electro",
+    "genre": "Italo Disco",
     "duration": "",
     "date": "2026-01-31",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Italo-Disco",
+      "Nu-Disco"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item82284.html",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "BAP243",
     "format": "Single",
-    "quality_score": 28,
+    "quality_score": 16,
     "_score_breakdown": {
-      "total": 28,
+      "total": 16,
       "label": 0,
       "artist": 0,
-      "genre": 20,
+      "genre": 8,
       "source": 8,
       "multi": 0,
       "niche": 0
@@ -193734,7 +193834,47 @@
     },
     "date_verified": false,
     "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
+    "id": "8795efb1",
+    "title": "Rain Guitar LP",
+    "artist": "Sergio Maria Saguaro (Hiroaki Sugawara)",
+    "album": "Rain Guitar LP",
+    "label": "",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2026-01-31",
+    "re": false,
+    "styles": [
+      "Ambient",
+      "Synth-pop",
+      "City Pop"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81725.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FJLP-07",
+    "format": "LP",
+    "quality_score": 8,
+    "_score_breakdown": {
+      "total": 8,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81725.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "d7eee8d4",
@@ -197608,39 +197748,6 @@
     "style_enriched": true
   },
   {
-    "id": "fdd1dd52",
-    "title": "Rain Man LP",
-    "artist": "Kalani",
-    "album": "Rain Man LP",
-    "label": "",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2026-01-28",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81489.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "CKNOWLP6",
-    "format": "LP",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81489.html"
-    },
-    "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
     "id": "0761f36b",
     "title": "The Book Of Job",
     "artist": "Super Grupa Bez Falszywej Skromnosci",
@@ -197650,7 +197757,14 @@
     "duration": "",
     "date": "2026-01-28",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Avant-garde Jazz",
+      "Fusion",
+      "Gospel",
+      "Jazz-Rock",
+      "Spiritual Jazz",
+      "Space-Age"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81566.html",
     "discogs_url": "",
@@ -197673,7 +197787,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "467b99eb",
@@ -197706,75 +197821,8 @@
       "clone": "https://clone.nl/item81759.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "01327ca7",
-    "title": "Dynamic State",
-    "artist": "Belaria",
-    "album": "Dynamic State",
-    "label": "",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-01-28",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81783.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "BS002",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81783.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "12569847",
-    "title": "Storm In The Matrix",
-    "artist": "Otis",
-    "album": "Storm In The Matrix",
-    "label": "",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-01-28",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81990.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "AOD021",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81990.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "2ece3261",
@@ -197807,7 +197855,8 @@
       "clone": "https://clone.nl/item82081.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "1bd524e9",
@@ -197838,6 +197887,80 @@
       "discogs": "https://www.discogs.com/release/36356728-In-Grid-Анастасия-Спиридонова-Ночи-И-Дни"
     },
     "date_verified": true
+  },
+  {
+    "id": "fdd1dd52",
+    "title": "Rain Man LP",
+    "artist": "Kalani",
+    "album": "Rain Man LP",
+    "label": "",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-01-28",
+    "re": false,
+    "styles": [
+      "House",
+      "Techno"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81489.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CKNOWLP6",
+    "format": "LP",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81489.html"
+    },
+    "date_verified": false,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
+    "id": "01327ca7",
+    "title": "Dynamic State",
+    "artist": "Belaria",
+    "album": "Dynamic State",
+    "label": "",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-01-28",
+    "re": false,
+    "styles": [
+      "Techno"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81783.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BS002",
+    "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81783.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "9780409d",
@@ -197905,6 +198028,45 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36347410-Masato-Omi-光の路"
     }
+  },
+  {
+    "id": "12569847",
+    "title": "Storm In The Matrix",
+    "artist": "Otis",
+    "album": "Storm In The Matrix",
+    "label": "",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-01-28",
+    "re": false,
+    "styles": [
+      "Techno",
+      "Trance",
+      "Electro"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81990.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "AOD021",
+    "format": "Single",
+    "quality_score": 8,
+    "_score_breakdown": {
+      "total": 8,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81990.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "0c93429e",
@@ -200663,7 +200825,8 @@
       "clone": "https://clone.nl/item81995.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "353420c0",
@@ -200671,11 +200834,15 @@
     "artist": "Signal 72",
     "album": "Loosing The Station",
     "label": "",
-    "genre": "Electro",
+    "genre": "Acid",
     "duration": "",
     "date": "2026-01-23",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Electro",
+      "Acid",
+      "Breakbeat"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item82057.html",
     "discogs_url": "",
@@ -200697,7 +200864,8 @@
     },
     "date_verified": false,
     "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "9a966820",
@@ -200743,7 +200911,8 @@
     "re": true,
     "styles": [
       "Hard Rock",
-      "Rock & Roll"
+      "Rock & Roll",
+      "Heavy Metal"
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36332944-Motörhead-Bastards",
@@ -200764,7 +200933,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36332944-Motörhead-Bastards"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "b17e95a5",
@@ -201843,7 +202013,8 @@
       "clone": "https://clone.nl/item81984.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "01606c27",
@@ -202673,7 +202844,8 @@
       "clone": "https://clone.nl/item80156.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "fe8f4ca5",
@@ -205396,7 +205568,9 @@
     "duration": "",
     "date": "2026-01-16",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item82158.html",
     "discogs_url": "",
@@ -205419,41 +205593,8 @@
     "date_verified": false,
     "discogs_year": 2007,
     "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "10199ae1",
-    "title": "El Que (Terence Fixmer remixes)",
-    "artist": "D.A.F.",
-    "album": "El Que (Terence Fixmer remixes)",
-    "label": "",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-01-16",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item82086.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "MNQ169",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item82086.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "94a89aef",
@@ -206150,6 +206291,46 @@
     }
   },
   {
+    "id": "10199ae1",
+    "title": "El Que (Terence Fixmer remixes)",
+    "artist": "D.A.F.",
+    "album": "El Que (Terence Fixmer remixes)",
+    "label": "",
+    "genre": "EBM",
+    "duration": "",
+    "date": "2026-01-16",
+    "re": false,
+    "styles": [
+      "EBM",
+      "Techno",
+      "Electro",
+      "Industrial"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82086.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MNQ169",
+    "format": "Single",
+    "quality_score": 8,
+    "_score_breakdown": {
+      "total": 8,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82086.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "82523b5c",
     "title": "Hoodless Groove",
     "artist": "Igor Gonya",
@@ -206564,7 +206745,8 @@
       "clone": "https://clone.nl/item81076.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "14fb7c5e",
@@ -206597,7 +206779,8 @@
       "clone": "https://clone.nl/item81356.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "05ac8667",
@@ -206630,7 +206813,8 @@
       "clone": "https://clone.nl/item81420.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "e441d643",
@@ -206984,23 +207168,25 @@
     "artist": "Placid Angles",
     "album": "A Detroit Summer EP",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Techno",
     "duration": "",
     "date": "2026-01-14",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Techno"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81898.html",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "OYSTER058",
     "format": "Single",
-    "quality_score": 28,
+    "quality_score": 18,
     "_score_breakdown": {
-      "total": 28,
+      "total": 18,
       "label": 0,
       "artist": 0,
-      "genre": 20,
+      "genre": 10,
       "source": 8,
       "multi": 0,
       "niche": 0
@@ -207011,7 +207197,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "47558235",
@@ -207217,11 +207404,16 @@
     "artist": "Suoni Incisi",
     "album": "003-002",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Downtempo",
     "duration": "",
     "date": "2026-01-13",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Downtempo",
+      "Dub Techno",
+      "Ambient",
+      "Tribal"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81596.html",
     "discogs_url": "",
@@ -207243,7 +207435,8 @@
     },
     "date_verified": false,
     "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "41f4842b",
@@ -207276,7 +207469,8 @@
       "clone": "https://clone.nl/item81624.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "1b939e9c",
@@ -207309,7 +207503,8 @@
       "clone": "https://clone.nl/item81625.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "2c4a9bec",
@@ -207512,51 +207707,18 @@
     }
   },
   {
-    "id": "4a8f5d88",
-    "title": "Fizzler",
-    "artist": "Daniel Savio",
-    "album": "Fizzler",
-    "label": "",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-01-12",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81628.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "ELKTRN006",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81628.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
     "id": "feee6954",
     "title": "Saense",
     "artist": "Aedis",
     "album": "Saense",
     "label": "",
-    "genre": "Electro",
+    "genre": "Minimal House",
     "duration": "",
     "date": "2026-01-12",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Deep Techno"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81667.html",
     "discogs_url": "",
@@ -207579,7 +207741,48 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
+    "id": "4a8f5d88",
+    "title": "Fizzler",
+    "artist": "Daniel Savio",
+    "album": "Fizzler",
+    "label": "",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-01-12",
+    "re": false,
+    "styles": [
+      "Electro",
+      "Dub",
+      "Acid"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81628.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ELKTRN006",
+    "format": "Single",
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 18,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81628.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "1904bf11",
@@ -207648,40 +207851,6 @@
     "date_verified": true
   },
   {
-    "id": "bc772bef",
-    "title": "Straight from Hell",
-    "artist": "Dj Skelet + Grimphunk",
-    "album": "Straight from Hell",
-    "label": "",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-01-11",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81845.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "WRECKS059",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81845.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
-  },
-  {
     "id": "99a58af8",
     "title": "Avant Garde Rhythm Box",
     "artist": "Noda &amp; Wolfers",
@@ -207712,7 +207881,46 @@
       "clone": "https://clone.nl/item79954.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
+    "id": "bc772bef",
+    "title": "Straight from Hell",
+    "artist": "Dj Skelet + Grimphunk",
+    "album": "Straight from Hell",
+    "label": "",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-01-11",
+    "re": false,
+    "styles": [
+      "House",
+      "Ghetto House"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81845.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "WRECKS059",
+    "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81845.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "52cfc917",
@@ -210432,7 +210640,8 @@
       "clone": "https://clone.nl/item80350.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "b25d337f",
@@ -210742,42 +210951,8 @@
       "clone": "https://clone.nl/item80353.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "e88e8204",
-    "title": "Blanked EP",
-    "artist": "Suicide AFTR 7",
-    "album": "Blanked EP",
-    "label": "",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-01-06",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item80355.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "HP001",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item80355.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "bc03e06f",
@@ -210810,7 +210985,8 @@
       "clone": "https://clone.nl/item80872.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "798d27cd",
@@ -210822,7 +210998,12 @@
     "duration": "",
     "date": "2026-01-06",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Electro",
+      "House",
+      "Trance",
+      "Techno"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item80873.html",
     "discogs_url": "",
@@ -210845,7 +211026,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "97521506",
@@ -210878,7 +211060,8 @@
       "clone": "https://clone.nl/item80874.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "7e1fb296",
@@ -210911,7 +211094,8 @@
       "clone": "https://clone.nl/item81383.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "8c014181",
@@ -210919,23 +211103,27 @@
     "artist": "Statickman",
     "album": "Be Reborn EP",
     "label": "",
-    "genre": "Electro",
+    "genre": "Italo Disco",
     "duration": "",
     "date": "2026-01-06",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Electro",
+      "Italo-Disco",
+      "Nu-Disco"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81384.html",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "GMN10",
     "format": "Single",
-    "quality_score": 28,
+    "quality_score": 26,
     "_score_breakdown": {
-      "total": 28,
+      "total": 26,
       "label": 0,
       "artist": 0,
-      "genre": 20,
+      "genre": 18,
       "source": 8,
       "multi": 0,
       "niche": 0
@@ -210946,7 +211134,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "8cf16277",
@@ -210954,23 +211143,27 @@
     "artist": "Sancturu",
     "album": "The Last Romantic",
     "label": "",
-    "genre": "Electro",
+    "genre": "Tech House",
     "duration": "",
     "date": "2026-01-06",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Electro",
+      "Tech House",
+      "House"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81385.html",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "ERROR404-02",
     "format": "Single",
-    "quality_score": 28,
+    "quality_score": 18,
     "_score_breakdown": {
-      "total": 28,
+      "total": 18,
       "label": 0,
       "artist": 0,
-      "genre": 20,
+      "genre": 10,
       "source": 8,
       "multi": 0,
       "niche": 0
@@ -210981,7 +211174,47 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
+    "id": "e88e8204",
+    "title": "Blanked EP",
+    "artist": "Suicide AFTR 7",
+    "album": "Blanked EP",
+    "label": "",
+    "genre": "EBM",
+    "duration": "",
+    "date": "2026-01-06",
+    "re": false,
+    "styles": [
+      "Electro",
+      "EBM"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item80355.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "HP001",
+    "format": "Single",
+    "quality_score": 8,
+    "_score_breakdown": {
+      "total": 8,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item80355.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "29072026",
@@ -213644,7 +213877,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36529864-Vincenzo-Albrici-Weser-Renaissance-Manfred-Cordes-Sacred-Cantatas"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "1e04c309",
@@ -213680,7 +213914,8 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36770320-Stanley-Turrentine-Sugar"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "ab0ca47f",
@@ -214268,76 +214503,6 @@
     "date_verified": true
   },
   {
-    "id": "8900b159",
-    "title": "TPX02",
-    "artist": "Tal Fussman / Skatman",
-    "album": "TPX02",
-    "label": "",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2025-12-31",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81534.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "TPX02",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81534.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "16088296",
-    "title": "Electrons",
-    "artist": "Riccardo Rizza",
-    "album": "Electrons",
-    "label": "",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2025-12-31",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81610.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "CLUT008",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81610.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
     "id": "fd525331",
     "title": "Come From",
     "artist": "Duke Harrison",
@@ -214370,6 +214535,86 @@
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14214463/come-from"
     }
+  },
+  {
+    "id": "8900b159",
+    "title": "TPX02",
+    "artist": "Tal Fussman / Skatman",
+    "album": "TPX02",
+    "label": "",
+    "genre": "Electro House",
+    "duration": "",
+    "date": "2025-12-31",
+    "re": false,
+    "styles": [
+      "House",
+      "Electro",
+      "Electro House"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81534.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TPX02",
+    "format": "Single",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81534.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
+    "id": "16088296",
+    "title": "Electrons",
+    "artist": "Riccardo Rizza",
+    "album": "Electrons",
+    "label": "",
+    "genre": "Progressive House",
+    "duration": "",
+    "date": "2025-12-31",
+    "re": false,
+    "styles": [
+      "Techno",
+      "Electro",
+      "Progressive House"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81610.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CLUT008",
+    "format": "Single",
+    "quality_score": 16,
+    "_score_breakdown": {
+      "total": 16,
+      "label": 0,
+      "artist": 0,
+      "genre": 8,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81610.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "e8b55b0a",
@@ -216052,7 +216297,9 @@
     "duration": "",
     "date": "2025-12-24",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Electro"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81261.html",
     "discogs_url": "",
@@ -216075,7 +216322,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "832b2cb1",
@@ -216108,7 +216356,8 @@
       "clone": "https://clone.nl/item81443.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "498d59c9",
@@ -216141,7 +216390,8 @@
       "clone": "https://clone.nl/item81445.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "e8efa9cf",
@@ -216149,11 +216399,14 @@
     "artist": "Various Artists",
     "album": "Underground Wave Volume 7",
     "label": "",
-    "genre": "Electro",
+    "genre": "Minimal House",
     "duration": "",
     "date": "2025-12-24",
     "re": false,
-    "styles": [],
+    "styles": [
+      "New Wave",
+      "Minimal"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81457.html",
     "discogs_url": "",
@@ -216174,7 +216427,8 @@
       "clone": "https://clone.nl/item81457.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "e802ef0d",
@@ -216789,23 +217043,28 @@
     "artist": "Silva",
     "album": "Tremor",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Dub",
     "duration": "",
     "date": "2025-12-22",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Dub",
+      "Downtempo",
+      "House"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item79997.html",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "zls12",
     "format": "LP",
-    "quality_score": 28,
+    "quality_score": 26,
     "_score_breakdown": {
-      "total": 28,
+      "total": 26,
       "label": 0,
       "artist": 0,
-      "genre": 20,
+      "genre": 18,
       "source": 8,
       "multi": 0,
       "niche": 0
@@ -216816,7 +217075,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "128484c5",
@@ -219671,11 +219931,16 @@
     "artist": "Pianeti Sintetici",
     "album": "Saibai 2",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Downtempo",
     "duration": "",
     "date": "2025-12-18",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Downtempo",
+      "Experimental",
+      "Drum n Bass"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81804.html",
     "discogs_url": "",
@@ -219698,7 +219963,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "9557403a",
@@ -221156,11 +221422,16 @@
     "artist": "Torus",
     "album": "Summer of Love",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Experimental",
     "duration": "",
     "date": "2025-12-15",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Sound Collage",
+      "Plunderphonics",
+      "Experimental"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81748.html",
     "discogs_url": "",
@@ -221183,7 +221454,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "1403cb5f",
@@ -221191,11 +221463,14 @@
     "artist": "Hybrid Leisureland",
     "album": "Flower Bullet",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Downtempo",
     "duration": "",
     "date": "2025-12-15",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Downtempo"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81670.html",
     "discogs_url": "",
@@ -221217,7 +221492,8 @@
     },
     "date_verified": false,
     "discogs_year": 2026,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "db42a24e",
@@ -223850,41 +224126,6 @@
     }
   },
   {
-    "id": "8f5b5055",
-    "title": "Rubbish Rubbish",
-    "artist": "Heloise",
-    "album": "Rubbish Rubbish",
-    "label": "",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2025-12-12",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81436.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "021CAF",
-    "format": "Single",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81436.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
     "id": "2a188d74",
     "discogs_release_id": 36183769,
     "title": "Love Language (Matthias Vogt Remix)",
@@ -224507,6 +224748,47 @@
     "date_verified": true
   },
   {
+    "id": "8f5b5055",
+    "title": "Rubbish Rubbish",
+    "artist": "Heloise",
+    "album": "Rubbish Rubbish",
+    "label": "",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2025-12-12",
+    "re": false,
+    "styles": [
+      "Experimental",
+      "No Wave",
+      "Post-Punk",
+      "Synth-pop"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81436.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "021CAF",
+    "format": "Single",
+    "quality_score": 8,
+    "_score_breakdown": {
+      "total": 8,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81436.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "47194752",
     "discogs_release_id": 35917894,
     "title": "LA Beast",
@@ -225022,41 +225304,6 @@
     "style_enriched": true
   },
   {
-    "id": "ea107ed8",
-    "title": "Energy Systems",
-    "artist": "Rambadu",
-    "album": "Energy Systems",
-    "label": "",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2025-12-11",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81531.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "HYPNUS046",
-    "format": "LP",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81531.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
     "id": "3d00b906",
     "title": "Selected Works 1985-2005",
     "artist": "Gabrielle Roth &amp;amp; The Mirrors",
@@ -225087,7 +225334,83 @@
       "clone": "https://clone.nl/item81407.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
+    "id": "ea107ed8",
+    "title": "Energy Systems",
+    "artist": "Rambadu",
+    "album": "Energy Systems",
+    "label": "",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2025-12-11",
+    "re": false,
+    "styles": [
+      "Techno",
+      "Deep Techno"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81531.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "HYPNUS046",
+    "format": "LP",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81531.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
+    "id": "90654219",
+    "title": "The Second Circle",
+    "artist": "Various Artists",
+    "album": "The Second Circle",
+    "label": "",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2025-12-11",
+    "re": false,
+    "styles": [
+      "Soul"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81900.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "Nero064",
+    "format": "LP",
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81900.html"
+    },
+    "date_verified": false,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "5debdffa",
@@ -225095,23 +225418,28 @@
     "artist": "Loukas Thanos",
     "album": "Jazzburger",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Synth Pop",
     "duration": "",
     "date": "2025-12-11",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Synth-pop",
+      "Euro-Disco",
+      "New Wave",
+      "Abstract"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81741.html",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "VR055",
     "format": "LP",
-    "quality_score": 28,
+    "quality_score": 8,
     "_score_breakdown": {
-      "total": 28,
+      "total": 8,
       "label": 0,
       "artist": 0,
-      "genre": 20,
+      "genre": 0,
       "source": 8,
       "multi": 0,
       "niche": 0
@@ -225122,40 +225450,8 @@
     "date_verified": false,
     "discogs_year": 1984,
     "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "90654219",
-    "title": "The Second Circle",
-    "artist": "Various Artists",
-    "album": "The Second Circle",
-    "label": "",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2025-12-11",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81900.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "Nero064",
-    "format": "LP",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81900.html"
-    },
-    "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "5673b1ad",
@@ -225795,7 +226091,8 @@
       "clone": "https://clone.nl/item64807.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "2bf0e65a",
@@ -225803,11 +226100,16 @@
     "artist": "Holsten, Grandma Love, Frank Silva",
     "album": "Gilbert Road EP",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Trip Hop",
     "duration": "",
     "date": "2025-12-09",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Breakbeat",
+      "Techno",
+      "Trip Hop"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81649.html",
     "discogs_url": "",
@@ -225830,7 +226132,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "ead70eee",
@@ -225842,7 +226145,10 @@
     "duration": "",
     "date": "2025-12-09",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Post Rock"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81832.html",
     "discogs_url": "",
@@ -225865,7 +226171,8 @@
     "date_verified": false,
     "discogs_year": 2024,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "7af15c2e",
@@ -231445,7 +231752,8 @@
       "clone": "https://clone.nl/item81316.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "25b23e13",
@@ -231453,23 +231761,28 @@
     "artist": "Cyberlife",
     "album": "Arcane Freqs Modulations",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Drum & Bass",
     "duration": "",
     "date": "2025-12-04",
     "re": false,
-    "styles": [],
+    "styles": [
+      "IDM",
+      "Drum n Bass",
+      "Deep Techno",
+      "Abstract"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81475.html",
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "CBLFS002",
     "format": "Single",
-    "quality_score": 28,
+    "quality_score": 26,
     "_score_breakdown": {
-      "total": 28,
+      "total": 26,
       "label": 0,
       "artist": 0,
-      "genre": 20,
+      "genre": 18,
       "source": 8,
       "multi": 0,
       "niche": 0
@@ -231480,7 +231793,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "9bb54809",
@@ -232055,7 +232369,8 @@
       "clone": "https://clone.nl/item81696.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "9aa10a1b",
@@ -233080,11 +233395,15 @@
     "artist": "Pressure of Speech",
     "album": "Our Common Past, Our Common Future",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Experimental",
     "duration": "",
     "date": "2025-12-01",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Techno",
+      "Experimental",
+      "Ambient"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81493.html",
     "discogs_url": "",
@@ -233107,7 +233426,8 @@
     "date_verified": false,
     "discogs_year": 1996,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "75c6c000",
@@ -233115,11 +233435,15 @@
     "artist": "Solitary Dancer",
     "album": "Y-3003",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Minimal House",
     "duration": "",
     "date": "2025-12-01",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Techno",
+      "Minimal"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81406.html",
     "discogs_url": "",
@@ -233142,7 +233466,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "8608485b",
@@ -236933,7 +237258,10 @@
     "duration": "",
     "date": "2025-11-28",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Tribal",
+      "Ambient"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item80661.html",
     "discogs_url": "",
@@ -236956,7 +237284,8 @@
     "date_verified": false,
     "discogs_year": 1993,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "c106de93",
@@ -236989,42 +237318,8 @@
       "clone": "https://clone.nl/item81640.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "6dde2559",
-    "title": "Selfless",
-    "artist": "Musicentrydelete (Hashman Deejay)",
-    "album": "Selfless",
-    "label": "",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2025-11-28",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81757.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "MH036",
-    "format": "LP",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81757.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "0dd0e654",
@@ -237090,7 +237385,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35786029-Sylvie-Vartan-Je-Tire-Ma-Révérence"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "3047ca5c",
@@ -237124,7 +237420,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35787160-Sylvie-Vartan-Je-Tire-Ma-Révérence"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "570371b0",
@@ -237157,7 +237454,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35863117-Uriah-Heep-The-Shadow-And-The-Wind-1973-1974"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "fad79a56",
@@ -237515,6 +237813,46 @@
       "discogs": "https://www.discogs.com/release/35802676-Alexander-Rybak-Wolfgang-Lohr-Alvin-Chea-Stella-Jones-One-Little-Christmas-Tree"
     },
     "date_verified": true
+  },
+  {
+    "id": "6dde2559",
+    "title": "Selfless",
+    "artist": "Musicentrydelete (Hashman Deejay)",
+    "album": "Selfless",
+    "label": "",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2025-11-28",
+    "re": false,
+    "styles": [
+      "Dub",
+      "House",
+      "Techno"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81757.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MH036",
+    "format": "LP",
+    "quality_score": 16,
+    "_score_breakdown": {
+      "total": 16,
+      "label": 0,
+      "artist": 0,
+      "genre": 8,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81757.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "cd984604",
@@ -238161,7 +238499,10 @@
     "duration": "",
     "date": "2025-11-27",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Drone"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81634.html",
     "discogs_url": "",
@@ -238184,7 +238525,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "e23a1e42",
@@ -238758,7 +239100,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35880037-Gee-Bello-Ft-Roy-Ayres-The-Sunshine-Goes-On-And-On"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "4a9130dc",
@@ -239114,51 +239457,20 @@
     "style_enriched": true
   },
   {
-    "id": "e7ee2013",
-    "title": "Millenium Madness",
-    "artist": "Shampain",
-    "album": "Millenium Madness",
-    "label": "",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2025-11-25",
-    "re": false,
-    "styles": [],
-    "source": "clone",
-    "source_url": "https://clone.nl/item81561.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "FREAKMAG003",
-    "format": "LP",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item81561.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
     "id": "67d1211d",
     "title": "were here all the time",
     "artist": "jp",
     "album": "were here all the time",
     "label": "",
-    "genre": "Ambient",
+    "genre": "IDM",
     "duration": "",
     "date": "2025-11-25",
     "re": false,
-    "styles": [],
+    "styles": [
+      "IDM",
+      "Ambient",
+      "Breakbeat"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item80883.html",
     "discogs_url": "",
@@ -239181,7 +239493,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "7c39b5eb",
@@ -239214,7 +239527,8 @@
       "clone": "https://clone.nl/item81255.html"
     },
     "date_verified": false,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "656541d8",
@@ -239222,11 +239536,15 @@
     "artist": "Hiele",
     "album": "Emo Inhaler",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Experimental",
     "duration": "",
     "date": "2025-11-25",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Ambient",
+      "Experimental",
+      "Folk"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81564.html",
     "discogs_url": "",
@@ -239249,7 +239567,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "ffb2c17a",
@@ -239257,11 +239576,18 @@
     "artist": "Kim David Bots",
     "album": "Instrumental Romance",
     "label": "",
-    "genre": "Ambient",
+    "genre": "Leftfield",
     "duration": "",
     "date": "2025-11-25",
     "re": false,
-    "styles": [],
+    "styles": [
+      "Avantgarde",
+      "Leftfield",
+      "Experimental",
+      "Sound Collage",
+      "Spoken Word",
+      "Abstract"
+    ],
     "source": "clone",
     "source_url": "https://clone.nl/item81695.html",
     "discogs_url": "",
@@ -239284,7 +239610,8 @@
     "date_verified": false,
     "discogs_year": 2025,
     "is_restock": true,
-    "discogs_year_checked": true
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "6b409783",
@@ -239351,6 +239678,46 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35868892-Belchior-Alucinação"
     }
+  },
+  {
+    "id": "e7ee2013",
+    "title": "Millenium Madness",
+    "artist": "Shampain",
+    "album": "Millenium Madness",
+    "label": "",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2025-11-25",
+    "re": false,
+    "styles": [
+      "Techno",
+      "Trance",
+      "Industrial"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item81561.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FREAKMAG003",
+    "format": "LP",
+    "quality_score": 8,
+    "_score_breakdown": {
+      "total": 8,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item81561.html"
+    },
+    "date_verified": false,
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
   },
   {
     "id": "11ec5a47",
@@ -253652,7 +254019,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35635087-Reinier-Zonneveld-x-Dikke-Baap-x-Joel-Beukers-Jekko"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "c65808af",
@@ -287563,7 +287931,8 @@
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35271226-Phil-Manzanera-Andy-Mackay-AMPM-Soho-Live"
     },
-    "date_verified": true
+    "date_verified": true,
+    "style_enriched": true
   },
   {
     "id": "2a6e0b05",
