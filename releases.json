@@ -2347,7 +2347,8 @@
       "source": 8,
       "multi": 6,
       "niche": 6
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "b749e885",
@@ -2614,12 +2615,17 @@
     "artist": "Autechre",
     "album": "Incunabula (reissue)",
     "label": "Warp",
-    "genre": "Experimental",
+    "genre": "IDM",
     "duration": "",
     "date": "2026-04-03",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Techno",
+      "IDM",
+      "Electro",
+      "Ambient"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/autechre-incunabula-vinyl/627424-01/",
     "discogs_url": "",
@@ -2638,7 +2644,11 @@
       "source": 6,
       "multi": 0,
       "niche": 4
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/autechre-incunabula-vinyl/627424-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "d564f63c",
@@ -2683,12 +2693,14 @@
     "artist": "Roland Clark",
     "album": "Clap Yo Hands",
     "label": "Get Physical Music",
-    "genre": "Electronic",
+    "genre": "House",
     "duration": "",
     "date": "2026-04-03",
     "date_verified": true,
     "re": false,
-    "styles": [],
+    "styles": [
+      "House"
+    ],
     "source": "bandcamp",
     "source_url": "https://getphysicalmusic.bandcamp.com/album/clap-yo-hands",
     "discogs_url": "",
@@ -2704,7 +2716,11 @@
       "source": 6,
       "multi": 0,
       "niche": 6
-    }
+    },
+    "source_urls": {
+      "bandcamp": "https://getphysicalmusic.bandcamp.com/album/clap-yo-hands"
+    },
+    "style_enriched": true
   },
   {
     "id": "a779c4c7",
@@ -3065,6 +3081,9 @@
       "source": 2,
       "multi": 0,
       "niche": 6
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Chris+Liebing"
     }
   },
   {
@@ -3278,38 +3297,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
-  },
-  {
-    "id": "3b96dc7e",
-    "title": "Say Hello - PARAMIDA Remixes",
-    "artist": "Deep Dish",
-    "album": "Say Hello - PARAMIDA Remixes",
-    "label": "Armada",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Deep_Dish_Say_Hello_-_PARAMIDA_Remixes_ARMA492R_Vinyl__1219364",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "ARMA492R",
-    "format": "Single",
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "quality_score": 50,
-    "_score_breakdown": {
-      "total": 50,
-      "label": 8,
-      "artist": 20,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 4
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/lewis-ofman-50kwtts-vinyl/1135802-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "b9dda8dd",
@@ -3423,6 +3415,83 @@
     }
   },
   {
+    "id": "14e2f804",
+    "title": "Sun Brings Joy",
+    "artist": "Jon Dasilva",
+    "album": "Sun Brings Joy",
+    "label": "Hottwerk Records",
+    "genre": "Acid",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "House",
+      "Acid House"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Jon_Dasilva_and_Skyskrapa_Feat_Donald_Waugh_Sun_Brings_Joy_HTTWRK21312_Vinyl__1221872",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "HTTWRK21312",
+    "format": "Single",
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Jon_Dasilva_and_Skyskrapa_Feat_Donald_Waugh_Sun_Brings_Joy_HTTWRK21312_Vinyl__1221872",
+      "juno": "https://www.juno.co.uk/products/jon-dasilva-skyskrapa-donald-waugh-sun-brings-joy-vinyl/1141672-01/"
+    },
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 49,
+    "_score_breakdown": {
+      "total": 49,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "3b96dc7e",
+    "title": "Say Hello - PARAMIDA Remixes",
+    "artist": "Deep Dish",
+    "album": "Say Hello - PARAMIDA Remixes",
+    "label": "Armada",
+    "genre": "Progressive House",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "House",
+      "Progressive House"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Deep_Dish_Say_Hello_-_PARAMIDA_Remixes_ARMA492R_Vinyl__1219364",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ARMA492R",
+    "format": "Single",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 8,
+      "artist": 20,
+      "genre": 8,
+      "source": 8,
+      "multi": 0,
+      "niche": 4
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Deep_Dish_Say_Hello_-_PARAMIDA_Remixes_ARMA492R_Vinyl__1219364"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "002a3234",
     "title": "EP Number Eight",
     "artist": "Em Vee",
@@ -3488,38 +3557,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
-  },
-  {
-    "id": "f63e69d8",
-    "title": "Koma West LP",
-    "artist": "Petter Eldh",
-    "album": "Koma West LP",
-    "label": "WE JAZZ",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Petter_Eldh_Koma_Saxo_%26_Sofia_Jernberg_Koma_West_LP_WJLP41_Vinyl__992027",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "WJLP41",
-    "format": "Single",
-    "discogs_year": 2022,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 48,
-    "_score_breakdown": {
-      "total": 48,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/analogue-nomadism"
     }
   },
   {
@@ -3953,7 +3993,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Various_NeighbourSoul_Edits_Vol9_NBS010_Vinyl__1216883"
+    },
+    "style_enriched": true
   },
   {
     "id": "d35e4de7",
@@ -4114,7 +4158,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "bandcamp": "https://firstwordrecords.bandcamp.com/album/i-swear-to-you-the-remixes"
+    },
+    "style_enriched": true
   },
   {
     "id": "376742d0",
@@ -4297,7 +4345,11 @@
       "source": 8,
       "multi": 0,
       "niche": 6
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Chris_Liebing_Evolver_LP_2x12_CLRLP015_Vinyl__1215140"
+    },
+    "style_enriched": true
   },
   {
     "id": "a150b239",
@@ -4443,12 +4495,15 @@
     "artist": "Coeo",
     "album": "Back In The Days",
     "label": "TOY TONICS",
-    "genre": "House",
+    "genre": "Nu Disco",
     "duration": "",
     "date": "2026-04-03",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "House",
+      "Nu-Disco"
+    ],
     "source": "deejay",
     "source_url": "https://www.deejay.de/Coeo_Back_In_The_Days_TOYT046_Vinyl__212275",
     "discogs_url": "",
@@ -4467,7 +4522,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Coeo_Back_In_The_Days_TOYT046_Vinyl__212275"
+    },
+    "style_enriched": true
   },
   {
     "id": "ee82fbfb",
@@ -4497,7 +4556,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Cling_Vault_with_Holes_LP_OATH028_Vinyl__1220264"
+    },
+    "style_enriched": true
   },
   {
     "id": "2d057c61",
@@ -4535,6 +4598,47 @@
       "multi": 10,
       "niche": 0
     }
+  },
+  {
+    "id": "c1f16aa1",
+    "title": "Wendy Eisenberg",
+    "artist": "Wendy Eisenberg",
+    "album": "Wendy Eisenberg",
+    "label": "Joyful Noise Recordings",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Folk / Roots",
+      "Indie / Alternative",
+      "Experimental",
+      "Free Improvisation"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/wendy-eisenberg",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2018,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/wendy-eisenberg"
+    },
+    "style_enriched": true
   },
   {
     "id": "4dafde93",
@@ -4612,12 +4716,16 @@
     "artist": "Shur-I-Kan",
     "album": "Half Step",
     "label": "Freerange",
-    "genre": "House",
+    "genre": "Breaks",
     "duration": "",
     "date": "2026-04-03",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Breakbeat",
+      "House",
+      "Breaks"
+    ],
     "source": "deejay",
     "source_url": "https://www.deejay.de/Shur-i-kan_Half_Step_FR025_Vinyl__722564",
     "discogs_url": "",
@@ -4636,7 +4744,11 @@
       "source": 8,
       "multi": 0,
       "niche": 4
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Shur-i-kan_Half_Step_FR025_Vinyl__722564"
+    },
+    "style_enriched": true
   },
   {
     "id": "74076a30",
@@ -4711,41 +4823,6 @@
       "deejay": "https://www.deejay.de/Mix-o-rap_Eyes_Of_A_Key_DJBLAK2-03_Vinyl__301297"
     },
     "style_enriched": true
-  },
-  {
-    "id": "14e2f804",
-    "title": "Sun Brings Joy",
-    "artist": "Jon Dasilva",
-    "album": "Sun Brings Joy",
-    "label": "Hottwerk Records",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Jon_Dasilva_and_Skyskrapa_Feat_Donald_Waugh_Sun_Brings_Joy_HTTWRK21312_Vinyl__1221872",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "HTTWRK21312",
-    "format": "Single",
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Jon_Dasilva_and_Skyskrapa_Feat_Donald_Waugh_Sun_Brings_Joy_HTTWRK21312_Vinyl__1221872",
-      "juno": "https://www.juno.co.uk/products/jon-dasilva-skyskrapa-donald-waugh-sun-brings-joy-vinyl/1141672-01/"
-    },
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "quality_score": 39,
-    "_score_breakdown": {
-      "total": 39,
-      "label": 15,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 6,
-      "niche": 0
-    }
   },
   {
     "id": "b10ee8db",
@@ -5360,71 +5437,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
-  },
-  {
-    "id": "ccf0a339",
-    "title": "DISCO DEVIL VOL. 4",
-    "artist": "LEE PERRY",
-    "album": "DISCO DEVIL VOL. 4",
-    "label": "STUDIO 16",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/LEE_PERRY_DISCO_DEVIL_VOL_4_STU16LP006_Vinyl__949113",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "STU16LP006",
-    "format": "Single",
-    "discogs_year": 2020,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    }
-  },
-  {
-    "id": "216702b5",
-    "title": "DISCO DEVIL VOL. 5",
-    "artist": "LEE PERRY",
-    "album": "DISCO DEVIL VOL. 5",
-    "label": "STUDIO 16",
-    "genre": "Electro",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/LEE_PERRY_DISCO_DEVIL_VOL_5_STU16LP007_Vinyl__949114",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "STU16LP007",
-    "format": "Single",
-    "discogs_year": 2018,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 36,
-    "_score_breakdown": {
-      "total": 36,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/LEE_PERRY_STU16LP005_LEE_PERRY_–_DISCO_DEVIL_VOL_3_5_CLASSIC_DISCOMIXES_FROM_THE_BLACK_ARK_STUDIO_STU16LP005_Vinyl__949112"
+    },
+    "style_enriched": true
   },
   {
     "id": "3c09602e",
@@ -5538,6 +5555,47 @@
     "source_urls": {
       "piccadilly": "https://www.piccadillyrecords.com/167010/Johannes-Klingebiel-Dolce-Claptrap"
     }
+  },
+  {
+    "id": "f63e69d8",
+    "title": "Koma West LP",
+    "artist": "Petter Eldh",
+    "album": "Koma West LP",
+    "label": "WE JAZZ",
+    "genre": "Future Jazz",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Space-Age",
+      "Contemporary Jazz",
+      "Future Jazz",
+      "Avant-garde Jazz"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Petter_Eldh_Koma_Saxo_%26_Sofia_Jernberg_Koma_West_LP_WJLP41_Vinyl__992027",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "WJLP41",
+    "format": "Single",
+    "discogs_year": 2022,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 20,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Petter_Eldh_Koma_Saxo_%26_Sofia_Jernberg_Koma_West_LP_WJLP41_Vinyl__992027"
+    },
+    "style_enriched": true
   },
   {
     "id": "d7cefb1d",
@@ -5880,7 +5938,10 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "Jazz"
+      "Jazz",
+      "Avant-garde Jazz",
+      "Hard Bop",
+      "Post Bop"
     ],
     "source": "decks",
     "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Larry+Young",
@@ -5897,7 +5958,11 @@
       "source": 2,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Larry+Young"
+    },
+    "style_enriched": true
   },
   {
     "id": "f643331a",
@@ -5911,7 +5976,9 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "Jazz"
+      "Jazz",
+      "Bop",
+      "Hard Bop"
     ],
     "source": "decks",
     "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Fred+Jackson",
@@ -5928,7 +5995,11 @@
       "source": 2,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Fred+Jackson"
+    },
+    "style_enriched": true
   },
   {
     "id": "6d8c5a51",
@@ -6545,41 +6616,6 @@
     }
   },
   {
-    "id": "c1f16aa1",
-    "title": "Wendy Eisenberg",
-    "artist": "Wendy Eisenberg",
-    "album": "Wendy Eisenberg",
-    "label": "Joyful Noise Recordings",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Folk / Roots",
-      "Indie / Alternative"
-    ],
-    "source": "boomkat",
-    "source_url": "https://boomkat.com/products/wendy-eisenberg",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "discogs_year": 2018,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 15,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    }
-  },
-  {
     "id": "b05d56c2",
     "title": "Sprawll",
     "artist": "Millia",
@@ -6610,6 +6646,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/sprawll"
     }
   },
   {
@@ -6648,39 +6687,8 @@
       "source": 8,
       "multi": 10,
       "niche": 0
-    }
-  },
-  {
-    "id": "7c82a27c",
-    "title": "Ruff ‘N Tuff 05",
-    "artist": "Quaad",
-    "album": "Ruff ‘N Tuff 05",
-    "label": "Ruff 'N Tuff",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Quaad_Ruff_‘N_Tuff_05_RNTU05_Vinyl__1149868",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "RNTU05",
-    "format": "Single",
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "3ae4c8bc",
@@ -6710,7 +6718,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Stekker_RNF-STKR01_RNT-STKR01_Vinyl__1139235"
+    },
+    "style_enriched": true
   },
   {
     "id": "96a30736",
@@ -6864,12 +6876,19 @@
     "artist": "Woo",
     "album": "Whichever Way You Are Going You Are Going Wrong (remastered)",
     "label": "The Sunshine Series",
-    "genre": "Downtempo",
+    "genre": "Minimal House",
     "duration": "",
     "date": "2026-04-03",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "New Age",
+      "New Wave",
+      "Minimal",
+      "Ambient",
+      "Acoustic",
+      "Experimental"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/woo-whichever-way-you-are-going-you-are-vinyl/1127436-01/",
     "discogs_url": "",
@@ -6888,7 +6907,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/woo-whichever-way-you-are-going-you-are-vinyl/1127436-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "10b4a5a3",
@@ -6896,12 +6919,15 @@
     "artist": "Rafael Toral",
     "album": "Traveling Light",
     "label": "Drag City US",
-    "genre": "Ambient",
+    "genre": "Experimental",
     "duration": "",
     "date": "2026-04-03",
     "date_verified": false,
     "re": false,
-    "styles": [],
+    "styles": [
+      "Experimental",
+      "Electroacoustic"
+    ],
     "source": "juno",
     "source_url": "https://www.juno.co.uk/products/rafael-toral-traveling-light-vinyl/1109684-01/",
     "discogs_url": "",
@@ -6920,7 +6946,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/rafael-toral-traveling-light-vinyl/1109684-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "9d506f5e",
@@ -8101,7 +8131,91 @@
       "source": 2,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Jarboe"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "ccf0a339",
+    "title": "DISCO DEVIL VOL. 4",
+    "artist": "LEE PERRY",
+    "album": "DISCO DEVIL VOL. 4",
+    "label": "STUDIO 16",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Reggae",
+      "Roots Reggae",
+      "Dub"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/LEE_PERRY_DISCO_DEVIL_VOL_4_STU16LP006_Vinyl__949113",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "STU16LP006",
+    "format": "Single",
+    "discogs_year": 2020,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 8,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/LEE_PERRY_DISCO_DEVIL_VOL_4_STU16LP006_Vinyl__949113"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "216702b5",
+    "title": "DISCO DEVIL VOL. 5",
+    "artist": "LEE PERRY",
+    "album": "DISCO DEVIL VOL. 5",
+    "label": "STUDIO 16",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Reggae",
+      "Roots Reggae",
+      "Dub"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/LEE_PERRY_DISCO_DEVIL_VOL_5_STU16LP007_Vinyl__949114",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "STU16LP007",
+    "format": "Single",
+    "discogs_year": 2018,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 8,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/LEE_PERRY_DISCO_DEVIL_VOL_5_STU16LP007_Vinyl__949114"
+    },
+    "style_enriched": true
   },
   {
     "id": "f88c42f0",
@@ -8342,7 +8456,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Rikha_Pabloisnotkind_Po-Sobachi_EP_ZGMDP001_Vinyl__1221218"
+    },
+    "style_enriched": true
   },
   {
     "id": "6db22447",
@@ -8373,71 +8491,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
-  },
-  {
-    "id": "2a332aa1",
-    "title": "Right Mind EP",
-    "artist": "12bit Jungle Out There",
-    "album": "Right Mind EP",
-    "label": "Foundations Records",
-    "genre": "Techno",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/12bit_Jungle_Out_There_Right_Mind_EP_FOUNDATIONS001_Vinyl__1132533",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "FOUNDATIONS001",
-    "format": "Single",
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    }
-  },
-  {
-    "id": "fe0a8d3b",
-    "title": "Apparitions EP",
-    "artist": "Quartz",
-    "album": "Apparitions EP",
-    "label": "System Music",
-    "genre": "Techno",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Quartz_Apparitions_EP_SYSTM046_Vinyl__1025900",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "SYSTM046",
-    "format": "Single",
-    "discogs_year": 2023,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Silk_Cuts_Once_Dont_Stop_7_SILKC7001_Vinyl__1220681"
+    },
+    "style_enriched": true
   },
   {
     "id": "9f106eb3",
@@ -8467,7 +8525,11 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/The_Council_Stekker_%26_DJ_Sofa_We_Must_Proceed_On_One_TCRT01_Vinyl__1126128"
+    },
+    "style_enriched": true
   },
   {
     "id": "565859e1",
@@ -8574,6 +8636,83 @@
     }
   },
   {
+    "id": "7c82a27c",
+    "title": "Ruff ‘N Tuff 05",
+    "artist": "Quaad",
+    "album": "Ruff ‘N Tuff 05",
+    "label": "Ruff 'N Tuff",
+    "genre": "Drum & Bass",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Jungle"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Quaad_Ruff_‘N_Tuff_05_RNTU05_Vinyl__1149868",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "RNTU05",
+    "format": "Single",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Quaad_Ruff_‘N_Tuff_05_RNTU05_Vinyl__1149868"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "2a332aa1",
+    "title": "Right Mind EP",
+    "artist": "12bit Jungle Out There",
+    "album": "Right Mind EP",
+    "label": "Foundations Records",
+    "genre": "Drum & Bass",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Jungle",
+      "Hardcore"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/12bit_Jungle_Out_There_Right_Mind_EP_FOUNDATIONS001_Vinyl__1132533",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "FOUNDATIONS001",
+    "format": "Single",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/12bit_Jungle_Out_There_Right_Mind_EP_FOUNDATIONS001_Vinyl__1132533"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "871b3e4a",
     "title": "Lines - 2026 Repress",
     "artist": "Akusmi",
@@ -8674,6 +8813,44 @@
     "source_urls": {
       "piccadilly": "https://www.piccadillyrecords.com/164735/Scruscru-ReWax-EP-Vol-2-Blur"
     }
+  },
+  {
+    "id": "fe0a8d3b",
+    "title": "Apparitions EP",
+    "artist": "Quartz",
+    "album": "Apparitions EP",
+    "label": "System Music",
+    "genre": "Dubstep",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Dubstep"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Quartz_Apparitions_EP_SYSTM046_Vinyl__1025900",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SYSTM046",
+    "format": "Single",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 8,
+    "_score_breakdown": {
+      "total": 8,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Quartz_Apparitions_EP_SYSTM046_Vinyl__1025900"
+    },
+    "style_enriched": true
   },
   {
     "id": "d26dc5f6",
@@ -9531,7 +9708,11 @@
       "source": 2,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Nautilus"
+    },
+    "style_enriched": true
   },
   {
     "id": "b6164e9a",
@@ -9562,7 +9743,11 @@
       "source": 2,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Gregory+Hutchinson"
+    },
+    "style_enriched": true
   },
   {
     "id": "d4fc6cc0",
@@ -153410,7 +153595,12 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "Essential Releases, March 13, 2026"
+      "Essential Releases, March 13, 2026",
+      "Post-Punk",
+      "Shoegaze",
+      "Indie Rock",
+      "Alt-Pop",
+      "Arabic Pop"
     ],
     "source": "bandcamp_daily",
     "source_url": "https://kissfacility.bandcamp.com/album/khazna",
@@ -153434,7 +153624,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://kissfacility.bandcamp.com/album/khazna"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "026f7ae9",
@@ -153448,7 +153639,8 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "Essential Releases, March 13, 2026"
+      "Essential Releases, March 13, 2026",
+      "Post-Punk"
     ],
     "source": "bandcamp_daily",
     "source_url": "https://stationmodelviolence.bandcamp.com/album/station-model-violence",
@@ -153472,7 +153664,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://stationmodelviolence.bandcamp.com/album/station-model-violence"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "c0eb73f4",
@@ -155521,7 +155714,9 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "Mary Ocher, “Weimar”"
+      "Mary Ocher, “Weimar”",
+      "Alt-Pop",
+      "Minimalism"
     ],
     "source": "bandcamp_daily",
     "source_url": "https://maryocher.bandcamp.com/album/weimar",
@@ -155546,7 +155741,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://maryocher.bandcamp.com/album/weimar"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "52edbddd",
@@ -156423,6 +156619,177 @@
     "discogs_year_checked": true
   },
   {
+    "id": "e18e333c",
+    "title": "Verdancy",
+    "artist": "David Garland",
+    "album": "Verdancy",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-11",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "David Garland Picks His Bandcamp Favorites",
+      "Abstract",
+      "Musique Concrète",
+      "Experimental",
+      "Avantgarde",
+      "Drone"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://davidgarland.bandcamp.com/album/verdancy",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Alternative",
+      "https://daily.bandcamp.com/genres/alternative",
+      "Big Ups"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp_daily": "https://davidgarland.bandcamp.com/album/verdancy"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "30183362",
+    "title": "winterspring/summerfall",
+    "artist": "Felbm",
+    "album": "winterspring/summerfall",
+    "label": "",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-11",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "David Garland Picks His Bandcamp Favorites",
+      "Ambient",
+      "Field Recording",
+      "Modern"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://felbm.bandcamp.com/album/winterspring-summerfall",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Alternative",
+      "https://daily.bandcamp.com/genres/alternative",
+      "Big Ups"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp_daily": "https://felbm.bandcamp.com/album/winterspring-summerfall"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "187d6cfe",
+    "title": "I get along without you very well",
+    "artist": "Ellen Arkbro",
+    "album": "I get along without you very well",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-11",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "David Garland Picks His Bandcamp Favorites",
+      "Experimental"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://ellenarkbro.bandcamp.com/album/i-get-along-without-you-very-well",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Alternative",
+      "https://daily.bandcamp.com/genres/alternative",
+      "Big Ups"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp_daily": "https://ellenarkbro.bandcamp.com/album/i-get-along-without-you-very-well"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "919e5d24",
+    "title": "Desert Window",
+    "artist": "lucy gooch",
+    "album": "Desert Window",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-03-11",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "David Garland Picks His Bandcamp Favorites",
+      "Ambient",
+      "Experimental"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://lucygooch.bandcamp.com/album/desert-window",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Alternative",
+      "https://daily.bandcamp.com/genres/alternative",
+      "Big Ups"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp_daily": "https://lucygooch.bandcamp.com/album/desert-window"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "0a78d8ce",
     "title": "Mr Majestik",
     "artist": "Calibre",
@@ -156680,45 +157047,6 @@
     "style_enriched": true
   },
   {
-    "id": "e18e333c",
-    "title": "Verdancy",
-    "artist": "David Garland",
-    "album": "Verdancy",
-    "label": "",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-11",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "David Garland Picks His Bandcamp Favorites"
-    ],
-    "source": "bandcamp_daily",
-    "source_url": "https://davidgarland.bandcamp.com/album/verdancy",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "style_tags": [
-      "Alternative",
-      "https://daily.bandcamp.com/genres/alternative",
-      "Big Ups"
-    ],
-    "quality_score": 7,
-    "_score_breakdown": {
-      "total": 7,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp_daily": "https://davidgarland.bandcamp.com/album/verdancy"
-    }
-  },
-  {
     "id": "651f03fa",
     "title": "grande est la maison",
     "artist": "cabane",
@@ -156755,7 +157083,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://cabanemusic.bandcamp.com/album/grande-est-la-maison"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "6ec82b17",
@@ -156769,7 +157098,8 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "David Garland Picks His Bandcamp Favorites"
+      "David Garland Picks His Bandcamp Favorites",
+      "Antifolk"
     ],
     "source": "bandcamp_daily",
     "source_url": "https://dianecluck.bandcamp.com/album/house-tears-2",
@@ -156794,7 +157124,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://dianecluck.bandcamp.com/album/house-tears-2"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "eda58191",
@@ -156833,7 +157164,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://jenzimberg.bandcamp.com/album/what-sings"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "7c76a8ef",
@@ -156872,85 +157204,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://lylebrewer.bandcamp.com/album/juno"
-    }
-  },
-  {
-    "id": "30183362",
-    "title": "winterspring/summerfall",
-    "artist": "Felbm",
-    "album": "winterspring/summerfall",
-    "label": "",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-11",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "David Garland Picks His Bandcamp Favorites"
-    ],
-    "source": "bandcamp_daily",
-    "source_url": "https://felbm.bandcamp.com/album/winterspring-summerfall",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "style_tags": [
-      "Alternative",
-      "https://daily.bandcamp.com/genres/alternative",
-      "Big Ups"
-    ],
-    "quality_score": 7,
-    "_score_breakdown": {
-      "total": 7,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
     },
-    "source_urls": {
-      "bandcamp_daily": "https://felbm.bandcamp.com/album/winterspring-summerfall"
-    }
-  },
-  {
-    "id": "187d6cfe",
-    "title": "I get along without you very well",
-    "artist": "Ellen Arkbro",
-    "album": "I get along without you very well",
-    "label": "",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-11",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "David Garland Picks His Bandcamp Favorites"
-    ],
-    "source": "bandcamp_daily",
-    "source_url": "https://ellenarkbro.bandcamp.com/album/i-get-along-without-you-very-well",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "style_tags": [
-      "Alternative",
-      "https://daily.bandcamp.com/genres/alternative",
-      "Big Ups"
-    ],
-    "quality_score": 7,
-    "_score_breakdown": {
-      "total": 7,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp_daily": "https://ellenarkbro.bandcamp.com/album/i-get-along-without-you-very-well"
-    }
+    "style_enriched": true
   },
   {
     "id": "ca57b43c",
@@ -156964,7 +157219,8 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "David Garland Picks His Bandcamp Favorites"
+      "David Garland Picks His Bandcamp Favorites",
+      "Folk"
     ],
     "source": "bandcamp_daily",
     "source_url": "https://claramann.bandcamp.com/track/go-steady",
@@ -156989,7 +157245,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://claramann.bandcamp.com/track/go-steady"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "27b83dca",
@@ -157028,46 +157285,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://rodneyalangreenblat.bandcamp.com/album/near-earth"
-    }
-  },
-  {
-    "id": "919e5d24",
-    "title": "Desert Window",
-    "artist": "lucy gooch",
-    "album": "Desert Window",
-    "label": "",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-11",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "David Garland Picks His Bandcamp Favorites"
-    ],
-    "source": "bandcamp_daily",
-    "source_url": "https://lucygooch.bandcamp.com/album/desert-window",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "style_tags": [
-      "Alternative",
-      "https://daily.bandcamp.com/genres/alternative",
-      "Big Ups"
-    ],
-    "quality_score": 7,
-    "_score_breakdown": {
-      "total": 7,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
     },
-    "source_urls": {
-      "bandcamp_daily": "https://lucygooch.bandcamp.com/album/desert-window"
-    }
+    "style_enriched": true
   },
   {
     "id": "4e50e1bc",
@@ -183928,7 +184147,8 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "Fugazi, “Albini Sessions”"
+      "Fugazi, “Albini Sessions”",
+      "Punk"
     ],
     "source": "bandcamp_daily",
     "source_url": "https://fugazi.bandcamp.com/album/albini-sessions-benefit-for-letters-charity",
@@ -183953,7 +184173,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://fugazi.bandcamp.com/album/albini-sessions-benefit-for-letters-charity"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "bed9a1d0",
@@ -188598,7 +188819,8 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://warchildrecords.bandcamp.com/album/help-2"
-    }
+    },
+    "style_enriched": true
   },
   {
     "id": "3a15a5a4",
