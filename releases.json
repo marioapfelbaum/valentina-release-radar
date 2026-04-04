@@ -62,6 +62,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/189871-aakmaeledits-02-dj-aakmael-aakmaeledits-02/"
     }
   },
   {
@@ -330,6 +333,9 @@
       "source": 8,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/181522-selv013-danny-howells-magic-black-plastic-vol-7/"
     }
   },
   {
@@ -1052,6 +1058,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/187797-selv014-magic-black-plastic-vol-8-va/"
     }
   },
   {
@@ -1261,6 +1270,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/180339-dbr001-elaine-monk-cherie-lee-gerideau-music-station-archive-traxx-vol-1/"
     }
   },
   {
@@ -2584,6 +2596,45 @@
     }
   },
   {
+    "id": "a5aad467",
+    "title": "Beau Mot Plagge",
+    "artist": "Isolée",
+    "album": "Beau Mot Plagge",
+    "label": "Classic",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-04-04",
+    "date_verified": false,
+    "re": true,
+    "styles": [
+      "minimal",
+      "deep house",
+      "house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88391/isolee/beau-mot-plagge/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "CMC086RMX2",
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88391/isolee/beau-mot-plagge/",
+      "deejay": "https://www.deejay.de/Isolée_Beau_Mot_Plage_Incl_Heaven_%26_Earth_Freeform_Five_Remixes_CMC086RMX2_Vinyl__1218365",
+      "piccadilly": "https://www.piccadillyrecords.com/166864/Isolée-Beau-Mot-Plage-(Incl-Heaven-Earth-Freeform-Five-Remixes)-Classic"
+    },
+    "discogs_year_checked": true,
+    "quality_score": 100,
+    "_score_breakdown": {
+      "total": 100,
+      "label": 30,
+      "artist": 30,
+      "genre": 20,
+      "source": 10,
+      "multi": 10,
+      "niche": 0
+    }
+  },
+  {
     "id": "27694c71",
     "title": "Big Calm",
     "artist": "Morcheeba",
@@ -2694,6 +2745,9 @@
       "source": 6,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/autechre-lp5-vinyl/848803-01/"
     }
   },
   {
@@ -2732,6 +2786,48 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/carl-finlow-desequence-vinyl/851126-01/"
+    }
+  },
+  {
+    "id": "05e385e5",
+    "title": "Higher State Of Consciousness",
+    "artist": "Wink",
+    "album": "Higher State Of Consciousness",
+    "label": "Strictly Rhythm ABSRWHSOC",
+    "genre": "Acid",
+    "duration": "",
+    "date": "2026-04-04",
+    "date_verified": false,
+    "re": true,
+    "styles": [
+      "house",
+      "acid",
+      "Breakbeat",
+      "Techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88390/wink/higher-state-of-consciousness/",
+    "discogs_url": "https://www.discogs.com/release/36863995-Wink-Higher-State-Of-Consciousness",
+    "bpm": null,
+    "catalog_number": "ABSRWHSOC",
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88390/wink/higher-state-of-consciousness/",
+      "juno": "https://www.juno.co.uk/products/wink-higher-state-of-consciousness-vinyl/1135631-01/",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/higher-state-consciousness-red-white-splatter-vinyl"
+    },
+    "discogs_year": 1995,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 70,
+    "_score_breakdown": {
+      "total": 70,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 10,
+      "multi": 10,
+      "niche": 10
     }
   },
   {
@@ -2805,6 +2901,9 @@
       "source": 6,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/jay-tripwire-voice-of-reason-ep-vinyl/1132516-01/"
     }
   },
   {
@@ -2905,6 +3004,36 @@
       "bandcamp": "https://diffusereality.bandcamp.com/album/residue-residue-dust-te0250"
     },
     "style_enriched": true
+  },
+  {
+    "id": "b4befa06",
+    "title": "Mwamwa - Purple Bossa [TE0254]",
+    "artist": "Diffuse Reality Records",
+    "album": "Mwamwa - Purple Bossa [TE0254]",
+    "label": "Diffuse Reality",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://diffusereality.bandcamp.com/album/mwamwa-purple-bossa-te0254",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "1706ed3c",
@@ -3211,6 +3340,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/discotecas-007-vinyl/1105399-01/"
     }
   },
   {
@@ -3233,6 +3365,76 @@
     "bpm": null,
     "catalog_number": null,
     "format": "Single",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/jsprv35-intergalactic-funk-ep-vinyl/1101986-01/"
+    }
+  },
+  {
+    "id": "9be9df41",
+    "title": "Unstable Orbit",
+    "artist": "Terrance Mcdonald",
+    "album": "Unstable Orbit",
+    "label": "Funkshun Keys US",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-04-04",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/terrance-mcdonald-unstable-orbit-vinyl/1133905-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "ab6fb6a9",
+    "title": "Different Rooms",
+    "artist": "Jeremiah Chiu/Marta Sofia Honer",
+    "album": "Different Rooms",
+    "label": "International Anthem US",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-04",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Avant-garde Jazz",
+      "Experimental"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/jeremiah-chiu-marta-sofia-honer-different-rooms-cd/1088773-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
     "discogs_year": 2025,
     "is_restock": true,
     "discogs_year_checked": true,
@@ -21600,6 +21802,40 @@
     "style_enriched": true
   },
   {
+    "id": "3a9de253",
+    "title": "Half Dead EP",
+    "artist": "Sapurra",
+    "album": "Half Dead EP",
+    "label": "Muted Noise",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-01",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195891-mn007-sapurra-half-dead-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MN007",
+    "format": "",
+    "quality_score": 79,
+    "_score_breakdown": {
+      "total": 79,
+      "label": 25,
+      "artist": 28,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 2
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195891-mn007-sapurra-half-dead-ep/",
+      "juno": "https://www.juno.co.uk/products/sapurra-half-dead-ep-vinyl/1148185-01/"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "7521035e",
     "title": "Tranquilizer",
     "artist": "Oneohtrix Point Never",
@@ -21744,39 +21980,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/everything-but-the-girl-eden-deluxe-edition-cd/1146351-01/"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "3a9de253",
-    "title": "Half Dead EP",
-    "artist": "Sapurra",
-    "album": "Half Dead EP",
-    "label": "Muted Noise",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-04-01",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/195891-mn007-sapurra-half-dead-ep/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "MN007",
-    "format": "",
-    "quality_score": 73,
-    "_score_breakdown": {
-      "total": 73,
-      "label": 25,
-      "artist": 28,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 2
-    },
-    "source_urls": {
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/195891-mn007-sapurra-half-dead-ep/"
     },
     "style_enriched": true
   },
@@ -42477,6 +42680,44 @@
     }
   },
   {
+    "id": "22ee8823",
+    "title": "Safe Travels Sampler",
+    "artist": "Various Artists",
+    "album": "Safe Travels Sampler",
+    "label": "Nervous",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-29",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88369/various-artists/safe-travels-sampler/",
+    "discogs_url": "https://www.discogs.com/release/36658324-Various-Safe-Travels",
+    "bpm": null,
+    "catalog_number": "NER27201",
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88369/various-artists/safe-travels-sampler/",
+      "piccadilly": "https://www.piccadillyrecords.com/166037/Various-Artists-Safe-Travels-Sampler-(Compiled-By-Ariane-V)-Nervous-Records"
+    },
+    "discogs_year": 2022,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    }
+  },
+  {
     "id": "0672181d",
     "title": "Disco Slaps",
     "artist": "Mortimer Snerd Iii",
@@ -45007,41 +45248,6 @@
     "style_enriched": true
   },
   {
-    "id": "d41ee508",
-    "title": "Beau Mot Plage (Incl. Heaven & Earth / Freeform Five Remixes)",
-    "artist": "Isolée",
-    "album": "Beau Mot Plage (Incl. Heaven & Earth / Freeform Five Remixes)",
-    "label": "Classic",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "house"
-    ],
-    "source": "piccadilly",
-    "source_url": "https://www.piccadillyrecords.com/166864/Isolée-Beau-Mot-Plage-(Incl-Heaven-Earth-Freeform-Five-Remixes)-Classic",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "CMC086RMX2",
-    "format": "",
-    "quality_score": 78,
-    "_score_breakdown": {
-      "total": 78,
-      "label": 30,
-      "artist": 30,
-      "genre": 10,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "piccadilly": "https://www.piccadillyrecords.com/166864/Isolée-Beau-Mot-Plage-(Incl-Heaven-Earth-Freeform-Five-Remixes)-Classic",
-      "deejay": "https://www.deejay.de/Isolée_Beau_Mot_Plage_Incl_Heaven_%26_Earth_Freeform_Five_Remixes_CMC086RMX2_Vinyl__1218365"
-    }
-  },
-  {
     "id": "992cab6e",
     "title": "RM12041",
     "artist": "Salomo",
@@ -46654,6 +46860,68 @@
       "niche": 0
     },
     "style_enriched": true
+  },
+  {
+    "id": "dbaf700d",
+    "title": "Scorsese Sounds - A Tribute To Martin Scorsese",
+    "artist": "Various",
+    "album": "Scorsese Sounds - A Tribute To Martin Scorsese",
+    "label": "Wagram Music",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Soundtrack"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36972789-Various-Scorsese-Sounds-A-Tribute-To-Martin-Scorsese",
+    "discogs_url": "https://www.discogs.com/release/36972789-Various-Scorsese-Sounds-A-Tribute-To-Martin-Scorsese",
+    "bpm": null,
+    "catalog_number": "3499296",
+    "format": "LP",
+    "quality_score": 58,
+    "_score_breakdown": {
+      "total": 58,
+      "label": 25,
+      "artist": 20,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "9c775c6c",
+    "title": "Bossa Nova - The Greatest Classics From The Bossa Nova Masters",
+    "artist": "Various",
+    "album": "Bossa Nova - The Greatest Classics From The Bossa Nova Masters",
+    "label": "Wagram Music",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Bossanova"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36972702-Various-Bossa-Nova-The-Greatest-Classics-From-The-Bossa-Nova-Masters",
+    "discogs_url": "https://www.discogs.com/release/36972702-Various-Bossa-Nova-The-Greatest-Classics-From-The-Bossa-Nova-Masters",
+    "bpm": null,
+    "catalog_number": "3498006",
+    "format": "LP",
+    "quality_score": 58,
+    "_score_breakdown": {
+      "total": 58,
+      "label": 25,
+      "artist": 20,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "8ecfa7fd",
@@ -49084,6 +49352,45 @@
     "style_enriched": true
   },
   {
+    "id": "67e870b3",
+    "title": "Riddim",
+    "artist": "Dialog",
+    "album": "Riddim",
+    "label": "Klape Nunsen",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "dub",
+      "techno",
+      "Dub Techno"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88105/dialog/riddim/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "KLP07",
+    "format": "12\"",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 44,
+    "_score_breakdown": {
+      "total": 44,
+      "label": 20,
+      "artist": 0,
+      "genre": 8,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88105/dialog/riddim/",
+      "deejay": "https://www.deejay.de/Dialog_Riddim_KLP07_Vinyl__1225468"
+    }
+  },
+  {
     "id": "5b0f0f56",
     "title": "Transparency EP 2x12″",
     "artist": "Faster",
@@ -50519,44 +50826,6 @@
     },
     "source_urls": {
       "hardwax": "https://hardwax.com/88104/javier-salazar/tides/"
-    }
-  },
-  {
-    "id": "67e870b3",
-    "title": "Riddim",
-    "artist": "Dialog",
-    "album": "Riddim",
-    "label": "Klape Nunsen",
-    "genre": "Dub",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "dub",
-      "techno",
-      "Dub Techno"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/88105/dialog/riddim/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "KLP07",
-    "format": "12\"",
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "quality_score": 38,
-    "_score_breakdown": {
-      "total": 38,
-      "label": 20,
-      "artist": 0,
-      "genre": 8,
-      "source": 10,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/88105/dialog/riddim/"
     }
   },
   {
@@ -77373,6 +77642,49 @@
     "style_enriched": true
   },
   {
+    "id": "995e1ee3",
+    "title": "Deep Sequence EP",
+    "artist": "Federsen",
+    "album": "Deep Sequence EP",
+    "label": "Syncrophone",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-03-24",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "dub",
+      "techno",
+      "house",
+      "Dub Techno",
+      "Experimental House",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87595/federsen/deep-sequence-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SYNCRO72",
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87595/federsen/deep-sequence-ep/",
+      "juno": "https://www.juno.co.uk/products/federsen-deep-sequence-ep-vinyl/1131171-01/",
+      "clone": "https://clone.nl/item82276.html"
+    },
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 53,
+    "_score_breakdown": {
+      "total": 53,
+      "label": 25,
+      "artist": 0,
+      "genre": 8,
+      "source": 10,
+      "multi": 10,
+      "niche": 0
+    }
+  },
+  {
     "id": "440b10d7",
     "title": "Act IV: Everglow",
     "artist": "Tristan Allen",
@@ -77948,48 +78260,6 @@
       "juno": "https://www.juno.co.uk/products/kraftwerk-radio-activity-50th-anniversary-edition-vinyl/1145075-01/"
     },
     "style_enriched": true
-  },
-  {
-    "id": "995e1ee3",
-    "title": "Deep Sequence EP",
-    "artist": "Federsen",
-    "album": "Deep Sequence EP",
-    "label": "Syncrophone",
-    "genre": "Dub",
-    "duration": "",
-    "date": "2026-03-24",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "dub",
-      "techno",
-      "house",
-      "Dub Techno",
-      "Experimental House",
-      "label catalog"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/87595/federsen/deep-sequence-ep/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "SYNCRO72",
-    "format": "12\"",
-    "source_urls": {
-      "hardwax": "https://hardwax.com/87595/federsen/deep-sequence-ep/",
-      "juno": "https://www.juno.co.uk/products/federsen-deep-sequence-ep-vinyl/1131171-01/"
-    },
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "quality_score": 49,
-    "_score_breakdown": {
-      "total": 49,
-      "label": 25,
-      "artist": 0,
-      "genre": 8,
-      "source": 10,
-      "multi": 6,
-      "niche": 0
-    }
   },
   {
     "id": "f0629a21",
@@ -118104,41 +118374,6 @@
     }
   },
   {
-    "id": "6cc63027",
-    "title": "Safe Travels Sampler (Compiled By Ariane V)",
-    "artist": "Various Artists",
-    "album": "Safe Travels Sampler (Compiled By Ariane V)",
-    "label": "Nervous Records",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-20",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "house"
-    ],
-    "source": "piccadilly",
-    "source_url": "https://www.piccadillyrecords.com/166037/Various-Artists-Safe-Travels-Sampler-(Compiled-By-Ariane-V)-Nervous-Records",
-    "discogs_url": "https://www.discogs.com/release/36658324-Various-Safe-Travels",
-    "bpm": null,
-    "catalog_number": "NER27201",
-    "format": "",
-    "source_urls": {
-      "piccadilly": "https://www.piccadillyrecords.com/166037/Various-Artists-Safe-Travels-Sampler-(Compiled-By-Ariane-V)-Nervous-Records",
-      "discogs": "https://www.discogs.com/release/36658324-Various-Safe-Travels"
-    },
-    "quality_score": 48,
-    "_score_breakdown": {
-      "total": 48,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    }
-  },
-  {
     "id": "1e36725b",
     "title": "RESURFACED(2LP, 2026 REISSUE)",
     "artist": "Scan 7",
@@ -133467,49 +133702,6 @@
     }
   },
   {
-    "id": "8e019ec2",
-    "title": "HIGHER STATE OF CONSCIOUSNESS (RED / WHITE SPLATTER VINYL)",
-    "artist": "JOSH WINK",
-    "album": "HIGHER STATE OF CONSCIOUSNESS (RED / WHITE SPLATTER VINYL)",
-    "label": "STRICTLY RHYTHM",
-    "genre": "Acid",
-    "duration": "",
-    "date": "2026-03-18",
-    "re": false,
-    "styles": [
-      "Acid",
-      "Breakbeat",
-      "Techno"
-    ],
-    "source": "rushhour",
-    "source_url": "https://www.rushhour.nl/record/vinyl/higher-state-consciousness-red-white-splatter-vinyl",
-    "discogs_url": "https://www.discogs.com/release/36863995-Wink-Higher-State-Of-Consciousness",
-    "bpm": null,
-    "catalog_number": "ABSRWHSOC",
-    "format": "",
-    "source_urls": {
-      "rushhour": "https://www.rushhour.nl/record/vinyl/higher-state-consciousness-red-white-splatter-vinyl",
-      "juno": "https://www.juno.co.uk/products/wink-higher-state-of-consciousness-vinyl/1135631-01/",
-      "deejay": "https://www.deejay.de/Wink_Higher_State_Of_Conscioness_ABSRWHSOC_Vinyl__951142",
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Wink",
-      "discogs": "https://www.discogs.com/release/36863995-Wink-Higher-State-Of-Consciousness"
-    },
-    "quality_score": 92,
-    "_score_breakdown": {
-      "total": 92,
-      "label": 30,
-      "artist": 20,
-      "genre": 20,
-      "source": 8,
-      "multi": 10,
-      "niche": 4
-    },
-    "date_verified": false,
-    "discogs_year": 2020,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
     "id": "2fea5a2c",
     "title": "SOL",
     "artist": "Ezechiel Pailhès",
@@ -133996,7 +134188,7 @@
       "deejay": "https://www.deejay.de/Nubiyan_Twist_Chasing_Shadows_LP_STRUT507LPC_Vinyl__1203764",
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Nubiyan+Twist",
       "piccadilly": "https://www.piccadillyrecords.com/164612/Nubiyan-Twist-Chasing-Shadows-Strut-Records",
-      "juno": "https://www.juno.co.uk/products/nubiyan-twist-chasing-shadows-cd/1125383-01/"
+      "juno": "https://www.juno.co.uk/products/nubiyan-twist-chasing-shadows-vinyl/1125384-01/"
     },
     "date_verified": false,
     "discogs_year": 2026,
@@ -153230,6 +153422,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36831805-Mika-Vainio-DubMix-1-1998"
     }
   },
   {
