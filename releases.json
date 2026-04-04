@@ -35,6 +35,36 @@
     }
   },
   {
+    "id": "dd8d096a",
+    "title": "AAKMAELEDITS 02",
+    "artist": "DJ AAKMAEL",
+    "album": "AAKMAELEDITS 02",
+    "label": "Aakmaeledits",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-17",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/189871-aakmaeledits-02-dj-aakmael-aakmaeledits-02/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "AAKMAELEDITS-02",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 0,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "e756d0f0",
     "title": "cat can do, Carara - Ambient Odyssey",
     "artist": "Diffuse Reality Records",
@@ -268,6 +298,39 @@
       "redeye": "https://www.redeyerecords.co.uk/vinyl/189702-mr-041-exos-sweet-dreams-repress-sleeve/"
     },
     "style_enriched": true
+  },
+  {
+    "id": "44e5152c",
+    "title": "Magic Black Plastic Vol 7",
+    "artist": "Danny Howells",
+    "album": "Magic Black Plastic Vol 7",
+    "label": "Selador Recordings",
+    "genre": "Tech House",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House",
+      "Tech House"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/181522-selv013-danny-howells-magic-black-plastic-vol-7/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SELV013",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 67,
+    "_score_breakdown": {
+      "total": 67,
+      "label": 25,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 4
+    }
   },
   {
     "id": "97a6c646",
@@ -954,6 +1017,44 @@
     }
   },
   {
+    "id": "8c1d6a7e",
+    "title": "VA",
+    "artist": "Magic Black Plastic Vol. 8",
+    "album": "VA",
+    "label": "Selador Recordings",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Synth-pop",
+      "Pop Rock",
+      "New Wave",
+      "Vocal",
+      "Hip-House",
+      "Ballad",
+      "Italo-Disco"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/187797-selv014-magic-black-plastic-vol-8-va/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SELV014",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 25,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "10b2e5d1",
     "title": "Sexy House",
     "artist": "Gabriel Deb",
@@ -1126,6 +1227,39 @@
       "genre": 10,
       "source": 8,
       "multi": 6,
+      "niche": 0
+    }
+  },
+  {
+    "id": "baaed5f1",
+    "title": "Music Station Archive Traxx Vol. 1",
+    "artist": "Elaine Monk/Cherie Lee/Gerideau",
+    "album": "Music Station Archive Traxx Vol. 1",
+    "label": "Daybreakers",
+    "genre": "Garage House",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House",
+      "Garage House"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/180339-dbr001-elaine-monk-cherie-lee-gerideau-music-station-archive-traxx-vol-1/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DBR001",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 8,
+      "artist": 0,
+      "genre": 8,
+      "source": 8,
+      "multi": 0,
       "niche": 0
     }
   },
@@ -2528,6 +2662,41 @@
     }
   },
   {
+    "id": "f48055dc",
+    "title": "LP5",
+    "artist": "Autechre",
+    "album": "LP5",
+    "label": "Warp",
+    "genre": "IDM",
+    "duration": "",
+    "date": "2026-04-04",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "IDM"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/autechre-lp5-vinyl/848803-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 1998,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 75,
+    "_score_breakdown": {
+      "total": 75,
+      "label": 25,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 4
+    }
+  },
+  {
     "id": "571303c1",
     "title": "Desequence",
     "artist": "Carl Finlow",
@@ -2601,6 +2770,41 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/sade-surrender-your-love-illegal-remixes-vinyl/1128511-01/"
+    }
+  },
+  {
+    "id": "22f311a2",
+    "title": "Voice Of Reason EP",
+    "artist": "Jay Tripwire",
+    "album": "Voice Of Reason EP",
+    "label": "NRV",
+    "genre": "Tech House",
+    "duration": "",
+    "date": "2026-04-04",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Tech House",
+      "Minimal Techno"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/jay-tripwire-voice-of-reason-ep-vinyl/1132516-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 50,
+    "_score_breakdown": {
+      "total": 50,
+      "label": 0,
+      "artist": 30,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 4
     }
   },
   {
@@ -2971,6 +3175,77 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/claire-rousay-a-little-death-vinyl/1108308-01/"
+    }
+  },
+  {
+    "id": "960de060",
+    "title": "Discotecas 007",
+    "artist": "Discotecas",
+    "album": "Discotecas 007",
+    "label": "Discotecas",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-04-04",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Downtempo",
+      "Balearic"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/discotecas-007-vinyl/1105399-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "60e73966",
+    "title": "Intergalactic Funk EP",
+    "artist": "Jsprv35",
+    "album": "Intergalactic Funk EP",
+    "label": "Planet Rhythm",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-04-04",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electro"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/jsprv35-intergalactic-funk-ep-vinyl/1101986-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -62630,7 +62905,8 @@
     "re": false,
     "styles": [
       "house",
-      "disco"
+      "disco",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88241/vicari/float-in/",
@@ -62667,7 +62943,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88242/tensal/high-octane/",
@@ -64004,7 +64281,7 @@
       "niche": 0
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/88063/hiss-is-bliss/higher-me/?focus=download",
+      "hardwax": "https://hardwax.com/88063/hiss-is-bliss/higher-me/",
       "clone": "https://clone.nl/item82327.html"
     }
   },
@@ -64572,7 +64849,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88244/various-artists/splits-01/",
@@ -64865,7 +65143,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88232/parano/tar-41/",
@@ -66725,7 +67004,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88245/frazier/introduction-to-sonic-futurism/",
@@ -66760,7 +67040,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87700/kamen/homemade-android-ep/",
@@ -66795,7 +67076,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88243/hertz/timballe/",
@@ -66832,7 +67114,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88233/skudge/tar-42/",
@@ -144658,7 +144941,7 @@
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/trying-times",
       "boomkat": "https://boomkat.com/products/trying-times-2bebdfab-e2d9-44d8-b93b-3d2c127bab61",
-      "juno": "https://www.juno.co.uk/products/james-blake-trying-times-vinyl/1134458-01/",
+      "juno": "https://www.juno.co.uk/products/james-blake-trying-times-vinyl/1134459-01/",
       "piccadilly": "https://www.piccadillyrecords.com/165300/James-Blake-Trying-Times-Good-Boy-Records",
       "norman": "https://www.normanrecords.com/records/213696-james-blake-trying-times"
     },
@@ -152919,6 +153202,37 @@
     }
   },
   {
+    "id": "4ee88535",
+    "title": "DubMix 1 - 1998",
+    "artist": "Mika Vainio",
+    "album": "DubMix 1 - 1998",
+    "label": "Sähkö Recordings",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-03-13",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Dub"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36831805-Mika-Vainio-DubMix-1-1998",
+    "discogs_url": "https://www.discogs.com/release/36831805-Mika-Vainio-DubMix-1-1998",
+    "bpm": null,
+    "catalog_number": "MVDUBCAS-1",
+    "format": "",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "95766da3",
     "title": "Fenix",
     "artist": "Emmaculate, Shebazz Curtis",
@@ -156493,6 +156807,41 @@
     }
   },
   {
+    "id": "548bff49",
+    "title": "The Sound Of Sub-Urban Volume 3",
+    "artist": "Key To Life / Marc Cotterell / Sean Mccabe / Grant Nelson",
+    "album": "The Sound Of Sub-Urban Volume 3",
+    "label": "Sub-Urban Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-13",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "house"
+    ],
+    "source": "piccadilly",
+    "source_url": "https://www.piccadillyrecords.com/166240/Key-To-Life-Marc-Cotterell-Sean-Mccabe-Grant-Nelson-The-Sound-Of-Sub-Urban-Volume-3-Sub-Urban-Records",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SU88",
+    "format": "",
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 2,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "piccadilly": "https://www.piccadillyrecords.com/166240/Key-To-Life-Marc-Cotterell-Sean-Mccabe-Grant-Nelson-The-Sound-Of-Sub-Urban-Volume-3-Sub-Urban-Records",
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/191369-su88-the-sound-of-sub-urban-volume-3-va/"
+    }
+  },
+  {
     "id": "d096fc76",
     "title": "Growing Up With It",
     "artist": "Disperse Black",
@@ -156729,40 +157078,6 @@
     },
     "source_urls": {
       "piccadilly": "https://www.piccadillyrecords.com/165024/Jhobei-BLove-R-U-Listening-Semi-Delicious"
-    }
-  },
-  {
-    "id": "548bff49",
-    "title": "The Sound Of Sub-Urban Volume 3",
-    "artist": "Key To Life / Marc Cotterell / Sean Mccabe / Grant Nelson",
-    "album": "The Sound Of Sub-Urban Volume 3",
-    "label": "Sub-Urban Records",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-13",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "house"
-    ],
-    "source": "piccadilly",
-    "source_url": "https://www.piccadillyrecords.com/166240/Key-To-Life-Marc-Cotterell-Sean-Mccabe-Grant-Nelson-The-Sound-Of-Sub-Urban-Volume-3-Sub-Urban-Records",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "SU88",
-    "format": "",
-    "quality_score": 12,
-    "_score_breakdown": {
-      "total": 12,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "piccadilly": "https://www.piccadillyrecords.com/166240/Key-To-Life-Marc-Cotterell-Sean-Mccabe-Grant-Nelson-The-Sound-Of-Sub-Urban-Volume-3-Sub-Urban-Records"
     }
   },
   {
@@ -171794,6 +172109,44 @@
     "discogs_year_checked": true
   },
   {
+    "id": "84a0f6c1",
+    "title": "Será",
+    "artist": "Ribé",
+    "album": "Será",
+    "label": "Semantica",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-10",
+    "re": false,
+    "styles": [
+      "techno",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87632/ribe/sera/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SEMANTICA193",
+    "format": "12\"",
+    "quality_score": 51,
+    "_score_breakdown": {
+      "total": 51,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87632/ribe/sera/",
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/191327-semantica193-ribé-será/"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true
+  },
+  {
     "id": "1201becb",
     "title": "I Program My Computer Right & View From Above",
     "artist": "Population One",
@@ -173148,43 +173501,6 @@
       "bandcamp": "https://diffusereality.bandcamp.com/album/arya-sub-assembly-vol-1-remixed-frequencies"
     },
     "style_enriched": true
-  },
-  {
-    "id": "84a0f6c1",
-    "title": "Será",
-    "artist": "Ribé",
-    "album": "Será",
-    "label": "Semantica",
-    "genre": "Techno",
-    "duration": "",
-    "date": "2026-03-10",
-    "re": false,
-    "styles": [
-      "techno",
-      "label catalog"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/87632/ribe/sera/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "12\"",
-    "quality_score": 45,
-    "_score_breakdown": {
-      "total": 45,
-      "label": 25,
-      "artist": 0,
-      "genre": 10,
-      "source": 10,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/87632/ribe/sera/"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true
   },
   {
     "id": "298454cd",
@@ -237772,7 +238088,7 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36296842-Kruder-Dorfmeister-DJ-Kicks",
-      "juno": "https://www.juno.co.uk/products/kruder-dorfmeister-dj-kicks-30th-anniversary-edition-cd/1147508-01/"
+      "juno": "https://www.juno.co.uk/products/kruder-dorfmeister-dj-kicks-30th-anniversary-edition-vinyl/1147510-01/"
     },
     "date_verified": true
   },
