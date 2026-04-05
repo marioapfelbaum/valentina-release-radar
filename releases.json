@@ -441,6 +441,36 @@
     }
   },
   {
+    "id": "da8fd50d",
+    "title": "Diskossa (2025 Repress)",
+    "artist": "Ural 13 Diktators",
+    "album": "Diskossa (2025 Repress)",
+    "label": "Ural 13 Records",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/185492-u13001-ural-13-diktators-diskossa-2025-repress/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "U13001",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 52,
+    "_score_breakdown": {
+      "total": 52,
+      "label": 8,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
     "id": "26b460ca",
     "title": "Displaces - Green & Black Splatter Vinyl",
     "artist": "Francesco Fabris",
@@ -1061,6 +1091,38 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/187797-selv014-magic-black-plastic-vol-8-va/"
+    }
+  },
+  {
+    "id": "528f5678",
+    "title": "Identity",
+    "artist": "Nastia Reigel",
+    "album": "Identity",
+    "label": "Infrastructure New York",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Techno"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/185437-inf027-nastia-reigel-identity/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "INF027",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -2088,6 +2150,40 @@
     }
   },
   {
+    "id": "941e48d6",
+    "title": "Onyx",
+    "artist": "Yasin Engwer",
+    "album": "Onyx",
+    "label": "Eshu Records",
+    "genre": "Tech House",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Tech House",
+      "Deep House",
+      "Minimal"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/188974-eshu019-yasin-engwer-onyx/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ESHU019",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "68f7691e",
     "title": "Nectar",
     "artist": "Khetzal",
@@ -2607,6 +2703,71 @@
     }
   },
   {
+    "id": "297fdb90",
+    "title": "Modular duck - Eternal paradise [TE0256]",
+    "artist": "Diffuse Reality Records",
+    "album": "Modular duck - Eternal paradise [TE0256]",
+    "label": "Diffuse Reality",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-05",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://diffusereality.bandcamp.com/album/modular-duck-eternal-paradise-te0256",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "73a29be0",
+    "title": "Ambient Jazz",
+    "artist": "Calm",
+    "album": "Ambient Jazz",
+    "label": "Music Conception Japan",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-05",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Dub"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/calm-ambient-jazz-cd/1124102-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2020,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 0,
+      "artist": 30,
+      "genre": 5,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "7e026648",
     "title": "Disco Mystic: Select Remixes Volume 1",
     "artist": "Asha Puthli",
@@ -2643,6 +2804,118 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/asha-puthli-disco-mystic-select-remixes-volume-1-vinyl/962616-01/"
+    }
+  },
+  {
+    "id": "ff3cef03",
+    "title": "Speedball",
+    "artist": "Idjut Boys",
+    "album": "Speedball",
+    "label": "Droid",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2026-04-05",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Synth-pop",
+      "Electro",
+      "Leftfield",
+      "Techno",
+      "Dub"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/idjut-boys-speedball-vinyl/884759-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2022,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 8,
+      "artist": 20,
+      "genre": 0,
+      "source": 6,
+      "multi": 0,
+      "niche": 2
+    }
+  },
+  {
+    "id": "b718d5e4",
+    "title": "Days As Echoes (reissue)",
+    "artist": "Misha Panfilov Sound Combo",
+    "album": "Days As Echoes (reissue)",
+    "label": "Funk Night US",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-04-05",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Modal",
+      "Space-Age",
+      "Psychedelic",
+      "Easy Listening"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/misha-panfilov-sound-combo-days-as-echoes-vinyl/784255-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "baa5f097",
+    "title": "The Long Living Things",
+    "artist": "Masahiro Sugaya",
+    "album": "The Long Living Things",
+    "label": "P-Vine Japan",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-04-05",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Ambient"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/masahiro-sugaya-the-long-living-things-vinyl/1027143-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 1988,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -50272,6 +50545,37 @@
     "style_enriched": true
   },
   {
+    "id": "8b0077d0",
+    "title": "I Don't Know",
+    "artist": "Nina Black Feat. LAUD",
+    "album": "I Don't Know",
+    "label": "541",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36980643-Nina-Black-4-Feat-LAUD-2-I-Dont-Know",
+    "discogs_url": "https://www.discogs.com/release/36980643-Nina-Black-4-Feat-LAUD-2-I-Dont-Know",
+    "bpm": null,
+    "catalog_number": "",
+    "format": "Single",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "e0a7242f",
     "title": "Wednesday Morning 6AM",
     "artist": "Various",
@@ -58536,7 +58840,7 @@
     ],
     "source": "decks",
     "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Daydream",
-    "discogs_url": "https://www.discogs.com/release/36618085-Daydream-2-In-The-Night",
+    "discogs_url": "https://www.discogs.com/release/36759904-Daydream-2-In-The-Night",
     "bpm": null,
     "catalog_number": "MX164V",
     "format": "",
@@ -58552,7 +58856,7 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Daydream",
-      "discogs": "https://www.discogs.com/release/36618085-Daydream-2-In-The-Night"
+      "discogs": "https://www.discogs.com/release/36759904-Daydream-2-In-The-Night"
     },
     "style_enriched": true
   },
@@ -158779,6 +159083,47 @@
     "discogs_year_checked": true
   },
   {
+    "id": "6440b030",
+    "title": "Lost In Transmission EP",
+    "artist": "Linear State",
+    "album": "Lost In Transmission EP",
+    "label": "Eterno Records",
+    "genre": "Breaks",
+    "duration": "",
+    "date": "2026-03-12",
+    "re": false,
+    "styles": [
+      "Breaks",
+      "Tech House",
+      "Techno",
+      "Electro"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82390.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ET004",
+    "format": "Single",
+    "quality_score": 39,
+    "_score_breakdown": {
+      "total": 39,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82390.html",
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/191548-et004-linear-state-lost-in-transmission-ep/"
+    },
+    "date_verified": false,
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "12995765",
     "title": "Aurum006",
     "artist": "Various",
@@ -159590,46 +159935,6 @@
     },
     "source_urls": {
       "clone": "https://clone.nl/item82391.html"
-    },
-    "date_verified": false,
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "style_enriched": true
-  },
-  {
-    "id": "6440b030",
-    "title": "Lost In Transmission EP",
-    "artist": "Linear State",
-    "album": "Lost In Transmission EP",
-    "label": "",
-    "genre": "Breaks",
-    "duration": "",
-    "date": "2026-03-12",
-    "re": false,
-    "styles": [
-      "Breaks",
-      "Tech House",
-      "Techno",
-      "Electro"
-    ],
-    "source": "clone",
-    "source_url": "https://clone.nl/item82390.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "ET004",
-    "format": "Single",
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item82390.html"
     },
     "date_verified": false,
     "discogs_year": 2026,
@@ -238542,7 +238847,7 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36296842-Kruder-Dorfmeister-DJ-Kicks",
-      "juno": "https://www.juno.co.uk/products/kruder-dorfmeister-dj-kicks-30th-anniversary-edition-vinyl/1147510-01/"
+      "juno": "https://www.juno.co.uk/products/kruder-dorfmeister-dj-kicks-30th-anniversary-edition-cd/1147508-01/"
     },
     "date_verified": true
   },
