@@ -468,6 +468,9 @@
       "source": 8,
       "multi": 0,
       "niche": 6
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/185492-u13001-ural-13-diktators-diskossa-2025-repress/"
     }
   },
   {
@@ -1123,6 +1126,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/185437-inf027-nastia-reigel-identity/"
     }
   },
   {
@@ -2181,6 +2187,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/188974-eshu019-yasin-engwer-onyx/"
     }
   },
   {
@@ -2703,6 +2712,42 @@
     }
   },
   {
+    "id": "f917d0a1",
+    "title": "Kama",
+    "artist": "Waxwood",
+    "album": "Kama",
+    "label": "Claremont 56",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-04-05",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Disco",
+      "Downtempo"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/waxwood-kama-vinyl/685202-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2018,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 51,
+    "_score_breakdown": {
+      "total": 51,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "297fdb90",
     "title": "Modular duck - Eternal paradise [TE0256]",
     "artist": "Diffuse Reality Records",
@@ -2730,6 +2775,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://diffusereality.bandcamp.com/album/modular-duck-eternal-paradise-te0256"
     }
   },
   {
@@ -2762,6 +2810,46 @@
       "label": 0,
       "artist": 30,
       "genre": 5,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/calm-ambient-jazz-cd/1124102-01/"
+    }
+  },
+  {
+    "id": "a66ab73f",
+    "title": "This Is What You Are (reissue)",
+    "artist": "Mario Biondi/The High Five Quintet",
+    "album": "This Is What You Are (reissue)",
+    "label": "Expansion",
+    "genre": "Future Jazz",
+    "duration": "",
+    "date": "2026-04-05",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Future Jazz",
+      "Soul-Jazz",
+      "House"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/mario-biondi-the-this-is-what-you-are-vinyl/954340-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2013,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 39,
+    "_score_breakdown": {
+      "total": 39,
+      "label": 25,
+      "artist": 0,
+      "genre": 8,
       "source": 6,
       "multi": 0,
       "niche": 0
@@ -2843,6 +2931,9 @@
       "source": 6,
       "multi": 0,
       "niche": 2
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/idjut-boys-speedball-vinyl/884759-01/"
     }
   },
   {
@@ -2881,6 +2972,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/misha-panfilov-sound-combo-days-as-echoes-vinyl/784255-01/"
     }
   },
   {
@@ -2904,6 +2998,44 @@
     "catalog_number": null,
     "format": "LP",
     "discogs_year": 1988,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/masahiro-sugaya-the-long-living-things-vinyl/1027143-01/"
+    }
+  },
+  {
+    "id": "eaa4f3b7",
+    "title": "EP 1 & 2",
+    "artist": "Yaeji",
+    "album": "EP 1 & 2",
+    "label": "Yaeji",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-04-05",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Deep House"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/yaeji-ep-1-2-vinyl/870845-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2022,
     "is_restock": true,
     "discogs_year_checked": true,
     "style_enriched": true,
@@ -50573,6 +50705,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36980643-Nina-Black-4-Feat-LAUD-2-I-Dont-Know"
     }
   },
   {
@@ -137182,6 +137317,47 @@
     "style_enriched": true
   },
   {
+    "id": "d1e397d8",
+    "title": "Psychology EP",
+    "artist": "Fozbee",
+    "album": "Psychology EP",
+    "label": "Vinyl Fanatiks",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [
+      "Breakbeat",
+      "Techno",
+      "Bleep"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Fozbee_%26_Cooze_Dimension_Psychology_EP_VFS015X_Vinyl__1220471",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "VFS015X",
+    "format": "Single",
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Fozbee_%26_Cooze_Dimension_Psychology_EP_VFS015X_Vinyl__1220471",
+      "juno": "https://www.juno.co.uk/products/fozbee-cooz-dimension-psychology-ep-vinyl/1140750-01/"
+    },
+    "date_verified": false,
+    "discogs_year": 1991,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "c27d0bdc",
     "title": "Teachers",
     "artist": "Todd Terry/The House Of Gypsies/DJ Sneak/Junior Sanchez/Stanton Warriors",
@@ -137547,46 +137723,6 @@
     },
     "date_verified": false,
     "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "style_enriched": true
-  },
-  {
-    "id": "d1e397d8",
-    "title": "Psychology EP",
-    "artist": "Fozbee",
-    "album": "Psychology EP",
-    "label": "Vinyl Fanatiks",
-    "genre": "Techno",
-    "duration": "",
-    "date": "2026-03-18",
-    "re": false,
-    "styles": [
-      "Breakbeat",
-      "Techno",
-      "Bleep"
-    ],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Fozbee_%26_Cooze_Dimension_Psychology_EP_VFS015X_Vinyl__1220471",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "VFS015X",
-    "format": "Single",
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Fozbee_%26_Cooze_Dimension_Psychology_EP_VFS015X_Vinyl__1220471"
-    },
-    "date_verified": false,
-    "discogs_year": 1991,
     "is_restock": true,
     "discogs_year_checked": true,
     "style_enriched": true
@@ -197246,6 +197382,68 @@
     "discogs_year_checked": true
   },
   {
+    "id": "d7b2f9f8",
+    "title": "I Can't Wait",
+    "artist": "Bob Sinclar Kiesza",
+    "album": "I Can't Wait",
+    "label": "Yellow Productions",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-02",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36982146-Bob-Sinclar-Kiesza-I-Cant-Wait",
+    "discogs_url": "https://www.discogs.com/release/36982146-Bob-Sinclar-Kiesza-I-Cant-Wait",
+    "bpm": null,
+    "catalog_number": "",
+    "format": "Single",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "40a40e7b",
+    "title": "I Can't Wait",
+    "artist": "Bob Sinclar Kiesza",
+    "album": "I Can't Wait",
+    "label": "Yellow Productions",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-02",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36982344-Bob-Sinclar-Kiesza-I-Cant-Wait",
+    "discogs_url": "https://www.discogs.com/release/36982344-Bob-Sinclar-Kiesza-I-Cant-Wait",
+    "bpm": null,
+    "catalog_number": "",
+    "format": "Single",
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "f3fa6b4c",
     "title": "Midnight Echo EP",
     "artist": "DFX Radio",
@@ -238847,7 +239045,7 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36296842-Kruder-Dorfmeister-DJ-Kicks",
-      "juno": "https://www.juno.co.uk/products/kruder-dorfmeister-dj-kicks-30th-anniversary-edition-cd/1147508-01/"
+      "juno": "https://www.juno.co.uk/products/kruder-dorfmeister-dj-kicks-30th-anniversary-edition-vinyl/1147510-01/"
     },
     "date_verified": true
   },
