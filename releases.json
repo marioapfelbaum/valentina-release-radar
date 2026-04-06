@@ -2720,6 +2720,47 @@
     }
   },
   {
+    "id": "1809efa0",
+    "title": "Metri",
+    "artist": "Ø (MIKA VAINIO)",
+    "album": "Metri",
+    "label": "Sähkö Recordings",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electronic",
+      "Techno",
+      "Minimal"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/metri-2723fa44-814d-4021-a52d-9f414a96ee78",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/metri-2723fa44-814d-4021-a52d-9f414a96ee78",
+      "bandcamp": "https://sahkorecordings.bandcamp.com/album/metri"
+    },
+    "discogs_year": 2005,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 59,
+    "_score_breakdown": {
+      "total": 59,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    }
+  },
+  {
     "id": "e8141ad7",
     "title": "CRONE",
     "artist": "ONE LEG ONE EYE",
@@ -3089,6 +3130,67 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/know-your-toms-ep-vinyl/1147350-01/"
+    }
+  },
+  {
+    "id": "e5fd1290",
+    "title": "SKYLAX — THE HOUSE SYSTEM — 10 × 12\" Vinyl Bundle — Bandcamp Exclusive",
+    "artist": "Skylax - Various Artists",
+    "album": "SKYLAX — THE HOUSE SYSTEM — 10 × 12\" Vinyl Bundle — Bandcamp Exclusive",
+    "label": "Styrax Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://skylaxrecords.bandcamp.com/album/skylax-the-house-system-10-12-vinyl-bundle-bandcamp-exclusive",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b44dfa56",
+    "title": "Submerge Me (feat Gilb'r remix)",
+    "artist": "Gratts/Mr Beale",
+    "album": "Submerge Me (feat Gilb'r remix)",
+    "label": "Be Strong Be Free",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/gratts-mr-beale-submerge-me-feat-gilbr-remix-vinyl/991721-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -3865,6 +3967,77 @@
     }
   },
   {
+    "id": "c2342665",
+    "title": "Secret Order 3",
+    "artist": "General Electrix",
+    "album": "Secret Order 3",
+    "label": "Secret Order Finland",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Techno",
+      "Electro"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/general-electrix-secret-order-3-vinyl/1132344-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "7feea6e2",
+    "title": "Nirmata",
+    "artist": "Joman",
+    "album": "Nirmata",
+    "label": "Essential Media US",
+    "genre": "Progressive House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Progressive House",
+      "IDM"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/joman-nirmata-cd/1147754-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2024,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 0,
+      "artist": 0,
+      "genre": 18,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "172002c4",
     "title": "Get Up & Chant",
     "artist": "The Heptones",
@@ -3967,6 +4140,366 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14454404/corona"
+    }
+  },
+  {
+    "id": "3b35a92b",
+    "title": "Harsh Human Style",
+    "artist": "AIDS Wolf",
+    "album": "Harsh Human Style",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://aidswolf.bandcamp.com/album/harsh-human-style",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "24b0ace3",
+    "title": "Valence",
+    "artist": "Bentley Anderson",
+    "album": "Valence",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://bentleyanderson.bandcamp.com/album/valence",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b51a7334",
+    "title": "Live Bahdu",
+    "artist": "Relative Pitch Records",
+    "album": "Live Bahdu",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://relativepitchrecords.bandcamp.com/album/live-bahdu",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "0d05eb41",
+    "title": "Unbalance",
+    "artist": "Beacon Sound",
+    "album": "Unbalance",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://beaconsound.bandcamp.com/album/unbalance",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "0b2f9d54",
+    "title": "Slowly Melting",
+    "artist": "Cuneiform Records",
+    "album": "Slowly Melting",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://cuneiformrecords.bandcamp.com/album/slowly-melting-2",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "56a89a52",
+    "title": "Dalbergia Retusa",
+    "artist": "Black Truffle",
+    "album": "Dalbergia Retusa",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://blacktruffle.bandcamp.com/album/dalbergia-retusa",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "706e0caf",
+    "title": "Psychic Sidekick",
+    "artist": "Rump State",
+    "album": "Psychic Sidekick",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://rumpstate12xu.bandcamp.com/album/psychic-sidekick",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "8a31f15e",
+    "title": "Punctum",
+    "artist": "Flaming Pines",
+    "album": "Punctum",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://flamingpines.bandcamp.com/album/punctum",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "ec73d74f",
+    "title": "Grub",
+    "artist": "Eiderdown Records",
+    "album": "Grub",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://eiderdownrecords.bandcamp.com/album/grub",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "2f0e2db2",
+    "title": "Poems without Words 無辭詩",
+    "artist": "Dusty Ballz",
+    "album": "Poems without Words 無辭詩",
+    "label": "",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "The Best Experimental Music on Bandcamp, March 2026"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://dustyballz.bandcamp.com/album/poems-without-words",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Best Experimental",
+      "Experimental",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -4381,6 +4914,42 @@
       "genre": 0,
       "source": 10,
       "multi": 6,
+      "niche": 0
+    }
+  },
+  {
+    "id": "497ea2ed",
+    "title": "Love's Illusion",
+    "artist": "Xclu!sive",
+    "album": "Love's Illusion",
+    "label": "Essential Media US",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "House",
+      "Freestyle"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/xclu-sive-loves-illusion-cd/1147748-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 1988,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 16,
+    "_score_breakdown": {
+      "total": 16,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
       "niche": 0
     }
   },
@@ -4952,6 +5521,82 @@
     },
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/trilogy-0"
+    }
+  },
+  {
+    "id": "2ffb2bff",
+    "title": "Goodbyehouse",
+    "artist": "Snuggle",
+    "album": "Goodbyehouse",
+    "label": "ESCHO",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Indie / Alternative",
+      "Dream Pop",
+      "Shoegaze",
+      "Indie Pop",
+      "Indie Rock"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/goodbyehouse",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "ceac65d6",
+    "title": "Giant Beauty",
+    "artist": "أحمد [Ahmed]",
+    "album": "Giant Beauty",
+    "label": "Fönstret",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Jazz / Fusion",
+      "Avant-garde Jazz",
+      "Free Improvisation"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/giant-beauty",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2024,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -43109,6 +43754,48 @@
     "style_enriched": true
   },
   {
+    "id": "25b9df9d",
+    "title": "GOLDFISH",
+    "artist": "Hit-Boy & The Alchemist",
+    "album": "GOLDFISH",
+    "label": "Surf Club Inc. / ALC / EMPIRE",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-30",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Hip-Hop",
+      "Beats",
+      "DJ Mix",
+      "Boom Bap",
+      "house"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/212961-hit-boy-the-alchemist-goldfish",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 16,
+    "_score_breakdown": {
+      "total": 16,
+      "label": 0,
+      "artist": 0,
+      "genre": 8,
+      "source": 2,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "norman": "https://www.normanrecords.com/records/212961-hit-boy-the-alchemist-goldfish",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/goldfish-0"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "d0133b63",
     "title": "Actual Life: April 14 - December 17 2020 (reissue)",
     "artist": "Fred Again",
@@ -43383,47 +44070,6 @@
     },
     "source_urls": {
       "deejay": "https://www.deejay.de/FFF_Control_Tower_EP_3AM01_Vinyl__949449"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "25b9df9d",
-    "title": "GOLDFISH",
-    "artist": "Hit-Boy & The Alchemist",
-    "album": "GOLDFISH",
-    "label": "Surf Club Inc. / ALC / EMPIRE",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-30",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Hip-Hop",
-      "Beats",
-      "DJ Mix",
-      "Boom Bap"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/212961-hit-boy-the-alchemist-goldfish",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "quality_score": 13,
-    "_score_breakdown": {
-      "total": 13,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/212961-hit-boy-the-alchemist-goldfish",
-      "rushhour": "https://www.rushhour.nl/record/vinyl/goldfish-0"
     },
     "style_enriched": true
   },
@@ -123324,6 +123970,47 @@
     "discogs_year_checked": true
   },
   {
+    "id": "6644263f",
+    "title": "in filth your mystery is kingdom / far smile peasant in yellow music",
+    "artist": "dagmar zuniga",
+    "album": "in filth your mystery is kingdom / far smile peasant in yellow music",
+    "label": "AD 93",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Dagmar Zuniga, “in filth your mystery is kingdom / far smile peasant in yellow music”"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://dagmarzuniga.bandcamp.com/album/in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Experimental",
+      "Album of the Day",
+      "https://daily.bandcamp.com/genres/experimental"
+    ],
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp_daily": "https://dagmarzuniga.bandcamp.com/album/in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music",
+      "bandcamp": "https://ad93.bandcamp.com/album/in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "0e0724f9",
     "title": "Tectonic",
     "artist": "Simon Berz",
@@ -124773,46 +125460,6 @@
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14398164/zimele"
     }
-  },
-  {
-    "id": "6644263f",
-    "title": "in filth your mystery is kingdom / far smile peasant in yellow music",
-    "artist": "dagmar zuniga",
-    "album": "in filth your mystery is kingdom / far smile peasant in yellow music",
-    "label": "AD 93",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-20",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Dagmar Zuniga, “in filth your mystery is kingdom / far smile peasant in yellow music”"
-    ],
-    "source": "bandcamp_daily",
-    "source_url": "https://dagmarzuniga.bandcamp.com/album/in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "style_tags": [
-      "Experimental",
-      "Album of the Day",
-      "https://daily.bandcamp.com/genres/experimental"
-    ],
-    "quality_score": 37,
-    "_score_breakdown": {
-      "total": 37,
-      "label": 30,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp_daily": "https://dagmarzuniga.bandcamp.com/album/in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music"
-    },
-    "style_enriched": true
   },
   {
     "id": "473a97b8",
@@ -147160,42 +147807,6 @@
     },
     "date_verified": false,
     "discogs_year_checked": true,
-    "style_enriched": true
-  },
-  {
-    "id": "927b020a",
-    "title": "Metri",
-    "artist": "Ø (Mika Vainio)",
-    "album": "Metri",
-    "label": "Sahko",
-    "genre": "Minimal House",
-    "duration": "",
-    "date": "2026-03-14",
-    "re": false,
-    "styles": [
-      "Techno",
-      "Minimal"
-    ],
-    "source": "bandcamp",
-    "source_url": "https://sahkorecordings.bandcamp.com/album/metri",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 56,
-    "_score_breakdown": {
-      "total": 56,
-      "label": 30,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://sahkorecordings.bandcamp.com/album/metri"
-    },
-    "date_verified": true,
     "style_enriched": true
   },
   {
@@ -195939,7 +196550,8 @@
       "Electro",
       "IDM",
       "EBM",
-      "house"
+      "house",
+      "Grime / Fwd"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/87912/commodo/deep-harbour/",
@@ -195960,7 +196572,8 @@
     "source_urls": {
       "hardwax": "https://hardwax.com/87912/commodo/deep-harbour/",
       "norman": "https://www.normanrecords.com/records/214277-commodo-deep-harbour",
-      "deejay": "https://www.deejay.de/Commodo_Deep_Harbour_ACRE100_Vinyl__1219232"
+      "deejay": "https://www.deejay.de/Commodo_Deep_Harbour_ACRE100_Vinyl__1219232",
+      "boomkat": "https://boomkat.com/products/deep-harbour"
     },
     "date_verified": false,
     "discogs_year_checked": true
@@ -233284,7 +233897,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36249247-Grant-Miller-Colder-Than-Ice-Red-For-Love",
-    "discogs_url": "https://www.discogs.com/release/36249247-Grant-Miller-Colder-Than-Ice-Red-For-Love",
+    "discogs_url": "https://www.discogs.com/release/36249247",
     "bpm": null,
     "catalog_number": "MAXI 1195-12",
     "format": "",
@@ -233299,7 +233912,7 @@
       "niche": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36249247-Grant-Miller-Colder-Than-Ice-Red-For-Love"
+      "discogs": "https://www.discogs.com/release/36249247"
     },
     "date_verified": true
   },
@@ -236795,7 +237408,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36157213-Talla-2XLC-World-Of-Trance-02-Limited-Vinyl-Edition",
-    "discogs_url": "https://www.discogs.com/release/36157213-Talla-2XLC-World-Of-Trance-02-Limited-Vinyl-Edition",
+    "discogs_url": "https://www.discogs.com/release/36157213",
     "bpm": null,
     "catalog_number": "ZYX 83181-1",
     "format": "LP",
@@ -236810,7 +237423,7 @@
       "niche": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36157213-Talla-2XLC-World-Of-Trance-02-Limited-Vinyl-Edition"
+      "discogs": "https://www.discogs.com/release/36157213"
     },
     "date_verified": true
   },
