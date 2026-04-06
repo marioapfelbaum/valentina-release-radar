@@ -339,6 +339,39 @@
     }
   },
   {
+    "id": "bf0962ca",
+    "title": "In Place Of Language",
+    "artist": "808 State vs Humanoid",
+    "album": "In Place Of Language",
+    "label": "De:tuned",
+    "genre": "Acid",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Acid",
+      "Acid House",
+      "Techno"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36989940-808-State-vs-Humanoid-In-Place-Of-Language",
+    "discogs_url": "https://www.discogs.com/release/36989940-808-State-vs-Humanoid-In-Place-Of-Language",
+    "bpm": null,
+    "catalog_number": "ASG/DE056LTD",
+    "format": "EP",
+    "quality_score": 53,
+    "_score_breakdown": {
+      "total": 53,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "97a6c646",
     "title": "Really Love",
     "artist": "Sean Green, Will Heard",
@@ -2765,6 +2798,36 @@
     }
   },
   {
+    "id": "97ceba44",
+    "title": "Summer’s End Sampler - 3x12\"",
+    "artist": "VA",
+    "album": "Summer’s End Sampler - 3x12\"",
+    "label": "All Day I Dream",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/187409-adid118-va-summers-end-sampler-3x12/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ADID118",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "cee65773",
     "title": "Northern Lights",
     "artist": "Gene Farris",
@@ -2836,6 +2899,36 @@
     "style_enriched": true
   },
   {
+    "id": "39960c72",
+    "title": "Wataru Wanlak - Putting Your Truth Into the Robot",
+    "artist": "Diffuse Reality Records",
+    "album": "Wataru Wanlak - Putting Your Truth Into the Robot",
+    "label": "Diffuse Reality",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://diffusereality.bandcamp.com/album/wataru-wanlak-putting-your-truth-into-the-robot",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "ef24ae2f",
     "title": "Sixty Minute Man b/w Farewell My Love",
     "artist": "A Tint Of Darkness",
@@ -2868,6 +2961,36 @@
     },
     "source_urls": {
       "boomkat": "https://boomkat.com/products/sixty-minute-man-b-w-farewell-my-love"
+    }
+  },
+  {
+    "id": "c6b29ec9",
+    "title": "Wired EP",
+    "artist": "DJ Honesty (Incl.Satoshi Tomiie Remix)",
+    "album": "Wired EP",
+    "label": "Syncrophone",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/187399-syncro70-dj-honesty-incl-satoshi-tomiie-remix-wired-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SYNCRO70",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -2941,6 +3064,38 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/majik-man-justin-bailey-dave-coker-majik-man-vinyl/1126008-01/"
+    }
+  },
+  {
+    "id": "ecfdd1cc",
+    "title": "Surrender Your Love (Illegal Remixes)",
+    "artist": "Illegal Detroit",
+    "album": "Surrender Your Love (Illegal Remixes)",
+    "label": "Illegal Detroit",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Deep House"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/186813-ill000-illegal-detroit-surrender-your-love-illegal-remixes/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ILL000",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 8,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -3207,6 +3362,75 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/dj-lbr-dcs-finest-battle-weapons-vol-6-vinyl/1054420-01/"
+    }
+  },
+  {
+    "id": "6b411ddd",
+    "title": "Naja",
+    "artist": "Zherav",
+    "album": "Naja",
+    "label": "Batov",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/zherav-naja-vinyl/1133191-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "389ea35b",
+    "title": "Future Proof",
+    "artist": "Tmz",
+    "album": "Future Proof",
+    "label": "Transonic",
+    "genre": "Acid",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Techno",
+      "Acid",
+      "Downtempo"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/tmz-future-proof-cd/1147714-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2024,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -3489,6 +3713,109 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195982-kr001-various-artists-kucha-records-001/"
+    }
+  },
+  {
+    "id": "5f22803e",
+    "title": "BERLIN REWORKS 3",
+    "artist": "DELFONIC",
+    "album": "BERLIN REWORKS 3",
+    "label": "G.a.m.m",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195992-gamm2004-delfonic-berlin-reworks-3/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "GAMM2004",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "2ad015bb",
+    "title": "VA",
+    "artist": "SURPLUS ENJOYMENT",
+    "album": "VA",
+    "label": "Surplus Enjoyment",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195991-searchive01-surplus-enjoyment-va/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SEARCHIVE01",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "7dc5eda0",
+    "title": "Late Night Tales",
+    "artist": "Jon Hopkins/Various",
+    "album": "Late Night Tales",
+    "label": "Late Night Tales",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Ambient",
+      "Folk Rock",
+      "Spoken Word",
+      "Acoustic",
+      "Experimental",
+      "Synth-pop",
+      "Downtempo",
+      "Ethereal",
+      "Folk"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/jon-hopkins-late-night-tales-vinyl/562977-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2016,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 14,
+    "_score_breakdown": {
+      "total": 14,
+      "label": 8,
+      "artist": 0,
+      "genre": 0,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -34942,6 +35269,40 @@
     "style_enriched": true
   },
   {
+    "id": "bf82d783",
+    "title": "Varginha 96 EP",
+    "artist": "Loopdeville",
+    "album": "Varginha 96 EP",
+    "label": "Selekt Sounds",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195825-swax002-loopdeville-varginha-96-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SWAX002",
+    "format": "",
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195825-swax002-loopdeville-varginha-96-ep/",
+      "juno": "https://www.juno.co.uk/products/loopdeville-varginha-96-ep-vinyl/1147772-01/"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "618198b6",
     "title": "This House",
     "artist": "Soft Rains Will Come",
@@ -35310,39 +35671,6 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195800-dubble006-brennan-dubble-006/"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "bf82d783",
-    "title": "Varginha 96 EP",
-    "artist": "Loopdeville",
-    "album": "Varginha 96 EP",
-    "label": "Selekt Sounds",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-31",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/195825-swax002-loopdeville-varginha-96-ep/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "SWAX002",
-    "format": "",
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/195825-swax002-loopdeville-varginha-96-ep/"
     },
     "style_enriched": true
   },
@@ -37026,6 +37354,40 @@
     }
   },
   {
+    "id": "28c3ea6e",
+    "title": "LICHTUNG",
+    "artist": "hackedepicciotto",
+    "album": "LICHTUNG",
+    "label": "Mute",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-30",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://muterecords.bandcamp.com/album/lichtung",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 52,
+    "_score_breakdown": {
+      "total": 52,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://muterecords.bandcamp.com/album/lichtung",
+      "juno": "https://www.juno.co.uk/products/hackedepicciotto-lichtung-vinyl/1147611-01/"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "bfb29a2b",
     "title": "Objects Remixed (Deadbeat, Federson, Merv, Ohm & Octal Industries)",
     "artist": "Beppu",
@@ -37810,40 +38172,7 @@
       "niche": 0
     },
     "source_urls": {
-      "bandcamp": "https://solenoidrecords.bandcamp.com/album/upcoming"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "28c3ea6e",
-    "title": "LICHTUNG",
-    "artist": "hackedepicciotto",
-    "album": "LICHTUNG",
-    "label": "Mute",
-    "genre": "Electronic",
-    "duration": "",
-    "date": "2026-03-30",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "bandcamp",
-    "source_url": "https://muterecords.bandcamp.com/album/lichtung",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://muterecords.bandcamp.com/album/lichtung"
+      "bandcamp": "https://solenoidrecords.bandcamp.com/album/matanza"
     },
     "style_enriched": true
   },
@@ -47443,7 +47772,8 @@
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/192865-mulemusiq305-henrik-raabe-lds/",
       "discogs": "https://www.discogs.com/release/36778903-Henrik-Raabe-LDS",
-      "boomkat": "https://boomkat.com/products/lds"
+      "boomkat": "https://boomkat.com/products/lds",
+      "bandcamp": "https://mulemusiq.bandcamp.com/album/lds"
     },
     "quality_score": 68,
     "_score_breakdown": {
@@ -49950,7 +50280,8 @@
     "date_verified": true,
     "re": false,
     "styles": [
-      "house"
+      "house",
+      "Latin"
     ],
     "source": "piccadilly",
     "source_url": "https://www.piccadillyrecords.com/166866/Jonas-Blue-Malive-Edge-Of-Desire-Defected",
@@ -59952,7 +60283,7 @@
     ],
     "source": "decks",
     "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Daydream",
-    "discogs_url": "https://www.discogs.com/release/36618085-Daydream-2-In-The-Night",
+    "discogs_url": "https://www.discogs.com/release/36759904-Daydream-2-In-The-Night",
     "bpm": null,
     "catalog_number": "MX164V",
     "format": "",
@@ -59968,7 +60299,7 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Daydream",
-      "discogs": "https://www.discogs.com/release/36618085-Daydream-2-In-The-Night"
+      "discogs": "https://www.discogs.com/release/36759904-Daydream-2-In-The-Night"
     },
     "style_enriched": true
   },
@@ -139821,7 +140152,8 @@
       "rushhour": "https://www.rushhour.nl/record/vinyl/take-me-i-am-presented-amp-fiddler",
       "discogs": "https://www.discogs.com/release/36411481-Dames-Brown-Take-Me-As-I-Am-Extended-Mixes",
       "juno": "https://www.juno.co.uk/products/dames-brown-take-me-as-i-am-vinyl/1127172-01/",
-      "deejay": "https://www.deejay.de/Dames_Brown_Take_Me_As_I_Am_Presented_By_Amp_Fiddler_2x12_DBTMAIM01LP_Vinyl__1205291"
+      "deejay": "https://www.deejay.de/Dames_Brown_Take_Me_As_I_Am_Presented_By_Amp_Fiddler_2x12_DBTMAIM01LP_Vinyl__1205291",
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195993-dbtmaim01lp-dames-brown-take-me-as-i-am-presented-by-amp-fiddler-2x12/"
     },
     "quality_score": 51,
     "_score_breakdown": {
@@ -169477,6 +169809,47 @@
     "discogs_year_checked": true
   },
   {
+    "id": "f27bd378",
+    "title": "Black Water",
+    "artist": "Octave One",
+    "album": "Black Water",
+    "label": "430 West",
+    "genre": "Detroit Techno",
+    "duration": "",
+    "date": "2026-03-10",
+    "re": true,
+    "styles": [
+      "house",
+      "detroit techno",
+      "label catalog",
+      "deep house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/30629/octave-one/black-water/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "4W340",
+    "format": "12\"",
+    "quality_score": 64,
+    "_score_breakdown": {
+      "total": 64,
+      "label": 8,
+      "artist": 20,
+      "genre": 20,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "hardwax": "https://hardwax.com/30629/octave-one/black-water/",
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/54294-4w340-octave-one-black-water/"
+    },
+    "date_verified": false,
+    "discogs_year": 2000,
+    "is_restock": true,
+    "discogs_year_checked": true
+  },
+  {
     "id": "fb2c562d",
     "title": "Fen´d Out",
     "artist": "Pépe",
@@ -171498,46 +171871,6 @@
     },
     "date_verified": false,
     "discogs_year": 2021,
-    "is_restock": true,
-    "discogs_year_checked": true
-  },
-  {
-    "id": "f27bd378",
-    "title": "Black Water",
-    "artist": "Octave One",
-    "album": "Black Water",
-    "label": "430 West",
-    "genre": "Detroit Techno",
-    "duration": "",
-    "date": "2026-03-10",
-    "re": true,
-    "styles": [
-      "house",
-      "detroit techno",
-      "label catalog",
-      "deep house"
-    ],
-    "source": "hardwax",
-    "source_url": "https://hardwax.com/30629/octave-one/black-water/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "12\"",
-    "quality_score": 58,
-    "_score_breakdown": {
-      "total": 58,
-      "label": 8,
-      "artist": 20,
-      "genre": 20,
-      "source": 10,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "hardwax": "https://hardwax.com/30629/octave-one/black-water/"
-    },
-    "date_verified": false,
-    "discogs_year": 2000,
     "is_restock": true,
     "discogs_year_checked": true
   },
@@ -234223,7 +234556,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36645298-Various-Megahits-2026-Die-Erste",
-    "discogs_url": "https://www.discogs.com/release/36645298",
+    "discogs_url": "https://www.discogs.com/release/36645298-Various-Megahits-2026-Die-Erste",
     "bpm": null,
     "catalog_number": "0602488532563",
     "format": "Compilation",
@@ -234238,7 +234571,7 @@
       "niche": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36645298"
+      "discogs": "https://www.discogs.com/release/36645298-Various-Megahits-2026-Die-Erste"
     }
   },
   {
