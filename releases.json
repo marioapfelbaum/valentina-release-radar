@@ -369,6 +369,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36989940-808-State-vs-Humanoid-In-Place-Of-Language"
     }
   },
   {
@@ -2637,6 +2640,86 @@
     }
   },
   {
+    "id": "9e210991",
+    "title": "Free Living EP",
+    "artist": "Daniel Steinberg",
+    "album": "Free Living EP",
+    "label": "Rekids",
+    "genre": "Tech House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "house",
+      "tech house",
+      "label catalog"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87988/daniel-steinberg/free-living-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "REKIDS283",
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87988/daniel-steinberg/free-living-ep/",
+      "bandcamp": "https://rekids.bandcamp.com/album/free-living-ep",
+      "piccadilly": "https://www.piccadillyrecords.com/166784/Daniel-Steinberg-Free-Living-EP-Rekids"
+    },
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 80,
+    "_score_breakdown": {
+      "total": 80,
+      "label": 30,
+      "artist": 20,
+      "genre": 10,
+      "source": 10,
+      "multi": 10,
+      "niche": 0
+    }
+  },
+  {
+    "id": "abc468d2",
+    "title": "Fyutr",
+    "artist": "Mathias Kaden",
+    "album": "Fyutr",
+    "label": "Rekids",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "house",
+      "label catalog",
+      "Deep House",
+      "Tech House"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87812/mathias-kaden/fyutr/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87812/mathias-kaden/fyutr/",
+      "bandcamp": "https://rekids.bandcamp.com/album/fyutr"
+    },
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 76,
+    "_score_breakdown": {
+      "total": 76,
+      "label": 30,
+      "artist": 20,
+      "genre": 10,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    }
+  },
+  {
     "id": "e8141ad7",
     "title": "CRONE",
     "artist": "ONE LEG ONE EYE",
@@ -2798,6 +2881,43 @@
     }
   },
   {
+    "id": "4b19d4c7",
+    "title": "Signals From Pier Thirteen",
+    "artist": "Crash Course In Science",
+    "album": "Signals From Pier Thirteen",
+    "label": "Dark Entries US",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electro",
+      "Industrial",
+      "Minimal"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/crash-course-in-science-signals-from-pier-thirteen-vinyl/520020-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 1981,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 52,
+    "_score_breakdown": {
+      "total": 52,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
     "id": "97ceba44",
     "title": "Summer’s End Sampler - 3x12\"",
     "artist": "VA",
@@ -2825,6 +2945,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/187409-adid118-va-summers-end-sampler-3x12/"
     }
   },
   {
@@ -2926,6 +3049,40 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://diffusereality.bandcamp.com/album/wataru-wanlak-putting-your-truth-into-the-robot"
+    }
+  },
+  {
+    "id": "02c058e9",
+    "title": "Know Your Toms EP",
+    "artist": "Various",
+    "album": "Know Your Toms EP",
+    "label": "Fourier Transform",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/know-your-toms-ep-vinyl/1147350-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 0,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -2991,6 +3148,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/187399-syncro70-dj-honesty-incl-satoshi-tomiie-remix-wired-ep/"
     }
   },
   {
@@ -3067,6 +3227,111 @@
     }
   },
   {
+    "id": "e31485b6",
+    "title": "Disco Goodies Vol 5",
+    "artist": "DJ Laurel/Gigi Croccante/Save The Robots/Shabi/Ben Jamin/Gmgn",
+    "album": "Disco Goodies Vol 5",
+    "label": "Sundries",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/dj-laurel-gigi-croccante-disco-goodies-vol-5-vinyl/1148236-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "c8f7bf18",
+    "title": "Golden Brown (reissue)",
+    "artist": "The Take Vibe Ep",
+    "album": "Golden Brown (reissue)",
+    "label": "Jazz Room",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Soul-Jazz",
+      "Cool Jazz"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/the-take-vibe-ep-golden-brown-vinyl/1112445-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2022,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "f2f33916",
+    "title": "Sexta dos Crias 2.0",
+    "artist": "DJ Ramon Sucesso",
+    "album": "Sexta dos Crias 2.0",
+    "label": "Lugar Alto",
+    "genre": "Funky House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "funky house",
+      "house"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/87744/dj-ramon-sucesso/sexta-dos-crias-20/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/87744/dj-ramon-sucesso/sexta-dos-crias-20/",
+      "honestjons": "https://www.honestjons.com/shop/artist/DJ_Ramon_Sucesso/release/Sexta_dos_Crias_20"
+    },
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "quality_score": 39,
+    "_score_breakdown": {
+      "total": 39,
+      "label": 15,
+      "artist": 0,
+      "genre": 8,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    }
+  },
+  {
     "id": "ecfdd1cc",
     "title": "Surrender Your Love (Illegal Remixes)",
     "artist": "Illegal Detroit",
@@ -3096,6 +3361,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/186813-ill000-illegal-detroit-surrender-your-love-illegal-remixes/"
     }
   },
   {
@@ -3394,6 +3662,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/zherav-naja-vinyl/1133191-01/"
     }
   },
   {
@@ -3429,6 +3700,176 @@
       "artist": 0,
       "genre": 20,
       "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/tmz-future-proof-cd/1147714-01/"
+    }
+  },
+  {
+    "id": "960f3380",
+    "title": "Not For Fame 001",
+    "artist": "Cristi Cons/Arapu/Mennie/Tripmastaz",
+    "album": "Not For Fame 001",
+    "label": "Minu Recordings",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/cristi-cons-arapu-mennie-not-for-fame-001-vinyl/1148235-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "7601a3f5",
+    "title": "Up All Night",
+    "artist": "Kenichiro Nishihara",
+    "album": "Up All Night",
+    "label": "Jet Set Japan",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Jazzy Hip-Hop",
+      "Instrumental"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/kenichiro-nishihara-up-all-night-vinyl/1148211-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2024,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "09252751",
+    "title": "Vox Aeterna (Dusk Til Dawn)",
+    "artist": "Abstrakt Digital",
+    "album": "Vox Aeterna (Dusk Til Dawn)",
+    "label": "Essential Media US",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/abstrakt-digital-vox-aeterna-dusk-til-dawn-cd/1147727-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "e34225f1",
+    "title": "Satisfaction",
+    "artist": "Tamarah",
+    "album": "Satisfaction",
+    "label": "Essential Media US",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Freestyle"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/tamarah-satisfaction-cd/1147732-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 1990,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "172002c4",
+    "title": "Get Up & Chant",
+    "artist": "The Heptones",
+    "album": "Get Up & Chant",
+    "label": "Park Heights",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Roots Reggae"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88280/the-heptones/get-up-and-chant/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 23,
+    "_score_breakdown": {
+      "total": 23,
+      "label": 8,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
       "multi": 0,
       "niche": 0
     }
@@ -3499,6 +3940,85 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14454404/corona"
+    }
+  },
+  {
+    "id": "0cfb57f4",
+    "title": "Babylonian",
+    "artist": "The Officials",
+    "album": "Babylonian",
+    "label": "DKR NYC DKR-348",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": true,
+    "styles": [
+      "Roots Reggae"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88282/the-officials/babylonian/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88282/the-officials/babylonian/",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/babylonian-45-mix-bw-lp-mix"
+    },
+    "discogs_year": 1974,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    }
+  },
+  {
+    "id": "9286d4d1",
+    "title": "Never Eclipsed: Dancehall from Philip Smart's HC&F Studio 1985-1996",
+    "artist": "Various Artists",
+    "album": "Never Eclipsed: Dancehall from Philip Smart's HC&F Studio 1985-1996",
+    "label": "Eclipse",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Reggae",
+      "Dub",
+      "Dancehall",
+      "Dub / Reggae"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88279/various-artists/never-eclipsed-dancehall-from-philip-smarts-hc-and-f-studio-1985-1996/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88279/various-artists/never-eclipsed-dancehall-from-philip-smarts-hc-and-f-studio-1985-1996/",
+      "rushhour": "https://www.rushhour.nl/record/vinyl/never-eclipsed-dancehall-philip-smart%E2%80%99s-hcf-studio-1985-1996"
+    },
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 21,
+    "_score_breakdown": {
+      "total": 21,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
     }
   },
   {
@@ -3743,6 +4263,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195992-gamm2004-delfonic-berlin-reworks-3/"
     }
   },
   {
@@ -3771,6 +4294,516 @@
       "artist": 0,
       "genre": 10,
       "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195991-searchive01-surplus-enjoyment-va/"
+    }
+  },
+  {
+    "id": "f4c0b999",
+    "title": "When There Is No Sun Vol. 1",
+    "artist": "Various Artists",
+    "album": "When There Is No Sun Vol. 1",
+    "label": "Omni Sound LP-OS-1006",
+    "genre": "EBM",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electronic",
+      "Electro",
+      "IDM",
+      "EBM",
+      "House",
+      "Dance",
+      "Acid",
+      "Old-Skool",
+      "Disco",
+      "Techno",
+      "Dub Techno",
+      "Experimental House",
+      "Rock & Roll",
+      "Spoken Word",
+      "Soul",
+      "Schlager",
+      "Rhythm & Blues",
+      "Interview"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88139/various-artists/when-there-is-no-sun-vol-1/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "source_urls": {
+      "hardwax": "https://hardwax.com/88139/various-artists/when-there-is-no-sun-vol-1/",
+      "norman": "https://www.normanrecords.com/records/213929-various-when-there-is-no-sun"
+    },
+    "discogs_year": 2006,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 16,
+    "_score_breakdown": {
+      "total": 16,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 10,
+      "multi": 6,
+      "niche": 0
+    }
+  },
+  {
+    "id": "61e3de3c",
+    "title": "Don't Need You",
+    "artist": "Bobby Aitken & The Carib Beats",
+    "album": "Don't Need You",
+    "label": "BA",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Rocksteady",
+      "Instrumental"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88277/bobby-aitken-and-the-carib-beats/dont-need-you/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b4c30747",
+    "title": "Confusion In A Babylon",
+    "artist": "The Messiah",
+    "album": "Confusion In A Babylon",
+    "label": "Deeper Roots",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88289/the-messiah/confusion-in-a-babylon/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "discogs_year": 2024,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "4cd1993b",
+    "title": "Warrior",
+    "artist": "Johnny Clarke",
+    "album": "Warrior",
+    "label": "DKR NYC",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "dub"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88283/johnny-clarke/warrior/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "discogs_year": 2005,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b664785d",
+    "title": "So Much Things (79 Dubplate Mix)",
+    "artist": "Leroy Smart",
+    "album": "So Much Things (79 Dubplate Mix)",
+    "label": "Gussie Roots Sounds",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88281/leroy-smart/so-much-things-79-dubplate-mix/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "afb1c582",
+    "title": "Drum & Bass",
+    "artist": "Jerry Harris",
+    "album": "Drum & Bass",
+    "label": "Motive",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Folk Rock",
+      "Country Rock"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88275/jerry-harris/drum-and-bass/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "discogs_year": 2005,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "306aae70",
+    "title": "When There Is No Sun Vol. 2",
+    "artist": "Various Artists",
+    "album": "When There Is No Sun Vol. 2",
+    "label": "Omni Sound LP-OS-1007",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Rock & Roll",
+      "Spoken Word",
+      "Soul",
+      "Schlager",
+      "Rhythm & Blues",
+      "Interview"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88140/various-artists/when-there-is-no-sun-vol-2/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "discogs_year": 2006,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "3b2edf23",
+    "title": "When There Is No Sun Vol. 3",
+    "artist": "Various Artists",
+    "album": "When There Is No Sun Vol. 3",
+    "label": "Omni Sound LP-OS-1008",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Rock & Roll",
+      "Spoken Word",
+      "Soul",
+      "Schlager",
+      "Rhythm & Blues",
+      "Interview"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88141/various-artists/when-there-is-no-sun-vol-3/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "discogs_year": 2006,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "0836b5a7",
+    "title": "Africa Awaiting",
+    "artist": "Pablove Black & 12 Tribes Band",
+    "album": "Africa Awaiting",
+    "label": "Pablove",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Roots Reggae",
+      "Dub"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88276/pablove-black-and-12-tribes-band/africa-awaiting/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "595924ad",
+    "title": "Kill the Devil (Dubplate Mix)",
+    "artist": "Pablove Black & 12 Tribes Band",
+    "album": "Kill the Devil (Dubplate Mix)",
+    "label": "Pablove",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "dub"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88278/pablove-black-and-12-tribes-band/kill-the-devil-dubplate-mix/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "discogs_year_checked": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "84bd41ab",
+    "title": "Almighty Father",
+    "artist": "Rick Wayne",
+    "album": "Almighty Father",
+    "label": "Partial",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": true,
+    "styles": [
+      "Dub"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88285/rick-wayne/almighty-father/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "discogs_year": 2010,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "7f52b6ef",
+    "title": "The World Has Just Begun",
+    "artist": "Earl Sixteen & The Heptones",
+    "album": "The World Has Just Begun",
+    "label": "Partial",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": true,
+    "styles": [],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88286/earl-sixteen-and-the-heptones/the-world-has-just-begun/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "7a4c19c0",
+    "title": "Long Long Time",
+    "artist": "King General & Centry",
+    "album": "Long Long Time",
+    "label": "Partial",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "dub"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88287/king-general-and-centry/long-long-time/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "7\"",
+    "discogs_year": 2006,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "5237d6c0",
+    "title": "African Woman EP",
+    "artist": "Wayne Jarrett",
+    "album": "African Woman EP",
+    "label": "Wackies",
+    "genre": "Dub",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Dub",
+      "Roots Reggae"
+    ],
+    "source": "hardwax",
+    "source_url": "https://hardwax.com/88284/wayne-jarrett/african-woman-ep/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "12\"",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 15,
+    "_score_breakdown": {
+      "total": 15,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 10,
       "multi": 0,
       "niche": 0
     }
@@ -3816,6 +4849,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/jon-hopkins-late-night-tales-vinyl/562977-01/"
     }
   },
   {
@@ -3850,6 +4886,80 @@
     },
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/trilogy-0"
+    }
+  },
+  {
+    "id": "f7489ab9",
+    "title": "Solid Static",
+    "artist": "Musica Transonic + Mainliner",
+    "album": "Solid Static",
+    "label": "",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Musica Transonic + Mainliner, “Solid Static”"
+    ],
+    "source": "bandcamp_daily",
+    "source_url": "https://mainliner.bandcamp.com/album/solid-static",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_tags": [
+      "Album of the Day",
+      "https://daily.bandcamp.com/genres/rock",
+      "Rock"
+    ],
+    "style_enriched": true,
+    "quality_score": 7,
+    "_score_breakdown": {
+      "total": 7,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "00c80e96",
+    "title": "Monogamy",
+    "artist": "Pso",
+    "album": "Monogamy",
+    "label": "Essential Media US",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2026-04-06",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Freestyle",
+      "House",
+      "Synth-pop"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/pso-monogamy-cd/1147728-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 1989,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 6,
+    "_score_breakdown": {
+      "total": 6,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -22442,6 +23552,43 @@
     "style_enriched": true
   },
   {
+    "id": "ce41d3ec",
+    "title": "Lost & Found",
+    "artist": "Witness Of Venus",
+    "album": "Lost & Found",
+    "label": "Zazú",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-04-02",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Trance",
+      "Progressive Trance"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195900-zazù002-witness-of-venus-lost-and-found/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ZAZÙ002",
+    "format": "",
+    "quality_score": 14,
+    "_score_breakdown": {
+      "total": 14,
+      "label": 0,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195900-zazù002-witness-of-venus-lost-and-found/",
+      "juno": "https://www.juno.co.uk/products/witness-of-venus-lost-found-vinyl/1148224-01/"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "43a073db",
     "title": "Boogie Down Edits Vol 1: De La House",
     "artist": "Boogie Down Edits",
@@ -23067,42 +24214,6 @@
     },
     "source_urls": {
       "bandcamp_daily": "https://mahorka.bandcamp.com/album/echo-mist-light"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "ce41d3ec",
-    "title": "Lost & Found",
-    "artist": "Witness Of Venus",
-    "album": "Lost & Found",
-    "label": "Zazú",
-    "genre": "Trance",
-    "duration": "",
-    "date": "2026-04-02",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Trance",
-      "Progressive Trance"
-    ],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/195900-zazù002-witness-of-venus-lost-and-found/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "ZAZÙ002",
-    "format": "",
-    "quality_score": 8,
-    "_score_breakdown": {
-      "total": 8,
-      "label": 0,
-      "artist": 0,
-      "genre": 0,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/195900-zazù002-witness-of-venus-lost-and-found/"
     },
     "style_enriched": true
   },
@@ -28590,46 +29701,6 @@
     }
   },
   {
-    "id": "ffb6af11",
-    "title": "NEVER ECLIPSED: DANCEHALL FROM PHILIP SMART’S HC&F STUDIO 1985-1996",
-    "artist": "VARIOUS ARTISTS",
-    "album": "NEVER ECLIPSED: DANCEHALL FROM PHILIP SMART’S HC&F STUDIO 1985-1996",
-    "label": "DIGIKILLER",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-04-01",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Reggae",
-      "Dub",
-      "Dancehall",
-      "Dub / Reggae"
-    ],
-    "source": "rushhour",
-    "source_url": "https://www.rushhour.nl/record/vinyl/never-eclipsed-dancehall-philip-smart%E2%80%99s-hcf-studio-1985-1996",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "discogs_year_checked": true,
-    "quality_score": 19,
-    "_score_breakdown": {
-      "total": 19,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "rushhour": "https://www.rushhour.nl/record/vinyl/never-eclipsed-dancehall-philip-smart%E2%80%99s-hcf-studio-1985-1996",
-      "boomkat": "https://boomkat.com/products/never-eclipsed-dancehall-from-philip-smart-s-hc-f-studio-1985-1996"
-    },
-    "style_enriched": true
-  },
-  {
     "id": "eaf2f719",
     "title": "Flight to La Isla Del Encanto EP",
     "artist": "Retter",
@@ -29791,40 +30862,6 @@
     },
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/so-much-things-1979-dubplate-mix-hot-steppers-dub"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "ca25351e",
-    "title": "BABYLONIAN (45 MIX B/W LP MIX)",
-    "artist": "THE OFFICIALS",
-    "album": "BABYLONIAN (45 MIX B/W LP MIX)",
-    "label": "DIGIKILLER",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-04-01",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "rushhour",
-    "source_url": "https://www.rushhour.nl/record/vinyl/babylonian-45-mix-bw-lp-mix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "discogs_year_checked": true,
-    "quality_score": 13,
-    "_score_breakdown": {
-      "total": 13,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "rushhour": "https://www.rushhour.nl/record/vinyl/babylonian-45-mix-bw-lp-mix"
     },
     "style_enriched": true
   },
@@ -45110,7 +46147,8 @@
     "re": false,
     "styles": [
       "techno",
-      "electro"
+      "electro",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88361/defekt/adaptive-fiction/",
@@ -45149,7 +46187,8 @@
     "styles": [
       "house",
       "soulful house",
-      "Deep House"
+      "Deep House",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88359/franck-roger/my-illusions-ep/",
@@ -45297,7 +46336,8 @@
     "re": false,
     "styles": [
       "House",
-      "Deep House"
+      "Deep House",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88365/chez-damier-and-ralph-lawson/moments-in-time/",
@@ -45913,7 +46953,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88363/various-artists/sole-discretion-ep-part-2/",
@@ -45982,7 +47023,8 @@
     "re": false,
     "styles": [
       "house",
-      "disco"
+      "disco",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88364/risk-assessment/stereotype-ep-7/",
@@ -46240,7 +47282,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "techno"
+      "techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88360/omar-s/i-like-you/",
@@ -46280,7 +47323,8 @@
     "styles": [
       "minimal",
       "techno",
-      "hypnotic"
+      "hypnotic",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88362/andy-martin-christian-coiffure/split-ep/",
@@ -49215,7 +50259,8 @@
     "styles": [
       "dub",
       "house",
-      "Techno"
+      "Techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88039/various-artists/ohm-series-18/",
@@ -55963,7 +57008,8 @@
     "re": true,
     "styles": [
       "house",
-      "Techno"
+      "Techno",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/86784/bobby-parker/automatic-bpm/",
@@ -56213,52 +57259,6 @@
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/214265-twilight-sequence-stars-of-the-wayside",
       "juno": "https://www.juno.co.uk/products/twilight-sequence-stars-of-the-wayside-cd/1139190-01/"
-    }
-  },
-  {
-    "id": "5dfce61c",
-    "title": "When There Is No Sun Vol. 1",
-    "artist": "Various",
-    "album": "When There Is No Sun Vol. 1",
-    "label": "Omni Sound",
-    "genre": "EBM",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Electronic",
-      "Electro",
-      "IDM",
-      "EBM",
-      "House",
-      "Dance",
-      "Acid",
-      "Old-Skool",
-      "Disco",
-      "Techno",
-      "Dub Techno",
-      "Experimental House"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/213928-various-when-there-is-no-sun",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 20,
-      "genre": 0,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/213928-various-when-there-is-no-sun",
-      "juno": "https://www.juno.co.uk/products/when-there-is-no-sun-vol-1-vinyl/1135751-01/"
     }
   },
   {
@@ -57206,7 +58206,8 @@
     "date_verified": false,
     "re": false,
     "styles": [
-      "house"
+      "house",
+      "label catalog"
     ],
     "source": "hardwax",
     "source_url": "https://hardwax.com/88292/mister-bellini/lickity-split/",
@@ -84078,53 +85079,6 @@
     "style_enriched": true
   },
   {
-    "id": "b070a858",
-    "title": "When There Is No Sun",
-    "artist": "Various",
-    "album": "When There Is No Sun",
-    "label": "Omni Sound",
-    "genre": "EBM",
-    "duration": "",
-    "date": "2026-03-24",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Electronic",
-      "Electro",
-      "IDM",
-      "EBM",
-      "House",
-      "Dance",
-      "Acid",
-      "Old-Skool",
-      "Disco",
-      "Techno",
-      "Dub Techno",
-      "Experimental House"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/213931-various-when-there-is-no-sun",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "CD",
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/213931-various-when-there-is-no-sun",
-      "juno": "https://www.juno.co.uk/products/when-there-is-no-sun-vol-1-vinyl/1135751-01/"
-    },
-    "discogs_year_checked": true,
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 20,
-      "genre": 0,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    }
-  },
-  {
     "id": "8980b06b",
     "title": "Fourtrack EP",
     "artist": "Haris",
@@ -86765,98 +87719,6 @@
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Droxal",
       "deejay": "https://www.deejay.de/Droxal_Totem_Pulse_EP_NACAR02_Vinyl__1218767",
       "clone": "https://clone.nl/item82894.html"
-    }
-  },
-  {
-    "id": "c71fe874",
-    "title": "When There Is No Sun Vol. 3",
-    "artist": "Various",
-    "album": "When There Is No Sun Vol. 3",
-    "label": "Omni Sound",
-    "genre": "EBM",
-    "duration": "",
-    "date": "2026-03-24",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Electronic",
-      "Electro",
-      "IDM",
-      "EBM",
-      "House",
-      "Dance",
-      "Acid",
-      "Old-Skool",
-      "Disco",
-      "Techno",
-      "Dub Techno",
-      "Experimental House"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/213930-various-when-there-is-no-sun",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "discogs_year_checked": true,
-    "quality_score": 22,
-    "_score_breakdown": {
-      "total": 22,
-      "label": 0,
-      "artist": 20,
-      "genre": 0,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/213930-various-when-there-is-no-sun"
-    }
-  },
-  {
-    "id": "e6395f6e",
-    "title": "When There Is No Sun Vol. 2",
-    "artist": "Various",
-    "album": "When There Is No Sun Vol. 2",
-    "label": "Omni Sound",
-    "genre": "EBM",
-    "duration": "",
-    "date": "2026-03-24",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Electronic",
-      "Electro",
-      "IDM",
-      "EBM",
-      "House",
-      "Dance",
-      "Acid",
-      "Old-Skool",
-      "Disco",
-      "Techno",
-      "Dub Techno",
-      "Experimental House"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/213929-various-when-there-is-no-sun",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "discogs_year_checked": true,
-    "quality_score": 22,
-    "_score_breakdown": {
-      "total": 22,
-      "label": 0,
-      "artist": 20,
-      "genre": 0,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/213929-various-when-there-is-no-sun"
     }
   },
   {
@@ -104322,42 +105184,6 @@
     "style_enriched": true
   },
   {
-    "id": "1f3d54dd",
-    "title": "Sexta dos Crias 2.0",
-    "artist": "DJ Ramon Sucesso",
-    "album": "Sexta dos Crias 2.0",
-    "label": "Lugar Alto",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-22",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "house"
-    ],
-    "source": "honestjons",
-    "source_url": "https://www.honestjons.com/shop/artist/DJ_Ramon_Sucesso/release/Sexta_dos_Crias_20",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "quality_score": 27,
-    "_score_breakdown": {
-      "total": 27,
-      "label": 15,
-      "artist": 0,
-      "genre": 10,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "honestjons": "https://www.honestjons.com/shop/artist/DJ_Ramon_Sucesso/release/Sexta_dos_Crias_20"
-    }
-  },
-  {
     "id": "61a3b0de",
     "title": "Tre-2",
     "artist": "LNS & DJ Sotofett",
@@ -118095,44 +118921,6 @@
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Glaskin",
       "deejay": "https://www.deejay.de/Glaskin_Inertia_of_Motion_MR-031RP_Vinyl__1227691"
-    }
-  },
-  {
-    "id": "03d2a2e2",
-    "title": "Free Living EP",
-    "artist": "Daniel Steinberg",
-    "album": "Free Living EP",
-    "label": "Rekids",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-20",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "house"
-    ],
-    "source": "piccadilly",
-    "source_url": "https://www.piccadillyrecords.com/166784/Daniel-Steinberg-Free-Living-EP-Rekids",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "REKIDS283",
-    "format": "",
-    "source_urls": {
-      "piccadilly": "https://www.piccadillyrecords.com/166784/Daniel-Steinberg-Free-Living-EP-Rekids",
-      "juno": "https://www.juno.co.uk/products/daniel-steinberg-free-living-ep-vinyl/1139958-01/",
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Daniel+Steinberg",
-      "deejay": "https://www.deejay.de/Daniel_Steinberg_Free_Living_EP_REKIDS283_Vinyl__1219514",
-      "bandcamp": "https://rekids.bandcamp.com/album/free-living-ep"
-    },
-    "quality_score": 72,
-    "_score_breakdown": {
-      "total": 72,
-      "label": 30,
-      "artist": 20,
-      "genre": 10,
-      "source": 2,
-      "multi": 10,
-      "niche": 0
     }
   },
   {
@@ -199794,42 +200582,6 @@
       "piccadilly": "https://www.piccadillyrecords.com/165513/JKriv-Jason-Lindner-Real-Ones-EP-Razor-N-Tape-Reserve",
       "deejay": "https://www.deejay.de/JKriv_%26_Jason_Lindner_Real_Ones_EP_RNTR087_Vinyl__1214627"
     }
-  },
-  {
-    "id": "962acd85",
-    "title": "Fyutr",
-    "artist": "Mathias Kaden & Zoë Xenia",
-    "album": "Fyutr",
-    "label": "REKIDS",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-02-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Deep House",
-      "Tech House"
-    ],
-    "source": "bandcamp",
-    "source_url": "https://rekids.bandcamp.com/album/fyutr",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 56,
-    "_score_breakdown": {
-      "total": 56,
-      "label": 30,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "bandcamp": "https://rekids.bandcamp.com/album/fyutr"
-    },
-    "style_enriched": true
   },
   {
     "id": "e7c09577",
