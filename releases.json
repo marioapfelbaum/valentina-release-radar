@@ -304,6 +304,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/184414-dubwars010-luca-accardi-morganite-ep/"
     }
   },
   {
@@ -761,6 +764,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://diffusereality.bandcamp.com/album/tmann-salt-lake"
     }
   },
   {
@@ -1944,6 +1950,9 @@
       "source": 8,
       "multi": 0,
       "niche": 6
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196059-dis-004-rahaan-dancing-in-space-edits/"
     }
   },
   {
@@ -4733,6 +4742,9 @@
       "source": 8,
       "multi": 0,
       "niche": 6
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196081-gr-12133-peven-everett-stuck-danny-krivit-and-phil-asher-mixes/"
     }
   },
   {
@@ -4770,6 +4782,9 @@
       "source": 6,
       "multi": 0,
       "niche": 2
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/radio-slave-my-bleep-vinyl/218770-01/"
     }
   },
   {
@@ -4908,6 +4923,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/enchufada-a-lisbon-club-story-vinyl/1148454-01/"
     }
   },
   {
@@ -4938,6 +4956,9 @@
       "source": 8,
       "multi": 0,
       "niche": 2
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196055-snflp020v-felipe-gordon-tezeta-2x12-marbled-vinyl-w-gatefold-sleeve/"
     }
   },
   {
@@ -5085,6 +5106,9 @@
       "source": 8,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196069-xl1648t-basement-jaxx-wheres-your-head-at-steve-angello-remix/"
     }
   },
   {
@@ -5118,6 +5142,9 @@
       "source": 8,
       "multi": 0,
       "niche": 2
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196056-kmsv003-inner-city-good-life/"
     }
   },
   {
@@ -5183,6 +5210,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Echonomist"
     }
   },
   {
@@ -5305,6 +5335,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/celer-poulaine-cd/1148466-01/"
     }
   },
   {
@@ -5339,6 +5372,47 @@
       "source": 8,
       "multi": 6,
       "niche": 0
+    }
+  },
+  {
+    "id": "becb5ff6",
+    "title": "Marathon",
+    "artist": "AUBREY",
+    "album": "Marathon",
+    "label": "Solid Groove",
+    "genre": "Tech House",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House",
+      "Tech House",
+      "Dub",
+      "Downtempo",
+      "Experimental",
+      "Ambient"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/196062-sg-39-aubrey-marathon/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SG-39",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 54,
+    "_score_breakdown": {
+      "total": 54,
+      "label": 8,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 2
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196062-sg-39-aubrey-marathon/",
+      "juno": "https://www.juno.co.uk/products/aubrey-marathon-vinyl/1148340-01/"
     }
   },
   {
@@ -5422,6 +5496,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/paprika-soul-vinyl/1148755-01/"
     }
   },
   {
@@ -5563,6 +5640,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196073-csr248ep-mz-412-ulvens-broder/"
     }
   },
   {
@@ -5742,6 +5822,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/marylou-amx-008-cassette/1148249-01/"
     }
   },
   {
@@ -5813,39 +5896,6 @@
     }
   },
   {
-    "id": "becb5ff6",
-    "title": "Marathon",
-    "artist": "AUBREY",
-    "album": "Marathon",
-    "label": "Solid Groove",
-    "genre": "Tech House",
-    "duration": "",
-    "date": "2026-04-08",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "House",
-      "Tech House"
-    ],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/196062-sg-39-aubrey-marathon/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "SG-39",
-    "format": "",
-    "style_enriched": true,
-    "quality_score": 48,
-    "_score_breakdown": {
-      "total": 48,
-      "label": 8,
-      "artist": 20,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 2
-    }
-  },
-  {
     "id": "7359252b",
     "title": "Ijo Ya",
     "artist": "Kiko Navarro",
@@ -5874,6 +5924,9 @@
       "source": 6,
       "multi": 0,
       "niche": 2
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/kiko-navarro-ijo-ya-vinyl/1142491-01/"
     }
   },
   {
@@ -5905,6 +5958,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=N.Y.+House+n+Authority+%2F+The+Sound+Vandals+%2F+DJ+Steaw+%2F+Steve+Mac"
     }
   },
   {
@@ -6069,6 +6125,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://warprecords.bandcamp.com/album/idea-1"
     }
   },
   {
@@ -6350,6 +6409,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196057-tpr008-tom-sharkett-25/"
     }
   },
   {
@@ -6737,6 +6799,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/vinyl/wrong-i-made-it-remixes"
     }
   },
   {
@@ -6771,6 +6836,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/188980-nar-13125-loredana-bertè-in-alto-mare-dimitri-from-paris-remixes/"
     }
   },
   {
@@ -6802,6 +6870,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Pete+Blaker"
     }
   },
   {
@@ -7214,6 +7285,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/my-kind-of-music"
     }
   },
   {
@@ -7244,6 +7318,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196070-spgrm018lp-crys-cole-and-oren-ambarchi-giuseppe-ielasi-sparkling-or-silent-unfamiliar-music-paris/"
     }
   },
   {
@@ -7700,6 +7777,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/ny-housen-authority-nu-groove-edits-vol-8-vinyl/1139769-01/"
     }
   },
   {
@@ -7731,6 +7811,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/jakobin-loft-77-kelton-prima-disco-biscuits-7-vinyl/1148051-01/"
     }
   },
   {
@@ -7762,6 +7845,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/eisbrenner-dtm-010-vinyl/1148077-01/"
     }
   },
   {
@@ -7793,6 +7879,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/natural-goofy-emi-koto-buraye-quiet-understanding-ep-vinyl/1147944-01/"
     }
   },
   {
@@ -7824,6 +7913,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/haruka-nakamura-still-life-cd/1126668-01/"
     }
   },
   {
@@ -7861,6 +7953,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/colonel-red-inkswel-joy-vinyl/1029125-01/"
     }
   },
   {
@@ -7897,6 +7992,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/hector-lavoe-alejate-vinyl/316426-01/"
     }
   },
   {
@@ -7928,6 +8026,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/scopeotaku-reality-error-cassette/1142460-01/"
     }
   },
   {
@@ -7959,6 +8060,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/lay-llamas-time-islands-thresholds-vinyl/1141196-01/"
     }
   },
   {
@@ -7990,6 +8094,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/tujiko-noriko-pon-vinyl/1147904-01/"
     }
   },
   {
@@ -8021,6 +8128,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/aho-ssan-the-sun-turned-black-vinyl/1148014-01/"
     }
   },
   {
@@ -8052,6 +8162,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/bellaire-born-funky-vinyl/1148121-01/"
     }
   },
   {
@@ -8083,6 +8196,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/sebastian-rojas-en-la-orilla-vinyl/1148440-01/"
     }
   },
   {
@@ -8114,6 +8230,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/nicole-lhuillier-respuestas-vinyl/1148443-01/"
     }
   },
   {
@@ -8150,6 +8269,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/algol-vinyl/1148447-01/"
     }
   },
   {
@@ -8186,6 +8308,40 @@
       "source": 8,
       "multi": 6,
       "niche": 0
+    }
+  },
+  {
+    "id": "8f0bbcc6",
+    "title": "Legendary",
+    "artist": "Jon DIXON / JT DONALDSON / ABACUS / DFRA",
+    "album": "Legendary",
+    "label": "Silver Walker",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/196065-sw-021-jon-dixon-jt-donaldson-abacus-dfra-legendary/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "SW-021",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196065-sw-021-jon-dixon-jt-donaldson-abacus-dfra-legendary/",
+      "juno": "https://www.juno.co.uk/products/jon-dixon-jt-donaldson-abacus-dfra-legendary-vinyl/1148329-01/"
     }
   },
   {
@@ -8696,6 +8852,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/vernacular-02d6c92f-f79b-4bd9-a937-c7bd53ae4e9a"
     }
   },
   {
@@ -8729,6 +8888,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/all-shall-go"
     }
   },
   {
@@ -8760,6 +8922,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item83164.html"
     }
   },
   {
@@ -8791,6 +8956,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item83163.html"
     }
   },
   {
@@ -8822,6 +8990,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item83162.html"
     }
   },
   {
@@ -8852,36 +9023,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
-    }
-  },
-  {
-    "id": "8f0bbcc6",
-    "title": "Legendary",
-    "artist": "Jon DIXON / JT DONALDSON / ABACUS / DFRA",
-    "album": "Legendary",
-    "label": "Silver Walker",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-04-08",
-    "date_verified": true,
-    "re": false,
-    "styles": [],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/196065-sw-021-jon-dixon-jt-donaldson-abacus-dfra-legendary/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "SW-021",
-    "format": "",
-    "style_enriched": true,
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196063-sos-005-fruits-of-eros-pleasures-of-the-flesh-feat-ed-temple-lipelis-system-olympia-guy-gerber-limited-coloured-vinyl-lp-comes-in-different-coloured-vinyl-we-cannot-guarantee-which-one-you-will-receive-va/"
     }
   },
   {
@@ -8912,6 +9056,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196054-ed013-namastrange-and-pletnev-desire-machine/"
     }
   },
   {
@@ -8946,6 +9093,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196052-ect001-nemo-vachez-psychonaut-ep/"
     }
   },
   {
@@ -8976,6 +9126,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196060-owl-015-nite-hawk-ride-me-ep/"
     }
   },
   {
@@ -9010,6 +9163,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/196079-blnd001-anne-metallic-tapes/"
     }
   },
   {
@@ -9197,6 +9353,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/blu-sh-dopamine-riot-ep-vinyl/1148181-01/"
     }
   },
   {
@@ -9307,6 +9466,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/sphere-to-sphere"
     }
   },
   {
@@ -9340,6 +9502,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/issue-507-may-2026"
     }
   },
   {
@@ -9372,6 +9537,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/the-cold-crusher"
     }
   },
   {
@@ -9403,6 +9571,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/books-magazines/issue-9-prince"
     }
   },
   {
@@ -9434,6 +9605,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/books-magazines/issue-9-nightmares-wax"
     }
   },
   {
@@ -9465,6 +9639,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "rushhour": "https://www.rushhour.nl/record/books-magazines/issue-9-tomora"
     }
   },
   {
@@ -9496,6 +9673,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Toobris"
     }
   },
   {
@@ -9792,6 +9972,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Phill+Most+Chill+%26+Paul+Nice"
     }
   },
   {
@@ -9833,6 +10016,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "bandcamp_daily": "https://makthaverskan.bandcamp.com/album/glass-and-bones"
     }
   },
   {
@@ -10424,47 +10610,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/sade-sda-7-vinyl/1147751-01/"
-    }
-  },
-  {
-    "id": "71fd27af",
-    "title": "Marathon (reissue)",
-    "artist": "Aubrey",
-    "album": "Marathon (reissue)",
-    "label": "Solid Groove",
-    "genre": "Dub",
-    "duration": "",
-    "date": "2026-04-07",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Dub",
-      "Downtempo",
-      "Experimental",
-      "Ambient"
-    ],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/aubrey-marathon-vinyl/1148340-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "discogs_year": 2001,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "style_enriched": true,
-    "quality_score": 54,
-    "_score_breakdown": {
-      "total": 54,
-      "label": 8,
-      "artist": 20,
-      "genre": 18,
-      "source": 6,
-      "multi": 0,
-      "niche": 2
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/aubrey-marathon-vinyl/1148340-01/"
     }
   },
   {
@@ -13385,40 +13530,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/jazzbois-goes-blunt-ii-vinyl/1142318-01/"
-    }
-  },
-  {
-    "id": "e179ea0b",
-    "title": "Legendary",
-    "artist": "Jon Dixon/Jt Donaldson/Abacus/Dfra",
-    "album": "Legendary",
-    "label": "Silver Walker",
-    "genre": "Leftfield",
-    "duration": "",
-    "date": "2026-04-07",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/jon-dixon-jt-donaldson-abacus-dfra-legendary-vinyl/1148329-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "discogs_year_checked": true,
-    "style_enriched": true,
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/jon-dixon-jt-donaldson-abacus-dfra-legendary-vinyl/1148329-01/"
     }
   },
   {
@@ -137422,6 +137533,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://toolroom.bandcamp.com/album/baby-please"
     }
   },
   {
