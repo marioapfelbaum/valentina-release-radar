@@ -1604,6 +1604,44 @@
     }
   },
   {
+    "id": "ca8bb528",
+    "title": "Seismo",
+    "artist": "upsammy & Valentina Magaletti",
+    "album": "Seismo",
+    "label": "PAN",
+    "genre": "EBM",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Electronic",
+      "Electro",
+      "IDM",
+      "EBM"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/214139-upsammy-valentina-magaletti-seismo",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 25,
+      "artist": 0,
+      "genre": 0,
+      "source": 2,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "norman": "https://www.normanrecords.com/records/214139-upsammy-valentina-magaletti-seismo",
+      "boomkat": "https://boomkat.com/products/seismo"
+    }
+  },
+  {
     "id": "43348b0f",
     "title": "Forever Ends Someday",
     "artist": "Wesley Joseph",
@@ -1825,43 +1863,6 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/185462-originals001blk-dj-misjah-access-ep/"
-    }
-  },
-  {
-    "id": "ca8bb528",
-    "title": "Seismo",
-    "artist": "upsammy & Valentina Magaletti",
-    "album": "Seismo",
-    "label": "PAN",
-    "genre": "EBM",
-    "duration": "",
-    "date": "2026-04-10",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Electronic",
-      "Electro",
-      "IDM",
-      "EBM"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/214139-upsammy-valentina-magaletti-seismo",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "quality_score": 27,
-    "_score_breakdown": {
-      "total": 27,
-      "label": 25,
-      "artist": 0,
-      "genre": 0,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/214139-upsammy-valentina-magaletti-seismo"
     }
   },
   {
@@ -3754,6 +3755,260 @@
     "style_enriched": true
   },
   {
+    "id": "8097807a",
+    "title": "Migration",
+    "artist": "Bonobo",
+    "album": "Migration",
+    "label": "Ninja Tune",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Downtempo"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/bonobo-migration-vinyl/632307-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2017,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 82,
+    "_score_breakdown": {
+      "total": 82,
+      "label": 30,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
+    "id": "ec4a220b",
+    "title": "Everything Squared",
+    "artist": "Seefeel",
+    "album": "Everything Squared",
+    "label": "Warp",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Abstract",
+      "Ambient",
+      "Shoegaze"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/seefeel-everything-squared-vinyl/1034964-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2024,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 77,
+    "_score_breakdown": {
+      "total": 77,
+      "label": 25,
+      "artist": 20,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
+    "id": "add9c5f2",
+    "title": "Ravedeath 1972",
+    "artist": "Tim Hecker",
+    "album": "Ravedeath 1972",
+    "label": "Kranky US",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Abstract",
+      "Ambient",
+      "Experimental",
+      "Drone"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/tim-hecker-ravedeath-1972-vinyl/420186-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2011,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 0,
+      "artist": 30,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "8e086e82",
+    "title": "Infirmary",
+    "artist": "Kode 9/Burial",
+    "album": "Infirmary",
+    "label": "Fabric",
+    "genre": "UK Garage",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Leftfield",
+      "UK Garage",
+      "Bass Music",
+      "Juke"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/kode-9-burial-infirmary-vinyl/956491-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 54,
+    "_score_breakdown": {
+      "total": 54,
+      "label": 30,
+      "artist": 0,
+      "genre": 18,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "4a7d85a8",
+    "title": "Scorpio Purple Skies",
+    "artist": "Felicia Atkinson & Christina Vantzou feat. John Also Bennett",
+    "album": "Scorpio Purple Skies",
+    "label": "RVNG Intl.",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Modern Classical / Ambient"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/scorpio-purple-skies-1ca4deba-6fc2-42bf-a1da-5b4f9abc740a",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year_checked": true,
+    "quality_score": 53,
+    "_score_breakdown": {
+      "total": 53,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "0531244a",
+    "title": "Covered: The Robert Glasper Trio Recorded Live At Capitol Studios",
+    "artist": "Robert Glasper",
+    "album": "Covered: The Robert Glasper Trio Recorded Live At Capitol Studios",
+    "label": "Blue Note",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Contemporary Jazz"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/covered-the-robert-glasper-trio-recorded-live-at-vinyl/574236-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2015,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 51,
+    "_score_breakdown": {
+      "total": 51,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "34462ef8",
+    "title": "12",
+    "artist": "Ryuichi Sakamoto",
+    "album": "12",
+    "label": "Milan",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Soundtrack",
+      "Pop Rock",
+      "Modern Classical",
+      "Downtempo",
+      "Synth-pop"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/ryuichi-sakamoto-12-vinyl/913539-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 1993,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 51,
+    "_score_breakdown": {
+      "total": 51,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "bf4e272c",
     "title": "Clamé - Materia",
     "artist": "Diffuse Reality Records",
@@ -3785,6 +4040,379 @@
       "bandcamp": "https://diffusereality.bandcamp.com/album/clam-materia"
     },
     "style_enriched": true
+  },
+  {
+    "id": "e69c2389",
+    "title": "Dirty Hands (Extended Version)",
+    "artist": "Anja Schneider, DJ Minx",
+    "album": "Dirty Hands (Extended Version)",
+    "label": "SoUS Music",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Techno / House"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/dirty-hands-extended-version",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year_checked": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 25,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "4917f8c4",
+    "title": "Parallel Sequences",
+    "artist": "Various",
+    "album": "Parallel Sequences",
+    "label": "MixCult Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Various_Parallel_Sequences_MCRV018_Vinyl__1197895",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MCRV018",
+    "format": "Vinyl",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 0,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "f6a0e1c6",
+    "title": "Nuku",
+    "artist": "EDU & JUDGITZU",
+    "album": "Nuku",
+    "label": "Nyege Nyege Tapes",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electronic",
+      "African"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/nuku-03e7aabd-d615-4a19-a5df-41fd0e4079ac",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Cassette",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "29fd5710",
+    "title": "Wetlands EP",
+    "artist": "Neida",
+    "album": "Wetlands EP",
+    "label": "Faux Poly",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electronic"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/wetlands-ep",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "6580880d",
+    "title": "Nausea",
+    "artist": "Grady Steele",
+    "album": "Nausea",
+    "label": "FELT",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electronic"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/nausea-b0cda57d-b199-4db4-97ae-46ca589b977e",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Cassette",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 8,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "4df5a249",
+    "title": "Scorpio's View",
+    "artist": "Lalo Schifrin",
+    "album": "Scorpio's View",
+    "label": "unknown label",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/lalo-schifrin-scorpios-view-vinyl/1123351-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2023,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "45b0a206",
+    "title": "Romance 76 (50th Anniversary Edition)",
+    "artist": "Peter Baumann",
+    "album": "Romance 76 (50th Anniversary Edition)",
+    "label": "Bureau B Germany",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Ambient"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/peter-baumann-romance-76-50th-anniversary-edition-vinyl/1129200-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "93959839",
+    "title": "Prati Bagnati Del Monte Analogo",
+    "artist": "Raul Lovisoni/Francesco Messina",
+    "album": "Prati Bagnati Del Monte Analogo",
+    "label": "Superior Viaduct US",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Ambient",
+      "Experimental"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/raul-lovisoni-francesco-prati-bagnati-del-monte-analogo-vinyl/697227-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2018,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "3380cd38",
+    "title": "What's That?",
+    "artist": "CS Cleaners",
+    "album": "What's That?",
+    "label": "Wharf Cat Records",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Indie / Alternative"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/what-s-that-e300c21c-582b-4b36-82f4-eea556700e7b",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 1988,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "d3a3a5f1",
+    "title": "Visions",
+    "artist": "Benjamin Samuels",
+    "album": "Visions",
+    "label": "Worm Discs",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Jazz / Fusion",
+      "Soul"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/visions-2be9c583-984a-489d-8f17-456c54018ec3",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year": 2006,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 13,
+    "_score_breakdown": {
+      "total": 13,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "fed6ed89",
+    "title": "Mid Spiral",
+    "artist": "Badbadnotgood",
+    "album": "Mid Spiral",
+    "label": "XL",
+    "genre": "Jazz-Funk",
+    "duration": "",
+    "date": "2026-04-08",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Jazz-Funk"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/badbadnotgood-mid-spiral-vinyl/1024180-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2024,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 11,
+    "_score_breakdown": {
+      "total": 11,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "927a1ca0",
@@ -4230,6 +4858,51 @@
     }
   },
   {
+    "id": "c1716d90",
+    "title": "Mount Analogue",
+    "artist": "Bill Laswell + P.ST",
+    "album": "Mount Analogue",
+    "label": "Sub Rosa",
+    "genre": "Experimental",
+    "duration": "",
+    "date": "2026-04-07",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Electronic",
+      "Ambient",
+      "Experimental",
+      "Free Improvisation",
+      "Modern Classical",
+      "Electro",
+      "IDM",
+      "EBM"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/mount-analogue-3ab98de2-dbb7-4806-b689-a07575fd27db",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 59,
+    "_score_breakdown": {
+      "total": 59,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/mount-analogue-3ab98de2-dbb7-4806-b689-a07575fd27db",
+      "norman": "https://www.normanrecords.com/records/213837-bill-laswell-p-st-mount-analogue"
+    }
+  },
+  {
     "id": "56aa58c8",
     "title": "Immersion - Blue Smoke Vinyl",
     "artist": "Aspetuck",
@@ -4369,50 +5042,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/aubrey-marathon-vinyl/1148340-01/"
-    }
-  },
-  {
-    "id": "c1716d90",
-    "title": "Mount Analogue",
-    "artist": "Bill Laswell + P.ST",
-    "album": "Mount Analogue",
-    "label": "Sub Rosa",
-    "genre": "Experimental",
-    "duration": "",
-    "date": "2026-04-07",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Electronic",
-      "Ambient",
-      "Experimental",
-      "Free Improvisation",
-      "Modern Classical",
-      "Electro",
-      "IDM",
-      "EBM"
-    ],
-    "source": "boomkat",
-    "source_url": "https://boomkat.com/products/mount-analogue-3ab98de2-dbb7-4806-b689-a07575fd27db",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "discogs_year": 2026,
-    "discogs_year_checked": true,
-    "style_enriched": true,
-    "quality_score": 53,
-    "_score_breakdown": {
-      "total": 53,
-      "label": 25,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "boomkat": "https://boomkat.com/products/mount-analogue-3ab98de2-dbb7-4806-b689-a07575fd27db"
     }
   },
   {
@@ -6091,6 +6720,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "phonica": "https://www.phonicarecords.com/product/view/210638"
     }
   },
   {
@@ -6122,6 +6754,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "phonica": "https://www.phonicarecords.com/product/view/210637"
     }
   },
   {
@@ -6153,6 +6788,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "phonica": "https://www.phonicarecords.com/product/view/210636"
     }
   },
   {
@@ -7682,6 +8320,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/dan-the-drum-stuart-patterson-uk-house-sermon-vinyl/1142288-01/"
     }
   },
   {
@@ -7715,6 +8356,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/towa-tei-the-source-vinyl/1148591-01/"
     }
   },
   {
@@ -8665,6 +9309,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "phonica": "https://www.phonicarecords.com/product/view/210635"
     }
   },
   {
@@ -8696,6 +9343,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "phonica": "https://www.phonicarecords.com/product/view/210634"
     }
   },
   {
@@ -8727,6 +9377,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "phonica": "https://www.phonicarecords.com/product/view/210630"
     }
   },
   {
@@ -21997,6 +22650,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/37002666-The-Geraldine-Fibbers-Lost-Somewhere-Between-The-Earth-And-My-Home"
     }
   },
   {
@@ -66522,6 +67178,46 @@
     "style_enriched": true
   },
   {
+    "id": "553530d9",
+    "title": "Audio Labour EP",
+    "artist": "Audio Labour",
+    "album": "Audio Labour EP",
+    "label": "pryma",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Acoustic",
+      "Indie Rock"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Audio_Labour_Audio_Labour_EP_PRYM006_Vinyl__1218245",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "PRYM006",
+    "format": "Single",
+    "discogs_year": 1994,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 24,
+    "_score_breakdown": {
+      "total": 24,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Audio_Labour_Audio_Labour_EP_PRYM006_Vinyl__1218245",
+      "juno": "https://www.juno.co.uk/products/audio-labour-ep-vinyl/1138570-01/"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "c3922680",
     "title": "Mkwaju",
     "artist": "Mkwaju Ensemble",
@@ -69334,45 +70030,6 @@
     },
     "source_urls": {
       "clone": "https://clone.nl/item82798.html"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "553530d9",
-    "title": "Audio Labour EP",
-    "artist": "Audio Labour",
-    "album": "Audio Labour EP",
-    "label": "pryma",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Acoustic",
-      "Indie Rock"
-    ],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Audio_Labour_Audio_Labour_EP_PRYM006_Vinyl__1218245",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "PRYM006",
-    "format": "Single",
-    "discogs_year": 1994,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 18,
-    "_score_breakdown": {
-      "total": 18,
-      "label": 0,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Audio_Labour_Audio_Labour_EP_PRYM006_Vinyl__1218245"
     },
     "style_enriched": true
   },
@@ -73435,6 +74092,53 @@
     }
   },
   {
+    "id": "d3c4d80e",
+    "title": "Opus",
+    "artist": "Ryuichi Sakamoto",
+    "album": "Opus",
+    "label": "Milan Records",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-26",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "house",
+      "Experimental",
+      "Avant-garde",
+      "Sound Art",
+      "Field",
+      "Neo-classical",
+      "Classical",
+      "Orchestral",
+      "Electronic",
+      "Electro",
+      "IDM",
+      "EBM"
+    ],
+    "source": "piccadilly",
+    "source_url": "https://www.piccadillyrecords.com/165224/Ryuichi-Sakamoto-Opus-Milan-Records",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "19802835112",
+    "format": "",
+    "quality_score": 52,
+    "_score_breakdown": {
+      "total": 52,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 2,
+      "multi": 10,
+      "niche": 0
+    },
+    "source_urls": {
+      "piccadilly": "https://www.piccadillyrecords.com/165224/Ryuichi-Sakamoto-Opus-Milan-Records",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Ryuichi+Sakamoto",
+      "norman": "https://www.normanrecords.com/records/213606-ryuichi-sakamoto-opus"
+    }
+  },
+  {
     "id": "cd90b47e",
     "title": "Honey For Wounds (5th Anniversay Edition)",
     "artist": "Ego Ella May",
@@ -73861,52 +74565,6 @@
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195646-drea027-dave-mech-berlin-seite/"
     },
     "style_enriched": true
-  },
-  {
-    "id": "d3c4d80e",
-    "title": "Opus",
-    "artist": "Ryuichi Sakamoto",
-    "album": "Opus",
-    "label": "Milan Records",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-26",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "house",
-      "Experimental",
-      "Avant-garde",
-      "Sound Art",
-      "Field",
-      "Neo-classical",
-      "Classical",
-      "Orchestral",
-      "Electronic",
-      "Electro",
-      "IDM",
-      "EBM"
-    ],
-    "source": "piccadilly",
-    "source_url": "https://www.piccadillyrecords.com/165224/Ryuichi-Sakamoto-Opus-Milan-Records",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "19802835112",
-    "format": "",
-    "quality_score": 48,
-    "_score_breakdown": {
-      "total": 48,
-      "label": 30,
-      "artist": 0,
-      "genre": 10,
-      "source": 2,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "piccadilly": "https://www.piccadillyrecords.com/165224/Ryuichi-Sakamoto-Opus-Milan-Records",
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Ryuichi+Sakamoto"
-    }
   },
   {
     "id": "711625c6",
@@ -83371,6 +84029,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82439.html"
     }
   },
   {
@@ -141015,7 +141676,7 @@
       "niche": 0
     },
     "source_urls": {
-      "hardwax": "https://hardwax.com/87918/orbe-and-psyk/temporal-rift/",
+      "hardwax": "https://hardwax.com/87918/orbe-and-psyk/temporal-rift/?focus=only_vinyl",
       "deejay": "https://www.deejay.de/PSYK_%26_ORBE_TEMPORAL_RIFT_LP_2x12_NXO001LP_Vinyl__1219109",
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Psyk+%26+Orbe"
     },
@@ -211512,7 +212173,7 @@
     "title": "SIGNAL PHASE DECAY EP",
     "artist": "DJ SLUSH / DRETRAXX",
     "album": "SIGNAL PHASE DECAY EP",
-    "label": "",
+    "label": "Polytechnic US",
     "genre": "House",
     "duration": "",
     "date": "2026-02-26",
@@ -248239,7 +248900,7 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36296842-Kruder-Dorfmeister-DJ-Kicks",
-      "juno": "https://www.juno.co.uk/products/kruder-dorfmeister-dj-kicks-30th-anniversary-edition-vinyl/1147510-01/"
+      "juno": "https://www.juno.co.uk/products/mixed-by-kruder-dorfmeister-dj-kicks-vinyl/55996-02/"
     },
     "date_verified": true
   },
