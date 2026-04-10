@@ -1,5 +1,38 @@
 [
   {
+    "id": "93010d79",
+    "title": "Private Dancer (Versions)",
+    "artist": "Johannes Albert",
+    "album": "Private Dancer (Versions)",
+    "label": "Permanent Vacation",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-24",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://perm-vac.bandcamp.com/album/private-dancer-versions",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "source_urls": {
+      "bandcamp": "https://perm-vac.bandcamp.com/album/private-dancer-versions"
+    },
+    "style_enriched": true,
+    "quality_score": 72,
+    "_score_breakdown": {
+      "total": 72,
+      "label": 30,
+      "artist": 20,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
     "id": "2079785d",
     "title": "Hypno Trance",
     "artist": "Donato Dozzy",
@@ -1718,6 +1751,40 @@
     }
   },
   {
+    "id": "bbed3234",
+    "title": "Enjoy Yourself",
+    "artist": "Jo Paciello",
+    "album": "Enjoy Yourself",
+    "label": "Shocking Sounds Records",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Deep House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14313914/enjoy-yourself-extended-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 67,
+    "_score_breakdown": {
+      "total": 67,
+      "label": 15,
+      "artist": 30,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14313914/enjoy-yourself-extended-mix"
+    }
+  },
+  {
     "id": "05b6aa7a",
     "title": "Light: On The South Side",
     "artist": "Various",
@@ -2188,40 +2255,6 @@
     }
   },
   {
-    "id": "bbed3234",
-    "title": "Enjoy Yourself",
-    "artist": "Jo Paciello",
-    "album": "Enjoy Yourself",
-    "label": "Shocking Sounds Records",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-04-10",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Deep House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14313914/enjoy-yourself-extended-mix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 52,
-    "_score_breakdown": {
-      "total": 52,
-      "label": 0,
-      "artist": 30,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14313914/enjoy-yourself-extended-mix"
-    }
-  },
-  {
     "id": "da8fd50d",
     "title": "Diskossa (2025 Repress)",
     "artist": "Ural 13 Diktators",
@@ -2408,6 +2441,56 @@
     "source_urls": {
       "norman": "https://www.normanrecords.com/records/213849-mickey-the-soul-generation-give-everybody-some",
       "piccadilly": "https://www.piccadillyrecords.com/165430/Mickey-The-Soul-Generation-Give-Everybody-Some-Numero-Group"
+    }
+  },
+  {
+    "id": "200ffbe8",
+    "title": "Lose Your Self",
+    "artist": "Enter Shikari",
+    "album": "Lose Your Self",
+    "label": "SO Recordings",
+    "genre": "Breaks",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Indie Rock",
+      "Alternative Rock",
+      "House",
+      "Breakbeat",
+      "Breaks",
+      "Trap",
+      "Electro",
+      "Electro House",
+      "Bass Music",
+      "Experimental",
+      "Glitch",
+      "Dubstep",
+      "Drum n Bass",
+      "Dance-pop",
+      "Synth-pop",
+      "Deep House"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/214993-enter-shikari-lose-your-self",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2017,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 51,
+    "_score_breakdown": {
+      "total": 51,
+      "label": 15,
+      "artist": 20,
+      "genre": 10,
+      "source": 2,
+      "multi": 0,
+      "niche": 4
     }
   },
   {
@@ -3203,6 +3286,39 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://staatsakt.bandcamp.com/album/schranz-und-brecht"
+    }
+  },
+  {
+    "id": "daf547eb",
+    "title": "HIGHLITE & Peredel - She's A Freak (I Ain't Crazy)",
+    "artist": "Get Physical Music",
+    "album": "HIGHLITE & Peredel - She's A Freak (I Ain't Crazy)",
+    "label": "Get Physical Music",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://getphysicalmusic.bandcamp.com/album/highlite-peredel-she-s-a-freak-i-ain-t-crazy",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -3954,6 +4070,39 @@
     }
   },
   {
+    "id": "f44d6b09",
+    "title": "Soak Vol. 1",
+    "artist": "Peach",
+    "album": "Soak Vol. 1",
+    "label": "Mood Hut",
+    "genre": "Trance",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House",
+      "Trance"
+    ],
+    "source": "bandcamp",
+    "source_url": "https://moodhut.bandcamp.com/album/soak-vol-1",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 36,
+    "_score_breakdown": {
+      "total": 36,
+      "label": 30,
+      "artist": 0,
+      "genre": 0,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "9759f9a4",
     "title": "Access EP",
     "artist": "DJ Misjah",
@@ -4626,6 +4775,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/hannah-lew"
     }
   },
   {
@@ -4821,6 +4973,40 @@
     "bpm": null,
     "catalog_number": null,
     "format": "LP",
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 26,
+    "_score_breakdown": {
+      "total": 26,
+      "label": 0,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/bill-laswell-p-st-mount-analogue-vinyl/1134385-01/"
+    }
+  },
+  {
+    "id": "699aceb0",
+    "title": "Toolroom Sampler Vol 23",
+    "artist": "Low Steppa/Rue Jay/Reza/Ale Fedde Le Grand/Crusy/Jem Cooke/Martin Ikin/Hayley May",
+    "album": "Toolroom Sampler Vol 23",
+    "label": "Toolroom",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/low-steppa-rue-jay-toolroom-sampler-vol-23-vinyl/1148274-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
     "discogs_year_checked": true,
     "style_enriched": true,
     "quality_score": 26,
@@ -6348,6 +6534,42 @@
     }
   },
   {
+    "id": "af11e227",
+    "title": "Selva LP",
+    "artist": "Blue Hour",
+    "album": "Selva LP",
+    "label": "",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Techno",
+      "Tribal",
+      "Deep Techno"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item82513.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BLUEHOURLP001",
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 18,
+    "_score_breakdown": {
+      "total": 18,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "f1467e20",
     "title": "Versions Vol. 1",
     "artist": "Emily Jeanne",
@@ -6378,6 +6600,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/versions-vol-1"
     }
   },
   {
@@ -9035,6 +9260,37 @@
     "source_urls": {
       "piccadilly": "https://www.piccadillyrecords.com/165606/Alex-Zhang-Hungtai-Dras-Shelter-Press",
       "boomkat": "https://boomkat.com/products/dras"
+    }
+  },
+  {
+    "id": "185d42b0",
+    "title": "THE FONTAINEBLEAU + REMIXES",
+    "artist": "Jensen Interceptor",
+    "album": "THE FONTAINEBLEAU + REMIXES",
+    "label": "Monotone",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-04-09",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Electro"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Jensen+Interceptor",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "MON025",
+    "format": "",
+    "quality_score": 42,
+    "_score_breakdown": {
+      "total": 42,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -30404,6 +30660,43 @@
     }
   },
   {
+    "id": "16220fd9",
+    "title": "PRÉSENCE HUMAINE - Blue Vinyl",
+    "artist": "MICHEL HOUELLEBECQ",
+    "album": "PRÉSENCE HUMAINE - Blue Vinyl",
+    "label": "Tricatel",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-04-03",
+    "re": false,
+    "styles": [
+      "Electro"
+    ],
+    "source": "redeye",
+    "source_url": "https://www.redeyerecords.co.uk/vinyl/195516-trilpfr007bv-michel-houellebecq-présence-humaine-blue-vinyl/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "TRILPFR007BV",
+    "format": "",
+    "quality_score": 59,
+    "_score_breakdown": {
+      "total": 59,
+      "label": 25,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/195516-trilpfr007bv-michel-houellebecq-présence-humaine-blue-vinyl/",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Michel+Houellebecq"
+    },
+    "date_verified": false,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "0bac6a46",
     "title": "2012",
     "artist": "Skee Mask",
@@ -30562,43 +30855,6 @@
       "boomkat": "https://boomkat.com/products/wendy-eisenberg",
       "deejay": "https://www.deejay.de/WENDY_EISENBERG_WENDY_EISENBERG_JNRLP514_Vinyl__1212998"
     },
-    "style_enriched": true
-  },
-  {
-    "id": "16220fd9",
-    "title": "PRÉSENCE HUMAINE - Blue Vinyl",
-    "artist": "MICHEL HOUELLEBECQ",
-    "album": "PRÉSENCE HUMAINE - Blue Vinyl",
-    "label": "Tricatel",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-04-03",
-    "re": false,
-    "styles": [
-      "Electro"
-    ],
-    "source": "redeye",
-    "source_url": "https://www.redeyerecords.co.uk/vinyl/195516-trilpfr007bv-michel-houellebecq-présence-humaine-blue-vinyl/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "TRILPFR007BV",
-    "format": "",
-    "quality_score": 54,
-    "_score_breakdown": {
-      "total": 54,
-      "label": 20,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 6,
-      "niche": 0
-    },
-    "source_urls": {
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/195516-trilpfr007bv-michel-houellebecq-présence-humaine-blue-vinyl/",
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Michel+Houellebecq"
-    },
-    "date_verified": false,
-    "discogs_year_checked": true,
     "style_enriched": true
   },
   {
@@ -34071,6 +34327,46 @@
     }
   },
   {
+    "id": "86e54b4e",
+    "title": "Party Criminals",
+    "artist": "Inland Knights",
+    "album": "Party Criminals",
+    "label": "Drop Music",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "house",
+      "Deep House",
+      "Disco"
+    ],
+    "source": "piccadilly",
+    "source_url": "https://www.piccadillyrecords.com/165343/Inland-Knights-Party-Criminals-Drop-Music",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DRM 06R",
+    "format": "",
+    "source_urls": {
+      "piccadilly": "https://www.piccadillyrecords.com/165343/Inland-Knights-Party-Criminals-Drop-Music",
+      "juno": "https://www.juno.co.uk/products/inland-knights-party-criminals-vinyl/1128465-01/",
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/189874-drm-06r-inland-knights-party-criminals-reissue/",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Inland+Knights",
+      "deejay": "https://www.deejay.de/Inland_Knights_Party_Criminals_DRM06R_Vinyl__1207055"
+    },
+    "quality_score": 37,
+    "_score_breakdown": {
+      "total": 37,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 2,
+      "multi": 10,
+      "niche": 0
+    }
+  },
+  {
     "id": "6c5a92e2",
     "title": "Al Golpe",
     "artist": "Amir Karim",
@@ -34844,46 +35140,6 @@
       "piccadilly": "https://www.piccadillyrecords.com/167019/Raw-Tunes-The-Jersey-DAT's-(w-Medlar-Remix)-Daybreakers",
       "juno": "https://www.juno.co.uk/products/raw-tunes-the-jersey-dats-vinyl/1138507-01/",
       "deejay": "https://www.deejay.de/Raw_Tunes_The_Jersey_DATs_w_Medlar_Remix_DBR006_Vinyl__1218077"
-    },
-    "quality_score": 30,
-    "_score_breakdown": {
-      "total": 30,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 2,
-      "multi": 10,
-      "niche": 0
-    }
-  },
-  {
-    "id": "86e54b4e",
-    "title": "Party Criminals",
-    "artist": "Inland Knights",
-    "album": "Party Criminals",
-    "label": "Drop Music",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "house",
-      "Deep House",
-      "Disco"
-    ],
-    "source": "piccadilly",
-    "source_url": "https://www.piccadillyrecords.com/165343/Inland-Knights-Party-Criminals-Drop-Music",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "DRM 06R",
-    "format": "",
-    "source_urls": {
-      "piccadilly": "https://www.piccadillyrecords.com/165343/Inland-Knights-Party-Criminals-Drop-Music",
-      "juno": "https://www.juno.co.uk/products/inland-knights-party-criminals-vinyl/1128465-01/",
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/189874-drm-06r-inland-knights-party-criminals-reissue/",
-      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Inland+Knights",
-      "deejay": "https://www.deejay.de/Inland_Knights_Party_Criminals_DRM06R_Vinyl__1207055"
     },
     "quality_score": 30,
     "_score_breakdown": {
@@ -35847,6 +36103,40 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14418826/tell-me-original-mix"
+    }
+  },
+  {
+    "id": "437eb18d",
+    "title": "Diggin' for Sounds",
+    "artist": "Scott Ducey",
+    "album": "Diggin' for Sounds",
+    "label": "Bid Muzik",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14441329/diggin-for-sounds",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 27,
+    "_score_breakdown": {
+      "total": 27,
+      "label": 20,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14441329/diggin-for-sounds"
     }
   },
   {
@@ -37402,40 +37692,6 @@
     "style_enriched": true
   },
   {
-    "id": "437eb18d",
-    "title": "Diggin' for Sounds",
-    "artist": "Scott Ducey",
-    "album": "Diggin' for Sounds",
-    "label": "Bid Muzik",
-    "genre": "Jackin House",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Jackin House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14441329/diggin-for-sounds",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 22,
-    "_score_breakdown": {
-      "total": 22,
-      "label": 15,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14441329/diggin-for-sounds"
-    }
-  },
-  {
     "id": "639f5ba3",
     "title": "Vic Hop",
     "artist": "DJ Homicide_",
@@ -37467,6 +37723,40 @@
     },
     "source_urls": {
       "piccadilly": "https://www.piccadillyrecords.com/165993/DJ-Homicide_-Vic-Hop-CA"
+    }
+  },
+  {
+    "id": "cd32d5bf",
+    "title": "Music Speaks",
+    "artist": "Elios Fade",
+    "album": "Music Speaks",
+    "label": "Pink Funk",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14392260/music-speaks-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14392260/music-speaks-original-mix"
     }
   },
   {
@@ -38730,40 +39020,6 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14392269/jazzy-disco-original-mix"
-    }
-  },
-  {
-    "id": "cd32d5bf",
-    "title": "Music Speaks",
-    "artist": "Elios Fade",
-    "album": "Music Speaks",
-    "label": "Pink Funk",
-    "genre": "Jackin House",
-    "duration": "",
-    "date": "2026-04-03",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Jackin House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14392260/music-speaks-original-mix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 7,
-    "_score_breakdown": {
-      "total": 7,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14392260/music-speaks-original-mix"
     }
   },
   {
@@ -55264,6 +55520,48 @@
     "style_enriched": true
   },
   {
+    "id": "0db5e419",
+    "title": "The Necks Box",
+    "artist": "THE NECKS",
+    "album": "The Necks Box",
+    "label": "ReR",
+    "genre": "Future Jazz",
+    "duration": "",
+    "date": "2026-03-31",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Jazz / Fusion",
+      "Krautrock",
+      "Experimental",
+      "Abstract",
+      "Future Jazz"
+    ],
+    "source": "boomkat",
+    "source_url": "https://boomkat.com/products/necks-box",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "CD",
+    "discogs_year": 2015,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 76,
+    "_score_breakdown": {
+      "total": 76,
+      "label": 20,
+      "artist": 30,
+      "genre": 18,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "boomkat": "https://boomkat.com/products/necks-box"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "a17b27a6",
     "title": "Neurotica",
     "artist": "Faltydl",
@@ -55450,48 +55748,6 @@
     },
     "source_urls": {
       "redeye": "https://www.redeyerecords.co.uk/vinyl/195823-dkmntl116-shed-rave-echoes-2x12/"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "0db5e419",
-    "title": "The Necks Box",
-    "artist": "THE NECKS",
-    "album": "The Necks Box",
-    "label": "ReR",
-    "genre": "Future Jazz",
-    "duration": "",
-    "date": "2026-03-31",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Jazz / Fusion",
-      "Krautrock",
-      "Experimental",
-      "Abstract",
-      "Future Jazz"
-    ],
-    "source": "boomkat",
-    "source_url": "https://boomkat.com/products/necks-box",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "CD",
-    "discogs_year": 2015,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 71,
-    "_score_breakdown": {
-      "total": 71,
-      "label": 15,
-      "artist": 30,
-      "genre": 18,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "boomkat": "https://boomkat.com/products/necks-box"
     },
     "style_enriched": true
   },
@@ -79164,6 +79420,40 @@
     }
   },
   {
+    "id": "6f7b5cfe",
+    "title": "Helping Hand",
+    "artist": "Tom Fills",
+    "album": "Helping Hand",
+    "label": "In It Together Records",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Deep House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14478019/helping-hand-marc-cotterell-plastik-factory-remix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 37,
+    "_score_breakdown": {
+      "total": 37,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14478019/helping-hand-marc-cotterell-plastik-factory-remix"
+    }
+  },
+  {
     "id": "e2314a29",
     "title": "Moon 1",
     "artist": "Five Green Moons",
@@ -80534,6 +80824,86 @@
     }
   },
   {
+    "id": "e0109e22",
+    "title": "House On Fire",
+    "artist": "Wild Billy Childish & CTMF",
+    "album": "House On Fire",
+    "label": "Damaged Goods",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Rock",
+      "Garage Rock",
+      "Rock 'n' Roll",
+      "Surf",
+      "Rock & Roll"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/213687-wild-billy-childish-ctmf-house-on-fire",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 32,
+    "_score_breakdown": {
+      "total": 32,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "norman": "https://www.normanrecords.com/records/213687-wild-billy-childish-ctmf-house-on-fire"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "67020dce",
+    "title": "Keep Mojave Weird EP",
+    "artist": "Wild Billy Childish & CTMF",
+    "album": "Keep Mojave Weird EP",
+    "label": "Damaged Goods",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Folk",
+      "Country",
+      "Singer-songwriter",
+      "Rock",
+      "Garage Rock",
+      "Rock 'n' Roll",
+      "Surf"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/213688-wild-billy-childish-ctmf-keep-mojave-weird-ep",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "quality_score": 32,
+    "_score_breakdown": {
+      "total": 32,
+      "label": 25,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "norman": "https://www.normanrecords.com/records/213688-wild-billy-childish-ctmf-keep-mojave-weird-ep"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "bac015d3",
     "title": "I Need Somebody To Love Tonight 7\"",
     "artist": "Glenn ECHO",
@@ -80721,40 +81091,6 @@
       "source": 2,
       "multi": 10,
       "niche": 0
-    }
-  },
-  {
-    "id": "6f7b5cfe",
-    "title": "Helping Hand",
-    "artist": "Tom Fills",
-    "album": "Helping Hand",
-    "label": "In It Together Records",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Deep House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14478019/helping-hand-marc-cotterell-plastik-factory-remix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 30,
-    "_score_breakdown": {
-      "total": 30,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14478019/helping-hand-marc-cotterell-plastik-factory-remix"
     }
   },
   {
@@ -82015,86 +82351,6 @@
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Blue+Lake"
     }
-  },
-  {
-    "id": "e0109e22",
-    "title": "House On Fire",
-    "artist": "Wild Billy Childish & CTMF",
-    "album": "House On Fire",
-    "label": "Damaged Goods",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Rock",
-      "Garage Rock",
-      "Rock 'n' Roll",
-      "Surf",
-      "Rock & Roll"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/213687-wild-billy-childish-ctmf-house-on-fire",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "quality_score": 27,
-    "_score_breakdown": {
-      "total": 27,
-      "label": 20,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/213687-wild-billy-childish-ctmf-house-on-fire"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "67020dce",
-    "title": "Keep Mojave Weird EP",
-    "artist": "Wild Billy Childish & CTMF",
-    "album": "Keep Mojave Weird EP",
-    "label": "Damaged Goods",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Folk",
-      "Country",
-      "Singer-songwriter",
-      "Rock",
-      "Garage Rock",
-      "Rock 'n' Roll",
-      "Surf"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/213688-wild-billy-childish-ctmf-keep-mojave-weird-ep",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "quality_score": 27,
-    "_score_breakdown": {
-      "total": 27,
-      "label": 20,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/213688-wild-billy-childish-ctmf-keep-mojave-weird-ep"
-    },
-    "style_enriched": true
   },
   {
     "id": "5c3822e8",
@@ -115049,6 +115305,47 @@
     "style_enriched": true
   },
   {
+    "id": "3470cce4",
+    "title": "Off The Record",
+    "artist": "Romeo Poirier",
+    "album": "Off The Record",
+    "label": "Faitiche",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-03-23",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Abstract",
+      "Sound Collage",
+      "Spoken Word",
+      "Ambient"
+    ],
+    "source": "clone",
+    "source_url": "https://clone.nl/item80684.html",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "fait-039LP",
+    "format": "LP",
+    "discogs_year": 2025,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 58,
+    "_score_breakdown": {
+      "total": 58,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item80684.html"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "3b962b53",
     "title": "Dalbergia Retusa",
     "artist": "Hans Reichel",
@@ -116472,6 +116769,40 @@
     "style_enriched": true
   },
   {
+    "id": "fa3f21d8",
+    "title": "Think About It (reissue)",
+    "artist": "Da Sunlounge/Office Gossip",
+    "album": "Think About It (reissue)",
+    "label": "Myna",
+    "genre": "Minimal House",
+    "duration": "",
+    "date": "2026-03-23",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/da-sunlounge-office-gossip-think-about-it-vinyl/1139453-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year_checked": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/da-sunlounge-office-gossip-think-about-it-vinyl/1139453-01/"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "2f348f1d",
     "title": "Nothing but Fixes",
     "artist": "No Icons",
@@ -116961,40 +117292,6 @@
     "style_enriched": true
   },
   {
-    "id": "fa3f21d8",
-    "title": "Think About It (reissue)",
-    "artist": "Da Sunlounge/Office Gossip",
-    "album": "Think About It (reissue)",
-    "label": "Myna",
-    "genre": "Minimal House",
-    "duration": "",
-    "date": "2026-03-23",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/da-sunlounge-office-gossip-think-about-it-vinyl/1139453-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "Single",
-    "discogs_year_checked": true,
-    "quality_score": 41,
-    "_score_breakdown": {
-      "total": 41,
-      "label": 15,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/da-sunlounge-office-gossip-think-about-it-vinyl/1139453-01/"
-    },
-    "style_enriched": true
-  },
-  {
     "id": "b2c1d3c5",
     "title": "From The Vaults Vol: 4",
     "artist": "Carlos Sanchez/Qubiko",
@@ -117025,6 +117322,46 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/carlos-sanchez-qubiko-from-the-vaults-vol-4-vinyl/1144777-01/"
+    },
+    "style_enriched": true
+  },
+  {
+    "id": "e8bac00f",
+    "title": "Sunset",
+    "artist": "Nautilus",
+    "album": "Sunset",
+    "label": "Nautilus",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-03-23",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Vaporwave",
+      "Downtempo",
+      "Chiptune"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/nautilus-sunset-vinyl/1127834-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2020,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/nautilus-sunset-vinyl/1127834-01/"
     },
     "style_enriched": true
   },
@@ -118225,47 +118562,6 @@
     "style_enriched": true
   },
   {
-    "id": "3470cce4",
-    "title": "Off The Record",
-    "artist": "Romeo Poirier",
-    "album": "Off The Record",
-    "label": "",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2026-03-23",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Abstract",
-      "Sound Collage",
-      "Spoken Word",
-      "Ambient"
-    ],
-    "source": "clone",
-    "source_url": "https://clone.nl/item80684.html",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "fait-039LP",
-    "format": "LP",
-    "discogs_year": 2025,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "clone": "https://clone.nl/item80684.html"
-    },
-    "style_enriched": true
-  },
-  {
     "id": "0dad71bc",
     "title": "horizonte",
     "artist": "funcionario",
@@ -119092,46 +119388,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/memory-remains-mr-023-vinyl/1140072-01/"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "e8bac00f",
-    "title": "Sunset",
-    "artist": "Nautilus",
-    "album": "Sunset",
-    "label": "Nautilus",
-    "genre": "Downtempo",
-    "duration": "",
-    "date": "2026-03-23",
-    "date_verified": false,
-    "re": false,
-    "styles": [
-      "Vaporwave",
-      "Downtempo",
-      "Chiptune"
-    ],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/nautilus-sunset-vinyl/1127834-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "discogs_year": 2020,
-    "is_restock": true,
-    "discogs_year_checked": true,
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/nautilus-sunset-vinyl/1127834-01/"
     },
     "style_enriched": true
   },
@@ -126568,6 +126824,40 @@
     "style_enriched": true
   },
   {
+    "id": "ea1687f5",
+    "title": "Shy Guy",
+    "artist": "Nautilus/Emi Tawata",
+    "album": "Shy Guy",
+    "label": "Nautilus",
+    "genre": "Leftfield",
+    "duration": "",
+    "date": "2026-03-22",
+    "date_verified": false,
+    "re": false,
+    "styles": [],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/nautilus-emi-tawata-shy-guy-vinyl/1107290-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "discogs_year_checked": true,
+    "quality_score": 41,
+    "_score_breakdown": {
+      "total": 41,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/nautilus-emi-tawata-shy-guy-vinyl/1107290-01/"
+    },
+    "style_enriched": true
+  },
+  {
     "id": "ffac20da",
     "title": "Fake Idols / Atomic Clock",
     "artist": "Low End Activist & Jammz & Tia Talks",
@@ -129408,40 +129698,6 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/grupo-jejeje-vinyl/1138483-01/"
-    },
-    "style_enriched": true
-  },
-  {
-    "id": "ea1687f5",
-    "title": "Shy Guy",
-    "artist": "Nautilus/Emi Tawata",
-    "album": "Shy Guy",
-    "label": "Nautilus",
-    "genre": "Leftfield",
-    "duration": "",
-    "date": "2026-03-22",
-    "date_verified": false,
-    "re": false,
-    "styles": [],
-    "source": "juno",
-    "source_url": "https://www.juno.co.uk/products/nautilus-emi-tawata-shy-guy-vinyl/1107290-01/",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "discogs_year_checked": true,
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 6,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "juno": "https://www.juno.co.uk/products/nautilus-emi-tawata-shy-guy-vinyl/1107290-01/"
     },
     "style_enriched": true
   },
@@ -148318,6 +148574,40 @@
     }
   },
   {
+    "id": "0afe6b94",
+    "title": "Latinhouss",
+    "artist": "Jon Flores",
+    "album": "Latinhouss",
+    "label": "Undercool Productions",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-03-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14430182/latinhouss-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 37,
+    "_score_breakdown": {
+      "total": 37,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14430182/latinhouss-original-mix"
+    }
+  },
+  {
     "id": "473a97b8",
     "title": "Unreleased Records Vinyl Sampler",
     "artist": "Arodes",
@@ -151398,40 +151688,6 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14418845/are-u-jazz-justnique-remix"
-    }
-  },
-  {
-    "id": "0afe6b94",
-    "title": "Latinhouss",
-    "artist": "Jon Flores",
-    "album": "Latinhouss",
-    "label": "Undercool Productions",
-    "genre": "Afro House",
-    "duration": "",
-    "date": "2026-03-20",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Afro / Latin / Brazilian"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14430182/latinhouss-original-mix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 22,
-    "_score_breakdown": {
-      "total": 22,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14430182/latinhouss-original-mix"
     }
   },
   {
@@ -160202,6 +160458,44 @@
     "discogs_year_checked": true
   },
   {
+    "id": "63bfcfbd",
+    "title": "take the l train (to 8th avenue)",
+    "artist": "BROOKLYN FUNK ESSENTIALS",
+    "album": "take the l train (to 8th avenue)",
+    "label": "Dorado Records Ltd.",
+    "genre": "UK Garage",
+    "duration": "",
+    "date": "2026-03-18",
+    "re": false,
+    "styles": [
+      "uk garage"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/BROOKLYN_FUNK_ESSENTIALS_take_the_l_train_to_8th_avenue_DOR164_Vinyl__1212590",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DOR164",
+    "format": "Single",
+    "source_urls": {
+      "deejay": "https://www.deejay.de/BROOKLYN_FUNK_ESSENTIALS_take_the_l_train_to_8th_avenue_DOR164_Vinyl__1212590",
+      "redeye": "https://www.redeyerecords.co.uk/vinyl/191445-dor164-brooklyn-funk-essentials-take-the-l-train-to-8th-ave-calibre-remix/"
+    },
+    "quality_score": 64,
+    "_score_breakdown": {
+      "total": 64,
+      "label": 15,
+      "artist": 30,
+      "genre": 5,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "date_verified": false,
+    "discogs_year": 1994,
+    "is_restock": true,
+    "discogs_year_checked": true
+  },
+  {
     "id": "233d7410",
     "title": "Under The Influence Vol.10 LP  2x12\"",
     "artist": "Various",
@@ -160715,44 +161009,6 @@
     "date_verified": false,
     "discogs_year_checked": true,
     "style_enriched": true
-  },
-  {
-    "id": "63bfcfbd",
-    "title": "take the l train (to 8th avenue)",
-    "artist": "BROOKLYN FUNK ESSENTIALS",
-    "album": "take the l train (to 8th avenue)",
-    "label": "Dorado Records Ltd.",
-    "genre": "UK Garage",
-    "duration": "",
-    "date": "2026-03-18",
-    "re": false,
-    "styles": [
-      "uk garage"
-    ],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/BROOKLYN_FUNK_ESSENTIALS_take_the_l_train_to_8th_avenue_DOR164_Vinyl__1212590",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "DOR164",
-    "format": "Single",
-    "source_urls": {
-      "deejay": "https://www.deejay.de/BROOKLYN_FUNK_ESSENTIALS_take_the_l_train_to_8th_avenue_DOR164_Vinyl__1212590",
-      "redeye": "https://www.redeyerecords.co.uk/vinyl/191445-dor164-brooklyn-funk-essentials-take-the-l-train-to-8th-ave-calibre-remix/"
-    },
-    "quality_score": 49,
-    "_score_breakdown": {
-      "total": 49,
-      "label": 0,
-      "artist": 30,
-      "genre": 5,
-      "source": 8,
-      "multi": 6,
-      "niche": 0
-    },
-    "date_verified": false,
-    "discogs_year": 1994,
-    "is_restock": true,
-    "discogs_year_checked": true
   },
   {
     "id": "863d1c5b",
@@ -161317,6 +161573,38 @@
       "discogs": "https://www.discogs.com/release/36860104-Two-Mix-新機動戦記ガンダムW-Two-Mix-Digitally-Remastered"
     },
     "style_enriched": true
+  },
+  {
+    "id": "acdc46b6",
+    "title": "Too fast to disband Too young to die",
+    "artist": "BiSH",
+    "album": "Too fast to disband Too young to die",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-18",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36795742-BiSH-4-Too-fast-to-disband-Too-young-to-die",
+    "discogs_url": "https://www.discogs.com/release/36795742-BiSH-4-Too-fast-to-disband-Too-young-to-die",
+    "bpm": null,
+    "catalog_number": "AVJD63758",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "321dbb81",
@@ -217703,6 +217991,108 @@
     }
   },
   {
+    "id": "0b01c584",
+    "title": "Like This",
+    "artist": "Inland Knights",
+    "album": "Like This",
+    "label": "Drop Music",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-03-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14335980/like-this-di-saronno-on-the-rocks-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14335980/like-this-di-saronno-on-the-rocks-mix"
+    }
+  },
+  {
+    "id": "b45bbdf7",
+    "title": "Out of Control",
+    "artist": "Di Saronno",
+    "album": "Out of Control",
+    "label": "Drop Music",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-03-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14335979/out-of-control",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14335979/out-of-control"
+    }
+  },
+  {
+    "id": "130aa823",
+    "title": "Street Walls",
+    "artist": "Di Saronno, Parris Mitchell",
+    "album": "Street Walls",
+    "label": "Drop Music",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-03-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14335978/street-walls",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14335978/street-walls"
+    }
+  },
+  {
     "id": "827abf07",
     "title": "The Black Hill, The Glass Sky",
     "artist": "Somewhere Press",
@@ -218494,108 +218884,6 @@
     "date_verified": false,
     "discogs_year_checked": true,
     "style_enriched": true
-  },
-  {
-    "id": "0b01c584",
-    "title": "Like This",
-    "artist": "Inland Knights",
-    "album": "Like This",
-    "label": "Drop Music",
-    "genre": "Jackin House",
-    "duration": "",
-    "date": "2026-03-06",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Jackin House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14335980/like-this-di-saronno-on-the-rocks-mix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 15,
-    "_score_breakdown": {
-      "total": 15,
-      "label": 8,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14335980/like-this-di-saronno-on-the-rocks-mix"
-    }
-  },
-  {
-    "id": "b45bbdf7",
-    "title": "Out of Control",
-    "artist": "Di Saronno",
-    "album": "Out of Control",
-    "label": "Drop Music",
-    "genre": "Jackin House",
-    "duration": "",
-    "date": "2026-03-06",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Jackin House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14335979/out-of-control",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 15,
-    "_score_breakdown": {
-      "total": 15,
-      "label": 8,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14335979/out-of-control"
-    }
-  },
-  {
-    "id": "130aa823",
-    "title": "Street Walls",
-    "artist": "Di Saronno, Parris Mitchell",
-    "album": "Street Walls",
-    "label": "Drop Music",
-    "genre": "Jackin House",
-    "duration": "",
-    "date": "2026-03-06",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Jackin House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14335978/street-walls",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 15,
-    "_score_breakdown": {
-      "total": 15,
-      "label": 8,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14335978/street-walls"
-    }
   },
   {
     "id": "80b1d514",
@@ -220863,6 +221151,262 @@
     "style_enriched": true
   },
   {
+    "id": "1c04d0b0",
+    "title": "ときめきえがお",
+    "artist": "Chō Tokimeki Sendenbu",
+    "album": "ときめきえがお",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35595895-超ときめき宣伝部-ときめきえがお",
+    "discogs_url": "https://www.discogs.com/release/35595895-超ときめき宣伝部-ときめきえがお",
+    "bpm": null,
+    "catalog_number": "AVZD-63833",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "63543b1a",
+    "title": "ときめきえがお",
+    "artist": "Chō Tokimeki Sendenbu",
+    "album": "ときめきえがお",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35595883-超ときめき宣伝部-ときめきえがお",
+    "discogs_url": "https://www.discogs.com/release/35595883-超ときめき宣伝部-ときめきえがお",
+    "bpm": null,
+    "catalog_number": "AVCD-63840",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "9071802d",
+    "title": "ときめきえがお",
+    "artist": "Chō Tokimeki Sendenbu",
+    "album": "ときめきえがお",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35595970-超ときめき宣伝部-ときめきえがお",
+    "discogs_url": "https://www.discogs.com/release/35595970-超ときめき宣伝部-ときめきえがお",
+    "bpm": null,
+    "catalog_number": "AVCD-63839",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "40e99db5",
+    "title": "ときめきえがお",
+    "artist": "Chō Tokimeki Sendenbu",
+    "album": "ときめきえがお",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35595958-超ときめき宣伝部-ときめきえがお",
+    "discogs_url": "https://www.discogs.com/release/35595958-超ときめき宣伝部-ときめきえがお",
+    "bpm": null,
+    "catalog_number": "AVCD-63838",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "a57b6890",
+    "title": "ときめきえがお",
+    "artist": "Chō Tokimeki Sendenbu",
+    "album": "ときめきえがお",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35595952-超ときめき宣伝部-ときめきえがお",
+    "discogs_url": "https://www.discogs.com/release/35595952-超ときめき宣伝部-ときめきえがお",
+    "bpm": null,
+    "catalog_number": "AVCD-63837",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b0609fec",
+    "title": "ときめきえがお",
+    "artist": "Chō Tokimeki Sendenbu",
+    "album": "ときめきえがお",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35595937-超ときめき宣伝部-ときめきえがお",
+    "discogs_url": "https://www.discogs.com/release/35595937-超ときめき宣伝部-ときめきえがお",
+    "bpm": null,
+    "catalog_number": "AVCD-63836",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "e15de2ee",
+    "title": "ときめきえがお",
+    "artist": "Chō Tokimeki Sendenbu",
+    "album": "ときめきえがお",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35595922-超ときめき宣伝部-ときめきえがお",
+    "discogs_url": "https://www.discogs.com/release/35595922-超ときめき宣伝部-ときめきえがお",
+    "bpm": null,
+    "catalog_number": "AVCD-63835",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "39ff9322",
+    "title": "ときめきえがお",
+    "artist": "Chō Tokimeki Sendenbu",
+    "album": "ときめきえがお",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-03-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35595910-超ときめき宣伝部-ときめきえがお",
+    "discogs_url": "https://www.discogs.com/release/35595910-超ときめき宣伝部-ときめきえがお",
+    "bpm": null,
+    "catalog_number": "AVCD-63834",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "f60738e3",
     "title": "A Dance For The Spirits",
     "artist": "Work Money Death",
@@ -222841,6 +223385,74 @@
     }
   },
   {
+    "id": "2133d762",
+    "title": "Like This",
+    "artist": "Inland Knights",
+    "album": "Like This",
+    "label": "Drop Music",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-03-02",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14446444/like-this",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14446444/like-this"
+    }
+  },
+  {
+    "id": "0b06fd1e",
+    "title": "The Game",
+    "artist": "Inland Knights",
+    "album": "The Game",
+    "label": "Drop Music",
+    "genre": "Jackin House",
+    "duration": "",
+    "date": "2026-03-02",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Jackin House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14446447/the-game",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 22,
+    "_score_breakdown": {
+      "total": 22,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14446447/the-game"
+    }
+  },
+  {
     "id": "bbd15eb9",
     "title": "Desconegut",
     "artist": "The Future Corporation",
@@ -222879,74 +223491,6 @@
     "discogs_year": 2026,
     "discogs_year_checked": true,
     "style_enriched": true
-  },
-  {
-    "id": "2133d762",
-    "title": "Like This",
-    "artist": "Inland Knights",
-    "album": "Like This",
-    "label": "Drop Music",
-    "genre": "Jackin House",
-    "duration": "",
-    "date": "2026-03-02",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Jackin House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14446444/like-this",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 15,
-    "_score_breakdown": {
-      "total": 15,
-      "label": 8,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14446444/like-this"
-    }
-  },
-  {
-    "id": "0b06fd1e",
-    "title": "The Game",
-    "artist": "Inland Knights",
-    "album": "The Game",
-    "label": "Drop Music",
-    "genre": "Jackin House",
-    "duration": "",
-    "date": "2026-03-02",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Jackin House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14446447/the-game",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 15,
-    "_score_breakdown": {
-      "total": 15,
-      "label": 8,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14446447/the-game"
-    }
   },
   {
     "id": "b4899370",
@@ -225367,6 +225911,74 @@
     }
   },
   {
+    "id": "b478f4c0",
+    "title": "Love Me Right",
+    "artist": "Col Lawton, FederFunk, Becka",
+    "album": "Love Me Right",
+    "label": "In It Together Records",
+    "genre": "Deep House",
+    "duration": "",
+    "date": "2026-02-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Deep House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14389039/love-me-right-n-w-n-remix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 37,
+    "_score_breakdown": {
+      "total": 37,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14389039/love-me-right-n-w-n-remix"
+    }
+  },
+  {
+    "id": "0dd5d8bf",
+    "title": "Passion & Love",
+    "artist": "MNK4",
+    "album": "Passion & Love",
+    "label": "Lisztomania",
+    "genre": "Broken Beat",
+    "duration": "",
+    "date": "2026-02-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Broken Beat / Nu-Jazz"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14359279/passion-and-love-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 37,
+    "_score_breakdown": {
+      "total": 37,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14359279/passion-and-love-original-mix"
+    }
+  },
+  {
     "id": "d63d3f88",
     "title": "Caminando",
     "artist": "Andre Salmon, adaobat",
@@ -225432,40 +226044,6 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14367889/brothers-work-it-out"
-    }
-  },
-  {
-    "id": "b478f4c0",
-    "title": "Love Me Right",
-    "artist": "Col Lawton, FederFunk, Becka",
-    "album": "Love Me Right",
-    "label": "In It Together Records",
-    "genre": "Deep House",
-    "duration": "",
-    "date": "2026-02-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Deep House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14389039/love-me-right-n-w-n-remix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 30,
-    "_score_breakdown": {
-      "total": 30,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14389039/love-me-right-n-w-n-remix"
     }
   },
   {
@@ -225568,40 +226146,6 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14370848/say-your-gonna-be-norty-cotto-house-fix"
-    }
-  },
-  {
-    "id": "0dd5d8bf",
-    "title": "Passion & Love",
-    "artist": "MNK4",
-    "album": "Passion & Love",
-    "label": "Lisztomania",
-    "genre": "Broken Beat",
-    "duration": "",
-    "date": "2026-02-27",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Broken Beat / Nu-Jazz"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14359279/passion-and-love-original-mix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 30,
-    "_score_breakdown": {
-      "total": 30,
-      "label": 8,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14359279/passion-and-love-original-mix"
     }
   },
   {
@@ -227857,6 +228401,40 @@
       "bandcamp": "https://diffusereality.bandcamp.com/album/sad-prom-model-behavior"
     },
     "style_enriched": true
+  },
+  {
+    "id": "abe7a8c2",
+    "title": "Lunatic Tokyo 2025 -黒服限定Gig- 2025.02.23 At Tokyo Dome",
+    "artist": "Luna Sea",
+    "album": "Lunatic Tokyo 2025 -黒服限定Gig- 2025.02.23 At Tokyo Dome",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-02-25",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Alternative Rock",
+      "Goth Rock",
+      "J-Rock"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36598444-Luna-Sea-Lunatic-Tokyo-2025-黒服限定Gig-20250223-At-Tokyo-Dome",
+    "discogs_url": "https://www.discogs.com/release/36598444-Luna-Sea-Lunatic-Tokyo-2025-黒服限定Gig-20250223-At-Tokyo-Dome",
+    "bpm": null,
+    "catalog_number": "AVXD 36109",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "7bcb0306",
@@ -231691,6 +232269,40 @@
     "style_enriched": true
   },
   {
+    "id": "65d15fd9",
+    "title": "Ekpere Oma",
+    "artist": "Jon Mavek, Morris Revy",
+    "album": "Ekpere Oma",
+    "label": "Arawakan",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-02-19",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro House"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14303230/ekpere-oma-original-mix",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 37,
+    "_score_breakdown": {
+      "total": 37,
+      "label": 15,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14303230/ekpere-oma-original-mix"
+    }
+  },
+  {
     "id": "c3eb6dd5",
     "title": "Debussy in Doha",
     "artist": "Nelue",
@@ -231927,40 +232539,6 @@
     },
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14306540/easy"
-    }
-  },
-  {
-    "id": "65d15fd9",
-    "title": "Ekpere Oma",
-    "artist": "Jon Mavek, Morris Revy",
-    "album": "Ekpere Oma",
-    "label": "Arawakan",
-    "genre": "Afro House",
-    "duration": "",
-    "date": "2026-02-19",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Afro House"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14303230/ekpere-oma-original-mix",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 22,
-    "_score_breakdown": {
-      "total": 22,
-      "label": 0,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14303230/ekpere-oma-original-mix"
     }
   },
   {
@@ -235131,6 +235709,74 @@
     }
   },
   {
+    "id": "1f4036f6",
+    "title": "Ê, Yemanjá",
+    "artist": "Africanism, Victoric Leroy",
+    "album": "Ê, Yemanjá",
+    "label": "Yellow Productions Recording",
+    "genre": "Afro House",
+    "duration": "",
+    "date": "2026-02-13",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Afro / Latin / Brazilian"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14370682/e-yemanja-extended",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 42,
+    "_score_breakdown": {
+      "total": 42,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14370682/e-yemanja-extended"
+    }
+  },
+  {
+    "id": "560bce2f",
+    "title": "City Language",
+    "artist": "Belladonna",
+    "album": "City Language",
+    "label": "IRMA DANCEFLOOR",
+    "genre": "Broken Beat",
+    "duration": "",
+    "date": "2026-02-13",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Broken Beat / Nu-Jazz"
+    ],
+    "source": "traxsource",
+    "source_url": "https://www.traxsource.com/track/14334640/city-language",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 42,
+    "_score_breakdown": {
+      "total": 42,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "traxsource": "https://www.traxsource.com/track/14334640/city-language"
+    }
+  },
+  {
     "id": "d253fb98",
     "title": "NenaHalena, Wassolou Benkain - Hail From Mali",
     "artist": "Get Physical Music",
@@ -235435,74 +236081,6 @@
     "date_verified": true
   },
   {
-    "id": "1f4036f6",
-    "title": "Ê, Yemanjá",
-    "artist": "Africanism, Victoric Leroy",
-    "album": "Ê, Yemanjá",
-    "label": "Yellow Productions Recording",
-    "genre": "Afro House",
-    "duration": "",
-    "date": "2026-02-13",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Afro / Latin / Brazilian"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14370682/e-yemanja-extended",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 37,
-    "_score_breakdown": {
-      "total": 37,
-      "label": 15,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14370682/e-yemanja-extended"
-    }
-  },
-  {
-    "id": "560bce2f",
-    "title": "City Language",
-    "artist": "Belladonna",
-    "album": "City Language",
-    "label": "IRMA DANCEFLOOR",
-    "genre": "Broken Beat",
-    "duration": "",
-    "date": "2026-02-13",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Broken Beat / Nu-Jazz"
-    ],
-    "source": "traxsource",
-    "source_url": "https://www.traxsource.com/track/14334640/city-language",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "quality_score": 37,
-    "_score_breakdown": {
-      "total": 37,
-      "label": 15,
-      "artist": 0,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "traxsource": "https://www.traxsource.com/track/14334640/city-language"
-    }
-  },
-  {
     "id": "1ca7ddb5",
     "title": "Body Heat",
     "artist": "Wez Whynt, Earl W. Green",
@@ -235734,6 +236312,70 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36498067-ReYou-Misha-52-Heaven"
+    },
+    "date_verified": true
+  },
+  {
+    "id": "0be320ee",
+    "discogs_release_id": 36498283,
+    "title": "Stay Low",
+    "artist": "Plastik Funk, Esox (4)",
+    "album": "Stay Low",
+    "label": "Future House Music (2)",
+    "genre": "Future House",
+    "duration": "4:07",
+    "date": "2026-02-13",
+    "re": false,
+    "styles": [
+      "Future House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36498283-Plastik-Funk-Esox-4-Stay-Low",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36498283-Plastik-Funk-Esox-4-Stay-Low",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 20,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36498283-Plastik-Funk-Esox-4-Stay-Low"
+    },
+    "date_verified": true
+  },
+  {
+    "id": "5b258e5a",
+    "discogs_release_id": 36498268,
+    "title": "More Than A Friend",
+    "artist": "Don Diablo, Bipolar Sunshine",
+    "album": "More Than A Friend",
+    "label": "HEXAGON (3)",
+    "genre": "House",
+    "duration": "3:53",
+    "date": "2026-02-13",
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36498268-Don-Diablo-Bipolar-Sunshine-More-Than-A-Friend",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36498268-Don-Diablo-Bipolar-Sunshine-More-Than-A-Friend",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36498268-Don-Diablo-Bipolar-Sunshine-More-Than-A-Friend"
     },
     "date_verified": true
   },
@@ -235977,70 +236619,6 @@
     "date_verified": false,
     "discogs_year_checked": true,
     "style_enriched": true
-  },
-  {
-    "id": "0be320ee",
-    "discogs_release_id": 36498283,
-    "title": "Stay Low",
-    "artist": "Plastik Funk, Esox (4)",
-    "album": "Stay Low",
-    "label": "Future House Music (2)",
-    "genre": "Future House",
-    "duration": "4:07",
-    "date": "2026-02-13",
-    "re": false,
-    "styles": [
-      "Future House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36498283-Plastik-Funk-Esox-4-Stay-Low",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36498283-Plastik-Funk-Esox-4-Stay-Low",
-    "quality_score": 28,
-    "_score_breakdown": {
-      "total": 28,
-      "label": 15,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36498283-Plastik-Funk-Esox-4-Stay-Low"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "5b258e5a",
-    "discogs_release_id": 36498268,
-    "title": "More Than A Friend",
-    "artist": "Don Diablo, Bipolar Sunshine",
-    "album": "More Than A Friend",
-    "label": "HEXAGON (3)",
-    "genre": "House",
-    "duration": "3:53",
-    "date": "2026-02-13",
-    "re": false,
-    "styles": [
-      "House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36498268-Don-Diablo-Bipolar-Sunshine-More-Than-A-Friend",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36498268-Don-Diablo-Bipolar-Sunshine-More-Than-A-Friend",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36498268-Don-Diablo-Bipolar-Sunshine-More-Than-A-Friend"
-    },
-    "date_verified": true
   },
   {
     "id": "97774047",
@@ -236973,6 +237551,37 @@
     "is_restock": true,
     "discogs_year_checked": true,
     "style_enriched": true
+  },
+  {
+    "id": "6a7a30a9",
+    "title": "Eau De Parfum ~Extended Play~",
+    "artist": "Aiobahn +81",
+    "album": "Eau De Parfum ~Extended Play~",
+    "label": "Avex Trax",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-02-11",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Techno"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36601906-Aiobahn-81-Eau-De-Parfum-Extended-Play",
+    "discogs_url": "https://www.discogs.com/release/36601906-Aiobahn-81-Eau-De-Parfum-Extended-Play",
+    "bpm": null,
+    "catalog_number": "AVZD-63846/B",
+    "format": "EP",
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "421a2b28",
@@ -239565,6 +240174,38 @@
     "date_verified": true
   },
   {
+    "id": "1fab121d",
+    "discogs_release_id": 36440013,
+    "title": "A Feeling",
+    "artist": "Nihil Young",
+    "album": "A Feeling",
+    "label": "Zerothree Music",
+    "genre": "Trance",
+    "duration": "5:59",
+    "date": "2026-02-06",
+    "re": false,
+    "styles": [
+      "Progressive Trance"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36440013-Nihil-Young-A-Feeling",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36440013-Nihil-Young-A-Feeling",
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 20,
+      "artist": 20,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36440013-Nihil-Young-A-Feeling"
+    },
+    "date_verified": true
+  },
+  {
     "id": "f2d8db28",
     "title": "Whats Ya Problem",
     "artist": "Christiano",
@@ -240374,38 +241015,6 @@
     "date_verified": true
   },
   {
-    "id": "1fab121d",
-    "discogs_release_id": 36440013,
-    "title": "A Feeling",
-    "artist": "Nihil Young",
-    "album": "A Feeling",
-    "label": "Zerothree Music",
-    "genre": "Trance",
-    "duration": "5:59",
-    "date": "2026-02-06",
-    "re": false,
-    "styles": [
-      "Progressive Trance"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36440013-Nihil-Young-A-Feeling",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36440013-Nihil-Young-A-Feeling",
-    "quality_score": 43,
-    "_score_breakdown": {
-      "total": 43,
-      "label": 15,
-      "artist": 20,
-      "genre": 0,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36440013-Nihil-Young-A-Feeling"
-    },
-    "date_verified": true
-  },
-  {
     "id": "19ead38c",
     "title": "Ece Yilmaz, Toprak Baris, His&Hertz – Maze",
     "artist": "Ece Yilmaz, Toprak Baris, His&Hertz",
@@ -240708,6 +241317,38 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36440007-Andrew-Rayel-pres-Angel-City-Human-Technology"
+    },
+    "date_verified": true
+  },
+  {
+    "id": "e5575661",
+    "discogs_release_id": 36445065,
+    "title": "No Signal (Remixes)",
+    "artist": "Don Diablo, Rown (3)",
+    "album": "No Signal (Remixes)",
+    "label": "HEXAGON (3)",
+    "genre": "Future House",
+    "duration": "7:07",
+    "date": "2026-02-06",
+    "re": false,
+    "styles": [
+      "Future House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36445065-Don-Diablo-Featuring-Rown-3-No-Signal-Remixes",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36445065-Don-Diablo-Featuring-Rown-3-No-Signal-Remixes",
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36445065-Don-Diablo-Featuring-Rown-3-No-Signal-Remixes"
     },
     "date_verified": true
   },
@@ -241050,38 +241691,6 @@
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14345841/fruta-fresca-massivedrum-afro-latin-mix"
     }
-  },
-  {
-    "id": "e5575661",
-    "discogs_release_id": 36445065,
-    "title": "No Signal (Remixes)",
-    "artist": "Don Diablo, Rown (3)",
-    "album": "No Signal (Remixes)",
-    "label": "HEXAGON (3)",
-    "genre": "Future House",
-    "duration": "7:07",
-    "date": "2026-02-06",
-    "re": false,
-    "styles": [
-      "Future House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36445065-Don-Diablo-Featuring-Rown-3-No-Signal-Remixes",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36445065-Don-Diablo-Featuring-Rown-3-No-Signal-Remixes",
-    "quality_score": 21,
-    "_score_breakdown": {
-      "total": 21,
-      "label": 8,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36445065-Don-Diablo-Featuring-Rown-3-No-Signal-Remixes"
-    },
-    "date_verified": true
   },
   {
     "id": "25e0953e",
@@ -242009,6 +242618,38 @@
       "discogs": "https://www.discogs.com/release/36563836-Foesum-Perfection-"
     },
     "style_enriched": true
+  },
+  {
+    "id": "35405dc1",
+    "title": "Change My Future",
+    "artist": "Kumi Koda x Do As Infinity",
+    "album": "Change My Future",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-02-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36666040-Koda-Kumi-x-Do-As-Infinity-Change-My-Future",
+    "discogs_url": "https://www.discogs.com/release/36666040-Koda-Kumi-x-Do-As-Infinity-Change-My-Future",
+    "bpm": null,
+    "catalog_number": "",
+    "format": "Single",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "4fc1d17f",
@@ -251612,10 +252253,10 @@
     "bpm": null,
     "catalog_number": null,
     "format": "",
-    "quality_score": 30,
+    "quality_score": 37,
     "_score_breakdown": {
-      "total": 30,
-      "label": 8,
+      "total": 37,
+      "label": 15,
       "artist": 0,
       "genre": 20,
       "source": 2,
@@ -252060,6 +252701,38 @@
       "discogs": "https://www.discogs.com/release/36889819-Kazumi-Nikaido-Chou-Seki"
     },
     "style_enriched": true
+  },
+  {
+    "id": "9a95f8e6",
+    "title": "Cinderella",
+    "artist": "CiON",
+    "album": "Cinderella",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-01-21",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Breakbeat"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36764560-CiON-Cinderella",
+    "discogs_url": "https://www.discogs.com/release/36764560-CiON-Cinderella",
+    "bpm": null,
+    "catalog_number": "AVCD-61666",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "54d1836f",
@@ -258972,6 +259645,38 @@
     "date_verified": true
   },
   {
+    "id": "fbe1f83f",
+    "discogs_release_id": 36150838,
+    "title": "Bad Habit",
+    "artist": "Thomas Newson, Lovra",
+    "album": "Bad Habit",
+    "label": "The Myth Of Nyx",
+    "genre": "Tech House",
+    "duration": "4:48",
+    "date": "2026-01-09",
+    "re": false,
+    "styles": [
+      "Tech House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36150838-Thomas-Newson-Lovra-Bad-Habit",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36150838-Thomas-Newson-Lovra-Bad-Habit",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 20,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36150838-Thomas-Newson-Lovra-Bad-Habit"
+    },
+    "date_verified": true
+  },
+  {
     "id": "7d95cefc",
     "title": "Rise Again",
     "artist": "Jordi Cabrera",
@@ -259370,38 +260075,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/36146671-Benny-Benassi-Tobias-Gerard-Discoteka"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "fbe1f83f",
-    "discogs_release_id": 36150838,
-    "title": "Bad Habit",
-    "artist": "Thomas Newson, Lovra",
-    "album": "Bad Habit",
-    "label": "The Myth Of Nyx",
-    "genre": "Tech House",
-    "duration": "4:48",
-    "date": "2026-01-09",
-    "re": false,
-    "styles": [
-      "Tech House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36150838-Thomas-Newson-Lovra-Bad-Habit",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36150838-Thomas-Newson-Lovra-Bad-Habit",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36150838-Thomas-Newson-Lovra-Bad-Habit"
     },
     "date_verified": true
   },
@@ -261801,6 +262474,38 @@
     "date_verified": true
   },
   {
+    "id": "94380c72",
+    "discogs_release_id": 36105310,
+    "title": "5 Minutes",
+    "artist": "Don Diablo, Pink Sweat$",
+    "album": "5 Minutes",
+    "label": "HEXAGON (3)",
+    "genre": "House",
+    "duration": "4:09",
+    "date": "2026-01-02",
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36105310-Don-Diablo-Pink-Sweat-5-Minutes",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36105310-Don-Diablo-Pink-Sweat-5-Minutes",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36105310-Don-Diablo-Pink-Sweat-5-Minutes"
+    },
+    "date_verified": true
+  },
+  {
     "id": "92022619",
     "title": "Marimba",
     "artist": "RAMON BEDOYA",
@@ -261939,38 +262644,6 @@
       "traxsource": "https://www.traxsource.com/track/14140473/better-deeper-mix",
       "bandcamp": "https://freerangerecords.bandcamp.com/album/better"
     }
-  },
-  {
-    "id": "94380c72",
-    "discogs_release_id": 36105310,
-    "title": "5 Minutes",
-    "artist": "Don Diablo, Pink Sweat$",
-    "album": "5 Minutes",
-    "label": "HEXAGON (3)",
-    "genre": "House",
-    "duration": "4:09",
-    "date": "2026-01-02",
-    "re": false,
-    "styles": [
-      "House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36105310-Don-Diablo-Pink-Sweat-5-Minutes",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36105310-Don-Diablo-Pink-Sweat-5-Minutes",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36105310-Don-Diablo-Pink-Sweat-5-Minutes"
-    },
-    "date_verified": true
   },
   {
     "id": "af00e77c",
@@ -272886,6 +273559,38 @@
     "date_verified": true
   },
   {
+    "id": "933fd392",
+    "discogs_release_id": 36004216,
+    "title": "Sound Of Da Police",
+    "artist": "Don Diablo",
+    "album": "Sound Of Da Police",
+    "label": "HEXAGON (3)",
+    "genre": "Future House",
+    "duration": "3:34",
+    "date": "2025-12-12",
+    "re": false,
+    "styles": [
+      "Future House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36004216-Don-Diablo-Sound-Of-Da-Police",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36004216-Don-Diablo-Sound-Of-Da-Police",
+    "quality_score": 52,
+    "_score_breakdown": {
+      "total": 52,
+      "label": 15,
+      "artist": 20,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 4
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36004216-Don-Diablo-Sound-Of-Da-Police"
+    },
+    "date_verified": true
+  },
+  {
     "id": "bb6e1ebf",
     "title": "Tornado T1",
     "artist": "Foehn & Jerome",
@@ -273664,38 +274369,6 @@
       "bandcamp": "https://houndstoothlabel.bandcamp.com/album/ratios-iv"
     },
     "style_enriched": true
-  },
-  {
-    "id": "933fd392",
-    "discogs_release_id": 36004216,
-    "title": "Sound Of Da Police",
-    "artist": "Don Diablo",
-    "album": "Sound Of Da Police",
-    "label": "HEXAGON (3)",
-    "genre": "Future House",
-    "duration": "3:34",
-    "date": "2025-12-12",
-    "re": false,
-    "styles": [
-      "Future House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36004216-Don-Diablo-Sound-Of-Da-Police",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36004216-Don-Diablo-Sound-Of-Da-Police",
-    "quality_score": 45,
-    "_score_breakdown": {
-      "total": 45,
-      "label": 8,
-      "artist": 20,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 4
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36004216-Don-Diablo-Sound-Of-Da-Police"
-    },
-    "date_verified": true
   },
   {
     "id": "fe3abcbe",
@@ -276653,6 +277326,113 @@
     "style_enriched": true
   },
   {
+    "id": "b6b254d4",
+    "title": "LOVEppears",
+    "artist": "Ayumi Hamasaki",
+    "album": "LOVEppears",
+    "label": "Avex Trax",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2025-12-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Trance",
+      "Downtempo",
+      "J-pop",
+      "House"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35502790-Ayumi-Hamasaki-LOVEppears",
+    "discogs_url": "https://www.discogs.com/release/35502790-Ayumi-Hamasaki-LOVEppears",
+    "bpm": null,
+    "catalog_number": "AVJD-63769",
+    "format": "LP",
+    "quality_score": 58,
+    "_score_breakdown": {
+      "total": 58,
+      "label": 30,
+      "artist": 0,
+      "genre": 20,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "ecb92655",
+    "title": "I Am...",
+    "artist": "Ayumi Hamasaki",
+    "album": "I Am...",
+    "label": "Avex Trax",
+    "genre": "Breaks",
+    "duration": "",
+    "date": "2025-12-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop",
+      "J-Rock",
+      "Alternative Rock",
+      "Breaks",
+      "Trip Hop",
+      "Dance-pop",
+      "Ballad",
+      "Trance",
+      "Ambient"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35503057-Ayumi-Hamasaki-I-Am",
+    "discogs_url": "https://www.discogs.com/release/35503057-Ayumi-Hamasaki-I-Am",
+    "bpm": null,
+    "catalog_number": "AVJD-63773",
+    "format": "LP",
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "e93d5267",
+    "title": "A Song For XX",
+    "artist": "Ayumi Hamasaki",
+    "album": "A Song For XX",
+    "label": "Avex Trax",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-12-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop",
+      "Ballad",
+      "Pop Rock"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35502019-Ayumi-Hamasaki-A-Song-For-XX",
+    "discogs_url": "https://www.discogs.com/release/35502019-Ayumi-Hamasaki-A-Song-For-XX",
+    "bpm": null,
+    "catalog_number": "AVJD-63767",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 48,
+    "_score_breakdown": {
+      "total": 48,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "f8726bc0",
     "title": "Squaric - Texture [Remixes]",
     "artist": "Diffuse Reality Records",
@@ -276684,6 +277464,75 @@
       "bandcamp": "https://diffusereality.bandcamp.com/album/squaric-texture-remixes"
     },
     "style_enriched": true
+  },
+  {
+    "id": "2ab8f81e",
+    "title": "My Story",
+    "artist": "Ayumi Hamasaki",
+    "album": "My Story",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2025-12-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Soft Rock",
+      "Pop Rock",
+      "J-pop",
+      "Interview",
+      "Ballad"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35503294-Ayumi-Hamasaki-My-Story",
+    "discogs_url": "https://www.discogs.com/release/35503294-Ayumi-Hamasaki-My-Story",
+    "bpm": null,
+    "catalog_number": "AVJD-63777",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "b2054a2d",
+    "title": "Mimosa",
+    "artist": "Ayumi Hamasaki",
+    "album": "Mimosa",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2025-12-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Ballad",
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35503402-Ayumi-Hamasaki-Mimosa",
+    "discogs_url": "https://www.discogs.com/release/35503402-Ayumi-Hamasaki-Mimosa",
+    "bpm": null,
+    "catalog_number": "AVJD-61621",
+    "format": "Single",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "9bc2e953",
@@ -276860,6 +277709,72 @@
       "discogs": "https://www.discogs.com/release/35861923-江利チエミ-チエミのスタンダードアルバム-Chiemi-Sings-Standards"
     },
     "style_enriched": true
+  },
+  {
+    "id": "f1327e78",
+    "title": "Rainbow",
+    "artist": "Ayumi Hamasaki",
+    "album": "Rainbow",
+    "label": "Avex Trax",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2025-12-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Soft Rock",
+      "Pop Rock",
+      "Synth-pop",
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35503177-Ayumi-Hamasaki-Rainbow",
+    "discogs_url": "https://www.discogs.com/release/35503177-Ayumi-Hamasaki-Rainbow",
+    "bpm": null,
+    "catalog_number": "AVJD-63775",
+    "format": "LP",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 30,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "5f6f90c4",
+    "title": "Duty",
+    "artist": "Ayumi Hamasaki",
+    "album": "Duty",
+    "label": "Avex Trax",
+    "genre": "Synth Pop",
+    "duration": "",
+    "date": "2025-12-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Pop Rock",
+      "Synth-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35502928-Ayumi-Hamasaki-Duty",
+    "discogs_url": "https://www.discogs.com/release/35502928-Ayumi-Hamasaki-Duty",
+    "bpm": null,
+    "catalog_number": "AVJD-63771",
+    "format": "LP",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 30,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "20977f31",
@@ -278795,6 +279710,38 @@
     "date_verified": true
   },
   {
+    "id": "4d0bb1c0",
+    "discogs_release_id": 36057811,
+    "title": "Anthemic",
+    "artist": "Demuir",
+    "album": "Anthemic",
+    "label": "Purveyor Underground",
+    "genre": "House",
+    "duration": "",
+    "date": "2025-12-05",
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36057811-Demuir-Anthemic",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36057811-Demuir-Anthemic",
+    "quality_score": 53,
+    "_score_breakdown": {
+      "total": 53,
+      "label": 15,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36057811-Demuir-Anthemic"
+    },
+    "date_verified": true
+  },
+  {
     "id": "fe926690",
     "discogs_release_id": 35847886,
     "title": "Quayside Dub",
@@ -279265,38 +280212,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35908504-Loods-2-Gerd-Janson-In-Love-Again"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "4d0bb1c0",
-    "discogs_release_id": 36057811,
-    "title": "Anthemic",
-    "artist": "Demuir",
-    "album": "Anthemic",
-    "label": "Purveyor Underground",
-    "genre": "House",
-    "duration": "",
-    "date": "2025-12-05",
-    "re": false,
-    "styles": [
-      "House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36057811-Demuir-Anthemic",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36057811-Demuir-Anthemic",
-    "quality_score": 46,
-    "_score_breakdown": {
-      "total": 46,
-      "label": 8,
-      "artist": 20,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36057811-Demuir-Anthemic"
     },
     "date_verified": true
   },
@@ -280467,6 +281382,38 @@
     "date_verified": true
   },
   {
+    "id": "d1b03e9c",
+    "discogs_release_id": 35887054,
+    "title": "Medellin",
+    "artist": "Simon Fava, Yvvan Back, Tom Budin, Realismo Sucio",
+    "album": "Medellin",
+    "label": "The Myth Of Nyx",
+    "genre": "Tech House",
+    "duration": "4:41",
+    "date": "2025-12-05",
+    "re": false,
+    "styles": [
+      "Tech House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/35887054-Simon-Fava-Yvvan-Back-Tom-Budin-Feat-Realismo-Sucio-Medellin",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35887054-Simon-Fava-Yvvan-Back-Tom-Budin-Feat-Realismo-Sucio-Medellin",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 20,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35887054-Simon-Fava-Yvvan-Back-Tom-Budin-Feat-Realismo-Sucio-Medellin"
+    },
+    "date_verified": true
+  },
+  {
     "id": "d3c0a59a",
     "title": "More",
     "artist": "Danism, Train (UK), Toshi",
@@ -280763,38 +281710,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35881054-Talla-2XLC-Ronski-Speed-Falling-Deeply"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "d1b03e9c",
-    "discogs_release_id": 35887054,
-    "title": "Medellin",
-    "artist": "Simon Fava, Yvvan Back, Tom Budin, Realismo Sucio",
-    "album": "Medellin",
-    "label": "The Myth Of Nyx",
-    "genre": "Tech House",
-    "duration": "4:41",
-    "date": "2025-12-05",
-    "re": false,
-    "styles": [
-      "Tech House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/35887054-Simon-Fava-Yvvan-Back-Tom-Budin-Feat-Realismo-Sucio-Medellin",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/35887054-Simon-Fava-Yvvan-Back-Tom-Budin-Feat-Realismo-Sucio-Medellin",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/35887054-Simon-Fava-Yvvan-Back-Tom-Budin-Feat-Realismo-Sucio-Medellin"
     },
     "date_verified": true
   },
@@ -282238,6 +283153,39 @@
       "discogs": "https://www.discogs.com/release/35879998-Sonia-18-Im-Still-Waiting-Love-Dont-Live-Here-Anymore"
     },
     "style_enriched": true
+  },
+  {
+    "id": "29b03ea6",
+    "title": "Concert Tour ~The First Dining~",
+    "artist": "Changmin",
+    "album": "Concert Tour ~The First Dining~",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2025-12-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop",
+      "Ballad"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36057277-Changmin-From-東方神起-Concert-Tour-The-First-Dining",
+    "discogs_url": "https://www.discogs.com/release/36057277-Changmin-From-東方神起-Concert-Tour-The-First-Dining",
+    "bpm": null,
+    "catalog_number": "AVXK-43589",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "3ec21e58",
@@ -293242,6 +294190,38 @@
     "date_verified": true
   },
   {
+    "id": "bfb5443f",
+    "discogs_release_id": 35771611,
+    "title": "Enjoy The Silence (Don Diablo's Version)",
+    "artist": "Don Diablo, MONO|CHROME",
+    "album": "Enjoy The Silence (Don Diablo's Version)",
+    "label": "HEXAGON (3)",
+    "genre": "Progressive House",
+    "duration": "4:46",
+    "date": "2025-11-21",
+    "re": false,
+    "styles": [
+      "Progressive House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/35771611-Don-Diablo-MONOCHROME-Enjoy-The-Silence-Don-Diablos-Version",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35771611-Don-Diablo-MONOCHROME-Enjoy-The-Silence-Don-Diablos-Version",
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35771611-Don-Diablo-MONOCHROME-Enjoy-The-Silence-Don-Diablos-Version"
+    },
+    "date_verified": true
+  },
+  {
     "id": "e0b726c0",
     "discogs_release_id": 36010636,
     "title": "Dance To The Rhythm",
@@ -293340,38 +294320,6 @@
     "source_urls": {
       "traxsource": "https://www.traxsource.com/track/14098863/ground-zero-blaktonez-mix"
     }
-  },
-  {
-    "id": "bfb5443f",
-    "discogs_release_id": 35771611,
-    "title": "Enjoy The Silence (Don Diablo's Version)",
-    "artist": "Don Diablo, MONO|CHROME",
-    "album": "Enjoy The Silence (Don Diablo's Version)",
-    "label": "HEXAGON (3)",
-    "genre": "Progressive House",
-    "duration": "4:46",
-    "date": "2025-11-21",
-    "re": false,
-    "styles": [
-      "Progressive House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/35771611-Don-Diablo-MONOCHROME-Enjoy-The-Silence-Don-Diablos-Version",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/35771611-Don-Diablo-MONOCHROME-Enjoy-The-Silence-Don-Diablos-Version",
-    "quality_score": 21,
-    "_score_breakdown": {
-      "total": 21,
-      "label": 8,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/35771611-Don-Diablo-MONOCHROME-Enjoy-The-Silence-Don-Diablos-Version"
-    },
-    "date_verified": true
   },
   {
     "id": "f5f23202",
@@ -298411,6 +299359,38 @@
     "date_verified": true
   },
   {
+    "id": "1c03aa9f",
+    "discogs_release_id": 35762941,
+    "title": "Garage Guess",
+    "artist": "Miguel Bastida, Thomas Newson, Goux (3)",
+    "album": "Garage Guess",
+    "label": "The Myth Of Nyx",
+    "genre": "Tech House",
+    "duration": "5:28",
+    "date": "2025-11-14",
+    "re": false,
+    "styles": [
+      "Tech House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/35762941-Miguel-Bastida-Thomas-Newson-Feat-Goux-3-Garage-Guess",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35762941-Miguel-Bastida-Thomas-Newson-Feat-Goux-3-Garage-Guess",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 20,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35762941-Miguel-Bastida-Thomas-Newson-Feat-Goux-3-Garage-Guess"
+    },
+    "date_verified": true
+  },
+  {
     "id": "d681e623",
     "title": "Finally I (Zac Samuel Edit)",
     "artist": "Alex Roque & Marcelo Vak Featuring Leon McCormack",
@@ -298647,38 +299627,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35702587-Ruze-3-Chesster-Just-Be-Good"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "1c03aa9f",
-    "discogs_release_id": 35762941,
-    "title": "Garage Guess",
-    "artist": "Miguel Bastida, Thomas Newson, Goux (3)",
-    "album": "Garage Guess",
-    "label": "The Myth Of Nyx",
-    "genre": "Tech House",
-    "duration": "5:28",
-    "date": "2025-11-14",
-    "re": false,
-    "styles": [
-      "Tech House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/35762941-Miguel-Bastida-Thomas-Newson-Feat-Goux-3-Garage-Guess",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/35762941-Miguel-Bastida-Thomas-Newson-Feat-Goux-3-Garage-Guess",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/35762941-Miguel-Bastida-Thomas-Newson-Feat-Goux-3-Garage-Guess"
     },
     "date_verified": true
   },
@@ -302022,6 +302970,39 @@
     "date_verified": true
   },
   {
+    "id": "b9046f86",
+    "discogs_release_id": 35983303,
+    "title": "Champs Elysées Remixed",
+    "artist": "Bob Sinclar",
+    "album": "Champs Elysées Remixed",
+    "label": "Yellow Productions Recording",
+    "genre": "Progressive House",
+    "duration": "95:17",
+    "date": "2025-11-07",
+    "re": false,
+    "styles": [
+      "Progressive House",
+      "House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/35983303-Bob-Sinclar-Champs-Elysées-Remixed",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35983303-Bob-Sinclar-Champs-Elysées-Remixed",
+    "quality_score": 60,
+    "_score_breakdown": {
+      "total": 60,
+      "label": 20,
+      "artist": 20,
+      "genre": 8,
+      "source": 8,
+      "multi": 0,
+      "niche": 4
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35983303-Bob-Sinclar-Champs-Elysées-Remixed"
+    },
+    "date_verified": true
+  },
+  {
     "id": "d7a5d49a",
     "title": "Melancholia",
     "artist": "Riccardo De Polo",
@@ -302169,39 +303150,6 @@
       "bandcamp": "https://nervousrecords.bandcamp.com/album/celebrate-life"
     },
     "style_enriched": true
-  },
-  {
-    "id": "b9046f86",
-    "discogs_release_id": 35983303,
-    "title": "Champs Elysées Remixed",
-    "artist": "Bob Sinclar",
-    "album": "Champs Elysées Remixed",
-    "label": "Yellow Productions Recording",
-    "genre": "Progressive House",
-    "duration": "95:17",
-    "date": "2025-11-07",
-    "re": false,
-    "styles": [
-      "Progressive House",
-      "House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/35983303-Bob-Sinclar-Champs-Elysées-Remixed",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/35983303-Bob-Sinclar-Champs-Elysées-Remixed",
-    "quality_score": 55,
-    "_score_breakdown": {
-      "total": 55,
-      "label": 15,
-      "artist": 20,
-      "genre": 8,
-      "source": 8,
-      "multi": 0,
-      "niche": 4
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/35983303-Bob-Sinclar-Champs-Elysées-Remixed"
-    },
-    "date_verified": true
   },
   {
     "id": "40a70b32",
@@ -305251,6 +306199,38 @@
     }
   },
   {
+    "id": "8c712428",
+    "title": "Super Eurobeat 2025",
+    "artist": "Various",
+    "album": "Super Eurobeat 2025",
+    "label": "Avex Trax",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-11-05",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Eurobeat"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35566732-Various-Super-Eurobeat-2025",
+    "discogs_url": "https://www.discogs.com/release/35566732-Various-Super-Eurobeat-2025",
+    "bpm": null,
+    "catalog_number": "AVCD-63800",
+    "format": "Compilation",
+    "style_enriched": true,
+    "quality_score": 68,
+    "_score_breakdown": {
+      "total": 68,
+      "label": 30,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "1e0c52d4",
     "discogs_release_id": 35576308,
     "title": "El Tel Collection",
@@ -306541,6 +307521,39 @@
       "discogs": "https://www.discogs.com/release/35546674-Luomo-Imaginary-Track"
     },
     "date_verified": true
+  },
+  {
+    "id": "64f7ece9",
+    "title": "メリクリ",
+    "artist": "BoA",
+    "album": "メリクリ",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2025-11-01",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Ballad",
+      "Holiday"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35556046-BoA-メリクリ",
+    "discogs_url": "https://www.discogs.com/release/35556046-BoA-メリクリ",
+    "bpm": null,
+    "catalog_number": "AVJD-61594",
+    "format": "Single",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "d9679b97",
@@ -312099,6 +313112,38 @@
     "date_verified": true
   },
   {
+    "id": "951c69c9",
+    "title": "Persona (Standard Version)",
+    "artist": "유타",
+    "album": "Persona (Standard Version)",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2025-10-26",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-Rock"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35810203-Yuta-Persona-Standard-Version",
+    "discogs_url": "https://www.discogs.com/release/35810203-Yuta-Persona-Standard-Version",
+    "bpm": null,
+    "catalog_number": "AVCK-43573",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "7703cde6",
     "discogs_release_id": 35599036,
     "title": "We Came 2 Partay",
@@ -315715,10 +316760,10 @@
     "discogs_url": "https://www.discogs.com/release/35515195-Mark-Knight-Wolfgang-Gartner-Conscindo-Ginchy-Remix",
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/35515195-Mark-Knight-Wolfgang-Gartner-Conscindo-Ginchy-Remix",
-    "quality_score": 28,
+    "quality_score": 33,
     "_score_breakdown": {
-      "total": 28,
-      "label": 15,
+      "total": 33,
+      "label": 20,
       "artist": 0,
       "genre": 5,
       "source": 8,
@@ -321653,6 +322698,38 @@
     "style_enriched": true
   },
   {
+    "id": "7180a80b",
+    "title": "Collection",
+    "artist": "Maki Goto",
+    "album": "Collection",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2025-10-15",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-pop"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35427262-Maki-Goto-Collection",
+    "discogs_url": "https://www.discogs.com/release/35427262-Maki-Goto-Collection",
+    "bpm": null,
+    "catalog_number": "AVCD-63752",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "c3a29cca",
     "discogs_release_id": 35393563,
     "title": "EP One",
@@ -325639,6 +326716,38 @@
     "style_enriched": true
   },
   {
+    "id": "992735c9",
+    "discogs_release_id": 35439694,
+    "title": "No Signal",
+    "artist": "Don Diablo, Rown (3)",
+    "album": "No Signal",
+    "label": "HEXAGON (3)",
+    "genre": "Future House",
+    "duration": "4:01",
+    "date": "2025-10-10",
+    "re": false,
+    "styles": [
+      "Future House"
+    ],
+    "discogs_url": "https://www.discogs.com/release/35439694-Don-Diablo-Featuring-Rown-3-No-Signal",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35439694-Don-Diablo-Featuring-Rown-3-No-Signal",
+    "quality_score": 28,
+    "_score_breakdown": {
+      "total": 28,
+      "label": 15,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35439694-Don-Diablo-Featuring-Rown-3-No-Signal"
+    },
+    "date_verified": true
+  },
+  {
     "id": "f3732733",
     "discogs_release_id": 36347257,
     "title": "Chopped",
@@ -325897,38 +327006,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35421949-Deekline-Freq-Nasty-Feat-Killa-P-Dread-MC-Body-Rok"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "992735c9",
-    "discogs_release_id": 35439694,
-    "title": "No Signal",
-    "artist": "Don Diablo, Rown (3)",
-    "album": "No Signal",
-    "label": "HEXAGON (3)",
-    "genre": "Future House",
-    "duration": "4:01",
-    "date": "2025-10-10",
-    "re": false,
-    "styles": [
-      "Future House"
-    ],
-    "discogs_url": "https://www.discogs.com/release/35439694-Don-Diablo-Featuring-Rown-3-No-Signal",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/35439694-Don-Diablo-Featuring-Rown-3-No-Signal",
-    "quality_score": 21,
-    "_score_breakdown": {
-      "total": 21,
-      "label": 8,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/35439694-Don-Diablo-Featuring-Rown-3-No-Signal"
     },
     "date_verified": true
   },
@@ -335323,6 +336400,38 @@
     "date_verified": true
   },
   {
+    "id": "70de7909",
+    "discogs_release_id": 35273260,
+    "title": "Pray",
+    "artist": "Mary Droppinz, Princess Superstar, SHOSH",
+    "album": "Pray",
+    "label": "UKF Music",
+    "genre": "Dubstep",
+    "duration": "2:47",
+    "date": "2025-09-26",
+    "re": false,
+    "styles": [
+      "Dubstep"
+    ],
+    "discogs_url": "https://www.discogs.com/release/35273260-Mary-Droppinz-Princess-Superstar-SHOSH-Pray",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35273260-Mary-Droppinz-Princess-Superstar-SHOSH-Pray",
+    "quality_score": 23,
+    "_score_breakdown": {
+      "total": 23,
+      "label": 15,
+      "artist": 0,
+      "genre": 0,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35273260-Mary-Droppinz-Princess-Superstar-SHOSH-Pray"
+    },
+    "date_verified": true
+  },
+  {
     "id": "639fae01",
     "title": "Jazz Me",
     "artist": "Soul By Choice",
@@ -335523,38 +336632,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35288044-Lilly-Palmer-2-Techy-MF"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "70de7909",
-    "discogs_release_id": 35273260,
-    "title": "Pray",
-    "artist": "Mary Droppinz, Princess Superstar, SHOSH",
-    "album": "Pray",
-    "label": "UKF Music",
-    "genre": "Dubstep",
-    "duration": "2:47",
-    "date": "2025-09-26",
-    "re": false,
-    "styles": [
-      "Dubstep"
-    ],
-    "discogs_url": "https://www.discogs.com/release/35273260-Mary-Droppinz-Princess-Superstar-SHOSH-Pray",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/35273260-Mary-Droppinz-Princess-Superstar-SHOSH-Pray",
-    "quality_score": 16,
-    "_score_breakdown": {
-      "total": 16,
-      "label": 8,
-      "artist": 0,
-      "genre": 0,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/35273260-Mary-Droppinz-Princess-Superstar-SHOSH-Pray"
     },
     "date_verified": true
   },
@@ -340276,6 +341353,38 @@
     "date_verified": true
   },
   {
+    "id": "e90c088c",
+    "discogs_release_id": 36144832,
+    "title": "Silver Screen (Shower Scene) (Alexander Delanois Private Mix Extended)",
+    "artist": "Felix Da Housecat",
+    "album": "Silver Screen (Shower Scene) (Alexander Delanois Private Mix Extended)",
+    "label": "Founders Of Filth",
+    "genre": "Techno",
+    "duration": "4:39",
+    "date": "2025-09-12",
+    "re": false,
+    "styles": [
+      "Techno"
+    ],
+    "discogs_url": "https://www.discogs.com/release/36144832-Felix-Da-Housecat-Silver-Screen-Shower-Scene-Alexander-Delanois-Private-Mix-Extended",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/36144832-Felix-Da-Housecat-Silver-Screen-Shower-Scene-Alexander-Delanois-Private-Mix-Extended",
+    "quality_score": 58,
+    "_score_breakdown": {
+      "total": 58,
+      "label": 20,
+      "artist": 20,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/36144832-Felix-Da-Housecat-Silver-Screen-Shower-Scene-Alexander-Delanois-Private-Mix-Extended"
+    },
+    "date_verified": true
+  },
+  {
     "id": "f8ccd169",
     "discogs_release_id": 35164096,
     "title": "Lytherion",
@@ -340577,38 +341686,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35129753-Alexis-Cabrera-Sweely-Nonchalantly-Ep"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "e90c088c",
-    "discogs_release_id": 36144832,
-    "title": "Silver Screen (Shower Scene) (Alexander Delanois Private Mix Extended)",
-    "artist": "Felix Da Housecat",
-    "album": "Silver Screen (Shower Scene) (Alexander Delanois Private Mix Extended)",
-    "label": "Founders Of Filth",
-    "genre": "Techno",
-    "duration": "4:39",
-    "date": "2025-09-12",
-    "re": false,
-    "styles": [
-      "Techno"
-    ],
-    "discogs_url": "https://www.discogs.com/release/36144832-Felix-Da-Housecat-Silver-Screen-Shower-Scene-Alexander-Delanois-Private-Mix-Extended",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36144832-Felix-Da-Housecat-Silver-Screen-Shower-Scene-Alexander-Delanois-Private-Mix-Extended",
-    "quality_score": 53,
-    "_score_breakdown": {
-      "total": 53,
-      "label": 15,
-      "artist": 20,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/36144832-Felix-Da-Housecat-Silver-Screen-Shower-Scene-Alexander-Delanois-Private-Mix-Extended"
     },
     "date_verified": true
   },
@@ -344360,6 +345437,38 @@
     "date_verified": true
   },
   {
+    "id": "e8b322f1",
+    "discogs_release_id": 35029643,
+    "title": "Sound Vibrate",
+    "artist": "Rafael Cerato, Wave Wave",
+    "album": "Sound Vibrate",
+    "label": "1001 Recordings",
+    "genre": "Techno",
+    "duration": "6:05",
+    "date": "2025-09-05",
+    "re": false,
+    "styles": [
+      "Techno"
+    ],
+    "discogs_url": "https://www.discogs.com/release/35029643-Rafael-Cerato-Wave-Wave-Sound-Vibrate",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35029643-Rafael-Cerato-Wave-Wave-Sound-Vibrate",
+    "quality_score": 33,
+    "_score_breakdown": {
+      "total": 33,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35029643-Rafael-Cerato-Wave-Wave-Sound-Vibrate"
+    },
+    "date_verified": true
+  },
+  {
     "id": "be2cb9b5",
     "discogs_release_id": 35031806,
     "title": "When It Kicks",
@@ -344388,38 +345497,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/35031806-Layton-Giordani-Green-Velvet-When-It-Kicks"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "e8b322f1",
-    "discogs_release_id": 35029643,
-    "title": "Sound Vibrate",
-    "artist": "Rafael Cerato, Wave Wave",
-    "album": "Sound Vibrate",
-    "label": "1001 Recordings",
-    "genre": "Techno",
-    "duration": "6:05",
-    "date": "2025-09-05",
-    "re": false,
-    "styles": [
-      "Techno"
-    ],
-    "discogs_url": "https://www.discogs.com/release/35029643-Rafael-Cerato-Wave-Wave-Sound-Vibrate",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/35029643-Rafael-Cerato-Wave-Wave-Sound-Vibrate",
-    "quality_score": 26,
-    "_score_breakdown": {
-      "total": 26,
-      "label": 8,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/35029643-Rafael-Cerato-Wave-Wave-Sound-Vibrate"
     },
     "date_verified": true
   },
@@ -347433,6 +348510,40 @@
     "date_verified": true
   },
   {
+    "id": "9e8cca4a",
+    "discogs_release_id": 35972065,
+    "title": "Punkd",
+    "artist": "Felix Da Housecat, Christoph Trücher",
+    "album": "Punkd",
+    "label": "Founders Of Filth",
+    "genre": "Disco",
+    "duration": "4:09",
+    "date": "2025-08-29",
+    "re": false,
+    "styles": [
+      "House",
+      "Ghetto House",
+      "Disco"
+    ],
+    "discogs_url": "https://www.discogs.com/release/35972065-Felix-Da-Housecat-Chris-Trucher-Punkd",
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/35972065-Felix-Da-Housecat-Chris-Trucher-Punkd",
+    "quality_score": 38,
+    "_score_breakdown": {
+      "total": 38,
+      "label": 20,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/35972065-Felix-Da-Housecat-Chris-Trucher-Punkd"
+    },
+    "date_verified": true
+  },
+  {
     "id": "b294cdd3",
     "discogs_release_id": 34960151,
     "title": "Leave A Message",
@@ -347558,40 +348669,6 @@
     },
     "source_urls": {
       "discogs": "https://www.discogs.com/release/34974251-Jens-Lissat-Eyem-Are-Pokin"
-    },
-    "date_verified": true
-  },
-  {
-    "id": "9e8cca4a",
-    "discogs_release_id": 35972065,
-    "title": "Punkd",
-    "artist": "Felix Da Housecat, Christoph Trücher",
-    "album": "Punkd",
-    "label": "Founders Of Filth",
-    "genre": "Disco",
-    "duration": "4:09",
-    "date": "2025-08-29",
-    "re": false,
-    "styles": [
-      "House",
-      "Ghetto House",
-      "Disco"
-    ],
-    "discogs_url": "https://www.discogs.com/release/35972065-Felix-Da-Housecat-Chris-Trucher-Punkd",
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/35972065-Felix-Da-Housecat-Chris-Trucher-Punkd",
-    "quality_score": 33,
-    "_score_breakdown": {
-      "total": 33,
-      "label": 15,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "discogs": "https://www.discogs.com/release/35972065-Felix-Da-Housecat-Chris-Trucher-Punkd"
     },
     "date_verified": true
   },
