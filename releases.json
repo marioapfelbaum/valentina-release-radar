@@ -1481,6 +1481,42 @@
     }
   },
   {
+    "id": "ca6e510e",
+    "title": "Beats & Pieces II",
+    "artist": "Catching Flies",
+    "album": "Beats & Pieces II",
+    "label": "Indigo Soul",
+    "genre": "Downtempo",
+    "duration": "",
+    "date": "2026-04-11",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Chillwave",
+      "Downtempo",
+      "Trip Hop"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/catching-flies-beats-pieces-ii-vinyl/1132284-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "LP",
+    "discogs_year": 2026,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 20,
+      "artist": 0,
+      "genre": 20,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "1d8d76a2",
     "title": "Speicher 139",
     "artist": "Fantastic Twins",
@@ -1751,6 +1787,9 @@
       "source": 6,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/aphex-twin-cheetah-ep-vinyl/616459-01/"
     }
   },
   {
@@ -1948,6 +1987,36 @@
     },
     "source_urls": {
       "juno": "https://www.juno.co.uk/products/maribou-state-hallucinating-love-vinyl/1047474-01/"
+    }
+  },
+  {
+    "id": "4ff7dec5",
+    "title": "Rhythm of Your Heart feat. Leyah",
+    "artist": "Cristi Cons",
+    "album": "Rhythm of Your Heart feat. Leyah",
+    "label": "Nervous Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://nervousrecords.bandcamp.com/album/rhythm-of-your-heart-feat-leyah",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 80,
+    "_score_breakdown": {
+      "total": 80,
+      "label": 30,
+      "artist": 30,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 4
     }
   },
   {
@@ -2745,6 +2814,9 @@
       "source": 8,
       "multi": 0,
       "niche": 8
+    },
+    "source_urls": {
+      "phonica": "https://www.phonicarecords.com/product/view/210800"
     }
   },
   {
@@ -3013,6 +3085,37 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Mihai+Popoviciu"
+    }
+  },
+  {
+    "id": "30819076",
+    "title": "MUHAMMAD ALI - OLIVER LIEB REMIX",
+    "artist": "Faithless",
+    "album": "MUHAMMAD ALI - OLIVER LIEB REMIX",
+    "label": "Cheeky Records",
+    "genre": "Techno",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Techno"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Faithless",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "74321 89734 1",
+    "format": "",
+    "quality_score": 56,
+    "_score_breakdown": {
+      "total": 56,
+      "label": 20,
+      "artist": 20,
+      "genre": 10,
+      "source": 2,
+      "multi": 0,
+      "niche": 4
     }
   },
   {
@@ -3482,6 +3585,37 @@
     }
   },
   {
+    "id": "60836216",
+    "title": "ILLUSION OF TIME(LTD. ED.)(CLEAR BLUE LP+MP3)",
+    "artist": "Daniel Avery + Alessandro Cortini",
+    "album": "ILLUSION OF TIME(LTD. ED.)(CLEAR BLUE LP+MP3)",
+    "label": "PIAS - Phantasy",
+    "genre": "Electro",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Electro"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Daniel+Avery+%2B+Alessandro+Cortini",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "PHLP12L",
+    "format": "",
+    "quality_score": 52,
+    "_score_breakdown": {
+      "total": 52,
+      "label": 0,
+      "artist": 30,
+      "genre": 20,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "43348b0f",
     "title": "Forever Ends Someday",
     "artist": "Wesley Joseph",
@@ -3680,6 +3814,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/esa-williams-dala-what-we-must-vinyl/1130585-01/"
     }
   },
   {
@@ -4976,6 +5113,129 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "bandcamp": "https://playedbywav.bandcamp.com/album/unknown-artist-entry-10-soft-evidences-soft10"
+    }
+  },
+  {
+    "id": "a1a092c3",
+    "title": "La Chingada feat FatBoi",
+    "artist": "The Angels",
+    "album": "La Chingada feat FatBoi",
+    "label": "Nervous Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://nervousrecords.bandcamp.com/track/la-chingada-feat-fatboi",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "d065d3ab",
+    "title": "Nice + Slow",
+    "artist": "Lamsi & Saidah",
+    "album": "Nice + Slow",
+    "label": "Nervous Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://nervousrecords.bandcamp.com/album/nice-slow",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "64ed0262",
+    "title": "Passion",
+    "artist": "TeeDee",
+    "album": "Passion",
+    "label": "Nervous Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://nervousrecords.bandcamp.com/album/passion",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "d05bc623",
+    "title": "Real Love",
+    "artist": "Marco Lys, Lovely Laura, Ben Santiago",
+    "album": "Real Love",
+    "label": "Nervous Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://nervousrecords.bandcamp.com/album/real-love",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -5222,6 +5482,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "phonica": "https://www.phonicarecords.com/product/view/210791"
     }
   },
   {
@@ -8789,6 +9052,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/federfunk-trinseo-andrew-macari-gangsta-boogie-vol-1-vinyl/1148306-01/"
     }
   },
   {
@@ -8824,6 +9090,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/mundy-silhouette-01-vinyl/1149205-01/"
     }
   },
   {
@@ -8855,6 +9124,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/vitus-silhouette-02-vinyl/1149210-01/"
     }
   },
   {
@@ -8893,6 +9165,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/wiseguys-big-beats-vol-2-vinyl/1143532-01/"
     }
   },
   {
@@ -8925,6 +9200,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/ai-ichikawa-sensitivity-vinyl/1127164-01/"
     }
   },
   {
@@ -8956,6 +9234,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/tzii-matt-fraktal-the-pinocchio-project-concept-album-vinyl/1144823-01/"
     }
   },
   {
@@ -11042,6 +11323,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item82719.html"
     }
   },
   {
@@ -11500,6 +11784,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/37029933-Alf-Cranner-Både-Le-Og-Gråte"
     }
   },
   {
@@ -11605,6 +11892,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Jerome+Sydenham%2C+Fatima+Njai%2C+Kyle+Hall"
     }
   },
   {
@@ -11626,6 +11916,40 @@
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "Nrol00",
+    "format": "",
+    "quality_score": 12,
+    "_score_breakdown": {
+      "total": 12,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Unknown+Artist"
+    }
+  },
+  {
+    "id": "ee74a6d2",
+    "title": "HIDEAWAY",
+    "artist": "De lacy",
+    "album": "HIDEAWAY",
+    "label": "Easy Street",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "House"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=De+lacy",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "ESR26321",
     "format": "",
     "quality_score": 12,
     "_score_breakdown": {
@@ -12465,6 +12789,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Nautilus"
     }
   },
   {
@@ -12497,6 +12824,9 @@
       "source": 2,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Eki+Shola"
     }
   },
   {
@@ -12518,6 +12848,41 @@
     "discogs_url": "",
     "bpm": null,
     "catalog_number": "OD00945",
+    "format": "",
+    "style_enriched": true,
+    "quality_score": 7,
+    "_score_breakdown": {
+      "total": 7,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    },
+    "source_urls": {
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Lisa+Decker+%26+Saturnvybz+%26+Nautilus"
+    }
+  },
+  {
+    "id": "75c824fc",
+    "title": "MARC HYPE / JIM DUNLO OP(GREEN 7 INCH)",
+    "artist": "Dusty Donuts - Vol 23",
+    "album": "MARC HYPE / JIM DUNLO OP(GREEN 7 INCH)",
+    "label": "Dusty Donuts",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Hip-hop"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Dusty+Donuts+-+Vol+23",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "DD023G",
     "format": "",
     "style_enriched": true,
     "quality_score": 7,
@@ -12818,6 +13183,9 @@
       "source": 6,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/dj-furax-furax-the-final-act-30-years-cd/1149535-01/"
     }
   },
   {
@@ -152527,6 +152895,46 @@
     "style_enriched": true
   },
   {
+    "id": "07285781",
+    "title": "Vol 6 (7\")",
+    "artist": "Hace Calor",
+    "album": "Vol 6 (7\")",
+    "label": "Hace Calor",
+    "genre": "House",
+    "duration": "",
+    "date": "2026-03-20",
+    "re": false,
+    "styles": [
+      "Reggaeton",
+      "Hip-hop"
+    ],
+    "source": "deejay",
+    "source_url": "https://www.deejay.de/Hace_Calor_Vol_6_7_HC-006_Vinyl__1218521",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "HC-006",
+    "format": "Single",
+    "quality_score": 39,
+    "_score_breakdown": {
+      "total": 39,
+      "label": 15,
+      "artist": 0,
+      "genre": 10,
+      "source": 8,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "deejay": "https://www.deejay.de/Hace_Calor_Vol_6_7_HC-006_Vinyl__1218521",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Hace+Calor+Vol+6"
+    },
+    "date_verified": false,
+    "discogs_year": 2015,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true
+  },
+  {
     "id": "571ededa",
     "title": "On the One / You Give Me Something (7\")",
     "artist": "Mo’funk",
@@ -154012,44 +154420,6 @@
       "boomkat": "https://boomkat.com/products/what-if-we-align-our-breath"
     },
     "date_verified": false,
-    "discogs_year_checked": true,
-    "style_enriched": true
-  },
-  {
-    "id": "07285781",
-    "title": "Vol 6 (7\")",
-    "artist": "Hace Calor",
-    "album": "Vol 6 (7\")",
-    "label": "Hace Calor",
-    "genre": "House",
-    "duration": "",
-    "date": "2026-03-20",
-    "re": false,
-    "styles": [
-      "Reggaeton"
-    ],
-    "source": "deejay",
-    "source_url": "https://www.deejay.de/Hace_Calor_Vol_6_7_HC-006_Vinyl__1218521",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": "HC-006",
-    "format": "Single",
-    "quality_score": 33,
-    "_score_breakdown": {
-      "total": 33,
-      "label": 15,
-      "artist": 0,
-      "genre": 10,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "deejay": "https://www.deejay.de/Hace_Calor_Vol_6_7_HC-006_Vinyl__1218521"
-    },
-    "date_verified": false,
-    "discogs_year": 2015,
-    "is_restock": true,
     "discogs_year_checked": true,
     "style_enriched": true
   },
@@ -172527,7 +172897,8 @@
     "source_urls": {
       "rushhour": "https://www.rushhour.nl/record/vinyl/bubble-baths-giants",
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Carlos+Nino+%26+Friends",
-      "bandcamp_daily": "https://carlosnino.bandcamp.com/album/bubble-bath-for-giants"
+      "bandcamp_daily": "https://carlosnino.bandcamp.com/album/bubble-bath-for-giants",
+      "juno": "https://www.juno.co.uk/products/carlos-nino-friends-bubble-baths-for-giants-vinyl/1146291-01/"
     },
     "date_verified": false,
     "discogs_year_checked": true
