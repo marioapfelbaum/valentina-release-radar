@@ -3294,6 +3294,41 @@
     }
   },
   {
+    "id": "2d8d9224",
+    "title": "Moxy Edits 001",
+    "artist": "Myedits",
+    "album": "Moxy Edits 001",
+    "label": "Myedits",
+    "genre": "Tech House",
+    "duration": "",
+    "date": "2026-04-11",
+    "date_verified": false,
+    "re": false,
+    "styles": [
+      "Tech House"
+    ],
+    "source": "juno",
+    "source_url": "https://www.juno.co.uk/products/myedits-moxy-edits-001-vinyl/762760-01/",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "discogs_year": 2020,
+    "is_restock": true,
+    "discogs_year_checked": true,
+    "style_enriched": true,
+    "quality_score": 16,
+    "_score_breakdown": {
+      "total": 16,
+      "label": 0,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "1d8d76a2",
     "title": "Speicher 139",
     "artist": "Fantastic Twins",
@@ -264171,6 +264206,74 @@
       "bandcamp": "https://kdbrecords.bandcamp.com/album/je-vous-envercifelle-lp-kdb016lp"
     },
     "style_enriched": true
+  },
+  {
+    "id": "51f661a4",
+    "title": "Pipe Dream",
+    "artist": "ASP",
+    "album": "Pipe Dream",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-01-14",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-Rock",
+      "J-pop",
+      "Chanson"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/37039359-ASP-19-Pipe-Dream",
+    "discogs_url": "https://www.discogs.com/release/37039359-ASP-19-Pipe-Dream",
+    "bpm": null,
+    "catalog_number": "AVCD-61641",
+    "format": "Single",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "cedd8852",
+    "title": "Pipe Dream",
+    "artist": "ASP",
+    "album": "Pipe Dream",
+    "label": "Avex Trax",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-01-14",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "J-Rock",
+      "J-pop",
+      "Chanson"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/37039389-ASP-19-Pipe-Dream",
+    "discogs_url": "https://www.discogs.com/release/37039389-ASP-19-Pipe-Dream",
+    "bpm": null,
+    "catalog_number": "AVCD-61640/B",
+    "format": "Single",
+    "style_enriched": true,
+    "quality_score": 43,
+    "_score_breakdown": {
+      "total": 43,
+      "label": 30,
+      "artist": 0,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "282e1cea",
