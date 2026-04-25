@@ -127,6 +127,95 @@ const ALL_SHOPS = [
 
 // Cache checked results globally so we don't re-check
 const _linkCache = {};
+// Cache YouTube-search results so wir nicht bei jedem Re-Render erneut suchen
+const _ytCache = {};
+
+// --- INLINE PLAYER ---
+// Spielt Spotify-Embed wenn moeglich, sonst YouTube-Embed (Suche via Piped API).
+// Toggle-Button im Release-Card oeffnet/schliesst diesen Player inline.
+function InlinePlayer({t, onClose}) {
+  const [ytId, setYtId] = useState(_ytCache[`${t.artist}|${t.title}`] || null);
+  const [searching, setSearching] = useState(false);
+
+  // Spotify-Album-ID aus source_url extrahieren (Format: https://open.spotify.com/album/<ID>)
+  const spotifyId = useMemo(() => {
+    const url = (t.source_urls && t.source_urls.spotify) || (t.source === "spotify" && t.source_url) || "";
+    const m = url.match(/spotify\.com\/album\/([a-zA-Z0-9]+)/);
+    return m ? m[1] : null;
+  }, [t]);
+
+  // Bandcamp-URL erkennen — das Embed braucht zwar eine Album-ID die wir nicht haben,
+  // aber wir koennen die Source-Page in einem iframe laden, der den Bandcamp-Player anzeigt.
+  // Faellt zurueck auf YouTube wenn Bandcamp Frame-Embedding blockt (X-Frame-Options).
+  const bandcampUrl = useMemo(() => {
+    if (t.source === "bandcamp" && t.source_url) return t.source_url;
+    if (t.source_urls && t.source_urls.bandcamp) return t.source_urls.bandcamp;
+    return null;
+  }, [t]);
+
+  // YouTube-Suche nur wenn weder Spotify noch Bandcamp und noch nicht gecacht
+  useEffect(() => {
+    if (spotifyId) return;
+    const cacheKey = `${t.artist}|${t.title}`;
+    if (_ytCache[cacheKey]) { setYtId(_ytCache[cacheKey]); return; }
+    let cancelled = false;
+    setSearching(true);
+    (async () => {
+      const instances = ['https://pipedapi.kavin.rocks','https://pipedapi.adminforge.de','https://api.piped.yt'];
+      for (const base of instances) {
+        try {
+          const resp = await fetch(`${base}/search?q=${encodeURIComponent(t.artist + ' ' + t.title)}&filter=videos`);
+          if (!resp.ok) continue;
+          const data = await resp.json();
+          const items = data.items || data;
+          if (items && items.length > 0) {
+            const url = items[0].url || '';
+            const match = url.match(/[?&]v=([^&]+)/) || url.match(/\/([^/]+)$/);
+            if (match) {
+              const id = match[1];
+              _ytCache[cacheKey] = id;
+              if (!cancelled) { setYtId(id); setSearching(false); }
+              return;
+            }
+          }
+        } catch {}
+      }
+      if (!cancelled) setSearching(false);
+    })();
+    return () => { cancelled = true; };
+  }, [t.id, t.artist, t.title, spotifyId]);
+
+  return (
+    <div style={{padding:"12px 0 14px 124px",borderTop:"1px solid rgba(255,255,255,0.08)",background:"rgba(0,0,0,0.18)"}}
+      onClick={e => e.stopPropagation()}>
+      <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"8px",paddingRight:"20px"}}>
+        <span style={{fontFamily:F,fontWeight:700,fontSize:"13px",color:C.ghost,letterSpacing:"0.08em",textTransform:"uppercase"}}>
+          {spotifyId ? "▶ SPOTIFY" : ytId ? "▶ YOUTUBE" : searching ? "↻ SUCHE..." : "⚠ KEIN PLAYER"}
+        </span>
+        <span onClick={onClose} style={{cursor:"pointer",color:C.ghost,fontSize:"22px",padding:"0 6px",userSelect:"none"}} title="Player schliessen">×</span>
+      </div>
+      {spotifyId && (
+        <iframe style={{borderRadius:"4px",border:"none",width:"100%",maxWidth:"720px",height:"152px"}}
+          src={`https://open.spotify.com/embed/album/${spotifyId}?utm_source=valentina`}
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"/>
+      )}
+      {!spotifyId && ytId && (
+        <iframe style={{borderRadius:"4px",border:"none",width:"100%",maxWidth:"640px",height:"360px"}}
+          src={`https://www.youtube.com/embed/${ytId}?autoplay=1`}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen/>
+      )}
+      {!spotifyId && !ytId && !searching && (
+        <div style={{fontFamily:F,fontSize:"14px",color:C.ghost,padding:"8px 0"}}>
+          Kein Audio-Player gefunden. Versuche{" "}
+          <a href={`https://www.youtube.com/results?search_query=${encodeURIComponent(t.artist+' '+t.title)}`} target="_blank" rel="noopener noreferrer" style={{color:"rgba(255,80,80,0.9)"}}>YouTube Suche</a>
+          {" "}oder{" "}
+          {bandcampUrl && <a href={bandcampUrl} target="_blank" rel="noopener noreferrer" style={{color:"rgba(99,210,218,0.9)"}}>Bandcamp ↗</a>}
+        </div>
+      )}
+    </div>
+  );
+}
 
 function LinkPanel({t, q, mobile}) {
   const [status, setStatus] = useState({}); // {name: true|false|"checking"}
@@ -266,7 +355,7 @@ function LinkPanel({t, q, mobile}) {
 }
 
 // --- ROW ---
-function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, toggleExpand, mobile}) {
+function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, toggleExpand, playing, togglePlay, mobile}) {
   const [h, setH] = useState(false);
   const [copiedField, setCopiedField] = useState(null); // "title"|"artist"|null
   const q = encodeURIComponent(`${t.artist} ${t.title}`);
@@ -324,6 +413,10 @@ function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, to
               overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>— {t.label}</span>}
             <span style={{flex:1}}/>
             <div style={{display:"flex",gap:"2px",alignItems:"center",flexShrink:0}} onClick={e=>e.stopPropagation()}>
+              <button className="copy-btn" onClick={() => togglePlay(t.id)} title={playing?"Player schliessen":"Reinhoeren"}
+                style={{background:playing?"rgba(110,207,138,0.25)":"transparent",border:"none",padding:"2px 5px",cursor:"pointer",fontSize:"15px",color:playing?"#6ecf8a":C.ghost,fontWeight:700}}>
+                {playing ? "■" : "▶"}
+              </button>
               <button className="copy-btn" onClick={() => toggleFav(t.id)}
                 style={{background:"transparent",border:"none",padding:"2px 4px",cursor:"pointer",fontSize:"16px",color:fav?C.orange:C.ghost}}>
                 {fav ? "★" : "☆"}
@@ -339,6 +432,7 @@ function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, to
           </div>
         </div>
         {expanded && <LinkPanel t={t} q={q} mobile={true}/>}
+        {playing && <InlinePlayer t={t} onClose={() => togglePlay(t.id)}/>}
       </div>
     );
   }
@@ -370,8 +464,13 @@ function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, to
           </div>
         </div>
 
-        {/* ACTIONS + YT — fav, hide, youtube at front */}
-        <div style={{display:"flex",gap:"4px",flexShrink:0,alignItems:"center",width:"100px"}} onClick={e=>e.stopPropagation()}>
+        {/* ACTIONS + YT — play, fav, hide, youtube at front */}
+        <div style={{display:"flex",gap:"4px",flexShrink:0,alignItems:"center",width:"130px"}} onClick={e=>e.stopPropagation()}>
+          <button className="copy-btn" onClick={() => togglePlay(t.id)} title={playing?"Player schliessen":"Reinhoeren (Spotify/YouTube)"}
+            style={{background:playing?"rgba(110,207,138,0.25)":"transparent",border:"none",padding:"3px 7px",cursor:"pointer",
+              fontSize:"18px",color:playing?"#6ecf8a":C.ghost,fontWeight:700,transition:"all 0.15s"}}>
+            {playing ? "■" : "▶"}
+          </button>
           <button className="copy-btn" onClick={() => toggleFav(t.id)} title={fav?"Aus Favoriten entfernen":"Favorit"}
             style={{background:fav?"rgba(212,145,94,0.3)":"transparent",border:"none",padding:"3px 6px",cursor:"pointer",
               fontSize:"20px",color:fav?C.orange:C.ghost,transition:"all 0.15s"}}>
@@ -432,6 +531,8 @@ function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, to
 
       {/* EXPANDED PANEL — buy links + source info */}
       {expanded && <LinkPanel t={t} q={q}/>}
+      {/* INLINE PLAYER — Spotify embed or YouTube fallback */}
+      {playing && <InlinePlayer t={t} onClose={() => togglePlay(t.id)}/>}
     </div>
   );
 }
@@ -682,6 +783,12 @@ function App() {
     setExpandedIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); return n; });
   }, []);
 
+  // Inline-Player: nur EIN Release spielt gleichzeitig (single-player UX)
+  const [playingId, setPlayingId] = useState(null);
+  const togglePlay = useCallback(id => {
+    setPlayingId(p => p === id ? null : id);
+  }, []);
+
   const myGenresSet = useMemo(() => new Set(myGenres.map(g => g.toLowerCase())), [myGenres]);
   // BlackTape Tag-Filter: zerlege comma-separierten String in Token-Array
   const tagTokens = useMemo(() => tagFilter
@@ -886,7 +993,9 @@ function App() {
               filtered.map(t => <Row key={t.id} t={t} heard={heardIds.has(t.id)} toggle={toggle}
                 fav={favIds.has(t.id)} toggleFav={toggleFav}
                 hidden={hiddenIds.has(t.id)} toggleHide={toggleHide}
-                expanded={expandedIds.has(t.id)} toggleExpand={toggleExpand} mobile={mobile}/>)
+                expanded={expandedIds.has(t.id)} toggleExpand={toggleExpand}
+                playing={playingId === t.id} togglePlay={togglePlay}
+                mobile={mobile}/>)
             )}
           </div>
 
