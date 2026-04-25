@@ -131,6 +131,8 @@ const _linkCache = {};
 const _ytCache = {};
 // Cache Bandcamp resolve results (album-IDs sind stabil)
 const _bcCache = {};
+// Cache SoundCloud results
+const _scCache = {};
 
 // --- INLINE PLAYER ---
 // Player-Priority gemaess User-Wunsch ("Player muss von der Source-Seite kommen"):
@@ -156,26 +158,30 @@ function InlinePlayer({t, onClose}) {
     return m ? m[1] : null;
   }, [t]);
 
-  // Bandcamp Lookup: bei bekannter URL direkt resolve, sonst Search.
-  // Search kostet einen extra Request, ist aber der Hauptmehrwert: viele Releases von
-  // Hardwax/Redeye/Clone/Phonica/etc. sind auch auf Bandcamp, nur ohne URL im Datensatz.
+  // Bandcamp Lookup: erst URL-Resolve, bei Fehler (404 / falsches Label) auf Search fallen.
+  // Beispiel "Blaze / 20 20 Vision Remixes": Datensatz hat slipnslide.bandcamp.com (falsch),
+  // korrekt ist b-l-a-z-e.bandcamp.com — Search findet die richtige URL.
   useEffect(() => {
     if (_bcCache[t.id] !== undefined) { setBcResolved(_bcCache[t.id]); return; }
     let cancelled = false;
     setResolvingBc(true);
     (async () => {
+      const q = encodeURIComponent(`${t.artist} ${t.title}`);
+      const labelParam = t.label ? `&label=${encodeURIComponent(t.label)}` : '';
+      const searchUrl = `/api/bandcamp-search?q=${q}${labelParam}`;
       try {
-        let resp;
+        let data = null;
+        // Schritt 1: Bei bekannter URL erst Resolve versuchen
         if (bandcampUrl) {
-          resp = await fetch(`/api/bandcamp-resolve?url=${encodeURIComponent(bandcampUrl)}`);
-        } else {
-          // Kein Bandcamp-URL bekannt — versuche Search-Fallback (z.B. fuer Hardwax/Redeye)
-          const q = encodeURIComponent(`${t.artist} ${t.title}`);
-          const labelParam = t.label ? `&label=${encodeURIComponent(t.label)}` : '';
-          resp = await fetch(`/api/bandcamp-search?q=${q}${labelParam}`);
+          const r = await fetch(`/api/bandcamp-resolve?url=${encodeURIComponent(bandcampUrl)}`);
+          if (r.ok) data = await r.json();
         }
-        if (resp.ok) {
-          const data = await resp.json();
+        // Schritt 2: Wenn Resolve nichts brachte (URL falsch/veraltet) → Search-Fallback
+        if (!data || (!data.album_id && !data.track_id)) {
+          const r = await fetch(searchUrl);
+          if (r.ok) data = await r.json();
+        }
+        if (data && (data.album_id || data.track_id)) {
           _bcCache[t.id] = data;
           if (!cancelled) { setBcResolved(data); setResolvingBc(false); }
         } else {
@@ -190,9 +196,42 @@ function InlinePlayer({t, onClose}) {
     return () => { cancelled = true; };
   }, [t.id, bandcampUrl, t.artist, t.title, t.label]);
 
-  // YouTube-Suche nur als letzter Fallback (kein Bandcamp, kein Spotify)
+  // SoundCloud-Lookup nur wenn Bandcamp gescheitert UND kein Spotify (3rd Fallback)
+  const [scResolved, setScResolved] = useState(_scCache[t.id] !== undefined ? _scCache[t.id] : null);
+  const [resolvingSc, setResolvingSc] = useState(false);
+  const tryScNow = bcResolved === "failed" && !spotifyId;
+  useEffect(() => {
+    if (!tryScNow) return;
+    if (_scCache[t.id] !== undefined) { setScResolved(_scCache[t.id]); return; }
+    let cancelled = false;
+    setResolvingSc(true);
+    (async () => {
+      try {
+        const q = encodeURIComponent(`${t.artist} ${t.title}`);
+        const r = await fetch(`/api/soundcloud-search?q=${q}`);
+        if (r.ok) {
+          const data = await r.json();
+          _scCache[t.id] = data;
+          if (!cancelled) { setScResolved(data); setResolvingSc(false); }
+        } else {
+          _scCache[t.id] = "failed";
+          if (!cancelled) { setScResolved("failed"); setResolvingSc(false); }
+        }
+      } catch {
+        _scCache[t.id] = "failed";
+        if (!cancelled) { setScResolved("failed"); setResolvingSc(false); }
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [t.id, t.artist, t.title, tryScNow]);
+
+  // Player-Hierarchie: Bandcamp > Spotify > SoundCloud > YouTube (allerletzter Fallback)
   const bcOk = bcResolved && bcResolved !== "failed" && (bcResolved.album_id || bcResolved.track_id);
-  const needsYoutube = !bcOk && !resolvingBc && !spotifyId;
+  const scOk = scResolved && scResolved !== "failed" && scResolved.embed_url;
+  const bcDone = !resolvingBc && bcResolved !== null;
+  const scDone = !resolvingSc && scResolved !== null;
+  // YouTube nur wenn Bandcamp+SoundCloud beide fertig probiert UND nichts gefunden UND kein Spotify
+  const needsYoutube = bcDone && !bcOk && !spotifyId && scDone && !scOk;
   useEffect(() => {
     if (!needsYoutube) return;
     const cacheKey = `${t.artist}|${t.title}`;
@@ -229,12 +268,15 @@ function InlinePlayer({t, onClose}) {
     ? `https://bandcamp.com/EmbeddedPlayer/${bcResolved.album_id ? "album=" + bcResolved.album_id : "track=" + bcResolved.track_id}/size=large/bgcol=181a1b/linkcol=d4915e/tracklist=true/artwork=small/transparent=true/`
     : null;
 
-  const label = bcOk ? "▶ BANDCAMP"
-    : resolvingBc ? "↻ BANDCAMP..."
+  const label = resolvingBc ? "↻ BANDCAMP-SUCHE..."
+    : bcOk ? "▶ BANDCAMP"
     : spotifyId ? "▶ SPOTIFY"
-    : ytId ? "▶ YOUTUBE (Fallback)"
+    : resolvingSc ? "↻ SOUNDCLOUD-SUCHE..."
+    : scOk ? "▶ SOUNDCLOUD"
     : searchingYt ? "↻ YOUTUBE-SUCHE..."
-    : "⚠ KEIN PLAYER";
+    : ytId ? "▶ YOUTUBE (letzter Fallback)"
+    : (bcDone && scDone && !needsYoutube) ? "⚠ KEIN PLAYER"
+    : "↻ SUCHE...";
 
   return (
     <div style={{padding:"12px 0 14px 124px",borderTop:"1px solid rgba(255,255,255,0.08)",background:"rgba(0,0,0,0.18)"}}
@@ -255,18 +297,25 @@ function InlinePlayer({t, onClose}) {
           src={`https://open.spotify.com/embed/album/${spotifyId}?utm_source=valentina`}
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"/>
       )}
-      {!bcOk && !resolvingBc && !spotifyId && ytId && (
+      {!bcOk && !resolvingBc && !spotifyId && scOk && (
+        <iframe style={{borderRadius:"4px",border:"none",width:"100%",maxWidth:"720px",height:"166px"}}
+          src={scResolved.embed_url}
+          allow="autoplay" loading="lazy"/>
+      )}
+      {needsYoutube && ytId && (
         <iframe style={{borderRadius:"4px",border:"none",width:"100%",maxWidth:"640px",height:"360px"}}
           src={`https://www.youtube.com/embed/${ytId}?autoplay=1`}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen/>
       )}
-      {!bcOk && !resolvingBc && !spotifyId && !ytId && !searchingYt && (
+      {needsYoutube && !ytId && !searchingYt && (
         <div style={{fontFamily:F,fontSize:"14px",color:C.ghost,padding:"8px 0"}}>
           Kein Audio-Player gefunden. Versuche{" "}
           <a href={`https://www.youtube.com/results?search_query=${encodeURIComponent(t.artist+' '+t.title)}`} target="_blank" rel="noopener noreferrer" style={{color:"rgba(255,80,80,0.9)"}}>YouTube Suche</a>
-          {bandcampUrl && <> oder <a href={bandcampUrl} target="_blank" rel="noopener noreferrer" style={{color:"rgba(99,210,218,0.9)"}}>Bandcamp ↗</a></>}
-          {t.source_url && <> oder <a href={t.source_url} target="_blank" rel="noopener noreferrer" style={{color:C.soft}}>{t.source} ↗</a></>}
+          {", "}
+          <a href={`https://www.google.com/search?q=${encodeURIComponent(t.artist+' '+t.title+' player')}`} target="_blank" rel="noopener noreferrer" style={{color:C.soft}}>Google</a>
+          {bandcampUrl && <>, <a href={bandcampUrl} target="_blank" rel="noopener noreferrer" style={{color:"rgba(99,210,218,0.9)"}}>Bandcamp ↗</a></>}
+          {t.source_url && <>, <a href={t.source_url} target="_blank" rel="noopener noreferrer" style={{color:C.soft}}>{t.source} ↗</a></>}
         </div>
       )}
     </div>
