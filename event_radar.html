@@ -718,15 +718,10 @@ function App() {
 
   // Load network artists
   useEffect(() => {
-    fetch("network_data.json?t=" + Date.now())
-      .then(r => r.ok ? r.json() : {})
-      .then(data => {
-        const arts = new Set();
-        if (data.artists) {
-          for (const v of Object.values(data.artists)) {
-            if (v.name) arts.add(v.name.toLowerCase());
-          }
-        }
+    fetch("network_artists.json?t=" + Date.now())
+      .then(r => r.ok ? r.json() : [])
+      .then(names => {
+        const arts = new Set(Array.isArray(names) ? names.map(n => n.toLowerCase()) : []);
         setNetworkArtists(arts);
       })
       .catch(() => {});

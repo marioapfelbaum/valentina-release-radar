@@ -50,8 +50,10 @@ fi
 # Fetch specified sources
 python3 fetch_multi.py --sources "$SOURCES" >> "$LOGFILE" 2>&1
 
-# Also add network_data.json if spotify resolved new IDs
-git add releases.json last_checked.json bandcamp_labels.json network_data.json 2>/dev/null
+# Generate slim artist index for frontend (network_data.json itself is gitignored)
+python3 generate_artist_index.py >> "$LOGFILE" 2>&1 || true
+
+git add releases.json last_checked.json bandcamp_labels.json network_artists.json 2>/dev/null
 if ! git diff --cached --quiet; then
     git config user.name "valentina-bot"
     git config user.email "valentina-bot@hetzner"
