@@ -416,6 +416,17 @@ function Row({t, heard, toggle, fav, toggleFav, hidden, toggleHide, expanded, to
 
           {/* GENRE — big, right-aligned near HEARD stats */}
           <span className="r" style={{fontFamily:F,fontWeight:700,fontSize:"32px",color:genreColor,textTransform:"uppercase",letterSpacing:"0.03em",flexShrink:0,width:"180px",textAlign:"right",marginLeft:"10px",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{t.genre || "—"}</span>
+
+          {/* NICHE-BADGE — only shown for genuinely rare/underground (>= 6 / 10) */}
+          {t._score_breakdown && t._score_breakdown.niche >= 6 && (
+            <span title={`Niche-Score ${t._score_breakdown.niche}/10 — seltene Discogs-Styles im Netzwerk`}
+              style={{fontFamily:F,fontWeight:800,fontSize:"11px",letterSpacing:"0.08em",
+                background:"rgba(212,145,94,0.18)",color:C.orange,
+                padding:"2px 5px",marginLeft:"6px",flexShrink:0,
+                borderRadius:"2px"}}>
+              ◆{t._score_breakdown.niche}
+            </span>
+          )}
         </div>
       </div>
 
@@ -451,6 +462,8 @@ function App() {
   const [sourceFilter, setSourceFilter] = useState("All");
   const [freshnessFilter, setFreshnessFilter] = useState("New");
   const [search, setSearch] = useState("");
+  // BlackTape Multi-Tag AND-Filter: comma-separierte Style-Tags
+  const [tagFilter, setTagFilter] = useState("");
   const [sort, setSort] = useState("date");
   const [showHeard, setShowHeard] = useState(true);
   const [showHidden, setShowHidden] = useState(false);
@@ -489,18 +502,25 @@ function App() {
     (async () => {
       const saved = store.get("v-heard-radar");
       if (saved) setHeardIds(new Set(saved));
-      const savedFav = store.get("v-fav-radar");
-      if (savedFav && savedFav.length > 0) {
-        setFavIds(new Set(savedFav));
-      } else {
-        try {
-          const favResp = await fetch('./favorites.json?t=' + Date.now());
-          if (favResp.ok) {
-            const favData = await favResp.json();
-            const ids = favData.map(f => typeof f === 'string' ? f : f.id).filter(Boolean);
-            if (ids.length > 0) { setFavIds(new Set(ids)); store.set("v-fav-radar", ids); }
-          }
-        } catch {}
+
+      // Smart-Merge: localStorage UND favorites.json zusammen, nimm die Union.
+      // Schuetzt vor Verlust bei Cache-Clear UND bei Browser-Wechsel.
+      const savedFav = store.get("v-fav-radar") || [];
+      let serverFav = [];
+      try {
+        const favResp = await fetch('./favorites.json?t=' + Date.now());
+        if (favResp.ok) {
+          const favData = await favResp.json();
+          serverFav = favData.map(f => typeof f === 'string' ? f : f.id).filter(Boolean);
+        }
+      } catch {}
+      const merged = Array.from(new Set([...savedFav, ...serverFav]));
+      if (merged.length > 0) {
+        setFavIds(new Set(merged));
+        store.set("v-fav-radar", merged);
+        // Setze "last-saved" auf serverFav-Stand, damit unsaved-Counter
+        // korrekt nur lokale Aenderungen zaehlt.
+        store.set("v-fav-last-saved", serverFav);
       }
       const savedHid = store.get("v-hidden-radar");
       if (savedHid) setHiddenIds(new Set(savedHid));
@@ -590,7 +610,32 @@ function App() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a'); a.href = url; a.download = 'favorites.json'; a.click();
     URL.revokeObjectURL(url);
+    // Mark current state as saved → unsaved-Counter geht auf 0
+    store.set("v-fav-last-saved", [...favIds]);
+    setLastSavedFavs(new Set(favIds));
   }, [releases, favIds]);
+
+  // Track unsaved changes (compared to last download or initial server-state)
+  const [lastSavedFavs, setLastSavedFavs] = useState(() => new Set(store.get("v-fav-last-saved") || []));
+  const unsavedFavCount = useMemo(() => {
+    let n = 0;
+    for (const id of favIds) if (!lastSavedFavs.has(id)) n++;
+    for (const id of lastSavedFavs) if (!favIds.has(id)) n++;
+    return n;
+  }, [favIds, lastSavedFavs]);
+
+  // beforeunload-Warning bei ungespeicherten Aenderungen
+  useEffect(() => {
+    const handler = (e) => {
+      if (unsavedFavCount >= 5) {
+        e.preventDefault();
+        e.returnValue = `${unsavedFavCount} Favoriten-Aenderungen nicht gesichert. SAVE-Button drücken!`;
+        return e.returnValue;
+      }
+    };
+    window.addEventListener('beforeunload', handler);
+    return () => window.removeEventListener('beforeunload', handler);
+  }, [unsavedFavCount]);
   const saveHid = useCallback(ids => { store.set("v-hidden-radar", [...ids]); }, []);
   const toggleHide = useCallback(id => {
     setHiddenIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); saveHid(n); return n; });
@@ -600,11 +645,20 @@ function App() {
   }, []);
 
   const myGenresSet = useMemo(() => new Set(myGenres.map(g => g.toLowerCase())), [myGenres]);
+  // BlackTape Tag-Filter: zerlege comma-separierten String in Token-Array
+  const tagTokens = useMemo(() => tagFilter
+    .split(",").map(t => t.trim().toLowerCase()).filter(Boolean), [tagFilter]);
   const filtered = releases
     .filter(r => genre === "All" ? true : genre === "MyGenres" ? myGenresSet.has((r.genre||"").toLowerCase()) : r.genre === genre)
     .filter(r => sourceFilter === "All" ? true : (r.source||"discogs").toLowerCase() === sourceFilter.toLowerCase())
     .filter(r => freshnessFilter === "All" ? true : freshnessFilter === "New" ? !r.is_restock : freshnessFilter === "Verified" ? r.date_verified === true : freshnessFilter === "Shop" ? !r.date_verified && !r.is_restock : r.is_restock === true)
     .filter(r => { if (!search) return true; const q = search.toLowerCase(); return r.title.toLowerCase().includes(q) || r.artist.toLowerCase().includes(q) || r.label.toLowerCase().includes(q); })
+    .filter(r => {
+      // Multi-Tag AND-Filter: alle Tokens muessen in styles[] oder genre vorkommen
+      if (tagTokens.length === 0) return true;
+      const haystack = [(r.genre||"").toLowerCase(), ...(r.styles||[]).map(s => s.toLowerCase())];
+      return tagTokens.every(tok => haystack.some(h => h.includes(tok)));
+    })
     .filter(r => showHeard || !heardIds.has(r.id))
     .filter(r => showHidden || !hiddenIds.has(r.id))
     .filter(r => showFavsOnly ? favIds.has(r.id) : !favIds.has(r.id))
@@ -700,6 +754,12 @@ function App() {
                 onFocus={e => {e.target.style.borderColor="rgba(255,255,255,0.5)";e.target.style.background="rgba(0,0,0,0.4)"}}
                 onBlur={e => {e.target.style.borderColor="rgba(255,255,255,0.25)";e.target.style.background="rgba(0,0,0,0.3)"}}
               />
+              <input type="text" placeholder="◆ TAGS (z.B. soulful, deep house)" value={tagFilter} onChange={e => setTagFilter(e.target.value)}
+                title="Multi-Tag AND-Filter — Releases muessen ALLE Tags haben (in styles oder genre)"
+                style={{background:"rgba(212,145,94,0.08)",border:"1px solid rgba(212,145,94,0.35)",padding:mobile?"6px 8px":"8px 12px",color:"#fff",fontSize:mobile?"13px":"16px",fontFamily:F,fontWeight:600,width:mobile?"100%":"260px",outline:"none",letterSpacing:"0.03em",transition:"all 0.15s",marginTop:mobile?"4px":0,marginLeft:mobile?0:"8px"}}
+                onFocus={e => {e.target.style.borderColor="rgba(212,145,94,0.7)";e.target.style.background="rgba(212,145,94,0.15)"}}
+                onBlur={e => {e.target.style.borderColor="rgba(212,145,94,0.35)";e.target.style.background="rgba(212,145,94,0.08)"}}
+              />
             </div>
             {/* My Genres Edit Popup */}
             {showMyGenresEdit && (
@@ -745,7 +805,7 @@ function App() {
             <span className="sort-link" onClick={() => setShowHidden(!showHidden)} style={{cursor:"pointer",transition:"color 0.1s"}}>{showHidden?"HIDE ⊘":"SHOW ⊘"}</span>
             <span className="sort-link" onClick={() => {const a=new Set(filtered.map(r=>r.id));setHeardIds(p=>{const n=new Set([...p,...a]);save(n);return n})}} style={{cursor:"pointer",transition:"color 0.1s"}}>✓ ALL</span>
             {favCount > 0 && <span className="sort-link" onClick={ytLoading?undefined:openYtPlaylist} style={{cursor:ytLoading?"wait":"pointer",transition:"color 0.1s",color:ytLoading?"rgba(255,80,80,0.4)":"rgba(255,80,80,0.9)"}} title="Alle Favoriten als YouTube-Playlist öffnen">{ytLoading?`⏳ ${favCount} Videos...`:`▶ YT PLAYLIST`}</span>}
-            {favCount > 0 && <span className="sort-link" onClick={saveFavToFile} style={{cursor:"pointer",transition:"color 0.1s",color:C.ghost,fontSize:"0.85em"}} title="Favoriten als JSON sichern">SAVE</span>}
+            {favCount > 0 && <span className="sort-link" onClick={saveFavToFile} style={{cursor:"pointer",transition:"color 0.1s",color:unsavedFavCount > 0 ? "rgba(255,200,80,0.9)" : C.ghost,fontSize:"0.85em",fontWeight:unsavedFavCount > 0 ? 600 : 400}} title={unsavedFavCount > 0 ? `${unsavedFavCount} ungesicherte Aenderungen — JSON-Backup erstellen` : "Favoriten als JSON sichern"}>{unsavedFavCount > 0 ? `SAVE (${unsavedFavCount}!)` : "SAVE"}</span>}
             {allSources.length > 2 && (<>
               <span style={{color:C.ghost}}>|</span>
               {allSources.map(s => {

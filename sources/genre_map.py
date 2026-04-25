@@ -137,6 +137,80 @@ _IGNORE_TAGS = {"label catalog", "merchandise", "compilation", "reissue",
                  "repress", "pop rock", "alternative rock", "art rock",
                  "chanson", "soundtrack", "holiday", "interview"}
 
+# Tags die ein Release als unerwuenscht markieren — wenn KEIN Electronic-Tag
+# im Release vorhanden ist, wird es ausgefiltert. Reduziert die "Other"-Kategorie
+# (Hardcore-Spam, Pop Rock, etc.). Drum n Bass + verwandte Hard-Genres explizit
+# raus weil User keine harten/kommerziellen Genres will.
+_HARD_SKIP_TAGS = {
+    # Klar non-electronic
+    "pop rock", "alternative rock", "art rock", "indie rock", "rock",
+    "punk", "hardcore punk", "metal", "heavy metal", "death metal",
+    "country", "folk", "bluegrass", "blues", "classical", "opera",
+    "chanson", "soundtrack", "musical", "comedy", "spoken word",
+    "religious", "gospel", "christian", "interview", "holiday",
+    "bollywood", "k-pop", "j-pop", "schlager",
+    # Hard/kommerzielle Electronic-Genres die User nicht will
+    "hardcore", "happy hardcore", "hardstyle", "gabber", "speedcore",
+    "trap", "future bass", "brostep", "complextro",
+    # Drum n Bass: laut User-Memory genre_blindheit_analyse als "Discogs-Muell"
+    # markiert, daher rausfiltern
+    "drum and bass", "drum & bass", "drum n bass", "jungle", "dnb",
+    "neurofunk", "drumstep",
+}
+
+# Electronic-Indikator-Tags: wenn eines davon im Release ist, wird es NICHT geskipped
+# (auch wenn ein Hard-Skip-Tag dabei ist). Schuetzt Borderline-Cases.
+_ELECTRONIC_INDICATORS = {
+    "house", "techno", "minimal", "deep house", "tech house", "ambient",
+    "downtempo", "electro", "acid", "dub techno", "detroit techno",
+    "chicago house", "soulful house", "afro house", "broken beat",
+    "jazz house", "nu jazz", "future jazz", "leftfield", "experimental",
+    "idm", "trip hop", "garage house", "uk garage", "deep tech",
+    "rominimal", "microhouse", "micro house", "dub", "balearic", "italo",
+    "nu disco", "synth-pop", "synthwave", "electronica", "lo-fi house",
+    "tribal house", "funky house", "jackin house", "ebm", "neo-soul",
+    "jazz-funk", "jazz funk",
+}
+
+
+def _tag_components(tag):
+    """Split multi-component tags like 'Folk / Roots' or 'Indie Rock, Pop'
+    into individual components to check against skip/indicator sets.
+    Returns the original tag plus all components."""
+    tag = tag.lower().strip()
+    parts = [tag]
+    for sep in [" / ", " - ", ",", "/", "&"]:
+        new_parts = []
+        for p in parts:
+            new_parts.extend(s.strip() for s in p.split(sep) if s.strip())
+        parts = new_parts
+    return parts
+
+
+def _matches_set(tags, target_set):
+    for tag in tags:
+        for comp in _tag_components(tag):
+            if comp in target_set:
+                return True
+    return False
+
+
+def should_skip_release(styles, genres=None):
+    """Returns True if this release should be filtered out entirely.
+
+    Logic: a release is skipped when any of its tag-components is in
+    _HARD_SKIP_TAGS AND none is an electronic-indicator. Protects releases
+    tagged with both (e.g. 'rock' + 'deep house') — those get kept.
+    """
+    all_tags = [s for s in (styles or []) if s]
+    if genres:
+        all_tags += [g for g in genres if g]
+    if not all_tags:
+        return False
+    if not _matches_set(all_tags, _HARD_SKIP_TAGS):
+        return False
+    return not _matches_set(all_tags, _ELECTRONIC_INDICATORS)
+
 # Tag-level specificity overrides: when a tag is more generic than its
 # mapped UI genre, override here.  E.g. "minimal" alone is vague (3)
 # even though it maps to "Minimal House" (genre-level 5).

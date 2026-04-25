@@ -48,21 +48,29 @@ git pull --rebase >> "$LOGFILE" 2>&1
 # Run crawler
 python3 crawler.py --resume --max-depth 2 --time-budget "$TIME_BUDGET" >> "$LOGFILE" 2>&1
 
-# Commit and push network data
-git add network_data.json seed_data.json reference_labels.txt reference_artists.txt 2>/dev/null
+# Auto-prune nach Crawl: Labels mit <2 distinct artists raus, network_data.json schrumpfen
+echo "[$(date -Iseconds)] Auto-pruning network..." >> "$LOGFILE"
+python3 prune_network.py --min-artists 2 >> "$LOGFILE" 2>&1 || echo "[$(date -Iseconds)] Prune failed, continuing" >> "$LOGFILE"
+
+# Mini-Datei fuer Frontend regenerieren (nach Prune sind Artists evtl. unveraendert,
+# aber sicher ist sicher)
+python3 generate_artist_index.py >> "$LOGFILE" 2>&1 || true
+
+# Commit and push: network_data.json ist gitignored, nur seed/reference und Mini-Datei
+git add seed_data.json reference_labels.txt reference_artists.txt network_artists.json 2>/dev/null
 if ! git diff --cached --quiet; then
     git config user.name "valentina-bot"
     git config user.email "valentina-bot@hetzner"
-    git commit -m "chore: update network data" >> "$LOGFILE" 2>&1
+    git commit -m "chore: update network seeds + artist index" >> "$LOGFILE" 2>&1
     # Retry push (fetch might have pushed during crawl)
     for i in 1 2 3; do
         git pull --rebase >> "$LOGFILE" 2>&1 && git push >> "$LOGFILE" 2>&1 && break
         echo "[$(date -Iseconds)] Push attempt $i failed, retrying..." >> "$LOGFILE"
         sleep 5
     done
-    echo "[$(date -Iseconds)] Pushed network update" >> "$LOGFILE"
+    echo "[$(date -Iseconds)] Pushed network seeds update" >> "$LOGFILE"
 else
-    echo "[$(date -Iseconds)] No network changes" >> "$LOGFILE"
+    echo "[$(date -Iseconds)] No seed/reference changes" >> "$LOGFILE"
 fi
 
 echo "[$(date -Iseconds)] Crawler done" >> "$LOGFILE"

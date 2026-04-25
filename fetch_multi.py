@@ -458,7 +458,8 @@ def verify_release_dates(releases, discogs_token):
             if resp.status_code == 200:
                 results = resp.json().get("results", [])
                 if results:
-                    year = results[0].get("year")
+                    first = results[0]
+                    year = first.get("year")
                     if year and isinstance(year, (int, str)):
                         year = int(year) if str(year).isdigit() else 0
                         if year > 0:
@@ -467,6 +468,27 @@ def verify_release_dates(releases, discogs_token):
                             if release_approx < cutoff_date:
                                 r["is_restock"] = True
                                 restocks += 1
+
+                    # Bonus: Discogs Search liefert auch styles+genre. Mitnehmen
+                    # statt extra Phase 7c-Call zu brauchen.
+                    discogs_styles = first.get("style", []) or []
+                    discogs_genres = first.get("genre", []) or []
+                    if discogs_styles or discogs_genres:
+                        existing = {s.lower() for s in (r.get("styles") or [])}
+                        merged = list(r.get("styles") or [])
+                        for s in discogs_styles:
+                            if s.lower() not in existing:
+                                merged.append(s)
+                                existing.add(s.lower())
+                        if merged:
+                            r["styles"] = merged
+                        # Re-classify falls vorher Other/Electronic war
+                        if r.get("genre", "") in ("Other", "Electronic", ""):
+                            from sources.genre_map import classify_genre
+                            new_genre = classify_genre(merged or [], discogs_genres)
+                            if new_genre not in ("Other", "Electronic", ""):
+                                r["genre"] = new_genre
+                        r["style_enriched"] = True
 
             r["discogs_year_checked"] = True
             checked += 1
@@ -1097,11 +1119,25 @@ def run(args):
         # Style enrichment via Discogs (Phase 7c)
         if discogs_token and not getattr(args, 'no_enrich_styles', False):
             final = enrich_styles_via_discogs(final, discogs_token,
-                                              max_enrich=getattr(args, 'enrich_limit', 100))
+                                              max_enrich=getattr(args, 'enrich_limit', 200))
         elif not discogs_token:
             print("  ⚠ DISCOGS_TOKEN not set, skipping style enrichment")
         else:
             print("  ⏭ Style enrichment skipped (--no-enrich-styles)")
+
+        # Phase 7d: Skip non-electronic Releases (Hardcore/Pop Rock/Punk/Trap...)
+        # Greift erst NACH Enrichment, damit Borderline-Cases korrekt klassifiziert sind.
+        try:
+            from sources.genre_map import should_skip_release
+            before = len(final)
+            final = [r for r in final
+                     if not should_skip_release(r.get("styles") or [],
+                                                [r.get("genre", "")] if r.get("genre") else None)]
+            skipped = before - len(final)
+            print(f"\n▶ Phase 7d: Skip non-electronic releases")
+            print(f"  Removed {skipped} releases (Hardcore/Punk/Pop Rock/Trap/etc.)")
+        except ImportError:
+            pass
 
         # Quality scoring
         try:
@@ -1133,8 +1169,8 @@ def main():
                         help="Resume from checkpoint")
     parser.add_argument("--no-enrich-styles", action="store_true",
                         help="Skip Phase 7c Discogs style enrichment")
-    parser.add_argument("--enrich-limit", type=int, default=100,
-                        help="Max releases to enrich per run (default: 100)")
+    parser.add_argument("--enrich-limit", type=int, default=200,
+                        help="Max releases to enrich per run (default: 200)")
     args = parser.parse_args()
     run(args)
 
