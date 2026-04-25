@@ -38,8 +38,9 @@ cat > "$DIST/_headers" << 'EOF'
 EOF
 
 # Copy Pages Functions (e.g. /api/favorites for KV-Sync)
+# rsync ohne macOS AppleDouble-Files (._foo) — Cloudflare-Build crashed sonst
 if [ -d "$DIR/functions" ]; then
-  cp -R "$DIR/functions" "$DIST/functions"
+  rsync -a --exclude='._*' --exclude='.DS_Store' "$DIR/functions/" "$DIST/functions/"
 fi
 
 echo "✅ Prepared $(ls "$DIST" | wc -l | tr -d ' ') files for deploy"
