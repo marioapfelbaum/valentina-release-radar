@@ -43,6 +43,9 @@ if [ -d "$DIR/functions" ]; then
   rsync -a --exclude='._*' --exclude='.DS_Store' "$DIR/functions/" "$DIST/functions/"
 fi
 
+# Final cleanup: macOS AppleDouble (._*) und .DS_Store komplett aus dist raus
+find "$DIST" \( -name "._*" -o -name ".DS_Store" \) -delete
+
 echo "✅ Prepared $(ls "$DIST" | wc -l | tr -d ' ') files for deploy"
 ls -lh "$DIST"
 
