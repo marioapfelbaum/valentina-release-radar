@@ -503,24 +503,34 @@ function App() {
       const saved = store.get("v-heard-radar");
       if (saved) setHeardIds(new Set(saved));
 
-      // Smart-Merge: localStorage UND favorites.json zusammen, nimm die Union.
-      // Schuetzt vor Verlust bei Cache-Clear UND bei Browser-Wechsel.
+      // Smart-Merge across 3 quellen: localStorage + Cloud (KV) + favorites.json
+      // Cloud (Pages Function) ist Source of Truth wenn verfuegbar.
+      // Fallback-Kette: KV → favorites.json → localStorage.
       const savedFav = store.get("v-fav-radar") || [];
-      let serverFav = [];
+      let cloudFav = null;
+      try {
+        const cloudResp = await fetch('/api/favorites?t=' + Date.now(), { cache: "no-store" });
+        if (cloudResp.ok) {
+          const cloudData = await cloudResp.json();
+          if (Array.isArray(cloudData?.favorites)) cloudFav = cloudData.favorites;
+        }
+      } catch {}
+      let staticFav = [];
       try {
         const favResp = await fetch('./favorites.json?t=' + Date.now());
         if (favResp.ok) {
           const favData = await favResp.json();
-          serverFav = favData.map(f => typeof f === 'string' ? f : f.id).filter(Boolean);
+          staticFav = favData.map(f => typeof f === 'string' ? f : f.id).filter(Boolean);
         }
       } catch {}
-      const merged = Array.from(new Set([...savedFav, ...serverFav]));
+      // Union aller bekannten Quellen — robust gegen jeden Single-Point-of-Failure
+      const merged = Array.from(new Set([...savedFav, ...(cloudFav || []), ...staticFav]));
       if (merged.length > 0) {
         setFavIds(new Set(merged));
         store.set("v-fav-radar", merged);
-        // Setze "last-saved" auf serverFav-Stand, damit unsaved-Counter
-        // korrekt nur lokale Aenderungen zaehlt.
-        store.set("v-fav-last-saved", serverFav);
+        // last-saved = Cloud wenn vorhanden, sonst Static (= serverseitig bekannter Stand)
+        const baseline = cloudFav || staticFav;
+        store.set("v-fav-last-saved", baseline);
       }
       const savedHid = store.get("v-hidden-radar");
       if (savedHid) setHiddenIds(new Set(savedHid));
@@ -566,6 +576,34 @@ function App() {
   const toggleFav = useCallback(id => {
     setFavIds(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); saveFav(n); return n; });
   }, [saveFav]);
+
+  // Auto-Cloud-Sync (debounced 2s nach letzter Aenderung) — POST an /api/favorites
+  // Beim Erfolg wird "last-saved" angepasst, sodass der unsaved-Counter zurueck auf 0 geht.
+  const [cloudSyncStatus, setCloudSyncStatus] = useState("idle"); // idle | syncing | ok | err
+  useEffect(() => {
+    const t = setTimeout(async () => {
+      // Skip on initial load before favIds is hydrated
+      if (favIds.size === 0 && (store.get("v-fav-radar") || []).length === 0) return;
+      try {
+        setCloudSyncStatus("syncing");
+        const resp = await fetch('/api/favorites', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ favorites: [...favIds] }),
+        });
+        if (resp.ok) {
+          setCloudSyncStatus("ok");
+          store.set("v-fav-last-saved", [...favIds]);
+          setLastSavedFavs(new Set(favIds));
+        } else {
+          setCloudSyncStatus("err");
+        }
+      } catch {
+        setCloudSyncStatus("err");
+      }
+    }, 2000);
+    return () => clearTimeout(t);
+  }, [favIds]);
   const [ytLoading, setYtLoading] = useState(false);
   const searchYouTube = useCallback(async (query) => {
     const instances = ['https://pipedapi.kavin.rocks','https://pipedapi.adminforge.de','https://api.piped.yt'];
@@ -806,6 +844,7 @@ function App() {
             <span className="sort-link" onClick={() => {const a=new Set(filtered.map(r=>r.id));setHeardIds(p=>{const n=new Set([...p,...a]);save(n);return n})}} style={{cursor:"pointer",transition:"color 0.1s"}}>✓ ALL</span>
             {favCount > 0 && <span className="sort-link" onClick={ytLoading?undefined:openYtPlaylist} style={{cursor:ytLoading?"wait":"pointer",transition:"color 0.1s",color:ytLoading?"rgba(255,80,80,0.4)":"rgba(255,80,80,0.9)"}} title="Alle Favoriten als YouTube-Playlist öffnen">{ytLoading?`⏳ ${favCount} Videos...`:`▶ YT PLAYLIST`}</span>}
             {favCount > 0 && <span className="sort-link" onClick={saveFavToFile} style={{cursor:"pointer",transition:"color 0.1s",color:unsavedFavCount > 0 ? "rgba(255,200,80,0.9)" : C.ghost,fontSize:"0.85em",fontWeight:unsavedFavCount > 0 ? 600 : 400}} title={unsavedFavCount > 0 ? `${unsavedFavCount} ungesicherte Aenderungen — JSON-Backup erstellen` : "Favoriten als JSON sichern"}>{unsavedFavCount > 0 ? `SAVE (${unsavedFavCount}!)` : "SAVE"}</span>}
+            {favCount > 0 && <span style={{fontSize:"0.75em",color:cloudSyncStatus === "ok" ? "rgba(110,207,138,0.7)" : cloudSyncStatus === "syncing" ? "rgba(255,200,80,0.7)" : cloudSyncStatus === "err" ? "rgba(255,100,100,0.7)" : C.ghost,marginLeft:"4px"}} title={cloudSyncStatus === "ok" ? "Auto-Sync zu Cloud aktiv" : cloudSyncStatus === "syncing" ? "Synchronisiere zur Cloud..." : cloudSyncStatus === "err" ? "Cloud-Sync fehlgeschlagen — localStorage als Fallback" : "Cloud-Sync bereit"}>{cloudSyncStatus === "ok" ? "☁︎" : cloudSyncStatus === "syncing" ? "↻" : cloudSyncStatus === "err" ? "⚠" : "·"}</span>}
             {allSources.length > 2 && (<>
               <span style={{color:C.ghost}}>|</span>
               {allSources.map(s => {

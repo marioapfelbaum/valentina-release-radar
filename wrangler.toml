@@ -1,0 +1,7 @@
+name = "valentina-release-radar"
+compatibility_date = "2026-04-25"
+pages_build_output_dir = "dist"
+
+[[kv_namespaces]]
+binding = "valentina_favorites"
+id = "136699b817b747c0935bd65a5eed869b"

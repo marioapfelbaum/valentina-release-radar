@@ -5,6 +5,14 @@ on:
     branches: [main]
     paths:
       - 'releases.json'
+      - 'release_radar.html'
+      - 'event_radar.html'
+      - 'network_explorer.html'
+      - 'network_artists.json'
+      - 'favorites.json'
+      - 'functions/**'
+      - 'deploy.sh'
+      - 'wrangler.toml'
 
 jobs:
   deploy:

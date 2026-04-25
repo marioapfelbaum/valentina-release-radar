@@ -37,6 +37,11 @@ cat > "$DIST/_headers" << 'EOF'
   Cache-Control: public, max-age=60
 EOF
 
+# Copy Pages Functions (e.g. /api/favorites for KV-Sync)
+if [ -d "$DIR/functions" ]; then
+  cp -R "$DIR/functions" "$DIST/functions"
+fi
+
 echo "✅ Prepared $(ls "$DIST" | wc -l | tr -d ' ') files for deploy"
 ls -lh "$DIST"
 
