@@ -129,37 +129,67 @@ const ALL_SHOPS = [
 const _linkCache = {};
 // Cache YouTube-search results so wir nicht bei jedem Re-Render erneut suchen
 const _ytCache = {};
+// Cache Bandcamp resolve results (album-IDs sind stabil)
+const _bcCache = {};
 
 // --- INLINE PLAYER ---
-// Spielt Spotify-Embed wenn moeglich, sonst YouTube-Embed (Suche via Piped API).
-// Toggle-Button im Release-Card oeffnet/schliesst diesen Player inline.
+// Player-Priority gemaess User-Wunsch ("Player muss von der Source-Seite kommen"):
+//   1. Bandcamp (wenn source=bandcamp oder source_urls.bandcamp existiert) — voller Album-Player
+//   2. Spotify (wenn Spotify-URL vorhanden) — Album-Embed
+//   3. YouTube (Fallback fuer Hardwax/Redeye/Clone/etc. — diese Shops haben keinen iframe-Player)
+// Bandcamp braucht Album-ID-Lookup via Pages Function /api/bandcamp-resolve (CORS-Bypass).
 function InlinePlayer({t, onClose}) {
   const [ytId, setYtId] = useState(_ytCache[`${t.artist}|${t.title}`] || null);
-  const [searching, setSearching] = useState(false);
+  const [searchingYt, setSearchingYt] = useState(false);
+  const [bcResolved, setBcResolved] = useState(_bcCache[t.id] !== undefined ? _bcCache[t.id] : null);
+  const [resolvingBc, setResolvingBc] = useState(false);
 
-  // Spotify-Album-ID aus source_url extrahieren (Format: https://open.spotify.com/album/<ID>)
-  const spotifyId = useMemo(() => {
-    const url = (t.source_urls && t.source_urls.spotify) || (t.source === "spotify" && t.source_url) || "";
-    const m = url.match(/spotify\.com\/album\/([a-zA-Z0-9]+)/);
-    return m ? m[1] : null;
-  }, [t]);
-
-  // Bandcamp-URL erkennen — das Embed braucht zwar eine Album-ID die wir nicht haben,
-  // aber wir koennen die Source-Page in einem iframe laden, der den Bandcamp-Player anzeigt.
-  // Faellt zurueck auf YouTube wenn Bandcamp Frame-Embedding blockt (X-Frame-Options).
   const bandcampUrl = useMemo(() => {
     if (t.source === "bandcamp" && t.source_url) return t.source_url;
     if (t.source_urls && t.source_urls.bandcamp) return t.source_urls.bandcamp;
     return null;
   }, [t]);
 
-  // YouTube-Suche nur wenn weder Spotify noch Bandcamp und noch nicht gecacht
+  const spotifyId = useMemo(() => {
+    const url = (t.source_urls && t.source_urls.spotify) || (t.source === "spotify" && t.source_url) || "";
+    const m = url.match(/spotify\.com\/album\/([a-zA-Z0-9]+)/);
+    return m ? m[1] : null;
+  }, [t]);
+
+  // Bandcamp Album-ID via Pages Function aufloesen
   useEffect(() => {
-    if (spotifyId) return;
+    if (!bandcampUrl) return;
+    if (_bcCache[t.id] !== undefined) { setBcResolved(_bcCache[t.id]); return; }
+    let cancelled = false;
+    setResolvingBc(true);
+    (async () => {
+      try {
+        const resp = await fetch(`/api/bandcamp-resolve?url=${encodeURIComponent(bandcampUrl)}`);
+        if (resp.ok) {
+          const data = await resp.json();
+          _bcCache[t.id] = data;
+          if (!cancelled) { setBcResolved(data); setResolvingBc(false); }
+        } else {
+          _bcCache[t.id] = "failed";
+          if (!cancelled) { setBcResolved("failed"); setResolvingBc(false); }
+        }
+      } catch {
+        _bcCache[t.id] = "failed";
+        if (!cancelled) { setBcResolved("failed"); setResolvingBc(false); }
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [t.id, bandcampUrl]);
+
+  // YouTube-Suche nur als letzter Fallback (kein Bandcamp, kein Spotify)
+  const bcOk = bcResolved && bcResolved !== "failed" && (bcResolved.album_id || bcResolved.track_id);
+  const needsYoutube = !bcOk && !resolvingBc && !spotifyId;
+  useEffect(() => {
+    if (!needsYoutube) return;
     const cacheKey = `${t.artist}|${t.title}`;
     if (_ytCache[cacheKey]) { setYtId(_ytCache[cacheKey]); return; }
     let cancelled = false;
-    setSearching(true);
+    setSearchingYt(true);
     (async () => {
       const instances = ['https://pipedapi.kavin.rocks','https://pipedapi.adminforge.de','https://api.piped.yt'];
       for (const base of instances) {
@@ -174,43 +204,60 @@ function InlinePlayer({t, onClose}) {
             if (match) {
               const id = match[1];
               _ytCache[cacheKey] = id;
-              if (!cancelled) { setYtId(id); setSearching(false); }
+              if (!cancelled) { setYtId(id); setSearchingYt(false); }
               return;
             }
           }
         } catch {}
       }
-      if (!cancelled) setSearching(false);
+      if (!cancelled) setSearchingYt(false);
     })();
     return () => { cancelled = true; };
-  }, [t.id, t.artist, t.title, spotifyId]);
+  }, [t.id, t.artist, t.title, needsYoutube]);
+
+  // Bandcamp embed URL
+  const bcEmbedUrl = bcOk
+    ? `https://bandcamp.com/EmbeddedPlayer/${bcResolved.album_id ? "album=" + bcResolved.album_id : "track=" + bcResolved.track_id}/size=large/bgcol=181a1b/linkcol=d4915e/tracklist=true/artwork=small/transparent=true/`
+    : null;
+
+  const label = bcOk ? "▶ BANDCAMP"
+    : resolvingBc ? "↻ BANDCAMP..."
+    : spotifyId ? "▶ SPOTIFY"
+    : ytId ? "▶ YOUTUBE (Fallback)"
+    : searchingYt ? "↻ YOUTUBE-SUCHE..."
+    : "⚠ KEIN PLAYER";
 
   return (
     <div style={{padding:"12px 0 14px 124px",borderTop:"1px solid rgba(255,255,255,0.08)",background:"rgba(0,0,0,0.18)"}}
       onClick={e => e.stopPropagation()}>
       <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"8px",paddingRight:"20px"}}>
         <span style={{fontFamily:F,fontWeight:700,fontSize:"13px",color:C.ghost,letterSpacing:"0.08em",textTransform:"uppercase"}}>
-          {spotifyId ? "▶ SPOTIFY" : ytId ? "▶ YOUTUBE" : searching ? "↻ SUCHE..." : "⚠ KEIN PLAYER"}
+          {label}
         </span>
         <span onClick={onClose} style={{cursor:"pointer",color:C.ghost,fontSize:"22px",padding:"0 6px",userSelect:"none"}} title="Player schliessen">×</span>
       </div>
-      {spotifyId && (
+      {bcOk && (
+        <iframe style={{borderRadius:"4px",border:"none",width:"100%",maxWidth:"720px",height:"340px"}}
+          src={bcEmbedUrl}
+          allow="autoplay; clipboard-write; encrypted-media" loading="lazy"/>
+      )}
+      {!bcOk && !resolvingBc && spotifyId && (
         <iframe style={{borderRadius:"4px",border:"none",width:"100%",maxWidth:"720px",height:"152px"}}
           src={`https://open.spotify.com/embed/album/${spotifyId}?utm_source=valentina`}
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"/>
       )}
-      {!spotifyId && ytId && (
+      {!bcOk && !resolvingBc && !spotifyId && ytId && (
         <iframe style={{borderRadius:"4px",border:"none",width:"100%",maxWidth:"640px",height:"360px"}}
           src={`https://www.youtube.com/embed/${ytId}?autoplay=1`}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen/>
       )}
-      {!spotifyId && !ytId && !searching && (
+      {!bcOk && !resolvingBc && !spotifyId && !ytId && !searchingYt && (
         <div style={{fontFamily:F,fontSize:"14px",color:C.ghost,padding:"8px 0"}}>
           Kein Audio-Player gefunden. Versuche{" "}
           <a href={`https://www.youtube.com/results?search_query=${encodeURIComponent(t.artist+' '+t.title)}`} target="_blank" rel="noopener noreferrer" style={{color:"rgba(255,80,80,0.9)"}}>YouTube Suche</a>
-          {" "}oder{" "}
-          {bandcampUrl && <a href={bandcampUrl} target="_blank" rel="noopener noreferrer" style={{color:"rgba(99,210,218,0.9)"}}>Bandcamp ↗</a>}
+          {bandcampUrl && <> oder <a href={bandcampUrl} target="_blank" rel="noopener noreferrer" style={{color:"rgba(99,210,218,0.9)"}}>Bandcamp ↗</a></>}
+          {t.source_url && <> oder <a href={t.source_url} target="_blank" rel="noopener noreferrer" style={{color:C.soft}}>{t.source} ↗</a></>}
         </div>
       )}
     </div>
