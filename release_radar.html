@@ -156,15 +156,24 @@ function InlinePlayer({t, onClose}) {
     return m ? m[1] : null;
   }, [t]);
 
-  // Bandcamp Album-ID via Pages Function aufloesen
+  // Bandcamp Lookup: bei bekannter URL direkt resolve, sonst Search.
+  // Search kostet einen extra Request, ist aber der Hauptmehrwert: viele Releases von
+  // Hardwax/Redeye/Clone/Phonica/etc. sind auch auf Bandcamp, nur ohne URL im Datensatz.
   useEffect(() => {
-    if (!bandcampUrl) return;
     if (_bcCache[t.id] !== undefined) { setBcResolved(_bcCache[t.id]); return; }
     let cancelled = false;
     setResolvingBc(true);
     (async () => {
       try {
-        const resp = await fetch(`/api/bandcamp-resolve?url=${encodeURIComponent(bandcampUrl)}`);
+        let resp;
+        if (bandcampUrl) {
+          resp = await fetch(`/api/bandcamp-resolve?url=${encodeURIComponent(bandcampUrl)}`);
+        } else {
+          // Kein Bandcamp-URL bekannt — versuche Search-Fallback (z.B. fuer Hardwax/Redeye)
+          const q = encodeURIComponent(`${t.artist} ${t.title}`);
+          const labelParam = t.label ? `&label=${encodeURIComponent(t.label)}` : '';
+          resp = await fetch(`/api/bandcamp-search?q=${q}${labelParam}`);
+        }
         if (resp.ok) {
           const data = await resp.json();
           _bcCache[t.id] = data;
@@ -179,7 +188,7 @@ function InlinePlayer({t, onClose}) {
       }
     })();
     return () => { cancelled = true; };
-  }, [t.id, bandcampUrl]);
+  }, [t.id, bandcampUrl, t.artist, t.title, t.label]);
 
   // YouTube-Suche nur als letzter Fallback (kein Bandcamp, kein Spotify)
   const bcOk = bcResolved && bcResolved !== "failed" && (bcResolved.album_id || bcResolved.track_id);
