@@ -133,6 +133,8 @@ const _ytCache = {};
 const _bcCache = {};
 // Cache SoundCloud results
 const _scCache = {};
+// Cache-Buster fuer /api/* Calls — bei jedem Bug-Fix bumpen, invalidiert Browser-Cache
+const PLAYER_API_VERSION = "v4";
 
 // --- INLINE PLAYER ---
 // Player-Priority gemaess User-Wunsch ("Player muss von der Source-Seite kommen"):
@@ -168,12 +170,12 @@ function InlinePlayer({t, onClose}) {
     (async () => {
       const q = encodeURIComponent(`${t.artist} ${t.title}`);
       const labelParam = t.label ? `&label=${encodeURIComponent(t.label)}` : '';
-      const searchUrl = `/api/bandcamp-search?q=${q}${labelParam}`;
+      const searchUrl = `/api/bandcamp-search?q=${q}${labelParam}&_v=${PLAYER_API_VERSION}`;
       try {
         let data = null;
         // Schritt 1: Bei bekannter URL erst Resolve versuchen
         if (bandcampUrl) {
-          const r = await fetch(`/api/bandcamp-resolve?url=${encodeURIComponent(bandcampUrl)}`);
+          const r = await fetch(`/api/bandcamp-resolve?url=${encodeURIComponent(bandcampUrl)}&_v=${PLAYER_API_VERSION}`);
           if (r.ok) data = await r.json();
         }
         // Schritt 2: Wenn Resolve nichts brachte (URL falsch/veraltet) → Search-Fallback
@@ -208,7 +210,7 @@ function InlinePlayer({t, onClose}) {
     (async () => {
       try {
         const q = encodeURIComponent(`${t.artist} ${t.title}`);
-        const r = await fetch(`/api/soundcloud-search?q=${q}`);
+        const r = await fetch(`/api/soundcloud-search?q=${q}&_v=${PLAYER_API_VERSION}`);
         if (r.ok) {
           const data = await r.json();
           _scCache[t.id] = data;
