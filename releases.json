@@ -1392,6 +1392,9 @@
       "source": 6,
       "multi": 0,
       "niche": 4
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/edward-streams-of-time-ep-vinyl/990475-01/"
     }
   },
   {
@@ -1457,7 +1460,11 @@
       "source": 6,
       "multi": 0,
       "niche": 0
-    }
+    },
+    "source_urls": {
+      "juno": "https://www.juno.co.uk/products/little-annie-short-sweet-expanded-edition-record-store-vinyl/1137219-01/"
+    },
+    "style_enriched": true
   },
   {
     "id": "d98ee6e4",
@@ -2007,6 +2014,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "clone": "https://clone.nl/item3912.html"
     }
   },
   {
@@ -26684,42 +26694,6 @@
     },
     "source_urls": {
       "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Various+Artists"
-    }
-  },
-  {
-    "id": "4bec7247",
-    "title": "Santa Rosa",
-    "artist": "Fat Ray",
-    "album": "Santa Rosa",
-    "label": "",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-04-22",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Fat Ray & Raphy, “Santa Rosa”"
-    ],
-    "source": "bandcamp_daily",
-    "source_url": "https://fatray1.bandcamp.com/album/santa-rosa",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "",
-    "style_tags": [
-      "Hip-Hop/Rap",
-      "Album of the Day",
-      "https://daily.bandcamp.com/genres/hip-hop-rap"
-    ],
-    "quality_score": 7,
-    "_score_breakdown": {
-      "total": 7,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
     }
   },
   {
@@ -81015,6 +80989,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/37169754-Talla-2XLC-X-RAM-38-Richard-Durand-Present-Digital-Culture-3-Techno-Club-Vol77"
     }
   },
   {
@@ -279853,37 +279830,6 @@
     "date_verified": true
   },
   {
-    "id": "88f27695",
-    "title": "Tentative Decisions: Demos & Live",
-    "artist": "Talking Heads",
-    "album": "Tentative Decisions: Demos & Live",
-    "label": "Rhino Records",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-03-06",
-    "date_verified": true,
-    "re": true,
-    "styles": [
-      "New Wave"
-    ],
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36759118-Talking-Heads-Tentative-Decisions-Demos-Live",
-    "discogs_url": "https://www.discogs.com/release/36759118-Talking-Heads-Tentative-Decisions-Demos-Live",
-    "bpm": null,
-    "catalog_number": "",
-    "format": "Compilation",
-    "quality_score": 64,
-    "_score_breakdown": {
-      "total": 64,
-      "label": 25,
-      "artist": 20,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 6
-    }
-  },
-  {
     "id": "ef623f96",
     "title": "DEEPER",
     "artist": "Orlando Voorn",
@@ -294199,6 +294145,9 @@
       "source": 8,
       "multi": 0,
       "niche": 0
+    },
+    "source_urls": {
+      "discogs": "https://www.discogs.com/release/37165182-Various-Trance-Anthems-2026"
     }
   },
   {
@@ -324866,68 +324815,6 @@
       "discogs": "https://www.discogs.com/release/36146683-Vintage-Culture-Mila-Journée-Malabaris"
     },
     "date_verified": true
-  },
-  {
-    "id": "cd92ef27",
-    "title": "A Nod Is As Good As A Wink...To A Blind Horse",
-    "artist": "Faces",
-    "album": "A Nod Is As Good As A Wink...To A Blind Horse",
-    "label": "Warner Records",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-01-09",
-    "date_verified": true,
-    "re": true,
-    "styles": [
-      "Classic Rock"
-    ],
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36310843-Faces-3-A-Nod-Is-As-Good-As-A-WinkTo-A-Blind-Horse",
-    "discogs_url": "https://www.discogs.com/release/36310843-Faces-3-A-Nod-Is-As-Good-As-A-WinkTo-A-Blind-Horse",
-    "bpm": null,
-    "catalog_number": "603497810666",
-    "format": "LP",
-    "quality_score": 13,
-    "_score_breakdown": {
-      "total": 13,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    }
-  },
-  {
-    "id": "46a81030",
-    "title": "A Nod Is As Good As A Wink...To A Blind Horse",
-    "artist": "Faces",
-    "album": "A Nod Is As Good As A Wink...To A Blind Horse",
-    "label": "Warner Records",
-    "genre": "Other",
-    "duration": "",
-    "date": "2026-01-09",
-    "date_verified": true,
-    "re": true,
-    "styles": [
-      "Classic Rock"
-    ],
-    "source": "discogs",
-    "source_url": "https://www.discogs.com/release/36208030-Faces-3-A-Nod-Is-As-Good-As-A-WinkTo-A-Blind-Horse",
-    "discogs_url": "https://www.discogs.com/release/36208030-Faces-3-A-Nod-Is-As-Good-As-A-WinkTo-A-Blind-Horse",
-    "bpm": null,
-    "catalog_number": "R1 728529",
-    "format": "LP",
-    "quality_score": 13,
-    "_score_breakdown": {
-      "total": 13,
-      "label": 0,
-      "artist": 0,
-      "genre": 5,
-      "source": 8,
-      "multi": 0,
-      "niche": 0
-    }
   },
   {
     "id": "dcb67c5a",
