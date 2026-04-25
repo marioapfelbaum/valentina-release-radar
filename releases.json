@@ -37,6 +37,35 @@
     }
   },
   {
+    "id": "9db09b81",
+    "title": "Cold World",
+    "artist": "The Flatliners",
+    "album": "Cold World",
+    "label": "D:vision Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-05-08",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://equalvision.bandcamp.com/album/cold-world",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "2dd2689e",
     "title": "(One Per Person)",
     "artist": "Scaler Endlessly",
@@ -1780,6 +1809,35 @@
       "juno": "https://www.juno.co.uk/products/sh-20-vinyl/1152106-01/"
     },
     "style_enriched": true
+  },
+  {
+    "id": "3ca7787d",
+    "title": "Take me, I'm yours",
+    "artist": "Alan & Jan",
+    "album": "Take me, I'm yours",
+    "label": "Faitiche",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-25",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://faitiche.bandcamp.com/album/take-me-i-m-yours",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "9db34092",
@@ -4209,6 +4267,46 @@
     }
   },
   {
+    "id": "6ea398f6",
+    "title": "Resurrection (Original Soundtrack)",
+    "artist": "M83",
+    "album": "Resurrection (Original Soundtrack)",
+    "label": "Other Suns",
+    "genre": "Ambient",
+    "duration": "",
+    "date": "2026-04-24",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Soundtracks",
+      "Soundtrack",
+      "Dream Pop",
+      "Ambient",
+      "Modern Classical"
+    ],
+    "source": "norman",
+    "source_url": "https://www.normanrecords.com/records/214482-m83-resurrection-original-soundtrack",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "BLV9204",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 58,
+    "_score_breakdown": {
+      "total": 58,
+      "label": 0,
+      "artist": 30,
+      "genre": 20,
+      "source": 2,
+      "multi": 6,
+      "niche": 0
+    },
+    "source_urls": {
+      "norman": "https://www.normanrecords.com/records/214482-m83-resurrection-original-soundtrack",
+      "decks": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=M83"
+    }
+  },
+  {
     "id": "39296012",
     "title": "Surfaces Of A Broken Marching Band (remastered)",
     "artist": "Ezekiel Honig",
@@ -4805,45 +4903,6 @@
     },
     "source_urls": {
       "deejay": "https://www.deejay.de/Byard_Lancaster_Mother_Africa_FFL095_Vinyl__1213070"
-    }
-  },
-  {
-    "id": "6ea398f6",
-    "title": "Resurrection (Original Soundtrack)",
-    "artist": "M83",
-    "album": "Resurrection (Original Soundtrack)",
-    "label": "Other Suns",
-    "genre": "Ambient",
-    "duration": "",
-    "date": "2026-04-24",
-    "date_verified": true,
-    "re": false,
-    "styles": [
-      "Soundtracks",
-      "Soundtrack",
-      "Dream Pop",
-      "Ambient",
-      "Modern Classical"
-    ],
-    "source": "norman",
-    "source_url": "https://www.normanrecords.com/records/214482-m83-resurrection-original-soundtrack",
-    "discogs_url": "",
-    "bpm": null,
-    "catalog_number": null,
-    "format": "LP",
-    "style_enriched": true,
-    "quality_score": 52,
-    "_score_breakdown": {
-      "total": 52,
-      "label": 0,
-      "artist": 30,
-      "genre": 20,
-      "source": 2,
-      "multi": 0,
-      "niche": 0
-    },
-    "source_urls": {
-      "norman": "https://www.normanrecords.com/records/214482-m83-resurrection-original-soundtrack"
     }
   },
   {
@@ -20258,6 +20317,37 @@
     }
   },
   {
+    "id": "26ff3cfd",
+    "title": "EXTRAORDINARY(SOLAR FLARE LP)",
+    "artist": "Gareth Donkin",
+    "album": "EXTRAORDINARY(SOLAR FLARE LP)",
+    "label": "Drink Sum Wtr",
+    "genre": "Soul",
+    "duration": "",
+    "date": "2026-04-23",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "Soul"
+    ],
+    "source": "decks",
+    "source_url": "https://www.decks.de/decks/workfloor/search_db.php?wosuch=all&wassuch=atl&where=1st&such=Gareth+Donkin",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": "00174966",
+    "format": "",
+    "quality_score": 7,
+    "_score_breakdown": {
+      "total": 7,
+      "label": 0,
+      "artist": 0,
+      "genre": 5,
+      "source": 2,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "5e08cdcb",
     "title": "Third Album",
     "artist": "Miss Kittin/The Hacker",
@@ -27998,7 +28088,7 @@
     },
     "source_urls": {
       "phonica": "https://www.phonicarecords.com/product/view/211044",
-      "juno": "https://www.juno.co.uk/products/calibre-tricklemore-sea-cd/1152217-01/"
+      "juno": "https://www.juno.co.uk/products/calibre-tricklemore-sea-vinyl/1151644-01/"
     }
   },
   {
@@ -37216,6 +37306,38 @@
     "style_enriched": true
   },
   {
+    "id": "4a1f1fe0",
+    "title": "The CBS/Columbia Demos",
+    "artist": "Talking Heads",
+    "album": "The CBS/Columbia Demos",
+    "label": "Rhino Records",
+    "genre": "Other",
+    "duration": "",
+    "date": "2026-04-18",
+    "date_verified": true,
+    "re": false,
+    "styles": [
+      "New Wave"
+    ],
+    "source": "discogs",
+    "source_url": "https://www.discogs.com/release/37108125-Talking-Heads-The-CBSColumbia-Demos",
+    "discogs_url": "https://www.discogs.com/release/37108125-Talking-Heads-The-CBSColumbia-Demos",
+    "bpm": null,
+    "catalog_number": "R1 728541",
+    "format": "LP",
+    "style_enriched": true,
+    "quality_score": 64,
+    "_score_breakdown": {
+      "total": 64,
+      "label": 25,
+      "artist": 20,
+      "genre": 5,
+      "source": 8,
+      "multi": 0,
+      "niche": 6
+    }
+  },
+  {
     "id": "132a28b2",
     "title": "Greatest Hits",
     "artist": "The Cure",
@@ -42814,6 +42936,35 @@
     },
     "source_urls": {
       "bandcamp": "https://conceptohipnotico.bandcamp.com/album/eter-chrec016"
+    }
+  },
+  {
+    "id": "a01ccf75",
+    "title": "All For You",
+    "artist": "NIGHT manoeuvres",
+    "album": "All For You",
+    "label": "fabric",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-17",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://fabricrecords.bandcamp.com/album/all-for-you",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
     }
   },
   {
@@ -109464,6 +109615,35 @@
     }
   },
   {
+    "id": "b7a053e4",
+    "title": "TAKi",
+    "artist": "AMi O",
+    "album": "TAKi",
+    "label": "Nervous Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-04-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://nervousrecords.bandcamp.com/track/taki",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "a3a34e94",
     "title": "Tresor, Brown/Blue",
     "artist": "Lanyard",
@@ -150566,6 +150746,93 @@
     }
   },
   {
+    "id": "5bbac891",
+    "title": "A Winter Sampler VII",
+    "artist": "Various Artists",
+    "album": "A Winter Sampler VII",
+    "label": "All Day I Dream",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://alldayidream.bandcamp.com/album/a-winter-sampler-vii",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "5e9f033b",
+    "title": "Shoulder to Shoulder",
+    "artist": "Buzzy Lee",
+    "album": "Shoulder to Shoulder",
+    "label": "Classic",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://futureclassic.bandcamp.com/album/shoulder-to-shoulder",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "9487d167",
+    "title": "The Whole Truth",
+    "artist": "Subject 13",
+    "album": "The Whole Truth",
+    "label": "R & S Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://randsrecords.bandcamp.com/album/the-whole-truth",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "67e870b3",
     "title": "Riddim",
     "artist": "Dialog",
@@ -177625,6 +177892,35 @@
       "bandcamp": "https://diffusereality.bandcamp.com/album/lucii-fragile-violences-te0247"
     },
     "style_enriched": true
+  },
+  {
+    "id": "788443ed",
+    "title": "No Comply",
+    "artist": "STUDIO",
+    "album": "No Comply",
+    "label": "Ghostly International",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-24",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://ghostly.bandcamp.com/album/no-comply",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "4ef5cf5b",
@@ -281000,6 +281296,35 @@
     "style_enriched": true
   },
   {
+    "id": "31dd997a",
+    "title": "Let's Give The Land Back To The Animals",
+    "artist": "Bitter Branches",
+    "album": "Let's Give The Land Back To The Animals",
+    "label": "D:vision Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-03-06",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://equalvision.bandcamp.com/album/let-s-give-the-land-back-to-the-animals",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "245db920",
     "title": "Judgement Dance",
     "artist": "Culoe de Song",
@@ -289987,6 +290312,35 @@
     "style_enriched": true
   },
   {
+    "id": "cf350835",
+    "title": "After Taste",
+    "artist": "Endpoint",
+    "album": "After Taste",
+    "label": "D:vision Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-02-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://equalvision.bandcamp.com/album/after-taste",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "4070494a",
     "title": "BE",
     "artist": "Rico Puestel",
@@ -293644,6 +293998,35 @@
     "style_enriched": true
   },
   {
+    "id": "8fab41ec",
+    "title": "Immer unbekannt",
+    "artist": "Die Regierung",
+    "album": "Immer unbekannt",
+    "label": "Staatsakt.",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-02-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://staatsakt.bandcamp.com/album/immer-unbekannt",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 76,
+    "_score_breakdown": {
+      "total": 76,
+      "label": 30,
+      "artist": 30,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "808cb8f3",
     "title": "It's Immaterial",
     "artist": "Black Marble",
@@ -294794,6 +295177,64 @@
       "bandcamp": "https://pvinerecords.bandcamp.com/album/s-h-o-g-u-n-deluxe-edition"
     },
     "style_enriched": true
+  },
+  {
+    "id": "3081d1c5",
+    "title": "Body & Soul",
+    "artist": "Alex Ramos",
+    "album": "Body & Soul",
+    "label": "Nervous Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-02-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://nervousrecords.bandcamp.com/track/body-soul",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "c9d4d72c",
+    "title": "Daemonosophia",
+    "artist": "The Magus",
+    "album": "Daemonosophia",
+    "label": "Circle Music",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-02-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://thecirclemusicfamily.bandcamp.com/album/daemonosophia",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "4140e8d2",
@@ -302172,6 +302613,35 @@
     "style_enriched": true
   },
   {
+    "id": "4e049a3c",
+    "title": "On The Line",
+    "artist": "Eric Luttrell",
+    "album": "On The Line",
+    "label": "Anjunadeep",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-02-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://anjunadeep.bandcamp.com/album/on-the-line",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "ef7bba7e",
     "title": "Let The Acid Move Your Body (12inch + Download)",
     "artist": "Acidulant",
@@ -305382,7 +305852,7 @@
     ],
     "source": "discogs",
     "source_url": "https://www.discogs.com/release/36440019-Donny-Hathaway-Live",
-    "discogs_url": "https://www.discogs.com/release/36440019",
+    "discogs_url": "https://www.discogs.com/release/36440019-Donny-Hathaway-Live",
     "bpm": null,
     "catalog_number": "RES1 386",
     "format": "LP",
@@ -305397,7 +305867,7 @@
       "niche": 0
     },
     "source_urls": {
-      "discogs": "https://www.discogs.com/release/36440019"
+      "discogs": "https://www.discogs.com/release/36440019-Donny-Hathaway-Live"
     }
   },
   {
@@ -310118,6 +310588,35 @@
     "style_enriched": true
   },
   {
+    "id": "646ee1fd",
+    "title": "Hauptstadt der Schmerzen",
+    "artist": "Otto von Bismarck",
+    "album": "Hauptstadt der Schmerzen",
+    "label": "Staatsakt.",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-01-30",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://staatsakt.bandcamp.com/album/hauptstadt-der-schmerzen",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "bbcacdf9",
     "discogs_release_id": 36379729,
     "title": "Neworld II",
@@ -312768,6 +313267,35 @@
       "bandcamp": "https://diffusereality.bandcamp.com/album/seba-londero-no-dejo-de-extra-arte"
     },
     "style_enriched": true
+  },
+  {
+    "id": "d404cac0",
+    "title": "The Neonai",
+    "artist": "Lake of Tears",
+    "album": "The Neonai",
+    "label": "Circle Music",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-01-27",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://thecirclemusicfamily.bandcamp.com/album/the-neonai",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "4b506e7b",
@@ -319271,6 +319799,64 @@
       "bandcamp": "https://harthouse.bandcamp.com/album/exulta"
     },
     "style_enriched": true
+  },
+  {
+    "id": "eb260824",
+    "title": "SCALA!!!",
+    "artist": "Barry Adamson",
+    "album": "SCALA!!!",
+    "label": "Mute",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-01-16",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://muterecords.bandcamp.com/album/scala",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
+    "id": "da0dee18",
+    "title": "Want Somebody",
+    "artist": "L.P. Rhythm",
+    "album": "Want Somebody",
+    "label": "Hot Creations",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2026-01-16",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://hotcreations.bandcamp.com/album/want-somebody",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "26b862ef",
@@ -338319,6 +338905,35 @@
     "style_enriched": true
   },
   {
+    "id": "2b3ba32b",
+    "title": "Voices of Giving LP",
+    "artist": "Various artists",
+    "album": "Voices of Giving LP",
+    "label": "UVAR",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-12-12",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://uvar.bandcamp.com/album/voices-of-giving-lp",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "fe3abcbe",
     "discogs_release_id": 36484660,
     "title": "Trip With Me",
@@ -346293,6 +346908,35 @@
     "style_enriched": true
   },
   {
+    "id": "3a5816a3",
+    "title": "Mr. Dada",
+    "artist": "Prostitute",
+    "album": "Mr. Dada",
+    "label": "Mute",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-12-03",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://muterecords.bandcamp.com/album/mr-dada",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "bb4bab9a",
     "title": "I'm Still Waiting / Love Don't Live Here Anymore",
     "artist": "Sonia",
@@ -346805,6 +347449,35 @@
       "bandcamp": "https://diffusereality.bandcamp.com/album/tsomi-chapter-one"
     },
     "style_enriched": true
+  },
+  {
+    "id": "f35de5d6",
+    "title": "Misanthropy & Me",
+    "artist": "The Flatliners",
+    "album": "Misanthropy & Me",
+    "label": "D:vision Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-12-02",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://equalvision.bandcamp.com/track/misanthropy-me",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "ad1e17c1",
@@ -347765,6 +348438,35 @@
       "bandcamp": "https://alteregomusicltd.bandcamp.com/album/alter-ego-records-progressive-we-are-600"
     },
     "style_enriched": true
+  },
+  {
+    "id": "4ef3085e",
+    "title": "My Angel",
+    "artist": "When Nothing Remains",
+    "album": "My Angel",
+    "label": "Circle Music",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-11-29",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://thecirclemusicfamily.bandcamp.com/track/my-angel",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "0cf1210c",
@@ -353515,6 +354217,35 @@
     }
   },
   {
+    "id": "639bc70d",
+    "title": "Echoes of Eternal Night",
+    "artist": "When Nothing Remains",
+    "album": "Echoes of Eternal Night",
+    "label": "Circle Music",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-11-24",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://thecirclemusicfamily.bandcamp.com/album/echoes-of-eternal-night",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "26720f4c",
     "discogs_release_id": 35750728,
     "title": "Voices Rising",
@@ -357209,6 +357940,35 @@
     "style_enriched": true
   },
   {
+    "id": "39a6f96c",
+    "title": "Basic Karate",
+    "artist": "Bitter Branches",
+    "album": "Basic Karate",
+    "label": "D:vision Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-11-20",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://equalvision.bandcamp.com/track/basic-karate",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "5b686ee4",
     "discogs_release_id": 35721385,
     "title": "Gabe & Jude 008",
@@ -357647,6 +358407,35 @@
       "bandcamp": "https://pvinerecords.bandcamp.com/album/something-blue"
     },
     "style_enriched": true
+  },
+  {
+    "id": "0d078c3c",
+    "title": "Catharsis (Deluxe Edition)",
+    "artist": "Endpoint",
+    "album": "Catharsis (Deluxe Edition)",
+    "label": "D:vision Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-11-19",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://equalvision.bandcamp.com/album/catharsis-deluxe-edition",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "d440d278",
@@ -360188,6 +360977,35 @@
       "bandcamp": "https://hotcreations.bandcamp.com/album/talkin-like-dat"
     },
     "style_enriched": true
+  },
+  {
+    "id": "ba302c32",
+    "title": "Contempler l'abîme",
+    "artist": "VULGAIRES MACHINS",
+    "album": "Contempler l'abîme",
+    "label": "Kickin Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-11-14",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://kickingrecords.bandcamp.com/album/contempler-l-ab-me",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "862b4ef0",
@@ -363023,6 +363841,35 @@
     "style_enriched": true
   },
   {
+    "id": "a4f9e185",
+    "title": "Black Vortex",
+    "artist": "Smyla",
+    "album": "Black Vortex",
+    "label": "Muve Recordings",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-11-10",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://mute8recordings.bandcamp.com/track/black-vortex",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "Single",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "defbe098",
     "title": "illegal frequency - UNVEXXED",
     "artist": "Diffuse Reality Records",
@@ -365566,6 +366413,35 @@
     "style_enriched": true
   },
   {
+    "id": "5ce64f09",
+    "title": "There Is No Memory",
+    "artist": "Armor For Sleep",
+    "album": "There Is No Memory",
+    "label": "D:vision Records",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-11-07",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://equalvision.bandcamp.com/album/there-is-no-memory",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 46,
+    "_score_breakdown": {
+      "total": 46,
+      "label": 30,
+      "artist": 0,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
+  },
+  {
     "id": "d90ba393",
     "title": "Vaporized Memoires",
     "artist": "Johannes Volk",
@@ -367835,6 +368711,35 @@
       "discogs": "https://www.discogs.com/release/35766952-Gaki-Ranger-Survival-Attack"
     },
     "style_enriched": true
+  },
+  {
+    "id": "63c03438",
+    "title": "Pajarito",
+    "artist": "José González",
+    "album": "Pajarito",
+    "label": "Mute",
+    "genre": "Electronic",
+    "duration": "",
+    "date": "2025-11-04",
+    "date_verified": true,
+    "re": false,
+    "styles": [],
+    "source": "bandcamp",
+    "source_url": "https://muterecords.bandcamp.com/album/pajarito",
+    "discogs_url": "",
+    "bpm": null,
+    "catalog_number": null,
+    "format": "",
+    "quality_score": 76,
+    "_score_breakdown": {
+      "total": 76,
+      "label": 30,
+      "artist": 30,
+      "genre": 10,
+      "source": 6,
+      "multi": 0,
+      "niche": 0
+    }
   },
   {
     "id": "ba416317",
