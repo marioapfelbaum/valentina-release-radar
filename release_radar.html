@@ -268,6 +268,7 @@ function InlinePlayer({t, onClose}) {
     ? `https://bandcamp.com/EmbeddedPlayer/${bcResolved.album_id ? "album=" + bcResolved.album_id : "track=" + bcResolved.track_id}/size=large/bgcol=181a1b/linkcol=d4915e/tracklist=true/artwork=small/transparent=true/`
     : null;
 
+  const noPlayerAtAll = bcDone && !bcOk && !spotifyId && scDone && !scOk && !ytId && !searchingYt;
   const label = resolvingBc ? "↻ BANDCAMP-SUCHE..."
     : bcOk ? "▶ BANDCAMP"
     : spotifyId ? "▶ SPOTIFY"
@@ -275,7 +276,7 @@ function InlinePlayer({t, onClose}) {
     : scOk ? "▶ SOUNDCLOUD"
     : searchingYt ? "↻ YOUTUBE-SUCHE..."
     : ytId ? "▶ YOUTUBE (letzter Fallback)"
-    : (bcDone && scDone && !needsYoutube) ? "⚠ KEIN PLAYER"
+    : noPlayerAtAll ? "● VINYL ONLY — nicht digital verfuegbar"
     : "↻ SUCHE...";
 
   return (
@@ -308,16 +309,37 @@ function InlinePlayer({t, onClose}) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen/>
       )}
-      {needsYoutube && !ytId && !searchingYt && (
-        <div style={{fontFamily:F,fontSize:"14px",color:C.ghost,padding:"8px 0"}}>
-          Kein Audio-Player gefunden. Versuche{" "}
-          <a href={`https://www.youtube.com/results?search_query=${encodeURIComponent(t.artist+' '+t.title)}`} target="_blank" rel="noopener noreferrer" style={{color:"rgba(255,80,80,0.9)"}}>YouTube Suche</a>
-          {", "}
-          <a href={`https://www.google.com/search?q=${encodeURIComponent(t.artist+' '+t.title+' player')}`} target="_blank" rel="noopener noreferrer" style={{color:C.soft}}>Google</a>
-          {bandcampUrl && <>, <a href={bandcampUrl} target="_blank" rel="noopener noreferrer" style={{color:"rgba(99,210,218,0.9)"}}>Bandcamp ↗</a></>}
-          {t.source_url && <>, <a href={t.source_url} target="_blank" rel="noopener noreferrer" style={{color:C.soft}}>{t.source} ↗</a></>}
-        </div>
-      )}
+      {noPlayerAtAll && (() => {
+        const q = encodeURIComponent(`${t.artist} ${t.title}`);
+        const lnk = (href, color, txt) => (
+          <a href={href} target="_blank" rel="noopener noreferrer"
+            style={{color,textDecoration:"none",padding:"4px 9px",background:"rgba(0,0,0,0.25)",
+              fontFamily:F,fontWeight:700,fontSize:"13px",letterSpacing:"0.05em",textTransform:"uppercase"}}>{txt}</a>
+        );
+        return (
+          <div style={{padding:"4px 0 0 0"}}>
+            <div style={{fontFamily:F,fontSize:"13px",color:"rgba(255,180,80,0.9)",marginBottom:"8px",letterSpacing:"0.05em"}}>
+              Kein digitaler Player — Release ist vermutlich Vinyl-Only oder digital nicht freigegeben.
+            </div>
+            <div style={{display:"flex",flexWrap:"wrap",gap:"6px",alignItems:"center"}}>
+              <span style={{fontFamily:F,fontWeight:700,fontSize:"12px",color:C.soft,letterSpacing:"0.08em",textTransform:"uppercase",marginRight:"4px"}}>Vinyl shops:</span>
+              {lnk(`https://www.juno.co.uk/search/?q%5Ball%5D%5B%5D=${q}`, "rgba(255,200,80,0.9)", "Juno")}
+              {lnk(`https://www.deejay.de/search?q=${q}`, "rgba(200,160,255,0.9)", "Deejay.de")}
+              {lnk(`https://www.discogs.com/sell/list?q=${q}`, "rgba(255,180,60,0.9)", "Discogs MP")}
+              {lnk(`https://www.decks.de/decks/workfloor/lists/list_search.php?searchstring=${q}`, "rgba(180,200,255,0.85)", "Decks.de")}
+              {lnk(`https://hardwax.com/?search=${q}`, "rgba(120,220,180,0.85)", "Hardwax")}
+              {bandcampUrl && lnk(bandcampUrl, "rgba(99,210,218,0.9)", "Bandcamp ↗")}
+              {t.source_url && lnk(t.source_url, C.soft, `${t.source} ↗`)}
+            </div>
+            <div style={{display:"flex",flexWrap:"wrap",gap:"6px",alignItems:"center",marginTop:"6px"}}>
+              <span style={{fontFamily:F,fontWeight:700,fontSize:"12px",color:C.soft,letterSpacing:"0.08em",textTransform:"uppercase",marginRight:"4px"}}>Suche:</span>
+              {lnk(`https://www.youtube.com/results?search_query=${q}`, "rgba(255,80,80,0.85)", "YouTube")}
+              {lnk(`https://soundcloud.com/search?q=${q}`, "rgba(255,136,0,0.85)", "SoundCloud")}
+              {lnk(`https://www.google.com/search?q=${q}`, "rgba(255,255,255,0.5)", "Google")}
+            </div>
+          </div>
+        );
+      })()}
     </div>
   );
 }

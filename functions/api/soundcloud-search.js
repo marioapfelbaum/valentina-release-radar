@@ -65,10 +65,35 @@ export async function onRequestGet({ request }) {
     return json({ error: "no soundcloud results" }, 404);
   }
 
-  const first = tracks[0];
-  const trackUrl = `https://soundcloud.com${first.path}`;
-  // Offizieller SC iframe-Player
-  const embedUrl = `https://w.soundcloud.com/player/?url=${encodeURIComponent(trackUrl)}&color=%23d4915e&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`;
+  // Validierung via oEmbed: nur echte, embedbare Tracks zurueckgeben.
+  // Profile/Sets/Reposts/Private liefern hier 401/404 → werden uebersprungen.
+  for (const track of tracks.slice(0, 4)) {
+    const trackUrl = `https://soundcloud.com${track.path}`;
+    try {
+      const oembed = await fetch(
+        `https://soundcloud.com/oembed?format=json&url=${encodeURIComponent(trackUrl)}`,
+        { headers: { "User-Agent": "Mozilla/5.0 (Valentina Release Radar)" }, cf: { cacheTtl: 86400 } }
+      );
+      if (!oembed.ok) continue;
+      const meta = await oembed.json();
+      // oEmbed liefert direkt das fertige iframe-HTML, daraus extrahieren wir die saubere src
+      const html = meta.html || "";
+      const srcMatch = html.match(/src="([^"]+)"/);
+      if (!srcMatch) continue;
+      // SC liefert manchmal api.soundcloud.com/tracks/ID URLs — die sind embedbar
+      const embedUrl = srcMatch[1]
+        .replace(/&amp;/g, "&")
+        .replace(/&auto_play=true/, "&auto_play=false");
+      return json({
+        url: trackUrl,
+        embed_url: embedUrl,
+        title: meta.title || null,
+        author: meta.author_name || null,
+      });
+    } catch {
+      continue;
+    }
+  }
 
-  return json({ url: trackUrl, embed_url: embedUrl, alternates: tracks.slice(1, 4).map(t => `https://soundcloud.com${t.path}`) });
+  return json({ error: "no embedbare soundcloud tracks", tried: tracks.length }, 404);
 }
